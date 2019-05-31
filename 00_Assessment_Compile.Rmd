@@ -1,6 +1,6 @@
 ---
-title: Status of A Fish (*Sebastes yourfish*) Off the U.S. Pacific Coast
-  in 2017
+title: Status of Gopher Rockfish (*Sebastes carnatus*) and Black-and-Yellow Rockfish (*Sebastes chrysomelus*) Off the U.S. Pacific Coast
+  in 2019
 author: ''
 date: ''
 output:
