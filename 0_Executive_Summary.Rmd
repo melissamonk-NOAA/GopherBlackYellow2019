@@ -101,10 +101,8 @@ asymptotic variance estimates show that the uncertainty in the estimated spawnin
     print(Spawn_Deplete_mod1.table, include.rownames = FALSE, caption.placement = 'top')
     
     # Select which file to use for the recuitment figure, depending on if you have one model or multiple models
-      spawn.file  = ifelse(fecund=='numbers',
-                           'r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png',
-                           'r4ss/plots_mod1/ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals.png')
-      Bratio.file = 'r4ss/plots_mod1/ts9_Spawning_depletion_with_95_asymptotic_intervals_intervals.png' 
+      spawn.file  = 'r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png'
+      Bratio.file = 'r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png'
 ```
 
 \FloatBarrier
@@ -112,7 +110,7 @@ asymptotic variance estimates show that the uncertainty in the estimated spawnin
 
 ![Time series of spawning biomass trajectory (circles and line: median; light broken lines: 95% credibility intervals) for the base case assessment model.  \label{fig:Spawnbio_all}](`r spawn.file`)
 
-![Estimated relative depletion with approximate 95\% asymptotic confidence intervals (dashed lines) for the base case assessment model. \label{fig:RelDeplete_all}](`r Bratio.file`)
+![Estimated percent depletion with approximate 95\% asymptotic confidence intervals (dashed lines) for the base case assessment model. \label{fig:RelDeplete_all}](`r Bratio.file`)
 
 <!-- ***********END  EXECUTIVE SUMMARY SPAWNING BIOMASS AND**************** -->
 

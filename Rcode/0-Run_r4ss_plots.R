@@ -54,14 +54,12 @@ library(r4ss)
 
 # Give the names of the data and control files, for each model
 # Used in the SS_files_linebreaks.R
-mod1_dat =  'boc1.dat'  
-mod2_dat =  ''
-mod3_dat =  ''
+mod1_dat =  'gopher.dat'  
+
 
 # Control file names 
-mod1_ctrl = 'boc1.ctl' 
-mod2_ctrl = ''
-mod3_ctrl = ''
+mod1_ctrl = 'gopher.ctl' 
+
 
 # =============================================================================
 
@@ -73,22 +71,17 @@ output.dir = file.path(getwd(), 'r4ss')
 # Once you have your own SS files and want to save these plots
 # Uncomment the /r4SS/ in the .gitignore file
 dir.create(file.path(output.dir,'plots_mod1'))
-#dir.create(file.path(output.dir,'plots_mod2'))
-#dir.create(file.path(output.dir,'plots_mod3'))
+
 
 
 # BEGIN r4ss===================================================================
 # REMOVE OLD r4SS OUTPUT!!!!! -------------------------------------------------
 # Run this deliberately - it deletes the r4SS output plots files
 do.call(file.remove, list(list.files(file.path(output.dir, 'plots_mod1'),    full.names=TRUE)))
-#do.call(file.remove, list(list.files(file.path(output.dir, 'plots_mod2'),    full.names=TRUE)))
-#do.call(file.remove, list(list.files(file.path(output.dir, 'plots_mod3'),    full.names=TRUE)))
-#do.call(file.remove, list(list.files(file.path(output.dir, 'plots_compare'), full.names=TRUE)))
+
 
 # Run r4ss for each model - **CHANGE DIRECTORY if necessary**
-               mod1 = SS_output(dir = file.path(input.dir,'Base_model1'), forecast=T, covar=T, ncol=1000)
-if(n_models>1){mod2 = SS_output(dir = file.path(input.dir,'Base_model2'), forecast=T, covar=T, ncol=1000)}
-if(n_models>2){mod3 = SS_output(dir = file.path(input.dir,'Base_model3'), forecast=T, covar=T, ncol=1000)}
+mod1 = SS_output(dir = file.path(input.dir,'Base_model1'), forecast=T, covar=T, ncol=1000)
 
 # Save the workspace an image
 save.image('./r4ss/SS_output.RData')
@@ -100,8 +93,7 @@ save.image('./r4ss/SS_output.RData')
 
 # output directories
 out.dir.mod1 = file.path(output.dir,'plots_mod1')
-#out.dir.mod2 = file.path(output.dir,'plots_mod2')
-#out.dir.mod3 = file.path(output.dir,'plots_mod3')
+
 
 
 # Model 1
@@ -117,35 +109,6 @@ SS_plots(mod1,
          printfolder = '', 
          dir = out.dir.mod1)
 
-# Model2
-if(n_models > 1){
-  SS_plots(mod2,
-           png = TRUE,
-           html = FALSE,
-           datplot = TRUE,
-           uncertainty = TRUE,
-           maxrows = 6, 
-           maxcols = 6, 
-           maxrows2 = 4, 
-           maxcols2 = 4, 
-           printfolder = '', 
-           dir = out.dir.mod2)
-}
-
-# Model3
-if(n_models > 2){
-  SS_plots(mod3,
-           png = TRUE,
-           html = FALSE,
-           datplot = TRUE,
-           uncertainty = TRUE,
-           maxrows = 6, 
-           maxcols = 6, 
-           maxrows2 = 4, 
-           maxcols2 = 4, 
-           printfolder = '', 
-           dir = out.dir.mod3)
-}
 
 # -----------------------------------------------------------------------------
 
@@ -162,139 +125,7 @@ source('./Rcode/SS_files_linebreaks.R')
 # =============================================================================
 # =============================================================================
 
-
-
-# SECTION 2: COMPARISON PLOTS ACROSS MODELS ===================================
-# IT it not recommended to blindly run this section.  You'll need to change names,
-# possibly margins, etc!!!
-
-
-if(n_models > 1){
-
- # if you need to reload the workspace
- load("./r4ss/SS_output.RData")
-  
- # create base model summary list
- out.mod1 = mod1
- out.mod2 = mod2
-if(n_models==3) {out.mod3 = mod3}
-     
- 
-# base.summary <-  SSsummarize(list(out.mod1, out.mod2))
- 
- 
- base.summary <-  if (n_models==2) {SSsummarize(list(out.mod1, out.mod2))} else
-                   {SSsummarize(list(out.mod1, out.mod2 , out.mod3))}
-    
- # save results to this comparison directory  
- dir.create(file.path(output.dir,'plots_compare'))
- dir.compare.plots <- file.path(getwd(),'/r4ss/plots_compare') 
-    
- # vector of names and colors models as defined
- mod.names <- c("WA","CA","OR")
- mod.cols  <- c("blue", "purple", "red")
-} # end n_models if
-
-
-
-
-# Time series comparison plots for exec summary -------------------------------
-# These plots are repeated with regular plots
-SSplotComparisons(base.summary, 
-                  plot = FALSE, 
-                  print = TRUE, 
-                  plotdir = dir.compare.plots,
-                  spacepoints = 20,  # years between points on each line
-                  initpoint = 0,     # "first" year of points (modular arithmetic)
-                  staggerpoints = 0, # points aligned across models
-                  endyrvec = 2015,   # final year to show in time series
-                  legendlabels = mod.names, 
-                  filenameprefix = "base_", 
-                  col = mod.cols)
-
-SSplotComparisons(base.summary, 
-                  plot = FALSE, 
-                  print = TRUE, 
-                  plotdir = dir.compare.plots,
-                  subplot = 1:10,
-                  spacepoints = 20,  # years between points on each line
-                  initpoint = 0,     # "first" year of points (modular arithmetic)
-                  staggerpoints = 0, # points aligned across models
-                  endyrvec = 2025,   # final year to show in time series
-                  legendlabels = mod.names, 
-                  filenameprefix = "forecast_", 
-                  col = mod.cols)
-  
-  
-  
-# Plot comparison of growth curves --------------------------------------------
-png(file.path(dir.compare.plots, 'growth_comparison.png'),
-    width = 6.5, 
-    height = 5, 
-    res = 300, 
-    units = 'in')
-
-SSplotBiology(out.mod1, 
-              colvec = c(mod.cols[1], NA, NA), 
-              subplot = 1)
-      
-SSplotBiology(out.mod2, 
-              colvec = c(mod.cols[2], NA, NA),
-              subplot = 1, 
-              add = TRUE)
-      
-if(n_models>2){
-  SSplotBiology(out.mod3, 
-              colvec = c(mod.cols[3], NA, NA), 
-              subplot = 1, 
-              add = TRUE)
-}
-
-# legend to cover up non-useful Females/Males default legend
-legend('topleft', legend = mod.names, col = mod.cols, lwd = 3, bg = 'white')
- 
-# close PNG file
-dev.off()
-
-
-# Plot comparison of yield curves ---------------------------------------------
-png(file.path(dir.compare.plots, 'yield_comparison_n_models.png'),
-    width = 6.5, 
-    height = 6.5, 
-    res = 300, 
-    units = 'in', 
-    pointsize = 10)
-par(las = 1)
-
-
-if(n_models==2){
-  SSplotYield(out.mod2, col = mod.cols[2], subplot = 1)
-  grid()
-  SSplotYield(out.mod1, col = mod.cols[1], subplot = 1, add = TRUE)
-}
-
-if(n_models==3){
-  SSplotYield(out.mod3, col = mod.cols[3], subplot = 1)
-  grid()
-  SSplotYield(out.mod2, col = mod.cols[2], subplot = 1, add = TRUE)
-  SSplotYield(out.mod1, col = mod.cols[1], subplot = 1, add = TRUE)
-  
-}
-
-
-# legend to cover up non-useful Females/Males default legend
-legend('topright', legend = mod.names, col = mod.cols, lwd = 3, bg = 'white', bty = 'n')
-
-# close PNG file
-dev.off()
-
-# =============================================================================
-# END SECTION 2================================================================
-# =============================================================================
-
-
-
-
+#Section 2 removed - needed for 2+ mdoels only
 # =============================================================================
 # Section 3: saves entire myreplist and mod_structure files 
 # writes the entire myreplist and mod structure to a file

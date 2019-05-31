@@ -61,35 +61,18 @@ do.call(file.remove,list(list.files(linebreak.dir,full.names=TRUE)))
 
 
   
-for(imod in 1:n_models){  
+
 # change the model directoy
  mod.dir  = paste(file.path(getwd(),'SS/Base_model'),imod,sep='')
 
- if(imod==1){
+
    data_file = mod1_dat
    control_file = mod1_ctrl
    data_new = 'mod1_data.ss'
    ctrl_new = 'mod1_control.ss'
    starter_new = 'mod1_starter.ss'
    forecast_new = 'mod1_forecast.ss'
-    } else {
-   if(imod==2){
-     data_file = mod2_dat
-     control_file = mod2_ctrl
-     data_new = 'mod3_data.ss'
-     ctrl_new = 'mod2_control.ss'
-     starter_new = 'mod2_starter.ss'
-     forecast_new = 'mod2_forecast.ss'
-   } else {
-     data_file = mod3_dat
-     control_file = mod3_ctrl
-     data_new = 'mod3_data.ss'
-     ctrl_new = 'mod3_control.ss'
-     starter_new = 'mod3_starter.ss'
-     forecast_new = 'mod3_forecast.ss'
-   }}
-
-
+  
 # data files
 linebreaks(dir = mod.dir, out.dir = linebreak.dir, oldfile = data_file, newfile = data_new, length=75)
 
@@ -102,7 +85,6 @@ linebreaks(dir = mod.dir, out.dir=linebreak.dir, oldfile='starter.ss', newfile =
 # forecast files
 linebreaks(dir = mod.dir, out.dir=linebreak.dir, oldfile='forecast.ss', newfile = forecast_new, length=75)
     
-}
 
 
 

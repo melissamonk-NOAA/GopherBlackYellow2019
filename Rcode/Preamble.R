@@ -24,8 +24,8 @@ load("./r4ss/SS_output.RData")
 # ============================================================================= 
 
 # Species, common and scientific
-spp = "China rockfish"
-spp.sci = "Sebastes nebulosus"
+spp = "GBY rockfish"
+spp.sci = "Sebastes carnatus/Sebastes chrysomelas"
   
 # minimum vulnerable age class
 min_age = "1+"
@@ -36,10 +36,8 @@ n_models = 1
 
 
 # model names; if you only have one model the label will just be "model"
-mod1_label = "Northern model" 
-#mod2_label = "Central model"  # (north of $40^\\circ 10^\\prime$ N. latitude to the OR-WA border)"
-#mod3_label = "Southern model" # (south of $40^\\circ 10^\\prime$ N. latitude)"
-  
+mod1_label = "model" 
+
 
 # Management targets
 MT   = 0.4   # management target; .4 for rockfish
@@ -59,17 +57,6 @@ if(fecund == 'numbers'){fecund_unit='million eggs'} else {fecund_unit = 'mt'}
 Dat_start_mod1 =  mod1$startyr          # year model 1 data starts 
 Dat_end_mod1   =  mod1$endyr            # year model 1 data ends
 
-# First and last years of model 2
-if(n_models>1){
-   Dat_start_mod2  = mod2$startyr      # year model 2 data starts 
-   Dat_end_mod2    = mod2$endyr        # year model 2 data ends
-}
-
-# First and last years of model 3
-if(n_models>2){
-   Dat_start_mod3 = mod3$startyr       # year model 3 data starts 
-   Dat_end_mod3   = mod3$endyr         # year model 3 data ends
-}
 
 # First and last years for the the "recent" 10 years data tables  
 FirstYR = mod1$endyr - 9 #Dat_end_mod1 - 8       # first year of recent     
