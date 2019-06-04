@@ -114,7 +114,7 @@ ggplot(catches_orig3, aes(x=Year, y=mt, fill=Source)) +
         legend.position = c(0, 1)) +
   theme(legend.title=element_blank()) +
   scale_x_continuous(breaks = seq(1915,2020, by = 10),
-                     , expand = c(0, 0)) +
+                     expand = c(0, 0)) +
   scale_y_continuous(expand = c(0, 0)) +
   scale_fill_manual("legend", 
                     values = c("Com" = "blue", 
@@ -150,10 +150,10 @@ ggplot(com_compare, aes(x=Year, y = mt, colour=Source)) +
         legend.justification = c(0, 1), 
         legend.position = c(0.05, .95)) +
   theme(legend.title=element_blank()) +
-  scale_x_continuous(breaks = seq(1980,2020, by = 5),
-                     expand = c(0, 0)) +
+  scale_x_continuous(breaks = seq(1980,2020, by = 5)) +
   scale_y_continuous(breaks = seq(0,100, by = 10))#,expand = c(0, 0)) 
  
+dev.off()
 
 
 #plot with discard alternative2

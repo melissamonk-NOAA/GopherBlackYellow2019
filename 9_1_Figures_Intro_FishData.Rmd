@@ -29,6 +29,11 @@
 ![Summary of data sources used in the `r mod1_label`. \label{fig:data_plot}](r4ss/plots_mod1/data_plot.png)
 
 
+![Commercial landings estimates from CALCOM add PacFIN. \label{fig:Calcom_vs_Pacfin}](Figures/Calcom_vs_Pacfin.png)
+
+![Commercial and recreational landings estimates prior to any data modification or interpolation to the recreational catches or hindcasting of commercial discards. \label{fig:Catches_original}](Figures/Catches_original.png)
+
+![Commercial and recreational landings estimates after data modification and interpolations were made to the recreational catches and commercial discards. \label{fig:Catches_alternate}](Figures/Catches_alternate.png)
 
 
 

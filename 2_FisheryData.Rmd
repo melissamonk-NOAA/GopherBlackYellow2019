@@ -10,8 +10,68 @@ Descriptions of the data sources are in the following sections.
 <!-- ************FISHERY-DEPENDENT DATA************************************ -->
 ###Commercial Fishery Landings
 
+Commercial landings in California are based on two primary data sources: 
+a cooperative port sampling program (California Cooperative Groundfish Survey, 
+[CALCOM](https://calcom.psmfc.org/)) that collects information including species 
+composition data (i.e. the proportion of species landed in a sampling stratum), 
+and landing receipts (sometimes called “fish tickets”) that are a record of pounds 
+landed in a given stratum. Strata 
+in California are defined by market category, year, quarter, gear group, port 
+complex, and disposition (live or dead). Although many market categories are 
+named after actual species, catch in a given market category can consist of 
+several species. All landings used in this assessment are “expanded” landings, 
+i.e., species composition data collected by port samplers were used to allocate 
+pounds recorded on landing receipts to species. Use of the “Gopher Rockfish”
+or the "Black-and-Yellow Rockfish" categories alone to represent actual landings 
+of GBY would not be accurate. See Pearson et al. Appendix C [-@Pearson2008] for 
+a simple example of the expansion calculations. Data from the California Cooperative
+Groundfish Survey, species compositions, and expanded landings estimates are stored in 
+the CALCOM database at the Pacific States Marine Fisheries Commission, a central repository 
+of commercial landings data for the U.S. West Coast.
+
+Commercial catches of black-and-yellow rockfish from 1916-1968 and for gopher rockfish 
+from 1937-1968 were queried (4 April 2019) from the California Catch Reconstruction [@Ralston2010].
+Landings in this database are divided into trawl and ‘non-trawl.’ Since the majority of 
+GBYR are caught in the commercial fixed gear fisheries, only estimated catch in the 
+‘non-trawl’ was used.  A total of 0.154 mt (3.18%) were removed from Eureka commercial landings 
+(based on current proportions of commercial catch from north of Cape Mencodino in Eureka) since 
+the assessment represents the GBYR stock south of Cape Mendocino. 
+
+Commercial landings from 1969-2018 were queried for a final time from the CALCOM 
+database on 4 April 2019 (Table \ref{tab:commCatches}. Commercial landings were also queried 
+from PacFIN (Pacific Fisheries Inforamtion Network) for a final time on 3 June 2019 for comparison 
+to CALCOM landings. There are very small differences in commercial landings between CALCOM and 
+PacFIN from 1981-2018 (Figure \ref:fig:Calcom_vs_Pacfin}).  Landings estiamtes from CALCOM were 
+used in the assessment. Landings were stratified by year, quarter, live/dead, market category, 
+gear group, port complex, and source of species composition data (actual port samples, borrowed 
+samples, or assumed nominal market category). Data from individual quarters were aggregated at the 
+year level. Fish landed live or dead were combined, due to changes over time in the reliability 
+of condition information (D. Pearson, pers. comm.). From 1916-1968, on average, 74% of GBYR were 
+landed north of Point Conception, which rose to 97% from 1978-2018. Given the smaller landings 
+south of Point Conception and the similar length composition of GBYR north and south of Pt. 
+Conception, no spatial separation was considered for the commercial fleet.
+
 
 ###Commercial Discards
+
+The West Coast Groundfish Observer Program (WCGOP) provides observer data on 
+discarding practices across sectors back to 2003. Gopher and black-and-yellow 
+rockfishes have different depth-stratified commercial fishery discard mortality 
+rates [@PSMFC2018]. In consultation with WCGOP staff, the STAT used estimates 
+of total discard mortality from WCGOP’s Groundfish Expanded Mortality Multiyear 
+(GEMM) report. WCGOP observes between 1-5% of nearshore fixed gear landings annually 
+south of $40^\circ 10^\prime$ N. latitude (coverage rates available [here](https://www.nwfsc.noaa.gov/research/divisions/fram/observation/data_products/sector_products.cfm#ob)). 
+The expanded estimates of total discard by species is calculated as the ratio of the 
+discard of the individual species observed by WCGOP divided by the observed landings 
+from PacFIN landing receipts. WCGOP discard estimates for the nearshore fixed gear fishery 
+take into account the depth distribution of landings in order to appropriately apply 
+the depth-stratified discard mortality rates by species [@Somers2018]. The discard 
+mortality for 2018 was estimated as 
+an average of the discard mortality from 20213-2017. Discard mortality was estimated from the 
+period prior to WCGOP discard estimates (1916-2002) based on the average discard mortality 
+rate from 2003-2016 (2017 was excluded because 2017 discard mortality was disproportionately higher 
+than all other years) (Table \ref{tab:CommCatches}).
+
 
 
 ###Commercial Fishery Length and Age Data
@@ -31,7 +91,63 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 
 ###Sport Fishery Removals and Discards
 
+Three data sources were used to estimate retained and discard mortality for the 
+recreational fishing fleet; the California Catch Reconstruction [@Ralston2010] 
+and the California Department of Fish and Wildlife MRFSS (1980-2003) and CRFS 
+(2004-2018) databases. 
 
+*Historical recreational landings and discard, 1928-1980*
+Ralston et al. [-@Ralston2010] reconstructed estimates of recreational rockfish 
+catch and discard in California, 1928-1980. Reported landings of total rockfish 
+were allocated to species based on several sources of species composition data. 
+Estimates of GBYR landings and discard (combined) from 1928-1979 are available 
+from the SWFSC. For this assessment, historical recreational catch was stratified 
+by year and area (north and south of Point Conception).  The catches of GBYR 
+reported in Ralston et al. [-@Ralston2010] are higher than expected given the 
+more recent catches of GBYR south of Pt. Conception and the species' ranges 
+(Figure \ref{fig:Catches_original}).  The California Catch Reconstruction used 
+a linear from from 1928-1936 that was not altered.  From 1937-1979 linear ramp 
+to the average recreational landing from 1980 and 1983 (1981-1982 catches 
+interpolated as described in the next section) of 4.3 mt. The recreational catches 
+north of Pt. Conception were not altered from the original catch reconstruction.
+The resulting alternate recreational catch streams are in (Table \ref{tab:Rec_removal} 
+and Figure \ref{fig:Catches_alternate}).
+
+
+*Marine Recreational Fisheries Statistics Survey (MRFSS), 1980-2003*
+
+
+*California Recreational Fisheries Survey (CRFS), 2004-2016*
+
+*Recreational Discard*
+
+
+There was a lapse in MRFSS sampling from 1990 through 1992, 
+for which retained catch and discard mortality were estimated using the average of 
+values three years before and three years after the lapse for all modes other than 
+the party/charter mode.  For the party/charter mode, estimates of numbers 
+of fish were available from logbook data and average weight from the three years 
+before and after this period were applied to provide estimates for the party/charter mode. 
+
+
+Estimates of retained catch and discards were not available from the non-party/charter modes 
+prior to 1980, thus the ratio of catch in the party/charter mode to the other modes for 1980 
+through 1985 was used to provide an estimate of catch in the other modes in the 
+years 1932-1979.  In the case of the private/rental mode, a linear ramp in the ratio adjustment 
+between party/charter and private/rental modes was applied between 1966 and 1979 from 0.55 in 1980 to 0.10 
+in 1965, reflecting the increase in the relative proportion of catch contributed by 
+the private/rental mode with time as more individuals anglers purchased vessels, as recommended 
+in the California Catch Reconstruction [@Ralston2010], and the ratio of 0.10 was assumed
+for all years prior.  The ratio of party/charter estimates to the man-made structure (MM) 
+and beach/bank (BB) modes was assumed constant and the average between 1980 and 1989 was applied 
+from 1932 to 1979.  Catch 
+estimates from CPFV logbooks were not available during the World War II era from 1941
+until 1946 and catch was assumed to be zero for all modes during this period.  Estimates
+for retained catch and discarded mortality for 1928 to 3528 were estimated using a
+linear ramp from the value for 1936 to zero in 1928 for the party/charter mode and ratios party/charter 
+compared to other modes were used to proxy estimates for other modes based on the 
+resulting ramped values for the party/charter mode.  The final time series of landings and discard 
+mortality are in Table \ref{tab:Rec_removal}.
 
 Biological samples from the recreational fleets are described in the sections below.
 

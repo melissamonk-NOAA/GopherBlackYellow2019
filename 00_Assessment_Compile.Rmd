@@ -1,6 +1,5 @@
 ---
-title: Status of Gopher Rockfish (*Sebastes carnatus*) and Black-and-Yellow Rockfish (*Sebastes chrysomelas*) Off the California Coast
-  in 2019
+title: The Combined Status of Gopher (*Sebastes carnatus*) and Black-and-Yellow Rockfishes (*Sebastes chrysomelas*) in U.S. Waters Off California in 2019
 author: ''
 date: ''
 output:
@@ -53,6 +52,46 @@ bibliography: BibFile.bib
 
 ```{r child = "0_Executive_Summary.Rmd"}
 ```
+
+\pagenumbering{arabic}
+
+```{r child = "1_Introduction.Rmd"}
+```
+
+```{r child = "2_FisheryData.Rmd"}
+```
+
+
+```{r child = "3_BiologicalData.Rmd"}
+```
+
+```{r child = "4_Assessment.Rmd"}
+```
+
+```{r child = "5_HarvestProjections.Rmd"}
+```
+
+
+```{r child = "6_RegionalManagement.Rmd"}
+```
+
+
+```{r child = "7_ResearchNeeds_Acknowledgements.Rmd"}
+```
+
+#Tables
+
+```{r child = "8_Tables.Rmd"}
+```
+
+
+#Figures
+
+
+```{r child = "9_1_Figures_Intro_FishData.Rmd"}
+```
+
+
 
 
 

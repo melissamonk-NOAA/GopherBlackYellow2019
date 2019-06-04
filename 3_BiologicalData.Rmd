@@ -3,7 +3,7 @@
 <!--************BIOLOGICAL DATA*********************************************-->
 ###Biological Parameters and Data
 
- Love et al.  [-@Love1987]
+
 
 **Length and Age Compositions**
 

@@ -124,38 +124,122 @@
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING
 INTO THE MAIN TEXT OR TO DEBUG
 
-\begin{table}[ht]
-\centering
-\caption{Summary of reference 
-                                      points and management quantities for the 
-                                      base case Northern model.} 
-\label{tab:Ref_pts_mod1}
-\begin{tabular}{>{\raggedright}p{4.1in}>{\centering}p{.6in}>{\centering}p{.6in}>{\centering}p{.6in}}
+\begin{longtable}{c>{\centering}p{1in}>{\centering}p{.6in}>{\centering}p{1in}l}
+\caption{Commercial landings and discards (mt) from the commercial 
+                                fisheries. Data sources are the California Catch 
+                                Reconstruction, CALCOM, and WCGOP GEMM report.} \\ 
   \hline
-\textbf{Quantity} & \textbf{Estimate} & \textbf{\Low 2.5\%  limit} & \textbf{\High 2.5\%  limit} \\ 
-  \hline
-Unfished spawning output (billion eggs) & 24 & 15 & 34 \\ 
-  Unfished age 1+ biomass (mt) & 241 & 153 & 329 \\ 
-  Unfished recruitment (R0, thousands) & 34 & 22 & 46 \\ 
-  Spawning output(2014 billion eggs) & 18 & 9 & 27 \\ 
-  Depletion (2014) & 0.734 & 0.637 & 0.832 \\ 
-  \textbf{$\text{Reference points based on } \mathbf{SB_{40\%}}$} &  &  &  \\ 
-  Proxy spawning output ($B_{40\%}$) & 10 & 6 & 13 \\ 
-  SPR resulting in $B_{40\%}$ ($SPR_{B40\%}$) & 0.444 & 0.444 & 0.444 \\ 
-  Exploitation rate resulting in $B_{40\%}$ & 0.055 & 0.052 & 0.058 \\ 
-  Yield with $SPR_{B40\%}$ at $B_{40\%}$ (mt) & 6 & 4 & 8 \\ 
-  \textbf{\textit{Reference points based on SPR proxy for MSY}} &  &  &  \\ 
-  Spawning output & 11 & 7 & 15 \\ 
-  $SPR_{proxy}$ & 0.5 &  &  \\ 
-  Exploitation rate corresponding to $SPR_{proxy}$ & 0.046 & 0.043 & 0.048 \\ 
-  Yield with $SPR_{proxy}$ at $SB_{SPR}$ (mt) & 6 & 4 & 8 \\ 
-  \textbf{\textit{Reference points based on estimated MSY values}} &  &  &  \\ 
-  Spawning output at $MSY$ ($SB_{MSY}$) & 6 & 3 & 8 \\ 
-  $SPR_{MSY}$ & 0.288 & 0.282 & 0.293 \\ 
-  Exploitation rate at $MSY$ & 0.092 & 0.086 & 0.099 \\ 
-  $MSY$ (mt)  & 7 & 5 & 9 \\ 
+Year & Landings & Discards & Total Commercial Removals & Source \\ 
+  \hline  \endfirsthead \caption[]{Commercial landings and discards (mt) from the commercial 
+                                fisheries. Data sources are the California Catch 
+                                Reconstruction, CALCOM, and WCGOP GEMM report.} \label{tab:CommCatches} \\ \hline Year & Landings & Discards & Total Commercial Removals & Source \\ \hline  \endhead \hline \multicolumn{4}{l}{\textit{Continues next page}} \ 
+                                 \endfoot
+                                 \endlastfoot \hline
+1916 & 3.88 & 0.38 & 4.27 & Catch Reconstruction \\ 
+  1917 & 6.03 & 0.59 & 6.63 & Catch Reconstruction \\ 
+  1918 & 7.06 & 0.69 & 7.75 & Catch Reconstruction \\ 
+  1919 & 4.91 & 0.48 & 5.39 & Catch Reconstruction \\ 
+  1920 & 5.01 & 0.49 & 5.50 & Catch Reconstruction \\ 
+  1921 & 4.13 & 0.41 & 4.54 & Catch Reconstruction \\ 
+  1922 & 3.56 & 0.35 & 3.90 & Catch Reconstruction \\ 
+  1923 & 3.84 & 0.38 & 4.22 & Catch Reconstruction \\ 
+  1924 & 2.22 & 0.22 & 2.44 & Catch Reconstruction \\ 
+  1925 & 2.78 & 0.27 & 3.05 & Catch Reconstruction \\ 
+  1926 & 4.48 & 0.44 & 4.92 & Catch Reconstruction \\ 
+  1927 & 3.81 & 0.37 & 4.18 & Catch Reconstruction \\ 
+  1928 & 4.60 & 0.45 & 5.06 & Catch Reconstruction \\ 
+  1929 & 3.81 & 0.37 & 4.18 & Catch Reconstruction \\ 
+  1930 & 5.40 & 0.53 & 5.93 & Catch Reconstruction \\ 
+  1931 & 1.93 & 0.19 & 2.11 & Catch Reconstruction \\ 
+  1932 & 6.24 & 0.61 & 6.85 & Catch Reconstruction \\ 
+  1933 & 2.58 & 0.25 & 2.84 & Catch Reconstruction \\ 
+  1934 & 1.75 & 0.17 & 1.92 & Catch Reconstruction \\ 
+  1935 & 0.43 & 0.04 & 0.47 & Catch Reconstruction \\ 
+  1936 & 0.01 & 0.00 & 0.01 & Catch Reconstruction \\ 
+  1937 & 7.27 & 0.71 & 7.98 & Catch Reconstruction \\ 
+  1938 & 10.29 & 1.01 & 11.30 & Catch Reconstruction \\ 
+  1939 & 13.13 & 1.29 & 14.42 & Catch Reconstruction \\ 
+  1940 & 16.90 & 1.66 & 18.56 & Catch Reconstruction \\ 
+  1941 & 17.06 & 1.67 & 18.73 & Catch Reconstruction \\ 
+  1942 & 8.55 & 0.84 & 9.38 & Catch Reconstruction \\ 
+  1943 & 11.00 & 1.08 & 12.08 & Catch Reconstruction \\ 
+  1944 & 0.05 & 0.00 & 0.05 & Catch Reconstruction \\ 
+  1945 & 0.59 & 0.06 & 0.65 & Catch Reconstruction \\ 
+  1946 & 16.71 & 1.64 & 18.35 & Catch Reconstruction \\ 
+  1947 & 26.71 & 2.62 & 29.33 & Catch Reconstruction \\ 
+  1948 & 23.95 & 2.35 & 26.30 & Catch Reconstruction \\ 
+  1949 & 18.29 & 1.79 & 20.09 & Catch Reconstruction \\ 
+  1950 & 17.15 & 1.68 & 18.83 & Catch Reconstruction \\ 
+  1951 & 24.83 & 2.44 & 27.26 & Catch Reconstruction \\ 
+  1952 & 27.59 & 2.71 & 30.29 & Catch Reconstruction \\ 
+  1953 & 32.30 & 3.17 & 35.47 & Catch Reconstruction \\ 
+  1954 & 40.75 & 4.00 & 44.74 & Catch Reconstruction \\ 
+  1955 & 29.49 & 2.89 & 32.38 & Catch Reconstruction \\ 
+  1956 & 40.66 & 3.99 & 44.65 & Catch Reconstruction \\ 
+  1957 & 37.52 & 3.68 & 41.20 & Catch Reconstruction \\ 
+  1958 & 33.56 & 3.29 & 36.86 & Catch Reconstruction \\ 
+  1959 & 19.62 & 1.92 & 21.54 & Catch Reconstruction \\ 
+  1960 & 11.30 & 1.11 & 12.41 & Catch Reconstruction \\ 
+  1961 & 17.49 & 1.72 & 19.20 & Catch Reconstruction \\ 
+  1962 & 27.18 & 2.67 & 29.85 & Catch Reconstruction \\ 
+  1963 & 22.29 & 2.19 & 24.48 & Catch Reconstruction \\ 
+  1964 & 16.55 & 1.62 & 18.17 & Catch Reconstruction \\ 
+  1965 & 21.50 & 2.11 & 23.61 & Catch Reconstruction \\ 
+  1966 & 13.44 & 1.32 & 14.76 & Catch Reconstruction \\ 
+  1967 & 6.70 & 0.66 & 7.36 & Catch Reconstruction \\ 
+  1968 & 8.29 & 0.81 & 9.10 & Catch Reconstruction \\ 
+  1969 & 9.99 & 0.98 & 10.97 & CALCOM \\ 
+  1970 & 14.21 & 1.39 & 15.60 & CALCOM \\ 
+  1971 & 14.41 & 1.41 & 15.83 & CALCOM \\ 
+  1972 & 19.42 & 1.91 & 21.33 & CALCOM \\ 
+  1973 & 31.43 & 3.08 & 34.51 & CALCOM \\ 
+  1974 & 33.41 & 3.28 & 36.69 & CALCOM \\ 
+  1975 & 33.08 & 3.25 & 36.33 & CALCOM \\ 
+  1976 & 33.90 & 3.33 & 37.23 & CALCOM \\ 
+  1977 & 30.13 & 2.96 & 33.09 & CALCOM \\ 
+  1978 & 43.41 & 4.26 & 47.67 & CALCOM \\ 
+  1979 & 34.24 & 3.36 & 37.60 & CALCOM \\ 
+  1980 & 63.65 & 6.24 & 69.89 & CALCOM \\ 
+  1981 & 52.67 & 5.17 & 57.84 & CALCOM \\ 
+  1982 & 38.96 & 3.82 & 42.78 & CALCOM \\ 
+  1983 & 26.89 & 2.64 & 29.52 & CALCOM \\ 
+  1984 & 14.82 & 1.45 & 16.27 & CALCOM \\ 
+  1985 & 8.42 & 0.83 & 9.25 & CALCOM \\ 
+  1986 & 25.49 & 2.50 & 27.99 & CALCOM \\ 
+  1987 & 34.21 & 3.36 & 37.57 & CALCOM \\ 
+  1988 & 55.73 & 5.47 & 61.20 & CALCOM \\ 
+  1989 & 45.48 & 4.46 & 49.94 & CALCOM \\ 
+  1990 & 46.77 & 4.59 & 51.36 & CALCOM \\ 
+  1991 & 68.85 & 6.75 & 75.60 & CALCOM \\ 
+  1992 & 83.99 & 8.24 & 92.23 & CALCOM \\ 
+  1993 & 74.09 & 7.27 & 81.35 & CALCOM \\ 
+  1994 & 60.06 & 5.89 & 65.95 & CALCOM \\ 
+  1995 & 91.42 & 8.97 & 100.39 & CALCOM \\ 
+  1996 & 94.71 & 9.29 & 104.00 & CALCOM \\ 
+  1997 & 69.37 & 6.81 & 76.18 & CALCOM \\ 
+  1998 & 65.28 & 6.40 & 71.68 & CALCOM \\ 
+  1999 & 62.70 & 6.15 & 68.85 & CALCOM \\ 
+  2000 & 53.91 & 5.29 & 59.20 & CALCOM \\ 
+  2001 & 53.41 & 5.24 & 58.65 & CALCOM \\ 
+  2002 & 42.28 & 4.15 & 46.42 & CALCOM \\ 
+  2003 & 20.18 & 13.04 & 33.22 & CALCOM \& WCGOP \\ 
+  2004 & 26.27 & 2.66 & 28.93 & CALCOM \& WCGOP \\ 
+  2005 & 28.09 & 3.33 & 31.42 & CALCOM \& WCGOP \\ 
+  2006 & 23.87 & 4.10 & 27.96 & CALCOM \& WCGOP \\ 
+  2007 & 30.14 & 4.50 & 34.64 & CALCOM \& WCGOP \\ 
+  2008 & 36.06 & 1.63 & 37.69 & CALCOM \& WCGOP \\ 
+  2009 & 35.42 & 5.38 & 40.80 & CALCOM \& WCGOP \\ 
+  2010 & 38.65 & 3.92 & 42.57 & CALCOM \& WCGOP \\ 
+  2011 & 42.28 & 5.72 & 48.01 & CALCOM \& WCGOP \\ 
+  2012 & 33.46 & 1.93 & 35.39 & CALCOM \& WCGOP \\ 
+  2013 & 33.17 & 2.85 & 36.02 & CALCOM \& WCGOP \\ 
+  2014 & 36.15 & 2.85 & 39.00 & CALCOM \& WCGOP \\ 
+  2015 & 43.18 & 2.93 & 46.11 & CALCOM \& WCGOP \\ 
+  2016 & 36.84 & 2.42 & 39.26 & CALCOM \& WCGOP \\ 
+  2017 & 41.51 & 1.65 & 43.15 & CALCOM \& WCGOP \\ 
+  2018 & 46.08 & 2.54 & 48.62 & CALCOM \& WCGOP \\ 
    \hline
-\end{tabular}
-\end{table}
+\hline
+\end{longtable}
 
 \end{document}
