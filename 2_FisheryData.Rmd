@@ -34,14 +34,14 @@ from 1937-1968 were queried (4 April 2019) from the California Catch Reconstruct
 Landings in this database are divided into trawl and ‘non-trawl.’ Since the majority of 
 GBYR are caught in the commercial fixed gear fisheries, only estimated catch in the 
 ‘non-trawl’ was used.  A total of 0.154 mt (3.18%) were removed from Eureka commercial landings 
-(based on current proportions of commercial catch from north of Cape Mencodino in Eureka) since 
+(based on current proportions of commercial catch from north of Cape Mendocino in Eureka) since 
 the assessment represents the GBYR stock south of Cape Mendocino. 
 
 Commercial landings from 1969-2018 were queried for a final time from the CALCOM 
 database on 4 April 2019 (Table \ref{tab:commCatches}. Commercial landings were also queried 
-from PacFIN (Pacific Fisheries Inforamtion Network) for a final time on 3 June 2019 for comparison 
+from PacFIN (Pacific Fisheries Information Network) for a final time on 3 June 2019 for comparison 
 to CALCOM landings. There are very small differences in commercial landings between CALCOM and 
-PacFIN from 1981-2018 (Figure \ref:fig:Calcom_vs_Pacfin}).  Landings estiamtes from CALCOM were 
+PacFIN from 1981-2018 (Figure \ref:fig:Calcom_vs_Pacfin}).  Landings estimates from CALCOM were 
 used in the assessment. Landings were stratified by year, quarter, live/dead, market category, 
 gear group, port complex, and source of species composition data (actual port samples, borrowed 
 samples, or assumed nominal market category). Data from individual quarters were aggregated at the 
@@ -55,19 +55,19 @@ Conception, no spatial separation was considered for the commercial fleet.
 ###Commercial Discards
 
 The West Coast Groundfish Observer Program (WCGOP) provides observer data on 
-discarding practices across sectors back to 2003. Gopher and black-and-yellow 
+discarding across fishery sectors back to 2003. Gopher and black-and-yellow 
 rockfishes have different depth-stratified commercial fishery discard mortality 
 rates [@PSMFC2018]. In consultation with WCGOP staff, the STAT used estimates 
 of total discard mortality from WCGOP’s Groundfish Expanded Mortality Multiyear 
 (GEMM) report. WCGOP observes between 1-5% of nearshore fixed gear landings annually 
 south of $40^\circ 10^\prime$ N. latitude (coverage rates available [here](https://www.nwfsc.noaa.gov/research/divisions/fram/observation/data_products/sector_products.cfm#ob)). 
-The expanded estimates of total discard by species is calculated as the ratio of the 
-discard of the individual species observed by WCGOP divided by the observed landings 
+The expanded estimates of total discard weight by species is calculated as the ratio of the 
+observed discard weight of the individual species divided by the observed landed weight  
 from PacFIN landing receipts. WCGOP discard estimates for the nearshore fixed gear fishery 
 take into account the depth distribution of landings in order to appropriately apply 
 the depth-stratified discard mortality rates by species [@Somers2018]. The discard 
 mortality for 2018 was estimated as 
-an average of the discard mortality from 20213-2017. Discard mortality was estimated from the 
+an average of the discard mortality from 2013-2017. Discard mortality was estimated from the 
 period prior to WCGOP discard estimates (1916-2002) based on the average discard mortality 
 rate from 2003-2016 (2017 was excluded because 2017 discard mortality was disproportionately higher 
 than all other years) (Table \ref{tab:CommCatches}).
@@ -116,37 +116,62 @@ and Figure \ref{fig:Catches_alternate}).
 
 *Marine Recreational Fisheries Statistics Survey (MRFSS), 1980-2003*
 
+From 1980-2003, the Marine Recreational Fisheries Statistics Survey (MRFSS) executed
+a dockside (angler intercept) sampling program in Washington, Oregon, and California. 
+Data from this survey are available from the Recreational Fisheries Information Network 
+[RecFIN](www.recfin.org). RecFIN serves as a repository for recreational fishery data 
+for California, Oregon, and Washington. Catch estimates for years 1980-2003 were downloaded 
+on 23 March 2019 (), and are consistent with the previous assessment [Key2005]. - 
+need to check again)
+
+MRFSS-era recreational removals for California were estimated for two regions: 
+north and south of Point Conception. No finer-scale estimates of landings are 
+available for this period. Catches were downloaded in numbers and weight. 
+Catch in weight is sometimes missing from the database due to missing average 
+weight estimates. We estimated average weights based on adjacent strata as 
+needed, although the effect was relatively minor (7.4 mt over all years for 
+gopher rockfish and 0.6 mt for black-and-yellow rockfish). Data were not 
+available for the CPFVs in Northern California from 1980-1982, and we used 
+the average value from this mode and region from 1983-1987 for these three 
+years. MRFSS sampling was temporarily suspended from 1990-1992, and we used 
+linear interpolation to fill the missing years. Sampling of CPFVs in Northern 
+California was further delayed, and the linear interpolation spans the period 
+1990-1995 for this boat mode and region. Landings data for the shore-based 
+modes (beach/bank, man-made/jetty and shore) were sparse throughout the MRFSS 
+sampling.  All three shore-based modes were combined by region and linear 
+interpolations were applied missing data in 1981 for the Northern California 
+and 1995, 1996-2001, and 2004 in Southern California.
+
+Catches from north of Cape Mendocino were removed based on a CRFS-era average of
+fraction of recreational landings north of Cape Mendocino by mode (3.3% of 
+shore-based, 0.1% of CPFV, and 0.2% of private/rental were removed).
+From 1980-1989, San Luis Obispo County was sampled as part of Southern California 
+(personal observation from MRFSS Type 3 sampler examined catch where county is 
+available for 1980-2004). This assessment separates the recreational fleet at 
+Pt. Conception. Recreational landings were re-allocated from southern California 
+from 1980-1992 by fleet based on the average proportion of recreational landings in 
+northern California from 1996-2004 (after sampling of the CPFV fleet in northern 
+California resumed).  The average proportion re-allocated from southern to northern 
+California for the CPFV mode was 85%, 97% for the private/rental mode, and 81% for 
+the shore-based modes.  Data were pooled over all years and modes to estimate the 
+landings re-allocation for the shore-based modes.  Total recreational landings for 
+1981 and 1982 were 18.8 mt and 18.6 mt, respectively.  These landings were >60 mt 
+lower than any of the neighboring years.  Landings from 1981-1982 were interpolated 
+from the 1980 and 1983 landings.
+
 
 *California Recreational Fisheries Survey (CRFS), 2004-2016*
 
+MRFSS was replaced with the California Recreational Fisheries Survey (CRFS) 
+beginning January 1, 2004. Among other improvements to MRFSS, CRFS provides 
+higher sampling intensity, finer spatial resolution (6 districts vs. 2 regions), 
+and onboard CPFV sampling. Estimates of catch from 2004-2014 were downloaded 
+from the RecFIN database on 5 March 2019, We queried and aggregated CRFS data to 
+match the structure of the MRFSS data, by year, mode, and region (Table \ref{tab:Rec_removal}.
+
 *Recreational Discard*
 
-
-There was a lapse in MRFSS sampling from 1990 through 1992, 
-for which retained catch and discard mortality were estimated using the average of 
-values three years before and three years after the lapse for all modes other than 
-the party/charter mode.  For the party/charter mode, estimates of numbers 
-of fish were available from logbook data and average weight from the three years 
-before and after this period were applied to provide estimates for the party/charter mode. 
-
-
-Estimates of retained catch and discards were not available from the non-party/charter modes 
-prior to 1980, thus the ratio of catch in the party/charter mode to the other modes for 1980 
-through 1985 was used to provide an estimate of catch in the other modes in the 
-years 1932-1979.  In the case of the private/rental mode, a linear ramp in the ratio adjustment 
-between party/charter and private/rental modes was applied between 1966 and 1979 from 0.55 in 1980 to 0.10 
-in 1965, reflecting the increase in the relative proportion of catch contributed by 
-the private/rental mode with time as more individuals anglers purchased vessels, as recommended 
-in the California Catch Reconstruction [@Ralston2010], and the ratio of 0.10 was assumed
-for all years prior.  The ratio of party/charter estimates to the man-made structure (MM) 
-and beach/bank (BB) modes was assumed constant and the average between 1980 and 1989 was applied 
-from 1932 to 1979.  Catch 
-estimates from CPFV logbooks were not available during the World War II era from 1941
-until 1946 and catch was assumed to be zero for all modes during this period.  Estimates
-for retained catch and discarded mortality for 1928 to 3528 were estimated using a
-linear ramp from the value for 1936 to zero in 1928 for the party/charter mode and ratios party/charter 
-compared to other modes were used to proxy estimates for other modes based on the 
-resulting ramped values for the party/charter mode.  The final time series of landings and discard 
+Estimates of discards were not available prior to 1980.  The final time series of landings and discard 
 mortality are in Table \ref{tab:Rec_removal}.
 
 Biological samples from the recreational fleets are described in the sections below.
