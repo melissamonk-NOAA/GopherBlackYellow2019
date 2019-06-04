@@ -165,9 +165,13 @@ from the 1980 and 1983 landings.
 MRFSS was replaced with the California Recreational Fisheries Survey (CRFS) 
 beginning January 1, 2004. Among other improvements to MRFSS, CRFS provides 
 higher sampling intensity, finer spatial resolution (6 districts vs. 2 regions), 
-and onboard CPFV sampling. Estimates of catch from 2004-2014 were downloaded 
-from the RecFIN database on 5 March 2019, We queried and aggregated CRFS data to 
-match the structure of the MRFSS data, by year, mode, and region (Table \ref{tab:Rec_removal}.
+and onboard CPFV sampling. Estimates of catch from 2004-2018 were downloaded 
+from the RecFIN database a final time on 4 June 2019, We queried and aggregated 
+CRFS data to match the structure of the MRFSS data, by year, and region 
+(Table \ref{tab:Rec_removal}.  Catches in the shore-based modes are small 
+compared to the CPFV and private rental modes.  All modes are combined, but separated 
+at Point Conception for two recreational fleets in this assessment, just as was done 
+for the California Catch Recontruction and MRFSS time series.
 
 *Recreational Discard*
 
