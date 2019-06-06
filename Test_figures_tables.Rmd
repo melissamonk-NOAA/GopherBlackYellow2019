@@ -45,4 +45,8 @@ USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE
 
 
 
+```{r}
+length_Sample = read.csv('./txt_files/LengthSampleSize.csv')
 
+length_Sample1 = length_Sample %>%
+                 spread()

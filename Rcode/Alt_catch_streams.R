@@ -193,6 +193,7 @@ ggplot(rec_exec, aes(x=Year, y=mt, fill=Source)) +
         panel.background = element_blank(),
         panel.border = element_blank(),
         axis.line = element_line(colour = "black"),
+        plot.margin = margin(0, .3, 0, 0, "cm"),
         legend.justification = c(0, 1), 
         legend.position = c(.01, 1)) +
   theme(legend.title=element_blank()) +
