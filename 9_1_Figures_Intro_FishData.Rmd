@@ -28,6 +28,14 @@
 
 ![Summary of data sources used in the `r mod1_label`. \label{fig:data_plot}](r4ss/plots_mod1/data_plot.png)
 
+<!-- *************************Catches FIGURES********************************* -->
+
+![Commercial landings for gopher (GPHR) and black-and-yellow (BYEL) rockfishes landed live and dead north and south of Pt. Conception.  All catch time series were combined for the assessment into one commercial fleet. \label{fig:Catches_livedeadNS_gby}](Figures/Catches_livedeadNS_gby.png)
+
+
+![Comparison of the recreational and commercial fishery landings from the 2005 assessment to this 2019 assessment. Note that the 2019 assessment includes both gopher and black-and-yellow rockfish where the 2005 assessment represents gopher rockfish only. \label{fig:Assessment_compare}](Figures/assessment_compare.png)
+
+
 
 ![Commercial landings estimates from CALCOM add PacFIN. \label{fig:Calcom_vs_Pacfin}](Figures/Calcom_vs_Pacfin.png)
 

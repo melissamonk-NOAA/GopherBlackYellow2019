@@ -85,8 +85,6 @@ bibliography: BibFile.bib
 ```
 
 
-#Figures
-
 
 ```{r child = "9_1_Figures_Intro_FishData.Rmd"}
 ```

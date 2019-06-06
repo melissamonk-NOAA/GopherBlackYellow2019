@@ -45,44 +45,4 @@ USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE
 
 
 
-```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
-     Comm_removal = read.csv("./txt_files/Catch_stream_w_alts.csv")
-      Comm_removal = Comm_removal %>% 
-                     select(Year, Calcom, WCGOPalt1, CommSource) %>%
-                     add_column(Total = 1, .before = 'CommSource') %>%
-                     mutate(Total = Calcom + WCGOPalt1)
-                              
-     colnames(Comm_removal) = c('Year',
-                                'Landings',
-                                'Discards',
-                                'Total Commercial Removals',
-                                'Source')
-```
 
-
-```{r, results='asis'}
-   Comm_removal.table = xtable(Comm_removal, 
-                    caption = c("Commercial landings and discards (mt) from the commercial 
-                                fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report."))
-
-   align(Comm_removal.table) =c('l','c', 
-                            '>{\\centering}p{1in}',
-                            '>{\\centering}p{.6in}',
-                            '>{\\centering}p{1in}',
-                            'l')  
-     print(Comm_removal.table,include.rownames=FALSE,      
-           caption.placement="top",align=TRUE,tabular.environment="longtable",
-            floating=FALSE,  #sanitize.text.function = function(x){x},
-           add.to.row = list(pos = list(0),command = 
-                        paste("\\hline  \\endfirsthead",  # First caption
-                                "\\caption[]{Commercial landings and discards (mt) from the commercial 
-                                fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report.} \\label{tab:CommCatches} \\\\ \\hline", # Addit. captions
-                                paste(colnames(Comm_removal)[1], paste("&", colnames(Comm_removal)[2:5], collapse=" ")), # Column names
-                                "\\\\ \\hline ",
-                                "\\endhead", 
-                                "\\hline \\multicolumn{4}{l}{\\textit{Continues next page}} \\ 
-                                 \\endfoot
-                                 \\endlastfoot",collapse=" ")))
-```

@@ -45,11 +45,13 @@ ggplot(comm_dat, aes(x=Year, y=mt, fill=Source)) +
         panel.border = element_blank(),
         axis.line = element_line(colour = "black"),
         legend.justification = c(0, 1), 
-        legend.position = c(0.7, 1)) +
-  theme(legend.title=element_blank()) +
-  scale_x_continuous(breaks = seq(1978,2020, by = 10),
+        legend.position = c(0.05, .95),
+        legend.title=element_blank(),
+        legend.text=element_text(size=rel(0.7)),
+        legend.key.size = unit(.3, "cm")) +
+  scale_x_continuous(breaks = seq(1916,2020, by = 10),
                      expand = c(0, 0)) +
-  scale_y_continuous(breaks = seq(0,80, by = 10),
+  scale_y_continuous(breaks = seq(0,110, by = 10),
                      expand = c(0, 0)) +
   scale_fill_manual("legend",
                     values = c("BYEL_Dead_North" = "deepskyblue",
@@ -59,7 +61,8 @@ ggplot(comm_dat, aes(x=Year, y=mt, fill=Source)) +
                                 "GPHR_Dead_North" = "darkgreen",
                                 "GPHR_Dead_South" = "chartreuse",
                                 "GPHR_Live_North" = "darkseagreen",
-                                "GPHR_Live_South" = "aquamarine"))
+                                "GPHR_Live_South" = "aquamarine")) 
   
   
 dev.off()
+

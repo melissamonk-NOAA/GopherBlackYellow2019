@@ -221,16 +221,17 @@ with landings in 2018 totaling 91 mt.
 
 \begin{figure}
 \centering
-\includegraphics{00_Assessment_Compile_files/figure-latex/unnamed-chunk-12-1.pdf}
-\caption{GBYR catch history for the recreational fleets.
+\includegraphics{Figures/rec_exec.png}
+\caption{Catch history of GBYR for the recreational fleet.
 \label{fig:Exec_catch1}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{00_Assessment_Compile_files/figure-latex/unnamed-chunk-13-1.pdf}
-\caption{Stacked line plot of GBYR catch history for the commercial
-fleets. \label{fig:Exec_catch2}}
+\includegraphics{Figures/comm_exec.png}
+\caption{Catch history of GBYR for the commercial fleet by dead and live
+landings, and discards. Catches in 1936 and 1946 were minimal.
+\label{fig:Exec_catch2}}
 \end{figure}
 
 \FloatBarrier
@@ -356,9 +357,9 @@ Recruitment deviations were estimated from xxxx-xxxx (Figure
 
 \begin{table}[ht]
 \centering
-\caption{Recent recruitment for the model.} 
+\caption{Recent recruitment for the GBYR assessment.} 
 \label{tab:Recruit_mod1}
-\begin{tabular}{>{\centering}p{.8in}>{\centering}p{1.6in}>{\centering}p{1.3in}}
+\begin{tabular}{>{\centering}p{.8in}>{\centering}p{1.6in}>{\centering}p{1.6in}}
   \hline
 Year & Estimated Recruitment (1,000s) & \~{} 95\% confidence interval \\ 
   \hline
@@ -710,9 +711,9 @@ History}\label{basic-information-and-life-history}
 
 \subsection{Map}\label{map}
 
-A map showing the scope of the assessment and depicting boundaries for
-fisheries or data collection strata is provided in Figure
-\ref{fig:boundary_map}.
+A map showing the scope of the assessment and depicting boundary at Pt.
+Conception for the recreational fishing fleet (Figure
+\ref{fig:assess_region_map}).
 
 \subsection{Ecosystem Considerations}\label{ecosystem-considerations-1}
 
@@ -743,6 +744,35 @@ following sections.
 
 \subsubsection{Commercial Fishery
 Landings}\label{commercial-fishery-landings}
+
+\emph{Overview of gopher and black-and-yellow catch history}
+
+Commercial fishery landings for gopher and black-and-yellow rockfishes
+have not been reported consistently by species throughout the available
+catch history (Figure \ref{fig:Catches_livedeadNS_gby}). The period from
+1916-1935 indicates that only black-and-yellow rockfish were landed in
+the commercial fishery, which then switched to predominately gopher
+rockfish from 1937-1984. From 1985-1988 the landings data suggest that
+only black-and-yellow rockfish were landed and not until 1995 are both
+speices well-represented in the catches. There is not way to tease apart
+the historical catches by species and even across north and south of Pt.
+Conception prior to about 1995. This precludes the ability to model the
+catch histories for eiether species accurately. Given these constraints,
+all commercial dats were combined to represent one one commercial flee
+in the assessment.
+
+The stock assessment of gopher rockfish in 2005 did not include
+black-and-yellow rockfish landings. A comparison of recreational and
+commercial landings from the 2005 assessment to those used in this
+assessment suggest the 2005 assessment may have included some
+black-and-yellow rockfish landings (Figure
+\ref{fig:Assessment_compare}). The 2005 assessment estimated
+recreational landings from 1969-1980 based on a ratio of commercial to
+recreational landings, where as this assessment makes use of the
+California Catch Reconstruction landings estimates (Ralston et al.
+\protect\hyperlink{ref-Ralston2010}{2010}).
+
+\emph{Commercial Landings Data Sources}
 
 Commercial landings in California are based on two primary data sources:
 a cooperative port sampling program (California Cooperative Groundfish
@@ -862,11 +892,12 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 Discards}\label{sport-fishery-removals-and-discards}
 
 Recreational discards were only added to the California Catch
-Reconstruction landings, as Ralston et al. ({\textbf{???}}) did not
-address discards for the recreational recontruction. Recreational
-removals from the California Department of Fish and Wildlife MRFSS era
-(1980-2003) includes catch type A + B1. Catch type A refers to estimates
-of catch based on sampler-examined catch. Catch type B1 includes mainly
+Reconstruction landings, as Ralston et al.
+(\protect\hyperlink{ref-Ralston2010}{2010}) did not address discards for
+the recreational recontruction. Recreational removals from the
+California Department of Fish and Wildlife MRFSS era (1980-2003)
+includes catch type A + B1. Catch type A refers to estimates of catch
+based on sampler-examined catch. Catch type B1 includes mainly
 angler-reported discard, but also angler-reported retained fish that
 were unavailable to the sampler during the interview (e.g., fillets).
 (2004-2018) databases. The CRFS era removals account for
@@ -989,24 +1020,24 @@ discarded fish from the recreational fleet prior to 1980.
 \emph{CPFV length composition data, 1959-1978}
 
 The earliest available length data for this assessment were described by
-Karpov et al. ({\textbf{???}}), who assembled a time series (1959-1972)
-of available California CPFV length data (made available courtesy of W.
-Van Buskirk). For GBYR, data from 1959-1961 and 1966 were available
-north of Pt. Conception and from 1959-1961 from south of Pt Conception.
-A total of 716 (680 north of Pt. Conception) unsexed measurement of
-retained fish (no discards, ) were included in the assessment (Table ).
-Sampling of these length data did not follow consistent protocol over
-time and areas (data are unweighted), and therefore may not be
-representative of total catch. Since the number of trips sampled was not
-reported by Karpov et al. (1995), we assume the number of sampled trips
-is proportional to the number of measured fish in each year, and
-estimated the number of trips using the ratio of fish measured per trip
-in the MRFSS data (roughly 10 fish per trip).
+Karpov et al. (\protect\hyperlink{ref-Karpov1995}{1995}), who assembled
+a time series (1959-1972) of available California CPFV length data (made
+available courtesy of W. Van Buskirk). For GBYR, data from 1959-1961 and
+1966 were available north of Pt. Conception and from 1959-1961 from
+south of Pt Conception. A total of 716 (680 north of Pt. Conception)
+unsexed measurement of retained fish (no discards, ) were included in
+the assessment (Table ). Sampling of these length data did not follow
+consistent protocol over time and areas (data are unweighted), and
+therefore may not be representative of total catch. Since the number of
+trips sampled was not reported by Karpov et al. (1995), we assume the
+number of sampled trips is proportional to the number of measured fish
+in each year, and estimated the number of trips using the ratio of fish
+measured per trip in the MRFSS data (roughly 10 fish per trip).
 
-Collins and Crooke ({\textbf{???}}) conducted an onboard observer survey
-of the CPFV fleet in southern California from 1975-1978. A total of
-1,308 GBYR lengths were available from the study and were assumed to all
-be from retained fish.
+Collins and Crooke (n.d.) conducted an onboard observer survey of the
+CPFV fleet in southern California from 1975-1978. A total of 1,308 GBYR
+lengths were available from the study and were assumed to all be from
+retained fish.
 
 \emph{MRFSS Recreational Length Data, 1980-1989 and 1993-2003}
 
@@ -1016,20 +1047,12 @@ of lengths that were converted from weight measurements, and these were
 excluded from the final data set.
 
 (Table \ref{tab:Fleet5_lengthsample}). The length measurements from
-Collins and Crooke ({\textbf{???}}) are assumed to all be from retained
-fish.
+Collins and Crooke (n.d.) are assumed to all be from retained fish.
 
 As of 2003, Onboard Observer program has taken length measurements for
 discarded fish. The retained catch is measured during the dockside
 (angler intercept) surveys, and cannot necessarily be matched to a trip
-with the discard lengths prior to 2012. Additional discarded length
-measurements were available from both CDFW unpublished data (1984,
-1988-1989) and the Ally et al. ({\textbf{???}}) onboard observer program
-from 1985-1987. The sample sizes of measured discarded fish in the 1980s
-is small. The mean length of discarded fish is smaller than for years
-when the length restriction was in place (Table
-\ref{tab:Fleet6_lengthsample} and Figure
-\ref{fig:Fleet6_comp_lendat_bubflt6mkt2}).
+with the discard lengths prior to 2012.
 
 \subsubsection{Fishery-Dependent Indices of
 Abundance}\label{fishery-dependent-indices-of-abundance}
@@ -1620,19 +1643,18 @@ Year & North of Pt. Conception & South of Pt. Conception & Total Recreational Re
 \FloatBarrier
 <!-- ********************************************************************** -->
 
-\section{Figures}\label{figures}
-
 \FloatBarrier
 
 \newpage
 
-\section{Figures}\label{figures-1}
+\section{Figures}\label{figures}
 
 \begin{figure}
 \centering
-\includegraphics{Figures/boundary_map.png}
-\caption{Map showing the state boundary lines for management of the
-recreational fishing fleets \label{fig:boundary_map}}
+\includegraphics{Figures/assess_region_map.png}
+\caption{Map showing the management area for gopher and black-and-yellow
+rockfish from Cape Mendocino to the U.S. Mexico
+border.\{fig:assess\_reagion\_map\}}
 \end{figure}
 
 \begin{figure}
@@ -1640,6 +1662,25 @@ recreational fishing fleets \label{fig:boundary_map}}
 \includegraphics{r4ss/plots_mod1/data_plot.png}
 \caption{Summary of data sources used in the model.
 \label{fig:data_plot}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Figures/Catches_livedeadNS_gby.png}
+\caption{Commercial landings for gopher (GPHR) and black-and-yellow
+(BYEL) rockfishes landed live and dead north and south of Pt.
+Conception. All catch time series were combined for the assessment into
+one commercial fleet. \label{fig:Catches_livedeadNS_gby}}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{Figures/assessment_compare.png}
+\caption{Comparison of the recreational and commercial fishery landings
+from the 2005 assessment to this 2019 assessment. Note that the 2019
+assessment includes both gopher and black-and-yellow rockfish where the
+2005 assessment represents gopher rockfish only.
+\label{fig:Assessment_compare}}
 \end{figure}
 
 \begin{figure}
@@ -1694,10 +1735,23 @@ and commercial discards. \label{fig:Catches_alternate}}
 Bertalanffy, L. von. 1938. A quantitative theory of organic growth.
 Human Biology \textbf{10}: 181--213.
 
+\hypertarget{ref-Collins1978}{}
+Collins, R., and Crooke, S. (n.d.). An evaluation of the commercial
+passenger fishing vessel record system and the results of sampling the
+Southern California catch for species and size composition, 1975-1978.
+Unpublished report.
+
 \hypertarget{ref-Hamel2015}{}
 Hamel, O. 2015. A method for calculating a meta-analytical prior for the
 natural mortality rate using multiple life history correlates. ICES
 Journal of Marine Science \textbf{72}: 62--69.
+
+\hypertarget{ref-Karpov1995}{}
+Karpov, K.A., Albin, D.P., and Van Buskirk, W. 1995. The marine
+recreational fishery in northern California and central California: a
+historical comparison (1958--86), status of stocks (1980--1986), and
+effects of changes in the California Current. California Department of
+Fish Game Fish Bulletin \textbf{176}.
 
 \hypertarget{ref-PSMFC2018}{}
 Pacific Fishery Managment Council. 2018. Status of the Pacific Coast

@@ -244,3 +244,37 @@ ggplot(comm_exec, aes(x=Year, y=mt, fill=Source)) +
                                "ComDisc" = "green3"))
 dev.off()
 
+
+
+#-----------------------------------------------------------------------------------
+#Plot of 2005 and 2019 catch streams rec and commercial
+#-----------------------------------------------------------------------------------
+
+assessment_compare = catches %>%
+       select(Year, Calcom, RecNorthalt1, RecSouthalt1, Rec2005, Comm2005) %>%
+      mutate(Rec = RecNorthalt1+RecSouthalt1) %>%
+      rename(Comm_2019 = Calcom, Comm_2005 = Comm2005, Rec_2005 = Rec2005, Rec_2019 = Rec) %>%
+      select(Year, Comm_2019, Comm_2005, Rec_2019, Rec_2005) %>%
+      filter(Year>1964, Year<2005) %>%
+      gather(Source,mt, Comm_2019:Rec_2005) 
+
+
+out.dir = "C:/GopherBlackYellow2019/Figures/"
+png(filename = paste0(out.dir,"assessment_compare.png"),
+    width = 6, height = 4, units = "in", pointsize = 12, res=300)
+#x11()
+ggplot(assessment_compare, aes(x=Year, y = mt, colour=Source)) +
+  geom_line(lwd = 1.1) +
+  scale_color_manual(values=c("sienna3", "lightsalmon", "seagreen4","paleturquoise3")) +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        legend.justification = c(0, 1), 
+        legend.position = c(0.05, .95)) +
+  theme(legend.title=element_blank()) +
+  scale_x_continuous(breaks = seq(1964,2005, by = 5)) +
+  scale_y_continuous(breaks = seq(0,200, by = 20))
+
+dev.off()

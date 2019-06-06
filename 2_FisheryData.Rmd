@@ -10,6 +10,31 @@ Descriptions of the data sources are in the following sections.
 <!-- ************FISHERY-DEPENDENT DATA************************************ -->
 ###Commercial Fishery Landings
 
+*Overview of gopher and black-and-yellow catch history*
+
+Commercial fishery landings for gopher and black-and-yellow rockfishes have not 
+been reported consistently by species throughout the available catch history 
+(Figure \ref{fig:Catches_livedeadNS_gby}). The period from 1916-1935 indicates 
+that only black-and-yellow rockfish were landed in the commercial fishery, which then 
+switched to predominately gopher rockfish from 1937-1984.  From 1985-1988 the landings 
+data suggest that only black-and-yellow rockfish were landed and not until 1995 are 
+both speices well-represented in the catches. There is not way to tease apart the 
+historical catches by species and even across north and south of Pt. Conception prior 
+to about 1995.  This precludes the ability to model the catch histories for eiether species 
+accurately. Given these constraints, all commercial dats were combined to represent one 
+one commercial flee in the assessment.
+
+The stock assessment of gopher rockfish in 2005 did not include black-and-yellow rockfish 
+landings. A comparison of recreational and commercial landings from the 2005 assessment 
+to those used in this assessment suggest the 2005 assessment may have included some 
+black-and-yellow rockfish landings (Figure \ref{fig:Assessment_compare}). The 2005 
+assessment estimated recreational landings from 1969-1980 based on a ratio of commercial 
+to recreational landings, where as this assessment makes use of the California Catch 
+Reconstruction landings estimates [@Ralston2010]. 
+
+
+*Commercial Landings Data Sources*
+
 Commercial landings in California are based on two primary data sources: 
 a cooperative port sampling program (California Cooperative Groundfish Survey, 
 [CALCOM](https://calcom.psmfc.org/)) that collects information including species 
@@ -108,7 +133,7 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 
 
 Recreational discards were only added to the California Catch Reconstruction 
-landings, as Ralston et al. [-@Ralson2010] did not address discards for the 
+landings, as Ralston et al. [-@Ralston2010] did not address discards for the 
 recreational recontruction.  Recreational removals from the California Department 
 of Fish and Wildlife MRFSS era (1980-2003) includes catch type A + B1. Catch type 
 A refers to estimates of catch based on sampler-examined catch. Catch type B1 
@@ -242,7 +267,6 @@ study and were assumed to all be from retained fish.
 Unsexed length data of retained fish were collected by MRFSS dockside samplers 
 and downloaded from the RecFIN website. We identified a subset of lengths that were 
 converted from weight measurements, and these were excluded from the final data set. 
-
 
 
 (Table \ref{tab:Fleet5_lengthsample}). The length measurements from

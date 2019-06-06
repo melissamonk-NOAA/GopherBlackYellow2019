@@ -25,39 +25,39 @@
 # 1. Catch FIGURE(S) ----------------------------------------------------------
 # Required: Read in CSV file, edit this section depending on # of plots!!
 # Read in executive summary catches figure file
-Exec_catch =  read.csv('./txt_files/Alt_catch_streams.csv')
+#Exec_catch =  read.csv('./txt_files/Alt_catch_streams.csv')
   
 # Assign column names
-colnames(Exec_catch) = c('Year',
-                         'Fleet 1',
-                         'Fleet 2',
-                         'Fleet 3',
-                         'Fleet 4',
-                         'Fleet5')
+#colnames(Exec_catch) = c('Year',
+#                         'Fleet 1',
+#                         'Fleet 2',
+#                         'Fleet 3',
+#                         'Fleet 4',
+#                         'Fleet5')
     
 # Split catch by regions -retaning the colunns for each -you'll have to edit
-Exec_region1_catch = Exec_catch[,c(1:2)]
-Exec_region2_catch = Exec_catch[,c(1,3,4)]
-Exec_region3_catch = Exec_catch[,c(1,5,6)]
+#Exec_region1_catch = Exec_catch[,c(1:2)]
+#Exec_region2_catch = Exec_catch[,c(1,3,4)]
+#Exec_region3_catch = Exec_catch[,c(1,5,6)]
     
-# Melt data so it can be plotted
-Exec_region1_catch = melt(Exec_region1_catch, id='Year')
-Exec_region2_catch = melt(Exec_region2_catch, id='Year')
-Exec_region3_catch = melt(Exec_region3_catch, id='Year')
-   
-# Reassign column names
-colnames(Exec_region1_catch) = c('Year','Fleet','Removals')
-colnames(Exec_region2_catch) = c('Year','Fleet','Removals')
-colnames(Exec_region3_catch) = c('Year','Fleet','Removals')
-
-# Plot catches function
-Plot_catch = function(Catch_df) {
-             ggplot(Catch_df, aes(x=Year, y=Removals,fill=Fleet)) +
-             geom_area(position='stack') +
-             scale_fill_manual(values=c('lightsteelblue3','coral')) +
-             scale_x_continuous(breaks=seq(Dat_start_mod1, Dat_end_mod1, 20)) +
-             ylab('Landings (mt)')
-}
+# # Melt data so it can be plotted
+# Exec_region1_catch = melt(Exec_region1_catch, id='Year')
+# Exec_region2_catch = melt(Exec_region2_catch, id='Year')
+# Exec_region3_catch = melt(Exec_region3_catch, id='Year')
+#    
+# # Reassign column names
+# colnames(Exec_region1_catch) = c('Year','Fleet','Removals')
+# colnames(Exec_region2_catch) = c('Year','Fleet','Removals')
+# colnames(Exec_region3_catch) = c('Year','Fleet','Removals')
+# 
+# # Plot catches function
+# Plot_catch = function(Catch_df) {
+#              ggplot(Catch_df, aes(x=Year, y=Removals,fill=Fleet)) +
+#              geom_area(position='stack') +
+#              scale_fill_manual(values=c('lightsteelblue3','coral')) +
+#              scale_x_continuous(breaks=seq(Dat_start_mod1, Dat_end_mod1, 20)) +
+#              ylab('Landings (mt)')
+# }
 
 # -----------------------------------------------------------------------------
 # CATCH TABLE(S) --------------------------------------------------------------
