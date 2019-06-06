@@ -72,6 +72,26 @@ output:
 ![Estimated time-series of recruitment for `r spp`. \label{fig:ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals}](r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png)
 
 
+
+
+![Estimated time-series of recruitment for `r spp`. \label{fig:ts11_Age0_recruits_(1000s)_with_95_asymptotic_intervals}](r4ss/plots_mod1/ts11_Age0_recruits_(1000s)_with_95_asymptotic_intervals.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ![Estimated recruitment (red circles) and the assumed stock-recruit relationship (black line) for `r spp`.  The green line shows the effect of the bias correction for the lognormal distribution. \label{fig:SR_curve2}](r4ss/plots_mod1/SR_curve2.png)
 
 

@@ -5,7 +5,16 @@ setwd('C:/GopherBlackYellow2019/txt_files')
 
 catches = read.csv('Catch_stream_w_alts.csv',header=T)
 
+
+
+
+
+
+
+
+#-----------------------------------------------------------------------------------
 #bar plot of original catches
+#-----------------------------------------------------------------------------------
 catches_orig = catches %>%
                select(Year, RecNorth, RecSouthorig, Calcom, WCGOPdiscard) %>%
                rename(RecSouth = RecSouthorig, Com = Calcom, ComDisc = WCGOPdiscard) %>%
@@ -42,8 +51,9 @@ ggplot(catches_orig, aes(x=Year, y=mt, fill=Source)) +
 dev.off()
    
 
-
+#-----------------------------------------------------------------------------------
 #plot with commercial including live vs. dead
+#-----------------------------------------------------------------------------------
 catches_orig2 = catches %>%
   select(Year, RecNorth, RecSouthorig, Calcomdead, Calcomlive, WCGOPdiscard) %>%
   rename(RecSouth = RecSouthorig, ComDead = Calcomdead,
@@ -85,8 +95,9 @@ dev.off()
 
 
 
-
+#-----------------------------------------------------------------------------------
 #plot with alternative catch stream for rec and WCGOP
+#-----------------------------------------------------------------------------------
 catches_orig3 = catches %>%
   select(Year, RecNorthalt1, RecSouthalt1, Calcom, WCGOPalt1) %>%
   rename(RecNorth = RecNorthalt1, RecSouth = RecSouthalt1, 
@@ -125,9 +136,10 @@ dev.off()
 
 
 
-
+#-----------------------------------------------------------------------------------
 #Calcom vs pacfin
-#plot
+#-----------------------------------------------------------------------------------
+
 com_compare = catches %>%
   select(Year, Calcom, Pacfin) %>%
   rename(CALCOM = Calcom, PacFIN = Pacfin) %>%
@@ -156,4 +168,79 @@ ggplot(com_compare, aes(x=Year, y = mt, colour=Source)) +
 dev.off()
 
 
-#plot with discard alternative2
+#-----------------------------------------------------------------------------------
+###Plot of recreational catches for Exec summary
+#-----------------------------------------------------------------------------------
+
+rec_exec = catches %>%
+           select(Year, RecNorthalt1, RecSouthalt1) %>%
+           rename(RecNorth = RecNorthalt1, RecSouth = RecSouthalt1) %>%
+           filter(Year>1927) %>%
+           gather(Source,mt, RecNorth:RecSouth) 
+           
+
+
+out.dir = "C:/GopherBlackYellow2019/Figures/"
+png(filename = paste0(out.dir,"Rec_exec.png"),
+    width = 6, height = 4, units = "in", pointsize = 12, res=300)
+
+#x11()
+
+ggplot(rec_exec, aes(x=Year, y=mt, fill=Source)) +
+  geom_bar(stat="identity", width=1,colour="black") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        legend.justification = c(0, 1), 
+        legend.position = c(.01, 1)) +
+  theme(legend.title=element_blank()) +
+  scale_x_continuous(breaks = seq(1928,2020, by = 10),
+                     expand = c(0, 0)) +
+  scale_y_continuous(breaks = seq(0,200, by = 25),
+                     expand = c(0, 0)) +
+  scale_fill_manual("legend", 
+                    values = c("RecNorth" = "gold", 
+                               "RecSouth" = "red"))
+dev.off()
+
+
+#-----------------------------------------------------------------------------------
+###Plot of comercial catches for Exec summary
+#-----------------------------------------------------------------------------------
+ comm_exec = catches %>%
+  select(Year, Calcomdead, Calcomlive, WCGOPalt1) %>%
+  rename(ComDead = Calcomdead,
+         ComLive = Calcomlive, ComDisc = WCGOPalt1) %>%
+  gather(Source,mt,ComDead:ComDisc) 
+
+
+comm_exec$Source <- factor(comm_exec$Source, 
+                               levels=c('ComDead','ComLive','ComDisc'))
+
+out.dir = "C:/GopherBlackYellow2019/Figures/"
+png(filename = paste0(out.dir,"comm_exec.png"),
+    width = 6, height = 4, units = "in", pointsize = 12, res=300)
+#x11()
+ggplot(comm_exec, aes(x=Year, y=mt, fill=Source)) +
+  geom_bar(stat="identity", width=1,colour="black") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        #  legend.position='top', 
+        #  legend.justification='left'
+        legend.justification = c(0, 1), 
+        legend.position = c(0.01, 1)) +
+  theme(legend.title=element_blank()) +
+  scale_x_continuous(breaks = seq(1915,2020, by = 10),
+                     expand = c(0, 0)) +
+  scale_y_continuous(expand = c(0, 0)) +
+  scale_fill_manual("legend", 
+                    values = c("ComDead" = "lightblue",
+                               "ComLive" = "purple",
+                               "ComDisc" = "green3"))
+dev.off()
+

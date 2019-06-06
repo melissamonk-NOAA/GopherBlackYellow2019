@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.29)  3 JUN 2019 18:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.29)  5 JUN 2019 16:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -964,7 +964,7 @@ line 130.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
 line 130.
 <<ot1.cmap>>
-<cover_photo.png, id=258, 668.7384pt x 191.2746pt>
+<cover_photo.png, id=262, 668.7384pt x 191.2746pt>
 File: cover_photo.png Graphic file (type png)
 <use cover_photo.png>
 Package pdftex.def Info: cover_photo.png  used on input line 141.
@@ -1007,7 +1007,7 @@ Overfull \hbox (0.71802pt too wide) detected at line 12
 \openout6 = `00_Assessment_Compile.toc'.
 
 [3]<<ot1tt.cmap>>
-<00_Assessment_Compile_files/figure-latex/unnamed-chunk-12-1.pdf, id=359, 469.7
+<00_Assessment_Compile_files/figure-latex/unnamed-chunk-12-1.pdf, id=364, 469.7
 55pt x 325.215pt>
 File: 00_Assessment_Compile_files/figure-latex/unnamed-chunk-12-1.pdf Graphic f
 ile (type pdf)
@@ -1015,7 +1015,7 @@ ile (type pdf)
 Package pdftex.def Info: 00_Assessment_Compile_files/figure-latex/unnamed-chunk
 -12-1.pdf  used on input line 224.
 (pdftex.def)             Requested size: 469.75386pt x 325.2142pt.
-<00_Assessment_Compile_files/figure-latex/unnamed-chunk-13-1.pdf, id=360, 469.7
+<00_Assessment_Compile_files/figure-latex/unnamed-chunk-13-1.pdf, id=365, 469.7
 55pt x 325.215pt>
 File: 00_Assessment_Compile_files/figure-latex/unnamed-chunk-13-1.pdf Graphic f
 ile (type pdf)
@@ -1044,78 +1044,81 @@ age.iii}) has been already used, duplicate ignored
 l.236 \FloatBarrier
                     [3 <./00_Assessment_Compile_files/figure-latex/unnamed-chun
 k-13-1.pdf>]
-<r4ss/plots_mod1/catch2 landings stacked.png, id=386, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/catch2 landings stacked.png, id=391, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/catch2 landings stacked.png Graphic file (type png)
 <use r4ss/plots_mod1/catch2 landings stacked.png>
 Package pdftex.def Info: r4ss/plots_mod1/catch2 landings stacked.png  used on i
 nput line 240.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 
-Overfull \hbox (28.00224pt too wide) in paragraph at lines 250--266
+Overfull \hbox (28.00224pt too wide) in paragraph at lines 249--265
  [][] 
  []
 
 [4] [5 <./r4ss/plots_mod1/catch2 landings stacked.png>]
-<Figures/assess_region_map.png, id=397, 578.16pt x 722.7pt>
+<Figures/assess_region_map.png, id=402, 614.295pt x 794.97pt>
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 284.
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 283.
 
-(pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
-[6] [7 <./Figures/assess_region_map.png>]
+(pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
+
+LaTeX Warning: Float too large for page by 10.98958pt on input line 288.
+
+[6] [7 <./Figures/assess_region_map.png (PNG copy)>]
 <r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png
-, id=411, 469.755pt x 361.35pt>
+, id=415, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_interval
 s.png Graphic file (type png)
 <use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
 .png>
 Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 336.
+_intervals_intervals.png  used on input line 335.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 <r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png, id=41
-2, 469.755pt x 361.35pt>
+6, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png G
 raphic file (type png)
 <use r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png>
 Package pdftex.def Info: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_interv
-als_intervals.png  used on input line 344.
+als_intervals.png  used on input line 343.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [8] [9 <./r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_inte
 rvals.png>] [10 <./r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_in
 tervals.png>]
 <r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png, 
-id=434, 469.755pt x 361.35pt>
+id=438, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.
 png Graphic file (type png)
 <use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
 ng>
 Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 384.
+ymptotic_intervals.png  used on input line 383.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [11] [12 <./r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_inte
 rvals.png>]
-<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=448, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=452, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/SPR2_minusSPRseries.png Graphic file (type png)
 <use r4ss/plots_mod1/SPR2_minusSPRseries.png>
 Package pdftex.def Info: r4ss/plots_mod1/SPR2_minusSPRseries.png  used on input
- line 429.
+ line 428.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [13] [14 <./r4ss/plots_mod1/SPR2_minusSPRseries.png>]
-Overfull \hbox (7.6013pt too wide) in paragraph at lines 475--475
+Overfull \hbox (7.6013pt too wide) in paragraph at lines 474--474
  []\OT1/cmr/bx/n/12 Estimate
  []
 
 
-Overfull \hbox (8.97353pt too wide) in paragraph at lines 473--500
+Overfull \hbox (8.97353pt too wide) in paragraph at lines 472--499
  [][] 
  []
 
 [15] [16]
-<r4ss/plots_mod1/yield1_yield_curve.png, id=479, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/yield1_yield_curve.png, id=484, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
 <use r4ss/plots_mod1/yield1_yield_curve.png>
 Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 664.
+line 663.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [17] [18 <./r4ss/plots_mod1/yield1_yield_curve.png>] [19] [20] [21
 
@@ -1123,18 +1126,18 @@ line 664.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.746 Landings}
+l.745 Landings}
                \label{commercial-fishery-landings} [1]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 746.
+e 745.
 
 LaTeX Warning: Reference `tab:commCatches' on page 2 undefined on input line 78
-2.
+1.
 
 
-LaTeX Warning: Reference `:' on page 2 undefined on input line 787.
+LaTeX Warning: Reference `:' on page 2 undefined on input line 786.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 787.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 786.
 
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omscmr
@@ -1142,183 +1145,206 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 787.
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 787.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 786.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.826 
+l.825 
        [2]
 
 Package nag Warning: There is no environment ``centering''.
-(nag)                Maybe you want a grouped \centering  on input line 833.
+(nag)                Maybe you want a grouped \centering  on input line 853.
 
 [3] [4]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 951.
 
-LaTeX Warning: Reference `fig:comp_lendat_aggregated_across_time' on page 5 und
-efined on input line 950.
 
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omlcmr
+.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 951.
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--996
-
- []
+LaTeX Warning: Reference `tab:Fleet5_lengthsample' on page 6 undefined on input
+ line 1018.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 999--1000
+LaTeX Warning: Reference `tab:Fleet6_lengthsample' on page 6 undefined on input
+ line 1031.
 
- []
+
+LaTeX Warning: Reference `fig:Fleet6_comp_lendat_bubflt6mkt2' on page 6 undefin
+ed on input line 1032.
 
 [6]
 
-LaTeX Warning: Reference `tab:model_params' on page 7 undefined on input line 1
-056.
+LaTeX Warning: Reference `fig:comp_lendat_aggregated_across_time' on page 7 und
+efined on input line 1072.
 
 [7]
-
-LaTeX Warning: Reference `tab:model_params' on page 8 undefined on input line 1
-070.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1105--1106
+Underfull \hbox (badness 10000) in paragraph at lines 1117--1118
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
 
  []
 
+[9]
 
-Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
+LaTeX Warning: Reference `tab:model_params' on page 10 undefined on input line 
+1178.
+
+
+LaTeX Warning: Reference `tab:model_params' on page 10 undefined on input line 
+1192.
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 1220--1221
 
  []
 
 
-LaTeX Warning: Reference `tab:model_params' on page 9 undefined on input line 1
-145.
+Underfull \hbox (badness 10000) in paragraph at lines 1227--1228
+
+ []
 
 
-LaTeX Warning: Reference `tab:like_components' on page 9 undefined on input lin
-e 1146.
+Underfull \hbox (badness 10000) in paragraph at lines 1236--1237
+
+ []
 
 
-LaTeX Warning: Reference `tab:Timeseries_mod1' on page 9 undefined on input lin
-e 1149.
+Underfull \hbox (badness 10000) in paragraph at lines 1243--1244
 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1251--1252
+
+ []
+
+
+LaTeX Warning: Reference `tab:model_params' on page 11 undefined on input line 
+1267.
+
+
+LaTeX Warning: Reference `tab:like_components' on page 11 undefined on input li
+ne 1268.
+
+
+LaTeX Warning: Reference `tab:Timeseries_mod1' on page 11 undefined on input li
+ne 1271.
+
+[11]
 
 LaTeX Warning: Reference `fig:ts11_Age-0_recruits_(1000s)_with_95_asymptotic_in
-tervals' on page 9 undefined on input line 1158.
+tervals' on page 12 undefined on input line 1280.
 
 
-LaTeX Warning: Reference `fig:SR_curve2' on page 9 undefined on input line 1160
-.
+LaTeX Warning: Reference `fig:SR_curve2' on page 12 undefined on input line 128
+2.
 
-[9]
+[12]
 
 LaTeX Warning: Reference `fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_inte
-rvals_intervals' on page 10 undefined on input line 1204.
+rvals_intervals' on page 13 undefined on input line 1326.
 
 
 LaTeX Warning: Reference `fig:ts9_Spawning_depletion_with_95_asymptotic_interva
-ls_intervals' on page 10 undefined on input line 1208.
+ls_intervals' on page 13 undefined on input line 1330.
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1206--1211
+Underfull \hbox (badness 2065) in paragraph at lines 1328--1333
 []\OT1/cmr/m/n/12 The 2018 spawn-ing biomass rel-a-tive to un-fished equi-lib-r
 ium spawn-ing biomass is
  []
 
 
-LaTeX Warning: Reference `fig:yield1_yield_curve' on page 10 undefined on input
- line 1213.
+LaTeX Warning: Reference `fig:yield1_yield_curve' on page 13 undefined on input
+ line 1335.
 
-[10] [11]
-Underfull \vbox (badness 10000) detected at line 1290
- []
-
-[12] [13] [14]
+[13] [14]
 Underfull \vbox (badness 10000) detected at line 1412
  []
 
-[15] [16] [17] [18]
-<Figures/boundary_map.png, id=634, 578.16pt x 722.7pt>
+[15] [16] [17]
+Underfull \vbox (badness 10000) detected at line 1534
+ []
+
+[18] [19] [20] [21]
+<Figures/boundary_map.png, id=650, 578.16pt x 722.7pt>
 File: Figures/boundary_map.png Graphic file (type png)
 <use Figures/boundary_map.png>
-Package pdftex.def Info: Figures/boundary_map.png  used on input line 1511.
+Package pdftex.def Info: Figures/boundary_map.png  used on input line 1633.
 (pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
-<r4ss/plots_mod1/data_plot.png, id=635, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/data_plot.png, id=651, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/data_plot.png Graphic file (type png)
 <use r4ss/plots_mod1/data_plot.png>
-Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 1518
+Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 1640
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/Calcom_vs_Pacfin.png, id=636, 433.62pt x 289.08pt>
+<Figures/Calcom_vs_Pacfin.png, id=652, 433.62pt x 289.08pt>
 File: Figures/Calcom_vs_Pacfin.png Graphic file (type png)
 <use Figures/Calcom_vs_Pacfin.png>
-Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 1525.
+Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 1647.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Catches_original.png, id=637, 433.62pt x 289.08pt>
+<Figures/Catches_original.png, id=653, 433.62pt x 289.08pt>
 File: Figures/Catches_original.png Graphic file (type png)
 <use Figures/Catches_original.png>
-Package pdftex.def Info: Figures/Catches_original.png  used on input line 1532.
+Package pdftex.def Info: Figures/Catches_original.png  used on input line 1654.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Catches_alternate.png, id=638, 433.62pt x 289.08pt>
+<Figures/Catches_alternate.png, id=654, 433.62pt x 289.08pt>
 File: Figures/Catches_alternate.png Graphic file (type png)
 <use Figures/Catches_alternate.png>
-Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 1540
+Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 1662
 .
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[19] [20 <./Figures/boundary_map.png>] [21 <./r4ss/plots_mod1/data_plot.png>] [
-22 <./Figures/Calcom_vs_Pacfin.png>] [23 <./Figures/Catches_original.png>] [24 
-<./Figures/Catches_alternate.png>] [25
+[22] [23 <./Figures/boundary_map.png>] [24 <./r4ss/plots_mod1/data_plot.png>] [
+25 <./Figures/Calcom_vs_Pacfin.png>] [26 <./Figures/Catches_original.png>] [27 
+<./Figures/Catches_alternate.png>] [28
 
 ]
 
 Package nag Warning: 1 complaints in total.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1599.
-[26]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1599.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1721.
+[29]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1721.
 (./00_Assessment_Compile.aux * soulpos - computing points - it may take a few s
 econds *
 \openout4 = `00_Assessment_Compile.upb'.
 
 (./00_Assessment_Compile.upa))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1599.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1599.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1721.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1721.
 
 Package rerunfilecheck Info: File `00_Assessment_Compile.out' has not changed.
-(rerunfilecheck)             Checksum: 84FD5A5B5BECE43E009709B0087A4E3C;11243.
+(rerunfilecheck)             Checksum: 634259E75F1F6C8C4D56EB26EDFC15EB;11526.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1599.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1721.
  ) 
 Here is how much of TeX's memory you used:
- 18439 strings out of 494585
- 307581 string characters out of 6175914
+ 18464 strings out of 494585
+ 308101 string characters out of 6175914
  464916 words of memory out of 5000000
- 21659 multiletter control sequences out of 15000+600000
+ 21677 multiletter control sequences out of 15000+600000
  14442 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,15n,84p,1034b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1343,10 +1369,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/melissa.monk/AppData/Ro
 aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/Users/me
 lissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 tt10.pfb>
-Output written on 00_Assessment_Compile.pdf (52 pages, 2035182 bytes).
+Output written on 00_Assessment_Compile.pdf (55 pages, 2069998 bytes).
 PDF statistics:
- 770 PDF objects out of 1000 (max. 8388607)
- 661 compressed objects within 7 object streams
- 159 named destinations out of 1000 (max. 500000)
- 588 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 788 PDF objects out of 1000 (max. 8388607)
+ 677 compressed objects within 7 object streams
+ 163 named destinations out of 1000 (max. 500000)
+ 596 words of extra memory for PDF output out of 10000 (max. 10000000)
 

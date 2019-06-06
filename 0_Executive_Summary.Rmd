@@ -28,22 +28,16 @@ Since 2000, annual total landings of `r spp` have ranged between
 <!-- ***********This depends on how many plots you need******************** -->
 <!-- ***********Also included is the r4SS plot - keep or remove************ -->
 <!-- ***********CATCH FIGURES********************************************** -->
-```{r, fig.cap= paste(spp, 'catch history for the recreational fleets. \\label{fig:Exec_catch1}',sep=' ')}
-    # CSV: './txt_files/Exec_catch_for_figs.csv'
-    # Note: you cannot have carriage returns in the R options line
-    # Plot washington catches           
-    Plot_catch(Catch_df = Exec_region1_catch)
-```
+![Catch history of `r spp` for the recreational fleet. \label{fig:Exec_catch1}](Figures/rec_exec.png)
 
-```{r, fig.cap=paste('Stacked line plot of', spp,' catch history for the commercial fleets. \\label{fig:Exec_catch2}',sep=' ')}
-    # Plot Oregon catches
-    Plot_catch(Catch_df = Exec_region2_catch)
-```
+
 
 ```{r, include=F, fig.cap=paste('Stacked line plot of', spp, 'catch history from Pt. Conception to the U.S.-Mexico border and catches from Mexican waters. \\label{fig:Exec_catch3}',sep=' ')}
      # Plot California catches  
   #    Plot_catch(Catch_df = Exec_region3_catch)
 ```
+
+![Catch history of `r spp` for the commercial fleet by dead and live landings, and discards. Catches in 1936 and 1946 were minimal. \label{fig:Exec_catch2}](Figures/comm_exec.png)
 
 \FloatBarrier
 
@@ -79,7 +73,7 @@ was at an unfished equilibrium that year.
 
 (Figure \ref{fig:assess_region_map}).
 
-![Map depicting the distribution of California scorpionfish out to 600 ft.  The stock assessment is bounded at Pt. Conception in the north to the U.S./Mexico border in the south.  \label{fig:assess_region_map}](Figures/assess_region_map.png)
+![Map depicting the core distribution of gopher and black-and-yellow rockfishes.  The stock assessment is bounded at Cape Mendocino in the north to the U.S./Mexico border in the south.  \label{fig:assess_region_map}](Figures/assess_region_map.png)
 
 \FloatBarrier
 

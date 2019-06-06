@@ -25,7 +25,7 @@ load("./r4ss/SS_output.RData")
 # ============================================================================= 
 
 # Species, common and scientific
-spp = "GBY rockfish"
+spp = "GBYR"
 spp.sci = "Sebastes carnatus/Sebastes chrysomelas"
   
 # minimum vulnerable age class

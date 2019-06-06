@@ -25,7 +25,7 @@
 # 1. Catch FIGURE(S) ----------------------------------------------------------
 # Required: Read in CSV file, edit this section depending on # of plots!!
 # Read in executive summary catches figure file
-Exec_catch =  read.csv('./txt_files/Exec_catch_for_figs.csv')
+Exec_catch =  read.csv('./txt_files/Alt_catch_streams.csv')
   
 # Assign column names
 colnames(Exec_catch) = c('Year',
@@ -318,40 +318,15 @@ for (model in 1:n_models) {
 
 # Model 1 table
 Recruit_mod1.table = xtable(Recruittab_mod1, 
-                            caption = c(paste('Recent recruitment for the ', 
-                                        mod1_label, '.', sep='')),
+                            caption = 'Recent recruitment for the GBYR assessment.',
                             label = 'tab:Recruit_mod1', digits = 2)   
 
 align(Recruit_mod1.table) = c('l',
                               '>{\\centering}p{.8in}',
                               '>{\\centering}p{1.6in}',
-                              '>{\\centering}p{1.3in}')
+                              '>{\\centering}p{1.6in}')
         
-# Model 2
-if (n_models >= 2) {
-Recruit_mod2.table = xtable(Recruittab_mod2, 
-                            caption=c(paste('Recent recruitment for the ',
-                                      mod2_label,'.',sep='')),
-                            label='tab:Recruit_mod2', digits = 2) 
 
-align(Recruit_mod2.table) = c('l',
-                              '>{\\centering}p{.8in}',
-                              '>{\\centering}p{1.6in}',
-                              '>{\\centering}p{1.3in}')
-}
-
-
-# Model 3
-if (n_models == 3) {
-Recruit_mod3.table = xtable(Recruittab_mod3, 
-                            caption=c(paste('Recent recruitment for the ', 
-                                      mod3_label,'.',sep='')), 
-                            label = 'tab:Recruit_mod3', digits = 2)  
-align(Recruit_mod3.table) = c('l',
-                              '>{\\centering}p{.8in}',
-                              '>{\\centering}p{1.6in}',
-                              '>{\\centering}p{1.3in}')
-}
 
 # =============================================================================
 # Exploitation data -----------------------------------------------------------

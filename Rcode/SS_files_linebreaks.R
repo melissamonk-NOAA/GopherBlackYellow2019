@@ -63,7 +63,7 @@ do.call(file.remove,list(list.files(linebreak.dir,full.names=TRUE)))
   
 
 # change the model directoy
- mod.dir  = paste(file.path(getwd(),'SS/Base_model'),imod,sep='')
+ mod.dir  = paste(file.path(getwd(),'SS/Base_model1'),sep='')
 
 
    data_file = mod1_dat

@@ -10,8 +10,8 @@
 
 
 ##Map
-A map showing the scope of the assessment and depicting boundaries for fisheries or 
-data collection strata is provided in Figure \ref{fig:boundary_map}.
+A map showing the scope of the assessment and depicting boundary at Pt. Conception for 
+the recreational fishing fleet (Figure \ref{fig:assess_region_map}).
 
 ##Ecosystem Considerations
 In this assessment, ecosystem considerations were not explicitly included in the analysis. 
