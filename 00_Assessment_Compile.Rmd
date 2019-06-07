@@ -34,7 +34,7 @@ bibliography: BibFile.bib
 ```{r}
     # Read in preamble R code - including required libraries and the SS file(s)
     source('./Rcode/Preamble.R')
- 
+    source("./Rcode/MultiHeader.R")
     # Read in data/manipulations for executive summary tables and figures
     # It may take time to edit this file and get it ready for your assessment
     # Make small changes in this file and then try to compile the document

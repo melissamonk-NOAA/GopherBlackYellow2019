@@ -103,7 +103,7 @@ than all other years) (Table \ref{tab:CommCatches}).
 
 Biological data from the commercial fisheries that caught GBYR were extracted from CALCOM 
 on 9 May 2019. The CALCOM length composition data were catch-weighted to "expanded" length 
-the raw lenght composition data. The 2005 assessment used commercial length composition 
+the raw lenght composition data (Table \ref{tab:length_samples_fishery}). The 2005 assessment used commercial length composition 
 informtion from CALCOM, but did not include black-and-yellow rockfish and is not directly
 comparable.  The 2005 assessment used 2 cm length bins from 16-40 cm, where this assessment 
 uses 1 cm length bins from 4-40 cm. Sex was not available for the majority (99.5%) of the 
@@ -111,7 +111,7 @@ commercial length, and the assessment did not find sexual dimorphism in growth f
 species.  We aggregated the commercial length composition among all gears and regions south 
 of Cape Mendocino.
 
-Discard length compositions from WCGOP (2003-2017) were expanded based on the the discard estimates and 
+Discard length compositions from WCGOP (2003-2017) were expanded based on the the discard estimates and
 were aggregated for all regions south of Cape Mendocino and across all fixed gear fisheries.
 
 A total of 46 ages were available for gopher rockfish from the commercial fisheries 2009-2011, 2016, 
@@ -230,7 +230,8 @@ mortality are in Table \ref{tab:Rec_removal}.
 ###Recreational Fishery Length and Age Data
 
 Recreational length composition samples for California were obtained from 
-several sources, depending on the time period and boat mode. This assessment 
+several sources, depending on the time period and boat mode 
+(Table \ref{tab:length_samples_fishery}). This assessment 
 makes use of a much longer time series of length composition data, relative 
 to the previous assessment, as described below. Input sample sizes for recreational 
 length composition data were based on the number of observed trips, when available.
@@ -256,26 +257,34 @@ fish per trip).
 
 Collins and Crooke [-@Collins1978] conducted an onboard observer survey of the CPFV fleet 
 in southern California from 1975-1978.  A total of 1,308 GBYR lengths were available from the 
-study and were assumed to all be from retained fish. 
+study and were assumed to all be from retained fish. Ally et al. [-@Ally1991] conducted an 
+onboard observer program of thee CPFV fleet from 1985-1987 in southern California.  Becuase 
+MRFSS data were available for this time period as well and represents multiple recreational 
+modes, the Ally et al. [-@Ally1991] length data were not used in the assessment.
 
 
 *MRFSS Recreational Length Data, 1980-1989 and 1993-2003*
 
 Unsexed length data of retained fish were collected by MRFSS dockside samplers 
 and downloaded from the RecFIN website. We identified a subset of lengths that were 
-converted from weight measurements, and these were excluded from the final data set. 
+converted from weight measurements, and these were excluded from the final data set 
+(Table \ref{tab:length_sample_fishery}). The length measurements from
+Collins and Crooke [-@Collins1978] from 1975-1978 are assumed to all be from retained fish. 
+As of 2003, the CDFW Onboard Observer program has taken length measurements for discarded fish. 
+The retained catch is measured during the dockside (angler intercept) surveys.
 
+The number of trips used as initial sample sizes for the MRFSS was based on....
 
-(Table \ref{tab:Fleet5_lengthsample}). The length measurements from
-Collins and Crooke [-@Collins1978] are assumed to all be from retained fish. 
-
-
-
-As of 2003, Onboard Observer program has taken length measurements for discarded fish. 
-The retained catch is measured during the dockside (angler intercept) surveys, 
-and cannot necessarily be matched to a trip with the discard lengths prior to 2012. 
-
-
+During the recent restructiong of the CRFS data on RecFIN, a "trip" identifier was not 
+carried over for all modes, and trip-level sample sizes could not be extracted from the
+biological detail table on RecFIN. A proxy for initial sample sizes for 2004-2018 were 
+developed using the 2015 data for which I had access to raw data files by mode from CDFW.  
+In more recent years, sampling of the shore-based modes has declined and 
+were not sampled at all in 2018.  Samples sizes were calculated by mode as the number of 
+port-days (or site-days for shore-based modes) during bi-weekly intervals 
+(e.g., Jan 1-15, Jan 16-31, etc).  The number of port-days sampled in the bi-weekly intervals 
+was used as the initial sample size for number of trips to calculate initial input sample sizes 
+using Ian Stewart's method (described above). All lenght data were re-weighted in the assessment model. 
 
 ###Fishery-Dependent Indices of Abundance
 
@@ -283,7 +292,7 @@ and cannot necessarily be matched to a trip with the discard lengths prior to 20
 
 _Data Source 1 Index Standardization_
 
-
+(Table \ref{'tab:length_samples_survey})
 _Data Source 1 Length Composition_
 
 

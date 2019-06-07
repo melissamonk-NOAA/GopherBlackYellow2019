@@ -94,7 +94,7 @@
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
 \usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
 %\RequirePackage[tagged]{accessibilityMeta}
-
+\usepackage{booktabs} 
 
 \linenumbers                                                      % specify use of line numbers
 
@@ -124,122 +124,101 @@
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING
 INTO THE MAIN TEXT OR TO DEBUG
 
-\begin{longtable}{c>{\centering}p{1in}>{\centering}p{.6in}>{\centering}p{1in}l}
-\caption{Commercial landings and discards (mt) from the commercial 
-                                fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report.} \\ 
+\begin{table}[ht]
+\centering
+\caption{Length composition sample sizes for fishery dependent data. Continuous years begin in 1975. 
+           Recreational north samples include Karpov et al., MRFSS, and CRFS data. 
+           Recreational south samples include Karpov et al., Collins and Crooke unpub.,
+           Ally et al. 1975, MRFSS, and CRFS data.} 
+\label{tab:length_samples_fishery}
+\scalebox{0.76}{
+\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
   \hline
-Year & Landings & Discards & Total Commercial Removals & Source \\ 
-  \hline  \endfirsthead \caption[]{Commercial landings and discards (mt) from the commercial 
-                                fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report.} \label{tab:CommCatches} \\ \hline Year & Landings & Discards & Total Commercial Removals & Source \\ \hline  \endhead \hline \multicolumn{4}{l}{\textit{Continues next page}} \ 
-                                 \endfoot
-                                 \endlastfoot \hline
-1916 & 3.88 & 0.38 & 4.27 & Catch Reconstruction \\ 
-  1917 & 6.03 & 0.59 & 6.63 & Catch Reconstruction \\ 
-  1918 & 7.06 & 0.69 & 7.75 & Catch Reconstruction \\ 
-  1919 & 4.91 & 0.48 & 5.39 & Catch Reconstruction \\ 
-  1920 & 5.01 & 0.49 & 5.50 & Catch Reconstruction \\ 
-  1921 & 4.13 & 0.41 & 4.54 & Catch Reconstruction \\ 
-  1922 & 3.56 & 0.35 & 3.90 & Catch Reconstruction \\ 
-  1923 & 3.84 & 0.38 & 4.22 & Catch Reconstruction \\ 
-  1924 & 2.22 & 0.22 & 2.44 & Catch Reconstruction \\ 
-  1925 & 2.78 & 0.27 & 3.05 & Catch Reconstruction \\ 
-  1926 & 4.48 & 0.44 & 4.92 & Catch Reconstruction \\ 
-  1927 & 3.81 & 0.37 & 4.18 & Catch Reconstruction \\ 
-  1928 & 4.60 & 0.45 & 5.06 & Catch Reconstruction \\ 
-  1929 & 3.81 & 0.37 & 4.18 & Catch Reconstruction \\ 
-  1930 & 5.40 & 0.53 & 5.93 & Catch Reconstruction \\ 
-  1931 & 1.93 & 0.19 & 2.11 & Catch Reconstruction \\ 
-  1932 & 6.24 & 0.61 & 6.85 & Catch Reconstruction \\ 
-  1933 & 2.58 & 0.25 & 2.84 & Catch Reconstruction \\ 
-  1934 & 1.75 & 0.17 & 1.92 & Catch Reconstruction \\ 
-  1935 & 0.43 & 0.04 & 0.47 & Catch Reconstruction \\ 
-  1936 & 0.01 & 0.00 & 0.01 & Catch Reconstruction \\ 
-  1937 & 7.27 & 0.71 & 7.98 & Catch Reconstruction \\ 
-  1938 & 10.29 & 1.01 & 11.30 & Catch Reconstruction \\ 
-  1939 & 13.13 & 1.29 & 14.42 & Catch Reconstruction \\ 
-  1940 & 16.90 & 1.66 & 18.56 & Catch Reconstruction \\ 
-  1941 & 17.06 & 1.67 & 18.73 & Catch Reconstruction \\ 
-  1942 & 8.55 & 0.84 & 9.38 & Catch Reconstruction \\ 
-  1943 & 11.00 & 1.08 & 12.08 & Catch Reconstruction \\ 
-  1944 & 0.05 & 0.00 & 0.05 & Catch Reconstruction \\ 
-  1945 & 0.59 & 0.06 & 0.65 & Catch Reconstruction \\ 
-  1946 & 16.71 & 1.64 & 18.35 & Catch Reconstruction \\ 
-  1947 & 26.71 & 2.62 & 29.33 & Catch Reconstruction \\ 
-  1948 & 23.95 & 2.35 & 26.30 & Catch Reconstruction \\ 
-  1949 & 18.29 & 1.79 & 20.09 & Catch Reconstruction \\ 
-  1950 & 17.15 & 1.68 & 18.83 & Catch Reconstruction \\ 
-  1951 & 24.83 & 2.44 & 27.26 & Catch Reconstruction \\ 
-  1952 & 27.59 & 2.71 & 30.29 & Catch Reconstruction \\ 
-  1953 & 32.30 & 3.17 & 35.47 & Catch Reconstruction \\ 
-  1954 & 40.75 & 4.00 & 44.74 & Catch Reconstruction \\ 
-  1955 & 29.49 & 2.89 & 32.38 & Catch Reconstruction \\ 
-  1956 & 40.66 & 3.99 & 44.65 & Catch Reconstruction \\ 
-  1957 & 37.52 & 3.68 & 41.20 & Catch Reconstruction \\ 
-  1958 & 33.56 & 3.29 & 36.86 & Catch Reconstruction \\ 
-  1959 & 19.62 & 1.92 & 21.54 & Catch Reconstruction \\ 
-  1960 & 11.30 & 1.11 & 12.41 & Catch Reconstruction \\ 
-  1961 & 17.49 & 1.72 & 19.20 & Catch Reconstruction \\ 
-  1962 & 27.18 & 2.67 & 29.85 & Catch Reconstruction \\ 
-  1963 & 22.29 & 2.19 & 24.48 & Catch Reconstruction \\ 
-  1964 & 16.55 & 1.62 & 18.17 & Catch Reconstruction \\ 
-  1965 & 21.50 & 2.11 & 23.61 & Catch Reconstruction \\ 
-  1966 & 13.44 & 1.32 & 14.76 & Catch Reconstruction \\ 
-  1967 & 6.70 & 0.66 & 7.36 & Catch Reconstruction \\ 
-  1968 & 8.29 & 0.81 & 9.10 & Catch Reconstruction \\ 
-  1969 & 9.99 & 0.98 & 10.97 & CALCOM \\ 
-  1970 & 14.21 & 1.39 & 15.60 & CALCOM \\ 
-  1971 & 14.41 & 1.41 & 15.83 & CALCOM \\ 
-  1972 & 19.42 & 1.91 & 21.33 & CALCOM \\ 
-  1973 & 31.43 & 3.08 & 34.51 & CALCOM \\ 
-  1974 & 33.41 & 3.28 & 36.69 & CALCOM \\ 
-  1975 & 33.08 & 3.25 & 36.33 & CALCOM \\ 
-  1976 & 33.90 & 3.33 & 37.23 & CALCOM \\ 
-  1977 & 30.13 & 2.96 & 33.09 & CALCOM \\ 
-  1978 & 43.41 & 4.26 & 47.67 & CALCOM \\ 
-  1979 & 34.24 & 3.36 & 37.60 & CALCOM \\ 
-  1980 & 63.65 & 6.24 & 69.89 & CALCOM \\ 
-  1981 & 52.67 & 5.17 & 57.84 & CALCOM \\ 
-  1982 & 38.96 & 3.82 & 42.78 & CALCOM \\ 
-  1983 & 26.89 & 2.64 & 29.52 & CALCOM \\ 
-  1984 & 14.82 & 1.45 & 16.27 & CALCOM \\ 
-  1985 & 8.42 & 0.83 & 9.25 & CALCOM \\ 
-  1986 & 25.49 & 2.50 & 27.99 & CALCOM \\ 
-  1987 & 34.21 & 3.36 & 37.57 & CALCOM \\ 
-  1988 & 55.73 & 5.47 & 61.20 & CALCOM \\ 
-  1989 & 45.48 & 4.46 & 49.94 & CALCOM \\ 
-  1990 & 46.77 & 4.59 & 51.36 & CALCOM \\ 
-  1991 & 68.85 & 6.75 & 75.60 & CALCOM \\ 
-  1992 & 83.99 & 8.24 & 92.23 & CALCOM \\ 
-  1993 & 74.09 & 7.27 & 81.35 & CALCOM \\ 
-  1994 & 60.06 & 5.89 & 65.95 & CALCOM \\ 
-  1995 & 91.42 & 8.97 & 100.39 & CALCOM \\ 
-  1996 & 94.71 & 9.29 & 104.00 & CALCOM \\ 
-  1997 & 69.37 & 6.81 & 76.18 & CALCOM \\ 
-  1998 & 65.28 & 6.40 & 71.68 & CALCOM \\ 
-  1999 & 62.70 & 6.15 & 68.85 & CALCOM \\ 
-  2000 & 53.91 & 5.29 & 59.20 & CALCOM \\ 
-  2001 & 53.41 & 5.24 & 58.65 & CALCOM \\ 
-  2002 & 42.28 & 4.15 & 46.42 & CALCOM \\ 
-  2003 & 20.18 & 13.04 & 33.22 & CALCOM \& WCGOP \\ 
-  2004 & 26.27 & 2.66 & 28.93 & CALCOM \& WCGOP \\ 
-  2005 & 28.09 & 3.33 & 31.42 & CALCOM \& WCGOP \\ 
-  2006 & 23.87 & 4.10 & 27.96 & CALCOM \& WCGOP \\ 
-  2007 & 30.14 & 4.50 & 34.64 & CALCOM \& WCGOP \\ 
-  2008 & 36.06 & 1.63 & 37.69 & CALCOM \& WCGOP \\ 
-  2009 & 35.42 & 5.38 & 40.80 & CALCOM \& WCGOP \\ 
-  2010 & 38.65 & 3.92 & 42.57 & CALCOM \& WCGOP \\ 
-  2011 & 42.28 & 5.72 & 48.01 & CALCOM \& WCGOP \\ 
-  2012 & 33.46 & 1.93 & 35.39 & CALCOM \& WCGOP \\ 
-  2013 & 33.17 & 2.85 & 36.02 & CALCOM \& WCGOP \\ 
-  2014 & 36.15 & 2.85 & 39.00 & CALCOM \& WCGOP \\ 
-  2015 & 43.18 & 2.93 & 46.11 & CALCOM \& WCGOP \\ 
-  2016 & 36.84 & 2.42 & 39.26 & CALCOM \& WCGOP \\ 
-  2017 & 41.51 & 1.65 & 43.15 & CALCOM \& WCGOP \\ 
-  2018 & 46.08 & 2.54 & 48.62 & CALCOM \& WCGOP \\ 
+   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CALCOM} & \multicolumn{2}{c}{WCGOP} & \multicolumn{2}{c}{Rec North} & \multicolumn{2}{c}{Rec South} & \multicolumn{2}{c}{Deb VW} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+  Year & Trips & Lengths & Trips & Lengths & Trips & Lengths & Trips & Lengths & Trips & Lengths \\ 
+  \hline
+1959 &  &  &  &  &  27 & 271 & 2.10 &  21 &  &  \\ 
+  1960 &  &  &  &  &  39 & 394 & 1.40 &  14 &  &  \\ 
+  1961 &  &  &  &  &   1 &   8 & 0.10 &   1 &  &  \\ 
+  1966 &  &  &  &  &   1 &   7 &  &  &  &  \\ 
+  1975 &  &  &  &  &  &  & 50.00 & 159 &  &  \\ 
+  1976 &  &  &  &  &  &  & 73.00 & 224 &  &  \\ 
+  1977 &  &  &  &  &  &  & 96.00 & 392 &  &  \\ 
+  1978 &  &  &  &  &  &  & 91.00 & 533 &  &  \\ 
+  1979 &  &  &  &  &  &  &  &  &  &  \\ 
+  1980 &  &  &  &  &   4 & 164 & 21.00 &  53 &  &  \\ 
+  1981 &  &  &  &  &   1 &  19 & 30.00 & 100 &  &  \\ 
+  1982 &  &  &  &  &   1 &  50 & 17.00 &  58 &  &  \\ 
+  1983 &  &  &  &  &   6 & 323 & 60.00 & 170 &  &  \\ 
+  1984 &  &  &  &  &  14 & 849 & 42.00 & 150 &  &  \\ 
+  1985 &  &  &  &  &  35 & 1027 & 34.00 & 180 &  &  \\ 
+  1986 &  &  &  &  &  36 & 826 & 28.00 &  86 &  &  \\ 
+  1987 &   2 &  82 &  &  &  28 & 392 & 5.00 &   7 &  14 &  73 \\ 
+  1988 &  &  &  &  &  30 & 303 & 10.00 &  30 &  54 & 664 \\ 
+  1989 &  &  &  &  &  19 & 303 & 7.00 &  11 &  70 & 727 \\ 
+  1990 &  &  &  &  &  &  &  &  &  17 & 109 \\ 
+  1991 &  &  &  &  &  &  &  &  &  38 & 722 \\ 
+  1992 &  56 & 671 &  &  &  &  &  &  &  55 & 838 \\ 
+  1993 & 148 & 1648 &  &  &  14 & 1094 & 8.00 &  24 &  75 & 614 \\ 
+  1994 & 170 & 1379 &  &  &  12 & 608 & 1.00 &  15 &  86 & 735 \\ 
+  1995 & 174 & 1523 &  &  &  &  &  &  &  90 & 1171 \\ 
+  1996 & 256 & 3270 &  &  &  74 & 607 & 14.00 &  32 & 100 & 1364 \\ 
+  1997 & 140 & 1319 &  &  &  95 & 1424 & 7.00 &  23 & 107 & 1415 \\ 
+  1998 & 206 & 2549 &  &  &  89 & 614 & 19.00 &  66 &  83 & 1048 \\ 
+  1999 & 251 & 3283 &  &  &  49 & 1112 & 33.00 & 301 &  &  \\ 
+  2000 & 384 & 4918 &  &  &  21 & 695 & 12.00 &  58 &  &  \\ 
+  2001 & 142 & 2179 &  &  &  46 & 929 & 14.00 &  35 &  &  \\ 
+  2002 &  59 & 870 &  &  &  58 & 1656 & 22.00 &  65 &  &  \\ 
+  2003 &  55 & 625 &  &  &  72 & 1690 & 15.00 & 100 &  &  \\ 
+  2004 &  63 & 770 &  72 & 572 &  19 & 2023 & 3.00 &  42 &  &  \\ 
+  2005 &  72 & 700 &  42 & 260 &  30 & 3217 & 8.00 &  93 &  &  \\ 
+  2006 &  31 & 478 &  42 & 266 &  35 & 3737 & 9.00 & 106 &  &  \\ 
+  2007 &  80 & 1165 &  37 & 268 &  30 & 3200 & 10.00 & 126 &  &  \\ 
+  2008 &  46 & 503 &  12 &  46 &  39 & 4165 & 11.00 & 132 &  &  \\ 
+  2009 &  73 & 854 &  22 & 263 &  43 & 4612 & 15.00 & 184 &  &  \\ 
+  2010 &  75 & 925 &  37 & 344 &  47 & 4992 & 16.00 & 192 &  &  \\ 
+  2011 &  61 & 858 &  68 & 366 &  44 & 4692 & 22.00 & 270 &  &  \\ 
+  2012 &  57 & 709 &  69 & 302 &  46 & 4904 & 89.00 & 1081 &  &  \\ 
+  2013 &  48 & 581 &  56 & 348 &  40 & 4339 & 77.00 & 930 &  &  \\ 
+  2014 &  15 & 184 &  62 & 388 &  44 & 4746 & 49.00 & 595 &  &  \\ 
+  2015 &  48 & 578 &  93 & 521 &  54 & 5789 & 36.00 & 436 &  &  \\ 
+  2016 &  77 & 928 &  56 & 317 &  58 & 6265 & 37.00 & 444 &  &  \\ 
+  2017 &  67 & 1581 &  49 & 226 &  44 & 4691 & 39.00 & 478 &  &  \\ 
+  2018 &  67 & 1210 &  &  &  33 & 3563 & 26.00 & 317 &  &  \\ 
    \hline
-\hline
-\end{longtable}
+  \end{tabular}
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\caption{Length composition sample sizes for survey data.} 
+\label{tab:length_samples_survey}
+\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
+  \hline
+   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CCFRP} & \multicolumn{2}{c}{PISCO} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5}
+  Year & Trips & Lengths & Trips & Lengths \\ 
+  \hline
+2001 &  &  &  55 & 222 \\ 
+  2002 &  &  &  56 & 438 \\ 
+  2003 &  &  &  64 & 473 \\ 
+  2004 &  &  &  64 & 312 \\ 
+  2005 &  &  &  65 & 241 \\ 
+  2006 &  &  &  68 & 220 \\ 
+  2007 &  35 & 2147 &  68 & 156 \\ 
+  2008 &  52 & 3143 &  67 & 198 \\ 
+  2009 &  35 & 1579 &  68 & 154 \\ 
+  2010 &  32 & 2201 &  58 & 144 \\ 
+  2011 &  32 & 1727 &  68 & 260 \\ 
+  2012 &  32 & 1820 &  40 & 183 \\ 
+  2013 &  32 & 685 &  61 & 258 \\ 
+  2014 &  32 & 1655 &  61 & 313 \\ 
+  2015 &  18 & 1121 &  64 & 622 \\ 
+  2016 &  32 & 2015 &  56 & 346 \\ 
+  2017 &  58 & 2402 &  58 & 317 \\ 
+  2018 &  29 & 1975 &  60 & 264 \\ 
+   \hline
+  \end{tabular}
+\end{table}
 
 \end{document}

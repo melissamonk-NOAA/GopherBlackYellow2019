@@ -106,7 +106,7 @@ Off California in 2019}
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
 \usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
 %\RequirePackage[tagged]{accessibilityMeta}
-
+\usepackage{booktabs} 
 
 \linenumbers                                                      % specify use of line numbers
 
@@ -173,9 +173,9 @@ represent any agency determination or policy.
 
 
 \begin{flushleft}
-%This report may be cited as:
+This report may be cited as:
 
-%Monk, M. H.  and X. He. 2019. Status of Gopher Rockfish (*Sebastes carnatus*) and Black-and-Yellow Rockfish (*Sebastes chrysomelas*) Off the California Coast in 2019. Pacific Fishery Management Council, Portland, OR. Available from http://www.pcouncil.org/groundfish/stock-assessments/
+Monk, M. H.  and X. He. 2019. The Combined Status of Gopher (*Sebastes carnatus*) and Black-and-Yellow Rockfishes (*Sebastes chrysomelas*) in U.S. Waters Off California in 2019. Pacific Fishery Management Council, Portland, OR. Available from http://www.pcouncil.org/groundfish/stock-assessments/
 \end{flushleft}
 
 \maketitle
@@ -859,14 +859,15 @@ Data}\label{commercial-fishery-length-and-age-data}
 Biological data from the commercial fisheries that caught GBYR were
 extracted from CALCOM on 9 May 2019. The CALCOM length composition data
 were catch-weighted to ``expanded'' length the raw lenght composition
-data. The 2005 assessment used commercial length composition informtion
-from CALCOM, but did not include black-and-yellow rockfish and is not
-directly comparable. The 2005 assessment used 2 cm length bins from
-16-40 cm, where this assessment uses 1 cm length bins from 4-44 cm. Sex
-was not available for the majority (99.5\%) of the commercial length,
-and the assessment did not find sexual dimorphism in growth for eithee
-species. We aggregated the commercial length composition among all gears
-and regions south of Cape Mendocino.
+data (Table \ref{tab:length_samples_fishery}). The 2005 assessment used
+commercial length composition informtion from CALCOM, but did not
+include black-and-yellow rockfish and is not directly comparable. The
+2005 assessment used 2 cm length bins from 16-40 cm, where this
+assessment uses 1 cm length bins from 4-40 cm. Sex was not available for
+the majority (99.5\%) of the commercial length, and the assessment did
+not find sexual dimorphism in growth for either species. We aggregated
+the commercial length composition among all gears and regions south of
+Cape Mendocino.
 
 Discard length compositions from WCGOP (2003-2017) were expanded based
 on the the discard estimates and were aggregated for all regions south
@@ -888,26 +889,8 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 
 \end{centering}
 
-\subsubsection{Sport Fishery Removals and
-Discards}\label{sport-fishery-removals-and-discards}
-
-Recreational discards were only added to the California Catch
-Reconstruction landings, as Ralston et al.
-(\protect\hyperlink{ref-Ralston2010}{2010}) did not address discards for
-the recreational recontruction. Recreational removals from the
-California Department of Fish and Wildlife MRFSS era (1980-2003)
-includes catch type A + B1. Catch type A refers to estimates of catch
-based on sampler-examined catch. Catch type B1 includes mainly
-angler-reported discard, but also angler-reported retained fish that
-were unavailable to the sampler during the interview (e.g., fillets).
-(2004-2018) databases. The CRFS era removals account for
-depth-stratified discard mortality rate and the catch time series
-includes both retained and discarded catch (toal mortality). We
-calculated the ratio of dead discards to total mortality from the CRFS
-era by region and mode. The region average across modes was applied to
-the California Catch Reconstruction as a constant. The result added
-4.68\% annually to recreational removals north of Pt. Conception and
-4.05\% annutally to the removals South of Pt. Conception).
+\subsubsection{Recreational Fishery Removals and
+Discards}\label{recreational-fishery-removals-and-discards}
 
 \emph{Historical recreational landings and discard, 1928-1980}
 
@@ -999,20 +982,37 @@ done for the California Catch Recontruction and MRFSS time series.
 
 \emph{Recreational Discard}
 
-Estimates of discards were not available prior to 1980. The final time
-series of landings and discard mortality are in Table
+Recreational discards were only added to the California Catch
+Reconstruction landings, as Ralston et al.
+(\protect\hyperlink{ref-Ralston2010}{2010}) did not address discards for
+the recreational recontruction. Recreational removals from the
+California Department of Fish and Wildlife MRFSS era (1980-2003)
+includes catch type A + B1. Catch type A refers to estimates of catch
+based on sampler-examined catch. Catch type B1 includes mainly
+angler-reported discard, but also angler-reported retained fish that
+were unavailable to the sampler during the interview (e.g., fillets).
+(2004-2018) databases. The CRFS era removals account for
+depth-stratified discard mortality rate and the catch time series
+includes both retained and discarded catch (toal mortality). We
+calculated the ratio of dead discards to total mortality from the CRFS
+era by region and mode. The region average across modes was applied to
+the California Catch Reconstruction as a constant. The result added
+4.68\% annually to recreational removals north of Pt. Conception and
+4.05\% annutally to the removals South of Pt. Conception). The final
+time series of landings and discard mortality are in Table
 \ref{tab:Rec_removal}.
 
 \subsubsection{Recreational Fishery Length and Age
 Data}\label{recreational-fishery-length-and-age-data}
 
 Recreational length composition samples for California were obtained
-from several sources, depending on the time period and boat mode. This
-assessment makes use of a much longer time series of length composition
-data, relative to the previous assessment, as described below. Input
-sample sizes for recreational length composition data were based on the
-number of observed trips, when available. Other proxies that were used
-to estimate the number of trips are described below.
+from several sources, depending on the time period and boat mode (Table
+\ref{tab:length_samples_fishery}). This assessment makes use of a much
+longer time series of length composition data, relative to the previous
+assessment, as described below. Input sample sizes for recreational
+length composition data were based on the number of observed trips, when
+available. Other proxies that were used to estimate the number of trips
+are described below.
 
 There were no standardized coastwide surveys measure retained or
 discarded fish from the recreational fleet prior to 1980.
@@ -1061,7 +1061,8 @@ Abundance}\label{fishery-dependent-indices-of-abundance}
 
 \emph{Data Source 1 Index Standardization}
 
-\emph{Data Source 1 Length Composition}
+(Table \ref{'tab:length_samples_survey}) \emph{Data Source 1 Length
+Composition}
 
 \textbf{Data Source 2}
 
@@ -1521,6 +1522,72 @@ Year & Landings & Discards & Total Commercial Removals & Source \\
 
 \FloatBarrier
 
+\begin{table}[ht]
+\centering
+\caption{Length composition sample sizes for fishery dependent data. Continuous years begin in 1975. 
+           Recreational north samples include Karpov et al., MRFSS, and CRFS data. 
+           Recreational south samples include Karpov et al., Collins and Crooke unpub.,
+           Ally et al. 1975, MRFSS, and CRFS data.} 
+\label{tab:length_samples_fishery}
+\scalebox{0.76}{
+\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
+  \hline
+   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CALCOM} & \multicolumn{2}{c}{WCGOP} & \multicolumn{2}{c}{Rec North} & \multicolumn{2}{c}{Rec South} & \multicolumn{2}{c}{Deb VW} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5} \cmidrule(lr){6-7} \cmidrule(lr){8-9} \cmidrule(lr){10-11}
+  Year & Trips & Lengths & Trips & Lengths & Trips & Lengths & Trips & Lengths & Trips & Lengths \\ 
+  \hline
+1959 &  &  &  &  &  27 & 271 & 2.10 &  21 &  &  \\ 
+  1960 &  &  &  &  &  39 & 394 & 1.40 &  14 &  &  \\ 
+  1961 &  &  &  &  &   1 &   8 & 0.10 &   1 &  &  \\ 
+  1966 &  &  &  &  &   1 &   7 &  &  &  &  \\ 
+  1975 &  &  &  &  &  &  & 50.00 & 159 &  &  \\ 
+  1976 &  &  &  &  &  &  & 73.00 & 224 &  &  \\ 
+  1977 &  &  &  &  &  &  & 96.00 & 392 &  &  \\ 
+  1978 &  &  &  &  &  &  & 91.00 & 533 &  &  \\ 
+  1979 &  &  &  &  &  &  &  &  &  &  \\ 
+  1980 &  &  &  &  &   4 & 164 & 21.00 &  53 &  &  \\ 
+  1981 &  &  &  &  &   1 &  19 & 30.00 & 100 &  &  \\ 
+  1982 &  &  &  &  &   1 &  50 & 17.00 &  58 &  &  \\ 
+  1983 &  &  &  &  &   6 & 323 & 60.00 & 170 &  &  \\ 
+  1984 &  &  &  &  &  14 & 849 & 42.00 & 150 &  &  \\ 
+  1985 &  &  &  &  &  35 & 1027 & 34.00 & 180 &  &  \\ 
+  1986 &  &  &  &  &  36 & 826 & 28.00 &  86 &  &  \\ 
+  1987 &   2 &  82 &  &  &  28 & 392 & 5.00 &   7 &  14 &  73 \\ 
+  1988 &  &  &  &  &  30 & 303 & 10.00 &  30 &  54 & 664 \\ 
+  1989 &  &  &  &  &  19 & 303 & 7.00 &  11 &  70 & 727 \\ 
+  1990 &  &  &  &  &  &  &  &  &  17 & 109 \\ 
+  1991 &  &  &  &  &  &  &  &  &  38 & 722 \\ 
+  1992 &  56 & 671 &  &  &  &  &  &  &  55 & 838 \\ 
+  1993 & 148 & 1648 &  &  &  14 & 1094 & 8.00 &  24 &  75 & 614 \\ 
+  1994 & 170 & 1379 &  &  &  12 & 608 & 1.00 &  15 &  86 & 735 \\ 
+  1995 & 174 & 1523 &  &  &  &  &  &  &  90 & 1171 \\ 
+  1996 & 256 & 3270 &  &  &  74 & 607 & 14.00 &  32 & 100 & 1364 \\ 
+  1997 & 140 & 1319 &  &  &  95 & 1424 & 7.00 &  23 & 107 & 1415 \\ 
+  1998 & 206 & 2549 &  &  &  89 & 614 & 19.00 &  66 &  83 & 1048 \\ 
+  1999 & 251 & 3283 &  &  &  49 & 1112 & 33.00 & 301 &  &  \\ 
+  2000 & 384 & 4918 &  &  &  21 & 695 & 12.00 &  58 &  &  \\ 
+  2001 & 142 & 2179 &  &  &  46 & 929 & 14.00 &  35 &  &  \\ 
+  2002 &  59 & 870 &  &  &  58 & 1656 & 22.00 &  65 &  &  \\ 
+  2003 &  55 & 625 &  &  &  72 & 1690 & 15.00 & 100 &  &  \\ 
+  2004 &  63 & 770 &  72 & 572 &  19 & 2023 & 3.00 &  42 &  &  \\ 
+  2005 &  72 & 700 &  42 & 260 &  30 & 3217 & 8.00 &  93 &  &  \\ 
+  2006 &  31 & 478 &  42 & 266 &  35 & 3737 & 9.00 & 106 &  &  \\ 
+  2007 &  80 & 1165 &  37 & 268 &  30 & 3200 & 10.00 & 126 &  &  \\ 
+  2008 &  46 & 503 &  12 &  46 &  39 & 4165 & 11.00 & 132 &  &  \\ 
+  2009 &  73 & 854 &  22 & 263 &  43 & 4612 & 15.00 & 184 &  &  \\ 
+  2010 &  75 & 925 &  37 & 344 &  47 & 4992 & 16.00 & 192 &  &  \\ 
+  2011 &  61 & 858 &  68 & 366 &  44 & 4692 & 22.00 & 270 &  &  \\ 
+  2012 &  57 & 709 &  69 & 302 &  46 & 4904 & 89.00 & 1081 &  &  \\ 
+  2013 &  48 & 581 &  56 & 348 &  40 & 4339 & 77.00 & 930 &  &  \\ 
+  2014 &  15 & 184 &  62 & 388 &  44 & 4746 & 49.00 & 595 &  &  \\ 
+  2015 &  48 & 578 &  93 & 521 &  54 & 5789 & 36.00 & 436 &  &  \\ 
+  2016 &  77 & 928 &  56 & 317 &  58 & 6265 & 37.00 & 444 &  &  \\ 
+  2017 &  67 & 1581 &  49 & 226 &  44 & 4691 & 39.00 & 478 &  &  \\ 
+  2018 &  67 & 1210 &  &  &  33 & 3563 & 26.00 & 317 &  &  \\ 
+   \hline
+  \end{tabular}
+}
+\end{table}
+
 \FloatBarrier
 \newpage
 
@@ -1632,7 +1699,37 @@ Year & North of Pt. Conception & South of Pt. Conception & Total Recreational Re
 \newpage
 
 \FloatBarrier
-<!-- ********************************************************************** -->
+
+\begin{table}[ht]
+\centering
+\caption{Length composition sample sizes for survey data.} 
+\label{tab:length_samples_survey}
+\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
+  \hline
+   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CCFRP} & \multicolumn{2}{c}{PISCO} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5}
+  Year & Trips & Lengths & Trips & Lengths \\ 
+  \hline
+2001 &  &  &  55 & 222 \\ 
+  2002 &  &  &  56 & 438 \\ 
+  2003 &  &  &  64 & 473 \\ 
+  2004 &  &  &  64 & 312 \\ 
+  2005 &  &  &  65 & 241 \\ 
+  2006 &  &  &  68 & 220 \\ 
+  2007 &  35 & 2147 &  68 & 156 \\ 
+  2008 &  52 & 3143 &  67 & 198 \\ 
+  2009 &  35 & 1579 &  68 & 154 \\ 
+  2010 &  32 & 2201 &  58 & 144 \\ 
+  2011 &  32 & 1727 &  68 & 260 \\ 
+  2012 &  32 & 1820 &  40 & 183 \\ 
+  2013 &  32 & 685 &  61 & 258 \\ 
+  2014 &  32 & 1655 &  61 & 313 \\ 
+  2015 &  18 & 1121 &  64 & 622 \\ 
+  2016 &  32 & 2015 &  56 & 346 \\ 
+  2017 &  58 & 2402 &  58 & 317 \\ 
+  2018 &  29 & 1975 &  60 & 264 \\ 
+   \hline
+  \end{tabular}
+\end{table}
 
 \FloatBarrier
 <!-- ********************************************************************** -->
@@ -1679,7 +1776,8 @@ one commercial fleet. \label{fig:Catches_livedeadNS_gby}}
 \caption{Comparison of the recreational and commercial fishery landings
 from the 2005 assessment to this 2019 assessment. Note that the 2019
 assessment includes both gopher and black-and-yellow rockfish where the
-2005 assessment represents gopher rockfish only.
+2005 assessment represents gopher rockfish only. The 2005 assessment
+also did not include landings from south of Pt. Conception.
 \label{fig:Assessment_compare}}
 \end{figure}
 
