@@ -43,89 +43,18 @@ bibliography: BibFile.bib
 
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
+```{r}
+#read in index summary data
+Index_summary = read.csv('./txt_files/Index_summary.csv')
 
-```{r, results = 'asis'}
-#Read in lengths table, make one for n fish lengthed and one for trips
-#Fishery dependent data
-lengths_sample = read.csv('C:/GopherBlackYellow2019/txt_files/LengthSampleSize2.csv')
-lengths_sample = lengths_sample[,1:11]
-#Make the multiheader table
-colnames(lengths_sample) = c('Year','Trips','Lengths','Trips','Lengths','Trips','Lengths',
-                                 'Trips','Lengths','Trips','Lengths')
 
-a_header <- construct_header(
-  # the data.frame or matrix that should be plotted
-  lengths_sample,
-  # the labels of the groups that we want to insert
-  grp_names = c("", "CALCOM", "WCGOP","Rec North","Rec South",
-                     "Deb VW"),
-  # the number of columns each group spans
-  span = c(1, 2, 2, 2, 2, 2),
-  # the alignment of each group, can be a single character (lcr) or a vector
-  align = "c"
-)
+Index_summary.table = xtable(Index_summary,
+                              caption = c("Summary of indices used in this assessment."),
+                              label='tab:Index_summary')
+      
+     
+print(Index_summary.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
 
-caption = "Length composition sample sizes for fishery dependent data. Continuous years begin in 1975. 
-           Recreational north samples include Karpov et al., MRFSS, and CRFS data. 
-           Recreational south samples include Karpov et al., Collins and Crooke unpub.,
-           Ally et al. 1975, MRFSS, and CRFS data."
-
-lengths.table = xtable(lengths_sample,
-                    caption = caption,
-                    label = 'tab:length_samples_fishery')
-
-align(lengths.table) = c('l', 'l',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}')
-
-print(lengths.table, add.to.row = a_header, 
-      caption.placement = "top", 
-      include.rownames = F, hline.after = F, scalebox = .76)
 ```
-
-```{r, results = 'asis'}
-#Read in lengths table, make one for n fish lengthed and one for trips
-#Fishery independent data
-lengths_sample1 = read.csv('C:/GopherBlackYellow2019/txt_files/LengthSampleSize2.csv')
-lengths_sample1 = lengths_sample1 %>%
-                  select(Year, CCFRPT:PISCOF) %>%
-                  filter(Year>2000)
-#Make the multiheader table
-colnames(lengths_sample1) = c('Year','Trips','Lengths','Trips','Lengths')
-
-a_header <- construct_header(
-  # the data.frame or matrix that should be plotted
-  lengths_sample1,
-  # the labels of the groups that we want to insert
-  grp_names = c("","CCFRP","PISCO"),
-  # the number of columns each group spans
-  span = c(1, 2, 2),
-  # the alignment of each group, can be a single character (lcr) or a vector
-  align = "c"
-)
-
-caption = "Length composition sample sizes for survey data."
-
-lengths.table = xtable(lengths_sample1,
-                    caption = caption,
-                    label = 'tab:length_samples_survey')
-
-align(lengths.table) = c('l', 'l',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}')
-
-print(lengths.table, add.to.row = a_header, 
-      caption.placement = "top", 
-      include.rownames = F, hline.after = F)
-```
-

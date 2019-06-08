@@ -209,9 +209,48 @@ print(lengths.table, add.to.row = a_header,
 
 \FloatBarrier
 <!-- ********************************************************************** -->
-<!-- *****Fleet xx index TABLES******* -->
+<!-- *****Index TABLES with all indices - summary and index values******* -->
 <!-- ********************************************************************** -->
 
+<!--Index summary tables-->
+
+
+
+
+<!--Table with all index values-->
+```{r, results = 'asis'}
+#Read in indices table, contains index data for all indices
+Indices = read.csv('./txt_files/Indices.csv')
+
+#Make the multiheader table
+colnames(Indices) = c('Year',"Obs","se_log","Obs","se_log"
+                             ,"Obs","se_log","Obs","se_log"
+                             ,"Obs","se_log","Obs","se_log"
+                             ,"Obs","se_log")
+
+a_header <- construct_header(
+  # the data.frame or matrix that should be plotted
+  Indices,
+  # the labels of the groups that we want to insert
+  grp_names = c("", "Deb WV", "MRFSS N","MRFSS S","Onboard N",
+                     "Onboard S","CCFRP","PISCO"),
+  # the number of columns each group spans
+  span = c(1, 2, 2, 2, 2, 2, 2, 2),
+  # the alignment of each group, can be a single character (lcr) or a vector
+  align = "c"
+)
+
+caption = "Index inpus."
+
+Indices.table = xtable(Indices,
+                    caption = caption,
+                    label = 'tab:Indices')
+
+
+print(Indices.table, add.to.row = a_header, 
+      caption.placement = "top", 
+      include.rownames = F, hline.after = F, scalebox = .84)
+```
 
 \FloatBarrier
 <!-- ********************************************************************** -->
