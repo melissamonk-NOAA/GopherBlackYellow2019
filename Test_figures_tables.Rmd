@@ -38,23 +38,33 @@ bibliography: BibFile.bib
     # It may take time to edit this file and get it ready for your assessment
     # Make small changes in this file and then try to compile the document
     # Commit when you have a success!
-    source('./Rcode/Exec_summary_figs_tables.R')
+   # source('./Rcode/Exec_summary_figs_tables.R')
 ```
 
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
-```{r}
+```{r, results="asis"}
 #read in index summary data
 Index_summary = read.csv('./txt_files/Index_summary.csv')
 
 
 Index_summary.table = xtable(Index_summary,
-                              caption = c("Summary of indices used in this assessment."),
-                              label='tab:Index_summary')
+                            caption = c("Summary of indices used in this                                                   assessment."),
+                            label='tab:Index_summary')
       
-     
+
+align(Index_summary.table) = c('l', 'r',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{2in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1.5in}')
+
 print(Index_summary.table, 
               include.rownames=FALSE, 
-              caption.placement="top")
-
+              caption.placement="top",
+              floating.environment = 'sidewaystable', 
+              sanitize.text.function = function(x){x}) 
+     
 ```

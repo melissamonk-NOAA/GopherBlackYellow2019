@@ -213,7 +213,31 @@ print(lengths.table, add.to.row = a_header,
 <!-- ********************************************************************** -->
 
 <!--Index summary tables-->
+```{r, results="asis"}
+#read in index summary data
+Index_summary = read.csv('./txt_files/Index_summary.csv')
 
+
+Index_summary.table = xtable(Index_summary,
+                            caption = c("Summary of indices used in this                                                   assessment."),
+                            label='tab:Index_summary')
+      
+
+align(Index_summary.table) = c('l', 'r',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{2in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1in}',
+                               '>{\\centering}p{1.5in}')
+
+print(Index_summary.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              floating.environment = 'sidewaystable', 
+              sanitize.text.function = function(x){x}) 
+     
+```
 
 
 
