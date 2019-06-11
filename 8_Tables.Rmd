@@ -321,7 +321,54 @@ print(Fleet5_AIC.table,
 <!-- ********************************************************************** -->
 <!-- *****Fleets 6 and 7 index TABLES******* -->
 <!-- ********************************************************************** -->
+```{r, results="asis"}
+#read in index summary data for 2 onboard observer indices
+Fleet6_7_Filter = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', 
+                            sheetName='BothFilter', header = T)
 
+Fleet6_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='NorthAIC', header=T)
+Fleet7_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='SouthAIC', header=T)
+
+
+colnames(Fleet6_7_Filter) = c('Filter','Drifts','Positive Drifts')
+Fleet6_7_Filter$Drifts = formatC(Fleet6_7_Filter$Drifts, digits = 0, format='f')
+Fleet6_7_Filter$`Positive Drifts` = formatC(Fleet6_7_Filter$`Positive Drifts`, digits = 0, format='f')
+Fleet6_7_Filter[10,] = c(NA,NA,NA)
+Fleet6_7_Filter[14,] = c(NA,NA,NA)
+Fleet6_7_Filter.table = xtable(Fleet6_7_Filter,
+                       caption = c("Data filtering steps for the CRFS CPFV onboard observer 
+                                        index of abundance for north and south of Pt. Conception."),
+                       label = 'tab:Fleet6_&_Filter')
+align(Fleet6_7_Filter.table) = c('l','l','c','c')
+print(Fleet6_7_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
+
+
+Fleet6_AIC.table = xtable(Fleet6_AIC,
+                            caption = c("Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for north of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet6_AIC')
+
+print(Fleet6_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+
+
+Fleet7_AIC.table = xtable(Fleet7_AIC,
+                            caption = c("Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for south of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet7_AIC')
+
+print(Fleet7_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+     
+```
 
 
 

@@ -53,31 +53,41 @@ Fleet7_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', 
 
 
 colnames(Fleet6_7_Filter) = c('Filter','Drifts','Positive Drifts')
-
 Fleet6_7_Filter$Drifts = formatC(Fleet6_7_Filter$Drifts, digits = 0, format='f')
-
 Fleet6_7_Filter$`Positive Drifts` = formatC(Fleet6_7_Filter$`Positive Drifts`, digits = 0, format='f')
-
+Fleet6_7_Filter[10,] = c(NA,NA,NA)
+Fleet6_7_Filter[14,] = c(NA,NA,NA)
 Fleet6_7_Filter.table = xtable(Fleet6_7_Filter,
                        caption = c("Data filtering steps for the CRFS CPFV onboard observer 
                                         index of abundance for north and south of Pt. Conception."),
                        label = 'tab:Fleet6_&_Filter')
-
-
-#Fleet5_AIC.table = xtable(Fleet5_AIC,
-#                            caption = c("Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
-#                                        index of abundance. Bold values indicate the model selected."),
-#                            label='tab:Fleet5_AIC')
-
-
+align(Fleet6_7_Filter.table) = c('l','l','c','c')
 print(Fleet6_7_Filter.table, 
               include.rownames=FALSE, 
               caption.placement="top")
 
 
-#print(Fleet5_AIC.table, 
-#              include.rownames=FALSE, 
-#              caption.placement="top",
-#              sanitize.text.function = function(x){x})
+Fleet6_AIC.table = xtable(Fleet6_AIC,
+                            caption = c("Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for north of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet6_AIC')
+
+print(Fleet6_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+
+
+Fleet7_AIC.table = xtable(Fleet7_AIC,
+                            caption = c("Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for south of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet7_AIC')
+
+print(Fleet7_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
      
 ```

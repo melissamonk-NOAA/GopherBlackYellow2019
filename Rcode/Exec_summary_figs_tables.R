@@ -117,9 +117,9 @@ align(Exec_catch.table) = c('l', 'l',
   Depletionyrs$upperCI = Depletionyrs$Value - 
                                qnorm(0.025)*Depletionyrs$StdDev
   #Multiple depletion and CI by 100
-  Depletionyrs$Value1   = round(Depletionyrs$Value*100,   digits = 1) 
-  Depletionyrs$lowerCI1 = round(Depletionyrs$lowerCI*100, digits = 1) 
-  Depletionyrs$upperCI1 = round(Depletionyrs$upperCI*100, digits = 1)  
+  Depletionyrs$Value   = round(Depletionyrs$Value*100,   digits = 2) 
+  Depletionyrs$lowerCI = round(Depletionyrs$lowerCI*100, digits = 2) 
+  Depletionyrs$upperCI = round(Depletionyrs$upperCI*100, digits = 2)  
   
   # Save individual depletion tables
   assign(paste('Deplete_', mod_area, sep=''), Depletionyrs)
@@ -168,8 +168,7 @@ Spawn_Deplete_mod1.table = xtable(SpawnDepletemod1,
                            caption = c(paste('Recent trend in beginning of the 
                                       year spawning output and depletion for
                                       the ', mod1_label, ' for ', spp, '.',sep='')), 
-                           label='tab:SpawningDeplete_mod1',
-                            digits = c(0,0,0,0,1,1))  
+                           label='tab:SpawningDeplete_mod1', digits = c(0,0,0,0,2,2))  
 
 # Add column spacing    
 align(Spawn_Deplete_mod1.table) = c('l', 'l', 
