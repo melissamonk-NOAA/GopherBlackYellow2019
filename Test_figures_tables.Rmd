@@ -44,27 +44,40 @@ bibliography: BibFile.bib
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
 ```{r, results="asis"}
-#read in index summary data
-Index_summary = read.csv('./txt_files/Index_summary.csv')
+#read in index summary data for 2 onboard observer indices
+Fleet6_7_Filter = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', 
+                            sheetName='BothFilter', header = T)
+
+Fleet6_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='NorthAIC', header=T)
+Fleet7_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='SouthAIC', header=T)
 
 
-Index_summary.table = xtable(Index_summary,
-                            caption = c("Summary of indices used in this                                                   assessment."),
-                            label='tab:Index_summary')
-      
+colnames(Fleet6_7_Filter) = c('Filter','Drifts','Positive Drifts')
 
-align(Index_summary.table) = c('l', 'r',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{2in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1.5in}')
+Fleet6_7_Filter$Drifts = formatC(Fleet6_7_Filter$Drifts, digits = 0, format='f')
 
-print(Index_summary.table, 
+Fleet6_7_Filter$`Positive Drifts` = formatC(Fleet6_7_Filter$`Positive Drifts`, digits = 0, format='f')
+
+Fleet6_7_Filter.table = xtable(Fleet6_7_Filter,
+                       caption = c("Data filtering steps for the CRFS CPFV onboard observer 
+                                        index of abundance for north and south of Pt. Conception."),
+                       label = 'tab:Fleet6_&_Filter')
+
+
+#Fleet5_AIC.table = xtable(Fleet5_AIC,
+#                            caption = c("Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
+#                                        index of abundance. Bold values indicate the model selected."),
+#                            label='tab:Fleet5_AIC')
+
+
+print(Fleet6_7_Filter.table, 
               include.rownames=FALSE, 
-              caption.placement="top",
-              floating.environment = 'sidewaystable', 
-              sanitize.text.function = function(x){x}) 
+              caption.placement="top")
+
+
+#print(Fleet5_AIC.table, 
+#              include.rownames=FALSE, 
+#              caption.placement="top",
+#              sanitize.text.function = function(x){x})
      
 ```

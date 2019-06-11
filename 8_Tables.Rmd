@@ -278,20 +278,48 @@ print(Indices.table, add.to.row = a_header,
 
 \FloatBarrier
 <!-- ********************************************************************** -->
-<!-- *****Fleet xx index TABLES******* -->
+<!-- *****Fleet 5 index TABLES******* -->
 <!-- ********************************************************************** -->
 
+```{r, results="asis"}
+#read in index summary data for Fleet 5 - Deb's onboard
+Fleet5_Filter = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='Filter', header = T)
+Fleet5_AIC = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='AIC', header=T)
+
+colnames(Fleet5_Filter) = c('Filter','Drifts','Positive Drifts')
+
+Fleet5_Filter$Drifts = formatC(Fleet5_Filter$Drifts, digits = 0, format='f')
+Fleet5_Filter$`Positive Drifts` = formatC(Fleet5_Filter$`Positive Drifts`, digits = 0, format='f')
+
+Fleet5_Filter.table = xtable(Fleet5_Filter,
+                       caption = c("Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance"),
+                       label = 'tab:Fleet5_Filter')
 
 
+Fleet5_AIC.table = xtable(Fleet5_AIC,
+                            caption = c("Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance. Bold values indicate the model selected."),
+                            label='tab:Fleet5_AIC')
+      
 
 
+print(Fleet5_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
 
 
+print(Fleet5_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+     
+```
 
 
 \FloatBarrier
 <!-- ********************************************************************** -->
-<!-- *****Fleet xx index TABLES******* -->
+<!-- *****Fleets 6 and 7 index TABLES******* -->
 <!-- ********************************************************************** -->
 
 

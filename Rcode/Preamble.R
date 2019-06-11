@@ -7,7 +7,7 @@ rm(list=ls(all=TRUE))
 # Load necessary packages
 
 requiredPackages = c('xtable', 'ggplot2', 'reshape2', 'scales', 'tidyr', 'dplyr', 
-                     'stringr', 'tibble')
+                     'stringr', 'tibble', 'xlsx')
 for(p in requiredPackages){
   library(p,character.only = TRUE)
 }

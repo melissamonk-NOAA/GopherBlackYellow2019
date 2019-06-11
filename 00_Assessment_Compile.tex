@@ -1830,6 +1830,44 @@ Fleet & Years & Name & Type & Area & Method & Endorsed \\
 \FloatBarrier
 <!-- ********************************************************************** -->
 
+\begin{table}[ht]
+\centering
+\caption{Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance} 
+\label{tab:Fleet5_Filter}
+\begin{tabular}{lll}
+  \hline
+Filter & Drifts & Positive Drifts \\ 
+  \hline
+Remove errors, missing data & 6691 & 1470 \\ 
+  Remove 1987 (sampled only MNT), 1990-1991 low sample sizes & 4283 & 1372 \\ 
+  Remove reefs that never encountered GBY & 4022 & 1372 \\ 
+  Remove lower and upper 2.5\% of time fished & 3762 & 1300 \\ 
+  Remove depth less than 9 m and greater than 69 m & 3515 & 1279 \\ 
+  Remove reefs with low sample rates & 2411 & 1096 \\ 
+   \hline
+\end{tabular}
+\end{table}\begin{table}[ht]
+\centering
+\caption{Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance. Bold values indicate the model selected.} 
+\label{tab:Fleet5_AIC}
+\begin{tabular}{lll}
+  \hline
+Model & Lognormal & Binomial \\ 
+  \hline
+Year & 2834 & 3330 \\ 
+  Year + Depth & 2781 & 2906 \\ 
+  Year + Reef & 2716 & 2880 \\ 
+  Year + Month & 2839 & 3286 \\ 
+  Year + Depth + Reef & \textbf{2625} & \textbf{2488} \\ 
+  Year + Month+ Reef & 2725 & 2844 \\ 
+  Year + Depth + Month & 2780 & 2902 \\ 
+  Year+ Depth+Month+Reef & 2632 & 2479 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
 \FloatBarrier
 <!-- ********************************************************************** -->
 
