@@ -44,48 +44,50 @@ bibliography: BibFile.bib
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
 ```{r, results="asis"}
-#read in index summary data for 2 onboard observer indices
-Fleet6_7_Filter = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', 
+#read in index summary data for 2 MRFSS dockside indices
+Fleet10_11_Filter = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', 
                             sheetName='BothFilter', header = T)
 
-Fleet6_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='NorthAIC', header=T)
-Fleet7_AIC = read.xlsx('./txt_files/Fleet6and7_OnboardObserver_IndexData.xlsx', sheetName='SouthAIC', header=T)
+Fleet10_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='NorthAIC', header=T)
+Fleet11_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='SouthAIC', header=T)
 
 
-colnames(Fleet6_7_Filter) = c('Filter','Drifts','Positive Drifts')
-#Fleet6_7_Filter$Drifts = formatC(Fleet6_7_Filter$Drifts, digits = 0, format='f')
-#Fleet6_7_Filter$`Positive Drifts` = formatC(Fleet6_7_Filter$`Positive Drifts`, digits = 0, format='f')
-Fleet6_7_Filter[10,] = c(NA,NA,NA)
-Fleet6_7_Filter[14,] = c(NA,NA,NA)
-Fleet6_7_Filter.table = xtable(Fleet6_7_Filter,
-                       caption = c("Data filtering steps for the CRFS CPFV onboard observer 
-                                        index of abundance for north and south of Pt. Conception."),
-                       label = 'tab:Fleet6_7_Filter')
-align(Fleet6_7_Filter.table) = c('l','l','c','c')
-print(Fleet6_7_Filter.table, 
+colnames(Fleet10_11_Filter) = c('Filter','Trips','Positive Trips')
+Fleet10_11_Filter[4,] = c(NA,NA,NA)
+Fleet10_11_Filter[9,] = c(NA,NA,NA)
+
+Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
+                               caption = c("Data filtering steps for the MRFSS dockside intercept survey 
+                                           index of abundance for north and south of Pt. Conception."),
+                               label = 'tab:Fleet10_11_Filter', digits = 0,
+                               format.args = list(big.mark = ",",))
+
+align(Fleet10_11_Filter.table) = c('l','l','c','c')
+
+print(Fleet10_11_Filter.table, 
               include.rownames=FALSE, 
               caption.placement="top")
 
 
-Fleet6_AIC.table = xtable(Fleet6_AIC,
-                            caption = c("Model selection for the CRFS CPFV onboard observer 
-                                        index of abundance for north of Pt. Conception. Bold 
+Fleet10_AIC.table = xtable(Fleet10_AIC,
+                            caption = c("Model selection for the MRFSS dockside intercept survey 
+                                        north of Pt. Conception. Bold 
                                         values indicate the model selected."),
-                            label='tab:Fleet6_AIC')
+                            label='tab:Fleet10_AIC')
 
-print(Fleet6_AIC.table, 
+print(Fleet10_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
               sanitize.text.function = function(x){x})
 
 
-Fleet7_AIC.table = xtable(Fleet7_AIC,
-                            caption = c("Model selection for the CRFS CPFV onboard observer 
-                                        index of abundance for south of Pt. Conception. Bold 
+Fleet11_AIC.table = xtable(Fleet11_AIC,
+                            caption = c("Model selection for the MRFSS dockside intercept 
+                                        survey south of Pt. Conception. Bold 
                                         values indicate the model selected."),
-                            label='tab:Fleet7_AIC')
+                            label='tab:Fleet11_AIC')
 
-print(Fleet7_AIC.table, 
+print(Fleet11_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
               sanitize.text.function = function(x){x})

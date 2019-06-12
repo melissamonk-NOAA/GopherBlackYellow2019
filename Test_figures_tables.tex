@@ -126,66 +126,59 @@ INTO THE MAIN TEXT OR TO DEBUG
 
 \begin{table}[ht]
 \centering
-\caption{Data filtering steps for the CRFS CPFV onboard observer 
-                                        index of abundance for north and south of Pt. Conception.} 
-\label{tab:Fleet6_&_Filter}
+\caption{Data filtering steps for the MRFSS dockside intercept survey 
+                                           index of abundance for north and south of Pt. Conception.} 
+\label{tab:Fleet10_11_Filter}
 \begin{tabular}{lcc}
   \hline
-Filter & Drifts & Positive Drifts \\ 
+Filter & Trips & Positive Trips \\ 
   \hline
-Data from SQL filtered for missing data & 67850 & 9317 \\ 
-  Remove years prior to 2001 and north of Cape Mendocino & 64448 & 9129 \\ 
-  Depth, remove 1\% data on each tail of positive catches & 50846 & 8955 \\ 
-  Time fished, remove 1\% data on each tail & 50100 & 8903 \\ 
-  Observed anglers, remove 1\% data on each tail & 48089 & 8774 \\ 
-  Limit to reefs observering gopher/byel in at least 20 drifts & 29639 & 8025 \\ 
-  Limite to reefs sampled in at least 2/3 of all years & 32672 & 7517 \\ 
-  Limite to drifs within 1000 m of a reef & 27355 & 7358 \\ 
-  Put depth in 10m depth bins, remove 0-9 and 60-69 m bins & 25427 & 7250 \\ 
+All data & 10,392 & 1,061 \\ 
+  Remove north of Cape Mendocino & 10,327 & 1,061 \\ 
+  Remove trips targetting offshore species & 10,122 & 1,061 \\ 
    &  &  \\ 
-  Start of north filtering & 13792 & 6036 \\ 
-  Filter to drifts within 43 m of a reef, 97\% quantile & 13145 & 5854 \\ 
-  Make sure reefs still sampled at least 2/3 of years & 12965 & 5796 \\ 
+  Start northern filtering & 2,788 & 620 \\ 
+  Remove species that never co-occurand  not present in at least 1\% of all & 2,788 & 620 \\ 
+  Stephens-MacCall filter (keep all positives) & 806 & 620 \\ 
+  Stephens-MacCall filter (keep only above threshold) & 623 & 437 \\ 
    &  &  \\ 
-  Start of south filtering & 11635 & 1277 \\ 
-  Filter to drifts with $>$=20\% groundfish and recheck reefs & 5495 & 1171 \\ 
-  Make sure reefs still sampled at least 2/3 of years & 5440 & 1132 \\ 
+  Start southern filtering & 7,334 & 441 \\ 
+  Remove species that never co-occurand  not present in at least 1\% of all & 7,334 & 441 \\ 
+  Stephens-MacCall filter (keep all positives) & 687 & 441 \\ 
+  Stephens-MacCall filter (keep only above threshold) & 430 & 184 \\ 
    \hline
 \end{tabular}
 \end{table}\begin{table}[ht]
 \centering
-\caption{Model selection for the CRFS CPFV onboard observer 
-                                        index of abundance for north of Pt. Conception. Bold 
+\caption{Model selection for the MRFSS dockside intercept survey 
+                                        north of Pt. Conception. Bold 
                                         values indicate the model selected.} 
-\label{tab:Fleet6_AIC}
-\begin{tabular}{lll}
+\label{tab:Fleet10_AIC}
+\begin{tabular}{ll}
   \hline
-Model & Lognormal & Binomial \\ 
+Model & AIC \\ 
   \hline
-Year & 14135 & 17531 \\ 
-  Year + Month & 14120 & 17529 \\ 
-  Year + Depth & 13953 & 17025 \\ 
-  Year + Reef & 14126 & 17293 \\ 
-  Year + Month + Depth & 13951 & 17027 \\ 
-  Year + Month + Depth + Reef & \textbf{13921} & \textbf{16674} \\ 
+Year & 1,481 \\ 
+  Year + Region & 1,429 \\ 
+  Year + Region + Area\_X & 1,403 \\ 
+  Year + Region + Area\_X + Wave & 1,397 \\ 
    \hline
 \end{tabular}
 \end{table}\begin{table}[ht]
 \centering
-\caption{Model selection for the CRFS CPFV onboard observer 
-                                        index of abundance for south of Pt. Conception. Bold 
+\caption{Model selection for the MRFSS dockside intercept 
+                                        survey south of Pt. Conception. Bold 
                                         values indicate the model selected.} 
-\label{tab:Fleet7_AIC}
+\label{tab:Fleet11_AIC}
 \begin{tabular}{lll}
   \hline
 Model & Lognormal & Binomial \\ 
   \hline
-Year & 2798 & 5490 \\ 
-  Year + Month & 2799 & 5487 \\ 
-  Year + Depth & 2744 & 5159 \\ 
-  Year + Reef & 2653 & 5390 \\ 
-  Year + Depth + Reef & \textbf{2652} & \textbf{5071} \\ 
-  Year + Depth + Reef + Month & 2663 & 5072 \\ 
+Year & 911 & 552 \\ 
+  Year+ Wave & 908 & 538 \\ 
+  Year + Wave + Area\_X & 905 & 540 \\ 
+  Year + Wave + Area\_X + SubRegion & \textbf{903} & \textbf{537} \\ 
+  Year + Wave + SubRegion & 908 & 536 \\ 
    \hline
 \end{tabular}
 \end{table}

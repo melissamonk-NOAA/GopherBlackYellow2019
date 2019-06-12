@@ -1872,6 +1872,72 @@ Year & 2834 & 3330 \\
 \FloatBarrier
 <!-- ********************************************************************** -->
 
+\begin{table}[ht]
+\centering
+\caption{Data filtering steps for the CRFS CPFV onboard observer 
+                                        index of abundance for north and south of Pt. Conception.} 
+\label{tab:Fleet6_7_Filter}
+\begin{tabular}{lcc}
+  \hline
+Filter & Drifts & Positive Drifts \\ 
+  \hline
+Data from SQL filtered for missing data & 67850 & 9317 \\ 
+  Remove years prior to 2001 and north of Cape Mendocino & 64448 & 9129 \\ 
+  Depth, remove 1\% data on each tail of positive catches & 50846 & 8955 \\ 
+  Time fished, remove 1\% data on each tail & 50100 & 8903 \\ 
+  Observed anglers, remove 1\% data on each tail & 48089 & 8774 \\ 
+  Limit to reefs observering gopher/byel in at least 20 drifts & 29639 & 8025 \\ 
+  Limite to reefs sampled in at least 2/3 of all years & 32672 & 7517 \\ 
+  Limite to drifs within 1000 m of a reef & 27355 & 7358 \\ 
+  Put depth in 10m depth bins, remove 0-9 and 60-69 m bins & 25427 & 7250 \\ 
+   &  &  \\ 
+  Start of north filtering & 13792 & 6036 \\ 
+  Filter to drifts within 43 m of a reef, 97\% quantile & 13145 & 5854 \\ 
+  Make sure reefs still sampled at least 2/3 of years & 12965 & 5796 \\ 
+   &  &  \\ 
+  Start of south filtering & 11635 & 1277 \\ 
+  Filter to drifts with $>$=20\% groundfish and recheck reefs & 5495 & 1171 \\ 
+  Make sure reefs still sampled at least 2/3 of years & 5440 & 1132 \\ 
+   \hline
+\end{tabular}
+\end{table}\begin{table}[ht]
+\centering
+\caption{Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for north of Pt. Conception. Bold 
+                                        values indicate the model selected.} 
+\label{tab:Fleet6_AIC}
+\begin{tabular}{lll}
+  \hline
+Model & Lognormal & Binomial \\ 
+  \hline
+Year & 14135 & 17531 \\ 
+  Year + Month & 14120 & 17529 \\ 
+  Year + Depth & 13953 & 17025 \\ 
+  Year + Reef & 14126 & 17293 \\ 
+  Year + Month + Depth & 13951 & 17027 \\ 
+  Year + Month + Depth + Reef & \textbf{13921} & \textbf{16674} \\ 
+   \hline
+\end{tabular}
+\end{table}\begin{table}[ht]
+\centering
+\caption{Model selection for the CRFS CPFV onboard observer 
+                                        index of abundance for south of Pt. Conception. Bold 
+                                        values indicate the model selected.} 
+\label{tab:Fleet7_AIC}
+\begin{tabular}{lll}
+  \hline
+Model & Lognormal & Binomial \\ 
+  \hline
+Year & 2798 & 5490 \\ 
+  Year + Month & 2799 & 5487 \\ 
+  Year + Depth & 2744 & 5159 \\ 
+  Year + Reef & 2653 & 5390 \\ 
+  Year + Depth + Reef & \textbf{2652} & \textbf{5071} \\ 
+  Year + Depth + Reef + Month & 2663 & 5072 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
 \FloatBarrier
 
 \newpage
