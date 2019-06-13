@@ -16,8 +16,8 @@ catches = read.csv('Catch_stream_w_alts.csv',header=T)
 #bar plot of original catches
 #-----------------------------------------------------------------------------------
 catches_orig = catches %>%
-               select(Year, RecNorth, RecSouthorig, Calcom, WCGOPdiscard) %>%
-               rename(RecSouth = RecSouthorig, Com = Calcom, ComDisc = WCGOPdiscard) %>%
+               select(Year, RecNorth, RecSouthorig, Commercial, WCGOPdiscard) %>%
+               rename(RecSouth = RecSouthorig, Com = Commercial, ComDisc = WCGOPdiscard) %>%
                gather(Source,mt,RecNorth:ComDisc) 
                
 
@@ -99,9 +99,9 @@ dev.off()
 #plot with alternative catch stream for rec and WCGOP
 #-----------------------------------------------------------------------------------
 catches_orig3 = catches %>%
-  select(Year, RecNorthalt1, RecSouthalt1, Calcom, WCGOPalt1) %>%
+  select(Year, RecNorthalt1, RecSouthalt1, Commercial, WCGOPalt1) %>%
   rename(RecNorth = RecNorthalt1, RecSouth = RecSouthalt1, 
-         Com = Calcom, ComDisc = WCGOPalt1) %>%
+         Com = Commercial, ComDisc = WCGOPalt1) %>%
   gather(Source,mt,RecNorth:ComDisc) 
 
 
@@ -141,6 +141,7 @@ dev.off()
 #-----------------------------------------------------------------------------------
 
 com_compare = catches %>%
+  mutate(Calcom = Calcomdead + Calcomlive) %>%
   select(Year, Calcom, Pacfin) %>%
   rename(CALCOM = Calcom, PacFIN = Pacfin) %>%
   filter(Year>1980) %>%
@@ -252,9 +253,9 @@ dev.off()
 #-----------------------------------------------------------------------------------
 
 assessment_compare = catches %>%
-       select(Year, Calcom, RecNorthalt1, RecSouthalt1, Rec2005, Comm2005) %>%
+       select(Year, Commercial, RecNorthalt1, RecSouthalt1, Rec2005, Comm2005) %>%
       mutate(Rec = RecNorthalt1+RecSouthalt1) %>%
-      rename(Comm_2019 = Calcom, Comm_2005 = Comm2005, Rec_2005 = Rec2005, Rec_2019 = Rec) %>%
+      rename(Comm_2019 = Commercial, Comm_2005 = Comm2005, Rec_2005 = Rec2005, Rec_2019 = Rec) %>%
       select(Year, Comm_2019, Comm_2005, Rec_2019, Rec_2005) %>%
       filter(Year>1964, Year<2005) %>%
       gather(Source,mt, Comm_2019:Rec_2005) 

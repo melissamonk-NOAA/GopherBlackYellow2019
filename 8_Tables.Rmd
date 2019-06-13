@@ -13,9 +13,9 @@
 ```{r, eval=TRUE, echo=FALSE, message=FALSE, warning=FALSE, include=FALSE}
      Comm_removal = read.csv("./txt_files/Catch_stream_w_alts.csv")
       Comm_removal = Comm_removal %>% 
-                     select(Year, Calcom, WCGOPalt1, CommSource) %>%
+                     select(Year, Commercial, WCGOPalt1, CommSource) %>%
                      add_column(Total = 1, .before = 'CommSource') %>%
-                     mutate(Total = Calcom + WCGOPalt1)
+                     mutate(Total = Commercial + WCGOPalt1)
                               
      colnames(Comm_removal) = c('Year',
                                 'Landings',
@@ -29,7 +29,7 @@
    Comm_removal.table = xtable(Comm_removal, 
                     caption = c("Commercial landings and discards (mt) from the commercial 
                                 fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report."))
+                                Reconstruction, CALCOM, PacFIN, and WCGOP GEMM report."))
 
    align(Comm_removal.table) =c('l','c', 
                             '>{\\centering}p{1in}',
@@ -43,7 +43,7 @@
                         paste("\\hline  \\endfirsthead",  # First caption
                                 "\\caption[]{Commercial landings and discards (mt) from the commercial 
                                 fisheries. Data sources are the California Catch 
-                                Reconstruction, CALCOM, and WCGOP GEMM report.} \\label{tab:CommCatches} \\\\ \\hline", # Addit. captions
+                                Reconstruction, CALCOM, PacFIN, and WCGOP GEMM report.} \\label{tab:CommCatches} \\\\ \\hline", # Addit. captions
                                 paste(colnames(Comm_removal)[1], paste("&", colnames(Comm_removal)[2:5], collapse=" ")), # Column names
                                 "\\\\ \\hline ",
                                 "\\endhead", 
@@ -437,6 +437,7 @@ align(Fleet9_Filter.table) = c('l',
                                '>{\\raggedright}p{3.5in}',
                                'c',
                                '>{\\centering}p{1.4in}')
+                   
 print(Fleet9_Filter.table, 
               include.rownames=FALSE, 
               caption.placement="top",

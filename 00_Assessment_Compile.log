@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.29)  12 JUN 2019 17:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.29)  13 JUN 2019 15:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,13 +819,6 @@ Package nag Info: Loaded nag-orthodox.cfg  on input line 552.
 hodox.cfg
 File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
 ))
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/showlabels/
-showlabels.sty
-Package: showlabels 2016/06/09 v1.8
-Package: `showlabels' v1.8 <2016/06/09>
-with amsmath equation tags
-\SL@labelposition=\count151
-)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bo
 oktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -839,48 +832,51 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen169
 \cmidrulekern=\dimen170
 \defaultaddspace=\dimen171
-\@cmidla=\count152
-\@cmidlb=\count153
+\@cmidla=\count151
+\@cmidlb=\count152
 \@aboverulesep=\dimen172
 \@belowrulesep=\dimen173
-\@thisruleclass=\count154
-\@lastruleclass=\count155
+\@thisruleclass=\count153
+\@lastruleclass=\count154
 \@thisrulewidth=\dimen174
 ) (./00_Assessment_Compile.aux
 
-LaTeX Warning: Label `tab:Timeseries_mod1' multiply defined.
+LaTeX Warning: Label `tab:CommCatches' multiply defined.
 
 
-LaTeX Warning: Label `tab:like_profiles' multiply defined.
+LaTeX Warning: Label `tab:CommCatches' multiply defined.
+
+
+LaTeX Warning: Label `tab:Rec_removal' multiply defined.
 
 )
 \openout1 = `00_Assessment_Compile.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
-LaTeX Font Info:    ... okay on input line 130.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 130.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 129.
+LaTeX Font Info:    ... okay on input line 129.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 129.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
 
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr
 .fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    ... okay on input line 129.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -916,7 +912,7 @@ LaTeX Font Info:    ... okay on input line 130.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring ON on input line 130.
+Package hyperref Info: Link coloring ON on input line 129.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -926,11 +922,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count156
+\c@section@level=\count155
 )
-LaTeX Info: Redefining \ref on input line 130.
-LaTeX Info: Redefining \pageref on input line 130.
-LaTeX Info: Redefining \nameref on input line 130.
+LaTeX Info: Redefining \ref on input line 129.
+LaTeX Info: Redefining \pageref on input line 129.
+LaTeX Info: Redefining \nameref on input line 129.
 (./00_Assessment_Compile.out) (./00_Assessment_Compile.out)
 \@outlinefile=\write5
 \openout5 = `00_Assessment_Compile.out'.
@@ -967,48 +963,48 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input
- line 130.
+ line 129.
 Package nag Info: Command \mainmatter not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \backmatter not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 130.
+ line 129.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 130.
+t line 129.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 130.
+t line 129.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 130.
+line 129.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 130.
+line 129.
 <<ot1.cmap>>
-<cover_photo.png, id=262, 668.7384pt x 191.2746pt>
+<cover_photo.png, id=141, 668.7384pt x 191.2746pt>
 File: cover_photo.png Graphic file (type png)
 <use cover_photo.png>
-Package pdftex.def Info: cover_photo.png  used on input line 141.
+Package pdftex.def Info: cover_photo.png  used on input line 140.
 (pdftex.def)             Requested size: 469.76675pt x 134.3641pt.
 File: cover_photo.png Graphic file (type png)
 <use cover_photo.png>
-Package pdftex.def Info: cover_photo.png  used on input line 141.
+Package pdftex.def Info: cover_photo.png  used on input line 140.
 (pdftex.def)             Requested size: 469.76675pt x 134.3641pt.
 File: cover_photo.png Graphic file (type png)
 <use cover_photo.png>
-Package pdftex.def Info: cover_photo.png  used on input line 141.
+Package pdftex.def Info: cover_photo.png  used on input line 140.
 (pdftex.def)             Requested size: 469.76675pt x 134.3641pt.
 File: cover_photo.png Graphic file (type png)
 <use cover_photo.png>
-Package pdftex.def Info: cover_photo.png  used on input line 141.
+Package pdftex.def Info: cover_photo.png  used on input line 140.
 (pdftex.def)             Requested size: 469.76675pt x 134.3641pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 149.
+LaTeX Font Info:    Try loading font information for U+msa on input line 148.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/um
 sa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 149.
+LaTeX Font Info:    Try loading font information for U+msb on input line 148.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/um
 sb.fd
@@ -1023,113 +1019,104 @@ Overfull \hbox (0.71802pt too wide) detected at line 12
  [][][]\OT1/cmr/m/n/12 xvii[][]
  []
 
-[1] [2])
+[1])
 \tf@toc=\write6
 \openout6 = `00_Assessment_Compile.toc'.
 
-[3]<<ot1tt.cmap>>
-<Figures/rec_exec.png, id=364, 433.62pt x 289.08pt>
+[2]
+<Figures/rec_exec.png, id=208, 433.62pt x 289.08pt>
 File: Figures/rec_exec.png Graphic file (type png)
 <use Figures/rec_exec.png>
-Package pdftex.def Info: Figures/rec_exec.png  used on input line 224.
+Package pdftex.def Info: Figures/rec_exec.png  used on input line 223.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/comm_exec.png, id=365, 433.62pt x 289.08pt>
+<Figures/comm_exec.png, id=209, 433.62pt x 289.08pt>
 File: Figures/comm_exec.png Graphic file (type png)
 <use Figures/comm_exec.png>
-Package pdftex.def Info: Figures/comm_exec.png  used on input line 231.
+Package pdftex.def Info: Figures/comm_exec.png  used on input line 230.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 \FloatBarrier
-                    [1]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 237.
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
+l.236 \FloatBarrier
+                    [1]pdfTeX warning (ext4): destination with the same identif
+ier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.237 \FloatBarrier
-                    [2 <./Figures/Rec_exec.png>]pdfTeX warning (ext4): destinat
-ion with the same identifier (name{page.iii}) has been already used, duplicate 
-ignored
-<to be read again> 
-                   \relax 
-l.237 \FloatBarrier
-                    [3 <./Figures/comm_exec.png>]
-<r4ss/plots_mod1/catch2 landings stacked.png, id=383, 469.755pt x 361.35pt>
+l.236 \FloatBarrier
+                    [2 <./Figures/Rec_exec.png>] [3 <./Figures/comm_exec.png>]
+<r4ss/plots_mod1/catch2 landings stacked.png, id=227, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/catch2 landings stacked.png Graphic file (type png)
 <use r4ss/plots_mod1/catch2 landings stacked.png>
 Package pdftex.def Info: r4ss/plots_mod1/catch2 landings stacked.png  used on i
-nput line 241.
+nput line 240.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [4
 
 ] [5 <./r4ss/plots_mod1/catch2 landings stacked.png>]
-<Figures/assess_region_map.png, id=394, 614.295pt x 794.97pt>
+<Figures/assess_region_map.png, id=238, 614.295pt x 794.97pt>
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 284.
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 283.
 
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
 
-LaTeX Warning: Float too large for page by 10.98958pt on input line 289.
+LaTeX Warning: Float too large for page by 10.98958pt on input line 288.
 
 [6] [7 <./Figures/assess_region_map.png (PNG copy)>]
 <r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png
-, id=407, 469.755pt x 361.35pt>
+, id=251, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_interval
 s.png Graphic file (type png)
 <use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
 .png>
 Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 336.
+_intervals_intervals.png  used on input line 335.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png, id=40
-8, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png, id=25
+2, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png G
 raphic file (type png)
 <use r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png>
 Package pdftex.def Info: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_interv
-als_intervals.png  used on input line 344.
+als_intervals.png  used on input line 343.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [8] [9 <./r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_inte
 rvals.png>] [10 <./r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_in
 tervals.png>]
 <r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png, 
-id=430, 469.755pt x 361.35pt>
+id=274, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.
 png Graphic file (type png)
 <use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
 ng>
 Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 384.
+ymptotic_intervals.png  used on input line 383.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [11] [12 <./r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_inte
 rvals.png>]
-<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=444, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=288, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/SPR2_minusSPRseries.png Graphic file (type png)
 <use r4ss/plots_mod1/SPR2_minusSPRseries.png>
 Package pdftex.def Info: r4ss/plots_mod1/SPR2_minusSPRseries.png  used on input
- line 429.
+ line 428.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [13] [14 <./r4ss/plots_mod1/SPR2_minusSPRseries.png>]
-Overfull \hbox (7.6013pt too wide) in paragraph at lines 475--475
+Overfull \hbox (7.6013pt too wide) in paragraph at lines 474--474
  []\OT1/cmr/bx/n/12 Estimate
  []
 
 
-Overfull \hbox (8.97353pt too wide) in paragraph at lines 473--500
+Overfull \hbox (8.97353pt too wide) in paragraph at lines 472--499
  [][] 
  []
 
 [15] [16]
-<r4ss/plots_mod1/yield1_yield_curve.png, id=475, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/yield1_yield_curve.png, id=320, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
 <use r4ss/plots_mod1/yield1_yield_curve.png>
 Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 664.
+line 663.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [17] [18 <./r4ss/plots_mod1/yield1_yield_curve.png>] [19] [20] [21
 
@@ -1137,51 +1124,22 @@ line 664.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.746 Landings}
+l.745 Landings}
                \label{commercial-fishery-landings} [1]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 746.
+e 745.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.809 
-       [2]
-
-LaTeX Warning: Reference `tab:commCatches' on page 3 undefined on input line 81
-1.
-
-
-LaTeX Warning: Reference `:' on page 3 undefined on input line 816.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 816.
-
-
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omscmr
-.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 816.
-
-LaTeX Warning: Reference `tab:CommCatches' on page 3 undefined on input line 85
-4.
-
-
-LaTeX Warning: Reference `tab:length_samples_fishery' on page 3 undefined on in
-put line 862.
-
-[3]
+l.808 
+       [2] [3]
 
 Package nag Warning: There is no environment ``centering''.
-(nag)                Maybe you want a grouped \centering  on input line 884.
-
-
-LaTeX Warning: Reference `tab:Rec_removal' on page 4 undefined on input line 91
-4.
+(nag)                Maybe you want a grouped \centering  on input line 891.
 
 [4]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 965.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 988.
 
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omlcmr
@@ -1189,627 +1147,144 @@ LaTeX Font Info:    Try loading font information for OML+cmr on input line 965.
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 965.
-
-LaTeX Warning: Reference `tab:Rec_removal' on page 5 undefined on input line 97
-7.
-
-[5]
-
-LaTeX Warning: Reference `tab:Rec_removal' on page 6 undefined on input line 10
-03.
-
-
-LaTeX Warning: Reference `tab:length_samples_fishery' on page 6 undefined on in
-put line 1010.
-
-[6]
-
-LaTeX Warning: Reference `tab:length_sample_fishery' on page 7 undefined on inp
-ut line 1053.
-
-
-LaTeX Warning: Reference `tab:Indices' on page 7 undefined on input line 1083.
-
-[7]
-
-LaTeX Warning: Reference `'tab:length_samples_survey' on page 8 undefined on in
-put line 1085.
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
-
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 988.
+[5] [6] [7]
+Underfull \vbox (badness 10000) detected at line 1162
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
-
+[8] [9] [10] [11] [12]
+Underfull \vbox (badness 10000) detected at line 1350
  []
 
+[13
 
-Underfull \hbox (badness 10000) in paragraph at lines 1166--1167
-
- []
-
-[9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 1265--1266
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1272--1273
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 1281--1282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1288--1289
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1296--1297
-
- []
-
-
-LaTeX Warning: Reference `fig:ts11_Age-0_recruits_(1000s)_with_95_asymptotic_in
-tervals' on page 12 undefined on input line 1325.
-
-[12]
-
-LaTeX Warning: Reference `fig:ts9_Spawning_depletion_with_95_asymptotic_interva
-ls_intervals' on page 13 undefined on input line 1375.
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 1373--1378
-[]\OT1/cmr/m/n/12 The 2018 spawn-ing biomass rel-a-tive to un-fished equi-lib-r
-ium spawn-ing biomass is
- []
-
-[13] [14] [15]
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1445--1457
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1457--1460
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1460--1461
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1461--1483
- [] [] [] [] [] [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1483
- []
-
-
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1483--1503
- [] [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1503--1523
- [] [] [] [] [] [] [] [] 
- []
-
-[16
-
-]
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1523--1543
- [] [] [] [] [] [] [] [] 
- []
-
-[17]
-Overfull \hbox (81.6095pt too wide) in alignment at lines 1543--1552
- [] [] [] [] [] [] [] [] 
- []
-
-[18] [19] [20
-
-]
-Overfull \hbox (5.92178pt too wide) in paragraph at lines 1585--1585
- []\OT1/cmr/m/n/12 Spawning 
- []
-
-
-Overfull \hbox (6.0829pt too wide) in paragraph at lines 1585--1585
- []\OT1/cmr/m/n/12 Depletion 
- []
-
-
-Overfull \hbox (5.92178pt too wide) in paragraph at lines 1588--1588
- []\OT1/cmr/m/n/12 Spawning 
- []
-
-
-Overfull \hbox (6.0829pt too wide) in paragraph at lines 1588--1588
- []\OT1/cmr/m/n/12 Depletion 
- []
-
-
-Underfull \vbox (badness 10000) detected at line 1611
- []
-
-[21] [22]
-Overfull \hbox (11.10666pt too wide) in paragraph at lines 1748--1749
+] [14] [15]
+Overfull \hbox (1.54051pt too wide) in paragraph at lines 1467--1480
  [][] 
  []
 
-[23] [24]
-Overfull \hbox (4.26436pt too wide) in paragraph at lines 1764--1764
- []\OT1/cmr/m/n/12 Fleet 
+
+Overfull \hbox (1.69913pt too wide) in paragraph at lines 1533--1534
+ [][] 
  []
 
+[16] [17] [18] [19
 
-Overfull \hbox (16.4059pt too wide) in paragraph at lines 1764--1764
- []\OT1/cmr/m/n/12 Fishery 
- []
-
-
-Overfull \hbox (11.74368pt too wide) in paragraph at lines 1764--1765
- []\OT1/cmr/m/n/12 Endorsed 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1766--1766
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (31.19324pt too wide) in paragraph at lines 1766--1766
- \OT1/cmr/m/n/12 dependent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1767--1767
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (31.19324pt too wide) in paragraph at lines 1767--1767
- \OT1/cmr/m/n/12 dependent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1768--1768
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (31.19324pt too wide) in paragraph at lines 1768--1768
- \OT1/cmr/m/n/12 dependent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1769--1769
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (40.9848pt too wide) in paragraph at lines 1769--1769
- \OT1/cmr/m/n/12 independent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1770--1770
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (40.9848pt too wide) in paragraph at lines 1770--1770
- \OT1/cmr/m/n/12 independent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1771--1771
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (31.19324pt too wide) in paragraph at lines 1771--1771
- \OT1/cmr/m/n/12 dependent 
- []
-
-
-Overfull \hbox (20.32253pt too wide) in paragraph at lines 1772--1772
- []\OT1/cmr/m/n/12 Fishery- 
- []
-
-
-Overfull \hbox (31.19324pt too wide) in paragraph at lines 1772--1772
- \OT1/cmr/m/n/12 dependent 
- []
-
-[25] [26] [27] [28] [29
-
-
-
-
-
-
+] [20] [21
 
 ]
+Overfull \hbox (37.93315pt too wide) in paragraph at lines 1727--1746
+ [][] 
+ []
+
+[22]
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 1947
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 1789
 .
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-<r4ss/plots_mod1/data_plot.png, id=704, 469.755pt x 361.35pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1792
+.
+
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omscmr
+.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1792.
+
+<r4ss/plots_mod1/data_plot.png, id=510, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/data_plot.png Graphic file (type png)
 <use r4ss/plots_mod1/data_plot.png>
-Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 1955
+Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 1797
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/Catches_livedeadNS_gby.png, id=705, 433.62pt x 289.08pt>
+<Figures/Catches_livedeadNS_gby.png, id=511, 433.62pt x 289.08pt>
 File: Figures/Catches_livedeadNS_gby.png Graphic file (type png)
 <use Figures/Catches_livedeadNS_gby.png>
 Package pdftex.def Info: Figures/Catches_livedeadNS_gby.png  used on input line
- 1962.
+ 1804.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/assessment_compare.png, id=706, 433.62pt x 289.08pt>
+<Figures/assessment_compare.png, id=512, 433.62pt x 289.08pt>
 File: Figures/assessment_compare.png Graphic file (type png)
 <use Figures/assessment_compare.png>
-Package pdftex.def Info: Figures/assessment_compare.png  used on input line 197
-1.
+Package pdftex.def Info: Figures/assessment_compare.png  used on input line 181
+3.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Calcom_vs_Pacfin.png, id=707, 433.62pt x 289.08pt>
+<Figures/Calcom_vs_Pacfin.png, id=513, 433.62pt x 289.08pt>
 File: Figures/Calcom_vs_Pacfin.png Graphic file (type png)
 <use Figures/Calcom_vs_Pacfin.png>
-Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 1982.
+Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 1824.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Catches_original.png, id=708, 433.62pt x 289.08pt>
+<Figures/Catches_original.png, id=514, 433.62pt x 289.08pt>
 File: Figures/Catches_original.png Graphic file (type png)
 <use Figures/Catches_original.png>
-Package pdftex.def Info: Figures/Catches_original.png  used on input line 1989.
+Package pdftex.def Info: Figures/Catches_original.png  used on input line 1831.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Catches_alternate.png, id=709, 433.62pt x 289.08pt>
+<Figures/Catches_alternate.png, id=515, 433.62pt x 289.08pt>
 File: Figures/Catches_alternate.png Graphic file (type png)
 <use Figures/Catches_alternate.png>
-Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 1997
+Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 1839
 .
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[30] [31] [32 <./r4ss/plots_mod1/data_plot.png>] [33 <./Figures/Catches_livedea
-dNS_gby.png>] [34 <./Figures/assessment_compare.png>] [35 <./Figures/Calcom_vs_
-Pacfin.png>] [36 <./Figures/Catches_original.png>] [37 <./Figures/Catches_alter
-nate.png>]
-<r4ss/plots_mod1/comp_lendat__aggregated_across_time.png, id=751, 469.755pt x 3
-61.35pt>
-File: r4ss/plots_mod1/comp_lendat__aggregated_across_time.png Graphic file (typ
-e png)
-<use r4ss/plots_mod1/comp_lendat__aggregated_across_time.png>
-Package pdftex.def Info: r4ss/plots_mod1/comp_lendat__aggregated_across_time.pn
-g  used on input line 2020.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[38
+[23] [24] [25 <./r4ss/plots_mod1/data_plot.png>] [26 <./Figures/Catches_livedea
+dNS_gby.png>] [27 <./Figures/assessment_compare.png>] [28 <./Figures/Calcom_vs_
+Pacfin.png>] [29 <./Figures/Catches_original.png>] [30 <./Figures/Catches_alter
+nate.png>] [31
 
-] [39 <./r4ss/plots_mod1/comp_lendat__aggregated_across_time.png>]
-<r4ss/plots_mod1/sel01_multiple_fleets_length1.png, id=761, 469.755pt x 361.35p
-t>
-File: r4ss/plots_mod1/sel01_multiple_fleets_length1.png Graphic file (type png)
-
-<use r4ss/plots_mod1/sel01_multiple_fleets_length1.png>
-Package pdftex.def Info: r4ss/plots_mod1/sel01_multiple_fleets_length1.png  use
-d on input line 2037.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[40 <./r4ss/plots_mod1/sel01_multiple_fleets_length1.png>]
-File: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.
-png Graphic file (type png)
-<use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
-ng>
-Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 2046.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/SR_curve2.png, id=768, 469.755pt x 361.35pt>
-File: r4ss/plots_mod1/SR_curve2.png Graphic file (type png)
-<use r4ss/plots_mod1/SR_curve2.png>
-Package pdftex.def Info: r4ss/plots_mod1/SR_curve2.png  used on input line 2054
-.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[41] [42 <./r4ss/plots_mod1/SR_curve2.png (PNG copy)>]
-<./r4ss/plots_mod1/comp_condAALfit_residsflt12mkt0.png, id=779, 469.755pt x 361
-.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_residsflt12mkt0.png Graphic file (type 
-png)
-<use ./r4ss/plots_mod1/comp_condAALfit_residsflt12mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_residsflt12mkt0.png 
- used on input line 2065.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCom.png, id=780,
- 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCom.png Gra
-phic file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCom.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8
-_condAgeCom.png  used on input line 2072.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page1.png, id=781, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page1.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page1.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_
-page1.png  used on input line 2086.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page2.png, id=782, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page2.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_
-page2.png  used on input line 2095.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png, id
-=783, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.pn
-g Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png
->
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8
-_condAgeRecNorth.png  used on input line 2105.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page1.png, id=784, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page1.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page1.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_
-page1.png  used on input line 2120.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page2.png, id=785, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page2.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_
-page2.png  used on input line 2129.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[43
-
-
- <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt1mkt0_page2.png>] [44 <./r4ss
-/plots_mod1/comp_condAALfit_residsflt12mkt0.png>] [45 <./r4ss/plots_mod1/comp_c
-ondAALfit_data_weighting_TA1.8_condAgeCom.png>] [46 <./r4ss/plots_mod1/comp_con
-dAALfit_Andre_plotsflt1mkt0_page1.png>] [47 <./r4ss/plots_mod1/comp_condAALfit_
-data_weighting_TA1.8_condAgeRecNorth.png>] [48 <./r4ss/plots_mod1/comp_condAALf
-it_Andre_plotsflt3mkt0_page1.png>]
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page3.png, id=822, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page3.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page3.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_
-page3.png  used on input line 2137.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[49 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page2.png>]
-<./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png, id=82
-8, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png G
-raphic file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8
-_condAgeCCFRP.png  used on input line 2147.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page1.png, id=829, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page1.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page1.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_
-page1.png  used on input line 2161.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page2.png, id=830, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page2.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_
-page2.png  used on input line 2170.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[50 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt3mkt0_page3.png>] [51 <./r
-4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png>] [52 <./r
-4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page1.png>]
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page3.png, id=848, 469.7
-55pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page3.png Graphic f
-ile (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page3.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_
-page3.png  used on input line 2178.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[53 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page2.png>]
-<./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png, id=8
-56, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png 
-Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8
-_condAgeDummy1.png  used on input line 2188.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page1.png, id=857, 469.
-755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page1.png Graphic 
-file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page1.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0
-_page1.png  used on input line 2202.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page2.png, id=858, 469.
-755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page2.png Graphic 
-file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0
-_page2.png  used on input line 2211.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[54 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt9mkt0_page3.png>] [55 <./r
-4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png>] [56 <./
-r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page1.png>]
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page3.png, id=876, 469.
-755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page3.png Graphic 
-file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page3.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0
-_page3.png  used on input line 2219.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[57 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page2.png>]
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page4.png, id=882, 469.
-755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page4.png Graphic 
-file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page4.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0
-_page4.png  used on input line 2227.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[58 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page3.png>]
-<./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page5.png, id=888, 469.
-755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page5.png Graphic 
-file (type png)
-<use ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page5.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0
-_page5.png  used on input line 2235.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[59 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page4.png>]
-File: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_interval
-s.png Graphic file (type png)
-<use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
-.png>
-Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 2255.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-File: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png G
-raphic file (type png)
-<use r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png>
-Package pdftex.def Info: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_interv
-als_intervals.png  used on input line 2263.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
-<use r4ss/plots_mod1/yield1_yield_curve.png>
-Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 2271.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[60 <./r4ss/plots_mod1/comp_condAALfit_Andre_plotsflt12mkt0_page5.png>] [61] [6
-2] [63] [64]
-<./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png, id=917, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png  used on in
-put line 2295.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png, id=918, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png  used on in
-put line 2304.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png, id=919, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png  used on in
-put line 2313.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png, id=920, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png  used on in
-put line 2322.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png, id=921, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png  used on in
-put line 2331.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png, id=922, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png  used on in
-put line 2340.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png, id=923, 469.755pt x 361.35pt>
-File: ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png Graphic file (type png)
-<use ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png>
-Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png  used on in
-put line 2349.
-(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[1 <./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png>] [2 <./r4ss/plots_mod1/comp_len
-fit_flt2mkt2.png>] [3 <./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png>] [4 <./r4ss/
-plots_mod1/comp_lenfit_flt4mkt0.png>] [5 <./r4ss/plots_mod1/comp_lenfit_flt5mkt
-0.png>] [6 <./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png>] [7 <./r4ss/plots_mod1/
-comp_lenfit_flt9mkt0.png>]
+]
 
 Package nag Warning: 1 complaints in total.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2414.
-[8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2414.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1919.
+[32]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1919.
 (./00_Assessment_Compile.aux * soulpos - computing points - it may take a few s
 econds *
 \openout4 = `00_Assessment_Compile.upb'.
 
 (./00_Assessment_Compile.upa))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2414.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2414.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1919.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1919.
 
 Package rerunfilecheck Info: File `00_Assessment_Compile.out' has not changed.
-(rerunfilecheck)             Checksum: 38A3308F21EB2E5E2192CC80895F63A5;11809.
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: E952FA437056263B46AB99EF7E61D702;5572.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2414.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1919.
  ) 
 Here is how much of TeX's memory you used:
- 18748 strings out of 494585
- 317838 string characters out of 6175914
- 496968 words of memory out of 5000000
- 21877 multiletter control sequences out of 15000+600000
- 14442 words of font info for 53 fonts, out of 8000000 for 9000
+ 18358 strings out of 494585
+ 305455 string characters out of 6175914
+ 496340 words of memory out of 5000000
+ 21592 multiletter control sequences out of 15000+600000
+ 13937 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,15n,84p,1034b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
- <c:/Users/melissa.monk/Documents/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen
-/ec/tcrm1200.600pk><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/melissa.monk/AppData/Roaming/
-TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/Users/melissa.m
-onk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.
-pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi12.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/Users/melissa.monk/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/meli
-ssa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
-2.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/Users/melissa.monk/AppData/Roa
-ming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/Users/melis
-sa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8
-.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/melissa.monk/AppData/Ro
-aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/Users/me
-lissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-tt10.pfb>
-Output written on 00_Assessment_Compile.pdf (98 pages, 3326269 bytes).
+ 38i,15n,84p,1034b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx12.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/Users/melissa.monk/AppData/Roami
+ng/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/Users/mel
+issa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/melissa.monk/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/Users/m
+elissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr17.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb><c:/Users/melissa.monk/AppData/
+Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/
+melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmsy8.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmti12.pfb>
+Output written on 00_Assessment_Compile.pdf (57 pages, 2081020 bytes).
 PDF statistics:
- 1084 PDF objects out of 1200 (max. 8388607)
- 871 compressed objects within 9 object streams
- 242 named destinations out of 1000 (max. 500000)
- 741 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 649 PDF objects out of 1000 (max. 8388607)
+ 539 compressed objects within 6 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 357 words of extra memory for PDF output out of 10000 (max. 10000000)
 

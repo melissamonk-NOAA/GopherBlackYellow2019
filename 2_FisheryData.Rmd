@@ -18,10 +18,11 @@ been reported consistently by species throughout the available catch history
 that only black-and-yellow rockfish were landed in the commercial fishery, which then 
 switched to predominately gopher rockfish from 1937-1984.  From 1985-1988 the landings 
 data suggest that only black-and-yellow rockfish were landed and not until 1995 are 
-both speices well-represented in the catches. There is not way to tease apart the 
+both species well-represented in the catches. There is not way to tease apart the 
 historical catches by species and even across north and south of Pt. Conception prior 
-to about 1995.  This precludes the ability to model the catch histories for eiether species 
-accurately. Given these constraints, all commercial dats were combined to represent one 
+to about 1995. 
+This precludes the ability to model the catch histories for either species 
+accurately. Given these constraints, all commercial data were combined to represent one 
 one commercial flee in the assessment.
 
 The stock assessment of gopher rockfish in 2005 did not include black-and-yellow rockfish 
@@ -35,48 +36,62 @@ Reconstruction landings estimates [@Ralston2010].
 
 *Commercial Landings Data Sources*
 
-Commercial landings in California are based on two primary data sources: 
-a cooperative port sampling program (California Cooperative Groundfish Survey, 
-[CALCOM](https://calcom.psmfc.org/)) that collects information including species 
-composition data (i.e. the proportion of species landed in a sampling stratum), 
-and landing receipts (sometimes called “fish tickets”) that are a record of pounds 
-landed in a given stratum. Strata 
-in California are defined by market category, year, quarter, gear group, port 
-complex, and disposition (live or dead). Although many market categories are 
-named after actual species, catch in a given market category can consist of 
-several species. All landings used in this assessment are “expanded” landings, 
-i.e., species composition data collected by port samplers were used to allocate 
-pounds recorded on landing receipts to species. Use of the “Gopher Rockfish”
-or the "Black-and-Yellow Rockfish" categories alone to represent actual landings 
-of GBY would not be accurate. See Pearson et al. Appendix C [-@Pearson2008] for 
-a simple example of the expansion calculations. Data from the California Cooperative
-Groundfish Survey, species compositions, and expanded landings estimates are stored in 
-the CALCOM database at the Pacific States Marine Fisheries Commission, a central repository 
-of commercial landings data for the U.S. West Coast.
-
-Commercial catches of black-and-yellow rockfish from 1916-1968 and for gopher rockfish 
-from 1937-1968 were queried (4 April 2019) from the California Catch Reconstruction [@Ralston2010].
+The California Catch Reconstruction [@Ralston2010] contains landings estimates of 
+commercial landings from 1916-1968 and was queried on 4 April 2019 for GBYR.  There 
+were no estimated gopher rockfish landings prior to 1937.
 Landings in this database are divided into trawl and ‘non-trawl.’ Since the majority of 
 GBYR are caught in the commercial fixed gear fisheries, only estimated catch in the 
 ‘non-trawl’ was used.  A total of 0.154 mt (3.18%) were removed from Eureka commercial landings 
 (based on current proportions of commercial catch from north of Cape Mendocino in Eureka) since 
-the assessment represents the GBYR stock south of Cape Mendocino. 
+the assessment represents the GBYR stock south of Cape Mendocino. The majority of GBYR commercial 
+landings (avg. 83%) are landed in the Monterey and Morro Bay port complexes.
 
-Commercial landings from 1969-2018 were queried for a final time from the CALCOM 
-database on 4 April 2019 (Table \ref{tab:commCatches}. Commercial landings were also queried 
-from PacFIN (Pacific Fisheries Information Network) for a final time on 3 June 2019 for comparison 
-to CALCOM landings. There are very small differences in commercial landings between CALCOM and 
-PacFIN from 1981-2018 (Figure \ref:fig:Calcom_vs_Pacfin}).  Landings estimates from CALCOM were 
-used in the assessment. Landings were stratified by year, quarter, live/dead, market category, 
-gear group, port complex, and source of species composition data (actual port samples, borrowed 
-samples, or assumed nominal market category). Data from individual quarters were aggregated at the 
-year level. Fish landed live or dead were combined, due to changes over time in the reliability 
-of condition information (D. Pearson, pers. comm.). From 1916-1968, on average, 74% of GBYR were 
-landed north of Point Conception, which rose to 97% from 1978-2018. Given the smaller landings 
-south of Point Conception and the similar length composition of GBYR north and south of Pt. 
+
+Contemporary landings were extracted from two data sources, 
+the California Cooperative Groundfish Survey, 
+[CALCOM](https://calcom.psmfc.org/)) and the Pacific Fisheries 
+Information Network [PacFIN](https://pacfin.psmfc.org/) landings 
+database.Both databases are based on the same data sources (CALCOM data), but 
+apply a catch expansion based on different algorithms. CALCOM collects 
+information including species 
+composition data (i.e. the proportion of species landed in a sampling stratum), 
+and landing receipts (sometimes called “fish tickets”) that are a record of pounds 
+landed in a given stratum. 
+Strata in California are defined by market category, year, quarter, gear group, port 
+complex, and disposition (live or dead). Although many market categories are 
+named after actual species, catch in a given market category can consist of 
+several species. These data form the basis for the "expanded"" landings,
+i.e., species composition data collected by port samplers were used to allocate 
+pounds recorded on landing receipts to species starting in 1978. 
+Use of the “Gopher Rockfish” or the "Black-and-Yellow Rockfish" categories 
+alone to represent actual landings 
+of GBY would not be accurate. 
+
+See Pearson et al. Appendix C [-@Pearson2008] for a simple example of the expansion 
+calculations for the CALCOM database. A description of the landings in PacFIN 
+can be found in Sampson and Crone [-@Sampson1997].  Both databases, including
+species compositions, and expanded landings estimates are stored at the Pacific 
+States Marine Fisheries Commission, a central repository 
+of commercial landings data for the U.S. West Coast. As a note, CALCOM is the only source for 
+landings from 1969-1980.  
+
+Commercial landings from 1981-2018 were queried for a final time from the CALCOM 
+database on 4 April 2019 and from PacFIN on 3 June 2019. There are very small 
+ifferences in commercial landings between CALCOM and 
+PacFIN from 1981-2018 (Figure \ref{fig:Calcom_vs_Pacfin}).  Landings estimates 
+from PacFIN were used in the assessment (Table \ref{tab:CommCatches}). 
+Landings were stratified by year, quarter, live/dead, market category, 
+gear group, port complex, and source of species composition data (actual port 
+samples, borrowed samples, or assumed nominal market category). Data from 
+individual quarters were aggregated at the year level. Fish landed live 
+or dead were combined, due to changes over time in the reliability of 
+condition information (D. Pearson, pers. comm.). From 1916-1968, on 
+average, 74% of GBYR were landed north of Point Conception, which
+rose to 97% from 1978-2018. Given the smaller landings south of 
+Pt. Conception and the similar length composition of GBYR north and south of Pt. 
 Conception, no spatial separation was considered for the commercial fleet.
 
-
+ 
 ###Commercial Discards
 
 The West Coast Groundfish Observer Program (WCGOP) provides observer data on 
@@ -98,13 +113,13 @@ rate from 2003-2016 (2017 was excluded because 2017 discard mortality was dispro
 than all other years) (Table \ref{tab:CommCatches}).
 
 
-
 ###Commercial Fishery Length and Age Data
 
 Biological data from the commercial fisheries that caught GBYR were extracted from CALCOM 
 on 9 May 2019. The CALCOM length composition data were catch-weighted to "expanded" length 
-the raw lenght composition data (Table \ref{tab:length_samples_fishery}). The 2005 assessment used commercial length composition 
-informtion from CALCOM, but did not include black-and-yellow rockfish and is not directly
+the raw length composition data (Table \ref{tab:length_samples_fishery}). The 2005 assessment
+used commercial length composition 
+information from CALCOM, but did not include black-and-yellow rockfish and is not directly
 comparable.  The 2005 assessment used 2 cm length bins from 16-40 cm, where this assessment 
 uses 1 cm length bins from 4-40 cm. Sex was not available for the majority (99.5%) of the 
 commercial length, and the assessment did not find sexual dimorphism in growth for either 
@@ -139,10 +154,21 @@ were allocated to species based on several sources of species composition data.
 Estimates of GBYR landings and discard (combined) from 1928-1979 are available 
 from the SWFSC. For this assessment, historical recreational catch was stratified 
 by year and area (north and south of Point Conception).  The catches of GBYR 
-reported in Ralston et al. [-@Ralston2010] are higher than expected given the 
-more recent catches of GBYR south of Pt. Conception and the species' ranges 
-(Figure \ref{fig:Catches_original}).  The California Catch Reconstruction used 
-a linear ramp from from 1928-1936 that was not altered in this assessment.  From 1937-1979 linear ramp 
+reported in Ralston et al. [-@Ralston2010] are higher by an order of magnitude than 
+expected given the more recent catches of GBYR in the MRFSS and CRFS eras south of 
+Pt. Conception (Figure \ref{fig:Catches_original}). The recreational catches estimated 
+by Ralston et al. [-@Ralston2010] were discussed with the paper's co-authors and also CPFV 
+captains in California. A consensus was reached that the estimated landings did not 
+accurately represent the historical GBYR landings and an alternative 
+catch stream should be developed. One possibility for the inflated catches of GBYR in 
+southern California is that all nearshore shallow species were combined and all of the 
+nearshore deep species were combined and a constant relative fraction between the two 
+was used to assign catches to each combination of CDFW fishing block and year. The fraction 
+of GBYR within the nearshore shallow species group was likely overestimated.
+
+The California Catch Reconstruction applied 
+a linear ramp from from 1928-1936 that was not altered in this assessment.  
+From 1937-1979 a linear ramp was developed from the 1936 estimate
 to the average recreational landing from 1980 and 1983 (1981-1982 catches 
 interpolated as described in the next section) of 4.3 mt. The recreational catches 
 north of Pt. Conception were not altered from the original catch reconstruction.
@@ -157,8 +183,8 @@ a dockside (angler intercept) sampling program in Washington, Oregon, and Califo
 Data from this survey are available from the Recreational Fisheries Information Network 
 [RecFIN](www.recfin.org). RecFIN serves as a repository for recreational fishery data 
 for California, Oregon, and Washington. Catch estimates for years 1980-2003 were downloaded 
-on 23 March 2019 (), and are consistent with the previous assessment [Key2005]. - 
-need to check again)
+on 23 March 2019, and are consistent from 1992-2004 with the previous assessment [@Key2005]
+(Figure \ref{fig:Assessment_compare}). 
 
 MRFSS-era recreational removals for California were estimated for two regions: 
 north and south of Point Conception. No finer-scale estimates of landings are 
@@ -207,23 +233,23 @@ CRFS data to match the structure of the MRFSS data, by year, and region
 (Table \ref{tab:Rec_removal}.  Catches in the shore-based modes are small 
 compared to the CPFV and private rental modes.  All modes are combined, but separated 
 at Point Conception for two recreational fleets in this assessment, just as was done 
-for the California Catch Recontruction and MRFSS time series.
+for the California Catch Reconstruction and MRFSS time series.
 
 *Recreational Discard*
 
  Recreational discards were only added to the California Catch Reconstruction 
 landings, as Ralston et al. [-@Ralston2010] did not address discards for the 
-recreational recontruction.  Recreational removals from the California Department 
+recreational reconstruction.  Recreational removals from the California Department 
 of Fish and Wildlife MRFSS era (1980-2003) includes catch type A + B1. Catch type 
 A refers to estimates of catch based on sampler-examined catch. Catch type B1 
 includes mainly angler-reported discard, but also angler-reported retained fish 
 that were unavailable to the sampler during the interview (e.g., fillets). 
 (2004-2018) databases. The CRFS era removals account for depth-stratified 
 discard mortality rate and the catch time series includes both retained and 
-discarded catch (toal mortality).  We calculated the ratio of dead discards to 
+discarded catch (tonal mortality).  We calculated the ratio of dead discards to 
 total mortality from the CRFS era by region and mode.  The region average across 
 modes was applied to the California Catch Reconstruction as a constant.  The result 
-added 4.68% annually to recreational removals north of Pt. Conception and 4.05%  annutally 
+added 4.68% annually to recreational removals north of Pt. Conception and 4.05%  annually 
 to the removals South of Pt. Conception). The final time series of landings and discard 
 mortality are in Table \ref{tab:Rec_removal}.
 
@@ -247,8 +273,9 @@ Karpov et al. [-@Karpov1995], who assembled a time series (1959-1972) of availab
 California CPFV length data (made available courtesy 
 of W. Van Buskirk).  For GBYR, data from 1959-1961 and 1966 were available north of Pt. 
 Conception and from 1959-1961 from south of Pt Conception. A total of 716 (680 north of 
-Pt. Conception) unsexed measurement of retained fish (no discards, ) were included in the assessment 
-(Table ). Sampling of these length data did not follow consistent protocol over time and 
+Pt. Conception) unsexed measurement of retained fish (no discards, ) were included in 
+the assessment (Table \ref{tab:length_samples_fishery}). Sampling of these length
+data did not follow consistent protocol over time and 
 areas (data are unweighted), and therefore may not be representative of total catch. Since 
 the number of trips sampled was not reported by Karpov et al. (1995), we assume the number 
 of sampled trips is proportional to the number of measured fish in each year, and estimated 
@@ -258,7 +285,7 @@ fish per trip).
 Collins and Crooke [-@Collins1978] conducted an onboard observer survey of the CPFV fleet 
 in southern California from 1975-1978.  A total of 1,308 GBYR lengths were available from the 
 study and were assumed to all be from retained fish. Ally et al. [-@Ally1991] conducted an 
-onboard observer program of thee CPFV fleet from 1985-1987 in southern California.  Becuase 
+onboard observer program of thee CPFV fleet from 1985-1987 in southern California.  Because 
 MRFSS data were available for this time period as well and represents multiple recreational 
 modes, the Ally et al. [-@Ally1991] length data were not used in the assessment.
 
@@ -268,14 +295,14 @@ modes, the Ally et al. [-@Ally1991] length data were not used in the assessment.
 Unsexed length data of retained fish were collected by MRFSS dockside samplers 
 and downloaded from the RecFIN website. We identified a subset of lengths that were 
 converted from weight measurements, and these were excluded from the final data set 
-(Table \ref{tab:length_sample_fishery}). The length measurements from
+(Table \ref{tab:length_samples_fishery}). The length measurements from
 Collins and Crooke [-@Collins1978] from 1975-1978 are assumed to all be from retained fish. 
 As of 2003, the CDFW Onboard Observer program has taken length measurements for discarded fish. 
 The retained catch is measured during the dockside (angler intercept) surveys.
 
 The number of trips used as initial sample sizes for the MRFSS was based on....
 
-During the recent restructiong of the CRFS data on RecFIN, a "trip" identifier was not 
+During the recent restructuring of the CRFS data on RecFIN, a "trip" identifier was not 
 carried over for all modes, and trip-level sample sizes could not be extracted from the
 biological detail table on RecFIN. A proxy for initial sample sizes for 2004-2018 were 
 developed using the 2015 data for which I had access to raw data files by mode from CDFW.  
@@ -284,7 +311,7 @@ were not sampled at all in 2018.  Samples sizes were calculated by mode as the n
 port-days (or site-days for shore-based modes) during bi-weekly intervals 
 (e.g., Jan 1-15, Jan 16-31, etc).  The number of port-days sampled in the bi-weekly intervals 
 was used as the initial sample size for number of trips to calculate initial input sample sizes 
-using Ian Stewart's method (described above). All lenght data were re-weighted in the assessment model. 
+using Ian Stewart's method (described above). All length data were re-weighted in the assessment model. 
 
 ###Fishery-Dependent Indices of Abundance
 
@@ -299,7 +326,7 @@ Table \ref{tab:Indices})
 
 
 
-(Table \ref{'tab:length_samples_survey})
+(Table \ref{tab:length_samples_survey})
 _Data Source 1 Length Composition_
 
 
