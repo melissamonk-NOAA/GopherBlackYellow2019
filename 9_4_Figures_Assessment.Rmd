@@ -185,10 +185,11 @@ output:
 
 ```{r, results='asis'}
    # select recruitment figure file - RMarkdown as of 2019 doesn't like these file names
-     depletion.file  = 'r4ss/plots_mod1/ts9_Spawning_depletion_with_95_asymptotic_intervals_intervals.png'
+     depletion.file  = 'r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png'
 ```
 
-![Estimated spawning depletion with approximate 95% asymptotic intervals. \label{fig:ts9_Spawning_depletion_with_95_asymptotic_intervals_intervals}](`r depletion.file`)
+
+![Estimated spawning depletion with approximate 95% asymptotic intervals. \label{fig:ts9_unfished_with_95_asymptotic_intervals_intervals}](`r depletion.file`)
 
 
 
