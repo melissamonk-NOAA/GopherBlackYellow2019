@@ -62,16 +62,45 @@ bibliography: BibFile.bib
 ```
 
 
+```{r child = "3_BiologicalData.Rmd"}
+```
+
+```{r child = "4_Assessment.Rmd"}
+```
+
+```{r child = "5_HarvestProjections.Rmd"}
+```
+
+
+```{r child = "6_RegionalManagement.Rmd"}
+```
+
+
+```{r child = "7_ResearchNeeds_Acknowledgements.Rmd"}
+```
+
 #Tables
 
 
-```{r child = "8_Tables.Rmd"}
+```{r child = "8a_Tables.Rmd"}
 ```
 
+```{r child = "8a_Tables.Rmd"}
+```
 
 ```{r child = "9_1_Figures_Intro_FishData.Rmd"}
 ```
 
+
+```{r child = "9_2_Figures_BioData.Rmd"}
+```
+
+
+```{r child = "9_4_Figures_Assessment.Rmd"}
+```
+
+```{r child = "9_9_Appendices.Rmd"}
+```
 
 
 
