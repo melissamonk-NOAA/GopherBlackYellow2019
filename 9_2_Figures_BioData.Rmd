@@ -8,6 +8,11 @@
 ![Length comp data, aggregated across time by fleet. Labels 'retained' and 'discard' indicate discarded or retained sampled for each fleet. Panels without this designation represent the whole catch. \label{fig:comp_lendat_aggregated_across_time}](r4ss/plots_mod1/comp_lendat__aggregated_across_time.png)
 
 
+
+![Available length-at-age data for gopher and black-and-yellow rockfish by sex and data source. The Zaitlin study is all black-and-yellow rockfish.  The remaining plots represent gopher rockfish \label{fig:growth_samples}](Figures/Age_length_by_study)
+
+
+
 <!-- ********************************************************************** -->
 <!-- ****************Aging Precision and Bias FIGURES********************** --> 
 <!-- ********************************************************************** -->

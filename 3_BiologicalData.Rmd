@@ -3,18 +3,29 @@
 <!--************BIOLOGICAL DATA*********************************************-->
 ###Biological Parameters and Data
 
-
+Neither gophr nor black-and-yellow rockfish have forked tails, therefore total 
+legnth and fork length are equal.  All of the data provided for this assessment 
+were either in fork length or total length.
 
 **Length and Age Compositions**
 
 Length compositions were provided from the following sources:
 
 \begin{itemize}[noitemsep,nolistsep,topsep=0pt]
-  \item Source 1 (\emph{type, e.g., commercial dead fish, research, recreational}, yyyy-yyyy)    
-  \item Source 2 (\emph{type}, yyyy-yyyy)    
-  \item Source 3 (\emph{research}, yyyy, yyyy, yyyy, yyyy) 
+  \item CALCOM (\emph{commercial retained dead fish}, 1987, 1992-2018)   
+  \item WCGOP (\emph{commercial discarded fish}, 2004-2018)    
+  \item Deb Wilson-Vandenber's onboard observer survey (\emph{recreational charter retained and discarded catch}, 1987-1998)
+  \item California recreational sources combined (\emph{recreational charter retained catch})     
+    \begin{itemize}[noitemsep,nolistsep]
+      \item Miller and Gotshall dockside survey (1959-1966)    
+      \item Ally  et al. onboard observer survey (1985-1987)
+      \item Collins and Crooke onboard observer survey (1975-1978)     
+      \item MRFSS dockside survey (1980-2003)     
+      \item CRFS onboard and dockside survey (2004-2018)
+    \end{itemize}
+ \item PISCO dive survey (\emph{research}, 2001-2018)      
+ \item CCFRP hook-and-line survey (\emph{research}, 2007-2018)        
 \end{itemize}
-
 
 The length composition of all fisheries aggregated across time by fleet is in Figure
 \ref{fig:comp_lendat_aggregated_across_time}.  Descriptions and details of the length
@@ -24,10 +35,40 @@ composition data are in the above section for each fleet or survey.
 \vspace{.5cm}
 **Age Structures**
 
+A total of 2,467 otoliths were incorporated in this assessment and a 
+summary by source can be found in Table \ref{tab:Age_data}.  Gopher rockfish 
+comprised 80% of the samples (946 females, 901 males, 121 unknown sex), 
+and all but a few black-and-yellow rockfish (247 females, 232 males, 20 
+unknown sex) came from a directed study by Jody Zaitlin [-@Zaitlin1986] 
+(Figure \ref{fig:growth_samples}).
 
-von Bertalanffy growth curve [@vonB1938], $L_i = L_{\infty}e^{(-k[t-t_0])}$, 
-where $L_i$ is the length (cm) at age $i$, $t$ is age in years, $k$ is rate of 
-increase in growth, $t_0$ is the intercept, and $L_{\infty}$ is the asymptotic length.
+Of the available ages, 91% were collected during fishery-independent surveys.  
+An additional 36 otoliths were collected by Cal Poly during their CPFV 
+onboard observer survey in 2018. The remaining 7.5% were from commercial 
+port samples or recreational dockside surveys.
+Black-and-yellows represent 20% of the samples collected, and are mainly derived from 
+Ralph Larson's work in Monterey Bay. 
+
+All otoliths were read by Don Pearson (NMFS SWFSC, now retired) and ages ranged 
+from 1-28. The aged black-and-yellow rockfish 
+ranged in length from 7-32 cm with a mean of 24 cm and gopher rockfish ranged in length 
+from 11-36 cm, with a mean of 26.  In terms of ages, the black-and-yellow rockfish ranged 
+from 2-19 and gophers from 2-28.  Fits to the von Bertalanffy growth curve [@vonB1938], $L_i = L_{\infty}e^{(-k[t-t_0])}$, where $L_i$ is the length (cm) at age $i$, $t$ is age in 
+years, $k$ is rate of increase in growth, $t_0$ is the intercept, and $L_{\infty}$ 
+is the asymptotic length, were explore by species and sex. 
+ 
+
+No significant differences were found in growth between males and females,
+or between gopher and black-and-yellow rockfishes.  
+
+
+
+
+
+
+
+
+
 
 
 

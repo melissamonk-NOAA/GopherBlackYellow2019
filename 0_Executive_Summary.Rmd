@@ -232,8 +232,9 @@ Table \ref{tab:mnmgt_perform}
     # Print management performance table - will have to edit the text file and 
     # R code for this table
     # Edit file: './txt_files/Exec_mngmt_performance.csv'
-    print(mngmnt.table, include.rownames = FALSE, caption.placement = 'top', 
-          sanitize.text.function = function(x){x}, scalebox = .9)
+    print(mngmnt.table, add.to.row = a_header, 
+          include.rownames = FALSE, caption.placement = 'top', 
+          sanitize.text.function = function(x){x})
 ```
 <!-- ***********END EXECUTIVE SUMMARY MANAGEMENT PERFORMANCE TABLE********* -->
 

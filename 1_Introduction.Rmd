@@ -20,76 +20,127 @@ that could contribute ecosystem-related quantitative information for the assessm
 
 
 ##Fishery Information
+NEED TO FINISH 
+  
 The hook-and-line fishery off California developed in the late 19th century 
 [@Love2002]. The rockfish trawl fishery was established in the early 1940s, when the United 
 States became involved in World War II and wartime shortage of red meat created 
 an increased demand for other sources of protein [@Alverson1964; @Harry1961].
 
 Both gopher and black-and-yellow rockfishes comprise minor parts of the Californian sport 
-and commercial fisheries [@Love1987].  Historically, both species were taken by hook-and-line
+and commercial fisheries .  Historically, both species were taken by hook-and-line
 
 
 ##Summary of Management History
-GBYR are federally designated groundfish and 
-part of the \emph{Sebastes} complex, and are managed by the Pacific Fishery 
-Management Council (PFMC). Thus, federal commercial regulations that apply to 
-the \emph{Sebastes} complex apply to gopher and black-and-yellow rockfish. Additionally, 
-the State of California regulates the species for both the commercial and recreational 
-sectors by means of the State Legislature, the Fish and Game Commission (FGC), and the 
-California Department of Fish and Wildlife (CDFW). Because GBY rockfish are members of 
-the \emph{Sebastes} complex, the PFMC has actively managed them under the general umbrella 
-of regulatory measures that applied to the \emph{Sebastes} complex until 2000 (PFMC 2002). 
-In 2000, changes in the PFMC’s rockfish management structure resulted in the discontinued 
-use of the \emph{Sebastes} complex and minor rockfishes, and were replaced with three species 
-groups: nearshore, shelf, and slope rockfishes (January 4, 2000; 65 FR 221), of which GBYR are 
-included in the nearshore group. Within the nearshore group, they are included in the 
-“shallow nearshore rockfish” component. Additionally, north of $40^\circ 10^\prime$ N latitude. 
-latitude (near Cape Mendocino) gopher rockfish are included in the “other nearshore rockfish” 
-group. However, since GBYR are rarely taken in this area of California they essentially 
-do not contribute to the northern California catch.
- 
-Since the early 1980s a variety of federal regulatory measures have been used to manage the 
-rockfishes, including cumulative trip limits (generally for two- month periods) and seasons 
-for the commercial sector. Over the years these cumulative trip limits have steadily decreased. 
-Starting in 1994 the commercial groundfish fishery sector was divided into two components: 
-limited entry and open access with specific regulations designed for each component. Other 
-regulatory actions for the general rockfish categories have included area closures, gear restrictions, 
+
+Prior to the adoption of the Pacific Coast Groundfish Fishery Management Plan (FMP) 
+in 1982, GBYR were managed through a regulatory 
+process that included the California Department of Fish and Wildlife (CDFW) along 
+with either the California State Legislature or the Fish and Game Commission (FGC) 
+depending on the sector (recreation or commercial) and fishery. With implementation 
+of the Pacific Coast Groundfish FMP, GBYR came under the management 
+authority of the Pacific Fishery Management Council (PFMC), and were managed as part 
+of the *Sebastes* complex. Because neither species had undergone rigorous stock assessment 
+and did not compose a large fraction of the landings they were classified and 
+managed as part of "Remaining Rockfish" under the larger 
+heading of "Other Rockfish" (PFMC [-@PFMC2004; -@PFMC2002]).
+
+Since the early 1980s a number of federal regulatory measures have been used to 
+manage the commercial rockfish fishery including cumulative trip limits (generally 
+for two- month periods) and seasons. Starting in 1994 the commercial groundfish 
+fishery sector was divided into two components: limited entry and open access 
+with specific regulations designed for each component. Other regulatory actions 
+for the general rockfish categories have included area closures, gear restrictions, 
 and cumulative bimonthly trip limits set for the four different commercial sectors - limited entry 
 fixed gear, limited entry trawl, open access trawl, and open access non-trawl.
 Harvest guidelines are also used to regulate the annual harvest for both the recreational and 
-commercial sectors. In 2002, allocation harvest guidelines for the shallow nearshore rockfish 
-group were set for the recreational and commercial sectors south of $40^\circ 10^\prime$ N. latitude at 
-532 and 124 metric tons, respectively. By contrast, the 2003 recreational and commercial harvest 
-guidelines were set at 433 and 108 metric tons, respectively. In 2004, the harvest guidelines 
-were set at 375 and 97 metric tons for the recreational and commercial sectors, respectively. 
-A history of the commercial regulations can be found in Appendix XX.
- 
-The state of California has also adopted various regulatory measures to manage the fishery over 
-the years. Notably, regulations affecting the recreational sector include changes in bag limits 
-starting in 2000, area and seasonal closures, depth restrictions, the creation of the Rockfish 
-and Lingcod management areas in 2000, and the creation of the Cowcod Conservation Area (CCA) in 
-2001. In 1998, the Marine Life Management Act (MLMA) was enacted, which paved the way for the 
-development of the Nearshore Fishery Management Plan (CDFG 2001). More recent regulatory actions 
-included the FGC adopting marine reserves for the Channel Islands (became effective January 1, 2003) 
-which closed areas to fishing, and in 2004 additional regulatory measures were adopted to change bag 
-limits, boat limits, closure of the Cordell Bank, and in the CCA fishing was restricted to depths 
-shoreward of 20 fathoms.
+commercial sectors. 
 
-Commercial fishery management was enacted primarily through statues adopted by the state Legislature, 
-until the passage of the MLMA in 1998. The MLMA transferred authority to the FGC to regulate the 
-nearshore finfish fishery, including gopher rockfish (CDFG 2001). State commercial regulations 
-include: license and permit regulations, finfish trap permits, a nearshore fishery permit moratorium 
-(2001), the implementation of a nearshore fishery permit restricted access program (2003), gear
-restrictions, area and season and time closures, regulations pertaining to Marine Protected Areas 
-and Commercial Management areas, depth restrictions, and a minimum total length size limit of 
-10 inches (254 mm) in 1999.
+In 2000, changes in the PFMC’s rockfish management structure resulted in the discontinued 
+use of the \emph{Sebastes} complex, and was replaced with three species 
+groups: nearshore, shelf, and slope rockfishes (January 4, 2000; 65 FR 221), of which GBYR are 
+included in the nearshore group. Within the nearshore group, they are included in the 
+“shallow nearshore rockfish” component. 
 
+During the late 1990s and early 2000s, major changes also occurred in the way 
+that California managed its nearshore fishery. The Marine Life Management Act 
+(MLMA), which was passed in 1998 by the California Legislature and enacted in 
+1999, required that the FGC adopt an FMP for nearshore finfish [@Vandenberg2014]. It also gave 
+authority to the FGC to regulate commercial and recreational nearshore fisheries 
+through FMPs and provided broad authority to adopt regulations for the nearshore 
+fishery during the time prior to adoption of the nearshore finfish FMP. Within this 
+legislation, the Legislature also included commercial size limits for ten nearshore
+species including GBYR (10-inch minimum size) and a requirement 
+that commercial fishermen landing these ten nearshore species possess a nearshore permit.
+
+Following adoption of the Nearshore FMP and accompanying regulations by the FGC in 
+fall of 2002, the FGC adopted regulations in November 2002 which established a set 
+of marine reserves around the Channel Islands in southern California (which became 
+effective April 2003).  The FGC also adopted a nearshore restricted access program in December 
+2002 (which included the establishment of a Deeper Nearshore Permit) to be effective 
+starting in the 2003 fishing year.
+
+Also, since the enactment of the MLMA, the Council and State in a coordinated 
+effort developed and adopted various management specifications to keep harvest 
+within the harvest targets, including seasonal and area closures (e.g. the CCAs; 
+a closure of Cordell Banks to specific fishing), depth restrictions, minimum 
+size limits, and bag limits to regulate the recreational fishery and license 
+and permit regulations, finfish trap permits, gear restrictions, seasonal 
+and area closures (e.g. the RCAs and CCAs; a closure of Cordell Banks to 
+specific fishing), depth restrictions, trip limits, and minimum size 
+limits to regulate the commercial fishery.
+
+The state of California has adopts regulatory measures to manage the fishery 
+based on the harvest guidelines set forth by the PFMC.  The commercial open access 
+and limited entry fixed gear sectors have undergone 
+three different spatial management changes in since 2000.  Since 2005, both 
+have managed the area south of $40^\circ 10^\prime$ N. latitude as one area. 
+he open access commercial fishery is managed based on bimonthly 
+allowable catches, that have ranged from 200 pounds to 1800 pounds per two months since 2000.  
+From 2005 to 2018, the catch limits have doubled and are now set at 1200 pounds per two 
+months (for all months) with March and April remaining closed. The limited entry fixed year 
+sector has followed the same pattern as the open access sector with bi-monthly limits 
+and a doubling of the catch since 2005. The limited entry trawl fleet is managed on 
+monthly limits on an annual basis. Since 2011, the limit has been 300 pounds per month for 
+non-IFQ species.  A history of California's commercial regulations from 2000-2018 can be 
+found in Appendix X.
+
+Significant regulatory changed in California's recreational sector began with a change 
+from unlimited number of hooks and lines allowed in 1999 and prior to no more than 
+three hooks and one line per angler in 2000.  Since 2001, the limit has been no more than 
+two hooks and one line per angler.  There is no size limit in the recreational fishery 
+for gopher or black-and-yellow rockfish.  GBYR are part of the nearshore complex which has 
+had a sub-bag limit within the rockfish bag limit since 1999.  The nearshore sub-bag limit 
+has been 10 fish since 2005.  
+
+California also began spatial management, closures, and depth restrictions for the recreational 
+fleet in 2000.  In general, the recreational season north of Pt. Conception extends from April to 
+December, and south of Pt. Conception from March to December.  In the area that GBYR are most 
+commonly landed, from Monterey to Morro Bay, the depth restrictions have been between 30 and 40 
+fathoms until 2017.  In 2017 the depth restrictions were eased by 10 fathoms, opening up fishing 
+depths along the central California coast that had not been open consistently since 2002.  In 
+both 2017 and 2018, the deepest 10 fathoms was closed prior to the season in December due to high 
+by-catch rates of yelloweye rockfish, one of two rockfish species that are still overfished. A 
+full history of the recrational regulations relating to teh spatial management of the fleet can 
+be found in Appendix XXX.
 
 
 ##Management Performance
+NEED TO FINISH  
+The contribution of GBYR to the minor nearshore rockfish OFLs is currently derived from 
+two sources: 1) forecasts from Key et al. [-@Key2005], from Cape Mendocino to 
+Pt. Conception and 2) a Depletion Corrected Average Catch (DCAC [@MacCall2009]) for the 
+area south of Point Conception. Estimated catch  of GBYR has been...... A summary of these values 
+as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
 
-Table \ref{tab:mnmgt_perform}
 
 
 ##Fisheries Off Mexico or Canada
+The range of GBYR does not extend north to the Canadian border, and they are rarely 
+encountered in Oregon and Washington.  The southern end of the gopher rockfish's range 
+extends to Punta San Roque (southern Baja California) whiel the southern end of the 
+black-and-yellow rockfish's range extends to Isla Natividad (central Baja California) 
+[@Love2002].  This was no available information on the fishery for GBYR at the time 
+of this assessment, nor additional details on the abundance or distribution patterns 
+in Mexican waters.
 

@@ -144,7 +144,9 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 \end{centering}
 
 
-Commercial length composition data available from PacFIN (via Andi Stephens, NWFSC). 
+Commercial length composition data are made available from PacFIN and the expanded catch-weight 
+legnth compositions were provided by Andi Stephens (NWFSC) processed through the 
+[PacFIN Utilities](https://github.com/nwfsc-assess/PacFIN.Utilities) package. 
 We compares differences between the catch-weighted length composition expansions from
 CALCOM and PacFIN.  We were unable to reconcile the difference between the two dataset. 
 Sample sizes became more similar if the PacFIN data were restricted to the same market 

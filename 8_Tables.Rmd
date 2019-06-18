@@ -318,6 +318,7 @@ print(Fleet5_AIC.table,
 
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Fleets 6 and 7 index TABLES******* -->
 <!-- ********************************************************************** -->
@@ -372,6 +373,7 @@ print(Fleet7_AIC.table,
 
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Fleets 8 index TABLES******* -->
 <!-- ********************************************************************** -->
@@ -414,6 +416,7 @@ print(Fleet8_AIC.table,
 ```
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Fleet 9 index TABLES******* -->
 <!-- ********************************************************************** -->
@@ -460,6 +463,7 @@ print(Fleet9_AIC.table,
 
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Fleets 10 and 11 index TABLES******* -->
 <!-- ********************************************************************** -->
@@ -514,4 +518,39 @@ print(Fleet11_AIC.table,
               caption.placement="top",
               sanitize.text.function = function(x){x})
      
+```
+
+\FloatBarrier
+
+<!-- ********************************************************************** -->
+<!-- *****Table of available ages******* -->
+<!-- ********************************************************************** -->
+
+```{r, results="asis"}
+
+Age_data = read.csv('./txt_files/Age_data.csv')
+
+Age_data.table = xtable(Age_data,
+                        caption = c('Summary of age data used in the assessment.'),
+                        label = 'tab:Age_data')
+
+
+align(Age_data.table) = c('l',
+                         '>{\\raggedright}p{1.6in}',
+                          'l',
+                          '>{\\raggedright}p{1.3in}',
+                         '>{\\raggedright}p{1.3in}',
+                         '>{\\raggedright}p{1in}',
+                         '>{\\raggedright}p{1in}',
+                         '>{\\raggedright}p{1in}')
+
+print(Age_data.table,
+      include.rownames = FALSE,
+      caption.placement="top",
+       floating.environment = 'sidewaystable',
+      sanitize.text.function = function(x){x})
+
+
+
+
 ```

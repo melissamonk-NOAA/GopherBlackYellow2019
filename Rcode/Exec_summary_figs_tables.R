@@ -444,25 +444,40 @@ align(Ref_pts_mod1.table) = c('l',
 mngmnt = read.csv('./txt_files/Exec_mngmt_performance.csv')
 
 colnames(mngmnt) = c('Year',
-                     'OFL (mt; ABC prior to 2011)',  
-                     'ABC (mt)', 
-                     'ACL (mt; OY prior to 2011)', 
-                     'Estimated total catch (mt)')
+                     'Total mortality',  
+                     'Total mortality', 
+                     'ACL', 
+                     'OFL')
+
+a_header <- construct_header(
+  # the data.frame or matrix that should be plotted
+  mngmnt,
+  # the labels of the groups that we want to insert
+  grp_names = c("","GBYR", "Minor Nearshore Rockfish"),
+  # the number of columns each group spans
+  span = c(1, 1, 3),
+  # the alignment of each group, can be a single character (lcr) or a vector
+  align = "c"
+)
+
+
 
 # Create the management performance table
 mngmnt.table = xtable(mngmnt, 
-                      caption=c('Recent trend in total catch and commercial 
-                              landings (mt) relative to the management guidelines. 
-                              Estimated total catch reflect the commercial landings 
-                              plus the model estimated discarded biomass.'), 
+                      caption=c('Recent trend in total mortality for gopher and 
+                            black-and-yellow rockfishes (GBYR), combined, relative to the 
+                             management guidelines for the minor nearshore rockfish 
+                             south of $40^\\circ 10^\\prime$ N. latitude. 
+                             Total mortality estiamtes are based on annual reports 
+                                from the NMFS NWFSC'), 
                       label='tab:mnmgt_perform')  
 # Add alignment
-align(mngmnt.table) = c('l',
-                        '>{\\raggedleft}p{1in}',
-                        '>{\\centering}p{1in}',
-                        '>{\\centering}p{1in}',
-                        '>{\\centering}p{1in}', 
-                        '>{\\centering}p{1in}')  
+#align(mngmnt.table) = c('l',
+#                        '>{\\raggedleft}p{1in}',
+#                        '>{\\centering}p{1in}',
+#                        '>{\\centering}p{1in}',
+#                        '>{\\centering}p{1in}', 
+#                        '>{\\centering}p{1in}')  
 
 
 # =============================================================================
