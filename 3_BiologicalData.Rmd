@@ -86,7 +86,12 @@ or between gopher and black-and-yellow rockfishes.
 
 \vspace{.5cm}
 **Sex Ratio, Maturity, and Fecundity**
+Gopher Females mature at 20.7 cm and live to 24 years old. Mature females in Central California release larvae between January and July [@Love et. al. 2002].
 
+Black-and-yellow Females mature at 17 cm producing 25,000 - 450,000 eggs spawning from January to May. One brood is released per season for both black and yellow and gopher rockfish [@Love et. al. 2002]. 
+
+
+Females reach 50% maturity at 17.5 cm or 4 years of age in Central California and were 100% mature by age 6, with the same age of maturity found in southern California though individuals were smaller at age (Zaitlin 1986). 
 
 \vspace{.5cm}
 **Natural Mortality**

@@ -4,19 +4,112 @@
 
 ##Basic Information and Life History
 
-###Population Structure and Complex Assessment Considerations 
+*Population Structure and Complex Assessment Considerations*
 
-There have been a number of analyses of the genetic differentiation between gopher rockfish and black-and-yellow rockfish that have yielded some range of results, but have generally concluded that there is unusually low genetic differentiation between the two species. The most frequently used measure of genetic analyses to evaluate evidence for population differentiation is the fixation index ($F_{ST}$), defined as the proportion of the total genetic variation in one subpopulation (subscript S) relative to the total genetic variation (subscript T) [@Waples2008, @Hauser2008].   Values of $F_{ST}$ range from 0 to 1 where a zero value implies the populations are panmictic and a value closer to one implies the two populations are genetically independent. Values of $F_{ST}$ thought to be consistent with biologically meaningful genetic differentiation and demographic isolation between populations range from 0.05 to 0.1 [@Waples2006].   It is also important to note that $F_{ST}$ values are dependent on the study’s sample size and it may not necessarily be appropriate to compare them across studies. 
+There have been a number of analyses of the genetic differentiation between 
+gopher rockfish and black-and-yellow rockfish that have yielded some range of 
+results, but have generally concluded that there is unusually low genetic 
+differentiation between the two species. The most frequently used measure of
+genetic analyses to evaluate evidence for population differentiation is the 
+fixation index ($F_{ST}$), defined as the proportion of the total genetic 
+variation in one subpopulation (subscript S) relative to the total genetic 
+variation (subscript T) [@Waples2008, @Hauser2008].   Values of $F_{ST}$ 
+range from 0 to 1 where a zero value implies the populations are panmictic 
+and a value closer to one implies the two populations are genetically 
+independent. Values of $F_{ST}$ thought to be consistent with biologically 
+meaningful genetic differentiation and demographic isolation between populations 
+range from 0.05 to 0.1 [@Waples2006].   It is also important to note that $F_{ST}$ 
+values are dependent on the study’s sample size and it may not necessarily be 
+appropriate to compare them across studies. 
 
-Morphologically, gopher and black-and-yellow rockfishes are almost indistinct, except for their color variation [@Hubbs1933]. Early efforts to evaluate whether the two species were genetically distinct began with an allozyme analysis by Seeb et al. [-@Seeb1986], which did not detect genetic differentiation between gopher and black and yellow rockfish.  However, as allozymes are proteins that are often conserved due against variation, this early work was not enormously conclusive.  In a subsequent study of restriction site polymorphisms, Hunter et al. [-@Hunter1994] found slight but significant differences between species based on restriction fragment length polymorphisms (RFLP’s).  Following that study, an analysis of the mitochondrial control region by Alesandri and Bernardi [-@Alesandri1999] did not detect differences between the two species, although there were limitations regarding how representative those results were across the genome.  Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] found an $F_{ST}$ of 0.049 across the overlapping range of the two species, which provided some evidence of divergence, although such divergence is relatively low compared to other species within *Sebastes.  Those authors characterized their results as suggesting that the two are “reproductively isolated incipient species.”  Buonaccorsi et al. [-@Buonaccorsi2011] found an even lower $F_{ST}$ of 0.01 using 25 loci, and concluded that gopher and black-and-yellow rockfish “have not completed the speciation process.”  All of these studies are indicative of low levels of genetic divergence and a high probability of ongoing gene flow between the two nominal species.  
+Morphologically, gopher and black-and-yellow rockfishes are almost indistinct, 
+except for their color variation [@Hubbs1933]. Early efforts to evaluate whether 
+the two species were genetically distinct began with an allozyme analysis by 
+Seeb et al. [-@Seeb1986], which did not detect genetic differentiation between 
+gopher and black-and-yellow rockfish.  However, as allozymes are proteins that 
+are often conserved due against variation, this early work was not enormously 
+conclusive.  In a subsequent study of restriction site polymorphisms, 
+Hunter et al. [-@Hunter1994] found slight but significant differences between 
+species based on restriction fragment length polymorphisms (RFLP’s).  Following 
+that study, an analysis of the mitochondrial control region by Alesandri and 
+Bernardi [-@Alesandrini1999] did not detect differences between the two species, 
+although there were limitations regarding how representative those results were 
+across the genome.  Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] 
+found an $F_{ST}$ of 0.049 across the overlapping range of the two species, which 
+provided some evidence of divergence, although such divergence is relatively low 
+compared to other species within *Sebastes.  Those authors characterized their 
+results as suggesting that the two are “reproductively isolated incipient species.”  
+Buonaccorsi et al. [-@Buonaccorsi2011] found an even lower $F_{ST}$ of 0.01 using 
+25 loci, and concluded that gopher and black-and-yellow rockfish “have not 
+completed the speciation process.”  All of these studies are indicative of low 
+levels of genetic divergence and a high probability of ongoing gene flow between 
+the two nominal species.  
 
-Most recently, an analysis of microhaplotypes from the dissertation of Baetscher [-@Baetscher2019] observed a higher frequency of mis-assignments of individuals to between gopher and black-and-yellow rockfishes compared to all other pairs of species in the genus *Sebastes*.  In addition, comparisons of $F_{ST}$  values within the study indicated that the level of genetic differentiation observed between gopher and black-and-yellow rockfishes is less than that observed among all other pairwise comparisons of the 54 species in the *Sebastes* genus that were included in their analysis.  Baetscher [-@Baetscher2019] characterized the results as suggestive of the two species representing “sister species with evidence of ongoing gene flow,” noting that a more rigorous evaluation of the level of genetic distinction between these two species would benefit from whole-genome sequencing of representatives from each species group.
+Most recently, an analysis of microhaplotypes by 
+Baetscher [-@Baetscher2019] observed a higher frequency of mis-assignments 
+of individuals to between gopher and black-and-yellow rockfishes compared to 
+all other pairs of species in the genus *Sebastes*.  In addition, comparisons 
+of $F_{ST}$  values within the study indicated that the level of genetic differentiation 
+observed between gopher and black-and-yellow rockfishes is less than that observed among 
+all other pairwise comparisons of the 54 species in the *Sebastes* genus that were included 
+in their analysis.  Baetscher [-@Baetscher2019] characterized the results as suggestive of 
+the two species representing “sister species with evidence of ongoing gene flow,” noting 
+that a more rigorous evaluation of the level of genetic distinction between these two species 
+would benefit from whole-genome sequencing of representatives from each species group.
 
-While these closely related species exhibit very little genetic differentiation, their depth distribution, range and maximum length differ to perhaps a greater degree.  Gopher rockfish are found in rocky reef habitat from the intertidal to depths of 264 ft (80 m) with a predominant depth distribution of 30 to 120 ft (9-37 m), while the shallower distributed black and yellow rockfish occupies depths from the intertidal to 120 ft (40 m) and is predominantly observed in depths shallower than 60 ft (18 m) [@Eschmeyer1983, @Love 1996].  
+In addition to the differnces in coloration, the depth distribution and range 
+differ between the two species. The range of both species extends from Cape 
+Blanco Oregon to Baja California, though they are uncommon north of Fort Bragg, 
+California and black-and-yellow rockfish is uncommon south 
+of Point Conception, California. Gopher rockfish 
+are found in rocky reef habitat from the intertidal to depths of 264 ft (80 m) 
+with a predominant depth distribution of 30 to 120 ft (9-37 m), while the 
+black-and-yellow rockfish occupies depths from the intertidal to 120 ft (40 m) 
+and is predominantly observed in depths shallower than 60 ft (18 m) 
+[@Eschmeyer1983, @Love2002]. 
 
+Both species are solitary, sedentary, territorial species with home 
+ranges of 10-12 square meters, with occasional extended trips [@Love2002]. 
+A large percentage (6-71%) of black-and-yellow rockfish retuend to the site 
+of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
+Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
+movement (<1.5 nm, 2.8 km) with all fish being recaptured on the same reef 
+system where they were tagged. Another study, conducted by [@Matthews1986], 
+reported movements up 
+to 1.2 km by gopher rockfish that traveled from a low-relief natural 
+reef to a high-relief artificial reef. The change in substrate type may 
+have been a factor in the movement in the Matthews study. 
 
+Larson [-@Larson1980] conducted a study on the territoriality and segregation 
+between gopher and black-and-yellow rockfishes.  When one species was removed, 
+the other extended its depth range to areas where the other previously occupied, 
+indicating interspecifci competition plays a role in controlling their depth 
+distributions where both species are present. Of the two species, black-and-yellow 
+rockfish are socially dominant and agressive towards excluding gopher rockfish 
+from shallower waters.
+
+Both species are be feed at night, with similar diets composed primarily of 
+crabs and shrimp,supplemented by fish and cephalopods [@Love2002, 
+@Hallacher1985, @Larson1972]. Loury et al. [@Loury2015] found no significant differnces 
+in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
+Marine Protected Area (MPA). She did find the diet of gopher rockfish at Ano Nuevo (shallower 
+and north of Point Lobos) dominated by crabs and dominated by brittle stars at southern, 
+deeper study locations. Zuercher [-@Zuercher2019] examined the diets of a suite of 
+nearshore rockfish species including black-and-yellow and found that they relied on 
+hard-bodied benthic invertebrates such as Brachyuran crabs, shrimps, other anthropods, 
+and octopus. The diet of black-and-yellow rockfish remained the same across sampling years, 
+but they occupied a lower trophic level during the upwelling season. 
 
 ## Early Life History
+Both gopher and black-and-yellow rockfish are viviparous and release one brood per 
+season between January and July [@Echeverria1987].  Larvae are approximately 4 mm in length 
+and have a 1-2 month pelagic stage before recruiting to the kelp forest canopy, 
+i.e., surface fronds of \emph{Macrosystis pyrifera} and \emph{Cysteoseira osmundacea} 
+at around 15-21 mm [@Anderson1983, @Wilson2008]. The larvae are transparent until they reach juvenile 
+stage at 22-23 mm. Differences in coloration begin to occur at 25-30 mm and can be used to 
+identify one species from the other. Gopher rockfish become more orange and brown, while black-and-yellow rockfish become more black and yellow.  Benthic juveniles associate with \emph{Macrosystis} holdfasts and sporophylls  [@Anderson1983]. Gopher and black-and-yellow rockfish have similar development 
+
+The juveniles undergo ontogenetic migration down the stalks to deeper depths, finally settling on rocky reef habitat in their respective adult depth distribution. Juvenile bocaccio and other fish predate on young of year and other reef dwelling species including Cabezon predate on post-settlement juveniles. Individuals avoid rough surge conditions and predators by hiding in the rocky bottom during the daylight hours, then returning to more open water at dusk [@Love2002]. 
 
 
 ##Map
@@ -33,12 +126,43 @@ that could contribute ecosystem-related quantitative information for the assessm
 NEED TO FINISH 
   
 The hook-and-line fishery off California developed in the late 19th century 
-[@Love2002]. The rockfish trawl fishery was established in the early 1940s, when the United 
-States became involved in World War II and wartime shortage of red meat created 
-an increased demand for other sources of protein [@Alverson1964; @Harry1961].
+[@Love2002]. The rockfish trawl fishery was established in the early 1940s, when 
+the United States became involved in World War II and wartime shortage of red 
+meat created an increased demand for other sources of protein [@Alverson1964; 
+@Harry1961]. 
 
-Both gopher and black-and-yellow rockfishes comprise minor parts of the Californian sport 
-and commercial fisheries .  Historically, both species were taken by hook-and-line
+Gopher and black-and-yellow (referred to from hereon as GBRY when discussing the 
+complex) rockfish have been a minor component of the commercial and recreational 
+rockfish fishery since at least the late 1960s (CFIS and RecFIN). The commercial 
+catch histories of the two species cannot easily be separated 
+(Figure \ref{fig:Catches_livedeadNS}).  From 1916-1936 
+only black-and-yellow rockfish were reported in the landings, and an average 
+of 0.04 mt of black-and-yellow rockfish are reported from 1937-1983. 
+Black-and-yellow rockfish reappear in the landings in 1984 with 7.2 mt landed 
+commercially. From 1985-1988 the trend switches and only black-and-yellow 
+rockfish appear in the commercial landings, with gopher rockfish averaging 0.1 mt
+landed, and 0 mt reported in 1987. From 1988 and on, the landings are dominated 
+by gopher rockfish, and both species are represented in the commercial landings. 
+
+The landings from south of Pt. Conception are minor throughout the time period, 
+with peaks in the 1950s and 60s for gopher rockfish.  Black-and-yellow rockfish 
+are rare south of Pt. Conception and expected that these catches are minimal. 
+
+
+The live fish fishery began in the early 1990s, with the first commercial landings 
+of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 1995 
+over half (57%; 39 mt) of the commercial landings were from the live fish fishery. 
+This increased quickly over the next few years and has been on average 84% of the landed 
+GBYR since 2000.  The majority of the landings are from gopher rockfish north of Pt. 
+Conception.  Landings of live GBYR south of Pt. Conception wer higher in the late 
+1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
+
+ 
+The recreational GBYR fishery for California ports north of Point Conception peaked during a five-year period in the early 1990s, with 2001 and 2003 also being productive years (Figure 2). Since 1983, anglers caught the greatest proportion of gopher rockfish from private and rental boats (71%), followed next by party and charter boats (27%). However, in more recent years (1997 to 2004) these proportions have changed, with the private and rental boats taking 59% of gopher rockfish in the recreational fishery and 41% by the party and charter boats. Also since 1983, gopher rockfish have ranked 25th in northern California recreational fishery landings, accounting for approximately 1% of the total harvest for all recreationally caught fishes. However, gopher rockfish made up approximately 50% of the estimated take of the shallow nearshore rockfishes and 6% of all nearshore rockfish species combined.
+Add in revenue here.
+Additionally, recent catches have been influenced by size and bag limits.
+ 
+Starting in the late 1980s (Larson and Wilson-Vandenberg 2001) the premium quality live- fish market developed. Currently, nearly all gopher rockfish are landed in this condition due to a more lucrative high-demand market. As a result of the increasing demand for live- fish the average price per pound has risen steadily from a low of less than $2.00 per pound at the inception of the live- fish market to approximately $6.15 (preliminary) per pound in 2004 (CFIS- CMASTR) (unadjusted for inflation).
 
 
 ##Summary of Management History
