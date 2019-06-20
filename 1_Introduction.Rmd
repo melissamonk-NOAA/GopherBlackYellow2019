@@ -13,7 +13,7 @@ differentiation between the two species. The most frequently used measure of
 genetic analyses to evaluate evidence for population differentiation is the 
 fixation index ($F_{ST}$), defined as the proportion of the total genetic 
 variation in one subpopulation (subscript S) relative to the total genetic 
-variation (subscript T) [@Waples2008, @Hauser2008].   Values of $F_{ST}$ 
+variation (subscript T) [@Waples2008; @Hauser2008].   Values of $F_{ST}$ 
 range from 0 to 1 where a zero value implies the populations are panmictic 
 and a value closer to one implies the two populations are genetically 
 independent. Values of $F_{ST}$ thought to be consistent with biologically 
@@ -66,7 +66,7 @@ are found in rocky reef habitat from the intertidal to depths of 264 ft (80 m)
 with a predominant depth distribution of 30 to 120 ft (9-37 m), while the 
 black-and-yellow rockfish occupies depths from the intertidal to 120 ft (40 m) 
 and is predominantly observed in depths shallower than 60 ft (18 m) 
-[@Eschmeyer1983, @Love2002]. 
+[@Eschmeyer1983; @Love2002]. 
 
 Both species are solitary, sedentary, territorial species with home 
 ranges of 10-12 square meters, with occasional extended trips [@Love2002]. 
@@ -74,11 +74,11 @@ A large percentage (6-71%) of black-and-yellow rockfish retuend to the site
 of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
 Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
 movement (<1.5 nm, 2.8 km) with all fish being recaptured on the same reef 
-system where they were tagged. Another study, conducted by [@Matthews1986], 
+system where they were tagged. Another study, conducted by [@Matthews1985], 
 reported movements up 
 to 1.2 km by gopher rockfish that traveled from a low-relief natural 
 reef to a high-relief artificial reef. The change in substrate type may 
-have been a factor in the movement in the Matthews study. 
+have been a factor in the movement in the Matthews[-@Matthews1985] study. 
 
 Larson [-@Larson1980] conducted a study on the territoriality and segregation 
 between gopher and black-and-yellow rockfishes.  When one species was removed, 
@@ -89,8 +89,8 @@ rockfish are socially dominant and agressive towards excluding gopher rockfish
 from shallower waters.
 
 Both species are be feed at night, with similar diets composed primarily of 
-crabs and shrimp,supplemented by fish and cephalopods [@Love2002, 
-@Hallacher1985, @Larson1972]. Loury et al. [@Loury2015] found no significant differnces 
+crabs and shrimp,supplemented by fish and cephalopods [@Love2002; 
+@Hallacher1985; @Larson1972]. Loury et al. [@Loury2015] found no significant differnces 
 in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
 Marine Protected Area (MPA). She did find the diet of gopher rockfish at Ano Nuevo (shallower 
 and north of Point Lobos) dominated by crabs and dominated by brittle stars at southern, 
@@ -105,7 +105,7 @@ Both gopher and black-and-yellow rockfish are viviparous and release one brood p
 season between January and July [@Echeverria1987].  Larvae are approximately 4 mm in length 
 and have a 1-2 month pelagic stage before recruiting to the kelp forest canopy, 
 i.e., surface fronds of \emph{Macrosystis pyrifera} and \emph{Cysteoseira osmundacea} 
-at around 15-21 mm [@Anderson1983, @Wilson2008]. The larvae are transparent until they reach juvenile 
+at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent until they reach juvenile 
 stage at 22-23 mm. Differences in coloration begin to occur at 25-30 mm and can be used to 
 identify one species from the other. Gopher rockfish become more orange and brown, while black-and-yellow rockfish become more black and yellow.  Benthic juveniles associate with \emph{Macrosystis} holdfasts and sporophylls  [@Anderson1983]. Gopher and black-and-yellow rockfish have similar development 
 
@@ -148,7 +148,6 @@ The landings from south of Pt. Conception are minor throughout the time period,
 with peaks in the 1950s and 60s for gopher rockfish.  Black-and-yellow rockfish 
 are rare south of Pt. Conception and expected that these catches are minimal. 
 
-
 The live fish fishery began in the early 1990s, with the first commercial landings 
 of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 1995 
 over half (57%; 39 mt) of the commercial landings were from the live fish fishery. 
@@ -157,8 +156,18 @@ GBYR since 2000.  The majority of the landings are from gopher rockfish north of
 Conception.  Landings of live GBYR south of Pt. Conception wer higher in the late 
 1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
 
- 
-The recreational GBYR fishery for California ports north of Point Conception peaked during a five-year period in the early 1990s, with 2001 and 2003 also being productive years (Figure 2). Since 1983, anglers caught the greatest proportion of gopher rockfish from private and rental boats (71%), followed next by party and charter boats (27%). However, in more recent years (1997 to 2004) these proportions have changed, with the private and rental boats taking 59% of gopher rockfish in the recreational fishery and 41% by the party and charter boats. Also since 1983, gopher rockfish have ranked 25th in northern California recreational fishery landings, accounting for approximately 1% of the total harvest for all recreationally caught fishes. However, gopher rockfish made up approximately 50% of the estimated take of the shallow nearshore rockfishes and 6% of all nearshore rockfish species combined.
+The ex-vessel value of GBYR increased from less than $40,000 in 1984 and peaked 
+at $680,452 in 1996 (Figure \ref{fig:GBY_revenue}).  The ex-vessel revenue has 
+been fairly stable at around $500,000 a year since 2007.  Prior to the live 
+fish fishery in 1994, the average price per pound for either species was around 
+$2 a pound.  The live fish fishery increased the value of both species to an 
+average of \$6-\$8 a pound.  The maximum reported value of either a gopher 
+or black-and-yellow rockfish was $20 a pound in 2003.
+
+The recreational GBYR fishery for California is most prominent north of Pt. Conception. 
+
+
+ports north of Point Conception peaked during a five-year period in the early 1990s, with 2001 and 2003 also being productive years (Figure 2). Since 1983, anglers caught the greatest proportion of gopher rockfish from private and rental boats (71%), followed next by party and charter boats (27%). However, in more recent years (1997 to 2004) these proportions have changed, with the private and rental boats taking 59% of gopher rockfish in the recreational fishery and 41% by the party and charter boats. Also since 1983, gopher rockfish have ranked 25th in northern California recreational fishery landings, accounting for approximately 1% of the total harvest for all recreationally caught fishes. However, gopher rockfish made up approximately 50% of the estimated take of the shallow nearshore rockfishes and 6% of all nearshore rockfish species combined.
 Add in revenue here.
 Additionally, recent catches have been influenced by size and bag limits.
  

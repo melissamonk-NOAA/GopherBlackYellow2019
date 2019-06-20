@@ -5,6 +5,8 @@ setwd('C:/GopherBlackYellow2019/txt_files')
 
 catches = read.csv('Catch_stream_w_alts.csv',header=T)
 
+revenue = read.csv('GBY_revenue.csv', header=T)
+
 
 
 
@@ -280,3 +282,45 @@ ggplot(assessment_compare, aes(x=Year, y = mt, colour=Source)) +
   scale_y_continuous(breaks = seq(0,200, by = 20))
 
 dev.off()
+
+
+#-----------------------------------------------------------------------------------
+#Plot of GBY revenue
+#-----------------------------------------------------------------------------------
+rev = revenue %>%
+  select(Year, GPHR_exvessel_RevAFI, BYEL_exvessel_revAFI) %>%
+  rename(GPHR = GPHR_exvessel_RevAFI,
+         BYEL = BYEL_exvessel_revAFI) %>%
+  gather(Species,Revenue,GPHR:BYEL)  %>%
+  filter(Year>1983)
+
+rev$Revenue = rev$Revenue/1000
+
+out.dir = "C:/GopherBlackYellow2019/Figures/"
+png(filename = paste0(out.dir,"GBY_revenue.png"),
+    width = 6, height = 4, units = "in", pointsize = 12, res=300)
+#x11()
+ggplot(rev, aes(x=Year, y=Revenue, fill=Species)) +
+  geom_bar(stat="identity", width=1,colour="black") +
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        #  legend.position='top', 
+        #  legend.justification='left'
+        legend.justification = c(0, 1), 
+        legend.position = c(0.01, 1)) +
+  theme(legend.title=element_blank()) +
+  scale_x_continuous(breaks = seq(1984,2016, by = 2),
+                     expand = c(0, 0)) +
+  scale_y_continuous(breaks = seq(0,800, by = 100),
+                     expand = c(0, 0)) +
+  ylab("Revenue (1,000 U.S. AFI dollars)")+
+  scale_fill_manual("legend", 
+                    values = c("GPHR" = "lightblue",
+                               "BYEL" = "purple"))
+dev.off()
+
+
+

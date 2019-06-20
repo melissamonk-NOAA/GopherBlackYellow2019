@@ -19,6 +19,7 @@
 ![Map showing the management area for gopher and black-and-yellow rockfish from Cape Mendocino to the U.S. Mexico border.{fig:assess_reagion_map}](Figures/assess_region_map.png)
 
 
+![Annual ex-vessel revenue, adjusted for inflation (AFI) in thousands of dollars for gopher and black-and-yellow rockfish. \label{fig:GBY_revenue}](Figures/GBY_revenue.png)
 
 
 
