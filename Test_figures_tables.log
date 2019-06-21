@@ -1,18 +1,18 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2018.10.29)  12 JUN 2019 13:51
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.20)  21 JUN 2019 07:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Test_figures_tables.tex
 (./Test_figures_tables.tex
-LaTeX2e <2018-04-01> patch level 5
+LaTeX2e <2018-12-01>
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/articl
 e.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size12
 .clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+File: size12.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@section=\count81
@@ -41,7 +41,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/ams
 math.sty
-Package: amsmath 2017/09/02 v2.17a AMS math features
+Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 For additional information on amsmath, use the `?' option.
 
@@ -65,20 +65,20 @@ opn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 223.
 \uproot@=\count89
 \leftroot@=\count90
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 385.
 \classnum@=\count91
 \DOTSCASE@=\count92
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \macc@depth=\count93
 \c@MaxMatrixCols=\count94
 \dotsspace@=\muskip10
@@ -99,8 +99,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ifxetex/i
 fxetex.sty
@@ -129,7 +129,7 @@ tim
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textco
 mp.sty
-Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -244,7 +244,7 @@ Package ifvtex Info: VTeX not detected.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hy
 perref.sty
-Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 hobsub-hyperref.sty
@@ -305,7 +305,7 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd
 1enc.def
-File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count105
 
@@ -313,33 +313,33 @@ File: pd1enc.def 2018/09/30 v6.88a Hyperref: PDFDocEncoding definition (HO)
 /hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4535.
-Package hyperref Info: Link nesting OFF on input line 4540.
-Package hyperref Info: Hyper index ON on input line 4543.
-Package hyperref Info: Plain pages OFF on input line 4550.
-Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4788.
+Package hyperref Info: Bookmarks ON on input line 4772.
 \c@Hy@tempcnt=\count106
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5141.
+LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen121
 \Fld@menulength=\count107
 \Field@Width=\dimen122
 \Fld@charsize=\dimen123
-Package hyperref Info: Hyper figures OFF on input line 6396.
-Package hyperref Info: Link nesting OFF on input line 6401.
-Package hyperref Info: Hyper index ON on input line 6404.
-Package hyperref Info: backreferencing OFF on input line 6411.
-Package hyperref Info: Link coloring OFF on input line 6416.
-Package hyperref Info: Link coloring with OCG OFF on input line 6421.
-Package hyperref Info: PDF/A mode OFF on input line 6426.
-LaTeX Info: Redefining \ref on input line 6466.
-LaTeX Info: Redefining \pageref on input line 6470.
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
 \Hy@abspage=\count108
 \c@Item=\count109
 \c@Hfootnote=\count110
@@ -348,18 +348,18 @@ Package hyperref Info: Driver (autodetected): hxetex.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hx
 etex.def
-File: hxetex.def 2018/09/30 v6.88a Hyperref driver for XeTeX
+File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pu
 enc.def
-File: puenc.def 2018/09/30 v6.88a Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 stringenc.sty
 Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box28
+\pdfm@box=\box29
 \c@Hy@AnnotLevel=\count111
 \HyField@AnnotCount=\count112
 \Fld@listcount=\count113
@@ -389,14 +389,14 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array
 .sty
-Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen124
-\ar@mcellbox=\box29
+\ar@mcellbox=\box30
 \extrarowheight=\dimen125
 \NC@list=\toks22
 \extratabsurround=\skip50
 \backup@length=\skip51
-\ar@cellbox=\box30
+\ar@cellbox=\box31
 )
 \TX@col@width=\dimen126
 \TX@old@table=\dimen127
@@ -428,17 +428,17 @@ Package caption Info: hyperref package is loaded.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longt
 able.sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTleft=\skip52
 \LTright=\skip53
 \LTpre=\skip54
 \LTpost=\skip55
 \LTchunksize=\count118
 \LTcapwidth=\dimen138
-\LT@head=\box31
-\LT@firsthead=\box32
-\LT@foot=\box33
-\LT@lastfoot=\box34
+\LT@head=\box32
+\LT@firsthead=\box33
+\LT@foot=\box34
+\LT@lastfoot=\box35
 \LT@cols=\count119
 \LT@rows=\count120
 \c@LT@tables=\count121
@@ -481,7 +481,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \c@r@tfl@t=\count123
 \rotFPtop=\skip56
 \rotFPbot=\skip57
-\rot@float@box=\box35
+\rot@float@box=\box36
 \rot@mess@toks=\toks25
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float
@@ -489,9 +489,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count124
 \float@exts=\toks26
-\float@box=\box36
+\float@box=\box37
 \@float@everytoks=\toks27
-\@floatcapt=\box37
+\@floatcapt=\box38
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/placeins/pl
 aceins.sty
@@ -518,7 +518,7 @@ Package: mdwtab 1998/04/28 1.9 Table typesetting with style
 \tab@endheight=\dimen148
 \tab@leftskip=\skip58
 \tab@rightskip=\skip59
-\fn@notes=\box38
+\fn@notes=\box39
 \fn@width=\dimen149
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/enume
@@ -566,31 +566,32 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/en
 umitem.sty
-Package: enumitem 2011/09/28 v3.5.2 Customized lists
+Package: enumitem 2019/02/04 v3.8 Customized lists
 \labelindent=\skip61
 \enit@outerparindent=\dimen153
 \enit@toks=\toks36
-\enit@inbox=\box39
-\enitdp@description=\count127
+\enit@inbox=\box40
+\enit@count@id=\count127
+\enitdp@description=\count128
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lineno/line
 no.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count128
+\linenopenalty=\count129
 \output=\toks37
-\linenoprevgraf=\count129
+\linenoprevgraf=\count130
 \linenumbersep=\dimen154
 \linenumberwidth=\dimen155
-\c@linenumber=\count130
-\c@pagewiselinenumber=\count131
-\c@LN@truepage=\count132
-\c@internallinenumber=\count133
-\c@internallinenumbers=\count134
+\c@linenumber=\count131
+\c@pagewiselinenumber=\count132
+\c@LN@truepage=\count133
+\c@internallinenumber=\count134
+\c@internallinenumbers=\count135
 \quotelinenumbersep=\dimen156
 \bframerule=\dimen157
 \bframesep=\dimen158
-\bframebox=\box40
+\bframebox=\box41
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verba
@@ -602,15 +603,13 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fa
 ncyvrb.sty
-Package: fancyvrb 2008/02/07
-
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz)
-\FV@CodeLineNo=\count135
+Package: fancyvrb 2019/01/15
+Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
+\FV@CodeLineNo=\count136
 \FV@InFile=\read2
-\FV@TabBox=\box41
-\c@FancyVerbLine=\count136
-\FV@StepNumber=\count137
+\FV@TabBox=\box42
+\c@FancyVerbLine=\count137
+\FV@StepNumber=\count138
 \FV@OutFile=\write3
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/ls
@@ -626,8 +625,8 @@ Package cmap Warning: pdftex not detected - exiting.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdfcomment/
 pdfcomment.sty
-Package: pdfcomment 2016/06/13 pdfcomment.sty v2.4 - Josef Kleber (C) 2008-2012
-, 2015-2016
+Package: pdfcomment 2018/11/01 pdfcomment.sty v2.4a - Josef Kleber (C) 2008-201
+2, 2015-2016, 2018
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xkeyval/xke
 yval.sty
@@ -640,15 +639,15 @@ kvutils.tex
 \XKV@toks=\toks40
 \XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count138
+\XKV@depth=\count139
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@pc@count@i=\count139
-\c@pc@count@ii=\count140
-\c@pc@count@iii=\count141
-\c@pc@count@iv=\count142
-\pc@mathannot@box=\box42
-\pc@nullbox=\box43
+\c@pc@count@i=\count140
+\c@pc@count@ii=\count141
+\c@pc@count@iii=\count142
+\c@pc@count@iv=\count143
+\pc@mathannot@box=\box43
+\pc@nullbox=\box44
 \pc@dima=\skip62
 \pc@dimb=\skip63
 \pc@Sposx=\skip64
@@ -663,7 +662,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/et
 oolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count143
+\etb@tempcnta=\count144
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/datetime2/d
 atetime2.sty
@@ -677,11 +676,11 @@ Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
 /tracklang.tex)))
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/zr
 ef-savepos.sty
-Package: zref-savepos 2016/05/21 v2.26 Module savepos for zref (HO)
+Package: zref-savepos 2018/11/21 v2.27 Module savepos for zref (HO)
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/zr
 ef-base.sty
-Package: zref-base 2016/05/21 v2.26 Module base for zref (HO)
+Package: zref-base 2018/11/21 v2.27 Module base for zref (HO)
 Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
@@ -690,47 +689,47 @@ Package zref Info: New property list: savepos on input line 80.
 Package zref Info: New property: posx on input line 81.
 Package zref Info: New property: posy on input line 82.
 )
-\c@zref@unique=\count144
+\c@zref@unique=\count145
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.
 sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count145
-\calc@Bcount=\count146
+\calc@Acount=\count146
+\calc@Bcount=\count147
 \calc@Adimen=\dimen159
 \calc@Bdimen=\dimen160
 \calc@Askip=\skip72
 \calc@Bskip=\skip73
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count147
+\calc@Ccount=\count148
 \calc@Cskip=\skip74
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/marginnote/
 marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count148
+\c@mn@abspage=\count149
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bezos/soulp
 os.sty
-Package: soulpos 2012/02/25 v1.0 Fancy underlining
-\ulp@subcnt=\count149
-\ulp@cnt=\count150
+Package: soulpos 2012/02/25 v1.1 Fancy underlining
+\ulp@subcnt=\count150
+\ulp@cnt=\count151
 \ulp@out=\write4
 \ulp@in=\read3
 \ulwidth=\dimen161
 )
 
 Package hyperref Warning: Option `xetex' has already been used,
-(hyperref)                setting the option has no effect on input line 1393.
+(hyperref)                setting the option has no effect on input line 1404.
 
-Package zref Info: New property list: pdfcomment on input line 2724.
-Package zref Info: New property: PCPDFOBJID on input line 2725.
+Package zref Info: New property list: pdfcomment on input line 2735.
+Package zref Info: New property: PCPDFOBJID on input line 2736.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/nag/nag.sty
 Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
-\c@nag@c=\count151
-\c@nag@sins=\count152
+\c@nag@c=\count152
+\c@nag@sins=\count153
 Package nag Info: Loaded nag-l2tabu.cfg  on input line 552.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/nag/nag-l2t
@@ -748,7 +747,7 @@ showlabels.sty
 Package: showlabels 2016/06/09 v1.8
 Package: `showlabels' v1.8 <2016/06/09>
 with amsmath equation tags
-\SL@labelposition=\count153
+\SL@labelposition=\count154
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bo
 oktabs.sty
@@ -763,43 +762,43 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen169
 \cmidrulekern=\dimen170
 \defaultaddspace=\dimen171
-\@cmidla=\count154
-\@cmidlb=\count155
+\@cmidla=\count155
+\@cmidlb=\count156
 \@aboverulesep=\dimen172
 \@belowrulesep=\dimen173
-\@thisruleclass=\count156
-\@lastruleclass=\count157
+\@thisruleclass=\count157
+\@lastruleclass=\count158
 \@thisrulewidth=\dimen174
 ) (./Test_figures_tables.aux)
 \openout1 = `Test_figures_tables.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 117.
 
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr
 .fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -834,8 +833,8 @@ LaTeX Font Info:    ... okay on input line 118.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 118.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring ON on input line 117.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/na
 meref.sty
@@ -845,11 +844,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count158
+\c@section@level=\count159
 )
-LaTeX Info: Redefining \ref on input line 118.
-LaTeX Info: Redefining \pageref on input line 118.
-LaTeX Info: Redefining \nameref on input line 118.
+LaTeX Info: Redefining \ref on input line 117.
+LaTeX Info: Redefining \pageref on input line 117.
+LaTeX Info: Redefining \nameref on input line 117.
 (./Test_figures_tables.out) (./Test_figures_tables.out)
 \@outlinefile=\write5
 \openout5 = `Test_figures_tables.out'.
@@ -865,23 +864,23 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package nag Info: Command \frontmatter not defined, skipping amendment on input
- line 118.
+ line 117.
 Package nag Info: Command \mainmatter not defined, skipping amendment on input 
-line 118.
+line 117.
 Package nag Info: Command \backmatter not defined, skipping amendment on input 
-line 118.
+line 117.
 Package nag Info: Command \RaggedLeft not defined, skipping amendment on input 
-line 118.
+line 117.
 Package nag Info: Command \RaggedRight not defined, skipping amendment on input
- line 118.
+ line 117.
 Package nag Info: Command \captionabove not defined, skipping amendment on inpu
-t line 118.
+t line 117.
 Package nag Info: Command \captionbelow not defined, skipping amendment on inpu
-t line 118.
+t line 117.
 Package nag Info: Command \hc@caption not defined, skipping amendment on input 
-line 118.
+line 117.
 Package nag Info: Command \topcaption not defined, skipping amendment on input 
-line 118.
+line 117.
 (./Test_figures_tables.toc)
 \tf@toc=\write6
 \openout6 = `Test_figures_tables.toc'.
@@ -898,12 +897,8 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 132.
 sb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (37.95305pt too wide) in paragraph at lines 132--151
- [][] 
- []
-
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 186.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 142.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 se-ascii-print.def
@@ -913,26 +908,26 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 
 \openout4 = `Test_figures_tables.upa'.
 
-] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 186.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 142.
 (./Test_figures_tables.aux * soulpos - computing points - it may take a few sec
 onds *
 \openout4 = `Test_figures_tables.upb'.
 
 (./Test_figures_tables.upa))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 186.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 186.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 142.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 142.
 Package rerunfilecheck Info: File `Test_figures_tables.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 186.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 142.
  ) 
 Here is how much of TeX's memory you used:
- 17919 strings out of 494944
- 297405 string characters out of 6175978
- 396862 words of memory out of 5000000
- 21573 multiletter control sequences out of 15000+600000
- 9022 words of font info for 42 fonts, out of 8000000 for 9000
+ 17963 strings out of 494921
+ 298057 string characters out of 6175622
+ 392503 words of memory out of 5000000
+ 21641 multiletter control sequences out of 15000+600000
+ 9014 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,8n,79p,1032b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Test_figures_tables.pdf (2 pages).
+Output written on Test_figures_tables.pdf (1 page).

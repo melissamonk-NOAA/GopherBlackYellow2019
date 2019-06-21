@@ -58,9 +58,11 @@
 <!-- ********************************************************************** -->
 <!-- ****************Fleet 10_11 Index FIGURES************************* -->
 <!-- ********************************************************************** --> 
-![Comparison of indices of abundance (scaled to their means) for the MRFSS dockside CPFV survey between a gopher-only and GBYR coplex index for north and south of Pt. Conception. \label{fig:MRFSS_index_compare}](Figures/MRFSS_index_compare.png)
+![Comparison of indices of abundance (scaled to their means) for the MRFSS dockside CPFV survey between a gopher-only and GBYR complex index for north and south of Pt. Conception. \label{fig:MRFSS_index_compare}](Figures/MRFSS_index_compare.png)
 ![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set. Horizontal bars are 95% confidence intervals. \label{fig:Fleet10_SM_filter}](Figures/Fleet10_SM_filter.png)
 
+
+![Comparisons of the indices of abundance for GBYR north of Pt. Conception from the MRFSS dockside CPVS survey that either include of exclude the trips identified as false positives from the Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}](Figures/MRFSS_index_N_SM_falsepos.png)
 
 \FloatBarrier
 

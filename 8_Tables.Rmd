@@ -520,6 +520,50 @@ print(Fleet11_AIC.table,
      
 ```
 
+```{r, results="asis"}
+#Make the contingency table for GBYR MRFSS north
+
+b = c("Above 0.4",186,437)
+c = c("Below 0.4",1982,183)
+
+Fleet10_cont = rbind(b,c)
+colnames(Fleet10_cont) = c(" ","GBYR absent","GBYR present")
+
+Fleet10_cont.table = xtable(Fleet10_cont,
+                               caption = c("Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR north of Pt. Conception."),big.mark=",",
+                               label = 'tab:Fleet10_contingency')
+
+align(Fleet10_cont.table) = c('l','r','c','c')
+
+print(Fleet10_cont.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
+```
+
+```{r, results="asis"}
+#Make the contingency table for GBYR MRFSS north
+
+b = c("Above 0.22",246,184)
+c = c("Below 0.22",6647,257)
+
+Fleet11_cont = rbind(b,c)
+colnames(Fleet11_cont) = c(" ","GBYR absent","GBYR present")
+
+Fleet11_cont.table = xtable(Fleet11_cont,
+                               caption = c("Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR south of Pt. Conception."),big.mark=",",
+                               label = 'tab:Fleet11_contingency')
+
+align(Fleet11_cont.table) = c('l','r','c','c')
+
+print(Fleet11_cont.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
+```
+
 \FloatBarrier
 
 <!-- ********************************************************************** -->

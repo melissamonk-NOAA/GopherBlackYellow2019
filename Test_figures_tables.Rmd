@@ -44,52 +44,23 @@ bibliography: BibFile.bib
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
 ```{r, results="asis"}
-#read in index summary data for 2 MRFSS dockside indices
-Fleet10_11_Filter = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', 
-                            sheetName='BothFilter', header = T)
+#Make the contingency table for GBYR MRFSS north
 
-Fleet10_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='NorthAIC', header=T)
-Fleet11_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='SouthAIC', header=T)
+b = c("Above 0.4",186,437)
+c = c("Below 0.4",1982,183)
 
+Fleet10_cont = rbind(b,c)
+colnames(Fleet10_cont) = c(" ","GBYR absent","GBYR present")
 
-colnames(Fleet10_11_Filter) = c('Filter','Trips','Positive Trips')
-Fleet10_11_Filter[4,] = c(NA,NA,NA)
-Fleet10_11_Filter[9,] = c(NA,NA,NA)
+Fleet10_cont.table = xtable(Fleet10_cont,
+                               caption = c("Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR north of Pt. Conception."),big.mark=",",
+                               label = 'tab:Fleet10_contingency')
 
-Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
-                               caption = c("Data filtering steps for the MRFSS dockside intercept survey 
-                                           index of abundance for north and south of Pt. Conception."),
-                               label = 'tab:Fleet10_11_Filter', digits = 0,
-                               format.args = list(big.mark = ",",))
+align(Fleet10_cont.table) = c('l','r','c','c')
 
-align(Fleet10_11_Filter.table) = c('l','l','c','c')
-
-print(Fleet10_11_Filter.table, 
+print(Fleet10_cont.table, 
               include.rownames=FALSE, 
               caption.placement="top")
-
-
-Fleet10_AIC.table = xtable(Fleet10_AIC,
-                            caption = c("Model selection for the MRFSS dockside intercept survey 
-                                        north of Pt. Conception. Bold 
-                                        values indicate the model selected."),
-                            label='tab:Fleet10_AIC')
-
-print(Fleet10_AIC.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              sanitize.text.function = function(x){x})
-
-
-Fleet11_AIC.table = xtable(Fleet11_AIC,
-                            caption = c("Model selection for the MRFSS dockside intercept 
-                                        survey south of Pt. Conception. Bold 
-                                        values indicate the model selected."),
-                            label='tab:Fleet11_AIC')
-
-print(Fleet11_AIC.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              sanitize.text.function = function(x){x})
-     
 ```

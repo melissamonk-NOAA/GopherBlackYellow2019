@@ -396,9 +396,8 @@ positive trips total) to inform the binomial model. Coefficients from the Stephe
 analysis (a binomial GLM) are positive for species which co-occur with GBYR, and negative for 
 species that are not caught with GBYR. Each of these filtering steps and the resulting number of trips remaining in the sampling frame are provided in Table \ref{tab:Fleet10_11_Filter}.
 
-*Filtering and index standardization for north of Pt. Conception*
-Prior to the Stephens-MacCall filter, a total of 2,788 trips were retained for the analysis. 
-As expected, positive indicators of GBYR trips include several species of nearshore rockfish,
+*MRFSS filtering and index standardization for north of Pt. Conception*
+Prior to the Stephens-MacCall filter, a total of 2,788 trips were retained for the analysis. As expected, positive indicators of GBYR trips include several species of nearshore rockfish,
 treefish, kelp rockfish, and blue rockfish, and the strongest counter-indicator
 was striped bass (Figure \ref{fig:Fleet10_SM_filter}). While the filter is useful 
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
@@ -406,57 +405,63 @@ in pursuit of a single target, the targeting of more than one target species can
 in co-occurrence of species in the catch that do not truly co-occur in terms of habitat
 associations informative for an index of abundance. 
  
-Two levels of filtering were applied using the Stephens-MacCall filter. 
-The Stephens-MacCall filtering method identified the probability of occurrence 
-(in this case 0.4) at which the rate of "false positives" equals "false negatives."
-The trips selected using this criteria were compared to an 
-alternative method including all the "false positive" trips, regardless of the probability 
-of encountering a California scorpionfish.  This assumes that if GBYR were caught, the 
-vessel must have fished in appropriate habitat during the trip. 
+Two levels of possible filtering were applied using the Stephens-MacCall filter (Table 
+\ref(Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
+probability of occurrence (in this case 0.4) at which the rate of "false 
+positives" equals "false negatives." The trips selected using this criteria 
+were compared to an alternative method including all the "false positive" 
+trips, regardless of the probability of encountering GBYR 
+(Table \ref{tab:Fleet10_contingency}). This assumes that if GBYR were caught, 
+the vessel must have fished in appropriate habitat during the trip. 
 
-Catch per angler hour (CPUE; number of fish per angler hour) was modelled using a negative binomial model. Model selection using Akaike Information Criterion 
-(AIC) supported inclusion of year and
-region effects in both the binomial and lognormal components of the index for both 
-the model with false positives using the 0.27 threshold and the 0.10 threshold.  The addition 
-of month effects (to allow for seasonal changes in CPUE) did not improve model fit in the 
-lognormal model, but the full model including month, year and county was supported for the 
-binomial model (Table \ref{tab:Fleet5_RecPC_dockside_aic}).  The difference in AIC values 
-for the full model compared to the 
-model with only year and county was greater for the binomial model (201.5) favoring the 
-full modal compared to the small difference for the lognormal model favoring the model 
-with only year and county (8.3). As a result, the full model including year, county and 
-month effects was selected for further analysis.  
- 
-The resulting index values for 1989 were anomalously high compared to other years. 
-In addition, the less stringent filter of 0.1 resulted in a higher index value than 
-0.27, which was contrary to the expectation that including trips with fewer 
-positive trips would decrease the CPUE.  Further examination of the number of 
-California scorpionfish per trip by year showed a lower number of trips for this
-year than others and a lower proportion of low catch trips explaining why exclusion 
-of low catch trips through application of the 0.27 index reduced the relative 
-magnitude of the 1989 index value relative to other years.  As a result of this
-anomalous result and the low sample size, trips from 1989 were excluded from analysis.
+Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
+a negative binomial (NB) model. Model selection using Akaike Information Criterion 
+(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
+were grouped into three regions, north of Sonoma county, Sonoma county through 
+Santa Cruz county, and San Luis Obispo county.  Area_x is a measure of distance 
+from shore, a categorical variable indicating whether most of the fishing occurred 
+inside or outside three nautical miles from shore. The full model was selected for 
+both Stephens-MacCall filtering methods.
+
+The index excluding the false positives resulted in unrealistic values for the index 
+in 1999 (Figure \ref{fig:MRFSS_index_N_SM_falsepos}).  Because the catch included in this index is "sampler-examined" and the samplers are well trained in species identification, the index 
+used in the assessment includes the trips identified as false positives by the 
+Stephens-MacCall filter. There is not a lot of contrast in the index, excpect for 
+a small increase in 1986.  The final index values and associated log standard error 
+included in the assessment can be found in Table \ref{tab:Indices}.
 
 
+*MRFSS filtering and index standardization for south of Pt. Conception*
+Prior to the Stephens-MacCall filter, a total of 7,334 trips were retained for the analysis. 
+As expected, positive indicators of GBYR trips included several nearshore speces, e.g., 
+kelp rockfish, treefish, and black croaker, whiel the strongest counter-indicator
+was opaleye (Figure \ref{fig:Fleet11_SM_filter}). While the filter is useful 
+in identifying co-occurring or non-occurring species assuming all effort was exerted 
+in pursuit of a single target, the targeting of more than one target species can result
+in co-occurrence of species in the catch that do not truly co-occur in terms of habitat
+associations informative for an index of abundance. 
 
+For consistency with the methods used north of Pt. Conception (Table 
+\ref(Fleet10_11_Filter}) the index includes the trips identified as  "false 
+positives" from the Stephens-MacCall filtering that had a lower threshold 
+level os 0.22 (Table \ref{tab:Fleet11_contingency}). 
 
+Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
+the deltaGLM approach.  A negative binomial model was explored, but the proportion of 
+false positives was not well estimated in the negative binomial models. This is likely 
+due to the facts that MRFSS sampling effort was higher south of Pt. Conception, and GBYR 
+are also rare south of Pt. Conception. Model selection using Akaike Information Criterion 
+(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
+were grouped into three regions,Santa Barbara to Ventura counties, Los Angeles and Orange counties, and San Diego county.  Area_x is a measure of distance from shore, a categorical variable indicating whether most of the fishing occurred inside or outside three nautical 
+miles from shore. The full model was selected for both Stephens-MacCall filtering methods.
 
+The resulting index represents different years than that for north of Pt. Conception 
+(Table \ref{tab:Indices}). The index starts in 1980 with continuous data through 1986, 
+and three additional years in 1996, 1998 and 1999.  The index increases through 1983 and a 
+marked decrease to 1986.  The index in the 1990s is non-informative.
 
-
-
-
-_Data Source 1 Index Standardization_
-
-
-Table \ref{tab:Indices})
-
-
-
-
-
+_Fishery-Dependent Sources: Length Composition_
 (Table \ref{tab:length_samples_survey})
-_Data Source 1 Length Composition_
-
 
 **Data Source 2**
 
