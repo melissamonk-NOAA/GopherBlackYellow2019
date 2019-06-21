@@ -17,11 +17,12 @@
 <!-- ====================================================================== --> 
 
 ![Map showing the management area for gopher and black-and-yellow rockfish from Cape Mendocino to the U.S. Mexico border.{fig:assess_reagion_map}](Figures/assess_region_map.png)
+![Commercial landings for gopher (GPHR) and black-and-yellow (BYEL) rockfishes landed live and dead north and south of Pt. Conception.  All catch time series were combined for the assessment into one commercial fleet. \label{fig:Catches_livedeadNS_gby}](Figures/Catches_livedeadNS_gby.png)
 
 
 ![Annual ex-vessel revenue, adjusted for inflation (AFI) in thousands of dollars for gopher and black-and-yellow rockfish. \label{fig:GBY_revenue}](Figures/GBY_revenue.png)
 
-
+![Recreational total mortality for gopher rockfish (GPHR) and black-and-yellow (BYEL) rockfish from the CDFW CRFS sampling era by mode and split north and south of Pt. Conception. \label{fig:CFRS_catches}](Figures/CRFS_totalmort_gby.png)
 
 <!-- ********************************************************************** --> 
 <!-- *************************Data FIGURES********************************* --> 
@@ -31,7 +32,7 @@
 
 <!-- *************************Catches FIGURES********************************* -->
 
-![Commercial landings for gopher (GPHR) and black-and-yellow (BYEL) rockfishes landed live and dead north and south of Pt. Conception.  All catch time series were combined for the assessment into one commercial fleet. \label{fig:Catches_livedeadNS_gby}](Figures/Catches_livedeadNS_gby.png)
+
 
 
 ![Comparison of the recreational and commercial fishery landings from the 2005 assessment to this 2019 assessment. Note that the 2019 assessment includes both gopher and black-and-yellow rockfish where the 2005 assessment represents gopher rockfish only. The 2005 assessment also did not include landings from south of Pt. Conception. \label{fig:Assessment_compare}](Figures/assessment_compare.png)
@@ -55,9 +56,10 @@
 \FloatBarrier
 
 <!-- ********************************************************************** -->
-<!-- ****************Fleet xx Index FIGURES************************* -->
+<!-- ****************Fleet 10_11 Index FIGURES************************* -->
 <!-- ********************************************************************** --> 
-
+![Comparison of indices of abundance (scaled to their means) for the MRFSS dockside CPFV survey between a gopher-only and GBYR coplex index for north and south of Pt. Conception. \label{fig:MRFSS_index_compare}](Figures/MRFSS_index_compare.png)
+![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set. Horizontal bars are 95% confidence intervals. \label{fig:Fleet10_SM_filter}](Figures/Fleet10_SM_filter.png)
 
 
 \FloatBarrier

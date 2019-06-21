@@ -327,7 +327,7 @@ align(SPRratio_Exploit_mod1.table) = c('l','l',
   # Rbind all of the data for the big summary reference table  
   Ref_pts = rbind (
   SSB_Unfished    = mod$derived_quants[grep('SSB_I', mod$derived_quants$Label), ],
-  TotBio_Unfished = mod$derived_quants[grep('TotBio', mod$derived_quants$Label, ignore.case=TRUE), ],
+  SmryBio_Unfished = mod$derived_quants[grep('SmryBio', mod$derived_quants$Label, ignore.case=TRUE), ],
   Recr_Unfished   = mod$derived_quants[grep('Recr_I', mod$derived_quants$Label), ],
   SSB_lastyr      = mod$derived_quants[grep(paste0('SSB_', LastYR), mod$derived_quants$Label), ],
   Depletion_lastyr= mod$derived_quants[grep(paste0('Bratio_', LastYR), mod$derived_quants$Label), ],
@@ -355,35 +355,26 @@ align(SPRratio_Exploit_mod1.table) = c('l','l',
   Ref_pts$places  = ifelse(Ref_pts$Value >= 1, 
                            nchar(round(Ref_pts$Value)), NA) 
   
-  Ref_pts$Value1  = ifelse((Ref_pts$Value >= 1 & Ref_pts$Label !='TotBio_Unfished'), 
-                            comma(ifelse(nchar(round(Ref_pts$Value))>4, 
-                                       Ref_pts$Value/10^(nchar(round(Ref_pts$Value))-4), Ref_pts$Value), big.mark=','), 
-                                         ifelse(Ref_pts$Label == 'TotBio_Unfished', comma(Ref_pts$Value, big.mark=','), 
-                                                round(Ref_pts$Value, 3)))  
-        
-
+  Ref_pts$Value1  = ifelse((Ref_pts$Value >= 1 & Ref_pts$Label !='SmryBio_unfished'), 
+                           comma(Ref_pts$Value, big.mark=','), 
+                           ifelse(Ref_pts$Label == 'SmryBio_unfished', comma(Ref_pts$Value, big.mark=','), 
+                                  round(Ref_pts$Value, 3)))  
+  
+  
   Ref_pts$lowerCI  = round(Ref_pts$Value + qnorm(0.025) * Ref_pts$StdDev, digits = 3)
   
   Ref_pts$upperCI  = round(Ref_pts$Value - qnorm(0.025) * Ref_pts$StdDev, digits = 3)
   
   
-  Ref_pts$lowerCI1 = ifelse((abs(Ref_pts$lowerCI) >= 1 & Ref_pts$Label !='TotBio_Unfished'), 
-                             comma(ifelse(nchar(round(Ref_pts$lowerCI))>4, 
-                                      Ref_pts$lowerCI/10^(nchar(round(Ref_pts$lowerCI))-4), Ref_pts$lowerCI), big.mark=','), 
-                                        ifelse(Ref_pts$Label == 'TotBio_Unfished', comma(Ref_pts$lowerCI, big.mark=','), 
-                                              round(Ref_pts$lowerCI, 3)))  
-                                                                
-  Ref_pts$upperCI1 = ifelse((Ref_pts$upperCI >= 1 & Ref_pts$Label !='TotBio_Unfished'), 
-                             comma(ifelse(nchar(round(Ref_pts$upperCI))>4, 
-                                      Ref_pts$upperCI/10^(nchar(round(Ref_pts$upperCI))-4), Ref_pts$upperCI), big.mark=','), 
-                                        ifelse(Ref_pts$Label == 'TotBio_Unfished', comma(Ref_pts$upperCI, big.mark=','), 
-                                              round(Ref_pts$upperCI, 3)))  
+  Ref_pts$lowerCI1 = ifelse((abs(Ref_pts$lowerCI) >= 1 & Ref_pts$Label !='SmryBio_unfished'), 
+                            comma(Ref_pts$lowerCI, big.mark=','), 
+                            ifelse(Ref_pts$Label == 'SmryBio_unfished', comma(Ref_pts$lowerCI, big.mark=','), 
+                                   round(Ref_pts$lowerCI, 3)))  
   
-  
-
-  
-   
-
+  Ref_pts$upperCI1 = ifelse((Ref_pts$upperCI >= 1 & Ref_pts$Label !='SmryBio_unfished'), 
+                            comma(Ref_pts$upperCI, big.mark=','), 
+                            ifelse(Ref_pts$Label == 'SmryBio_unfished', comma(Ref_pts$upperCI, big.mark=','), 
+                                   round(Ref_pts$upperCI, 3)))  
         
   Quantity = c(paste('Unfished spawning output (', fecund_unit, ')', sep = ''),
                      paste('Unfished age ', min_age, ' biomass (mt)', sep = ''),

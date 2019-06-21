@@ -57,12 +57,13 @@ the two species representing “sister species with evidence of ongoing gene flo
 that a more rigorous evaluation of the level of genetic distinction between these two species 
 would benefit from whole-genome sequencing of representatives from each species group.
 
-In addition to the differnces in coloration, the depth distribution and range 
+In addition to the differences in coloration, the depth distribution and range 
 differ between the two species. The range of both species extends from Cape 
-Blanco Oregon to Baja California, though they are uncommon north of Fort Bragg, 
-California and black-and-yellow rockfish is uncommon south 
-of Point Conception, California. Gopher rockfish 
-are found in rocky reef habitat from the intertidal to depths of 264 ft (80 m) 
+Blanco Oregon to Baja California. Both specides are uncommon north of Fort Bragg, 
+California and black-and-yellow rockfish is uncommon south of Pt. Conception, 
+California. Howver, gopher rockfish can be found as far south as Punta San Roque on the 
+Baja peninsula.Gopher rockfish are found in rocky reef habitat from the intertidal 
+to depths of 264 ft (80 m) 
 with a predominant depth distribution of 30 to 120 ft (9-37 m), while the 
 black-and-yellow rockfish occupies depths from the intertidal to 120 ft (40 m) 
 and is predominantly observed in depths shallower than 60 ft (18 m) 
@@ -70,7 +71,7 @@ and is predominantly observed in depths shallower than 60 ft (18 m)
 
 Both species are solitary, sedentary, territorial species with home 
 ranges of 10-12 square meters, with occasional extended trips [@Love2002]. 
-A large percentage (6-71%) of black-and-yellow rockfish retuend to the site 
+A large percentage (67-71%) of black-and-yellow rockfish retuend to the site 
 of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
 Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
 movement (<1.5 nm, 2.8 km) with all fish being recaptured on the same reef 
@@ -103,7 +104,7 @@ but they occupied a lower trophic level during the upwelling season.
 ## Early Life History
 Both gopher and black-and-yellow rockfish are viviparous and release one brood per 
 season between January and July [@Echeverria1987].  Larvae are approximately 4 mm in length 
-and have a 1-2 month pelagic stage before recruiting to the kelp forest canopy, 
+at birth and have a 1-2 month pelagic stage before recruiting to the kelp forest canopy, 
 i.e., surface fronds of \emph{Macrosystis pyrifera} and \emph{Cysteoseira osmundacea} 
 at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent until they reach juvenile 
 stage at 22-23 mm. Differences in coloration begin to occur at 25-30 mm and can be used to 
@@ -123,8 +124,7 @@ that could contribute ecosystem-related quantitative information for the assessm
 
 
 ##Fishery Information
-NEED TO FINISH 
-  
+
 The hook-and-line fishery off California developed in the late 19th century 
 [@Love2002]. The rockfish trawl fishery was established in the early 1940s, when 
 the United States became involved in World War II and wartime shortage of red 
@@ -135,7 +135,7 @@ Gopher and black-and-yellow (referred to from hereon as GBRY when discussing the
 complex) rockfish have been a minor component of the commercial and recreational 
 rockfish fishery since at least the late 1960s (CFIS and RecFIN). The commercial 
 catch histories of the two species cannot easily be separated 
-(Figure \ref{fig:Catches_livedeadNS}).  From 1916-1936 
+(Figure \ref{fig:Catches_livedeadNS_gby}).  From 1916-1936 
 only black-and-yellow rockfish were reported in the landings, and an average 
 of 0.04 mt of black-and-yellow rockfish are reported from 1937-1983. 
 Black-and-yellow rockfish reappear in the landings in 1984 with 7.2 mt landed 
@@ -164,14 +164,22 @@ $2 a pound.  The live fish fishery increased the value of both species to an
 average of \$6-\$8 a pound.  The maximum reported value of either a gopher 
 or black-and-yellow rockfish was $20 a pound in 2003.
 
-The recreational GBYR fishery for California is most prominent north of Pt. Conception. 
+The recreational GBYR fishery for California is most prominent north of Pt. 
+Conception throughout the entire catch history (Figure \ref{fig:Exec_catch1}).
+The recreational landings increased from 1928 to 1980.  The sharp increase 
+in the 1980s could be an artifact of the MRFSS sampling program that began 
+in 1980; however, the more recent recreational landings also exhibit a cyclical 
+trend of years with high catches followed by period of decreased recreational 
+landings. The CRFS era recreational total mortality represents the most accurate 
+description of the recreational fleet's catches in terms of area, mode and species (Figure \ref{fig:CFRS_catches}).  
 
-
-ports north of Point Conception peaked during a five-year period in the early 1990s, with 2001 and 2003 also being productive years (Figure 2). Since 1983, anglers caught the greatest proportion of gopher rockfish from private and rental boats (71%), followed next by party and charter boats (27%). However, in more recent years (1997 to 2004) these proportions have changed, with the private and rental boats taking 59% of gopher rockfish in the recreational fishery and 41% by the party and charter boats. Also since 1983, gopher rockfish have ranked 25th in northern California recreational fishery landings, accounting for approximately 1% of the total harvest for all recreationally caught fishes. However, gopher rockfish made up approximately 50% of the estimated take of the shallow nearshore rockfishes and 6% of all nearshore rockfish species combined.
-Add in revenue here.
-Additionally, recent catches have been influenced by size and bag limits.
- 
-Starting in the late 1980s (Larson and Wilson-Vandenberg 2001) the premium quality live- fish market developed. Currently, nearly all gopher rockfish are landed in this condition due to a more lucrative high-demand market. As a result of the increasing demand for live- fish the average price per pound has risen steadily from a low of less than $2.00 per pound at the inception of the live- fish market to approximately $6.15 (preliminary) per pound in 2004 (CFIS- CMASTR) (unadjusted for inflation).
+Recreational catches are dominated by gopher 
+rockfish north of Pt. Conception in the private/rental (PR) and party/chater 
+(PC or CPFV) modes.  South of Pt. Conception gopher rockfish are predominately 
+caught by the CPFV fleet, with all other modes being insignifcant. The total recreational mortality of black-and-yellow rockfish south of Pt. Conception 
+since 2005 is 3 mt, compared to 106 mt north of Pt. Conception. The total 
+mortality since 2005 for gopher rockfish is 86 mt south of Pt. Conception 
+and 669 mt north of Pt. Conception.
 
 
 ##Summary of Management History
@@ -194,8 +202,8 @@ for two- month periods) and seasons. Starting in 1994 the commercial groundfish
 fishery sector was divided into two components: limited entry and open access 
 with specific regulations designed for each component. Other regulatory actions 
 for the general rockfish categories have included area closures, gear restrictions, 
-and cumulative bimonthly trip limits set for the four different commercial sectors - limited entry 
-fixed gear, limited entry trawl, open access trawl, and open access non-trawl.
+and cumulative bimonthly trip limits set for the four different commercial sectors - 
+limited entry fixed gear, limited entry trawl, open access trawl, and open access non-trawl.
 Harvest guidelines are also used to regulate the annual harvest for both the recreational and 
 commercial sectors. 
 
@@ -208,8 +216,8 @@ included in the nearshore group. Within the nearshore group, they are included i
 During the late 1990s and early 2000s, major changes also occurred in the way 
 that California managed its nearshore fishery. The Marine Life Management Act 
 (MLMA), which was passed in 1998 by the California Legislature and enacted in 
-1999, required that the FGC adopt an FMP for nearshore finfish [@Vandenberg2014]. It also gave 
-authority to the FGC to regulate commercial and recreational nearshore fisheries 
+1999, required that the FGC adopt an FMP for nearshore finfish [@Vandenberg2014]. 
+It also gave authority to the FGC to regulate commercial and recreational nearshore fisheries 
 through FMPs and provided broad authority to adopt regulations for the nearshore 
 fishery during the time prior to adoption of the nearshore finfish FMP. Within this 
 legislation, the Legislature also included commercial size limits for ten nearshore
@@ -281,9 +289,9 @@ as well as other base case summary results can be found in Table \ref{tab:mnmgt_
 ##Fisheries Off Mexico or Canada
 The range of GBYR does not extend north to the Canadian border, and they are rarely 
 encountered in Oregon and Washington.  The southern end of the gopher rockfish's range 
-extends to Punta San Roque (southern Baja California) whiel the southern end of the 
+extends to Punta San Roque (southern Baja California) while the southern end of the 
 black-and-yellow rockfish's range extends to Isla Natividad (central Baja California) 
-[@Love2002].  This was no available information on the fishery for GBYR at the time 
+[@Love2002]. However, black-and-yellow rockfish are rare south fo Pt. Conception, California.   This was no available information on the fishery for GBYR at the time 
 of this assessment, nor additional details on the abundance or distribution patterns 
 in Mexican waters.
 

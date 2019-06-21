@@ -14,6 +14,7 @@ revenue = read.csv('GBY_revenue.csv', header=T)
 
 
 
+
 #-----------------------------------------------------------------------------------
 #bar plot of original catches
 #-----------------------------------------------------------------------------------
@@ -321,6 +322,4 @@ ggplot(rev, aes(x=Year, y=Revenue, fill=Species)) +
                     values = c("GPHR" = "lightblue",
                                "BYEL" = "purple"))
 dev.off()
-
-
 
