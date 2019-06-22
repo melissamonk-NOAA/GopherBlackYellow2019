@@ -349,6 +349,8 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
+A summary of all indices in the assesssment can be found in Table \ref{tab:Index_summary}.
+
 **MRFSS Dockside CPFV Index**
 
 From 1980 to 2003 the MRFSS program conducted dockside intercept surveys of recreational 
@@ -403,7 +405,12 @@ was striped bass (Figure \ref{fig:Fleet10_SM_filter}). While the filter is usefu
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
 in pursuit of a single target, the targeting of more than one target species can result
 in co-occurrence of species in the catch that do not truly co-occur in terms of habitat
-associations informative for an index of abundance. 
+associations informative for an index of abundance. Stpehens and MacCall [@Stephens2004] 
+recommended including all trips above a threshold where the false negatives and false 
+positives are equally balanced.  However, this does not have any biological relevance 
+and for this dataset, we assume that if a GBYR was landed, the anglers had to have fished 
+in appropriate habitat, especially given how territorial GBYR and both species are 
+strongly associated with rocky habitat.
  
 Two levels of possible filtering were applied using the Stephens-MacCall filter (Table 
 \ref(Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
@@ -412,29 +419,44 @@ positives" equals "false negatives." The trips selected using this criteria
 were compared to an alternative method including all the "false positive" 
 trips, regardless of the probability of encountering GBYR 
 (Table \ref{tab:Fleet10_contingency}). This assumes that if GBYR were caught, 
-the vessel must have fished in appropriate habitat during the trip. 
+the anglers must have fished in appropriate habitat during the trip. 
+The catch included in this index is "sampler-examined" and the samplers are well 
+trained in species identification.  The last filter applied was to exclude years 
+after 1999 due to a number of regulation changes, and years in which there were 
+less than 20 observed trips. The final index is represented by 544 trips, 220 of 
+which encountered GBYR.
+
+Due to the large number of zeros in the data, we modeled Catch per angler hour 
+(CPUE; number of fish per angler hour) using maximum likelihood and Bayesian 
+negative binomial regression. Models incorporating temporal (year, 2-month waves) a
+nd geographic (region and area_x) factors were evaluated. Counties were grouped 
+into three regions, north of Sonoma county, Sonoma county through 
+Santa Cruz county, and San Luis Obispo county. Based on AIC values from maximum 
+likelihood fits (Table \ref{tab:Fleet10_AIC}), a main effects model including all 
+factors (year, region, area_x, and 2-month waves) was fit in the “rstan” R package 
+(version 2.18.2). Diagnostic checks of the Bayesian model fit (Neff, Rhat, 
+and Monte Carlo standard error values) were all reasonable. Predicted means by 
+stratum (Year) were strongly correlated with observed means, suggesting 
+a reasonable fit to the data (Figure \ref{fig:Fleet10_MLE_stan}). The NB model 
+generated data sets with roughly 50-70% zeros, compared to the observed 60% 
+(Figure \ref{fig:Fleet10_prop_zero_STAN}).
+
 
 Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
 a negative binomial (NB) model. Model selection using Akaike Information Criterion 
-(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
-were grouped into three regions, north of Sonoma county, Sonoma county through 
-Santa Cruz county, and San Luis Obispo county.  Area_x is a measure of distance 
+(AIC) supported inclusion of year, region, area_x, and 2-month waves.   Area_x is a measure of distance 
 from shore, a categorical variable indicating whether most of the fishing occurred 
 inside or outside three nautical miles from shore. The full model was selected for 
 both Stephens-MacCall filtering methods.
 
-The index excluding the false positives resulted in unrealistic values for the index 
-in 1999 (Figure \ref{fig:MRFSS_index_N_SM_falsepos}).  Because the catch included in this index is "sampler-examined" and the samplers are well trained in species identification, the index 
-used in the assessment includes the trips identified as false positives by the 
-Stephens-MacCall filter. There is not a lot of contrast in the index, excpect for 
-a small increase in 1986.  The final index values and associated log standard error 
-included in the assessment can be found in Table \ref{tab:Indices}.
+The index represents the years 1984-1989, 1995, 1996 and 1999. There is not a lot of 
+contrast in the index, except for a small increase in 1986.  The final index values and associated log standard error included in the assessment can be found in Table \ref{tab:Indices}.
 
 
 *MRFSS filtering and index standardization for south of Pt. Conception*
-Prior to the Stephens-MacCall filter, a total of 7,334 trips were retained for the analysis. 
+Prior to the Stephens-MacCall filter, a total of 7,334 trips were available for the analysis. 
 As expected, positive indicators of GBYR trips included several nearshore speces, e.g., 
-kelp rockfish, treefish, and black croaker, whiel the strongest counter-indicator
+kelp rockfish, treefish, and black croaker, while the strongest counter-indicator
 was opaleye (Figure \ref{fig:Fleet11_SM_filter}). While the filter is useful 
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
 in pursuit of a single target, the targeting of more than one target species can result
@@ -444,30 +466,140 @@ associations informative for an index of abundance.
 For consistency with the methods used north of Pt. Conception (Table 
 \ref(Fleet10_11_Filter}) the index includes the trips identified as  "false 
 positives" from the Stephens-MacCall filtering that had a lower threshold 
-level os 0.22 (Table \ref{tab:Fleet11_contingency}). 
+level os 0.22 (Table \ref{tab:Fleet11_contingency}). The last filter applied was 
+to exclude years after 1999 due to a number of regulation changes, and years 
+in which there were less than 20 observed trips. The final index is represented 
+by 475 trips, 342 of which encountered GBYR.
 
 Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
-the deltaGLM approach.  A negative binomial model was explored, but the proportion of 
-false positives was not well estimated in the negative binomial models. This is likely 
-due to the facts that MRFSS sampling effort was higher south of Pt. Conception, and GBYR 
-are also rare south of Pt. Conception. Model selection using Akaike Information Criterion 
-(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
-were grouped into three regions,Santa Barbara to Ventura counties, Los Angeles and Orange counties, and San Diego county.  Area_x is a measure of distance from shore, a categorical variable indicating whether most of the fishing occurred inside or outside three nautical 
-miles from shore. The full model was selected for both Stephens-MacCall filtering methods.
+the deltaGLM approach [@Lo1992; @Stefansson1996]. A negative binomial model was 
+explored, but the proportion of zeroes was not well estimated in the 
+negative binomial models. This is likely due to the facts that MRFSS sampling 
+effort was higher south of Pt. Conception, and GBYR 
+are also rare south of Pt. Conception, both leading to a higher proportion of zeroes 
+in the trip data than for north of Pt. Conception.
 
-The resulting index represents different years than that for north of Pt. Conception 
-(Table \ref{tab:Indices}). The index starts in 1980 with continuous data through 1986, 
-and three additional years in 1996, 1998 and 1999.  The index increases through 1983 and a 
-marked decrease to 1986.  The index in the 1990s is non-informative.
+Model selection using Akaike Information Criterion 
+(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
+were grouped into three regions,Santa Barbara to Ventura counties, Los Angeles 
+and Orange counties, and San Diego county for both the positive observartion model and 
+the binomial model.  Area_x is a measure of distance from shore, a categorical variable 
+indicating whether most of the fishing occurred inside or outside three nautical 
+miles from shore.
+
+The resulting index for south of Pt. Conception represents different years than the index 
+for north of Pt. Conception (Table \ref{tab:Indices}). The index starts in 1980 with 
+continuous data through 1986, and three additional years in 1996, 1998 and 1999.  
+The index increases through 1983 and a marked decrease to 1986.  The index for 
+the three years in the 1990s does not exhiit any significant trend.
+
+**CPFV Onboard Observer Surveys**
+
+Onboard observer survey data were available from three sources for this assessment, 1) a CDFW survey in central California from 1987-1998 (referred to as the Deb Wilson-Vandenberg survey, [@Reilly1998]), 2) the CDFW survey from 1999-2018, and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
+sampler rides along on a CPFV trip and records location-specific catch and discard 
+information to the species level for a subset of anglers onboard the vessel. 
+The subset of observed anglers is usually a maximum of 15 people that changes during each fishing stop.  The catch cannot be linked to an individual, but rather to a specific fishing location.  The sampler also records the starting and ending time, number of anglers observed, 
+starting and ending depth, and measures discarded fish.  The fine-scale catch and effort 
+data allow us to better filter the data for indices to fishing stops within suitable habitat 
+for the target species.
+
+
+California implemented a statewide sampling program in 1999 [@Monk2014].  California Polytechnic State University (Cal Poly) has conducted an independent onboard sampling program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2006], but follows the protocols established in Reilly et al. [-@Reilly1998], and has been modified to reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are landed instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area incorporated in the same index as the CDFW data from 1999-2018.  Cal Poly collects lengths of both retained and discarded fish.  
+
+We generated separate relative indices of abundance in for the 1987-1999 and 2000-2018 datasets due to the number of regulation changes occurring throughout the time period (see Appendix H, p.\pageref{sec:AppendixH}). Separate indices were also developed for north and south of Pt. Conception.  
+
+
+*Deb Wilson-Vandenberg Onboard Observer Index Filtering and Standardizatiom*
+The specific fishing locations at each fishing stop  were recorded at a finer scale than 
+the catch data for this survey.  We aggregated the relevant location information (time and 
+number of observed anglers) to match the available catch information.  Between April 1987 and July 1992 the number of observed anglers was not recorded for each fishing stop, but the number of anglers aboard the vessel is available.  We imputed the number of observed anglers using the number of anglers aboard the vessel and the number of observed anglers at each fishing stop from the August 1992-December 1998 data (see Supplemental materials for details).  In 1987, trips were only observed in Monterey, CA and were therefore excluded from the analysis.  The years 1990 and 1991 were also removed for low sample sizes.  Final data fileters included removing reefs that 
+never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 1,096 of those encountering GBYR. 
+
+The index was fit using a delta-GLM model, with a lognormal model (AIC: 1,088) 
+selected over a gamma model (AIC: 1,143) for the positive encounters. Covariates 
+considered in the full model included year, depth, and month (Table \ref{tab:Fleet5_AIC}). 
+The model selected by AIC for both the lognormal and binomial components of the 
+delta-GLM included year, depth and reef.  Depth was included in 10 m depth bins and eight reefs were 
+select in the final model (Figure coming). The final index did not indicate an increasing 
+trend that was seen in the 2005 gopher rockfish assessment using the same data set (Figure \ref{fig:DebWV_index_compare}). A number of reasons include that finer-scale location data 
+was keypunched in 2012 for this survey, the index in this assessment includes black-and-yellow 
+rockfish, and different filters were applied to the data. However, the the same peaks and 
+decreases in the two indices are present.
+
+*CDFW and Cal Poly Onboard Observer Index Filtering and Standardization*
+As described above the CDFW and Cal Poly onboard observer programs are identical 
+in that the same protols are followed.  The only difference is that Cal Poly measures 
+both retained and discarded fish from the observed anglers.  CDFW measures discarded 
+fish only from the observed anglers, and meaures retained fish as part of the angler 
+interview at the bag level. Cal Poly has also begun collecting otoliths during the 
+onboard observer trips, which are used as conditional age-at-length data the 
+recreational fishery north of Pt. Conception in this assessment. 
+
+A number of filters are applied to these data.  All of the Cal Poly data have been 
+through a QA/QC process once key-punched, whereas a number of errors remain in the 
+data from CDFW.  Data sheets from CDFW are not longer available prior to 2012 and 
+staff constraints have also prevented a quality control review of the data. 
+
+Each drift was assigned to a reef (hard bottom). Hard bottom was extracted from 
+the [California Seafloor Mapping Project](http://seafloor.otterlabs.org/index.html), 
+with bathymetric data from state waters available at a 2 m resolution.  Reefs were 
+developed based on a number of factors described in the supplemental material (xxx). 
+
+Initial filters were applied to the entire dataset, north and south of Pt. Conception 
+combined. After an initial clean-up of the data, 67,850 drifts remained, with GBYR present 
+in 9,317 (Table \ref{tab:Fleet6_7_Filter}).  This was reduced to 25,427 drifts GBYR 
+present in 7,250 drifts) after filtering the data to remove potential outliers in the 
+time fished and observed anglers, limiting the data to reefs that observed GBYR and were 
+sampled in at least 2/3 of all years, and to drifts with starting locations within 1,000 m 
+of a reef.
+
+Recreational fishing trips north and south of Pt. Conception can be fundamentally different due 
+to differences in habitat structure, target species, and weather.  
+
+*Filtering and Index Standardization for north of Pt. Conception*
+The number of drifts remaining before region specific filtering was 13,792, with 
+6,036 drifts encountering GBYR (Figure \ref{fig:Fleet6_7_Filter}).  
+Because GBYR are strongly associated with hard 
+bottom habitat, the distance from a reef at the start of a drift was re-examined 
+for drifts encountering GBYR.  The maximum distance was 872 m, but the 97% quantile 
+dropped to 42 m and was chosen as a reasonable cutoff value, nad only resulted in a 
+reduction of 182 drifts that encountered gopher rockfish. The final data were 
+filtered to ensure all selected reefs were sampled in at least 2/3 of all years, 
+leaving 12,965 drifts for the final index, 5,796 of which encountered GBYR.
+
+The index of abundance was modeled with the a delta-GLM modeleing approach, 
+with year, month, 10 m depth bins from 10-59 m, and 12 reefs as possible 
+covariates.  A lognormal model (AIC: 12,185) was selected over a gamma (AIC: 12,520) 
+for the positive observations using AIC. The full model was selected by AIC for the 
+lognormal and binomial components of the delta-GLM. The index indicates a relatively 
+stable trend from 2001-2009 and a steady decrease from 2010-2013.  The relative index 
+of abundance has increased since 2014.
+
+
+
+
+*Filtering and Index Standardization for south of Pt. Conception*
+The bathymetric data is not available at as fine-scale resolution for the Southern 
+California Bight and more of the trips and drifts target mid-water species, including 
+mid-water rockfish (Figure \ref{fig:Fleet6_7_Filter}). Therefore, instead of using 
+distance to reef as a filter, we filtered the data to drifts that encountered 20% 
+or more groundfish.  This resulted in the total number of drifts decreasing from 
+11,635 to 5,495, but only decreased the number of drifts encountering GBYR from 
+1,277 to 1,171. A final check was made to ensure all reefs were sampled in at 
+least 2/3 of all years, leaving 5,440 drift for the final index, of which 1,132 
+encountered GBYR.
+
+The index of abundance was modeled with the a delta-GLM modeleing approach, 
+with year, month, 10 m depth bins from 10-59 m, and four reefs as possible 
+covariates.  A lognormal model (AIC: 162) was selected over a gamma (AIC: 277) 
+for the positive observations using AIC. A model with year, depth and reef was 
+selected by AIC for both the lognormal and binomial components of the delta-GLM. 
+The index indicates a relatively stable trend from 2001-2004 and a steady increase 
+from 2005-2017. 
+
 
 _Fishery-Dependent Sources: Length Composition_
 (Table \ref{tab:length_samples_survey})
-
-**Data Source 2**
-
-
-**Data Source 3**
-
 
 
 
@@ -475,13 +607,15 @@ _Fishery-Dependent Sources: Length Composition_
 
 ###Fishery-Independent Data Sources
 
-**Data Source 1**
+**CCFRP**
 
 _Data Source 1 Index Standardization_
 
 
-_Data Source 1 Length Composition_
 
 
-**Data Source 2**
 
+**PISCO**
+
+
+_Fishery-Independent Length Composition_

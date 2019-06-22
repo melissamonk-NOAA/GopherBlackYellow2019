@@ -213,6 +213,7 @@ print(lengths.table, add.to.row = a_header,
 <!-- ********************************************************************** -->
 
 <!--Index summary tables-->
+
 ```{r, results="asis"}
 #read in index summary data
 Index_summary = read.csv('./txt_files/Index_summary.csv')
@@ -242,6 +243,7 @@ print(Index_summary.table,
 
 
 <!--Table with all index values-->
+
 ```{r, results = 'asis'}
 #Read in indices table, contains index data for all indices
 Indices = read.csv('./txt_files/Indices.csv')
@@ -277,6 +279,7 @@ print(Indices.table, add.to.row = a_header,
 ```
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Fleet 5 index TABLES******* -->
 <!-- ********************************************************************** -->
@@ -480,7 +483,7 @@ Fleet11_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx',
 
 colnames(Fleet10_11_Filter) = c('Filter','Trips','Positive Trips')
 Fleet10_11_Filter[4,] = c(NA,NA,NA)
-Fleet10_11_Filter[9,] = c(NA,NA,NA)
+Fleet10_11_Filter[10,] = c(NA,NA,NA)
 
 Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
                                caption = c("Data filtering steps for the MRFSS dockside intercept survey 
@@ -488,7 +491,9 @@ Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
                                label = 'tab:Fleet10_11_Filter', digits = 0,
                                format.args = list(big.mark = ",",))
 
-align(Fleet10_11_Filter.table) = c('l','l','c','c')
+align(Fleet10_11_Filter.table) =  c('l',
+                                   '>{\\centering}p{2in}',
+                                  'c','c')  
 
 print(Fleet10_11_Filter.table, 
               include.rownames=FALSE, 

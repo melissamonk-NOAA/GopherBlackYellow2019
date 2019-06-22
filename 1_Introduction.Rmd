@@ -12,7 +12,7 @@ results, but have generally concluded that there is unusually low genetic
 differentiation between the two species. The most frequently used measure of
 genetic analyses to evaluate evidence for population differentiation is the 
 fixation index ($F_{ST}$), defined as the proportion of the total genetic 
-variation in one subpopulation (subscript S) relative to the total genetic 
+variation in one sub-population (subscript S) relative to the total genetic 
 variation (subscript T) [@Waples2008; @Hauser2008].   Values of $F_{ST}$ 
 range from 0 to 1 where a zero value implies the populations are panmictic 
 and a value closer to one implies the two populations are genetically 
@@ -31,7 +31,7 @@ are often conserved due against variation, this early work was not enormously
 conclusive.  In a subsequent study of restriction site polymorphisms, 
 Hunter et al. [-@Hunter1994] found slight but significant differences between 
 species based on restriction fragment length polymorphisms (RFLP’s).  Following 
-that study, an analysis of the mitochondrial control region by Alesandri and 
+that study, an analysis of the mitochondrial control region by Alesandrini and 
 Bernardi [-@Alesandrini1999] did not detect differences between the two species, 
 although there were limitations regarding how representative those results were 
 across the genome.  Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] 
@@ -59,9 +59,9 @@ would benefit from whole-genome sequencing of representatives from each species 
 
 In addition to the differences in coloration, the depth distribution and range 
 differ between the two species. The range of both species extends from Cape 
-Blanco Oregon to Baja California. Both specides are uncommon north of Fort Bragg, 
+Blanco Oregon to Baja California. Both species are uncommon north of Fort Bragg, 
 California and black-and-yellow rockfish is uncommon south of Pt. Conception, 
-California. Howver, gopher rockfish can be found as far south as Punta San Roque on the 
+California. However, gopher rockfish can be found as far south as Punta San Roque on the 
 Baja peninsula.Gopher rockfish are found in rocky reef habitat from the intertidal 
 to depths of 264 ft (80 m) 
 with a predominant depth distribution of 30 to 120 ft (9-37 m), while the 
@@ -71,7 +71,7 @@ and is predominantly observed in depths shallower than 60 ft (18 m)
 
 Both species are solitary, sedentary, territorial species with home 
 ranges of 10-12 square meters, with occasional extended trips [@Love2002]. 
-A large percentage (67-71%) of black-and-yellow rockfish retuend to the site 
+A large percentage (67-71%) of black-and-yellow rockfish returned to the site 
 of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
 Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
 movement (<1.5 nm, 2.8 km) with all fish being recaptured on the same reef 
@@ -84,20 +84,20 @@ have been a factor in the movement in the Matthews[-@Matthews1985] study.
 Larson [-@Larson1980] conducted a study on the territoriality and segregation 
 between gopher and black-and-yellow rockfishes.  When one species was removed, 
 the other extended its depth range to areas where the other previously occupied, 
-indicating interspecifci competition plays a role in controlling their depth 
+indicating interspecific competition plays a role in controlling their depth 
 distributions where both species are present. Of the two species, black-and-yellow 
-rockfish are socially dominant and agressive towards excluding gopher rockfish 
+rockfish are socially dominant and aggressive towards excluding gopher rockfish 
 from shallower waters.
 
 Both species are be feed at night, with similar diets composed primarily of 
 crabs and shrimp,supplemented by fish and cephalopods [@Love2002; 
-@Hallacher1985; @Larson1972]. Loury et al. [@Loury2015] found no significant differnces 
+@Hallacher1985; @Larson1972]. Loury et al. [@Loury2015] found no significant differences 
 in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
 Marine Protected Area (MPA). She did find the diet of gopher rockfish at Ano Nuevo (shallower 
 and north of Point Lobos) dominated by crabs and dominated by brittle stars at southern, 
 deeper study locations. Zuercher [-@Zuercher2019] examined the diets of a suite of 
 nearshore rockfish species including black-and-yellow and found that they relied on 
-hard-bodied benthic invertebrates such as Brachyuran crabs, shrimps, other anthropods, 
+hard-bodied benthic invertebrates such as Brachyuran crabs, shrimps, other arthropods, 
 and octopus. The diet of black-and-yellow rockfish remained the same across sampling years, 
 but they occupied a lower trophic level during the upwelling season. 
 
@@ -110,7 +110,7 @@ at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent unti
 stage at 22-23 mm. Differences in coloration begin to occur at 25-30 mm and can be used to 
 identify one species from the other. Gopher rockfish become more orange and brown, while black-and-yellow rockfish become more black and yellow.  Benthic juveniles associate with \emph{Macrosystis} holdfasts and sporophylls  [@Anderson1983]. Gopher and black-and-yellow rockfish have similar development 
 
-The juveniles undergo ontogenetic migration down the stalks to deeper depths, finally settling on rocky reef habitat in their respective adult depth distribution. Juvenile bocaccio and other fish predate on young of year and other reef dwelling species including Cabezon predate on post-settlement juveniles. Individuals avoid rough surge conditions and predators by hiding in the rocky bottom during the daylight hours, then returning to more open water at dusk [@Love2002]. 
+The juveniles undergo ontogenetic migration down the stalks to deeper depths, finally settling on rocky reef habitat in their respective adult depth distribution. Juvenile bocaccio and other fish predate on young of year and other reef dwelling species including cabezon predate on post-settlement juveniles. Individuals avoid rough surge conditions and predators by hiding in the rocky bottom during the daylight hours, then returning to more open water at dusk [@Love2002]. 
 
 
 ##Map
@@ -153,7 +153,7 @@ of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 
 over half (57%; 39 mt) of the commercial landings were from the live fish fishery. 
 This increased quickly over the next few years and has been on average 84% of the landed 
 GBYR since 2000.  The majority of the landings are from gopher rockfish north of Pt. 
-Conception.  Landings of live GBYR south of Pt. Conception wer higher in the late 
+Conception.  Landings of live GBYR south of Pt. Conception were higher in the late 
 1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
 
 The ex-vessel value of GBYR increased from less than $40,000 in 1984 and peaked 
@@ -174,9 +174,9 @@ landings. The CRFS era recreational total mortality represents the most accurate
 description of the recreational fleet's catches in terms of area, mode and species (Figure \ref{fig:CFRS_catches}).  
 
 Recreational catches are dominated by gopher 
-rockfish north of Pt. Conception in the private/rental (PR) and party/chater 
+rockfish north of Pt. Conception in the private/rental (PR) and party/charter 
 (PC or CPFV) modes.  South of Pt. Conception gopher rockfish are predominately 
-caught by the CPFV fleet, with all other modes being insignifcant. The total recreational mortality of black-and-yellow rockfish south of Pt. Conception 
+caught by the CPFV fleet, with all other modes being insignificant. The total recreational mortality of black-and-yellow rockfish south of Pt. Conception 
 since 2005 is 3 mt, compared to 106 mt north of Pt. Conception. The total 
 mortality since 2005 for gopher rockfish is 86 mt south of Pt. Conception 
 and 669 mt north of Pt. Conception.
@@ -272,7 +272,7 @@ fathoms until 2017.  In 2017 the depth restrictions were eased by 10 fathoms, op
 depths along the central California coast that had not been open consistently since 2002.  In 
 both 2017 and 2018, the deepest 10 fathoms was closed prior to the season in December due to high 
 by-catch rates of yelloweye rockfish, one of two rockfish species that are still overfished. A 
-full history of the recrational regulations relating to teh spatial management of the fleet can 
+full history of the recreational regulations relating to the spatial management of the fleet can 
 be found in Appendix XXX.
 
 
@@ -291,7 +291,7 @@ The range of GBYR does not extend north to the Canadian border, and they are rar
 encountered in Oregon and Washington.  The southern end of the gopher rockfish's range 
 extends to Punta San Roque (southern Baja California) while the southern end of the 
 black-and-yellow rockfish's range extends to Isla Natividad (central Baja California) 
-[@Love2002]. However, black-and-yellow rockfish are rare south fo Pt. Conception, California.   This was no available information on the fishery for GBYR at the time 
+[@Love2002]. However, black-and-yellow rockfish are rare south of Pt. Conception, California.   This was no available information on the fishery for GBYR at the time 
 of this assessment, nor additional details on the abundance or distribution patterns 
 in Mexican waters.
 
