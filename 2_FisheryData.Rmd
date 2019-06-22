@@ -77,7 +77,7 @@ landings from 1969-1980.
 
 Commercial landings from 1981-2018 were queried for a final time from the CALCOM 
 database on 4 April 2019 and from PacFIN on 3 June 2019. There are very small 
-ifferences in commercial landings between CALCOM and 
+differences in commercial landings between CALCOM and 
 PacFIN from 1981-2018 (Figure \ref{fig:Calcom_vs_Pacfin}).  Landings estimates 
 from PacFIN were used in the assessment (Table \ref{tab:CommCatches}). 
 Landings were stratified by year, quarter, live/dead, market category, 
@@ -119,8 +119,8 @@ than all other years) (Table \ref{tab:CommCatches}).
 Biological data from the commercial fisheries that caught GBYR were extracted 
 from CALCOM on 9 May 2019. The CALCOM length composition data were catch-weighted 
 to "expanded" length the raw length composition data (Table \ref{tab:length_samples_fishery}). 
-The 2005 assessmentused commercial length composition information from CALCOM,
-but did not include black-and-yellow rockfish and is not directlycomparable. 
+The 2005 assessment used commercial length composition information from CALCOM,
+but did not include black-and-yellow rockfish and is not directly comparable. 
 The 2005 assessment used 2 cm length bins from 16-40 cm, where this assessment 
 uses 1 cm length bins from 4-40 cm. Sex was not available for the majority 
 (99.5%) of the commercial length, and the assessment did not find sexual 
@@ -148,13 +148,13 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 
 
 Commercial length composition data are made available from PacFIN and the expanded 
-catch-weight legnth compositions were provided by Andi Stephens (NWFSC) processed 
+catch-weight length compositions were provided by Andi Stephens (NWFSC) processed 
 through the [PacFIN Utilities](https://github.com/nwfsc-assess/PacFIN.Utilities) 
 package. We compares differences between the catch-weighted length composition 
 expansions from CALCOM and PacFIN.  We were unable to reconcile the difference 
-between the two datasets. Sample sizes became more similar if the PacFIN data 
+between the two data sets. Sample sizes became more similar if the PacFIN data 
 were restricted to the same market categories used by CALCOM in the expansion. 
-However, both datasets apply other filters that we did not have time to explore. 
+However, both data sets apply other filters that we did not have time to explore. 
 For instance, in the year 2000, 290 more fish were used in the CALCOM expansion 
 than in PacFIN, but in 2002, 150 more fish were used in the PacFIN expansions 
 that were not used in CALCOM. Given these caveats, Figure \ref{fig:Calcom_vs_pacfin_lengths} 
@@ -164,7 +164,7 @@ fish and samples were used to expand the 2006 lengths in both databases,
 indicating there are also fundamental differences in how the data are treated. 
 Full documentation is not available for the PacFIN length composition 
 expansion program.  The base model for this assessment uses the CALCOM length 
-compsition data as described above, but a sentistivy was conducted using the 
+composition data as described above, but a sensitivity was conducted using the 
 PacFIN length composition data.
 
 ###Recreational Fishery Removals and Discards
@@ -299,7 +299,7 @@ Karpov et al. [-@Karpov1995], who assembled a time series (1959-1972) of availab
 California CPFV length data (made available courtesy 
 of W. Van Buskirk).  For GBYR, data from 1959-1961 and 1966 were available north of Pt. 
 Conception and from 1959-1961 from south of Pt Conception. A total of 716 (680 north of 
-Pt. Conception) unsexed measuremenst of retained fish (no discards) were included in 
+Pt. Conception) unsexed measurements of retained fish (no discards) were included in 
 the assessment (Table \ref{tab:length_samples_fishery}). Sampling of these length
 data did not follow a consistent protocol over time and 
 areas (data are unweighted), and therefore may not be representative of total 
@@ -349,7 +349,7 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
-A summary of all indices in the assesssment can be found in Table \ref{tab:Index_summary}.
+A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary}.
 
 **MRFSS Dockside CPFV Index**
 
@@ -383,15 +383,15 @@ gopher-only and the GBYR complex for both north and south of Pt. Conception (Fig
 represent those for the GBYR complex. 
 
 The species composition of catch in California varies greatly with latitude.  
-Therefore, Stephens-MacCall filtering was applied indpendently for north and 
+Therefore, Stephens-MacCall filtering was applied independently for north and 
 south of Pt. Conception. Separate indices were also developed to represent two 
 recreational fleets in the model.
 
 Since recreational fishing trips target a wide variety of species, standardization
 of the catch rates requires selecting trips that are likely to have fished in habitats 
-containing California scorpionfish. The Stephens-MacCall [-@Stephens2004] filtering 
-approach was used to identify trips with a high probability of catching California 
-scorpionfish, based on the species composition of the catch in a given trip. Prior 
+containing GBYR. The Stephens-MacCall [-@Stephens2004] filtering 
+approach was used to identify trips with a high probability of catching GBYR, based 
+on the species composition of the catch in a given trip. Prior 
 to applying the Stephens-MacCall filter, we identified potentially informative predictor 
 species, i.e., species with sufficient sample sizes and temporal coverage (at least 30 
 positive trips total) to inform the binomial model. Coefficients from the Stephens-MacCall 
@@ -408,7 +408,7 @@ in co-occurrence of species in the catch that do not truly co-occur in terms of 
 associations informative for an index of abundance. Stpehens and MacCall [@Stephens2004] 
 recommended including all trips above a threshold where the false negatives and false 
 positives are equally balanced.  However, this does not have any biological relevance 
-and for this dataset, we assume that if a GBYR was landed, the anglers had to have fished 
+and for this data set, we assume that if a GBYR was landed, the anglers had to have fished 
 in appropriate habitat, especially given how territorial GBYR and both species are 
 strongly associated with rocky habitat.
  
@@ -428,8 +428,8 @@ which encountered GBYR.
 
 Due to the large number of zeros in the data, we modeled catch per angler hour 
 (CPUE; number of fish per angler hour) using maximum likelihood and Bayesian 
-negative binomial regression. Models incorporating temporal (year, 2-month waves) a
-nd geographic (region and area_x) factors were evaluated. Counties were grouped 
+negative binomial regression. Models incorporating temporal (year, 2-month waves) 
+and geographic (region and area_x) factors were evaluated. Counties were grouped 
 into three regions, north of Sonoma county, Sonoma county through 
 Santa Cruz county, and San Luis Obispo county. Based on AIC values from maximum 
 likelihood fits (Table \ref{tab:Fleet10_AIC}), a main effects model including all 
@@ -448,7 +448,7 @@ and associated log standard error included in the assessment can be found in Tab
 
 *MRFSS filtering and index standardization for south of Pt. Conception*
 Prior to the Stephens-MacCall filter, a total of 7,334 trips were available for the analysis. 
-As expected, positive indicators of GBYR trips included several nearshore speces, e.g., 
+As expected, positive indicators of GBYR trips included several nearshore species, e.g., 
 kelp rockfish, treefish, and black croaker, while the strongest counter-indicator
 was opaleye (Figure \ref{fig:Fleet11_SM_filter}). While the filter is useful 
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
@@ -459,13 +459,13 @@ associations informative for an index of abundance.
 For consistency with the methods used north of Pt. Conception (Table 
 \ref(Fleet10_11_Filter}) the index includes the trips identified as  "false 
 positives" from the Stephens-MacCall filtering that had a lower threshold 
-level os 0.22 (Table \ref{tab:Fleet11_contingency}). The last filter applied was 
+level of 0.22 (Table \ref{tab:Fleet11_contingency}). The last filter applied was 
 to exclude years after 1999 due to a number of regulation changes, and years 
 in which there were less than 20 observed trips. The final index is represented 
 by 475 trips, 342 of which encountered GBYR.
 
 Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
-the deltaGLM approach [@Lo1992; @Stefansson1996]. A negative binomial model was 
+the delta-GLM approach [@Lo1992; @Stefansson1996]. A negative binomial model was 
 explored, but the proportion of zeroes was not well estimated in the 
 negative binomial models. This is likely due to the facts that MRFSS sampling 
 effort was higher south of Pt. Conception, and GBYR 
@@ -475,7 +475,7 @@ in the trip data than for north of Pt. Conception.
 Model selection using Akaike Information Criterion 
 (AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
 were grouped into three regions,Santa Barbara to Ventura counties, Los Angeles 
-and Orange counties, and San Diego county for both the positive observartion model and 
+and Orange counties, and San Diego county for both the positive observation model and 
 the binomial model.  Area_x is a measure of distance from shore, a categorical variable 
 indicating whether most of the fishing occurred inside or outside three nautical 
 miles from shore.
@@ -484,7 +484,7 @@ The resulting index for south of Pt. Conception represents different years than 
 for north of Pt. Conception (Table \ref{tab:Indices}). The index starts in 1980 with 
 continuous data through 1986, and three additional years in 1996, 1998 and 1999.  
 The index increases through 1983 and a marked decrease to 1986.  The index for 
-the three years in the 1990s does not exhiit any significant trend.
+the three years in the 1990s does not exhibit any significant trend.
 
 **CPFV Onboard Observer Surveys**
 
@@ -505,7 +505,7 @@ for the target species.
 
 California implemented a statewide sampling program in 1999 [@Monk2014].  California 
 Polytechnic State University (Cal Poly) has conducted an independent onboard sampling 
-program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2006], but follows 
+program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2004], but follows 
 the protocols established in Reilly et al. [-@Reilly1998], and has been modified to 
 reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are 
 landed instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area 
@@ -513,7 +513,7 @@ incorporated in the same index as the CDFW data from 1999-2018.  Cal Poly collec
 lengths of both retained and discarded fish.  
 
 We generated separate relative indices of abundance in for the 1987-1999 and 2000-2018
-datasets due to the number of regulation changes occurring throughout the time period 
+data sets due to the number of regulation changes occurring throughout the time period 
 (see Appendix H, p.\pageref{sec:AppendixH}). Separate indices were also developed for 
 north and south of Pt. Conception.  
 
@@ -528,7 +528,7 @@ anglers using the number of anglers aboard the vessel and the number of observed
 at each fishing stop from the August 1992-December 1998 data (see Supplemental materials 
 for details).  In 1987, trips were only observed in Monterey, CA and were therefore excluded 
 from the analysis.  The years 1990 and 1991 were also removed for low sample sizes.  Final 
-data fileters included removing reefs that 
+data filters included removing reefs that 
 never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing 
 stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 
 1,096 of those encountering GBYR. 
@@ -546,9 +546,9 @@ decreases in the two indices are present.
 
 *CDFW and Cal Poly Onboard Observer Index Filtering and Standardization*
 As described above the CDFW and Cal Poly onboard observer programs are identical 
-in that the same protols are followed.  The only difference is that Cal Poly measures 
+in that the same protocols are followed.  The only difference is that Cal Poly measures 
 both retained and discarded fish from the observed anglers.  CDFW measures discarded 
-fish only from the observed anglers, and meaures retained fish as part of the angler 
+fish only from the observed anglers, and measures retained fish as part of the angler 
 interview at the bag level. Cal Poly has also begun collecting otoliths during the 
 onboard observer trips, which are used as conditional age-at-length data the 
 recreational fishery north of Pt. Conception in this assessment. 
@@ -563,7 +563,7 @@ the [California Seafloor Mapping Project](http://seafloor.otterlabs.org/index.ht
 with bathymetric data from state waters available at a 2 m resolution.  Reefs were 
 developed based on a number of factors described in the supplemental material (xxx). 
 
-Initial filters were applied to the entire dataset, north and south of Pt. Conception 
+Initial filters were applied to the entire data set, north and south of Pt. Conception 
 combined. After an initial clean-up of the data, 67,850 drifts remained, with GBYR present 
 in 9,317 (Table \ref{tab:Fleet6_7_Filter}).  This was reduced to 25,427 drifts GBYR 
 present in 7,250 drifts) after filtering the data to remove potential outliers in the 
@@ -580,12 +580,12 @@ The number of drifts remaining before region specific filtering was 13,792, with
 Because GBYR are strongly associated with hard 
 bottom habitat, the distance from a reef at the start of a drift was re-examined 
 for drifts encountering GBYR.  The maximum distance was 872 m, but the 97% quantile 
-dropped to 42 m and was chosen as a reasonable cutoff value, nad only resulted in a 
+dropped to 42 m and was chosen as a reasonable cutoff value, and only resulted in a 
 reduction of 182 drifts that encountered gopher rockfish. The final data were 
 filtered to ensure all selected reefs were sampled in at least 2/3 of all years, 
 leaving 12,965 drifts for the final index, 5,796 of which encountered GBYR.
 
-The index of abundance was modeled with the a delta-GLM modeleing approach, 
+The index of abundance was modeled with the a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and 12 reefs as possible 
 covariates.  A lognormal model (AIC: 12,185) was selected over a gamma (AIC: 12,520) 
 for the positive observations using AIC. The full model was selected by AIC for the 
@@ -605,7 +605,7 @@ or more groundfish.  This resulted in the total number of drifts decreasing from
 least 2/3 of all years, leaving 5,440 drift for the final index, of which 1,132 
 encountered GBYR.
 
-The index of abundance was modeled with the a delta-GLM modeleing approach, 
+The index of abundance was modeled with the a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and four reefs as possible 
 covariates.  A lognormal model (AIC: 162) was selected over a gamma (AIC: 277) 
 for the positive observations using AIC. A model with year, depth and reef was 
@@ -623,55 +623,61 @@ NEED TO WRITE
 <!-- ************FISHERY-INDPENDENT DATA*********************************** -->
 
 ###Fishery-Independent Data Sources
-Neither of the two fishery-indepenent surveys described below have previously 
+Neither of the two fishery-independent surveys described below have previously 
 been used in stock assessments as indices of abundance.
 
 **California Collaborative Fisheries Research Project**
 The California Collaborative Fisheries Research Project (CCFRP) is a fishery-independent 
 hook-and-line survey designed to monitor nearshore fish populations at a series of sampling 
 locations both inside and adjacent to MPAs along the central California coast 
-[@Wendt2009; @Starr2009; @Starr2015].  The CCFRP survey began in 2007 and was originally
+[@Wendt2009; @Starr2015].  The CCFRP survey began in 2007 and was originally
 designed as a statewide program in collaboration with NMFS scientists and fishermen. 
 From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored 
 four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, the program was expanded coastwide within California.  The index of abundance was developed from the four MPAs sampled 
-consistently (Ano Nuevo and Point Lobos by Moss Landing Marine Labs; Point Buchon and Piedras 
+consistently (A\~{n}o Nuevo and Point Lobos by Moss Landing Marine Labs; Point Buchon and Piedras 
 Blancas by Cal Poly).
 
-The survey design for CCFRP consists a number 500 x 500 m cells both within and outside each MPA. 
-On any given survey day for a chose site cells are randomly selected within a stratum (MPA and/or 
-refererence cells).  CPFVs are chartered for the survey and the fishing captain is allowed to search 
-within the cell for a fishing location.  Durin a sampling event, each cell is fished for a total of 
-45? minutes by volunteer anglers. Each fish encountered is recorded, measured, and can be linked 
-back to a particular angler, and released (or descended to depth).  Starting in 2017, a subset of 
-fish have been retained to collect otoliths and fin clips, needed biological information for nearshore 
-species. For the index of abundance, CPUE was modelled at the level of the drift, similar to the 
+The survey design for CCFRP consists a number 500 x 500 m cells both within and 
+outside each MPA. On any given survey day for a chose site cells are randomly 
+selected within a stratum (MPA and/or reference cells).  CPFVs are chartered 
+for the survey and the fishing captain is allowed to search within the cell for 
+a fishing location.  During a sampling event, each cell is fished for a total of 
+45? minutes by volunteer anglers. Each fish encountered is recorded, measured, 
+and can be linked back to a particular angler, and released (or descended to depth). 
+Starting in 2017, a subset of fish have been retained to collect otoliths and fin 
+clips, needed biological information for nearshore species. For the index of 
+abundance, CPUE was modelled at the level of the drift, similar to the 
 fishery-dependent onboard observer survey described above.
 
-The CCFRP data are quality controlled at the time they are key punched and little filtering was 
-needed for the index. Cells not consistently sampled over time were excluded as well as cells 
-that never encounterd GBYR. CCFRP samples shallower depths to avoid barotrauma-induced mortality. 
-The index was constrained to 5-39m in 5 m depth bins.  The final index included 4,920 drifts, 3,848 
-of which encountered GBYR.
+The CCFRP data are quality controlled at the time they are key punched and little 
+filtering was needed for the index. Cells not consistently sampled over time were 
+excluded as well as cells that never encountered GBYR. CCFRP samples shallower 
+depths to avoid barotrauma-induced mortality. The index was constrained to 5-39m 
+in 5 m depth bins.  The final index included 4,920 drifts, 3,848 of which encountered GBYR.
 
 We modeled catch per angler hour (CPUE; number of fish per angler hour) using maximum 
 likelihood and Bayesian negative binomial regression. The proportion of zeroes in this 
 data was relatively small (22%), and if overdispersion were not present, the regression 
-would innately become Poisson. Models incorporating temporal (year, month) a
-nd geographic (MPA site and MPA vs Reference cells) factors were evaluated. Based on 
-AIC values from maximum 
-likelihood fits (Table \ref{tab:Fleet9_AIC}), a main effects model including all 
+would innately become Poisson. Models incorporating temporal (year, month) 
+and geographic (MPA site and MPA vs Reference cells) factors were evaluated. Based on 
+AIC values from maximum likelihood fits (Table \ref{tab:Fleet9_AIC}), a main effects 
+model including all 
 factors (year, month, site and MPA/REF) was fit in the “rstanarm” R package 
 (version 2.18.2). Diagnostic checks of the Bayesian model fit (Neff, Rhat, 
 and Monte Carlo standard error values) were all reasonable. Predicted means by 
 stratum (Year) were strongly correlated with observed means, suggesting 
 a reasonable fit to the data (Figure \ref{fig:Fleet9_MLE_stan}). The NB model 
-generated data sets with roughly xx-xx% zeros, compared to the observed 22% 
+generated data sets with roughly 18-22% zeros, compared to the observed 22% 
 (Figure \ref{fig:Fleet10_prop_zero_STAN}).
 
+The CCFRP index of abundance closely matches the trend observers in the onboard 
+observer index from 2009-2018.  The index decreases from 2009 to 2013, and then 
+exhibits the same increase through 2018.  When both indices are standardized to their 
+means, the values for 2013 and 2018 are the same.
 
 
-_Data Source 1 Index Standardization_
-
+_CCFRP Lengh Composition_
+TO do
 
 
 
