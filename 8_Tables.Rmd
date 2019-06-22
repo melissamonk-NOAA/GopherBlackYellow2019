@@ -492,7 +492,7 @@ Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
                                format.args = list(big.mark = ",",))
 
 align(Fleet10_11_Filter.table) =  c('l',
-                                   '>{\\centering}p{2in}',
+                                   '>{\\centering}p{4in}',
                                   'c','c')  
 
 print(Fleet10_11_Filter.table, 

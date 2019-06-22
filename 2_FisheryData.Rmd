@@ -426,14 +426,14 @@ after 1999 due to a number of regulation changes, and years in which there were
 less than 20 observed trips. The final index is represented by 544 trips, 220 of 
 which encountered GBYR.
 
-Due to the large number of zeros in the data, we modeled Catch per angler hour 
+Due to the large number of zeros in the data, we modeled catch per angler hour 
 (CPUE; number of fish per angler hour) using maximum likelihood and Bayesian 
 negative binomial regression. Models incorporating temporal (year, 2-month waves) a
 nd geographic (region and area_x) factors were evaluated. Counties were grouped 
 into three regions, north of Sonoma county, Sonoma county through 
 Santa Cruz county, and San Luis Obispo county. Based on AIC values from maximum 
 likelihood fits (Table \ref{tab:Fleet10_AIC}), a main effects model including all 
-factors (year, region, area_x, and 2-month waves) was fit in the “rstan” R package 
+factors (year, region, area_x, and 2-month waves) was fit in the “rstanarm” R package 
 (version 2.18.2). Diagnostic checks of the Bayesian model fit (Neff, Rhat, 
 and Monte Carlo standard error values) were all reasonable. Predicted means by 
 stratum (Year) were strongly correlated with observed means, suggesting 
@@ -441,16 +441,9 @@ a reasonable fit to the data (Figure \ref{fig:Fleet10_MLE_stan}). The NB model
 generated data sets with roughly 50-70% zeros, compared to the observed 60% 
 (Figure \ref{fig:Fleet10_prop_zero_STAN}).
 
-
-Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
-a negative binomial (NB) model. Model selection using Akaike Information Criterion 
-(AIC) supported inclusion of year, region, area_x, and 2-month waves.   Area_x is a measure of distance 
-from shore, a categorical variable indicating whether most of the fishing occurred 
-inside or outside three nautical miles from shore. The full model was selected for 
-both Stephens-MacCall filtering methods.
-
 The index represents the years 1984-1989, 1995, 1996 and 1999. There is not a lot of 
-contrast in the index, except for a small increase in 1986.  The final index values and associated log standard error included in the assessment can be found in Table \ref{tab:Indices}.
+contrast in the index, except for a small increase in 1986.  The final index values 
+and associated log standard error included in the assessment can be found in Table \ref{tab:Indices}.
 
 
 *MRFSS filtering and index standardization for south of Pt. Conception*
@@ -495,25 +488,50 @@ the three years in the 1990s does not exhiit any significant trend.
 
 **CPFV Onboard Observer Surveys**
 
-Onboard observer survey data were available from three sources for this assessment, 1) a CDFW survey in central California from 1987-1998 (referred to as the Deb Wilson-Vandenberg survey, [@Reilly1998]), 2) the CDFW survey from 1999-2018, and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
+Onboard observer survey data were available from three sources for this assessment, 
+1) a CDFW survey in central California from 1987-1998 (referred to as the Deb 
+Wilson-Vandenberg survey, [@Reilly1998]), 2) the CDFW survey from 1999-2018, 
+and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
 sampler rides along on a CPFV trip and records location-specific catch and discard 
 information to the species level for a subset of anglers onboard the vessel. 
-The subset of observed anglers is usually a maximum of 15 people that changes during each fishing stop.  The catch cannot be linked to an individual, but rather to a specific fishing location.  The sampler also records the starting and ending time, number of anglers observed, 
+The subset of observed anglers is usually a maximum of 15 people that changes 
+during each fishing stop.  The catch cannot be linked to an individual, but rather 
+to a specific fishing location.  The sampler also records the starting and ending 
+time, number of anglers observed, 
 starting and ending depth, and measures discarded fish.  The fine-scale catch and effort 
 data allow us to better filter the data for indices to fishing stops within suitable habitat 
 for the target species.
 
 
-California implemented a statewide sampling program in 1999 [@Monk2014].  California Polytechnic State University (Cal Poly) has conducted an independent onboard sampling program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2006], but follows the protocols established in Reilly et al. [-@Reilly1998], and has been modified to reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are landed instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area incorporated in the same index as the CDFW data from 1999-2018.  Cal Poly collects lengths of both retained and discarded fish.  
+California implemented a statewide sampling program in 1999 [@Monk2014].  California 
+Polytechnic State University (Cal Poly) has conducted an independent onboard sampling 
+program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2006], but follows 
+the protocols established in Reilly et al. [-@Reilly1998], and has been modified to 
+reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are 
+landed instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area 
+incorporated in the same index as the CDFW data from 1999-2018.  Cal Poly collects 
+lengths of both retained and discarded fish.  
 
-We generated separate relative indices of abundance in for the 1987-1999 and 2000-2018 datasets due to the number of regulation changes occurring throughout the time period (see Appendix H, p.\pageref{sec:AppendixH}). Separate indices were also developed for north and south of Pt. Conception.  
+We generated separate relative indices of abundance in for the 1987-1999 and 2000-2018
+datasets due to the number of regulation changes occurring throughout the time period 
+(see Appendix H, p.\pageref{sec:AppendixH}). Separate indices were also developed for 
+north and south of Pt. Conception.  
 
 
 *Deb Wilson-Vandenberg Onboard Observer Index Filtering and Standardizatiom*
 The specific fishing locations at each fishing stop  were recorded at a finer scale than 
 the catch data for this survey.  We aggregated the relevant location information (time and 
-number of observed anglers) to match the available catch information.  Between April 1987 and July 1992 the number of observed anglers was not recorded for each fishing stop, but the number of anglers aboard the vessel is available.  We imputed the number of observed anglers using the number of anglers aboard the vessel and the number of observed anglers at each fishing stop from the August 1992-December 1998 data (see Supplemental materials for details).  In 1987, trips were only observed in Monterey, CA and were therefore excluded from the analysis.  The years 1990 and 1991 were also removed for low sample sizes.  Final data fileters included removing reefs that 
-never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 1,096 of those encountering GBYR. 
+number of observed anglers) to match the available catch information.  Between April 1987 
+and July 1992 the number of observed anglers was not recorded for each fishing stop, but 
+the number of anglers aboard the vessel is available.  We imputed the number of observed 
+anglers using the number of anglers aboard the vessel and the number of observed anglers 
+at each fishing stop from the August 1992-December 1998 data (see Supplemental materials 
+for details).  In 1987, trips were only observed in Monterey, CA and were therefore excluded 
+from the analysis.  The years 1990 and 1991 were also removed for low sample sizes.  Final 
+data fileters included removing reefs that 
+never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing 
+stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 
+1,096 of those encountering GBYR. 
 
 The index was fit using a delta-GLM model, with a lognormal model (AIC: 1,088) 
 selected over a gamma model (AIC: 1,143) for the positive encounters. Covariates 
@@ -576,8 +594,6 @@ stable trend from 2001-2009 and a steady decrease from 2010-2013.  The relative 
 of abundance has increased since 2014.
 
 
-
-
 *Filtering and Index Standardization for south of Pt. Conception*
 The bathymetric data is not available at as fine-scale resolution for the Southern 
 California Bight and more of the trips and drifts target mid-water species, including 
@@ -599,6 +615,7 @@ from 2005-2017.
 
 
 _Fishery-Dependent Sources: Length Composition_
+NEED TO WRITE
 (Table \ref{tab:length_samples_survey})
 
 
@@ -606,8 +623,52 @@ _Fishery-Dependent Sources: Length Composition_
 <!-- ************FISHERY-INDPENDENT DATA*********************************** -->
 
 ###Fishery-Independent Data Sources
+Neither of the two fishery-indepenent surveys described below have previously 
+been used in stock assessments as indices of abundance.
 
-**CCFRP**
+**California Collaborative Fisheries Research Project**
+The California Collaborative Fisheries Research Project (CCFRP) is a fishery-independent 
+hook-and-line survey designed to monitor nearshore fish populations at a series of sampling 
+locations both inside and adjacent to MPAs along the central California coast 
+[@Wendt2009; @Starr2009; @Starr2015].  The CCFRP survey began in 2007 and was originally
+designed as a statewide program in collaboration with NMFS scientists and fishermen. 
+From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored 
+four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, the program was expanded coastwide within California.  The index of abundance was developed from the four MPAs sampled 
+consistently (Ano Nuevo and Point Lobos by Moss Landing Marine Labs; Point Buchon and Piedras 
+Blancas by Cal Poly).
+
+The survey design for CCFRP consists a number 500 x 500 m cells both within and outside each MPA. 
+On any given survey day for a chose site cells are randomly selected within a stratum (MPA and/or 
+refererence cells).  CPFVs are chartered for the survey and the fishing captain is allowed to search 
+within the cell for a fishing location.  Durin a sampling event, each cell is fished for a total of 
+45? minutes by volunteer anglers. Each fish encountered is recorded, measured, and can be linked 
+back to a particular angler, and released (or descended to depth).  Starting in 2017, a subset of 
+fish have been retained to collect otoliths and fin clips, needed biological information for nearshore 
+species. For the index of abundance, CPUE was modelled at the level of the drift, similar to the 
+fishery-dependent onboard observer survey described above.
+
+The CCFRP data are quality controlled at the time they are key punched and little filtering was 
+needed for the index. Cells not consistently sampled over time were excluded as well as cells 
+that never encounterd GBYR. CCFRP samples shallower depths to avoid barotrauma-induced mortality. 
+The index was constrained to 5-39m in 5 m depth bins.  The final index included 4,920 drifts, 3,848 
+of which encountered GBYR.
+
+We modeled catch per angler hour (CPUE; number of fish per angler hour) using maximum 
+likelihood and Bayesian negative binomial regression. The proportion of zeroes in this 
+data was relatively small (22%), and if overdispersion were not present, the regression 
+would innately become Poisson. Models incorporating temporal (year, month) a
+nd geographic (MPA site and MPA vs Reference cells) factors were evaluated. Based on 
+AIC values from maximum 
+likelihood fits (Table \ref{tab:Fleet9_AIC}), a main effects model including all 
+factors (year, month, site and MPA/REF) was fit in the “rstanarm” R package 
+(version 2.18.2). Diagnostic checks of the Bayesian model fit (Neff, Rhat, 
+and Monte Carlo standard error values) were all reasonable. Predicted means by 
+stratum (Year) were strongly correlated with observed means, suggesting 
+a reasonable fit to the data (Figure \ref{fig:Fleet9_MLE_stan}). The NB model 
+generated data sets with roughly xx-xx% zeros, compared to the observed 22% 
+(Figure \ref{fig:Fleet10_prop_zero_STAN}).
+
+
 
 _Data Source 1 Index Standardization_
 

@@ -84,10 +84,10 @@
 \FloatBarrier
 
 <!-- ********************************************************************** -->
-<!-- ***************Fleet xx index FIGURES********************--> 
+<!-- ***************Fleet 9 CCFRP index FIGURES********************--> 
 <!-- ********************************************************************** -->
 
-
+![Map of the four MPAs sample consistently through time for the CCFRP fishery-independent survey. \label{fig:CCFRP_sites}](Figures/CCFRP_sites.png)
 
 
 
