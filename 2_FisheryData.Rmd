@@ -349,7 +349,8 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
-A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary}.
+A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary} 
+and Figure \ref{fig:All_index_compare}.
 
 **MRFSS Dockside CPFV Index**
 
@@ -531,7 +532,7 @@ from the analysis.  The years 1990 and 1991 were also removed for low sample siz
 data filters included removing reefs that 
 never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing 
 stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 
-1,096 of those encountering GBYR. 
+1,096 of those encountering GBYR (Figure \ref{fig:DebWV_sites}). 
 
 The index was fit using a delta-GLM model, with a lognormal model (AIC: 1,088) 
 selected over a gamma model (AIC: 1,143) for the positive encounters. Covariates 
@@ -576,14 +577,15 @@ to differences in habitat structure, target species, and weather.
 
 *Filtering and Index Standardization for north of Pt. Conception*
 The number of drifts remaining before region specific filtering was 13,792, with 
-6,036 drifts encountering GBYR (Figure \ref{fig:Fleet6_7_Filter}).  
+6,036 drifts encountering GBYR (Table \ref{tab:Fleet6_7_Filter}).  
 Because GBYR are strongly associated with hard 
 bottom habitat, the distance from a reef at the start of a drift was re-examined 
 for drifts encountering GBYR.  The maximum distance was 872 m, but the 97% quantile 
-dropped to 42 m and was chosen as a reasonable cutoff value, and only resulted in a 
-reduction of 182 drifts that encountered gopher rockfish. The final data were 
+dropped to 42 m and was chosen as a reasonable cutoff value, and only resulted in 
+a reduction of 182 drifts that encountered gopher rockfish. The final data were 
 filtered to ensure all selected reefs were sampled in at least 2/3 of all years, 
-leaving 12,965 drifts for the final index, 5,796 of which encountered GBYR.
+leaving 12,965 drifts for the final index, 5,796 of which encountered GBYR 
+(Figure \ref{fig:Onboard_observer_north_sites}).
 
 The index of abundance was modeled with the a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and 12 reefs as possible 
@@ -597,13 +599,13 @@ of abundance has increased since 2014.
 *Filtering and Index Standardization for south of Pt. Conception*
 The bathymetric data is not available at as fine-scale resolution for the Southern 
 California Bight and more of the trips and drifts target mid-water species, including 
-mid-water rockfish (Figure \ref{fig:Fleet6_7_Filter}). Therefore, instead of using 
+mid-water rockfish (Table \ref{tab:Fleet6_7_Filter}). Therefore, instead of using 
 distance to reef as a filter, we filtered the data to drifts that encountered 20% 
 or more groundfish.  This resulted in the total number of drifts decreasing from 
 11,635 to 5,495, but only decreased the number of drifts encountering GBYR from 
 1,277 to 1,171. A final check was made to ensure all reefs were sampled in at 
 least 2/3 of all years, leaving 5,440 drift for the final index, of which 1,132 
-encountered GBYR.
+encountered GBYR (Figure \ref{fig:Onboard_observer_south_sites}).
 
 The index of abundance was modeled with the a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and four reefs as possible 
@@ -614,12 +616,6 @@ The index indicates a relatively stable trend from 2001-2004 and a steady increa
 from 2005-2017. 
 
 
-_Fishery-Dependent Sources: Length Composition_
-NEED TO WRITE
-(Table \ref{tab:length_samples_survey})
-
-
-
 <!-- ************FISHERY-INDPENDENT DATA*********************************** -->
 
 ###Fishery-Independent Data Sources
@@ -627,15 +623,15 @@ Neither of the two fishery-independent surveys described below have previously
 been used in stock assessments as indices of abundance.
 
 **California Collaborative Fisheries Research Project**
-The California Collaborative Fisheries Research Project (CCFRP) is a fishery-independent 
+The California Collaborative Fisheries Research Project, [CCFRP](https://www.mlml.calstate.edu/ccfrp/), is a fishery-independent 
 hook-and-line survey designed to monitor nearshore fish populations at a series of sampling 
 locations both inside and adjacent to MPAs along the central California coast 
 [@Wendt2009; @Starr2015].  The CCFRP survey began in 2007 and was originally
 designed as a statewide program in collaboration with NMFS scientists and fishermen. 
-From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored 
-four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, the program was expanded coastwide within California.  The index of abundance was developed from the four MPAs sampled 
-consistently (A\~{n}o Nuevo and Point Lobos by Moss Landing Marine Labs; Point Buchon and Piedras 
-Blancas by Cal Poly).
+From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, 
+the program was expanded coastwide within California.  The index of abundance was 
+developed from the four MPAs sampled consistently (A\~{n}o Nuevo and Point Lobos 
+by Moss Landing Marine Labs; Point Buchon and Piedras Blancas by Cal Poly).
 
 The survey design for CCFRP consists a number 500 x 500 m cells both within and 
 outside each MPA. On any given survey day for a chose site cells are randomly 
@@ -671,18 +667,54 @@ generated data sets with roughly 18-22% zeros, compared to the observed 22%
 (Figure \ref{fig:Fleet10_prop_zero_STAN}).
 
 The CCFRP index of abundance closely matches the trend observers in the onboard 
-observer index from 2009-2018.  The index decreases from 2009 to 2013, and then 
+observer index from 2009-2018 (Figure \ref{fig:All_index_compare}).  The index decreases 
+from 2009 to 2013, and then 
 exhibits the same increase through 2018.  When both indices are standardized to their 
 means, the values for 2013 and 2018 are the same.
 
 
-_CCFRP Lengh Composition_
-TO do
+**Partnership for Interdisciplinary Studies of Coastal Oceans**
+The Partnership for Interdisciplinary Studies of Coastal Oceans, [PISCO](http://www.piscoweb.org/kelp-forest-study), conducts a number of surveys 
+to monitor the kelp forests, one of which is a kelp forest fish survey. PISCO
+has monitored fish population in the 0-20 m depth range as part of the 
+Marine Life Protection Act (MLPA) since 1998.  Paired sites inside and outside MPAs 
+are surveyed to monitor the long-term dynamics of the kelp forest ecosystem and provide 
+insight into the effect of MPAs on kelp forest species. PISCO conducts the fish 
+surveys from late July through September. At each site, benthic, midwater, and canopy 
+scuba transcets are conducted at 5, 10, 15, and 20 m depth.  All divers are trained 
+in species identification.  Along each 30 m transect, divers enumerate all identifiable 
+non-cryptic fish, and measure total length to the nearest centimeter.  PISCO surveys 
+are conducted by the University of California Santa Cruz (UCSC) in central California and 
+through the University of California Santa Barbara in southern California.   All PISCO 
+data were provided by Dan Malone (UCSC).
 
+The majority of filtering for the PISCO data set was to determine which sites to keep for 
+the final index. After initial filtering the data for GBYR in southern California 
+were too sparse to be considered for the index of abundance.  Gopher and black-and-yellow rockfish were also rarely observed in the midwater and canopy transects, and therefore 
+the index is based only on the benthic transects.  Only sites sampled consistently throughout 
+the time period 2001-2018 were kept for the index (Figure \ref{PISCO_sites}).  Multiple 
+transects can be conducted along the same line within a sampling event.  All transects within 
+a site were combined and effort was modeled as the number of transects represented in the 
+number of fish observed. The final index included 3,231 transects, of which 1,729 observed 
+GBYR.
 
+We modeled number of fish observed per transect(s) using maximum 
+likelihood and Bayesian negative binomial regression. Models incorporating temporal 
+(year, month) and geographic (site and zone) factors were evaluated. The zone is a 
+factor indicating cell placement at the sampling site (outer, inner, innermid, 
+outermid). Based on AIC values from maximum likelihood fits (Table \ref{tab:Fleet8_AIC}), 
+a main effects model including all factors (year, month, site and zone) was fit in 
+the “rstanarm” R package (version 2.18.2). Diagnostic checks of the Bayesian model 
+fit (Neff, Rhat, and Monte Carlo standard error values) were all reasonable. 
+Predicted means by stratum (Year) were strongly correlated with observed means, 
+suggesting a reasonable fit to the data (Figure \ref{fig:Fleet8_MLE_stan}). 
+The NB model generated data sets with roughly 16-25% zeros, compared to the observed 23% 
+(Figure \ref{fig:Fleet8_prop_zero_STAN}).
 
+The final index decreases from 2001 to the late 2000s, with lower estiamtes of relative 
+abundance from 2005-2010.  From 2010 to 2015, the index increaes and peaks in 2015, before 
+the decreasing trends from 2016-2018.  The pattern observed in this index indicates almost 
+an counter trend to that observed in the onboard observer and CCFRP indices for north of 
+Pt. Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey is sampling different 
+abitat types than the other two surveys, and covers much shallower depths.
 
-**PISCO**
-
-
-_Fishery-Independent Length Composition_

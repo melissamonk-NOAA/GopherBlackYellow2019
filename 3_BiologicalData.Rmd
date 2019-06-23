@@ -7,6 +7,9 @@ Neither gophr nor black-and-yellow rockfish have forked tails, therefore total
 legnth and fork length are equal.  All of the data provided for this assessment 
 were either in fork length or total length.
 
+
+(Table \ref{tab:length_samples_survey})
+
 **Length and Age Compositions**
 
 Length compositions were provided from the following sources:
