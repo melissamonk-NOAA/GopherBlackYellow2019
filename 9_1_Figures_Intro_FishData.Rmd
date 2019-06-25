@@ -102,6 +102,7 @@
 <!-- ********************************************************************** -->
 
 ![Map of the reefs selected for the final index for the onboard observer surveys (CDFW and Cal Poly) north of Pt. Conception \label{fig:Onboard_observer_north_sites}](Figures/Onboard_observer_north_sites.png)
+
 \FloatBarrier
 
 ![Map of the reefs selected for the final index for the CDFW onboard observer survey south of Pt. Conception \label{fig:Onboard_observer_south_sites}](Figures/Onboard_observer_south_sites.png)
@@ -110,6 +111,8 @@
 <!-- ********************************************************************** -->
 <!-- ***************Fleet 9 CCFRP index FIGURES********************--> 
 <!-- ********************************************************************** -->
+
+\FloatBarrier 
 
 ![Map of the four MPAs sample consistently through time for the CCFRP fishery-independent survey. \label{fig:CCFRP_sites}](Figures/CCFRP_sites.png)
 
@@ -124,11 +127,15 @@
 
 \FloatBarrier
 
+
+![Length distributions of GBYR for the four MPAs sampled by the CCFRP survey used in this assessment. \label{CCFRP_lengths_by_site}](Figures/CCFRP_lengths_by_site.png)
+
 <!-- ********************************************************************** -->
 <!-- *************PISCO FIGURES******************** --> 
 <!-- ********************************************************************** -->
 
 ![Map of the sites sampled consistently through time for the PISCO kelp forest fish survey. \label{fig:PISCO_sites}](Figures/PISCO_sites.png)
+
 
 \FloatBarrier
 
@@ -143,4 +150,4 @@
 
 \FloatBarrier
 
-
+![Plots of the length distributions from the PISCO kelp forest fish survey by species (left) and for compbined species by site (right) for sites included in the final index of abundance. \label{fig:PISCO_lenghts}](Figures/PISCO_lengths.png)

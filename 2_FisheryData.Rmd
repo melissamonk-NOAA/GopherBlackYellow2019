@@ -167,7 +167,7 @@ expansion program.  The base model for this assessment uses the CALCOM length
 composition data as described above, but a sensitivity was conducted using the 
 PacFIN length composition data.
 
-###Recreational Fishery Removals and Discards
+###Recreational Fishery Landings and Discards
 
 *Historical recreational landings and discard, 1928-1980*
 
@@ -397,10 +397,12 @@ to applying the Stephens-MacCall filter, we identified potentially informative p
 species, i.e., species with sufficient sample sizes and temporal coverage (at least 30 
 positive trips total) to inform the binomial model. Coefficients from the Stephens-MacCall 
 analysis (a binomial GLM) are positive for species which co-occur with GBYR, and negative for 
-species that are not caught with GBYR. Each of these filtering steps and the resulting number of trips remaining in the sampling frame are provided in Table \ref{tab:Fleet10_11_Filter}.
+species that are not caught with GBYR. Each of these filtering steps and the resulting number 
+of trips remaining in the sampling frame are provided in Table \ref{tab:Fleet10_11_Filter}.
 
 *MRFSS filtering and index standardization for north of Pt. Conception*
-Prior to the Stephens-MacCall filter, a total of 2,788 trips were retained for the analysis. As expected, positive indicators of GBYR trips include several species of nearshore rockfish,
+Prior to the Stephens-MacCall filter, a total of 2,788 trips were retained for the analysis. 
+As expected, positive indicators of GBYR trips include several species of nearshore rockfish,
 treefish, kelp rockfish, and blue rockfish, and the strongest counter-indicator
 was striped bass (Figure \ref{fig:Fleet10_SM_filter}). While the filter is useful 
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
@@ -414,7 +416,7 @@ in appropriate habitat, especially given how territorial GBYR and both species a
 strongly associated with rocky habitat.
  
 Two levels of possible filtering were applied using the Stephens-MacCall filter (Table 
-\ref(Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
+\ref(tab:Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
 probability of occurrence (in this case 0.4) at which the rate of "false 
 positives" equals "false negatives." The trips selected using this criteria 
 were compared to an alternative method including all the "false positive" 
@@ -458,7 +460,7 @@ in co-occurrence of species in the catch that do not truly co-occur in terms of 
 associations informative for an index of abundance. 
 
 For consistency with the methods used north of Pt. Conception (Table 
-\ref(Fleet10_11_Filter}) the index includes the trips identified as  "false 
+\ref(tab:Fleet10_11_Filter}) the index includes the trips identified as  "false 
 positives" from the Stephens-MacCall filtering that had a lower threshold 
 level of 0.22 (Table \ref{tab:Fleet11_contingency}). The last filter applied was 
 to exclude years after 1999 due to a number of regulation changes, and years 
@@ -540,7 +542,8 @@ considered in the full model included year, depth, and month (Table \ref{tab:Fle
 The model selected by AIC for both the lognormal and binomial components of the 
 delta-GLM included year, depth and reef.  Depth was included in 10 m depth bins and eight reefs were 
 select in the final model (Figure coming). The final index did not indicate an increasing 
-trend that was seen in the 2005 gopher rockfish assessment using the same data set (Figure \ref{fig:DebWV_index_compare}). A number of reasons include that finer-scale location data 
+trend that was seen in the 2005 gopher rockfish assessment using the same data set (Figure 
+\ref{fig:DebWV_index_compare}). A number of reasons include that finer-scale location data 
 was keypunched in 2012 for this survey, the index in this assessment includes black-and-yellow 
 rockfish, and different filters were applied to the data. However, the the same peaks and 
 decreases in the two indices are present.
@@ -616,6 +619,29 @@ The index indicates a relatively stable trend from 2001-2004 and a steady increa
 from 2005-2017. 
 
 
+###Fishery-Depenent Indices: Availabe Length and Age Data
+
+Length data associated with the MRFSS dockside CPFV survey and the current onboard 
+observer surveys conducted by CDFW are incorporated into the biological data pulled 
+from the respective data sources, MRFSS and CRFS.  The additional length data 
+are not incorporated as separate length composition data as they represent the 
+same portion of the population sampled by the CDFW onboard observer program. 
+
+Cal Poly collected ototlihs from the onboard observer program starting in 2017 as part 
+of a special study to correlate fish length before and and after the fish was filleted 
+by the deckhands onboard the CPFV vessels. All fish collected in 2017 only had associated 
+post-fillet lengths and were not used in the assessment since the study has not been finalized 
+nor has the method been endorsed by the SSC.  A subset of fish form the 2018 collection 
+included both pre- and post-fillet length and were used in the assessment as conditional 
+age-at-length data associated with the recreational fleet north of Pt. Conception.
+
+Length composition from Deb Wilson-Vandenberg's onboard observer survey are 
+included in the asessment.  This program measured both retained and discarded 
+fish, and represent the portion of the population sampled with the spatial extent 
+of the index.  This onboard observer program continued during the period from 1990-1992 
+when MRFSS was on hiatus.
+
+
 <!-- ************FISHERY-INDPENDENT DATA*********************************** -->
 
 ###Fishery-Independent Data Sources
@@ -673,8 +699,31 @@ exhibits the same increase through 2018.  When both indices are standardized to 
 means, the values for 2013 and 2018 are the same.
 
 
+_CCFRP Length Measurements and Available Ages_
+
+The CCFRP program measures every fish encountered to the nearsest half centimeter. 
+A total of 22,470 GBYR were measured by CCFRP from 2007-2018, of which only 
+212 were black-and-yellow rockfish. The length distributions for each of the four 
+MPAs used in the index for this assessment show slight difference in their peaks 
+(Figure \ref{CCFRP_lengths_by_site}). A\~{n}o Nuevo is the most northern site and 
+Point Buchon the most southern. 
+
+Conditional age-at-lenght data were also incorporated into the assessment from 
+the CCFRP program, including two master's theses that are products of the CCFRP. 
+Erin Loury [@Loury2011] collected gopher rockfish otoliths 
+as part of her thesis work from 2007-2009 that included specimens from both 
+inside and outside the MPAs. Natasha Meyers-Cherry [@MeyersCherry2014] conducted 
+another thesis focused on the life history of gopher rockfish and collected otoliths 
+from 2011-2012, also both inside and outside the MPAs. Both MLML and Cal Poly began 
+routinely collecting otoliths from a select number of fish in 2017 as part of the 
+CCFRP program. Also included in the conditional age-at-length dat for this fleet are 
+ototliths collected in 2018 by the University of California Davis Bodega Marine Lab 
+CCFRP program.  
+
+
 **Partnership for Interdisciplinary Studies of Coastal Oceans**
-The Partnership for Interdisciplinary Studies of Coastal Oceans, [PISCO](http://www.piscoweb.org/kelp-forest-study), conducts a number of surveys 
+The Partnership for Interdisciplinary Studies of Coastal Oceans, 
+[PISCO](http://www.piscoweb.org/kelp-forest-study), conducts a number of surveys 
 to monitor the kelp forests, one of which is a kelp forest fish survey. PISCO
 has monitored fish population in the 0-20 m depth range as part of the 
 Marine Life Protection Act (MLPA) since 1998.  Paired sites inside and outside MPAs 
@@ -690,19 +739,21 @@ data were provided by Dan Malone (UCSC).
 
 The majority of filtering for the PISCO data set was to determine which sites to keep for 
 the final index. After initial filtering the data for GBYR in southern California 
-were too sparse to be considered for the index of abundance.  Gopher and black-and-yellow rockfish were also rarely observed in the midwater and canopy transects, and therefore 
+were too sparse to be considered for the index of abundance.  Gopher and black-and-yellow 
+rockfish were also rarely observed in the midwater and canopy transects, and therefore 
 the index is based only on the benthic transects.  Only sites sampled consistently throughout 
-the time period 2001-2018 were kept for the index (Figure \ref{PISCO_sites}).  Multiple 
+the time period 2001-2018 were kept for the index.  Multiple 
 transects can be conducted along the same line within a sampling event.  All transects within 
 a site were combined and effort was modeled as the number of transects represented in the 
 number of fish observed. The final index included 3,231 transects, of which 1,729 observed 
-GBYR.
+GBYR (Figure \ref{fig:PISCO_sites}).
 
 We modeled number of fish observed per transect(s) using maximum 
 likelihood and Bayesian negative binomial regression. Models incorporating temporal 
 (year, month) and geographic (site and zone) factors were evaluated. The zone is a 
-factor indicating cell placement at the sampling site (outer, inner, innermid, 
-outermid). Based on AIC values from maximum likelihood fits (Table \ref{tab:Fleet8_AIC}), 
+factor indicating the depth stratification at a site, i.e., 5 m,10 m,15 m, or 20 m 
+targetted bottom depth.. Based on AIC values from maximum likelihood fits 
+(Table \ref{tab:Fleet8_AIC}), 
 a main effects model including all factors (year, month, site and zone) was fit in 
 the “rstanarm” R package (version 2.18.2). Diagnostic checks of the Bayesian model 
 fit (Neff, Rhat, and Monte Carlo standard error values) were all reasonable. 
@@ -716,5 +767,20 @@ abundance from 2005-2010.  From 2010 to 2015, the index increaes and peaks in 20
 the decreasing trends from 2016-2018.  The pattern observed in this index indicates almost 
 an counter trend to that observed in the onboard observer and CCFRP indices for north of 
 Pt. Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey is sampling different 
-abitat types than the other two surveys, and covers much shallower depths.
+habitat types than the other two surveys, and covers much shallower depths.
+
+
+_PISCO Length Measurements_
+
+Every GBYR observed by PISCO divers except one, had an associated length measurement 
+(N = 11,965).  Divers measure fish to the nearest centimeter, and are trained to measure 
+fish underwater and be aware of possible biases, e.g., ambient light, body color, 
+visibility, and body shape.  Both juvenile and adult GBYR were observed in the PISCO 
+kelp forest fish survey data (Figure \ref{fig:PISCO_lengths}). Of note is the similarity 
+in length distibutions both between the species and for the two species combined across 
+sites. Fish in the 10-17 cm size range (approximately) are not observed in this survey. 
+There is significant post-settlement mortality for both species, which is thought to be 
+due to density-dependent predation [@Johnson2006; @Johnson2007].  Secondly, both species 
+are cryptic and observed more often at night than during the day (Mark Carr, PISCO-UCSC, 
+per comm.). 
 

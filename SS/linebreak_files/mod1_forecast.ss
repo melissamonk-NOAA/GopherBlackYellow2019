@@ -1,5 +1,5 @@
-#V3.30.13-safe;_2019_03_09;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_
-# ADMB_12.0
+#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usi
+# ng_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject t
 # o copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
@@ -20,7 +20,7 @@
 #
 1 # Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt) or F0.1; 4=Ave F (uses f
 # irst-last relF yrs); 5=input annual F scalar
-1 # N forecast years 
+12 # N forecast years 
 1 # F scalar (only used for Do_Forecast==5)
 #_Fcast_years:  beg_selex, end_selex, beg_relF, end_relF, beg_mean recruits
 # , end_recruits  (enter actual year, or values of 0 or -integer to be rel.
@@ -44,14 +44,14 @@
 # control to get constant recruitment in MCMC)
 1 # value is ignored 
 0 #_Forecast loop control #5 (reserved for future bells&whistles) 
-2005  #FirstYear for caps and allocations (should be after years with fixed
+2021  #FirstYear for caps and allocations (should be after years with fixed
 #  inputs) 
 0 # stddev of log(realized catch/target catch) in forecast (set value>0.0 t
 # o cause active impl_error)
 0 # Do West Coast gfish rebuilder output (0/1) 
-2000 # Rebuilder:  first year catch could have been set to zero (Ydecl)(-1 
+2019 # Rebuilder:  first year catch could have been set to zero (Ydecl)(-1 
 # to set to 1999)
-2005 # Rebuilder:  year for current age structure (Yinit) (-1 to set to end
+2019 # Rebuilder:  year for current age structure (Yinit) (-1 to set to end
 # year+1)
 1 # fleet relative F:  1=use first-last alloc year; 2=read seas, fleet, all
 # oc list below
@@ -62,10 +62,10 @@
 # Conditional input if relative F choice = 2
 # enter list of:  season,  fleet, relF; if used, terminate with season=-999
 # 9
-# 1 1 0.498334
-# 1 2 0.0115033
-# 1 3 0.459643
-# 1 4 0.0305195
+# 1 1 0.502992
+# 1 2 0.0111244
+# 1 3 0.455871
+# 1 4 0.0300119
 # -9999 0 0  # terminator for list of relF
 # enter list of: fleet number, max annual catch for fleets with a max; term
 # inate with fleet=-9999

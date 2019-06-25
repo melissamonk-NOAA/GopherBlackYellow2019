@@ -61,7 +61,6 @@ bibliography: BibFile.bib
 ```{r child = "2_FisheryData.Rmd"}
 ```
 
-
 ```{r child = "3_BiologicalData.Rmd"}
 ```
 

@@ -1,4 +1,4 @@
-#V3.30.13-safe;_2019_03_09;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.0
+#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
 #C  generic forecast file
@@ -12,7 +12,7 @@
 1 #Bmark_relF_Basis: 1 = use year range; 2 = set relF same as forecast below
 #
 1 # Forecast: 0=none; 1=F(SPR); 2=F(MSY) 3=F(Btgt) or F0.1; 4=Ave F (uses first-last relF yrs); 5=input annual F scalar
-1 # N forecast years 
+12 # N forecast years 
 1 # F scalar (only used for Do_Forecast==5)
 #_Fcast_years:  beg_selex, end_selex, beg_relF, end_relF, beg_mean recruits, end_recruits  (enter actual year, or values of 0 or -integer to be rel. endyr)
  0 0 0 0 -999 0
@@ -26,20 +26,20 @@
 0 #_Forecast recruitment:  0= spawn_recr; 1=value*spawn_recr_fxn; 2=value*VirginRecr; 3=recent mean from yr range above (need to set phase to -1 in control to get constant recruitment in MCMC)
 1 # value is ignored 
 0 #_Forecast loop control #5 (reserved for future bells&whistles) 
-2005  #FirstYear for caps and allocations (should be after years with fixed inputs) 
+2021  #FirstYear for caps and allocations (should be after years with fixed inputs) 
 0 # stddev of log(realized catch/target catch) in forecast (set value>0.0 to cause active impl_error)
 0 # Do West Coast gfish rebuilder output (0/1) 
-2000 # Rebuilder:  first year catch could have been set to zero (Ydecl)(-1 to set to 1999)
-2005 # Rebuilder:  year for current age structure (Yinit) (-1 to set to endyear+1)
+2019 # Rebuilder:  first year catch could have been set to zero (Ydecl)(-1 to set to 1999)
+2019 # Rebuilder:  year for current age structure (Yinit) (-1 to set to endyear+1)
 1 # fleet relative F:  1=use first-last alloc year; 2=read seas, fleet, alloc list below
 # Note that fleet allocation is used directly as average F if Do_Forecast=4 
 2 # basis for fcast catch tuning and for fcast catch caps and allocation  (2=deadbio; 3=retainbio; 5=deadnum; 6=retainnum)
 # Conditional input if relative F choice = 2
 # enter list of:  season,  fleet, relF; if used, terminate with season=-9999
-# 1 1 0.498334
-# 1 2 0.0115033
-# 1 3 0.459643
-# 1 4 0.0305195
+# 1 1 0.502992
+# 1 2 0.0111244
+# 1 3 0.455871
+# 1 4 0.0300119
 # -9999 0 0  # terminator for list of relF
 # enter list of: fleet number, max annual catch for fleets with a max; terminate with fleet=-9999
 -9999 -1
