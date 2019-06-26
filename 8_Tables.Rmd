@@ -579,19 +579,22 @@ print(Fleet11_cont.table,
 
 Age_data = read.csv('./txt_files/Age_data.csv')
 
+colnames(Age_data)[6] = 'Black-and-yellow'
+
 Age_data.table = xtable(Age_data,
                         caption = c('Summary of age data used in the assessment.'),
                         label = 'tab:Age_data')
 
 
+
 align(Age_data.table) = c('l',
-                         '>{\\raggedright}p{1.6in}',
+                         '>{\\raggedright}p{1.8in}',
                           'l',
-                          '>{\\raggedright}p{1.3in}',
+                          '>{\\raggedright}p{1.6in}',
                          '>{\\raggedright}p{1.3in}',
                          '>{\\raggedright}p{1in}',
-                         '>{\\raggedright}p{1in}',
-                         '>{\\raggedright}p{1in}')
+                         '>{\\centering}p{.6in}',
+                         '>{\\centering}p{.6in}')
 
 print(Age_data.table,
       include.rownames = FALSE,

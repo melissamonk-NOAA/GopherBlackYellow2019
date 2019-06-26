@@ -16,15 +16,15 @@
 <!-- *********************INTRODUCTION FIGURES***************************** --> 
 <!-- ====================================================================== --> 
 
-![Map showing the management area for gopher and black-and-yellow rockfish from Cape Mendocino to the U.S. Mexico border.{fig:assess_reagion_map}](Figures/assess_region_map.png)
+![Map showing the management area for gopher and black-and-yellow rockfish from Cape Mendocino to the U.S.-Mexico border. \label{fig:assess_region_map1}](Figures/assess_region_map.png)
 
-![Commercial landings for gopher (GPHR) and black-and-yellow (BYEL) rockfishes landed live and dead north and south of Pt. Conception.  All catch time series were combined for the assessment into one commercial fleet. \label{fig:Catches_livedeadNS_gby}](Figures/Catches_livedeadNS_gby.png)
+![Commercial landings for gopher (GPHR) and black-and-yellow (BYEL) rockfishes landed live and dead north and south of Point Conception.  All catch time series were combined for the assessment into one commercial fleet. \label{fig:Catches_livedeadNS_gby}](Figures/Catches_livedeadNS_gby.png)
 
 
 ![Annual ex-vessel revenue, adjusted for inflation (AFI) in thousands of dollars for gopher and black-and-yellow rockfish. \label{fig:GBY_revenue}](Figures/GBY_revenue.png)
 
 
-![Recreational total mortality for gopher rockfish (GPHR) and black-and-yellow (BYEL) rockfish from the CDFW CRFS sampling era by mode and split north and south of Pt. Conception. \label{fig:CFRS_catches}](Figures/CRFS_totalmort_gby.png)
+![Recreational total mortality for gopher rockfish (GPHR) and black-and-yellow (BYEL) rockfish from the CDFW CRFS sampling era by mode and split north and south of Point Conception. \label{fig:CFRS_catches}](Figures/CRFS_totalmort_gby.png)
 
 <!-- ********************************************************************** --> 
 <!-- *************************Data FIGURES********************************* --> 
@@ -37,7 +37,7 @@
 
 
 
-![Comparison of the recreational and commercial fishery landings from the 2005 assessment to this 2019 assessment. Note that the 2019 assessment includes both gopher and black-and-yellow rockfish where the 2005 assessment represents gopher rockfish only. The 2005 assessment also did not include landings from south of Pt. Conception. \label{fig:Assessment_compare}](Figures/assessment_compare.png)
+![Comparison of the recreational and commercial fishery landings from the 2005 assessment to this 2019 assessment. Note that the 2019 assessment includes both gopher and black-and-yellow rockfish where the 2005 assessment represents gopher rockfish only. The 2005 assessment also did not include landings from south of Point Conception. \label{fig:Assessment_compare}](Figures/assessment_compare.png)
 
 
 
@@ -68,22 +68,22 @@
 <!-- ****************Fleet 10_11 Index FIGURES************************* -->
 <!-- ********************************************************************** --> 
 
-![Comparison of indices of abundance (scaled to their means) for the MRFSS dockside CPFV survey between a gopher-only and GBYR complex index for north and south of Pt. Conception. \label{fig:MRFSS_index_compare}](Figures/MRFSS_index_compare.png)
+![Comparison of indices of abundance (scaled to their means) for the MRFSS dockside CPFV survey between a gopher-only and GBYR complex index for north and south of Point Conception. \label{fig:MRFSS_index_compare}](Figures/MRFSS_index_compare.png)
 
 
-![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Pt. Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet10_SM_filter}](Figures/Fleet10_SM_filter.png)
+![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Point Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet10_SM_filter}](Figures/Fleet10_SM_filter.png)
 
 
-![Comparisons of the indices of abundance for GBYR north of Pt. Conception from the MRFSS dockside CPVS survey that either include of exclude the trips identified as false positives from the Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}](Figures/MRFSS_index_N_SM_falsepos.png)
+![Comparisons of the indices of abundance for GBYR north of Point Conception from the MRFSS dockside CPVS survey that either include of exclude the trips identified as false positives from the Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}](Figures/MRFSS_index_N_SM_falsepos.png)
 
-![Comparison of negative binomial predictions (CPUE) to observed means in each stratum (year) MRFSS CPFV dockside index north of Pt. Conception. The 1:1 plot is for reference. \label{fig:Fleet10_MLE_stan}](Figures/Fleet10_MLE_stan.png)
+![Comparison of negative binomial predictions (CPUE) to observed means in each stratum (year) MRFSS CPFV dockside index north of Point Conception. The 1:1 plot is for reference. \label{fig:Fleet10_MLE_stan}](Figures/Fleet10_MLE_stan.png)
 
-![Posterior predictive distribution of the proportion of zero observations in replicate data sets generated by the negative binomial model for MRFSS dockside CPFV index north of Pt. Conception. \label{fig:Fleet10_prop_zero_STAN}](Figures/Fleet10_prop_zero_STAN.png)
+![Posterior predictive distribution of the proportion of zero observations in replicate data sets generated by the negative binomial model for MRFSS dockside CPFV index north of Point Conception. \label{fig:Fleet10_prop_zero_STAN}](Figures/Fleet10_prop_zero_STAN.png)
 
 \FloatBarrier
 
 
-![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Pt. Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet11_SM_filter}](Figures/Fleet11_SM_filter.png)
+![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Point Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet11_SM_filter}](Figures/Fleet11_SM_filter.png)
 
 \FloatBarrier
 <!-- ********************************************************************** -->
@@ -101,11 +101,11 @@
 <!-- ***************Fleets 6 and 7 onboard index FIGURES********************--> 
 <!-- ********************************************************************** -->
 
-![Map of the reefs selected for the final index for the onboard observer surveys (CDFW and Cal Poly) north of Pt. Conception \label{fig:Onboard_observer_north_sites}](Figures/Onboard_observer_north_sites.png)
+![Map of the reefs selected for the final index for the onboard observer surveys (CDFW and Cal Poly) north of Point Conception \label{fig:Onboard_observer_north_sites}](Figures/Onboard_observer_north_sites.png)
 
 \FloatBarrier
 
-![Map of the reefs selected for the final index for the CDFW onboard observer survey south of Pt. Conception \label{fig:Onboard_observer_south_sites}](Figures/Onboard_observer_south_sites.png)
+![Map of the reefs selected for the final index for the CDFW onboard observer survey south of Point Conception \label{fig:Onboard_observer_south_sites}](Figures/Onboard_observer_south_sites.png)
 
 
 <!-- ********************************************************************** -->
@@ -150,4 +150,6 @@
 
 \FloatBarrier
 
-![Plots of the length distributions from the PISCO kelp forest fish survey by species (left) and for compbined species by site (right) for sites included in the final index of abundance. \label{fig:PISCO_lenghts}](Figures/PISCO_lengths.png)
+![Plots of the length distributions from the PISCO kelp forest fish survey by species (left) and for compbined species by site (right) for sites included in the final index of abundance. \label{fig:PISCO_lengths}](Figures/PISCO_lengths.png)
+
+\FloatBarrier

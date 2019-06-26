@@ -8,17 +8,72 @@ output:
      includes:
       in_header: header.tex
 ---
+
 <!-- ************************************************************************************************--> 
 <!-- **********************************BEGIN APPENDICES**********************************************--> 
 <!-- ************************************************************************************************--> 
+
 \FloatBarrier
 \newpage
 
-<!-- ************************************DATA FILE(S)************************************************--> 
-#Appendix A. Detailed fits to length composition data {-}
+
+<!-- *********************************Commercial management regs****************************************--> 
+
+#Appendix A. California's Commercial Fishery Regulations {-}
 \renewcommand{\thepage}{A-\arabic{page}}
 \renewcommand{\thefigure}{A\arabic{figure}}
 \setcounter{page}{1}
+\setcounter{figure}{1}
+
+
+![\label{fig:Comm_regs1}](Figures/Comm_regs1.pdf)
+
+\FloatBarrier
+
+![\label{fig:Comm_regs2}](Figures/Comm_regs2.pdf)
+
+\FloatBarrier
+
+![\label{fig:Comm_regs3}](Figures/Comm_regs3.pdf)
+
+
+\FloatBarrier
+\newpage
+
+<!-- *********************************Recreational management regs*************************************--> 
+
+#Appendix B. California's Recreational Fishery Regulations {-}
+\renewcommand{\thepage}{B-\arabic{page}}
+\renewcommand{\thefigure}{B\arabic{figure}}
+\setcounter{page}{1}
+\setcounter{figure}{1}
+
+![\label{fig:Rec_regs1}](Figures/Rec_regs1.pdf)
+
+\FloatBarrier
+
+![\label{fig:Rec_regs2}](Figures/Rec_regs2.pdf)
+
+\FloatBarrier
+
+![\label{fig:Rec_regs3}](Figures/Rec_regs3.pdf)
+
+\FloatBarrier
+
+![\label{fig:Rec_reg4}](Figures/Rec_regs4.pdf)
+
+
+\FloatBarrier
+\newpage
+
+
+<!-- ************************************Length comp figures******************************************--> 
+
+#Appendix C. Detailed fits to length composition data {-}
+\renewcommand{\thepage}{C-\arabic{page}}
+\renewcommand{\thefigure}{C\arabic{figure}}
+\setcounter{page}{1}
+\setcounter{figure}{1}
 
 <!-- Length Composition (LenComp) r4ss plots ------------------------------- -->
 ```{r, results='asis'}

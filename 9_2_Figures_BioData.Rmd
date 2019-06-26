@@ -21,6 +21,13 @@
 <!-- ********************************************************************** -->
 
 
+![Aging precision between initial and blind double reads for GBYR.  Numbers in the bubbles are the sample sizes of otoliths cross-read. \label{fig:GBY_age_error}](Figures/GBY_age_error.png)
+
+
+![True versus predicted age for two current age readers at the NWFSC from the ageing error software with unbiased reads and curvilinear standard deviation for both readers. \label{fig:GBY_age_error2}](Figures/GBY_age_error2.png)
+
+
+
 <!-- ********************************************************************** -->
 <!-- **********************Weight-Length FIGURES*************************** --> 
 <!-- ********************************************************************** -->

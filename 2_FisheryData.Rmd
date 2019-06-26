@@ -19,11 +19,11 @@ that only black-and-yellow rockfish were landed in the commercial fishery, which
 switched to predominately gopher rockfish from 1937-1984.  From 1985-1988 the landings 
 data suggest that only black-and-yellow rockfish were landed and not until 1995 are 
 both species well-represented in the catches. There is no way to tease apart the 
-historical catches by species and even across north and south of Pt. Conception prior 
-to about 1995. 
-This precludes the ability to model the catch histories for either species 
+historical catches by species and even across north and south of Point Conception prior 
+to about 1995. This precludes the ability to model the catch histories for either species 
 accurately. Given these constraints, all commercial data were combined to represent 
-one commercial fleet in the assessment.
+one commercial fleet in the assessment.  Additional details regarding this decision 
+are described below.
 
 The stock assessment of gopher rockfish in 2005 did not include black-and-yellow rockfish 
 landings. A comparison of recreational and commercial landings from the 2005 assessment 
@@ -47,12 +47,11 @@ the assessment represents the GBYR stock south of Cape Mendocino. The majority o
 landings (avg. 83%) are landed in the Monterey and Morro Bay port complexes.
 
 
-Contemporary landings were extracted from two data sources, 
-the California Cooperative Groundfish Survey, 
-[CALCOM](https://calcom.psmfc.org/)) and the Pacific Fisheries 
-Information Network [PacFIN](https://pacfin.psmfc.org/) landings 
-database.Both databases are based on the same data sources (CALCOM data), but 
-apply a catch expansion based on different algorithms. CALCOM collects 
+Contemporary landings were extracted from two data sources, the California 
+Cooperative Groundfish Survey, [CALCOM](https://calcom.psmfc.org/)) and the 
+Pacific Fisheries Information Network ([PacFIN](https://pacfin.psmfc.org/)) landings 
+database. Both databases are based on the same data sources (CALCOM landing receipts), 
+but apply a catch expansion based on different algorithms. CALCOM collects 
 information including species 
 composition data (i.e. the proportion of species landed in a sampling stratum), 
 and landing receipts (sometimes called “fish tickets”) that are a record of pounds 
@@ -60,7 +59,7 @@ landed in a given stratum.
 Strata in California are defined by market category, year, quarter, gear group, port 
 complex, and disposition (live or dead). Although many market categories are 
 named after actual species, catch in a given market category can consist of 
-several species. These data form the basis for the "expanded"" landings,
+several species. These data form the basis for the "expanded" landings,
 i.e., species composition data collected by port samplers were used to allocate 
 pounds recorded on landing receipts to species starting in 1978. 
 Use of the “Gopher Rockfish” or the "Black-and-Yellow Rockfish" categories 
@@ -68,12 +67,12 @@ alone to represent actual landings
 of GBY would not be accurate. 
 
 See Pearson et al. Appendix C [-@Pearson2008] for a simple example of the expansion 
-calculations for the CALCOM database. A description of the landings in PacFIN 
+calculations for the CALCOM database and a description of the landings in PacFIN 
 can be found in Sampson and Crone [-@Sampson1997].  Both databases, including
 species compositions, and expanded landings estimates are stored at the Pacific 
-States Marine Fisheries Commission, a central repository 
-of commercial landings data for the U.S. West Coast. As a note, CALCOM is the only source for 
-landings from 1969-1980.  
+States Marine Fisheries Commission, a central repository of commercial landings 
+data for the U.S. West Coast. As a note, CALCOM is the only source for landings 
+from 1969-1980.  
 
 Commercial landings from 1981-2018 were queried for a final time from the CALCOM 
 database on 4 April 2019 and from PacFIN on 3 June 2019. There are very small 
@@ -85,18 +84,18 @@ gear group, port complex, and source of species composition data (actual port
 samples, borrowed samples, or assumed nominal market category). Data from 
 individual quarters were aggregated at the year level. Fish landed live 
 or dead were combined, due to changes over time in the reliability of 
-condition information (D. Pearson, pers. comm.). From 1916-1968, on 
+condition information (Don Pearson, retired NMFS SWFSC, personal communication). 
+From 1916-1968, on 
 average, 74% of GBYR were landed north of Point Conception, which
 rose to 97% from 1978-2018. Given the smaller landings south of 
-Pt. Conception and the similar length composition of GBYR north and south of Pt. 
+Point Conception and the similar length composition of GBYR north and south of Point 
 Conception, no spatial separation was considered for the commercial fleet.
 
- 
 ###Commercial Discards
 
 The West Coast Groundfish Observer Program (WCGOP) provides observer data on 
 discarding across fishery sectors back to 2003. Gopher and black-and-yellow 
-rockfishes have different depth-stratified commercial fishery discard mortality 
+rockfishes have species-specific depth-stratified commercial fishery discard mortality 
 rates [@PSMFC2018]. In consultation with WCGOP staff, the STAT used estimates 
 of total discard mortality from WCGOP’s Groundfish Expanded Mortality Multiyear 
 (GEMM) report. WCGOP observes between 1-5% of nearshore fixed gear landings annually 
@@ -179,9 +178,10 @@ from the SWFSC. For this assessment, historical recreational catch was stratifie
 by year and area (north and south of Point Conception).  The catches of GBYR 
 reported in Ralston et al. [-@Ralston2010] are higher by an order of magnitude than 
 expected given the more recent catches of GBYR in the MRFSS and CRFS eras south of 
-Pt. Conception (Figure \ref{fig:Catches_original}). The recreational catches estimated 
-by Ralston et al. [-@Ralston2010] were discussed with the paper's co-authors and also CPFV 
-captains in California. A consensus was reached that the estimated landings did not 
+Point Conception (Figure \ref{fig:Catches_original}). The recreational catches estimated 
+by Ralston et al. [-@Ralston2010] were discussed with the paper's co-authors and also 
+Commercial Passenger Fishing Vessel (CPFV), i.e., party/charter mode, captains in 
+California. A consensus was reached that the estimated landings did not 
 accurately represent the historical GBYR landings and an alternative 
 catch stream should be developed. One possibility for the inflated catches of GBYR in 
 southern California is that all nearshore shallow species were combined and all of the 
@@ -194,7 +194,7 @@ a linear ramp from from 1928-1936 that was not altered in this assessment.
 From 1937-1979 a linear ramp was developed from the 1936 estimate
 to the average recreational landing from 1980 and 1983 (1981-1982 catches 
 interpolated as described in the next section) of 4.3 mt. The recreational catches 
-north of Pt. Conception were not altered from the original catch reconstruction.
+north of Point Conception were not altered from the original catch reconstruction.
 The resulting alternate recreational catch streams are in (Table \ref{tab:Rec_removal} 
 and Figure \ref{fig:Catches_alternate}).
 
@@ -208,8 +208,7 @@ this survey are available from the Recreational Fisheries Information Network
 [RecFIN](www.recfin.org). RecFIN serves as a repository for recreational fishery 
 data for California, Oregon, and Washington. Catch estimates for years 1980-2003 
 were downloaded on 23 March 2019, and are consistent from 1992-2004 with the 
-previous assessment [@Key2005]
-(Figure \ref{fig:Assessment_compare}). 
+previous assessment [@Key2005] (Figure \ref{fig:Assessment_compare}). 
 
 MRFSS-era recreational removals for California were estimated for two regions: 
 north and south of Point Conception. No finer-scale estimates of landings are 
@@ -235,7 +234,7 @@ shore-based, 0.1% of CPFV, and 0.2% of private/rental were removed).
 From 1980-1989, San Luis Obispo County was sampled as part of Southern California 
 (personal observation from MRFSS Type 3 sampler examined catch where county is 
 available for 1980-2004). This assessment separates the recreational fleet at 
-Pt. Conception. Recreational landings were re-allocated from southern California 
+Point Conception. Recreational landings were re-allocated from southern California 
 from 1980-1992 by fleet based on the average proportion of recreational landings in 
 northern California from 1996-2004 (after sampling of the CPFV fleet in northern 
 California resumed).  The average proportion re-allocated from southern to northern 
@@ -261,7 +260,7 @@ but separated at Point Conception for two recreational fleets in this
 assessment, just as was done for the California Catch Reconstruction and MRFSS 
 time series.
 
-*Recreational Discard*
+*Recreational Discards*
 
  Recreational discards were only added to the California Catch Reconstruction 
 landings, as Ralston et al. [-@Ralston2010] did not address discards for the 
@@ -275,8 +274,8 @@ discard mortality rate and the catch time series includes both retained and
 discarded catch (total mortality).  We calculated the ratio of dead discards to 
 total mortality from the CRFS era by region and mode.  The region average across 
 modes was applied to the California Catch Reconstruction as a constant.  The result 
-added 4.68% annually to recreational removals north of Pt. Conception and 4.05% 
-annually to the removals South of Pt. Conception). The final time series of 
+added 4.68% annually to recreational removals north of Point Conception and 4.05% 
+annually to the removals South of Point Conception). The final time series of 
 landings and discard mortality are in Table \ref{tab:Rec_removal}.
 
 ###Recreational Fishery Length and Age Data
@@ -297,9 +296,9 @@ the recreational fleet prior to 1980.
 The earliest available length data for this assessment were described by 
 Karpov et al. [-@Karpov1995], who assembled a time series (1959-1972) of available 
 California CPFV length data (made available courtesy 
-of W. Van Buskirk).  For GBYR, data from 1959-1961 and 1966 were available north of Pt. 
+of W. Van Buskirk).  For GBYR, data from 1959-1961 and 1966 were available north of Point 
 Conception and from 1959-1961 from south of Pt Conception. A total of 716 (680 north of 
-Pt. Conception) unsexed measurements of retained fish (no discards) were included in 
+Point Conception) unsexed measurements of retained fish (no discards) were included in 
 the assessment (Table \ref{tab:length_samples_fishery}). Sampling of these length
 data did not follow a consistent protocol over time and 
 areas (data are unweighted), and therefore may not be representative of total 
@@ -349,8 +348,8 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
-A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary} 
-and Figure \ref{fig:All_index_compare}.
+A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary}. Figure \ref{fig:All_index_compare} shows each index scaled to the mean value of that index to 
+show them all on the same scale, i.e., the mean of each index in teh plot is 1.
 
 **MRFSS Dockside CPFV Index**
 
@@ -379,13 +378,13 @@ for black-and-yellow rockfish alone due to the sparseness in the data. In the ra
 data, unfiltered data, black-and-yellow rockfish only occurred in 48 trips that 
 did not also observer gopher rockfish.  There were an additional 65 trips that 
 encountered both species. There was little difference between indices developed for 
-gopher-only and the GBYR complex for both north and south of Pt. Conception (Figure 
+gopher-only and the GBYR complex for both north and south of Point Conception (Figure 
 \ref{fig:MRFSS_index_compare}).  The descriptions of the filtering and data below 
 represent those for the GBYR complex. 
 
 The species composition of catch in California varies greatly with latitude.  
 Therefore, Stephens-MacCall filtering was applied independently for north and 
-south of Pt. Conception. Separate indices were also developed to represent two 
+south of Point Conception. Separate indices were also developed to represent two 
 recreational fleets in the model.
 
 Since recreational fishing trips target a wide variety of species, standardization
@@ -400,7 +399,7 @@ analysis (a binomial GLM) are positive for species which co-occur with GBYR, and
 species that are not caught with GBYR. Each of these filtering steps and the resulting number 
 of trips remaining in the sampling frame are provided in Table \ref{tab:Fleet10_11_Filter}.
 
-*MRFSS filtering and index standardization for north of Pt. Conception*
+*MRFSS Filtering and Index Standardization for North of Point Conception.*
 Prior to the Stephens-MacCall filter, a total of 2,788 trips were retained for the analysis. 
 As expected, positive indicators of GBYR trips include several species of nearshore rockfish,
 treefish, kelp rockfish, and blue rockfish, and the strongest counter-indicator
@@ -449,7 +448,7 @@ contrast in the index, except for a small increase in 1986.  The final index val
 and associated log standard error included in the assessment can be found in Table \ref{tab:Indices}.
 
 
-*MRFSS filtering and index standardization for south of Pt. Conception*
+*MRFSS Filtering and Index Standardization for South of Point Conception.*
 Prior to the Stephens-MacCall filter, a total of 7,334 trips were available for the analysis. 
 As expected, positive indicators of GBYR trips included several nearshore species, e.g., 
 kelp rockfish, treefish, and black croaker, while the strongest counter-indicator
@@ -459,8 +458,8 @@ in pursuit of a single target, the targeting of more than one target species can
 in co-occurrence of species in the catch that do not truly co-occur in terms of habitat
 associations informative for an index of abundance. 
 
-For consistency with the methods used north of Pt. Conception (Table 
-\ref(tab:Fleet10_11_Filter}) the index includes the trips identified as  "false 
+For consistency with the methods used north of Point Conception (Table 
+\ref{tab:Fleet10_11_Filter}) the index includes the trips identified as  "false 
 positives" from the Stephens-MacCall filtering that had a lower threshold 
 level of 0.22 (Table \ref{tab:Fleet11_contingency}). The last filter applied was 
 to exclude years after 1999 due to a number of regulation changes, and years 
@@ -471,21 +470,21 @@ Catch per angler hour (CPUE; number of fish per angler hour) was modelled using
 the delta-GLM approach [@Lo1992; @Stefansson1996]. A negative binomial model was 
 explored, but the proportion of zeroes was not well estimated in the 
 negative binomial models. This is likely due to the facts that MRFSS sampling 
-effort was higher south of Pt. Conception, and GBYR 
-are also rare south of Pt. Conception, both leading to a higher proportion of zeroes 
-in the trip data than for north of Pt. Conception.
+effort was higher south of Point Conception, and GBYR 
+are also rare south of Point Conception, both leading to a higher proportion of zeroes 
+in the trip data than for north of Point Conception.
 
 Model selection using Akaike Information Criterion 
 (AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
-were grouped into three regions,Santa Barbara to Ventura counties, Los Angeles 
+were grouped into three regions, Santa Barbara to Ventura counties, Los Angeles 
 and Orange counties, and San Diego county for both the positive observation model and 
 the binomial model.  Area_x is a measure of distance from shore, a categorical variable 
 indicating whether most of the fishing occurred inside or outside three nautical 
 miles from shore.
 
-The resulting index for south of Pt. Conception represents different years than the index 
-for north of Pt. Conception (Table \ref{tab:Indices}). The index starts in 1980 with 
-continuous data through 1986, and three additional years in 1996, 1998 and 1999.  
+The resulting index for south of Point Conception represents different years than the index 
+for north of Point Conception (Table \ref{tab:Indices}). The index starts in 1980 with 
+continuous data through 1986, and three additional years in 1996, 1998 and 1999.
 The index increases through 1983 and a marked decrease to 1986.  The index for 
 the three years in the 1990s does not exhibit any significant trend.
 
@@ -493,35 +492,35 @@ the three years in the 1990s does not exhibit any significant trend.
 
 Onboard observer survey data were available from three sources for this assessment, 
 1) a CDFW survey in central California from 1987-1998 (referred to as the Deb 
-Wilson-Vandenberg survey, [@Reilly1998]), 2) the CDFW survey from 1999-2018, 
+Wilson-Vandenberg onboard observer survey, [@Reilly1998]), 2) the CDFW CPFV onboard 
+observer survey from 1999-2018, 
 and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
-sampler rides along on a CPFV trip and records location-specific catch and discard 
+sampler rides along on the CPFV and records location-specific catch and discard 
 information to the species level for a subset of anglers onboard the vessel. 
-The subset of observed anglers is usually a maximum of 15 people that changes 
-during each fishing stop.  The catch cannot be linked to an individual, but rather 
+The subset of observed anglers is usually a maximum of 15 people the observed anglers 
+change during each fishing stop.  The catch cannot be linked to an individual, but rather 
 to a specific fishing location.  The sampler also records the starting and ending 
-time, number of anglers observed, 
-starting and ending depth, and measures discarded fish.  The fine-scale catch and effort 
-data allow us to better filter the data for indices to fishing stops within suitable habitat 
-for the target species.
+time, number of anglers observed, starting and ending depth, and measures discarded fish.  
+The fine-scale catch and effort data allow us to better filter the data for indices 
+to fishing stops within suitable habitat for the target species.
 
 
 California implemented a statewide sampling program in 1999 [@Monk2014].  California 
 Polytechnic State University (Cal Poly) has conducted an independent onboard sampling 
-program as of 2003 for boats in Port San Luis and Morro Bay [@Stephens2004], but follows 
-the protocols established in Reilly et al. [-@Reilly1998], and has been modified to 
-reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are 
-landed instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area 
-incorporated in the same index as the CDFW data from 1999-2018.  Cal Poly collects 
-lengths of both retained and discarded fish.  
+program as of 2003 for boats in Port San Luis and Morro Bay, and follows 
+the protocols established in Reilly et al. [-@Reilly1998]. Cal Poly has modified protocols 
+ reflect sampling changes that CDFW has also adopted, e.g., observing fish as they are 
+encountered instead of at the level of a fisher’s bag. Therefore, the Cal Poly data area 
+incorporated in the same index as the CDFW data from 1999-2018.  The only difference is 
+that Cal Poly measures the lenght of both retained and discarded fish.  
 
 We generated separate relative indices of abundance in for the 1987-1999 and 2000-2018
 data sets due to the number of regulation changes occurring throughout the time period 
-(see Appendix H, p.\pageref{sec:AppendixH}). Separate indices were also developed for 
-north and south of Pt. Conception.  
+(see [Appendix B](#appendix-b.-californias-recreational-fishery-regulations)). 
+Separate indices were also developed for north and south of Point Conception.  
 
 
-*Deb Wilson-Vandenberg Onboard Observer Index Filtering and Standardizatiom*
+*Deb Wilson-Vandenberg Onboard Observer Index Filtering and Standardization.*
 The specific fishing locations at each fishing stop  were recorded at a finer scale than 
 the catch data for this survey.  We aggregated the relevant location information (time and 
 number of observed anglers) to match the available catch information.  Between April 1987 
@@ -555,7 +554,7 @@ both retained and discarded fish from the observed anglers.  CDFW measures disca
 fish only from the observed anglers, and measures retained fish as part of the angler 
 interview at the bag level. Cal Poly has also begun collecting otoliths during the 
 onboard observer trips, which are used as conditional age-at-length data the 
-recreational fishery north of Pt. Conception in this assessment. 
+recreational fishery north of Point Conception in this assessment. 
 
 A number of filters are applied to these data.  All of the Cal Poly data have been 
 through a QA/QC process once key-punched, whereas a number of errors remain in the 
@@ -565,9 +564,10 @@ staff constraints have also prevented a quality control review of the data.
 Each drift was assigned to a reef (hard bottom). Hard bottom was extracted from 
 the [California Seafloor Mapping Project](http://seafloor.otterlabs.org/index.html), 
 with bathymetric data from state waters available at a 2 m resolution.  Reefs were 
-developed based on a number of factors described in the supplemental material (xxx). 
+developed based on a number of factors described in the supplemental material 
+("Reef Delination"). 
 
-Initial filters were applied to the entire data set, north and south of Pt. Conception 
+Initial filters were applied to the entire data set, north and south of Point Conception 
 combined. After an initial clean-up of the data, 67,850 drifts remained, with GBYR present 
 in 9,317 (Table \ref{tab:Fleet6_7_Filter}).  This was reduced to 25,427 drifts GBYR 
 present in 7,250 drifts) after filtering the data to remove potential outliers in the 
@@ -575,10 +575,10 @@ time fished and observed anglers, limiting the data to reefs that observed GBYR 
 sampled in at least 2/3 of all years, and to drifts with starting locations within 1,000 m 
 of a reef.
 
-Recreational fishing trips north and south of Pt. Conception can be fundamentally different due 
+Recreational fishing trips north and south of Point Conception can be fundamentally different due 
 to differences in habitat structure, target species, and weather.  
 
-*Filtering and Index Standardization for north of Pt. Conception*
+*Filtering and Index Standardization for north of Point Conception*
 The number of drifts remaining before region specific filtering was 13,792, with 
 6,036 drifts encountering GBYR (Table \ref{tab:Fleet6_7_Filter}).  
 Because GBYR are strongly associated with hard 
@@ -599,7 +599,7 @@ stable trend from 2001-2009 and a steady decrease from 2010-2013.  The relative 
 of abundance has increased since 2014.
 
 
-*Filtering and Index Standardization for south of Pt. Conception*
+*Filtering and Index Standardization for south of Point Conception*
 The bathymetric data is not available at as fine-scale resolution for the Southern 
 California Bight and more of the trips and drifts target mid-water species, including 
 mid-water rockfish (Table \ref{tab:Fleet6_7_Filter}). Therefore, instead of using 
@@ -633,7 +633,7 @@ by the deckhands onboard the CPFV vessels. All fish collected in 2017 only had a
 post-fillet lengths and were not used in the assessment since the study has not been finalized 
 nor has the method been endorsed by the SSC.  A subset of fish form the 2018 collection 
 included both pre- and post-fillet length and were used in the assessment as conditional 
-age-at-length data associated with the recreational fleet north of Pt. Conception.
+age-at-length data associated with the recreational fleet north of Point Conception.
 
 Length composition from Deb Wilson-Vandenberg's onboard observer survey are 
 included in the asessment.  This program measured both retained and discarded 
@@ -649,6 +649,7 @@ Neither of the two fishery-independent surveys described below have previously
 been used in stock assessments as indices of abundance.
 
 **California Collaborative Fisheries Research Project**
+
 The California Collaborative Fisheries Research Project, [CCFRP](https://www.mlml.calstate.edu/ccfrp/), is a fishery-independent 
 hook-and-line survey designed to monitor nearshore fish populations at a series of sampling 
 locations both inside and adjacent to MPAs along the central California coast 
@@ -656,7 +657,7 @@ locations both inside and adjacent to MPAs along the central California coast
 designed as a statewide program in collaboration with NMFS scientists and fishermen. 
 From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, 
 the program was expanded coastwide within California.  The index of abundance was 
-developed from the four MPAs sampled consistently (A\~{n}o Nuevo and Point Lobos 
+developed from the four MPAs sampled consistently (A&ntilde;o Nuevo and Point Lobos 
 by Moss Landing Marine Labs; Point Buchon and Piedras Blancas by Cal Poly).
 
 The survey design for CCFRP consists a number 500 x 500 m cells both within and 
@@ -705,7 +706,7 @@ The CCFRP program measures every fish encountered to the nearsest half centimete
 A total of 22,470 GBYR were measured by CCFRP from 2007-2018, of which only 
 212 were black-and-yellow rockfish. The length distributions for each of the four 
 MPAs used in the index for this assessment show slight difference in their peaks 
-(Figure \ref{CCFRP_lengths_by_site}). A\~{n}o Nuevo is the most northern site and 
+(Figure \ref{CCFRP_lengths_by_site}). A&ntilde;o Nuevo is the most northern site and 
 Point Buchon the most southern. 
 
 Conditional age-at-lenght data were also incorporated into the assessment from 
@@ -722,8 +723,9 @@ CCFRP program.
 
 
 **Partnership for Interdisciplinary Studies of Coastal Oceans**
+
 The Partnership for Interdisciplinary Studies of Coastal Oceans, 
-[PISCO](http://www.piscoweb.org/kelp-forest-study), conducts a number of surveys 
+[PISCO-UCSC](http://www.piscoweb.org/kelp-forest-study), conducts a number of surveys 
 to monitor the kelp forests, one of which is a kelp forest fish survey. PISCO
 has monitored fish population in the 0-20 m depth range as part of the 
 Marine Life Protection Act (MLPA) since 1998.  Paired sites inside and outside MPAs 
@@ -766,7 +768,7 @@ The final index decreases from 2001 to the late 2000s, with lower estiamtes of r
 abundance from 2005-2010.  From 2010 to 2015, the index increaes and peaks in 2015, before 
 the decreasing trends from 2016-2018.  The pattern observed in this index indicates almost 
 an counter trend to that observed in the onboard observer and CCFRP indices for north of 
-Pt. Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey is sampling different 
+Point Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey is sampling different 
 habitat types than the other two surveys, and covers much shallower depths.
 
 
@@ -782,5 +784,5 @@ sites. Fish in the 10-17 cm size range (approximately) are not observed in this 
 There is significant post-settlement mortality for both species, which is thought to be 
 due to density-dependent predation [@Johnson2006; @Johnson2007].  Secondly, both species 
 are cryptic and observed more often at night than during the day (Mark Carr, PISCO-UCSC, 
-per comm.). 
+personal communication). 
 

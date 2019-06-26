@@ -72,20 +72,20 @@ or between gopher and black-and-yellow rockfishes.
 **Aging Precision and Bias**
 
 Uncertainty in ageing error was estimated using a collection of xxx gopher and 
-black-and-yellow rockfish scorpionfish otoliths with two age reads (Figure \ref{fig:GBY_ageerror}). 
+black-and-yellow rockfish scorpionfish otoliths with two age reads (Figure \ref{fig:GBY_age_error}). 
 Age-composition data used in the model were from a number of sources described above.  All 
 otoliths were read by Don Pearson (NMFS SWFSC, no retired) who also conducted all
 blink double reads. 
 
 Ageing error was estimated using publicly available software [@Thorson2012].
-The software setting for bias and standard deviation were the same for both 
-readers, (unbiased and curvilinear increase in standard deviation) with age, 
-respectively (Figure \ref{fig:Fleet8_NWFSCTrawl_ageerror2}).  
+The software setting for bias was set to unbiased since the same reader conducted 
+the first and second readings.  The best fit model chose by AIC for the standard deviation 
+was a constant coefficient of variation for reader one ad mirrored for reader two 
+ (Figure \ref{fig:GBY_age_error2}).  
 
 The resulting estimate indicated a standard deviation in age readings 
-increasing from xxx years to a standard deviation of xxx years at age 28.
-
-
+increasing from 0.74 years at age 0 to a standard deviation of 2.07 years at age 28, 
+the first year of the plus group in the assessment model.
 
 
 \vspace{.5cm}
@@ -127,7 +127,7 @@ the population.
 The maturity data from Zaitlin [-@Zaitlin1986] (422 black-and-yellow rockfish) were 
 re-analyzed along with samples from Meyers-Cherry [-@MeyersCherry2014] (115 gopher rockfish). 
 Combining the two dataset provided an updated maturity ogive for the GBYR complex females 
-(Figure \ref{GBY_maturity_ogive}).  The first observed mature fish was 19 cm and the 
+(Figure \ref{fig:GBY_maturity_ogive}).  The first observed mature fish was 19 cm and the 
 length at 50% was 21.66 cm, larger than suggested from the studies in the 1980s. Using 
 only the gopher data, 50% was estimated at 23.33 cm and for black-and-yellow rockfish at 
 21.26 cm.  An important note is that the smaller fish from these studies were black-and-yellow 
@@ -141,15 +141,14 @@ in February, March, and May [@Love2002;@Larson1980;@Lea1999].Both species of GBY
 one brood per season [@Love2002]. Black-and-yellow rockfish females can produce 25,000 - 
 450,000 eggs spawning from January to May. Gopher rockfish females ranging between 176 
 and 307 grams carry approximately 249 eggs per gram of body weight 
-[@MacGregor1970]. The larval stage lasts one to two months [@Moser1996] and it 
-may take up to 90 days before the larvae settle out of the plankton at around 20 mm total 
-length [@Lea1999]. The fecundity estimates used in this assessment were provided by 
+[@MacGregor1970]. The fecundity estimates used in this assessment were provided by 
 E.J. Dick (NMFS SWFSC) from a meta-analysis of fecundity in the genus \emph{Sebastes} 
 [@Dick2017].
 
 
 \vspace{.5cm}
 **Natural Mortality**
+
 Hamel [-@Hamel2015] developed a method for combining meta-analytic approaches to 
 relating the natural mortality rate $M$ to other life-history parameters such as 
 longevity, size, growth rate and reproductive effort, to provide a prior on M. In 

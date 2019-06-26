@@ -4,55 +4,149 @@
 ##Previous Assessments
 
 ###History of Modeling Approaches Used for this Stock
+This is the first full assessment for black-and-yellow rockfish. Black-and-yellow 
+rockfish was assessed coastwide as a data poor species using Depletion-Based 
+Stock Reduction Analaysis (DB-SRA) [@Dick2010]. The DB-SRA model assigned a 
+40% probability that the then recent (2008-2009) catch exceeded the 2010 OFL.
+
+Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
+[@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
+constraints. The mean yield? (OFL?) from the DCAC distribution was 25.5.
+
+Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
+was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (verion 1.19). 
+The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
+to as Deb Wilson-Vandenber's onboard observer index in this assessment). THe final decision 
+table was based around the emphasis given to the index, with a value of 5 given a 40% 
+probability and used in the baseline model. The stock was found to be at 97% depletion. 
 
 
-###yyyy Assessment Recommendations
+
+###2005 Assessment Recommendations
+
+The 2005 STAR panel only had one recommendation specific to gopher rockfish. However, they 
+had a number of generic rockfish recommendations that can be found in the STAR panel report 
+available [here](https://www.pcouncil.org/groundfish/stock-assessments/by-species/gopher-rockfish/).
 
 \begin{description}[style=unboxed]
 
-  \item[Recommendation 1: ] \hfill \\
+  \item[Recommendation 1: Additional length and age composition data should be 
+  collected for gopher rockfish. This would help to characterize spatial and possibly 
+  temporal variation in growth] \hfill \\
 
-   STAT response: xxxxx
-
-\item[Recommendation 2: ] \hfill \\
-
-  STAT response: xxxxx
-
-\item[Recommendation 3: ] \hfill \\
-
-  STAT response: xxxx
-
-  
+   2019 STAT response: Additional age and length data have been collected from a number of 
+   sources, the majority of which have been fishery-independent studies, including 
+   two master's theses focused on gopher rockfish.  Only a handful of otoliths have been 
+   collected for gopher rockfish south of Point Conception.  Additional length composition 
+   data are available since the last assessment.
+   
 \end{description}
-
-
 
 
 <!-- ************************MODEL DESCRIPTION***************************** -->
 ##Model Description
-
+The mode descriptions in the following sections reflect decisions and modelling 
+choices the STAT team made prior to the STAR panel.  Changes from the pre-STAR 
+base model to the final post-STAR base model are documented in the "Responses 
+to the Current STAR Panel Requests" section.  None of the data changed during 
+the STAR panel, and the figures and tables reflect the post-STAR final base model.
 
 ###Transition to the Current Stock Assessment
+The first formal stock assessment for gophr rockfish was conducted in 2005 [@Key2005]. 
+There are two major differences between the 2005 assessment this assessment, 1) 
+this assessment models gopher and black-and-yellow rockfish as a complex, and 2) 
+this assessment includes the area south of Point Conception.
+
+The 2005 model conducted in SS2 version 1.19 was first transitioned 
+to SS3.24z as a bridge model, before moving forward to SS3.30. Below, we describe the 
+most important changes made since the last full assessment in 2005 
+and explain rationale for each change.  Some of these items are changes due to structure 
+changes with Stock Synthesis, and some denote parameters chosen for options that were not
+available in SS2 (version 1.19).
+
+Changes in the bridge model from SS2 version 1.9 to SS3.24z and SS3.30.13.08 include:
+
+
+The way growth is modeled for age-0 fish has changed.  More recent versions of Stock Synthesis 
+model length-at-age for fish below the first reference age (Amin) as linearly increasing 
+from the initial length bin to the length given by the L_at_Amin parameter. The minimum population 
+length bin was reduced from 10 cm in the 2005 assessment to 4 cm in this assessment.  The timing of 
+settlement was set at July to reflect the the month at which the young-of-the-year are expected to 
+be at 4 cm (Figure \ref{fig:SMURF_lengths}).  The length data leading to this decision were 
+provided by Diana Baetscher (UCSC) and were collected via Standard Monitoring Unit for the 
+Recruitment of Fishes (SMURFs) from the UCSC-PISCO kelp forest fish survey as part of her dissertation 
+work on GBYR [@Baetscher2019].
+
+This stock assessment retains a single fleet for the commercial fishery, and also 
+includes a commercial discard fleet.  Data on commercial discards were not available 
+for and not included in the 2005 assessment.  The decision to retain one commercial 
+fleet was made by examining the length distributions across species, fishing gears, 
+and space, i.e., north and south of Point Conception 
+(Figure \ref{fig:Comm_lengths_justification}). There is very little difference between 
+the length composition of gopher and black-and-yellow rockfish landed in the commercial 
+fleet north of Point Conception which contributed 97% of the commercial landings 
+from 1978-2018.  The length distributions suggest that gopher rockfish south of 
+Point Conception landed dead south of Point Conception dead are slightly smaller 
+on average than norht of Point COncpetion.  However, there is not enough data 
+available to justify splitting the commercial fishery north and south of Point 
+Conception.  The length compositions of discarded fish are small in all for of 
+the subplots, suggesting size-based discarding.  Because Stock Synthesis is
+not set up to handle depth-dependent discard mortality rates and we're modelling 
+two species as a complex with differing depth-dependent discard mortality rates,
+the time series of commercial discards was incorporated as a fleet.
+
+This assessment incorporates the area south of Point Conception, which was previously 
+excluded from the 2005 assessment.  The length composition data suggested that while 
+the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
+south of Point Conception were smaller (Figure \ref{fig:Rec_lengths_justification}).
+The recreational catches from the man made mode are negligible and did not influence 
+the decision to split the fleet at Point Concepetion. The similarity of the length 
+distributions between species and among modes within a region were similar and justified 
+one recreational fleet.
+
+The 2005 model was a length-based model.  This assessment uses conditional age-at-length from 
+fish aged from a number of sources (Table \ref{tab:Age_data}).
+
+Differences in both the recreational and commercial catches used in this assessment are described 
+in detail in the \ref{fishery-information} section.
+
+The bias adjustment for recruitment deviations did not exist in SS2 (version 1.19). We set 
+1973-2012 as the range of years with full bias adjustment to span the time series 
+that was modeled.
+
+
 
 
 
 ###Summary of Data for Fleets and Areas
-There are xxx fleets in the base model.  They include:
+There are 12 fleets in the base model.  They include:
 
-*Commercial*: The commercial fleets include ...
+*Commercial*: The commercial fleets include two separate fleets, one for GBYR landed 
+(all gears combined), and one for commercial dead discards.
 
-*Recreational*: The recreational fleets include ...
+*Recreational*: The recreational fleets include two fleets, one for north of Point 
+Conception and one for south of Point Conception (all mode combined).
 
-*Research*: There are xx sources of fishery-independent data available ...
+*Fishery-Dependent Surveys*: There are five fishery-dependent survey fleets, one each for 
+north and south of Point Conception from the MRFRSS CPFV dockside survey, one each for 
+north and south of Point Concpetion from the CDFW/Cal Poly onboard observer survey, and 
+one from the Deb Wilson-Vandenberg CPFV onboard obsever survey that represents north of 
+Point Conception only.
+
+*Research*: There are third main sources of fishery-independent data available the CCFRP survey 
+the PISCO kelp forest fish survey. A third survey fleey is included as a "dummy" fleet to allow 
+incorporation of additional conditional age-at-length composition data from the Zaitlin and 
+Abrams theses.  This dummy fleet does not have any length or catches associated with it.
+
 
 ###Other Specifications
 
 
 ###Modeling Software
-The STAT team used Stock Synthesis 3 version 3.30.05.03 by Dr. Richard Methot at 
+The STAT team used Stock Synthesis 3 version 3.30.13.08 by Dr. Richard Methot at 
 the NWFSC. This most recent version was used, since it included 
 improvements and corrections to older versions.  The r4SS package 
-(GitHub release number v1.27.0) was used to post-processing output data from Stock
+(GitHub release number v1.35.1) was used to post-process output data from Stock
 Synthesis. 
 
 ###Data Weighting
@@ -102,6 +196,8 @@ _Other Fixed Parameters._
 
 
 ##Model Selection and Evaluation
+
+
 ###Key Assumptions and Structural Choices
 
 
@@ -112,6 +208,7 @@ _Other Fixed Parameters._
 
 
 ##Response to the Current STAR Panel Requests
+To be populated after the STAR panel.
 
 \begin{description}[style=sameline]
 
@@ -184,6 +281,7 @@ shown.
 Model fits to the indices of abundance, fishery length composition, survey length 
 composition, and conditional age-at-length observations are all discussed below.  
 
+\ref{appendix-a.-detailed-fits-to-length-composition-data}
 
 ###Uncertainty and Sensitivity Analyses
 A number of sensitivity analyses were conducted, including:

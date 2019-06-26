@@ -6,8 +6,8 @@
 
 *Population Structure and Complex Assessment Considerations*
 
-There have been a number of analyses of the genetic differentiation between 
-gopher rockfish and black-and-yellow rockfish that have yielded some range of 
+There have been a number of analyses conducted on the genetic differentiation between 
+gopher rockfish and black-and-yellow rockfish.  The studies have yielded some range of 
 results, but have generally concluded that there is unusually low genetic 
 differentiation between the two species. The most frequently used measure of
 genetic analyses to evaluate evidence for population differentiation is the 
@@ -37,8 +37,8 @@ although there were limitations regarding how representative those results were
 across the genome.  Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] 
 found an $F_{ST}$ of 0.049 across the overlapping range of the two species, which 
 provided some evidence of divergence, although such divergence is relatively low 
-compared to other species within *Sebastes.  Those authors characterized their 
-results as suggesting that the two are “reproductively isolated incipient species.”  
+compared to other species within *Sebastes*.  Those authors characterized their 
+results as suggesting that the two are “reproductively isolated incipient species.” 
 Buonaccorsi et al. [-@Buonaccorsi2011] found an even lower $F_{ST}$ of 0.01 using 
 25 loci, and concluded that gopher and black-and-yellow rockfish “have not 
 completed the speciation process.”  All of these studies are indicative of low 
@@ -60,7 +60,7 @@ would benefit from whole-genome sequencing of representatives from each species 
 In addition to the differences in coloration, the depth distribution and range 
 differ between the two species. The range of both species extends from Cape 
 Blanco Oregon to Baja California. Both species are uncommon north of Fort Bragg, 
-California and black-and-yellow rockfish is uncommon south of Pt. Conception, 
+California and black-and-yellow rockfish is uncommon south of Point Conception, 
 California. However, gopher rockfish can be found as far south as Punta San Roque on the 
 Baja peninsula.Gopher rockfish are found in rocky reef habitat from the intertidal 
 to depths of 264 ft (80 m) 
@@ -69,17 +69,21 @@ black-and-yellow rockfish occupies depths from the intertidal to 120 ft (40 m)
 and is predominantly observed in depths shallower than 60 ft (18 m) 
 [@Eschmeyer1983; @Love2002]. 
 
-Both species are solitary, sedentary, territorial species with home 
-ranges of 10-12 square meters, with occasional extended trips [@Love2002]. 
+Both species are solitary, sedentary, and territorial species with home 
+ranges of 10-12 square meters [@Love2002]. 
 A large percentage (67-71%) of black-and-yellow rockfish returned to the site 
 of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
 Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
-movement (<1.5 nm, 2.8 km) with all fish being recaptured on the same reef 
-system where they were tagged. Another study, conducted by [@Matthews1985], 
-reported movements up 
-to 1.2 km by gopher rockfish that traveled from a low-relief natural 
-reef to a high-relief artificial reef. The change in substrate type may 
-have been a factor in the movement in the Matthews[-@Matthews1985] study. 
+movement (<12.8 km) with all fish being recaptured on the same reef 
+system where they were tagged. Matthews [-@Matthews1985] fround that 11.8% 
+of tagged and recaptured gopher rockfish, adn 25% of black-and-yellwo rockfish, 
+moved from four low-relief natural reefs to a new high-relief artificial reef in 
+Monterey Bay.  The maximum distance between the natural and aritifial reefs 
+travelled by gopher or black-and-yellow rockfish was 1.6 km. After only a year, 
+the fish assemblage 
+on the artificial reef closely resembled that of the nearby natural reefs. The 
+paper did no address the spatial segregation of gopher and black-and-yellow rockfish 
+on the new artificial reef.
 
 Larson [-@Larson1980] conducted a study on the territoriality and segregation 
 between gopher and black-and-yellow rockfishes.  When one species was removed, 
@@ -91,36 +95,50 @@ from shallower waters.
 
 Both species are be feed at night, with similar diets composed primarily of 
 crabs and shrimp,supplemented by fish and cephalopods [@Love2002; 
-@Hallacher1985; @Larson1972]. Loury et al. [@Loury2015] found no significant differences 
-in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
-Marine Protected Area (MPA). She did find the diet of gopher rockfish at A\~{n}o Nuevo (shallower 
-and north of Point Lobos) dominated by crabs and dominated by brittle stars at southern, 
-deeper study locations. Zuercher [-@Zuercher2019] examined the diets of a suite of 
-nearshore rockfish species including black-and-yellow and found that they relied on 
-hard-bodied benthic invertebrates such as Brachyuran crabs, shrimps, other arthropods, 
-and octopus. The diet of black-and-yellow rockfish remained the same across sampling years, 
+-@Hallacher1985; @Larson1972]. Loury et al. [-@Loury2015] found no significant 
+differences in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
+Marine Protected Area (MPA). She did find the diet of gopher rockfish at A&ntilde;o Nuevo 
+(shallower and north of Point Lobos) was dominated by crabs and dominated by brittle 
+stars at southern, deeper study locations. Zuercher [-@Zuercher2019] examined the 
+diets of a suite of nearshore rockfish species including black-and-yellow and found 
+that they relied on hard-bodied benthic invertebrates such as Brachyuran crabs, 
+shrimps, other arthropods, and octopus. The diet of black-and-yellow rockfish 
+remained the same across sampling years, 
 but they occupied a lower trophic level during the upwelling season. 
 
 ## Early Life History
-Both gopher and black-and-yellow rockfish are viviparous and release one brood per 
+Gopher and black-and-yellow rockfish have similar juvenile development. 
+Both rockfish species are viviparous and release one brood per 
 season between January and July [@Echeverria1987].  Larvae are approximately 4 mm in length 
 at birth and have a 1-2 month pelagic stage before recruiting to the kelp forest canopy, 
 i.e., surface fronds of \emph{Macrosystis pyrifera} and \emph{Cysteoseira osmundacea} 
-at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent until they reach juvenile 
-stage at 22-23 mm. Differences in coloration begin to occur at 25-30 mm and can be used to 
-identify one species from the other. Gopher rockfish become more orange and brown, while black-and-yellow rockfish become more black and yellow.  Benthic juveniles associate with \emph{Macrosystis} holdfasts and sporophylls  [@Anderson1983]. Gopher and black-and-yellow rockfish have similar development 
+at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent until they 
+reach juvenile stage at 22-23 mm. Differences in coloration between the two sepcies begin 
+to occur at 25-30 mm and can be used to identify one species from the other. Gopher 
+rockfish become more orange and brown, while black-and-yellow rockfish become more 
+black and yellow. Benthic juveniles associate with \emph{Macrosystis} holdfasts and 
+sporophylls [@Anderson1983]. 
 
-The juveniles undergo ontogenetic migration down the stalks to deeper depths, finally settling on rocky reef habitat in their respective adult depth distribution. Juvenile bocaccio and other fish predate on young of year and other reef dwelling species including cabezon predate on post-settlement juveniles. Individuals avoid rough surge conditions and predators by hiding in the rocky bottom during the daylight hours, then returning to more open water at dusk [@Love2002]. 
+The juveniles undergo ontogenetic migration down the stalks to deeper depths, 
+finally settling on rocky reef habitat in their respective adult depth distribution. 
+Juvenile bocaccio and other fish predate on young of year and other reef dwelling 
+species including cabezon predate on post-settlement juveniles. Individuals avoid 
+rough surge conditions and predators by hiding in the rocky bottom during the 
+daylight hours, then returning to more open water at dusk [@Love2002]. 
 
 
 ##Map
-A map showing the scope of the assessment and depicting boundary at Pt. Conception for 
-the recreational fishing fleet (Figure \ref{fig:assess_region_map}).
+A map showing the scope of the assessment and depicting boundaries at 
+Cape Mendocino to the north and the U.S./ Mexico border at the south 
+(Figure \ref{fig:assess_region_map1}). The recreational fishing fleet 
+was split into two fleets at Point Conception. 
+
 
 ##Ecosystem Considerations
-In this assessment, ecosystem considerations were not explicitly included in the analysis. 
-This is primarily due to a lack of relevant data and results of analyses (conducted elsewhere) 
-that could contribute ecosystem-related quantitative information for the assessment.
+In this assessment, ecosystem considerations were not explicitly included in the 
+analysis. This is primarily due to a lack of relevant data and results of 
+analyses (conducted elsewhere) that could contribute ecosystem-related 
+quantitative information for the assessment.
 
 
 ##Fishery Information
@@ -144,16 +162,17 @@ rockfish appear in the commercial landings, with gopher rockfish averaging 0.1 m
 landed, and 0 mt reported in 1987. From 1988 and on, the landings are dominated 
 by gopher rockfish, and both species are represented in the commercial landings. 
 
-The landings from south of Pt. Conception are minor throughout the time period, 
+The landings from south of Point Conception are minor throughout the time period, 
 with peaks in the 1950s and 60s for gopher rockfish.  Black-and-yellow rockfish 
-are rare south of Pt. Conception and expected that these catches are minimal. 
+are rare south of Point Conception and expected that these catches are minimal. 
 
 The live fish fishery began in the early 1990s, with the first commercial landings 
 of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 1995 
 over half (57%; 39 mt) of the commercial landings were from the live fish fishery. 
 This increased quickly over the next few years and has been on average 84% of the landed 
-GBYR since 2000.  The majority of the landings are from gopher rockfish north of Pt. 
-Conception.  Landings of live GBYR south of Pt. Conception were higher in the late 
+gopher and black-and-yellow rockfish (also referred to GBYR to reference the complex in this
+assessment) since 2000.  The majority of the landings are from gopher rockfish north of Point 
+Conception.  Landings of live GBYR south of Point Conception were higher in the late 
 1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
 
 The ex-vessel value of GBYR increased from less than $40,000 in 1984 and peaked 
@@ -164,22 +183,24 @@ $2 a pound.  The live fish fishery increased the value of both species to an
 average of \$6-\$8 a pound.  The maximum reported value of either a gopher 
 or black-and-yellow rockfish was $20 a pound in 2003.
 
-The recreational GBYR fishery for California is most prominent north of Pt. 
+The recreational GBYR fishery for California is most prominent north of Point 
 Conception throughout the entire catch history (Figure \ref{fig:Exec_catch1}).
 The recreational landings increased from 1928 to 1980.  The sharp increase 
 in the 1980s could be an artifact of the MRFSS sampling program that began 
 in 1980; however, the more recent recreational landings also exhibit a cyclical 
 trend of years with high catches followed by period of decreased recreational 
 landings. The CRFS era recreational total mortality represents the most accurate 
-description of the recreational fleet's catches in terms of area, mode and species (Figure \ref{fig:CFRS_catches}).  
+description of the recreational fleet's catches in terms of area, mode and species 
+(Figure \ref{fig:CFRS_catches}).  
 
 Recreational catches are dominated by gopher 
-rockfish north of Pt. Conception in the private/rental (PR) and party/charter 
-(PC or CPFV) modes.  South of Pt. Conception gopher rockfish are predominately 
-caught by the CPFV fleet, with all other modes being insignificant. The total recreational mortality of black-and-yellow rockfish south of Pt. Conception 
-since 2005 is 3 mt, compared to 106 mt north of Pt. Conception. The total 
-mortality since 2005 for gopher rockfish is 86 mt south of Pt. Conception 
-and 669 mt north of Pt. Conception.
+rockfish north of Point Conception in the private/rental (PR) and party/charter 
+(PC or CPFV) modes.  South of Point Conception gopher rockfish are predominately 
+caught by the CPFV fleet, with all other modes being insignificant. The total 
+recreational mortality of black-and-yellow rockfish south of Point Conception 
+since 2005 is 3 mt, compared to 106 mt north of Point Conception. The total 
+mortality since 2005 for gopher rockfish is 86 mt south of Point Conception 
+and 669 mt north of Point Conception.
 
 
 ##Summary of Management History
@@ -246,15 +267,16 @@ based on the harvest guidelines set forth by the PFMC.  The commercial open acce
 and limited entry fixed gear sectors have undergone 
 three different spatial management changes in since 2000.  Since 2005, both 
 have managed the area south of $40^\circ 10^\prime$ N. latitude as one area. 
-he open access commercial fishery is managed based on bimonthly 
-allowable catches, that have ranged from 200 pounds to 1800 pounds per two months since 2000.  
+The open access commercial fishery is managed based on bimonthly 
+allowable catches, that have ranged from 200 pounds to 1800 pounds per two months since 2000.
 From 2005 to 2018, the catch limits have doubled and are now set at 1200 pounds per two 
 months (for all months) with March and April remaining closed. The limited entry fixed year 
 sector has followed the same pattern as the open access sector with bi-monthly limits 
 and a doubling of the catch since 2005. The limited entry trawl fleet is managed on 
 monthly limits on an annual basis. Since 2011, the limit has been 300 pounds per month for 
 non-IFQ species.  A history of California's commercial regulations from 2000-2018 can be 
-found in Appendix X.
+found in [Appendix A](#appendix-a.-californias-commercial-fishery-regulations). A 10-inch 
+minimume size limit was implemented in 1999 for the commercial fleet.
 
 Significant regulatory changed in California's recreational sector began with a change 
 from unlimited number of hooks and lines allowed in 1999 and prior to no more than 
@@ -265,23 +287,24 @@ had a sub-bag limit within the rockfish bag limit since 1999.  The nearshore sub
 has been 10 fish since 2005.  
 
 California also began spatial management, closures, and depth restrictions for the recreational 
-fleet in 2000.  In general, the recreational season north of Pt. Conception extends from April to 
-December, and south of Pt. Conception from March to December.  In the area that GBYR are most 
+fleet in 2000.  In general, the recreational season north of Point Conception extends from April to 
+December, and south of Point Conception from March to December.  In the area that GBYR are most 
 commonly landed, from Monterey to Morro Bay, the depth restrictions have been between 30 and 40 
 fathoms until 2017.  In 2017 the depth restrictions were eased by 10 fathoms, opening up fishing 
 depths along the central California coast that had not been open consistently since 2002.  In 
 both 2017 and 2018, the deepest 10 fathoms was closed prior to the season in December due to high 
 by-catch rates of yelloweye rockfish, one of two rockfish species that are still overfished. A 
 full history of the recreational regulations relating to the spatial management of the fleet can 
-be found in Appendix XXX.
+be found in [Appendix B](#appendix-b.-californias-recreational-fishery-regulations).
 
 
 ##Management Performance
 NEED TO FINISH  
 The contribution of GBYR to the minor nearshore rockfish OFLs is currently derived from 
 two sources: 1) forecasts from Key et al. [-@Key2005], from Cape Mendocino to 
-Pt. Conception and 2) a Depletion Corrected Average Catch (DCAC [@MacCall2009]) for the 
-area south of Point Conception. Estimated catch  of GBYR has been...... A summary of these values 
+Point Conception, and 2) a Depletion Corrected Average Catch (DCAC [@MacCall2009]) for the 
+area south of Point Conception. THe total mortality of the minor nearshore rockfish has been 
+below the ACL in all years (2011-2016).  A summary of these values 
 as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
 
 
@@ -291,7 +314,8 @@ The range of GBYR does not extend north to the Canadian border, and they are rar
 encountered in Oregon and Washington.  The southern end of the gopher rockfish's range 
 extends to Punta San Roque (southern Baja California) while the southern end of the 
 black-and-yellow rockfish's range extends to Isla Natividad (central Baja California) 
-[@Love2002]. However, black-and-yellow rockfish are rare south of Pt. Conception, California.   This was no available information on the fishery for GBYR at the time 
+[@Love2002]. However, black-and-yellow rockfish are rare south of Point Conception, California. 
+This was no available information on the fishery for GBYR at the time 
 of this assessment, nor additional details on the abundance or distribution patterns 
 in Mexican waters.
 
