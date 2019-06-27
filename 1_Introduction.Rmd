@@ -27,32 +27,33 @@ except for their color variation [@Hubbs1933]. Early efforts to evaluate whether
 the two species were genetically distinct began with an allozyme analysis by 
 Seeb et al. [-@Seeb1986], which did not detect genetic differentiation between 
 gopher and black-and-yellow rockfish.  However, as allozymes are proteins that 
-are often conserved due against variation, this early work was not enormously 
-conclusive.  In a subsequent study of restriction site polymorphisms, 
+are often conserved, this early work was not necessarily representative of 
+genome-wide relationships between the two groups.
+In a subsequent study of restriction site polymorphisms, 
 Hunter et al. [-@Hunter1994] found slight but significant differences between 
 species based on restriction fragment length polymorphisms (RFLP’s).  Following 
 that study, an analysis of the mitochondrial control region by Alesandrini and 
 Bernardi [-@Alesandrini1999] did not detect differences between the two species, 
-although there were limitations regarding how representative those results were 
-across the genome.  Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] 
+although mtDNA also has limitations regarding how results can be extrapolated
+across the nuclear genome. Analysis of seven microsatellite loci by Narum et al. [-@Narum2004] 
 found an $F_{ST}$ of 0.049 across the overlapping range of the two species, which 
 provided some evidence of divergence, although such divergence is relatively low 
 compared to other species within *Sebastes*.  Those authors characterized their 
 results as suggesting that the two are “reproductively isolated incipient species.” 
 Buonaccorsi et al. [-@Buonaccorsi2011] found an even lower $F_{ST}$ of 0.01 using 
-25 loci, and concluded that gopher and black-and-yellow rockfish “have not 
+25 microsatellite loci, and concluded that gopher and black-and-yellow rockfish “have not 
 completed the speciation process.”  All of these studies are indicative of low 
 levels of genetic divergence and a high probability of ongoing gene flow between 
 the two nominal species.  
 
-Most recently, an analysis of microhaplotypes by 
-Baetscher [-@Baetscher2019] observed a higher frequency of mis-assignments 
-of individuals to between gopher and black-and-yellow rockfishes compared to 
-all other pairs of species in the genus *Sebastes*.  In addition, comparisons 
+Most recently, an analysis of rockfish species assignment using microhaplotypes by 
+Baetscher [-@Baetscher2019] observed mistaken genetic assignment of a small number 
+of individuals between gopher and black-and-yellow rockfishes, while no other 
+species among the 54 rockfishes analyzed resulted in mis-assignments. In addition, comparisons 
 of $F_{ST}$  values within the study indicated that the level of genetic differentiation 
-observed between gopher and black-and-yellow rockfishes is less than that observed among 
+observed between gopher and black-and-yellow rockfishes is lower than that observed among 
 all other pairwise comparisons of the 54 species in the *Sebastes* genus that were included 
-in their analysis.  Baetscher [-@Baetscher2019] characterized the results as suggestive of 
+in their analysis. Baetscher [-@Baetscher2019] characterized the results as suggestive of 
 the two species representing “sister species with evidence of ongoing gene flow,” noting 
 that a more rigorous evaluation of the level of genetic distinction between these two species 
 would benefit from whole-genome sequencing of representatives from each species group.

@@ -32,6 +32,7 @@ output:
 <!-- ********************************************************************** -->
  
 ![Length distribution by month for GBYR captured using a sampling toold called a Standard Monitoring Unit for the Recruitment of Fishes (SMURFs) from the UCSC-PISCO kelp forest fish survey, specifically as part of Diana Baetscher's dissertation work (Baetscher 2019). \label{fig:SMURF_lengths}](Figures/SMURF_lengths.png)
+
 \FloatBarrier
 
 ![Length distributions of gopher and black-and-yellow rockfish for the commercial fleet and WCGOP discards north and south of Point Conception. The commercial landings were also separated between fish landed live and fish landed dead for this figure. \label{fig:Comm_lengths_justification}](Figures/Comm_lengths_justification.png)

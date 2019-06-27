@@ -11,7 +11,7 @@ Stock Reduction Analaysis (DB-SRA) [@Dick2010]. The DB-SRA model assigned a
 
 Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
 [@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
-constraints. The mean yield? (OFL?) from the DCAC distribution was 25.5.
+constraints. The mean yield from the DCAC distribution was 25.5 mt.
 
 Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
 was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (verion 1.19). 
@@ -74,8 +74,8 @@ length bin was reduced from 10 cm in the 2005 assessment to 4 cm in this assessm
 settlement was set at July to reflect the the month at which the young-of-the-year are expected to 
 be at 4 cm (Figure \ref{fig:SMURF_lengths}).  The length data leading to this decision were 
 provided by Diana Baetscher (UCSC) and were collected via Standard Monitoring Unit for the 
-Recruitment of Fishes (SMURFs) from the UCSC-PISCO kelp forest fish survey as part of her dissertation 
-work on GBYR [@Baetscher2019].
+Recruitment of Fishes (SMURFs) [@Ammann2004] from the UCSC-PISCO kelp forest fish survey as 
+part of her dissertation work on rockfish genetics [@Baetscher2019].
 
 This stock assessment retains a single fleet for the commercial fishery, and also 
 includes a commercial discard fleet.  Data on commercial discards were not available 
@@ -114,9 +114,59 @@ The bias adjustment for recruitment deviations did not exist in SS2 (version 1.1
 1973-2012 as the range of years with full bias adjustment to span the time series 
 that was modeled.
 
+The previous assessment modeled selectivity of the commercial fleet as logistic curve, 
+and both parameters for the logistic selectivity were estimated. Selectivity for the 
+onboard CPFV survey and recreational fleet were modelled uding the double logistic. The 
+current assessment uses the six parameter double normal for all fleets for which selectivity 
+is estimated and not mirrored.  The MRFSS dockside CPFV surveys and the CPFV onboard observer 
+surveys are mirrored to the recreational fishing fleets, north and south of Point Conception,
+respectively.
 
+The 2005 assessment did not include any time blocks.  This assessment includes two time blocks for 
+the commercial fleet (1916-1998 and 1999-2018). A 10-inch minimum size limit was placed on the 
+commercial fleet in 1999, which was relfected in the CALCOM length composition data. No additional 
+time blocks were added for the recreational fleet.  GBYR are a minor component of the nearshore 
+rockfish complex and no significant changes were detected in the landings or length composition 
+during the time when regulations changed (1999-2002).
 
+The 2005 assessment considered two candidate fishery-dependent indices of abundance, the Deb 
+Wilson-Vandenberg onboard observer CPFV survey and a dockside intercept survey from MRFSS 
+and RecFIN from 1983-2003.  However, the dockside index was removed at the request of the 
+STAR panel, citing "did not provide a reliable measure of relative abundance due to changes 
+in regulations and fishery targeting during the 1990s-2000s."  The current assessment uses 
+a version of the MRFSS database that has been more robustly aggregated to the trip level. 
+Starting in 1999, the CDFW begain the onboard observer program (described in the indices of 
+abundance). Once the program ramped up by the mid-2000s, almost all of the CPFV groundfish 
+trips sampled as onboard observer trips were also sampled as angler intercept surveys, i.e., 
+dockside interviews.  Using both the onboard observer data and the dockside interviews for this 
+time period would result in developing indices from the same fish.  The onboard observer program 
+provides greater detail in terms of catch and location than the dockside sampler examined catch. 
+THe onboard observer indices do not include the years 1999 and 2000 due to the number of regulation 
+changes occurring in those two years.
 
+The fishery-independent indices are all new for this assessment; the PISCO kelp forest fish 
+survey and the CCFRP hook-and-line survey.
+
+Maturity was changed for this assessment based upon newly available data described in the biological 
+specifications of this assessment.
+
+The 2005 assessment pre-STAR base model fixed steepness for gopher rockfish at 1.0, which 
+was then changed to 0.65 (the Dorn prior at the time) during the STAR panel.
+In this assessment, steepness was set at 0.72, the mean of the prior developed 
+from a meta-analysis of West Coast groundfish, with a standard deviation of 0.16 (see 
+Accepted Practices Guidelines for Groundfish Stock Assessments in the supplemental 
+material). 
+
+The prior for female natural mortality was updated to the median of the prior 
+from a meta-analysis conducted by Owen Hamel (see Accepted Practices Guidelines for 
+Groundfish Stock Assessments in the supplemental material). Assuming a maximum age of 
+28 years, the median of the prior is 0.211138, close to the fixed value used in the 
+2005 assessment of 0.2.
+
+Due to the fact that the 2005 model only included gopher rockfish and excluded the area 
+south of Point Conception, a complete bridge model was not developed.  Comparison of the 2005 
+input data, catch streams, and indices are provided throughout the document in appropriate 
+sections.
 
 ###Summary of Data for Fleets and Areas
 There are 12 fleets in the base model.  They include:
@@ -140,6 +190,36 @@ Abrams theses.  This dummy fleet does not have any length or catches associated 
 
 
 ###Other Specifications
+Stock synthesis has a broad suite of structural options available.  Where possible, 
+the ‘default’ or most commonly used approaches are applied to this stock assessment.
+The assessment is a one-sex model, as no significant differnces in growth between 
+males and females was detected in external analyses.
+
+The length composition data for some years and fleets was small, and may not be 
+representative of the total catch.  Length composition data were removed from the 
+model if fewer than 20 fish were measured in a given 
+year and fleet.  (From 1985-1989, two surveys measured fish from the recreational 
+party/charter fleet, the Ally et al. [@Ally1991] onboard observer survey and the 
+dockside intercept survey. The number of trips and fish sampled by the onboard 
+observer survey was far greater than the RecFIN survey and were used in the model.)
+
+The time-series of landings begins in 1916 for the commercial fleet and in 1928 for 
+the recreational fleet.  This captures the inception of the fishery, so the stock is 
+assumed to be in equilibrium at the beginning of the modeled period.
+ 
+The internal population dynamics model tracks ages 0-28, where age 28 is the ‘plus-group.’ 
+There are relatively few observations in the age compositions that are greater than age 28. 
+The population length bins and the length composition length bins are set at 1-cm bins from 
+fish 4-40 cm.
+
+The following likelihood components are included in this model: catch, indices, discards, 
+length compositions, age compositions, recruitments, parameter priors, and parameter soft 
+bounds. See the SS technical documentation for details [@Methot2015].
+
+Electronic SS model files including the data, control, starter, and forecast files can be 
+found on the 
+[PFMC ftp site](ftp://ftp.pcouncil.org/pub/!2019%20GF%20STAR%20Panels/STAR%20Panel%204%20-%20Cowcod-Gopher/).
+
 
 
 ###Modeling Software
@@ -150,19 +230,35 @@ improvements and corrections to older versions.  The r4SS package
 Synthesis. 
 
 ###Data Weighting
+Length composition and conditional-age-at-length (CAAL) compositions sample sizes for 
+the base model were tuned by the "Francis method," based on equation TA1.8 in Francis 
+[-@Francis2011], and implemented in the r4ss package. This approach involves comparing 
+the residuals in the model’s expected mean length with respect to the observed mean 
+length and associated uncertainty derived from the composition vectors and their 
+associated input sample sizes. The sample sizes are then tuned so that the observed 
+and expected variability are consistent. After adjustment to the sample sizes, models 
+were not re-tuned if the bootstrap uncertainty value around the tuning factor overlapped 1.0.
+
+As outlined in the Best Practices, a sensitivity run was conducted with length and 
+conditional-age-at-length (CAAL) compositions were re-weighted using the 
+Ianelli-McAllister harmonic mean method [@McAllister1997]. Additionally, weighting 
+using the Dirichelet-Multinomial likelihood, that includes and estimable parameter (theta) 
+that scales the input sample size, was explored.
+
+Extra variability parameters were estimated and added to the input variance for all surveys 
+and CPUE indices.
 
 
 ###Priors
 The log-normal prior for female natural mortality were based on a meta-analysis 
-completed by Hamel [-@Hamel2015], as described under “Natural Mortality.” Female 
-natural mortality was fixed at the median of the prior, 0.xxx for an assumed
-maximum age of xx.  An uninformative prior was used for the male offset natural 
-mortality, which was estimated.
+completed by Hamel [-@Hamel2015], as described under “Natural Mortality.” Natural mortality 
+was estimated using with a prior of, 0.211 for an assumed maximum age of 28.  
 
-The prior for steepness (*h*) assumes a beta distribution with parameters based on an update for the 
-Thorson-Dorn rockfish prior (Dorn, M. and Thorson, J., pers. comm.), which was endorsed by the Science 
-and Statistical Committee in 2018.  The prior is a beta distribution with $mu$=0.xxx and $sigma$=0.xxx.
-Steepness is fixed in the base model at the mean of the prior. The priors were applied in sensitivity analyses where these parameters were estimated.
+The prior for steepness (*h*) assumes a beta distribution with parameters based on an 
+update for the Thorson-Dorn rockfish prior (Dorn, M. and Thorson, J., pers. comm.), 
+which was endorsed by the Science and Statistical Committee in 2019.  The prior is a 
+beta distribution with $mu$=0.72 and $sigma$=0.16. Steepness is fixed in the base model 
+at the mean of the prior. 
 
 
 

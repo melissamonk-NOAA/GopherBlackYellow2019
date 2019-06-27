@@ -415,7 +415,7 @@ in appropriate habitat, especially given how territorial GBYR and both species a
 strongly associated with rocky habitat.
  
 Two levels of possible filtering were applied using the Stephens-MacCall filter (Table 
-\ref(tab:Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
+\ref{tab:Fleet10_11_Filter}). The Stephens-MacCall filtering method identified the 
 probability of occurrence (in this case 0.4) at which the rate of "false 
 positives" equals "false negatives." The trips selected using this criteria 
 were compared to an alternative method including all the "false positive" 
