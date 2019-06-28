@@ -9,7 +9,12 @@
 
 
 
-![Available length-at-age data for gopher and black-and-yellow rockfish by sex and data source. The Zaitlin study is all black-and-yellow rockfish.  The remaining plots represent gopher rockfish \label{fig:growth_samples}](Figures/Age_length_by_study)
+![Available length-at-age data for gopher and black-and-yellow rockfish by sex and data source. The Zaitlin study is all black-and-yellow rockfish.  The remaining plots represent gopher rockfish \label{fig:Age_length_by_study}](Figures/Age_length_by_study.png)
+
+![External estimates of growth for gopher and black-and-yellow rockfish from fits to von Bertalanffy growth models. \label{Growth_by_species}](Figures/Growth_by_species.png)
+
+![External estimates of growth for GBYR combined by sex from fits to von Bertalanffy growth models. \label{Growth_by_sex}](Figures/Growth_by_sex.png)
+
 
 
 ![Maturity ogive for females estimated from black-and-yellow rockfish from Zaitlin (1986) and gopher rockfish from Meyers-Cherry (2014). Sample sizes at a given length are shown in the circles. \label{fig:GBY_maturity_ogive}](Figures/GBY_maturity_ogive.png)

@@ -212,9 +212,19 @@ There are relatively few observations in the age compositions that are greater t
 The population length bins and the length composition length bins are set at 1-cm bins from 
 fish 4-40 cm.
 
+The extra standard deviation parameter was added to all indices except the 
+Deb Wilson-Vandenberg CPFV onboard observer index and the MRFSS dockside index 
+for north of Point Conception that both had relatively large estimated variances 
+associated with them.  The extra parameter was explored, but estimated to be on 
+the lower bound, and was removed for the final base model. All other indices, 
+both recent recreational onboard obsever indices, CCFRP, PISCO, and the MRFSS 
+dockside index south of Point Conception, were estimated with relatively small 
+variances (10-20%) from their respective indices.  Extra variance was estiamted 
+for these indices in the base model.
+
 The following likelihood components are included in this model: catch, indices, discards, 
 length compositions, age compositions, recruitments, parameter priors, and parameter soft 
-bounds. See the SS technical documentation for details [@Methot2015].
+bounds. See the SS technical documentation for details [@Methot2019].
 
 Electronic SS model files including the data, control, starter, and forecast files can be 
 found on the 
@@ -243,7 +253,10 @@ As outlined in the Best Practices, a sensitivity run was conducted with length a
 conditional-age-at-length (CAAL) compositions were re-weighted using the 
 Ianelli-McAllister harmonic mean method [@McAllister1997]. Additionally, weighting 
 using the Dirichelet-Multinomial likelihood, that includes and estimable parameter (theta) 
-that scales the input sample size, was explored.
+that scales the input sample size, was explored. However, the model did not converge when 
+the Dirichelet-Multinomial likelihood was applied to a number of of the fleets with composition 
+data. Given this, and the current challenges with this method described in the Stock Synthesis 
+manual [@Methot2019], the Francis weightings were applied in the base model.
 
 Extra variability parameters were estimated and added to the input variance for all surveys 
 and CPUE indices.
@@ -261,46 +274,130 @@ beta distribution with $mu$=0.72 and $sigma$=0.16. Steepness is fixed in the bas
 at the mean of the prior. 
 
 
-
 ###Estimated and Fixed Parameters
 A full list of all estimated and fixed parameters is provided in Tables 
-\ref{tab:model_params}. 
+\ref{tab:model_params}. Time-invariant, growth is estimated in 
+this assessment, with all SS growth parameters being estimated. The log of the 
+unexploited recruitment level for the Beverton-Holt stock-recruit function is 
+treated as an estimated parameter. Annual recruitment deviations are estimated 
+beginning in 1978.  The survey catchability parameters are calculated analytically (set as 
+scaling factors) such that the estimate is median unbiased, which is comparable to 
+the way q is treated in most groundfish assessments.   
 
-The base model has a total of xxx estimated parameters in the following categories:
+The base model has a total of 111 estimated parameters in the following categories:
 
 \begin{itemize}
-  \item xxx,
-  \item xxx
-  \item xxx, and
-  \item xxx selectivity parameters
+  \item Natural mortality
+  \item Equilibrium recruitment ($R_0$) and 71 recruitment deviations
+  \item Stock recruitment autocorrelation parameter
+  \item Five growth parameters
+  \item Five index extra standard deviation parameter, and
+  \item 27 selectivity parameters
 \end{itemize}
 
 The estimated parameters are described in greater detail below and a full list of 
 all estimated and parameters is provided in Table \ref{tab:model_params}.
 
-_Growth._ 
+_Growth._Five growth parameters were estiamted for the one-sex model: three von 
+Bertalanffy parameters and two parameters for CV as a function of length-at-age 
+related to variability in length-at-age for small and large fish.
 
-_Natural Mortality._ 
+_Natural Mortality._ The estimated natural mortality of 0.217647 is close to the 
+mean of the prior, 0.1928571.
 
-_Selectivity._  
+_Selectivity._  Selectivity for all fleets was estimated as double-normal. 
+
+Selectivity was estimated as asymptotic for the commercial fleet, with one 
+time block.  Asymptotic selectivity was also estimated for both recreational 
+fleets, Deb Wilson-Vandenberg's onboard observer survey, and the PISCO.  Three 
+parameters were estimated for each of these fleets, the peak, the ascending 
+width, and the selectivity at the first bin.
+
+Dome-shaped selectivity was estimated for the commercial discard fleet and the CCFRP 
+survey.  Five of the size parameters were estimated for the commercial discard 
+selectivity (selectivity at the last bin was fixed).  Four parameters were estimated 
+for the CCFRP length compositions (selectivity at the first and last bins was fixed)
 
 
-_Other Estimated Parameters._ 
+_Other Estimated Parameters._ Recruitment deviations for the base model are estimated 
+from 1978 to 2018.  The base model also included estimated recruitment deviations for 
+the forecast years, although these have no impact on the model estimates for the current year.
 
-_Other Fixed Parameters._ 
+Many variations of the base case model were explored during this analysis. Sensitivities 
+to asymptotic vs. domed selectivity were explored for the appropriate fisheries, e.g. 
+commercial fisheries and surveys, as well as estimating selectivity and mirroring fleet 
+selectivities. Time blocked selectivity without the time block from 1999-2019 for the 
+recreational fisheries was investigated.  
 
+Much time was also spent tuning the advanced recruitment bias adjustment options.  
+Sensitivities were performed to each of the thirteen 
+advanced options for recruitment, e.g., early recruitment deviation start year, 
+early recruitment deviation phase, years with bias adjustments, and maximum bias 
+adjustment.  The final base model sets the first year of recruitment deviations just 
+prior to when the majority of fishery/survey length composition are available.
+
+
+Recruitment autocorrelation parameter??
+
+Several models were also investigated where steepness and natural mortality were 
+either estimated, fixed at their respective priors.   
+
+Sensitivities of the model to the spawning and settlement months were also explored.
+The base model originally set settlement month to January. Both gopher and 
+black-and-yellow rockfish settle at a small size (~2 cm). However, after exploring the 
+young-of-the-year length data made available by Diana Baetscher, the timing of 
+settlement was moved to July for the base model.  
+
+
+Parameters for extra standard deviation were added to all survey 
+indices in the model because they were not well fit by the models considered. Sensititivies 
+were conducted to determine which indicies have the additonal estiamted extra variability.
+
+Anything else??
+
+
+_Other Fixed Parameters._ The stock-recruitment steepness is fixed at the SSC approved 
+steepness prior for rockfish of 0.72.  
 
 
 ##Model Selection and Evaluation
-
-
 ###Key Assumptions and Structural Choices
 
 
 ###Alternate Models Considered
 
+A number of models were run with different catch histories for the recreational fleet 
+south of Point Conception, given that the catch histories were modified from the original 
+data.  None of the alternatives explored altered the model at any significant level 
+due to the fact that the recreational catches south of Point Conception are relatively 
+small.
+
+Two sensitivites were also performed altering the commercial discard catch history.  The 
+discard catch was set to zero for all years prior to 2004, the year when WCGOP estimates 
+were first availble, and to a constant rate of 17% of the commercial landings, the maximum 
+discard rate observed in the WCGOP data.  Neither of these sensitivities resulted in any 
+significant change to the model ouputs.
+
+Runs of the base case model estimating steepness were also considered.
+
+A sensitivity of the model to using the commercial length composition data from PacFIN was 
+also considered.  The fits to the changed only slightly, (increasing depletion from 0.46 
+to 0.48) but given the concerns outlined in the discussion on commercial lenght composition 
+the base model includes the commercial length compositions from CALCOM.
+
+Add in other sensitivities from the Google drive
 
 ###Convergence
+Model convergence was determined by starting the minimization process from dispersed 
+values of the maximum likelihood estimates to determine if the model found a better 
+minimum. Jitter is a SS option that generates random starting values from a normal 
+distribution logistically transformed into each parameter’s range [@Methot2019]. This 
+was repeated 100 times and the minimum was reached in xx% of the runs  (Table \ref{tab:jitter}).
+The model did not experience convergence issues, e.g., final gradient was below 0.0001,
+when reasonable starting values were used and there were no difficulties in inverting 
+the Hessian to obtain estimates of variability.  We did sensitivity runs for 
+convergence by changing the phases for key estimated parameters; neither the total 
+log-likelihood nor the parameter estimates changed.
 
 
 ##Response to the Current STAR Panel Requests
@@ -352,16 +449,20 @@ To be populated after the STAR panel.
 <!-- *********************MODEL 1 RESULTS********************************** -->
 ##Base Case Model Results 
 The following description of the model results reflects a base model that 
-incorporates all of the changes made during the STAR panel (see previous section). 
-The base model parameter estimates and their approximate asymptotic standard errors 
-are shown in Table \ref{tab:model_params} and the likelihood components are in 
-Table \ref{tab:like_components}.  Estimates of derived reference points and 
+was developed prior to the STAR panel (this section will be updated after the 
+STAR panel). The base model parameter estimates and their approximate asymptotic 
+standard errors are shown in Table \ref{tab:model_params} and the likelihood 
+components are in Table \ref{tab:like_components}.  Estimates of derived reference points and 
 approximate 95% asymptotic confidence intervals are shown in Table \ref{tab:Ref_pts_mod1}.
 Time-series of estimated stock size over time are shown in Table \ref{tab:Timeseries_mod1}.
 
-
+Steepness of the assumed Beverton-Holt stock-recruitment relationship 
+was fixed at 0.72.
 
 ###Parameter Estimates
+The base model produces reasonable estimates of growth parameters (Figure \ref{fig:vonB_compare}).  The von Bertalanffy growth coefficient $k$ was estimated close to the external estimate, 0.xxx6 externally and 0.xxx within SS.  The estimated $L_{inf}$ was xxxx, comapred to the 
+external estimate of xxx.
+
 
 The additional survey variability (process error added directly to each year's input 
 variability) for all surveys was estimated within the model.  

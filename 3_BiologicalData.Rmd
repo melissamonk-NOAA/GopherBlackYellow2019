@@ -31,8 +31,9 @@ Length compositions were provided from the following sources:
 \end{itemize}
 
 The length composition of all fisheries aggregated across time by fleet is in Figure
-\ref{fig:comp_lendat_aggregated_across_time}.  Descriptions and details of the length
-composition data are in the above section for each fleet or survey.
+\ref{fig:comp_lendat_aggregated_across_time} and Table \ref{tab:length_samples_survey}. 
+Descriptions and details of the length composition data are in the above section 
+for each fleet or survey.
 
 
 \vspace{.5cm}
@@ -43,14 +44,14 @@ summary by source can be found in Table \ref{tab:Age_data}.  Gopher rockfish
 comprised 80% of the samples (946 females, 901 males, 121 unknown sex), 
 and all but a few black-and-yellow rockfish (247 females, 232 males, 20 
 unknown sex) came from a directed study by Jody Zaitlin [-@Zaitlin1986] 
-(Figure \ref{fig:growth_samples}).
+(Figure \ref{fig:Age_length_by_study}).
 
 Of the available ages, 91% were collected during fishery-independent surveys.  
 An additional 36 otoliths were collected by Cal Poly during their CPFV 
 onboard observer survey in 2018. The remaining 7.5% were from commercial 
 port samples or recreational dockside surveys. Black-and-yellows represent 
 20% of the samples collected, and are mainly derived from 
-Ralph Larson's work in Monterey Bay. 
+Jody Zaitlin's work in Monterey Bay. 
 
 All otoliths were read by Don Pearson (NMFS SWFSC, now retired) and ages ranged 
 from 1-28. The aged black-and-yellow rockfish 
@@ -61,8 +62,9 @@ $L_i = L_{\infty}e^{(-k[t-t_0])}$, where $L_i$ is the length (cm) at age $i$, $t
 years, $k$ is rate of increase in growth, $t_0$ is the intercept, and $L_{\infty}$ 
 is the asymptotic length, were explore by species and sex. 
 
-No significant differences were found in growth between males and females,
-or between gopher and black-and-yellow rockfishes.  
+No significant differences were found in growth between gopher and black-and-yellow 
+rockfishes (Figure \ref{Growth_by_species}) or between males and females
+(Figure \ref{Growth_by_sex}), species combined.
 
 
 
