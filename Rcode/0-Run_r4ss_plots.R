@@ -110,6 +110,11 @@ SS_plots(mod1,
          dir = out.dir.mod1)
 
 
+# =============================================================================
+# Save dataframe with the Francis weights table from the default weighting 
+Fweights = SS_tune_comps(mod1)
+write.csv(Fweights,"./txt_files/Fweights.csv",row.names=FALSE)
+
 # -----------------------------------------------------------------------------
 
 # Run the code to parse the plotInfoTable files

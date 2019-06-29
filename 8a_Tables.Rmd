@@ -18,7 +18,7 @@
 
     # Create model 1 jitter table
     jitter.table = xtable(jitter, 
-                          caption = c('Results from 100 jitters from the base 
+                          caption = c('Results from 240 jitters from the base 
                                       case model.'),
                           label = 'tab:jitter')
     
@@ -80,8 +80,9 @@
                               digits = c(0,0,0,3,0,3,0,3,0))  
 
     # Add alignment  
-    align(mod_params.table) = c('lrlrrcccl')
-        
+    align(mod_params.table) = c('lrlrrcccp{1.5in}')
+      
+
  
     # Add "continued on next page"" footnote   
     addtorow          <- list()
@@ -428,9 +429,9 @@
                                               depletion and SPR ratio are for the year of 2017.'),
                                  label = 'tab:like_profiles')  
      
-     align(Like_profile.table) = c('cc|ccccc|ccccc')
+     align(Like_profile.table) = c('cl|ccccc|ccccc')
 
-     align(Like_profile2.table) = c('cc|ccccc')
+     align(Like_profile2.table) = c('cl|ccccc')
 
 # Print likelihood profile table
       print(Like_profile.table, 

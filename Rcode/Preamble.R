@@ -73,18 +73,17 @@ Project_lastyr  = max(mod1$timeseries$Yr[mod1$timeseries$Era=='FORE'])
 # =============================================================================
 # Load in the plotInfoTable and parse the table as an option to use for figures
 
-
 for(imod in 1:n_models) {
   if (imod==1) {
-      mod_num = 'mod1'
-    } else {
+    mod_num = 'mod1'
+  } else {
     if (imod==2) {
       mod_num = 'mod2'
     } else {
       mod_num = 'mod3'
     }}
   
-  
+ 
   # Read in the plotInfoTable.csv containining the list of plots created from r4SS
   plotInfoTable = read.csv(paste0('./r4ss/plots_',mod_num,'/plotInfoTable_',mod_num,'_final.csv'))
   
@@ -124,5 +123,10 @@ multi_page_fig = c('page2', 'page3', 'page4', 'page5', 'page6', 'page7')
 caption_col = 2
 label_col = 10
 path_col =  11
+
+# =============================================================================
+# Read in the Francis weights table from the default weighting 
+Fweights = read.csv('./txt_files/Fweights.csv')
+
 
 

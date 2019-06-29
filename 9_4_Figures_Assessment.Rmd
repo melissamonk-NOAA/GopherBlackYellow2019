@@ -64,13 +64,14 @@ output:
 
 ![Selectivity at length for all of the fleets in the base model. \label{fig:sel01_multiple_fleets_length1}](r4ss/plots_mod1/sel01_multiple_fleets_length1.png)
 
+![Surface plot of Female time-varying selectivity for the commercial fleet, with time blocks from 1916-1998 and 1999-2018. \label{fig:sel03_len_timevary_surf_flt1sex1}](r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png)
 
 
 
 \FloatBarrier
 
 
-<!--![Estimated time-series of recruitment deviations for `r spp` with 95% intervals. \label{fig:recdevs2_withbars}](r4ss/plots_mod1/recdevs2_withbars.png) -->
+![Estimated time-series of recruitment deviations for `r spp` with 95% intervals. \label{fig:recdevs2_withbars}](r4ss/plots_mod1/recdevs2_withbars.png)
 
 
 
@@ -85,34 +86,43 @@ output:
 
 ![Estimated recruitment (red circles) and the assumed stock-recruit relationship (black line) for `r spp`.  The green line shows the effect of the bias correction for the lognormal distribution. \label{fig:SR_curve2}](r4ss/plots_mod1/SR_curve2.png)
 
+\FloatBarrier 
 
 <!-- ***********Fits to the data********************************* --> 
 
+![Fit to log index data on log scale for the recerational MRFSS dockside CPFV fishery north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png)
+
+![Fit to log index data on log scale for the recerational MRFSS dockside CPFV fishery south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideSouth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png)
+
+![Fit to log index data on log scale for the recerational Deb's CPFV onboard observer program, representing north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_DebCPFV}](r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png)
+
+![Fit to log index data on log scale for the recerational current CPFV onboard observer program north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardNorth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png)
+
+![Fit to log index data on log scale for the recerational current CPFV onboard observer program south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardSouth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png)
+
+![Fit to log index data on log scale for the fishery-independent PISCO kelp forest fish survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_PISCO}](r4ss/plots_mod1/index5_logcpuefit_PISCO.png)
+
+
+![Fit to log index data on log scale for the fishery-independent CCFRP hook-and-line survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_CCFRP}](r4ss/plots_mod1/index5_logcpuefit_CCFRP.png)
+
+\FloatBarrier 
+
+![Length compositions aggregated across time by fleet.  \label{fig:comp_lenfit__aggregated_across_time}](r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png)
 
 
 \FloatBarrier
 
+![Mean age for the commercial fishery with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[8,6], ' (',Fweights[8,9],'-', Fweights[8,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCom.png)
 
-```{r, results='asis'}
-#     # Plot all of the timeseries plots
-     for(i in 4:dim(AALComp_mod1)[1]) {
-#         
-#      # find matches to multi-page plots
-      page_test = sapply(multi_page_fig, grepl, AALComp_mod1$label[i])
-#      
-#      # if the plot is page2+ of a series, add the extra caption
-      if(TRUE %in% page_test) {
-        cat('\n![](', AALComp_mod1[i, path_col], ')', sep='')
-#       
-        cat('\\begin{center} \n
-              Figure continued from previous page \n
-             \\end{center}',sep='')
-#        
-      } else {
-#      
-    cat('\n![', AALComp_mod1[i,caption_col], ' \\label{fig:mod1_', i, '_', AALComp_mod1[i, label_col], '}](', AALComp_mod1[i, path_col], ')\n', sep='')
- } }
-```
+
+![Mean age for the recreational fishery (ages from north of Point Conception only) with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[9,6], ' (',Fweights[9,9],'-', Fweights[9,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png)
+
+
+![Mean age for the CCFRP survey with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[10,6], ' (',Fweights[10,9],'-', Fweights[10,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png)
+
+
+![Mean age for the 'dummy' fleet with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[11,6], ' (',Fweights[11,9],'-', Fweights[11,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png)
+
 
 
 

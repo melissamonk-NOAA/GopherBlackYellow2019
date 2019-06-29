@@ -5,7 +5,7 @@
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.ncep.noaa.gov/group/stock-synthesis
-#_Start_time: Wed Jun 26 15:26:42 2019
+#_Start_time: Fri Jun 28 14:24:22 2019
 #_Number_of_datafiles: 1
 
 #_observed data: 
@@ -496,15 +496,15 @@
 11 0 0 0 # RecDocksideSouth
 12 0 0 0 # Dummy1
 #_yr month fleet obs stderr
-1988 7 5 0.21323 0.16942 #DebCPFV
-1989 7 5 0.33835 0.15213 #DebCPFV
-1992 7 5 0.29498 0.16932 #DebCPFV
-1993 7 5 0.19918 0.13750 #DebCPFV
-1994 7 5 0.22495 0.11733 #DebCPFV
-1995 7 5 0.24150 0.10559 #DebCPFV
-1996 7 5 0.26947 0.10562 #DebCPFV
-1997 7 5 0.20817 0.09609 #DebCPFV
-1998 7 5 0.23471 0.10983 #DebCPFV
+1988 7 5 0.21323 0.16942 #_ DebCPFV
+1989 7 5 0.33835 0.15213 #_ DebCPFV
+1992 7 5 0.29498 0.16932 #_ DebCPFV
+1993 7 5 0.19918 0.1375 #_ DebCPFV
+1994 7 5 0.22495 0.11733 #_ DebCPFV
+1995 7 5 0.2415 0.10559 #_ DebCPFV
+1996 7 5 0.26947 0.10562 #_ DebCPFV
+1997 7 5 0.20817 0.09609 #_ DebCPFV
+1998 7 5 0.23471 0.10983 #_ DebCPFV
 2001 7 6 0.316919 0.12022 #_ RecOnboardNorth
 2002 7 6 0.193759 0.140447 #_ RecOnboardNorth
 2003 7 6 0.280967 0.074309 #_ RecOnboardNorth

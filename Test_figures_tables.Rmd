@@ -43,24 +43,12 @@ bibliography: BibFile.bib
 
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE MAIN TEXT OR TO DEBUG
 
+The added variances were highest 
+for the recreational onboard observer survey north of Point Conception
+`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(4)", 3], 3)` 
+
+
+
 ```{r, results="asis"}
-#Make the contingency table for GBYR MRFSS north
 
-b = c("Above 0.4",186,437)
-c = c("Below 0.4",1982,183)
-
-Fleet10_cont = rbind(b,c)
-colnames(Fleet10_cont) = c(" ","GBYR absent","GBYR present")
-
-Fleet10_cont.table = xtable(Fleet10_cont,
-                               caption = c("Contingency table for the Stephens-MacCall 
-                                            filtering for the MRFSS dockside CPFV index 
-                                            for GBYR north of Pt. Conception."),big.mark=",",
-                               label = 'tab:Fleet10_contingency')
-
-align(Fleet10_cont.table) = c('l','r','c','c')
-
-print(Fleet10_cont.table, 
-              include.rownames=FALSE, 
-              caption.placement="top")
 ```

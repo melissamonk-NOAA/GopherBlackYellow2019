@@ -1,4 +1,4 @@
-Label,Base,Weight Harmonic Mean,Remove Index,Remove Ages,Down Weight Lengths,Free Size Age0,Free CV Amin,External Growth
+Label,Base,Weight Harmonic Mean,PacFIN comps,Remove Comm. Ages,Estimate h and M,Fix M and estimate h,Turn off extra sd for CCFRP,External Growth
 TOTAL_like,-,-,-,-,-,-,-,-
 Catch_like,-,-,-,-,-,-,-,-
 Equil_catch_like,-,-,-,-,-,-,-,-

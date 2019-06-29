@@ -1,10 +1,12 @@
 #V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_using_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject to copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
-Thu Jun 27 16:18:52 2019
+Fri Jun 28 14:36:11 2019
 
 bias adjustment ramp extends into forecast; biasadj set to 0.0 internally for forecast years
- warning: poor convergence in Fmsy, final dy/dy2= -0.0715129
+ warning: poor convergence in Fmsy, final dy/dy2= -0.0808798
  Fmsy is >3x of Fspr are you sure?  check for convergence 
- N warnings: 3
+ Fmsy is close to max allowed; check for convergence 
+Final gradient: 0.000267987 is larger than final_conv: 0.0001
+ N warnings: 5
 Number_of_active_parameters_on_or_near_bounds: 0

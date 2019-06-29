@@ -62,10 +62,10 @@
 # Conditional input if relative F choice = 2
 # enter list of:  season,  fleet, relF; if used, terminate with season=-999
 # 9
-# 1 1 0.502659
-# 1 2 0.0110123
-# 1 3 0.45596
-# 1 4 0.0303685
+# 1 1 0.49859
+# 1 2 0.0102117
+# 1 3 0.461522
+# 1 4 0.0296768
 # -9999 0 0  # terminator for list of relF
 # enter list of: fleet number, max annual catch for fleets with a max; term
 # inate with fleet=-9999
