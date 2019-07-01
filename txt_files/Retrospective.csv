@@ -1,23 +1,19 @@
 Label,Base,Retro1,Retro2,Retro3,Retro4
-Female natural mortality,,,,,
-Steepness,,,,,
-lnR0,,,,,
-Total Biomass (mt),,,,,
-Depletion,,,,,
-SPR ratio,,,,,
-Female Lmin,,,,,
-Female Lmax,,,,,
-Female K,,,,,
-Male Lmin (offset),,,,,
-Male Lmax (offset),,,,,
-Male K (offset),,,,,
+Female natural mortality,0.223,0.215,0.215,0.214,0.199
+Steepness,0.72,0.72,0.72,0.72,0.72
+lnR0,8.691,8.553,8.475,8.35,8.003
+Total Biomass (mt),2303.87,2191.89,2053.59,1809.09,1507.21
+Depletion,0.472,0.395,0.375,0.335,0.238
+SPR ratio,1,0.998,0.992,0.976,0.906
+Female Lmin,9.669,9.724,10.186,10.679,10.961
+Female Lmax,28.351,28.035,27.868,27.642,27.35
+Female K,0.125,0.132,0.129,0.124,0.127
 Negative log-likelihood,,,,,
-No. parameters,,,,,
-TOTAL,,,,,
-Equililibrium catch,,,,,
-Survey,,,,,
-Length composition,,,,,
-Age composition,,,,,
-Recruitment,,,,,
-Forecast Recruitment,,,,,
-Parameter priors,,,,,
+TOTAL,557.522,512.022,495.38,478.754,462.697
+Equililibrium catch,0,0,0,0,0
+Survey,-33.052,-31.535,-30.757,-30.455,-33.292
+Length composition,372.657,359.781,346.355,334.972,324.077
+Age composition,231.942,197.605,193.747,189.867,188.735
+Recruitment,-14.086,-13.955,-14.156,-15.856,-16.83
+Forecast Recruitment,0.056,0.031,0.029,0.029,0.003
+Parameter priors,0.005,0.005,0.004,0.004,0.004

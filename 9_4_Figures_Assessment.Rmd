@@ -157,15 +157,14 @@ output:
 <!-- ***********MODEL 1 Retrospective analysis FIGURE********************** --> 
 
 
+![Retrospective pattern for spawning output. \label{fig:retro_spawnb}](Figures/retro_spawnb.png)
+
+\FloatBarrier
+
+![Retrospective pattern for estimated recruitment deviations. \label{fig:retro_recdev}](Figures/retro_recdev.png)
 
 
-
-
-
-
-
-
-
+\FloatBarrier
 
 <!-- ********************************************************************** -->
 <!-- ******************Likelihood profile FIGURES************************** --> 

@@ -2823,8 +2823,8 @@ the supplementary material.
 
 The fits to the five fishery-dependent and two fishery-independent
 survey indices are shown in Figures
-\ref{fig:index1_logcpuefit_RecDocksideNorth} -
-\ref{fig:index1_logcpuefit_CCFRP}. The majority of the indices represent
+\ref{fig:index5_logcpuefit_RecDocksideNorth} -
+\ref{fig:index5_logcpuefit_CCFRP}. The majority of the indices represent
 the area north of Point Conception only and not all of these were fit
 well by the assessment model. The MRFSS recreational dockside survey
 index north of Point Conception spanning the 1980s-1990s was fit well by
@@ -2874,10 +2874,23 @@ composition data that were not particularly well fit, e.g., 1980 and
 1996 for RecSouth, but these were usually due to high frequencies of
 fish in a small number of length bins.
 
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}
+The age data were also weighted according to Francis weighting which
+adjust the weight given to a data set based on the fit to the mean age
+by year. The mean age of fish in the commercial fleet was not fit well
+for 2018, which was lower than the mean and the year with the smallest
+variability in ages (Figure
+\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}). The mean age
+of the recreational fleet declined from 1980 to 1986, and the mean for
+2017 was the highest of all years (Figure
+\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}). The
+conditional age data from the CCFRP data was not well fit for the
+earliest years in the data, but was reasonably well fith for the last
+four years of data (Figure
+\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}). The
+conditional length composition data from the `dummy' fleet was well fit,
+although heavily downweighted. Age data in this fleet are from a number
+of sources and sampling programs (Figure
+\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}).
 
 \subsubsection{Uncertainty and Sensitivity
 Analyses}\label{uncertainty-and-sensitivity-analyses}
@@ -2901,7 +2914,24 @@ A number of sensitivity analyses were conducted, including:
 
 \subsubsection{Retrospective Analysis}\label{retrospective-analysis}
 
+A 4-year retrospective analysis was conducted by running the model using
+data only through xx, xx, xx, and xx, progressively (Table
+\ref{tab:retro}). The initial population size and estimation of trends
+in spawning biomass in the retrospective runs were lower than the base
+model (Figure \ref{fig:retro_spawnb}). All retrospective runs converged
+to the same low point in the 1990s and the diverged for the remainder of
+the time series.
+
+The recruitment deviations in the more recent years shrink towards zero
+the more years are removed from the model (Figure
+\ref{fig:retro_recdev}).
+
 \subsubsection{Likelihood Profiles}\label{likelihood-profiles}
+
+Likelihood profiles were conducted for \(R_0\), steepness, and over
+natural mortality values separately. These likelihood profiles were
+conducted by fixing the parameter at specific values and estimated the
+remaining parameters based on the fixed parameter value.
 
 \subsubsection{Reference Points}\label{reference-points-1}
 
@@ -4047,32 +4077,28 @@ Fleet & Years & Name & Fishery ind. & Filtering & Method & Endorsed \\
                                              removes four years.} 
 \label{tab:retro}
 \scalebox{0.9}{
-\begin{tabular}{llllll}
+\begin{tabular}{lrrrrr}
   \hline
 Label & Base & Retro1 & Retro2 & Retro3 & Retro4 \\ 
   \hline
-Female natural mortality &  &  &  &  &  \\ 
-  Steepness &  &  &  &  &  \\ 
-  lnR0 &  &  &  &  &  \\ 
-  Total Biomass (mt) &  &  &  &  &  \\ 
-  Depletion &  &  &  &  &  \\ 
-  SPR ratio &  &  &  &  &  \\ 
-  Female Lmin &  &  &  &  &  \\ 
-  Female Lmax &  &  &  &  &  \\ 
-  Female K &  &  &  &  &  \\ 
-  Male Lmin (offset) &  &  &  &  &  \\ 
-  Male Lmax (offset) &  &  &  &  &  \\ 
-  Male K (offset) &  &  &  &  &  \\ 
+Female natural mortality & 0.22 & 0.21 & 0.21 & 0.21 & 0.20 \\ 
+  Steepness & 0.72 & 0.72 & 0.72 & 0.72 & 0.72 \\ 
+  lnR0 & 8.69 & 8.55 & 8.47 & 8.35 & 8.00 \\ 
+  Total Biomass (mt) & 2303.87 & 2191.89 & 2053.59 & 1809.09 & 1507.21 \\ 
+  Depletion & 0.47 & 0.40 & 0.38 & 0.34 & 0.24 \\ 
+  SPR ratio & 1.00 & 1.00 & 0.99 & 0.98 & 0.91 \\ 
+  Female Lmin & 9.67 & 9.72 & 10.19 & 10.68 & 10.96 \\ 
+  Female Lmax & 28.35 & 28.04 & 27.87 & 27.64 & 27.35 \\ 
+  Female K & 0.12 & 0.13 & 0.13 & 0.12 & 0.13 \\ 
   Negative log-likelihood &  &  &  &  &  \\ 
-  No. parameters &  &  &  &  &  \\ 
-  TOTAL &  &  &  &  &  \\ 
-  Equililibrium catch &  &  &  &  &  \\ 
-  Survey &  &  &  &  &  \\ 
-  Length composition &  &  &  &  &  \\ 
-  Age composition &  &  &  &  &  \\ 
-  Recruitment &  &  &  &  &  \\ 
-  Forecast Recruitment &  &  &  &  &  \\ 
-  Parameter priors &  &  &  &  &  \\ 
+  TOTAL & 557.52 & 512.02 & 495.38 & 478.75 & 462.70 \\ 
+  Equililibrium catch & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ 
+  Survey & -33.05 & -31.54 & -30.76 & -30.45 & -33.29 \\ 
+  Length composition & 372.66 & 359.78 & 346.36 & 334.97 & 324.08 \\ 
+  Age composition & 231.94 & 197.60 & 193.75 & 189.87 & 188.74 \\ 
+  Recruitment & -14.09 & -13.96 & -14.16 & -15.86 & -16.83 \\ 
+  Forecast Recruitment & 0.06 & 0.03 & 0.03 & 0.03 & 0.00 \\ 
+  Parameter priors & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ 
    \hline
 \end{tabular}
 }
@@ -4751,6 +4777,22 @@ sample sizes based on suggested multiplier (with 95\% interval) is
 \FloatBarrier
 
 \FloatBarrier
+
+\begin{figure}
+\centering
+\includegraphics{Figures/retro_spawnb.png}
+\caption{Retrospective pattern for spawning output.
+\label{fig:retro_spawnb}}
+\end{figure}
+
+\FloatBarrier
+
+\begin{figure}
+\centering
+\includegraphics{Figures/retro_recdev.png}
+\caption{Retrospective pattern for estimated recruitment deviations.
+\label{fig:retro_recdev}}
+\end{figure}
 
 \FloatBarrier
 <!-- ***********h Likelihood profile FIGURES******************************* -->

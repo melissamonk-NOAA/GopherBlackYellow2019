@@ -563,8 +563,8 @@ composition, and conditional age-at-length observations are all discussed below.
 The full r4ss plotting output is available in the supplementary material.
 
 The fits to the five fishery-dependent and two fishery-independent survey indices 
-are shown in Figures \ref{fig:index1_logcpuefit_RecDocksideNorth} - 
-\ref{fig:index1_logcpuefit_CCFRP}. The majority of the indices represent the area 
+are shown in Figures \ref{fig:index5_logcpuefit_RecDocksideNorth} - 
+\ref{fig:index5_logcpuefit_CCFRP}. The majority of the indices represent the area 
 north of Point Conception only and not all of these were fit well by the 
 assessment model. The MRFSS recreational dockside survey index north of Point 
 Conception spanning the 1980s-1990s was fit well by the model without added variance, 
@@ -602,13 +602,19 @@ length composition all fit well. The fit to the the commercial discard length co
 was underestimated at the peak, but otherwise captures the observations well.  The same is 
 true for one of the peaks at 25 cm for the PISCO data, that were the noisest of all the length 
 composition data.  There are a handful of years within some of the annual length composition 
-data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually 
-due to high frequencies of fish in a small number of length bins.
+data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually due to high frequencies of fish in a small number of length bins.
 
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}
-\ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}
+The age data were also weighted according to Francis weighting which adjust the weight 
+given to a data set based on the fit to the mean age by year. The mean age of fish in the 
+commercial fleet was not fit well for 2018, which was lower than the mean and the year 
+with the smallest variability in ages 
+(Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}). The mean age of the 
+recreational fleet declined from 1980 to 1986, and the mean for 2017 was the highest of 
+all years (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}). The 
+conditional age data from the CCFRP data was not well fit for the earliest years in the 
+data, but was reasonably well fith for the last four years of data (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}).  The conditional length 
+composition data from the 'dummy' fleet was well fit, although heavily downweighted.  Age 
+data in this fleet are from a number of sources and sampling programs (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}).
 
 ###Uncertainty and Sensitivity Analyses
 A number of sensitivity analyses were conducted, including:
@@ -633,11 +639,21 @@ A number of sensitivity analyses were conducted, including:
 
 
 ###Retrospective Analysis
+A 4-year retrospective analysis was conducted by running the model using data 
+only through xx, xx, xx, and xx, progressively (Table \ref{tab:retro}). 
+The initial population size and estimation of trends in spawning biomass in the 
+retrospective runs were lower than the base model (Figure \ref{fig:retro_spawnb}). 
+All retrospective runs converged to the same low point in the 1990s and the diverged 
+for the remainder of the time series.
 
-
+The recruitment deviations in the more recent years shrink towards zero the more years 
+are removed from the model (Figure \ref{fig:retro_recdev}).
 
 ###Likelihood Profiles
-
+Likelihood profiles were conducted for $R_0$, steepness, and over natural mortality 
+values separately. These likelihood profiles were conducted by fixing the parameter 
+at specific values and estimated the remaining parameters based on the fixed parameter 
+value.
 
 
 ###Reference Points

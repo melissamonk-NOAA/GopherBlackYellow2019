@@ -53,15 +53,15 @@
 \contentsline {subsubsection}{\numberline {2.6.2}Fits to the Data}{38}{subsubsection.2.6.2}% 
 \contentsline {subsubsection}{\numberline {2.6.3}Uncertainty and Sensitivity Analyses}{39}{subsubsection.2.6.3}% 
 \contentsline {subsubsection}{\numberline {2.6.4}Retrospective Analysis}{39}{subsubsection.2.6.4}% 
-\contentsline {subsubsection}{\numberline {2.6.5}Likelihood Profiles}{39}{subsubsection.2.6.5}% 
-\contentsline {subsubsection}{\numberline {2.6.6}Reference Points}{39}{subsubsection.2.6.6}% 
+\contentsline {subsubsection}{\numberline {2.6.5}Likelihood Profiles}{40}{subsubsection.2.6.5}% 
+\contentsline {subsubsection}{\numberline {2.6.6}Reference Points}{40}{subsubsection.2.6.6}% 
 \contentsline {section}{\numberline {3}Harvest Projections and Decision Tables}{40}{section.3}% 
 \contentsline {section}{\numberline {4}Regional Management Considerations}{40}{section.4}% 
-\contentsline {section}{\numberline {5}Research Needs}{40}{section.5}% 
+\contentsline {section}{\numberline {5}Research Needs}{41}{section.5}% 
 \contentsline {section}{\numberline {6}Acknowledgments}{41}{section.6}% 
 \contentsline {section}{\numberline {7}Tables}{42}{section.7}% 
 \contentsline {section}{\numberline {8}Figures}{73}{section.8}% 
-\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.120}% 
-\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.124}% 
-\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.129}% 
-\contentsline {section}{References}{}{section*.137}% 
+\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.122}% 
+\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.126}% 
+\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.131}% 
+\contentsline {section}{References}{}{section*.139}% 
