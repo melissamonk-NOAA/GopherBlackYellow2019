@@ -1,10 +1,10 @@
 Likelihood Component,Value
-TOTAL,516.161
-Catch,2.51E-07
-Survey,-32.202
-Length composition,372.526
-Age composition,189.302
-Recruitment,-13.5076
-Forecast recruitment,2.43E-11
-Parameter priors,0.0373487
-Parmeter soft bounds,4.91E-03
+TOTAL,516.362
+Catch,2.18E-07
+Survey,-32.1749
+Length composition,372.458
+Age composition,189.563
+Recruitment,-13.514
+Forecast recruitment,6.73E-13
+Parameter priors,0.0244274
+Parmeter soft bounds,0.00528952

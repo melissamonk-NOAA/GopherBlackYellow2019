@@ -215,31 +215,48 @@ print(lengths.table, add.to.row = a_header,
 
 <!--Index summary tables-->
 
-```{r, results="asis"}
-#read in index summary data
-Index_summary = read.csv('./txt_files/Index_summary.csv')
 
 
-Index_summary.table = xtable(Index_summary,
-                            caption = c("Summary of indices used in this                                                   assessment."),
-                            label='tab:Index_summary')
-      
 
-align(Index_summary.table) = c('l', 'r',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{2in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1in}',
-                               '>{\\centering}p{1.5in}')
 
-print(Index_summary.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              floating.environment = 'sidewaystable', 
-              sanitize.text.function = function(x){x}) 
-     
+
+<!-- ***********Indices of abundance summary table************************* -->
+\begin{landscape}
+```{r, results = 'asis'}
+    Index_summary = read.csv('./txt_files/Index_summary.csv')
+      colnames(Index_summary) = c('Fleet',
+                                  'Years',	
+                                  'Name',
+                                  'Fishery ind.',
+                                  'Filtering',
+                                  'Method',	
+                                  'Endorsed')
+
+   # Index of abundance summary, create table   
+     Index_summary.table = xtable(Index_summary, 
+                                  caption = c('Summary of the biomass/abundance
+                                              time series used in the stock
+                                              assessment.'),
+                                 label = 'tab:Index_summary',
+                                 digits = 0)    
+    # Add alignment  
+      align(Index_summary.table) = c('l',
+                                    '>{\\raggedright}p{.2in}',
+                                     '>{\\raggedright}p{1in}',
+                                     '>{\\raggedright}p{2in}',
+                                     '>{\\raggedright}p{1.3in}', 
+                                     '>{\\raggedright}p{1in}',
+                                     '>{\\raggedright}p{1in}',
+                                     '>{\\raggedright}p{1in}')  
+    
+    # Print index summary table
+      print(Index_summary.table, 
+            include.rownames=FALSE, 
+            caption.placement='top',
+            sanitize.text.function = function(x){x})
 ```
+\end{landscape}
+<!-- ---------------------------------------------------------------------- -->
 
 
 
@@ -313,6 +330,9 @@ print(Fleet5_Filter.table,
               caption.placement="top")
 
 
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
 print(Fleet5_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
@@ -344,9 +364,20 @@ Fleet6_7_Filter.table = xtable(Fleet6_7_Filter,
                                         index of abundance for north and south of Pt. Conception."),
                        label = 'tab:Fleet6_7_Filter')
 align(Fleet6_7_Filter.table) = c('l','l','c','c')
+
+
+
 print(Fleet6_7_Filter.table, 
               include.rownames=FALSE, 
               caption.placement="top")
+
+```
+
+\clearpage
+\newpage
+
+
+```{r, results="asis"}
 
 
 Fleet6_AIC.table = xtable(Fleet6_AIC,
@@ -354,6 +385,7 @@ Fleet6_AIC.table = xtable(Fleet6_AIC,
                                         index of abundance for north of Pt. Conception. Bold 
                                         values indicate the model selected."),
                             label='tab:Fleet6_AIC')
+
 
 print(Fleet6_AIC.table, 
               include.rownames=FALSE, 
@@ -367,6 +399,10 @@ Fleet7_AIC.table = xtable(Fleet7_AIC,
                                         values indicate the model selected."),
                             label='tab:Fleet7_AIC')
 
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+
 print(Fleet7_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
@@ -374,13 +410,15 @@ print(Fleet7_AIC.table,
      
 ```
 
-
+\newpage
 
 \FloatBarrier
 
 <!-- ********************************************************************** -->
 <!-- *****Fleets 8 index TABLES******* -->
 <!-- ********************************************************************** -->
+
+\vspace{3cm}
 
 ```{r, results="asis"}
 #read in index summary data for PISCO
@@ -411,6 +449,9 @@ Fleet8_AIC.table = xtable(Fleet8_AIC,
                             caption = c("Model selection for the PISCO dive survey data."),
                             label='tab:Fleet8_AIC')
 
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
 print(Fleet8_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
@@ -419,7 +460,8 @@ print(Fleet8_AIC.table,
 
 ```
 
-\FloatBarrier
+\clearpage
+\newpage
 
 <!-- ********************************************************************** -->
 <!-- *****Fleet 9 index TABLES******* -->
@@ -455,6 +497,9 @@ print(Fleet9_Filter.table,
 Fleet9_AIC.table = xtable(Fleet9_AIC,
                             caption = c("Model selection for the fishery-independent CCFRP hook-and-line survey."),
                             label='tab:Fleet9_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
 
 print(Fleet9_AIC.table, 
               include.rownames=FALSE, 
@@ -493,7 +538,7 @@ Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
                                format.args = list(big.mark = ",",))
 
 align(Fleet10_11_Filter.table) =  c('l',
-                                   '>{\\centering}p{4in}',
+                                   '>{\\raggedright}p{4in}',
                                   'c','c')  
 
 print(Fleet10_11_Filter.table, 
@@ -507,6 +552,9 @@ Fleet10_AIC.table = xtable(Fleet10_AIC,
                                         values indicate the model selected."),
                             label='tab:Fleet10_AIC')
 
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
 print(Fleet10_AIC.table, 
               include.rownames=FALSE, 
               caption.placement="top",
@@ -518,6 +566,9 @@ Fleet11_AIC.table = xtable(Fleet11_AIC,
                                         survey south of Pt. Conception. Bold 
                                         values indicate the model selected."),
                             label='tab:Fleet11_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
 
 print(Fleet11_AIC.table, 
               include.rownames=FALSE, 
@@ -583,7 +634,8 @@ Age_data = read.csv('./txt_files/Age_data.csv')
 colnames(Age_data)[6] = 'Black-and-yellow'
 
 Age_data.table = xtable(Age_data,
-                        caption = c('Summary of age data used in the assessment.'),
+                        caption = c('Summary of available age data.  All ages except the commercial ages 
+                                    were used in the assessment.'),
                         label = 'tab:Age_data')
 
 

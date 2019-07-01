@@ -4,17 +4,18 @@
 ##Previous Assessments
 
 ###History of Modeling Approaches Used for this Stock
-This is the first full assessment for black-and-yellow rockfish. Black-and-yellow 
-rockfish was assessed coastwide as a data poor species using Depletion-Based 
-Stock Reduction Analysis (DB-SRA) [@Dick2010]. The DB-SRA model assigned a 
-40% probability that the then recent (2008-2009) catch exceeded the 2010 OFL.
+This is the first full assessment to include data for black-and-yellow rockfish. 
+Black-and-yellow rockfish was assessed coastwide as a data poor species using 
+Depletion-Based Stock Reduction Analysis (DB-SRA) [@Dick2010]. The DB-SRA 
+model assigned a 40% probability that the then recent (2008-2009) catch 
+exceeded the 2010 OFL.
 
 Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
 [@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
 constraints. The mean yield from the DCAC distribution was 25.5 mt.
 
 Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
-was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (verion 1.19). 
+was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
 The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
 to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
 table was based around the emphasis given to the index, with a value of 5 given a 40% 
@@ -51,6 +52,15 @@ base model to the final post-STAR base model are documented in the "Responses
 to the Current STAR Panel Requests" section.  None of the data changed during 
 the STAR panel, and the figures and tables reflect the post-STAR final base model.
 
+While investigating convergence issues in the cowcod assessment, Richard Methot 
+(NMFS) identified an issue with the performance of the 'sfabs' function in ADMB. 
+This led to poor convergence during the iterative search for Fspr under certain 
+conditions. Dr. Methot resolved the issue, and provided a new 'safe' version of 
+SS (V3.30.13.09) to the cowcod and GBYR STATs on June 28, followed by an optimized 
+executable on June 30. Apart from the iterative Fspr search mentioned above, 
+other model outputs and analyses were unaffected by the change. All of the base model 
+results were run in this newest version of SS
+
 ###Transition to the Current Stock Assessment
 The first formal stock assessment for gopher rockfish was conducted in 2005 [@Key2005]. 
 There are two major differences between the 2005 assessment this assessment, 1) 
@@ -64,7 +74,7 @@ and explain rationale for each change.  Some of these items are changes due to s
 changes with Stock Synthesis, and some denote parameters chosen for options that were not
 available in SS2 (version 1.19).
 
-Changes in the bridge model from SS2 version 1.9 to SS3.24z and SS3.30.13.08 include:
+Changes in the bridge model from SS2 version 1.9 to SS3.24z and SS3.30.13.09 include:
 
 
 The way growth is modeled for age-0 fish has changed.  More recent versions of Stock Synthesis 
@@ -84,12 +94,12 @@ fleet was made by examining the length distributions across species, fishing gea
 and space, i.e., north and south of Point Conception 
 (Figure \ref{fig:Comm_lengths_justification}). There is very little difference between 
 the length composition of gopher and black-and-yellow rockfish landed in the commercial 
-fleet north of Point Conception which contributed 97% of the commercial landings 
+fleet north of Point Conception, which contributed 97% of the commercial landings 
 from 1978-2018.  The length distributions suggest that gopher rockfish south of 
-Point Conception landed dead south of Point Conception dead are slightly smaller 
+Point Conception landed dead south of Point Conception are slightly smaller 
 on average than north of Point Conception.  However, there is not enough data 
 available to justify splitting the commercial fishery north and south of Point 
-Conception.  The length compositions of discarded fish are small in all for of 
+Conception.  The length compositions of discarded fish are small in all of 
 the subplots, suggesting size-based discarding.  Because Stock Synthesis is
 not set up to handle depth-dependent discard mortality rates and we're modelling 
 two species as a complex with differing depth-dependent discard mortality rates,
@@ -227,7 +237,7 @@ variances (10-20%) from their respective indices.  Extra variance was estimated
 for these indices in the base model.
 
 The following likelihood components are included in this model: catch, indices, discards, 
-length compositions, age compositions, recruitments, parameter priors, and parameter soft 
+length compositions, age compositions, recruitment, parameter priors, and parameter soft 
 bounds. See the SS technical documentation for details [@Methot2019].
 
 Electronic SS model files including the data, control, starter, and forecast files can be 
@@ -237,7 +247,8 @@ found on the
 
 
 ###Modeling Software
-The STAT team used Stock Synthesis 3 version 3.30.13.08 by Dr. Richard Methot at 
+The STAT team used Stock Synthesis 3 version 3.30.13.09 (published on 6/28/2019) 
+by Dr. Richard Methot at 
 the NWFSC. This most recent version was used, since it included 
 improvements and corrections to older versions.  The r4SS package 
 (GitHub release number v1.35.1) was used to post-process output data from Stock
@@ -256,9 +267,9 @@ were not re-tuned if the bootstrap uncertainty value around the tuning factor ov
 As outlined in the Best Practices, a sensitivity run was conducted with length and 
 conditional-age-at-length (CAAL) compositions were re-weighted using the 
 Ianelli-McAllister harmonic mean method [@McAllister1997]. Additionally, weighting 
-using the Dirichelet-Multinomial likelihood, that includes and estimable parameter (theta) 
+using the Dirichlet-Multinomial likelihood, that includes and estimable parameter (theta) 
 that scales the input sample size, was explored. However, the model did not converge when 
-the Dirichelet-Multinomial likelihood was applied to a number of of the fleets with composition 
+the Dirichlet-Multinomial likelihood was applied to a number of of the fleets with composition 
 data. Given this, and the current challenges with this method described in the Stock Synthesis 
 manual [@Methot2019], the Francis weightings were applied in the base model.
 
@@ -284,8 +295,9 @@ A full list of all estimated and fixed parameters is provided in Tables
 \ref{tab:model_params}. Time-invariant, growth is estimated in 
 this assessment, with all SS growth parameters being estimated. The log of the 
 unexploited recruitment level for the Beverton-Holt stock-recruit function is 
-treated as an estimated parameter. Annual recruitment deviations are estimated 
-beginning in 1978.  The survey catchability parameters are calculated analytically (set as 
+treated as an estimated parameter. The early annual recruitment deviations begin in 1960, 
+with the main recruitment deviations estimated from 1972-2018. The survey catchability 
+parameters are calculated analytically (set as 
 scaling factors) such that the estimate is median unbiased, which is comparable to 
 the way q is treated in most groundfish assessments.   
 
@@ -307,8 +319,8 @@ _Growth._Five growth parameters were estimated for the one-sex model: three von
 Bertalanffy parameters and two parameters for CV as a function of length-at-age 
 related to variability in length-at-age for small and large fish.
 
-_Natural Mortality._ The estimated natural mortality of 0.217647 is close to the 
-mean of the prior, 0.1928571.
+_Natural Mortality._ The estimated natural mortality of 0.212 is close to the 
+mean of the prior, 0.193.
 
 _Selectivity._  Selectivity for all fleets was estimated as double-normal. 
 
@@ -321,11 +333,12 @@ width, and the selectivity at the first bin.
 Dome-shaped selectivity was estimated for the commercial discard fleet and the CCFRP 
 survey.  Five of the size parameters were estimated for the commercial discard 
 selectivity (selectivity at the last bin was fixed).  Four parameters were estimated 
-for the CCFRP length compositions (selectivity at the first and last bins was fixed)
+for the CCFRP length compositions (selectivity at the first and last bins was fixed).
 
 
-_Other Estimated Parameters._ Recruitment deviations for the base model are estimated 
-from 1978 to 2018.  The base model also included estimated recruitment deviations for 
+_Other Estimated Parameters._ Early recruitment deviations for the base model are estimated 
+from 1960-1972, with the main recruitment deviations estimated from 1978 to 2018.  The base 
+model also included estimated recruitment deviations for 
 the forecast years, although these have no impact on the model estimates for the current year.
 
 Many variations of the base case model were explored during this analysis. Sensitivities 
@@ -349,9 +362,6 @@ Several models were also investigated where steepness and natural mortality were
 either estimated, fixed at their respective priors.   
 
 
-Xi, Anything else to add to this section??
-
-
 _Other Fixed Parameters._ The stock-recruitment steepness is fixed at the SSC approved 
 steepness prior for rockfish of 0.72.  
 
@@ -360,7 +370,7 @@ steepness prior for rockfish of 0.72.
 ###Key Assumptions and Structural Choices
 Key assumptions in the model are that it is appropriate to model gopher and black-and-yellow 
 rockfish as a complex.  The catch histories are inseparable at this time, especially for 
-the commercial landings. The biological information available also precluded complete analyses 
+the early commercial landings. The biological information available also precluded complete analyses 
 of difference in in growth, i.e., the majority of black-and-yellow rockfish aged were small 
 fish and small fish were lacking for gopher rockfish.  Data from both species were used to 
 provide a complete picture of the growth curve.
@@ -386,7 +396,7 @@ were first available, and to a constant rate of 17% of the commercial landings, 
 discard rate observed in the WCGOP data.  Neither of these sensitivities resulted in any 
 significant change to the model outputs.
 
-Sensitivities of the model to the spawning and settlement months were also explored.
+Sensitivity of the model to the spawning and settlement months were also explored.
 The base model originally set settlement month to January. Both gopher and 
 black-and-yellow rockfish settle at a small size (~2 cm) and over a course of several 
 months. After exploring the young-of-the-year length data made available by 
@@ -406,15 +416,13 @@ discard fleet and the CCFRP survey.  Neither of the length compositions for thes
 observed larger fish.  A time block for the commercial discard fishery was not considered 
 since no length composition of discarded fish were available prior to 2004.
 
-Xi, any others to add here?
-
 
 ###Convergence
 Model convergence was determined by starting the minimization process from dispersed 
 values of the maximum likelihood estimates to determine if the model found a better 
 minimum. Jitter is a SS option that generates random starting values from a normal 
 distribution logistically transformed into each parameter’s range [@Methot2019]. This 
-was repeated 240 times and the minimum was reached in xx% of the runs  (Table \ref{tab:jitter}).
+was repeated 240 times and the minimum was reached in 97% of the runs  (Table \ref{tab:jitter}).
 The model did not experience convergence issues, e.g., final gradient was below 0.0001,
 when reasonable starting values were used and there were no difficulties in inverting 
 the Hessian to obtain estimates of variability.  We did sensitivity runs for 
@@ -491,9 +499,8 @@ parameterization with the age for L1 set at 2 and L2 at 23, the external estimat
 at Amin and Amax were 13.80 and 28.22, respectively.  The internal estimates of the lengths 
 for Amin and Amax were 9.72 and 28.36, respectively. Natural mortality was estimated 
 in the base model and natural mortality and the growth parameter k are negatively 
-correlated, and the model sensitivity to growth and natural mortality are explored in
+correlated. The model sensitivity to growth and natural mortality are explored in
 the sensitivities.  
-
 
 The additional survey variability (process error added directly to each year's input 
 variability) for all surveys was estimated within the model.  
@@ -520,8 +527,8 @@ The two fishery-independent surveys sample different habitats and depth ranges.
 The PISCO study only samples in 0-20 m depth and observers small young-of-the-year 
 fish and adults, but not the 10-17 cm size range.  The asymptotic selectivity for 
 the PISCO survey does not go to zero on the ascending side since the young-of-the-year 
-fish are observed.  The CCFRP survey does not see the largest size classes, possibly 
-due to the shallower maximum depth fished to reduce barotrauma.  Dome shaped 
+fish are observed.  The CCFRP survey does not see the larger size classes, possibly 
+due to the maximum survey depth fished to reduce barotrauma.  Dome shaped 
 selectivity was estimated for this survey. 
 
 The additional survey variability (process error added directly to each year's input 
@@ -529,7 +536,6 @@ variability) for all surveys was estimated within the model. The model estimated
 small added variance for MRFSS dockside recreational index north of Point Conception 
 that was then turned off for the final base model.  The added variance for Deb's onboard 
 observer survey was estimated at 
-Deb's onboard observer survey
 `r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(5)", 3], 6)` 
 but the model presented stability issues during jittering when the variability 
 was turned off.  Therefore, it was turned on for the final base model, and 
@@ -553,9 +559,8 @@ in this assessment.
 
 The stock-recruit curve resulting from a fixed value of steepness is shown in Figure 
 \ref{fig:SR_curve2} with estimated recruitments also shown. The stock is predicted to 
-have never fallen to low enough levels that the steepness is obvious. Steepness was 
-not estimated in this model, but sensitivities to estimating steepness when growth was 
-fixed to an external estimate is discussed below.
+have never fallen to low enough levels that to estimate steepness. Steepness was 
+not estimated in this model, and profiles over steepness values are discussed below.
 
 ###Fits to the Data
 Model fits to the indices of abundance, fishery length composition, survey length 
@@ -602,7 +607,8 @@ length composition all fit well. The fit to the the commercial discard length co
 was underestimated at the peak, but otherwise captures the observations well.  The same is 
 true for one of the peaks at 25 cm for the PISCO data, that were the nosiest of all the length 
 composition data.  There are a handful of years within some of the annual length composition 
-data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually due to high frequencies of fish in a small number of length bins.
+data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually 
+due to high frequencies of fish in a small number of length bins.
 
 The age data were also weighted according to Francis weighting which adjust the weight 
 given to a data set based on the fit to the mean age by year. The mean age of the 
@@ -618,19 +624,56 @@ A number of sensitivity analyses were conducted, including:
 
 \begin{enumerate}
 
-  \item Sensitivity 1
+  \item Fixing natural mortality at the prior of 0.193
   
-  \item Sensitivity 2
+  \item Fixing the von Bertalanffy $k$ at the external estimate of 0.247
   
-  \item Sensitivity 3
+  \item Using the PacFIN expanded length composition data
   
-  \item Sensitivity 4
-  
-  \item Sensitivity 5, etc/
-  
-  
+  \item Data weighting scenarios including unweighted, harmonic means (McAllister-Ianelli method), and Francis weights
+
 \end{enumerate}
 
+The following sensitivities are based on the pre-STAR base model and indicate areas that
+the STAT identified as either areas of uncertainty or model sensitivities outlined in the 
+Accepted Practices and Guidelines document.  A summary of parameters for all sensitivity 
+runs is in Table \ref{tab:Sensitivity_model1}.
+
+Fixing either natural mortality or the von Bertalanffy $k$ parameter results in a stock 
+with higher spawning output in 2018 as compared to the base model 
+(Figure \ref{fig:sensitivity1_spawnbio}).
+
+Fixing either M or k demonstrates the negative correlation between the two parameters. 
+The von Bertalanffy $k$ parameter is estimated at 0.12 when natural mortality (estimated 
+at 0.21) and growth are both estimated.  When natural mortality is fixed at the prior of 
+0.19, $k$ is estimated at 0.14, but the two other growth parameters, L1 and L2 do not change 
+much at all.  When $k$ is fixed to the external estimate of 0.247, natural mortality is 
+estimated at 0.16, and the other growth parameters both decrease.  
+
+Replacing the CALCOM commercial length composition data with the PacFIN length composition 
+results in the stock at an overall lower level of biomass than the base model. Depletion in 
+the final year with the PacFIN length composition is 0.50, compared to 0.46 in the base model. 
+A detailed discussion on the decision to use the CALCOM length composition in the base model 
+can be found in the discussion commercial length and age data, 
+Section (\ref{commercial-fishery-length-and-age-data}).
+
+Data weighting is an area of uncertainty for stock assessment and research is 
+ongoing to determine the effects of data weighting and the most appropriate initial 
+sample sizes for length and age composition data.  The base model used the Stewart 
+sample sizes for initial sample sizes for the fishery data and either the Stewart 
+sample sizes or number of "trips" for the survey sample sizes. Weighting the data 
+by the harmonic mean resulted in a model with a total likelihood between the base 
+model, which uses the Francis method for weighting, and the model with default 
+weights (Figure \ref{fig:sensitivity2_spawnbio}). The end year spawning output is 
+almost identical for the models using harmonic means and Francic weights, both 
+of which down-weighted the composition data.
+
+The Francis weights in the base model were stable, and did not tend to serially 
+decrease (down-weight) any of the data sets, which has been seen in other assessments. 
+The final base model re-weights the composition data only once. As discussed above 
+in the data weighting section, the Dirichlet-Multinomial weighting was explored, but 
+a model with a positive definite Hessian was not identified with the pre-STAR 
+base model.
 
 ###Retrospective Analysis
 A 4-year retrospective analysis was conducted by running the model using data 
@@ -648,7 +691,35 @@ are removed from the model (Figure \ref{fig:retro_recdev}).
 Likelihood profiles were conducted for $R_0$, steepness, and over natural mortality 
 values separately. These likelihood profiles were conducted by fixing the parameter 
 at specific values and estimated the remaining parameters based on the fixed parameter 
-value.
+value (Tables \ref{tab:like_profiles}-\ref{tab:like_profiles2}).
+
+In regards to values of $R_0$, the negative log-likelihood was minimized at approximately 
+log($R_0$) of 8.5 (Table \ref{tab:like_profiles}). The individual fleets tend to minimize 
+at the lower bound, e.g., CCFRP and commercial fleets, or the upper bound, e.g., PISCO and 
+the recreational north fleets (Figure \ref{fig:profile_R0_piner}). The data all consistently 
+minimize around 8.5 with a smal change in likelihood at larger values of $R_0$ 
+(Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged 
+from 0.22-0.05 (Figure \ref{fig:profile_R0_depl}).
+
+For steepness, the negative log-likelihood reaches a minimum around a steepness 
+of 0.90 for the prior and the total likelihood (Figure \ref{fig:profile_h_like} and 
+Table \ref{tab:like_profiles}). The other likelihood components continue to decline as 
+alternative values of steepness (Figure \ref{fig:profile_m_depl}).
+
+Likelihood components by data source show that the commercial discard lengths,
+recreational south lengths, Deb's onboard observer fleets support a steepness 
+value at the lower bound of the values explored, and the other data sources higher 
+value for steepness (Figure \ref{fig:profile_h_like}).  The relative depletion 
+for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness 
+(Table \ref{tab:like_profiles}).
+
+The negative log-likelihood was minimized at a natural mortality value of 0.22, slightly 
+higher than the prior of 0.19 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
+The age, length, index, and prior likelihood contributions were 
+minimized at natural mortality values around 0.22, and the recruitment contribution
+was minimized as the second to largest value of $M$ run, 026. (Table \ref{tab:like_profiles}). 
+The relative depletion for GBYR ranged from 0.32-0.59 across alternative values of natural mortality 
+(Figure \ref{fig:profile_m_depl}).
 
 ###Reference Points
 Reference points were calculated using the estimated selectivities and catch distribution 

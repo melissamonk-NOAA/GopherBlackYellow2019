@@ -48,19 +48,40 @@ for the recreational onboard observer survey north of Point Conception
 `r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(4)", 3], 3)` 
 
 
-```{r, results = 'asis'}
-       Like_comp = read.csv('./txt_files/Likelihood_components.csv')
-       colnames(Like_comp) = c('Likelihood component',
-                               'Value')
-       mdat = matrix(c(rep(0,9),rep(0,9), 3,-3,3,3,3,3,-3,-3,-3),
-                     nrow = 9, ncol=3, byrow=FALSE)
-       
-       Like_comp.table = xtable(Like_comp,
-                                caption = c('Likelihood components from the base model.'),
-                                label = 'tab:like_components', digits = mdat)
-       
-    # Print likelihood component table
-      print(Like_comp.table, 
-            include.rownames=FALSE, 
-            caption.placement='top')
-```   
+
+```{r, results="asis"}
+#read in index summary data for Fleet 5 - Deb's onboard
+Fleet5_Filter = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='Filter', header = T)
+Fleet5_AIC = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='AIC', header=T)
+
+colnames(Fleet5_Filter) = c('Filter','Drifts','Positive Drifts')
+
+Fleet5_Filter$Drifts = formatC(Fleet5_Filter$Drifts, digits = 0, format='f')
+Fleet5_Filter$`Positive Drifts` = formatC(Fleet5_Filter$`Positive Drifts`, digits = 0, format='f')
+
+Fleet5_Filter.table = xtable(Fleet5_Filter,
+                       caption = c("Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance"),
+                       label = 'tab:Fleet5_Filter')
+
+
+Fleet5_AIC.table = xtable(Fleet5_AIC,
+                            caption = c("Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
+                                        index of abundance. Bold values indicate the model selected."),
+                            label='tab:Fleet5_AIC')
+      
+
+
+print(Fleet5_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top")
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+print(Fleet5_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+     
+```

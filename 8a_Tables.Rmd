@@ -18,7 +18,7 @@
 
     # Create model 1 jitter table
     jitter.table = xtable(jitter, 
-                          caption = c('Results from 240 jitters from the base 
+                          caption = c('Results from 100 jitters from the base 
                                       case model.'),
                           label = 'tab:jitter')
     
@@ -31,7 +31,9 @@
 
 <!-- ***********MODEL 1 PARAMETERS***************************************** --> 
 <!-- ***********Estimated adn Fixed Parameters***************************** --> 
+
 \begin{landscape}
+
 ```{r, results='asis'}
        # If you use this for more than one model = change mod1 to mod2 or mod3
     mod_params = mod1$parameters[-c(grep('Recr',mod1$parameters$Label),
@@ -106,7 +108,9 @@
           floating = FALSE,
           add.to.row = addtorow)
 ```
+
 \end{landscape}
+
 <!-- ---------------------------------------------------------------------- -->
 
 \FloatBarrier
@@ -235,6 +239,7 @@
  Timeseries[nrow(Timeseries), c((ncol(Timeseries) - 2):ncol(Timeseries))] <- NA
 ```
 
+
 ```{r, results='asis'}
     # Create the time series table
     Timeseries1 = Timeseries
@@ -274,111 +279,62 @@
                                  \\endfoot
                                  \\endlastfoot",collapse=" ")))
 ```
-<!-- ---------------------------------------------------------------------- -->
+
 
 \FloatBarrier
 
 <!-- ***********MODEL 1 SENSITIVITY TABLE(S)******************************* --> 
+
 ```{r, results = 'asis'}
     
     # Read in/organize sensitivity file, change column names, caption
     Sens_model1 = read.csv('./txt_files/Sensitivities_model1.csv')
     colnames(Sens_model1) = c('Label', 
-                              'Base (Francis weights)',
-                              'Default weights',
-                              'Harmonic mean weights',
-                              'Estimate equal M',
-                              'Estimate equal M and h',
-                              'Drop PR data',
-                              'Drop PC data',
-                              'Drop RecDD data')
+                              'Base model (Francis weights)',
+                              'Fix M at prior',
+                              'Fix k at external est.',
+                              'PacFIN length comps',
+                              'Default weighting',
+                              'Harmonic mean weighting')
 
     # Create sensitivities table
     Sens_model1.table = xtable(Sens_model1, 
                                caption = c('Sensitivity of the base model 
-                                          to dropping or down-weighting data 
-                                          sources and alternative assumptions 
-                                          about growth.'),
+                                          to alternative assumptions 
+                                          about natural mortality, growth, 
+                                          and using PacFIN-derived length composition data.'),
                                label = 'tab:Sensitivity_model1', digits = 2)    
   
     # Add alignment - this uses centered aligment of .6 inches for all columns 2+,
     # You can change this easily to have variable columns width after you know how many
     # colunns your final table has
-    align(Sens_model1.table) = c('l','l', rep('>{\\centering}p{.8in}', dim(Sens_model1)[2]-1))
+    align(Sens_model1.table) = c('l','l', rep('>{\\centering}p{1in}', dim(Sens_model1)[2]-1))
 
 
     # Print model 1 sensitivity table
     print(Sens_model1.table, 
           include.rownames = FALSE,             
           caption.placement = 'top',
-          floating.environment = 'sidewaystable',
-          scalebox = .9)
+          floating.environment = 'sidewaystable')
 
 ```
 
-\FloatBarrier
 
-\newpage
-
-
-
-
-
-
-<!-- ***********Indices of abundance summary table************************* -->
-\begin{landscape}
-```{r, results = 'asis'}
-    Index_summary = read.csv('./txt_files/Index_summary.csv')
-      colnames(Index_summary) = c('Fleet',
-                                  'Years',	
-                                  'Name',
-                                  'Fishery ind.',
-                                  'Filtering',
-                                  'Method',	
-                                  'Endorsed')
-
-   # Index of abundance summary, create table   
-     Index_summary.table = xtable(Index_summary, 
-                                  caption = c('Summary of the biomass/abundance
-                                              time series used in the stock
-                                              assessment.'),
-                                 label = 'tab:Index_summary',
-                                 digits = 0)    
-    # Add alignment  
-      align(Index_summary.table) = c('l',
-                                    '>{\\centering}p{.2in}',
-                                     '>{\\centering}p{1in}',
-                                     '>{\\centering}p{2.2in}',
-                                     '>{\\centering}p{1.3in}', 
-                                     '>{\\centering}p{1.4in}',
-                                     '>{\\centering}p{1.2in}',
-                                     '>{\\centering}p{1in}')  
-    
-    # Print index summary table
-      print(Index_summary.table, 
-            include.rownames=FALSE, 
-            caption.placement='top',
-            sanitize.text.function = function(x){x})
-```
-\end{landscape}
-<!-- ---------------------------------------------------------------------- -->
 
 \newpage
 
 <!-- ***********Retrospective table*********************************** -->
+
 \begin{landscape}
+
 ```{r, results = 'asis'}
    Retro = read.csv('./txt_files/Retrospective.csv')
    
-# likelihood profiels, create table   
+# likelihood profiles, create table   
      Retro.table = xtable(Retro, caption = c('Summaries of key assessment outputs 
                                               and likelihood values from the retrospective 
-                                              analysis.  Note that male 
-                                              growth parameters are exponential 
-                                              offsets from female parameters, and 
-                                              depletion and SPR ratio are for the year of 2017. 
-                                              The base model includes all of the data.  Retro1 
-                                             removes the last year of data (2016), Retro2 removes the last 
+                                              analysis. The base model includes all of the data.  Retro1 
+                                             removes the last year of data (2018), Retro2 removes the last 
                                              two years of data, Retro3 removes three years and Retro4 
                                              removes four years.'),
                                  label = 'tab:retro')  
@@ -398,11 +354,15 @@
 
 
 ```
+
 \end{landscape}
 
 \newpage
+
 <!-- ***********Likelihood profile table*********************************** -->
+
 \begin{landscape}
+
 ```{r, results = 'asis'}
    Like_profile1 = read.csv('./txt_files/Profiles.csv')
 
@@ -416,10 +376,8 @@
                                   caption = c('Summaries of key assessment outputs 
                                               and likelihood values from selected 
                                               likelihood profile runs on virgin 
-                                              recruitment (lnR0) and steepness.  Note that male 
-                                              growth parameters are exponential 
-                                              offsets from female parameters, and 
-                                              depletion and SPR ratio are for the year of 2017.'),
+                                              recruitment (lnR0) and steepness.  
+                                              Depletion and SPR ratio are for the year 2019.'),
                                  label = 'tab:like_profiles')  
  
   # likelihood profiles 2, create table   
@@ -427,11 +385,9 @@
                                   caption = c('Summaries of key assessment outputs 
                                               and likelihood values from selected 
                                               likelihood profile runs on female 
-                                              natural mortality.  Note that male 
-                                              growth parameters are exponential 
-                                              offsets from female parameters, and 
-                                              depletion and SPR ratio are for the year of 2017.'),
-                                 label = 'tab:like_profiles')  
+                                              natural mortality.  Depletion and SPR ratio 
+                                              are for the year 2019.'),
+                                 label = 'tab:like_profiles2')  
      
      align(Like_profile.table) = c('cl|ccccc|ccccc')
 
@@ -451,6 +407,7 @@
       
 
 ```
+
 \end{landscape}
 
 <!-- ---------------------------------------------------------------------- -->
@@ -461,8 +418,10 @@
 
 
 
-<!-- ***********MODEL 1 HARVEST PROJECTIONS TABLE************************** --> 
+<!-- ***********MODEL 1 HARVEST PROJECTIONS TABLE************************** -->
+
 \newpage
+
 ```{r, results = 'asis'}
     # Pull OFL contribution and subset years
     OFLcatch = mod1$derived_quants[grep('OFLCatch', mod1$derived_quants$Label), ]
@@ -529,7 +488,9 @@
           include.rownames = FALSE,
           caption.placement = 'top')
 ```
+
 <!-- ---------------------------------------------------------------------- -->
+
 \FloatBarrier
 
 

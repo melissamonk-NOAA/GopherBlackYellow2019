@@ -2,7 +2,7 @@ Fleet,Years,Name,Type,Area,Method,Endorsed
 5,1988-1998,Deb Wilson-Vandenberg's Onboard Observer Survey,Fishery-dependent,Central California,Delta lognormal,SSC
 6,2001-2018,CRFS CPFV Onboard Observer Survey,Fishery-dependent,North of Pt. Conception,Delta lognormal,SSC
 7,2001-2018,CRFS CPFV Onboard Observer Survey,Fishery-dependent,South of Pt. Conception,Delta lognormal,SSC
-8,2001-2018,PISCO Dive Survey,Fishery-independent,North of Pt. Conception,Negative Binomial,First use in stock assessment
-9,2007-2018,CCFRP Hook-and-Line Survey,Fishery-independent,Central California,Negative Binomial,First use in stock assessment
+8,2001-2018,PISCO Dive Survey,Fishery-independent,North of Pt. Conception,Negative Binomial,First use in stock assmnt
+9,2007-2018,CCFRP Hook-and-Line Survey,Fishery-independent,Central California,Negative Binomial,First use in stock assmnt
 10,1984-1999,MRFSS Dockside Survey,Fishery-dependent,North of Pt. Conception,Negative Binomial,SSC
 11,1980-1999,MRFSS Dockside Survey,Fishery-dependent,South of Pt. Conception,Negative Binomial,SSC

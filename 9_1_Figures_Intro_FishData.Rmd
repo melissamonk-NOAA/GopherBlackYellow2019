@@ -86,6 +86,7 @@
 ![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Point Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet11_SM_filter}](Figures/Fleet11_SM_filter.png)
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- ***************Fleet 5 Deb WV index FIGURES*********************--> 
 <!-- ********************************************************************** -->

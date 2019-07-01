@@ -1,6 +1,12 @@
-Status,Model 1
-Returned to base case,-
-Found local minimum,-
-Found better solution,-
-Error in likelihood,-
-Total,240
+Label,Value
+MinLike,516.362
+MaxLike,796.044
+DiffLike,279.682
+MinMGC,7.22E-08
+MaxMGC,0.00237859
+DepletionAtMinLikePercent,46.1767
+DepletionAtMaxLikePercent,75.317
+DiffDepletionPercent,29.1403
+NJitter,100
+PropRunAtMinLike,0.97
+PropRunAtMaxLike,0.01

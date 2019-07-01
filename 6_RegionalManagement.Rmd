@@ -5,10 +5,12 @@ While the proportion of the stock residing within U.S. waters is unknown,
 the assessment provides an adequate geographic representation of the portion 
 assessed for management purposes.  There is little evidence that black-and-yellow 
 rockfish extend into Mexico, and the proportion of gopher rockfish residing 
-south of Pt. Conception is small. while there has been work on the genetic structure 
-of the two species, there has not been work done within species to inform whether 
-or not there is genetic spatial structure to the population. Given the relatively small area in the waters of California where these species occur, there is relatively little
-concern regarding exploitation in proportion to the regional distribution of abundance in the area assessed in this study.
+south of Pt. Conception is small. While there has been work on the genetic structure 
+betweenthe two species, there has not been work done within each species to inform spatial 
+structure of the populations. Given the relatively small 
+area in the waters of California where these species occur, there is relatively little
+concern regarding exploitation in proportion to the regional distribution of abundance 
+in the area assessed in this study.
 
 The state of California implements regional management for the recreational fleet in 
 the form of five regions.  Neither gopher nor black-and-yellow rockfish are a large 

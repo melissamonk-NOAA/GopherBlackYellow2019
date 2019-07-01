@@ -50,11 +50,9 @@ collected from 1983-1986 (Figure \ref{fig:Age_length_by_study}).
 
 Of the available ages, 94% were collected during fishery-independent surveys.  
 The remaining 6% were recreational dockside surveys and collected by Cal Poly 
-during their CPFV onboard observer survey (36 otoliths) in 2018. Black-and-yellows 
-represent 20% of the samples collected, and are mainly derived from 
-Jody Zaitlin's work in Monterey Bay. 
+during their CPFV onboard observer survey (36 otoliths) in 2018.
 
-All otoliths were read by Don Pearson (NMFS SWFSC, now retired) and ages ranged 
+All otoliths were read by Don Pearson (NMFS SWFSC, now retired) and estimated ages ranged 
 from 1-28. The aged black-and-yellow rockfish 
 ranged in length from 7-32 cm with a mean of 24 cm and gopher rockfish ranged in length 
 from 11-36 cm, with a mean of 26.  In terms of ages, the black-and-yellow rockfish ranged 
@@ -71,11 +69,11 @@ rockfishes (Figure \ref{Growth_by_species}) or between males and females
 \vspace{.5cm}
 **Aging Precision and Bias**
 
-Uncertainty in ageing error was estimated using a collection of 115 gopher and 
+Uncertainty in ageing error was estimated using a collection of 376 gopher and 
 black-and-yellow rockfish otoliths with two age reads (Figure \ref{fig:GBY_age_error}). 
 Age-composition data used in the model were from a number of sources described above.  All 
 otoliths were read by Don Pearson (NMFS SWFSC, no retired) who also conducted all
-blink double reads. 
+blind double reads. 
 
 Ageing error was estimated using publicly available software [@Thorson2012].
 The software setting for bias was set to unbiased since the same reader conducted 
@@ -99,7 +97,7 @@ The weight-length relationships was estimated from the three studies, Loury [-@L
 Meyers-Cherry [-@MeyersCherry2014] (both gopher rockfish only from CCFRP) and Zaitlin 
 [@Zaitlin1986] (black-and-yellow rockfish only).  Only one weight-length relationship 
 was estimated for the GBYR complex. The estimated parameters are $\alpha = 8.84e^{-006}$ 
-and$\beta = 3.25584$.  The estimated relationship is similar to that estimated by Lea 
+and $\beta = 3.25584$.  The estimated relationship is similar to that estimated by Lea 
 et al. [-@Lea1999] for gopher rockfish (Figure \ref{fig:GBY_weight_length}). The 
 weight-length relationship estimated here was used in the assessment model to 
 best represent the GBYR complex. 
@@ -112,8 +110,8 @@ The sex ratio for GBYR is assumed to be 50:50 as there is no evidence to suggest
 
 Zaitlin [-@Zaitlin1986] found that females reached 50% maturity at 17.5 cm or 4 years of 
 age in Central California and were 100% mature by age 6, with the same age of maturity 
-found in southern California though individuals were smaller at age; all ages from this 
-study were surface ages and have been re-read for this assessment. Echeverria 
+found in southern California though individuals were smaller at age. However, all ages from this 
+study were surface ages and were re-read for this assessment. Echeverria 
 [-@Echeverria1987] estimated maturity for 17 rockfish species in central California.
 She found the size at first maturity and the size at 50% maturity for male and female 
 gopher rockfish to be 17 cm total length, and 100% mature by 21 cm.  Black-and-yellow 
@@ -128,16 +126,18 @@ The maturity data from Zaitlin [-@Zaitlin1986] (422 black-and-yellow rockfish) w
 re-analyzed along with samples from Meyers-Cherry [-@MeyersCherry2014] (115 gopher rockfish). 
 Combining the two data sets provided an updated maturity ogive for the GBYR complex females 
 (Figure \ref{fig:GBY_maturity_ogive}).  The first observed mature fish was 19 cm and the 
-length at 50% was 21.66 cm, larger than suggested from the studies in the 1980s. Using 
-only the gopher data, 50% was estimated at 23.33 cm and for black-and-yellow rockfish at 
-21.26 cm.  An important note is that the smaller fish from these studies were black-and-yellow 
-rockfish and the larger fish were gopher rockfish.  Although not used in this assessment, 
+length at 50% was 21.66 cm, larger than suggested from the estimate used by Key et 
+al. [-@Key2005] in the 2005 assessment. 
+After re-analyzing the available data, the length at which 50% of 
+female gopher rockfish were mature was estimated at 23.33 cm, and was 21.26 cm for female
+black-and-yellow rockfish.  An important note is that the smaller fish from these studies 
+were black-and-yellow rockfish and the larger fish were gopher rockfish.  Although not used in this assessment, 
 the estimate of 50% maturity for 23 GBYR from these studies was 21.88 cm. The age at 50% 
 mature increased in this assessment to 21.66 cm, which is 3.96 cm larger than the value 
-used int eh 2005 assessment.
+used in the 2005 assessment.
 
 Mature females in central California release larvae between January and July, peaking 
-in February, March, and May [@Love2002;@Larson1980;@Lea1999].Both species of GBYR release 
+in February, March, and May [@Love2002;@Larson1980;@Lea1999]. Both species of GBYR release 
 one brood per season [@Love2002]. Black-and-yellow rockfish females can produce 25,000 - 
 450,000 eggs spawning from January to May. Gopher rockfish females ranging between 176 
 and 307 grams carry approximately 249 eggs per gram of body weight 
@@ -173,7 +173,7 @@ M = \frac{5.4}{A_{max}}
  
 The above is also the median of the prior. The prior is defined as a lognormal with 
 mean $ln\frac{5.4}{A_{max}}$  and SE = 0.4384343 (Owen Hamel, personal communication, NMFS). 
-Using a maximum age of 28 the point estimate and median of the prior is 0.211138, 
+Using a maximum age of 28 the point estimate and median of the prior is 0.193, 
 which is used as a prior for in the assessment model.
 
 
