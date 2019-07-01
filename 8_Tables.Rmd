@@ -208,6 +208,7 @@ print(lengths.table, add.to.row = a_header,
 
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *****Index TABLES with all indices - summary and index values******* -->
 <!-- ********************************************************************** -->

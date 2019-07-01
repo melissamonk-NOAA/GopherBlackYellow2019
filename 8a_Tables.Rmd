@@ -121,15 +121,19 @@
        colnames(Like_comp) = c('Likelihood component',
                                'Value')
        
+       #matrix for digits to do them by row
+       mdat = matrix(c(rep(0,9),rep(0,9), 3,-3,3,3,3,3,-3,-3,-3),
+                     nrow = 9, ncol=3, byrow=FALSE)
+       
        Like_comp.table = xtable(Like_comp,
                                 caption = c('Likelihood components from the base model.'),
-                                label = 'tab:like_components')
+                                label = 'tab:like_components', digits = mdat)
+       
        
     # Print likelihood component table
       print(Like_comp.table, 
             include.rownames=FALSE, 
-            caption.placement='top',
-            sanitize.text.function = function(x){x})
+            caption.placement='top', digits = c(3,2,3,3,3,3,2,3,2))
 ```     
 
 \newpage
@@ -342,13 +346,13 @@
                                  digits = 0)    
     # Add alignment  
       align(Index_summary.table) = c('l',
-                                    '>{\\centering}p{.3in}',
+                                    '>{\\centering}p{.2in}',
                                      '>{\\centering}p{1in}',
-                                     '>{\\centering}p{2.5in}',
-                                     '>{\\centering}p{.3in}', 
-                                     '>{\\centering}p{2in}',
+                                     '>{\\centering}p{2.2in}',
+                                     '>{\\centering}p{1.3in}', 
+                                     '>{\\centering}p{1.4in}',
                                      '>{\\centering}p{1.2in}',
-                                     '>{\\centering}p{.5in}')  
+                                     '>{\\centering}p{1in}')  
     
     # Print index summary table
       print(Index_summary.table, 

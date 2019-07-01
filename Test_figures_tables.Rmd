@@ -48,7 +48,19 @@ for the recreational onboard observer survey north of Point Conception
 `r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(4)", 3], 3)` 
 
 
-
-```{r, results="asis"}
-
-```
+```{r, results = 'asis'}
+       Like_comp = read.csv('./txt_files/Likelihood_components.csv')
+       colnames(Like_comp) = c('Likelihood component',
+                               'Value')
+       mdat = matrix(c(rep(0,9),rep(0,9), 3,-3,3,3,3,3,-3,-3,-3),
+                     nrow = 9, ncol=3, byrow=FALSE)
+       
+       Like_comp.table = xtable(Like_comp,
+                                caption = c('Likelihood components from the base model.'),
+                                label = 'tab:like_components', digits = mdat)
+       
+    # Print likelihood component table
+      print(Like_comp.table, 
+            include.rownames=FALSE, 
+            caption.placement='top')
+```   

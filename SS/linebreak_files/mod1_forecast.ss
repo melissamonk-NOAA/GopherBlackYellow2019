@@ -1,5 +1,5 @@
-#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usi
-# ng_ADMB_12.0
+#V3.30.13.09-opt;_2019_06_30;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usin
+# g_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject t
 # o copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
@@ -62,10 +62,10 @@
 # Conditional input if relative F choice = 2
 # enter list of:  season,  fleet, relF; if used, terminate with season=-999
 # 9
-# 1 1 0.49859
-# 1 2 0.0102117
-# 1 3 0.461522
-# 1 4 0.0296768
+# 1 1 0.498741
+# 1 2 0.010587
+# 1 3 0.460328
+# 1 4 0.0303444
 # -9999 0 0  # terminator for list of relF
 # enter list of: fleet number, max annual catch for fleets with a max; term
 # inate with fleet=-9999

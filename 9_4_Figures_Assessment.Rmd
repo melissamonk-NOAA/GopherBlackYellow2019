@@ -112,9 +112,6 @@ output:
 
 \FloatBarrier
 
-![Mean age for the commercial fishery with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[8,6], ' (',Fweights[8,9],'-', Fweights[8,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCom}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCom.png)
-
-
 ![Mean age for the recreational fishery (ages from north of Point Conception only) with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[9,6], ' (',Fweights[9,9],'-', Fweights[9,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png)
 
 
@@ -172,20 +169,40 @@ output:
 
 <!-- ***********R0 Likelihood profile FIGURES****************************** --> 
 
-
+![Likelihood profile across R\textsubscript{0} values by fleet. \label{fig:profile_R0_piner}](Figures/profile_R0_piner.png)
   
 
 
+![Likelihood profile across R\textsubscript{0} values for each data type. \label{fig:profile_R0_like}](Figures/profile_R0_like.png)
+
+
+
+![Trajectories of depletion across values of R\textsubscript{0}. \label{fig:profile_R0_depl}](Figures/profile_R0_depl.png)
+
 
 \FloatBarrier
+
 <!-- ***********h Likelihood profile FIGURES******************************* -->
+
+![Likelihood profile across steepness values by fleet. \label{fig:profile_h_piner}](Figures/profile_h_piner.png)
+
+
+![Likelihood profile across steepness values for each data type. \label{fig:profile_h_like}](Figures/profile_h_like.png)
+
+![Trajectories of depletion across values of steepness. \label{fig:profile_h_depl}](Figures/profile_h_depl.png)
 
 
 <!-- ***********M Likelihood profile FIGURES******************************* -->
 
 
+![Likelihood profile across female natural mortality values by fleet. \label{fig:profile_m_piner}](Figures/profile_m_piner.png)
+
+![Likelihood profile across female natural mortality values for each data type. \label{fig:profile_m_like}](Figures/profile_m_like.png)
+
+![Trajectories of depletion across values of female natural mortality. \label{fig:profile_m_depl}](Figures/profile_m_depl.png)
 
 \FloatBarrier
+
 <!-- ********************************************************************** -->
 <!-- *********************REFERENCE POINTS FIGURES************************* --> 
 <!-- ********************************************************************** -->
@@ -212,6 +229,7 @@ output:
 
 
 \FloatBarrier
+
 <!-- ********************************************************************** --> 
 <!-- *************************FORECAST FIGURES***************************** --> 
 <!-- ********************************************************************** --> 

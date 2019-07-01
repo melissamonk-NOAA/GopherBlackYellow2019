@@ -1,5 +1,5 @@
-#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usi
-# ng_ADMB_12.0
+#V3.30.13.09-opt;_2019_06_30;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usin
+# g_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject t
 # o copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.

@@ -1,16 +1,16 @@
-#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usi
-# ng_ADMB_12.0
+#V3.30.13.09-opt;_2019_06_30;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usin
+# g_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject t
 # o copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
 #_user_support_available_at:NMFS.Stock.Synthesis@noaa.gov
 #_user_info_available_at:https://vlab.ncep.noaa.gov/group/stock-synthesis
-#_Start_time: Fri Jun 28 14:24:22 2019
+#_Start_time: Sun Jun 30 21:41:56 2019
 #_Number_of_datafiles: 1
 
 #_observed data: 
-#V3.30.13.08-safe;_2019_06_16;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usi
-# ng_ADMB_12.0
+#V3.30.13.09-opt;_2019_06_30;_Stock_Synthesis_by_Richard_Methot_(NOAA)_usin
+# g_ADMB_12.0
 #Stock Synthesis (SS) is a work of the U.S. Government and is not subject t
 # o copyright protection in the United States.
 #Foreign copyrights may apply. See copyright.txt for more information.
@@ -1032,48 +1032,6 @@
 # partition codes:  (0=combined; 1=discard; 2=retained
 #_yr month fleet sex part ageerr Lbin_lo Lbin_hi Nsamp datavector(female-ma
 # le)
- 2009 7 1 0 0 1 26 26 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2009 7 1 0 0 1 27 27 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2009 7 1 0 0 1 28 28 3 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2009 7 1 0 0 1 29 29 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2009 7 1 0 0 1 30 30 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 27 27 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 29 29 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 30 30 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 31 31 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 32 32 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
- 0 0 0
- 2010 7 1 0 0 1 34 34 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
- 0 0 0
- 2011 7 1 0 0 1 30 30 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2011 7 1 0 0 1 32 32 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2016 7 1 0 0 1 32 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2016 7 1 0 0 1 35 35 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 26 26 5 0 0 0 0 0 0 1 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 27 27 5 0 0 0 0 0 0 0 0 2 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 28 28 5 0 0 0 0 0 0 0 0 0 2 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 29 29 5 0 0 0 0 0 0 0 2 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 30 30 5 0 0 0 0 0 0 0 0 0 0 1 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0
- 0 0 0
- 2018 7 1 0 0 1 32 32 2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0
- 0 0 0
  1978 7 3 0 0 1 29 29 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
  0 0 0
  1978 7 3 0 0 1 30 30 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0

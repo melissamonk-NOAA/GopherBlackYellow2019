@@ -3,8 +3,8 @@
 <!--************BIOLOGICAL DATA*********************************************-->
 ###Biological Parameters and Data
 
-Neither gophr nor black-and-yellow rockfish have forked tails, therefore total 
-legnth and fork length are equal.  All of the data provided for this assessment 
+Neither gopher nor black-and-yellow rockfish have forked tails, therefore total 
+length and fork length are equal.  All of the data provided for this assessment 
 were either in fork length or total length.
 
 
@@ -17,7 +17,7 @@ Length compositions were provided from the following sources:
 \begin{itemize}[noitemsep,nolistsep,topsep=0pt]
   \item CALCOM (\emph{commercial retained dead fish}, 1987, 1992-2018)   
   \item WCGOP (\emph{commercial discarded fish}, 2004-2018)    
-  \item Deb Wilson-Vandenber's onboard observer survey (\emph{recreational charter retained and discarded catch}, 1987-1998)
+  \item Deb Wilson-Vandenberg's onboard observer survey (\emph{recreational charter retained and discarded catch}, 1987-1998)
   \item California recreational sources combined (\emph{recreational charter retained catch})     
     \begin{itemize}[noitemsep,nolistsep]
       \item Miller and Gotshall dockside survey (1959-1966)    
@@ -39,18 +39,19 @@ for each fleet or survey.
 \vspace{.5cm}
 **Age Structures**
 
-A total of 2,467 otoliths were incorporated in this assessment and a 
-summary by source can be found in Table \ref{tab:Age_data}.  Gopher rockfish 
-comprised 80% of the samples (946 females, 901 males, 121 unknown sex), 
+A total of 2,421 otoliths were incorporated in this assessment and a 
+summary by source can be found in Table \ref{tab:Age_data}. The final 
+base model excludes the commercial age data that were sparse and not 
+representative of the fishery.  Gopher rockfish 
+comprised 79% of the samples (922 females, 879 males, 121 unknown sex), 
 and all but a few black-and-yellow rockfish (247 females, 232 males, 20 
-unknown sex) came from a directed study by Jody Zaitlin [-@Zaitlin1986] 
-(Figure \ref{fig:Age_length_by_study}).
+unknown sex) came from a directed study by Jody Zaitlin [-@Zaitlin1986], 
+collected from 1983-1986 (Figure \ref{fig:Age_length_by_study}).
 
-Of the available ages, 91% were collected during fishery-independent surveys.  
-An additional 36 otoliths were collected by Cal Poly during their CPFV 
-onboard observer survey in 2018. The remaining 7.5% were from commercial 
-port samples or recreational dockside surveys. Black-and-yellows represent 
-20% of the samples collected, and are mainly derived from 
+Of the available ages, 94% were collected during fishery-independent surveys.  
+The remaining 6% were recreational dockside surveys and collected by Cal Poly 
+during their CPFV onboard observer survey (36 otoliths) in 2018. Black-and-yellows 
+represent 20% of the samples collected, and are mainly derived from 
 Jody Zaitlin's work in Monterey Bay. 
 
 All otoliths were read by Don Pearson (NMFS SWFSC, now retired) and ages ranged 
@@ -67,14 +68,11 @@ rockfishes (Figure \ref{Growth_by_species}) or between males and females
 (Figure \ref{Growth_by_sex}), species combined.
 
 
-
-
-
 \vspace{.5cm}
 **Aging Precision and Bias**
 
-Uncertainty in ageing error was estimated using a collection of xxx gopher and 
-black-and-yellow rockfish scorpionfish otoliths with two age reads (Figure \ref{fig:GBY_age_error}). 
+Uncertainty in ageing error was estimated using a collection of 115 gopher and 
+black-and-yellow rockfish otoliths with two age reads (Figure \ref{fig:GBY_age_error}). 
 Age-composition data used in the model were from a number of sources described above.  All 
 otoliths were read by Don Pearson (NMFS SWFSC, no retired) who also conducted all
 blink double reads. 
@@ -123,17 +121,17 @@ rockfish males and females were first mature at 14 cm, 50% of females were matur
 15 cm, 50% of males mature at 16 cm.  Male black-and-yellow rockfish were 100% mature 
 at 20 cm and females at 19 cm. In southern California waters, both males and females 
 were found to reach first maturity at 13 cm total length [@Larson1980]. We did not have 
-any samples from southern California to re-analyze the maturiy ogive for that portion of 
+any samples from southern California to re-analyze the maturity ogive for that portion of 
 the population.
 
 The maturity data from Zaitlin [-@Zaitlin1986] (422 black-and-yellow rockfish) were 
 re-analyzed along with samples from Meyers-Cherry [-@MeyersCherry2014] (115 gopher rockfish). 
-Combining the two dataset provided an updated maturity ogive for the GBYR complex females 
+Combining the two data sets provided an updated maturity ogive for the GBYR complex females 
 (Figure \ref{fig:GBY_maturity_ogive}).  The first observed mature fish was 19 cm and the 
 length at 50% was 21.66 cm, larger than suggested from the studies in the 1980s. Using 
 only the gopher data, 50% was estimated at 23.33 cm and for black-and-yellow rockfish at 
 21.26 cm.  An important note is that the smaller fish from these studies were black-and-yellow 
-rockfish and the larger fish were gopher rockfish.  Alhtough not used in this assessment, 
+rockfish and the larger fish were gopher rockfish.  Although not used in this assessment, 
 the estimate of 50% maturity for 23 GBYR from these studies was 21.88 cm. The age at 50% 
 mature increased in this assessment to 21.66 cm, which is 3.96 cm larger than the value 
 used int eh 2005 assessment.

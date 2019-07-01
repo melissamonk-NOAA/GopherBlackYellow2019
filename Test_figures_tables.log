@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.20)  29 JUN 2019 06:04
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.3.20)  1 JUL 2019 00:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,8 +885,20 @@ line 117.
 \tf@toc=\write6
 \openout6 = `Test_figures_tables.toc'.
 
+LaTeX Font Info:    Try loading font information for U+msa on input line 133.
+
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/um
+sa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 133.
+
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/um
+sb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 129.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 150.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 se-ascii-print.def
@@ -897,25 +909,25 @@ File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
 \openout4 = `Test_figures_tables.upa'.
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 150.
 (./Test_figures_tables.aux * soulpos - computing points - it may take a few sec
 onds *
 \openout4 = `Test_figures_tables.upb'.
 
 (./Test_figures_tables.upa))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 129.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 150.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 150.
 Package rerunfilecheck Info: File `Test_figures_tables.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 150.
  ) 
 Here is how much of TeX's memory you used:
- 17896 strings out of 494921
- 296952 string characters out of 6175622
- 391503 words of memory out of 5000000
- 21598 multiletter control sequences out of 15000+600000
- 4353 words of font info for 21 fonts, out of 8000000 for 9000
+ 17963 strings out of 494921
+ 298053 string characters out of 6175622
+ 393503 words of memory out of 5000000
+ 21641 multiletter control sequences out of 15000+600000
+ 9014 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 36i,5n,38p,1032b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,79p,1032b,383s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Test_figures_tables.pdf (1 page).
