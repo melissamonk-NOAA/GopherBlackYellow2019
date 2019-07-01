@@ -486,10 +486,10 @@ natural mortality was estimated to be 0.22.
 ###Parameter Estimates
 The base model produces estimates of growth parameters different from the external 
 estimates.  The external estimate of the von Bertalanffy growth coefficient $k$ 
-was 0.2488, whereas the internal estimate was much lower at 0.125. Using the Schnute 
+was 0.247, whereas the internal estimate was much lower at 0.121. Using the Schnute 
 parameterization with the age for L1 set at 2 and L2 at 23, the external estimates of lengths 
-at Amin and Amax were 11.8 and 28.28, respectively.  The internal estimates of the lengths 
-for Amin and Amax were 9.67 and 28.35, respectively. Natural mortality was estimated 
+at Amin and Amax were 13.80 and 28.22, respectively.  The internal estimates of the lengths 
+for Amin and Amax were 9.72 and 28.36, respectively. Natural mortality was estimated 
 in the base model and natural mortality and the growth parameter k are negatively 
 correlated, and the model sensitivity to growth and natural mortality are explored in
 the sensitivities.  
