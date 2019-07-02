@@ -325,7 +325,7 @@
 
 <!-- ***********Retrospective table*********************************** -->
 
-\begin{landscape}
+<!--\begin{landscape}-->
 
 ```{r, results = 'asis'}
    Retro = read.csv('./txt_files/Retrospective.csv')
@@ -346,16 +346,16 @@
 # Print likelihood profile table
       print(Retro.table, 
             include.rownames=FALSE, 
-            caption.placement='top',
-            scalebox = .9,
-            sanitize.text.function = function(x){x})
+            caption.placement='top')#,
+           # scalebox = .9,
+          #  sanitize.text.function = function(x){x})
 
 
 
 
 ```
 
-\end{landscape}
+<!--\end{landscape} -->
 
 \newpage
 

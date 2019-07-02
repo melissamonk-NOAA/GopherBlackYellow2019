@@ -103,7 +103,7 @@ Off California in 2019}
 \usepackage{cmap}                                                 % fix mapping characters to unicode
 \RequirePackage[linewidth = 1]{pdfcomment}                        % pdf comments
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
-\usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
+%\usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
 %\RequirePackage[tagged]{accessibilityMeta}
 \usepackage{booktabs} 
 
@@ -2818,10 +2818,10 @@ forest fish survey is the only fishery-independent survey that observed
 young-of-the-year GBYR in this assessment.
 
 The stock-recruit curve resulting from a fixed value of steepness is
-shown in Figure \ref{fig:SR_curve2} with estimated recruitments also
-shown. The stock is predicted to have never fallen to low enough levels
-that to estimate steepness. Steepness was not estimated in this model,
-and profiles over steepness values are discussed below.
+shown in Figure \ref{fig:SR_curve2}. The stock has not been depleted to
+a low enough level that would inform the estimation of steepness.
+Steepness was not estimated in this model, and profiles over steepness
+values are discussed below.
 
 \subsubsection{Fits to the Data}\label{fits-to-the-data}
 
@@ -2846,7 +2846,7 @@ relatively well fit, except for the decline suggested 2013 and 2014. The
 increase in relative abundance observed in 2018 was not fit by the
 model, even with the added variance.
 
-The fishery-dependent indices for south of south of Point Conception
+The fishery-dependent indices for north of south of Point Conception
 were both relatively flat. The MRFSS CPFV dockside survey index was
 relatively well fit and indicated an increase in the last two years of
 the survey, 1998-1999. The current onboard observer survey representing
@@ -2860,7 +2860,7 @@ both young-of-the-year, small juveniles, and adults in the survey. An
 alternative index of abundance teasing apart the two life stages will be
 developed and presented at the STAR panel.
 
-The model was not able to capture the trends observer in the
+The model was not able to capture the trends observed in the
 fishery-independent CCFRP hook-and-line survey. The index suggested the
 same depressed relative abundance in 2013 as the fishery-dependent
 onboard observer survey, that was also not captured here by the fit. The
@@ -2941,7 +2941,7 @@ detailed discussion on the decision to use the CALCOM length composition
 in the base model can be found in the discussion commercial length and
 age data, Section (\ref{commercial-fishery-length-and-age-data}).
 
-Data weighting is an area of uncertainty for stock assessment and
+Data weighting is an area of uncertainty for stock assessment, and
 research is ongoing to determine the effects of data weighting and the
 most appropriate initial sample sizes for length and age composition
 data. The base model used the Stewart sample sizes for initial sample
@@ -2970,7 +2970,19 @@ data only through 2018 (retro 1), 2017 (retro 2), 2016 (retro 3), and
 estimation of trends in spawning biomass in the retrospective runs were
 lower than the base model (Figure \ref{fig:retro_spawnb}). All
 retrospective runs converged to the same low point in the 1990s and the
-diverged for the remainder of the time series.
+diverged for the remainder of the time series. There is no conditional
+age-at-length composition data for 2015-2016, leading to the minor
+change in the age composition likelihood from Retro2 to Retro3 and
+Retro4 (Table \ref{tab:retro}). The age composition data in 2017
+accounts for 2.5\% of all available ages, and 4.5\% of all fish aged
+were from 2018. The available length data in each year from 2015-2018
+range from 4-6\% of the total available length data. The PISCO kelp
+forest fish survey observed increased abundance of small fish from
+2015-2017 (Figure \ref{fig:mod1_6_comp_lenfit_flt8mkt0}), which are
+captured in all of the retrospective runs. The length compositions of
+all the other fleets have similar length distributions for 2015-2018
+(\ref{appendix-c.-detailed-fits-to-length-composition-data}). Additional
+investigations into the retrospective patters will be made by the STAT.
 
 The recruitment deviations in the more recent years shrink towards zero
 the more years are removed from the model (Figure
@@ -3238,10 +3250,10 @@ Year & Landings & Discards & Total Commercial Removals & Source \\
   1983 &  &  &  &  &   6 & 323 & 60.00 & 170 &  &  \\ 
   1984 &  &  &  &  &  14 & 849 & 42.00 & 150 &  &  \\ 
   1985 &  &  &  &  &  35 & 1027 & 34.00 & 180 &  &  \\ 
-  1986 &  &  &  &  &  36 & 826 & 28.00 &  86 &  &  \\ 
-  1987 &   2 &  82 &  &  &  28 & 392 & 5.00 &   7 &  14 &  73 \\ 
-  1988 &  &  &  &  &  30 & 303 & 10.00 &  30 &  54 & 664 \\ 
-  1989 &  &  &  &  &  19 & 303 & 7.00 &  11 &  70 & 727 \\ 
+  1986 &  &  &  &  &  36 & 826 & 126.00 & 362 &  &  \\ 
+  1987 &   2 &  82 &  &  &  28 & 392 & 131.00 & 529 &  14 &  73 \\ 
+  1988 &  &  &  &  &  30 & 303 & 110.00 & 410 &  54 & 664 \\ 
+  1989 &  &  &  &  &  19 & 303 & 111.00 & 436 &  70 & 727 \\ 
   1990 &  &  &  &  &  &  &  &  &  17 & 109 \\ 
   1991 &  &  &  &  &  &  &  &  &  38 & 722 \\ 
   1992 &  56 & 671 &  &  &  &  &  &  &  55 & 838 \\ 
@@ -3747,7 +3759,7 @@ Model & AIC \\
 Year & 1,481 \\ 
   Year + Region & 1,429 \\ 
   Year + Region + Area\_X & 1,403 \\ 
-  Year + Region + Area\_X + Wave & 1,397 \\ 
+  Year + Region + Area\_X + Wave & \textbf{1,397} \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -4153,8 +4165,6 @@ TOTAL\_like & 516.36 & 516.61 & 524.71 & 508.20 & 4041.05 & 1734.79 \\
 
 \newpage
 
-\begin{landscape}
-
 \begin{table}[ht]
 \centering
 \caption{Summaries of key assessment outputs 
@@ -4164,7 +4174,6 @@ TOTAL\_like & 516.36 & 516.61 & 524.71 & 508.20 & 4041.05 & 1734.79 \\
                                              two years of data, Retro3 removes three years and Retro4 
                                              removes four years.} 
 \label{tab:retro}
-\scalebox{0.9}{
 \begin{tabular}{lrrrrr}
   \hline
 Label & Base & Retro1 & Retro2 & Retro3 & Retro4 \\ 
@@ -4189,10 +4198,7 @@ Female natural mortality & 0.21 & 0.20 & 0.20 & 0.20 & 0.19 \\
   Parameter priors & 0.00 & 0.00 & 0.00 & 0.00 & 0.00 \\ 
    \hline
 \end{tabular}
-}
 \end{table}
-
-\end{landscape}
 
 \newpage
 

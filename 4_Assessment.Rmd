@@ -558,9 +558,9 @@ fish survey is the only fishery-independent survey that observed young-of-the-ye
 in this assessment.
 
 The stock-recruit curve resulting from a fixed value of steepness is shown in Figure 
-\ref{fig:SR_curve2} with estimated recruitments also shown. The stock is predicted to 
-have never fallen to low enough levels that to estimate steepness. Steepness was 
-not estimated in this model, and profiles over steepness values are discussed below.
+\ref{fig:SR_curve2}. The stock has not been depleted to a low enough level that 
+would inform the estimation of steepness. Steepness was not estimated in this model, 
+and profiles over steepness values are discussed below.
 
 ###Fits to the Data
 Model fits to the indices of abundance, fishery length composition, survey length 
@@ -580,7 +580,7 @@ onboard observer survey north of Point Conception from 2001-2018 was relatively 
 fit, except for the decline suggested 2013 and 2014.  The increase in relative abundance 
 observed in 2018 was not fit by the model, even with the added variance.
 
-The fishery-dependent indices for south of south of Point Conception 
+The fishery-dependent indices for north of south of Point Conception 
 were both relatively flat.  The MRFSS CPFV dockside survey index was relatively well 
 fit and indicated an increase in the last two years of the survey, 1998-1999.  The 
 current onboard observer survey representing 2001-2018 showed very little trend in 
@@ -592,7 +592,7 @@ part due to the observation of both young-of-the-year, small juveniles, and adul
 survey.  An alternative index of abundance teasing apart the two life stages will be 
 developed and presented at the STAR panel. 
 
-The model was not able to capture the trends observer in the fishery-independent CCFRP 
+The model was not able to capture the trends observed in the fishery-independent CCFRP 
 hook-and-line survey.  The index suggested the same depressed relative abundance in 2013 
 as the fishery-dependent onboard observer survey, that was also not captured here by the fit. 
 The increasing trends in abundance from 2016-2018 was also not captured by the model fit, and 
@@ -657,7 +657,7 @@ A detailed discussion on the decision to use the CALCOM length composition in th
 can be found in the discussion commercial length and age data, 
 Section (\ref{commercial-fishery-length-and-age-data}).
 
-Data weighting is an area of uncertainty for stock assessment and research is 
+Data weighting is an area of uncertainty for stock assessment, and research is 
 ongoing to determine the effects of data weighting and the most appropriate initial 
 sample sizes for length and age composition data.  The base model used the Stewart 
 sample sizes for initial sample sizes for the fishery data and either the Stewart 
@@ -682,7 +682,16 @@ only through 2018 (retro 1), 2017 (retro 2), 2016 (retro 3), and 2015 (retro 4)
 The initial population size and estimation of trends in spawning biomass in the 
 retrospective runs were lower than the base model (Figure \ref{fig:retro_spawnb}). 
 All retrospective runs converged to the same low point in the 1990s and the diverged 
-for the remainder of the time series.
+for the remainder of the time series. There is no conditional age-at-length composition 
+data for 2015-2016, leading to the minor change in the age composition likelihood from 
+Retro2 to Retro3 and Retro4 (Table \ref{tab:retro}). The age composition data in 
+2017 accounts for 2.5% of all available ages, and 4.5% of all fish aged were from 2018. 
+The available length data in each year from 2015-2018 range from 4-6% of the total available 
+length data.  The PISCO kelp forest fish survey observed increased abundance of small fish 
+from 2015-2017 (Figure \ref{fig:mod1_6_comp_lenfit_flt8mkt0}), which are captured in all of 
+the retrospective runs.  The length compositions of all the other fleets have similar length 
+distributions for 2015-2018 (\ref{appendix-c.-detailed-fits-to-length-composition-data}). 
+Additional investigations into the retrospective patters will be made by the STAT.
 
 The recruitment deviations in the more recent years shrink towards zero the more years 
 are removed from the model (Figure \ref{fig:retro_recdev}).
