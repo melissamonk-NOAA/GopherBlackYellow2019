@@ -3,30 +3,31 @@
 
 ##Stock{-}
 This assessment reports the status of the gopher and black-and-yellow rockfish  
-complex (GBYR, \emph{`r spp.sci`}) resource as in U.S. waters off the coast of the 
-coast of California south of 
-$40^\circ 10^\prime$ N. latitude (Cape Mendocino)  using data through `r LastYR`. 
-Both gopher and black-and-yellow rockshes are most abundance north of Point Conception 
-and are rare north of Sonoma. The range of gopher rockfish extends to Baja California, 
-but the black-and-yellow rockfish are rare south of Point Conception.
+complex (GBYR, \emph{`r spp.sci`}) resource as in U.S. waters off the coast of 
+California south of Cape Mendocino ($40^\circ 10^\prime$ N. latitude) 
+using data through `r LastYR`. Both gopher and black-and-yellow rockfishes are 
+most abundant north of Point Conception ($34^\circ 27^\prime$ N. latitude)
+and are rare north of Point Arena ($38^\circ 57^\prime$ N. latitude). The range 
+of gopher rockfish extends into Baja California, but the black-and-yellow rockfish 
+are rare south of Point Conception.
 
 
 ##Catches{-}
 Information on historical landings of `r spp` are available back to 1916
-(Table \ref{tab:Exec_catch}). The recreational fleet bgan ramping up in the 1950s 
+(Table \ref{tab:Exec_catch}). The recreational fleet began ramping up in the 1950s 
 and has fluctuated over the the last 50 years (Figure \ref{fig:Exec_catch1}).  The majority of gopher and black-and-yellow rockfish recreational landings are from north of Point Conception. 
 
 Commercial landings were small during 
-the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric  tons (mt) per year (Figure \ref{fig:Exec_catch2}. The commercial landings 
-increased aftter World War II and show periods of cyclical catch for gopher and black-and-yellow 
+the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric  tons (mt) per year (Figure \ref{fig:Exec_catch2}). Commercial landings 
+increased after World War II and show periods of cyclical catch for gopher and black-and-yellow 
 rockfishes. The commercial live fish fishery began in the early 1990s, with the first reported 
 live landings in 1993.  Since then the commercial catch has been dominated by the live fish fishery, 
 with minimal landings of dead gopher or black-and-yellow rockfishes.  Esimates of total mortality of 
-commercial discards was available starting in 2004, and were estimated prior to then. The landings 
+commercial discards was available starting in 2004, and were estimated prior to then. The catches 
 aggregated by fleets modeled in this assessment can be found in Figure \ref{fig:r4ss_catches}.
 
-Since 2000, annual total landings of `r spp` have ranged between 
-`r paste0( min(round(Tot.catch.df[Tot.catch.df[,1] > 2000 & Tot.catch.df[,1] <= Dat_end_mod1,2],0)), '-', max(round(Tot.catch.df[Tot.catch.df[,1] > 2000 & Tot.catch.df[,1] <= Dat_end_mod1,2],0)) )` mt, with landings in `r Dat_end_mod1` totaling `r round(Tot.catch.df[Tot.catch.df[,1] == Dat_end_mod1,2],0)` mt.
+Since 2000, annual total landings of catch and discards of `r spp` have ranged between 
+`r paste0( min(round(Tot.catch.df[Tot.catch.df[,1] > 2000 & Tot.catch.df[,1] <= Dat_end_mod1,2],0)), '-', max(round(Tot.catch.df[Tot.catch.df[,1] > 2000 & Tot.catch.df[,1] <= Dat_end_mod1,2],0)) )` mt, with landings (catch + discards) in `r Dat_end_mod1` totaling `r round(Tot.catch.df[Tot.catch.df[,1] == Dat_end_mod1,2],0)` mt.
 
 
 
@@ -70,32 +71,33 @@ Since 2000, annual total landings of `r spp` have ranged between
 
 ##Data and Assessment{-}
 
+Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
+was first assessed as a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
+The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
+to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
+table was based around the emphasis given to a fishery-dependent index of abundance for the 
+recreational fleet. The stock was found to be at 97% depletion. 
+
+Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
+[@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
+constraints. The mean yield from the DCAC distribution was 25.5 mt.
+
 This is the first full assessment to include data for black-and-yellow rockfish. 
 Black-and-yellow rockfish was assessed coastwide as a data poor species using 
 Depletion-Based Stock Reduction Analysis (DB-SRA) [@Dick2010]. The DB-SRA 
 model assigned a 40% probability that the then recent (2008-2009) catch 
 exceeded the 2010 OFL.
 
-Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
-[@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
-constraints. The mean yield from the DCAC distribution was 25.5 mt.
-
-Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
-was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
-The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
-to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
-table was based around the emphasis given to the index, with a value of 5 given a 40% 
-probability and used in the baseline model. The stock was found to be at 97% depletion. 
-
-This assessment incorporates the area south of Point Conception, which was previously 
-excluded from the 2005 assessment (Figure \ref{fig:assess_region_map}). 
+This assessment covers the area from Cape Mendocino to the U.S./Mexico border 
+(Figure \ref{fig:assess_region_map}). 
 The length composition data suggested that while 
 the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
 south of Point Conception were smaller.
 The recreational catches from the man made mode are negligible and did not influence 
 the decision to split the fleet at Point Conception. The similarity of the length 
 distributions between species and among modes within a region were similar and justified 
-one recreational fleet.
+one combined recreational fleet within each of the two regions (north and south of Point 
+Conception).
 
 This stock assessment retains a single fleet for the commercial fishery, and also 
 includes a commercial discard fleet.  Data on commercial discards were not available 
@@ -277,9 +279,9 @@ harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure 
 
 ##Management Performance{-}
 
-Gopher and black-and-yellow rockfishes are manage das part of the minor nearshore complex in 
-the groundfish Fishery Management Plan.  The total mortality of the minor nearshore rockfish has been 
-below the ACL in all years (2011-2016). Total mortality estiamtes from the NWFSC are not yet 
+Gopher and black-and-yellow rockfishes are managed as part of the minor nearshore complex in 
+the Pacific Coast Groundfish Fishery Management Plan.  The total mortality of the minor nearshore rockfish has been 
+below the ACL in all years (2011-2016). Total mortality estimates from the NWFSC are not yet 
 available are not yet available for 2017-2018. GBYR total mortality was on average 20% of the 
 total minor nearshore rockfish total mortality from 2011-2016. A summary of these values 
 as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
@@ -350,7 +352,7 @@ This section will be completed after the STAR panel.
 ```
 
 
-![Equilibrium yield curve for the base case model. Values are based on the `r Dat_end_mod1` fishery selectivity and with steepness fixed at 0.718. \label{fig:Yield_all}](r4ss/plots_mod1/yield1_yield_curve.png)
+![Equilibrium yield curve for the base case model. Values are based on the `r Dat_end_mod1` fishery selectivity and with steepness fixed at 0.72. \label{fig:Yield_all}](r4ss/plots_mod1/yield1_yield_curve.png)
 
 <!-- ***********END EXECUTIVE SUMMARY RESULTS SUMMARY TABLE AND YIELD CURVE -->
 

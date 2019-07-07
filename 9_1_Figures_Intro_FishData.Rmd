@@ -61,7 +61,7 @@
 <!-- **************** Index FIGURES************************* -->
 <!-- ********************************************************************** --> 
 
-![Comparison of all indices of abundance (scaled to their means). \label{fig:All_index_compare}](Figures/All_index_compare.png)
+![Comparison of all indices of abundance (with each index scaled to its mean). \label{fig:All_index_compare}](Figures/All_index_compare.png)
 
 
 <!-- ********************************************************************** -->

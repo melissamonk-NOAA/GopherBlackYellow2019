@@ -484,9 +484,9 @@
                                    '>{\\centering}p{1in}')
 
     # Print model 1 forecast table
-    print(Forecast_mod1.table,
-          include.rownames = FALSE,
-          caption.placement = 'top')
+#   print(Forecast_mod1.table,
+#          include.rownames = FALSE,
+#          caption.placement = 'top')
 ```
 
 <!-- ---------------------------------------------------------------------- -->

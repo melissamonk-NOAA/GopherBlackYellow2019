@@ -46,7 +46,7 @@ available [here](https://www.pcouncil.org/groundfish/stock-assessments/by-specie
 
 <!-- ************************MODEL DESCRIPTION***************************** -->
 ##Model Description
-The mode descriptions in the following sections reflect decisions and modelling 
+The model descriptions in the following sections reflect decisions and modelling 
 choices the STAT team made prior to the STAR panel.  Changes from the pre-STAR 
 base model to the final post-STAR base model are documented in the "Responses 
 to the Current STAR Panel Requests" section.  None of the data changed during 
@@ -59,7 +59,7 @@ conditions. Dr. Methot resolved the issue, and provided a new 'safe' version of
 SS (V3.30.13.09) to the cowcod and GBYR STATs on June 28, followed by an optimized 
 executable on June 30. Apart from the iterative Fspr search mentioned above, 
 other model outputs and analyses were unaffected by the change. All of the base model 
-results were run in this newest version of SS
+results were run in this newest version of SS.
 
 ###Transition to the Current Stock Assessment
 The first formal stock assessment for gopher rockfish was conducted in 2005 [@Key2005]. 
@@ -170,7 +170,7 @@ material).
 The prior for female natural mortality was updated to the median of the prior 
 from a meta-analysis conducted by Owen Hamel (see Accepted Practices Guidelines for 
 Groundfish Stock Assessments in the supplemental material). Assuming a maximum age of 
-28 years, the median of the prior is 0.211138, close to the fixed value used in the 
+28 years, the median of the prior is 0.193, close to the fixed value used in the 
 2005 assessment of 0.2.
 
 Due to the fact that the 2005 model only included gopher rockfish and excluded the area 
@@ -281,7 +281,8 @@ described below in the Estimated Parameters section.
 ###Priors
 The log-normal prior for female natural mortality were based on a meta-analysis 
 completed by Hamel [-@Hamel2015], as described under “Natural Mortality.” Natural mortality 
-was estimated using with a prior of, 0.211 for an assumed maximum age of 28.  
+was estimated using with a prior of, 0.193 (with log-space sigma of 0.438) for an assumed 
+maximum age of 28.  
 
 The prior for steepness (*h*) assumes a beta distribution with parameters based on an 
 update for the Thorson-Dorn rockfish prior (Dorn, M. and Thorson, J., pers. comm.), 
@@ -315,12 +316,12 @@ The base model has a total of 111 estimated parameters in the following categori
 The estimated parameters are described in greater detail below and a full list of 
 all estimated and parameters is provided in Table \ref{tab:model_params}.
 
-_Growth._Five growth parameters were estimated for the one-sex model: three von 
+_Growth._ Five growth parameters were estimated for the one-sex model: three von 
 Bertalanffy parameters and two parameters for CV as a function of length-at-age 
 related to variability in length-at-age for small and large fish.
 
 _Natural Mortality._ The estimated natural mortality of 0.212 is close to the 
-mean of the prior, 0.193.
+median of the prior, 0.193.
 
 _Selectivity._  Selectivity for all fleets was estimated as double-normal. 
 

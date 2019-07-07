@@ -460,7 +460,7 @@ mngmnt.table = xtable(mngmnt,
                              management guidelines for the minor nearshore rockfish 
                              south of $40^\\circ 10^\\prime$ N. latitude. 
                              Total mortality estiamtes are based on annual reports 
-                                from the NMFS NWFSC'), 
+                                from the NMFS NWFSC.'), 
                       label='tab:mnmgt_perform')  
 # Add alignment
 #align(mngmnt.table) = c('l',
