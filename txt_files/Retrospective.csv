@@ -2,7 +2,7 @@ Label,Base,Retro1,Retro2,Retro3,Retro4
 Female natural mortality,0.212,0.205,0.204,0.203,0.188
 Steepness,0.72,0.72,0.72,0.72,0.72
 lnR0,8.599,8.419,8.345,8.216,7.869
-Total Biomass (mt),2369.39,2197.03,2055.25,1812.34,1526.88
+Total Unfished Biomass (mt),2369.39,2197.03,2055.25,1812.34,1526.88
 Depletion,0.462,0.385,0.366,0.324,0.227
 SPR ratio,1,0.995,0.988,0.97,0.89
 Female Lmin,9.666,9.656,10.121,10.618,10.889

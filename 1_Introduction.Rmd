@@ -73,7 +73,7 @@ and is predominantly observed in depths shallower than 60 ft (18 m)
 Both species are solitary, sedentary, and territorial species with home 
 ranges of 10-12 square meters [@Love2002]. 
 A large percentage (67-71%) of black-and-yellow rockfish returned to the site 
-of capture within two weeks after tranlocated within 50 m [@Hallacher1984].
+of capture within two weeks after translocated within 50 m [@Hallacher1984].
 Lea et al. [-@Lea1999] found that gopher rockfish exhibit minor patterns of 
 movement (<12.8 km) with all fish being recaptured on the same reef 
 system where they were tagged. Matthews [-@Matthews1985] found that 11.8% 

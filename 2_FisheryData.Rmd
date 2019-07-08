@@ -428,7 +428,7 @@ was striped bass (Figure \ref{fig:Fleet10_SM_filter}). While the filter is usefu
 in identifying co-occurring or non-occurring species assuming all effort was exerted 
 in pursuit of a single target, the targeting of more than one target species can result
 in co-occurrence of species in the catch that do not truly co-occur in terms of habitat
-associations informative for an index of abundance. Stpehens and MacCall [@Stephens2004] 
+associations informative for an index of abundance. Stephens and MacCall [@Stephens2004] 
 recommended including all trips above a threshold where the false negatives and false 
 positives are equally balanced.  However, this does not have any biological relevance 
 and for this data set, we assume that if a GBYR was landed, the anglers had to have fished 
@@ -486,7 +486,7 @@ to exclude years after 1999 due to a number of regulation changes, and years
 in which there were less than 20 observed trips. The final index is represented 
 by 475 trips, 342 of which encountered GBYR.
 
-Catch per angler hour (CPUE; number of fish per angler hour) was modelled using 
+Catch per angler hour (CPUE; number of fish per angler hour) was modeled using 
 the delta-GLM approach [@Lo1992; @Stefansson1996]. A negative binomial model was 
 explored, but the proportion of zeroes was not well estimated in the 
 negative binomial models. This is likely due to the facts that MRFSS sampling 
@@ -691,7 +691,7 @@ a fishing location.  During a sampling event, each cell is fished for a total of
 and can be linked back to a particular angler, and released (or descended to depth). 
 Starting in 2017, a subset of fish have been retained to collect otoliths and fin 
 clips, needed biological information for nearshore species. For the index of 
-abundance, CPUE was modelled at the level of the drift, similar to the 
+abundance, CPUE was modeled at the level of the drift, similar to the 
 fishery-dependent onboard observer survey described above.
 
 The CCFRP data are quality controlled at the time they are key punched and little 

@@ -22,7 +22,7 @@ the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.d
 increased after World War II and show periods of cyclical catch for gopher and black-and-yellow 
 rockfishes. The commercial live fish fishery began in the early 1990s, with the first reported 
 live landings in 1993.  Since then the commercial catch has been dominated by the live fish fishery, 
-with minimal landings of dead gopher or black-and-yellow rockfishes.  Esimates of total mortality of 
+with minimal landings of dead gopher or black-and-yellow rockfishes.  Estimates of total mortality of 
 commercial discards was available starting in 2004, and were estimated prior to then. The catches 
 aggregated by fleets modeled in this assessment can be found in Figure \ref{fig:r4ss_catches}.
 
@@ -109,7 +109,7 @@ the time series of commercial discards was incorporated as a separate fleet.
 
 A number of sources of uncertainty are addressed in this assessment. This 
 assessment includes length data, estimated growth, an updated length-weight curve, an
-updated maturity curve, a number of new indicies, and new conditional length at age data.  
+updated maturity curve, a number of new indices, and new conditional length at age data.  
 
  
 
@@ -120,8 +120,8 @@ updated maturity curve, a number of new indicies, and new conditional length at 
 ##Stock Biomass{-}
 The predicted spawning biomass from the base model generally showed a slight decline prior 
 to 1962, when the early recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
-and Table \ref{tab:SpawningDeplete_mod1}). The stock declined rom 1967 to 1995, followed by a period 
-increase from 1996 to 2005. From 2005-2018 the stock has been in delcine, although spawning 
+and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1967 to 1995, followed by a period 
+increase from 1996 to 2005. From 2005-2018 the stock has been in decline, although spawning 
 biomass has been relatively level since 2017. The 2018 estimated spawning biomass relative to unfished 
 equilibrium spawning biomass is above the target of 40% of unfished spawning biomass at 45.01
 (95% asymptotic interval: 30.78-59.24) (Figure \ref{fig:RelDeplete_all}). 
@@ -157,7 +157,7 @@ in the estimated spawning biomass is high.
 
 ##Recruitment{-}
 Recruitment deviations were estimated from 1979-2018 (Figure \ref{fig:Recruits_all} and 
-Table \ref{tab:Recruit_mod1}).  There are estimates of strong recuitment in the late 
+Table \ref{tab:Recruit_mod1}).  There are estimates of strong recruitment in the late 
 1990s, and also from 2014-2016, which peaked in 2015. 
 
 
@@ -274,11 +274,12 @@ harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure 
 
 ##Management Performance{-}
 
-Gopher and black-and-yellow rockfishes are managed as part of the minor nearshore complex in 
-the Pacific Coast Groundfish Fishery Management Plan.  The total mortality of the minor nearshore rockfish has been 
-below the ACL in all years (2011-2016). Total mortality estimates from the NWFSC are not yet 
-available are not yet available for 2017-2018. GBYR total mortality was on average 20% of the 
-total minor nearshore rockfish total mortality from 2011-2016. A summary of these values 
+Gopher and black-and-yellow rockfishes are managed as part of the minor nearshore 
+complex in the Pacific Coast Groundfish Fishery Management Plan.  The total mortality 
+of the minor nearshore rockfish has been below the ACL in all years (2011-2016). 
+Total mortality estimates from the NWFSC are not yet available are not yet available 
+for 2017-2018. GBYR total mortality was on average 20% of the total minor nearshore 
+rockfish total mortality from 2011-2016. A summary of these values 
 as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
 
 

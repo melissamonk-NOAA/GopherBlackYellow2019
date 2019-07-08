@@ -110,8 +110,7 @@ The sex ratio for GBYR is assumed to be 50:50 as there is no evidence to suggest
 
 Zaitlin [-@Zaitlin1986] found that females reached 50% maturity at 17.5 cm or 4 years of 
 age in Central California and were 100% mature by age 6, with the same age of maturity 
-found in southern California though individuals were smaller at age. However, all ages from this 
-study were surface ages and were re-read for this assessment. Echeverria 
+found in southern California though individuals were smaller at age. Echeverria 
 [-@Echeverria1987] estimated maturity for 17 rockfish species in central California.
 She found the size at first maturity and the size at 50% maturity for male and female 
 gopher rockfish to be 17 cm total length, and 100% mature by 21 cm.  Black-and-yellow 
@@ -120,7 +119,11 @@ rockfish males and females were first mature at 14 cm, 50% of females were matur
 at 20 cm and females at 19 cm. In southern California waters, both males and females 
 were found to reach first maturity at 13 cm total length [@Larson1980]. We did not have 
 any samples from southern California to re-analyze the maturity ogive for that portion of 
-the population.
+the population. Both Zaitlin and Echeverria estimated the maturity ogives using ages from 
+whole otoliths.  A sample of 151 black-and-yellow rockfish otoliths surface read by Zaitlin 
+were also read by Don Pearson, and Zaitlin's ages were consistently younger than Pearson's, by 
+up to nine years. All of the available otoliths for this assessment were re-aged using a combination 
+of surface reading and break-and-burn methodology.
 
 The maturity data from Zaitlin [-@Zaitlin1986] (422 black-and-yellow rockfish) were 
 re-analyzed along with samples from Meyers-Cherry [-@MeyersCherry2014] (115 gopher rockfish). 

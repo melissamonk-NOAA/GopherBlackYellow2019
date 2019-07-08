@@ -653,7 +653,8 @@ The von Bertalanffy $k$ parameter is estimated at 0.12 when natural mortality (e
 at 0.21) and growth are both estimated.  When natural mortality is fixed at the prior of 
 0.19, $k$ is estimated at 0.14, but the two other growth parameters, L1 and L2 do not change 
 much at all.  When $k$ is fixed to the external estimate of 0.247, natural mortality is 
-estimated at 0.16, and the other growth parameters both decrease.  
+estimated at 0.16, and the other growth parameters both decrease. A number of additional 
+sensitivities to the growth parameters will be presented at the STAR panel.
 
 Replacing the CALCOM commercial length composition data with the PacFIN length composition 
 results in the stock at an overall lower level of biomass than the base model. Depletion in 
@@ -711,7 +712,7 @@ In regards to values of $R_0$, the negative log-likelihood was minimized at appr
 log($R_0$) of 8.5 (Table \ref{tab:like_profiles}). The individual fleets tend to minimize 
 at the lower bound, e.g., CCFRP and commercial fleets, or the upper bound, e.g., PISCO and 
 the recreational north fleets (Figure \ref{fig:profile_R0_piner}). The data all consistently 
-minimize around 8.5 with a smal change in likelihood at larger values of $R_0$ 
+minimize around 8.5 with a small change in likelihood at larger values of $R_0$ 
 (Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged 
 from 0.22-0.05 (Figure \ref{fig:profile_R0_depl}).
 
