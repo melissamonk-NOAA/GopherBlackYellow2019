@@ -269,7 +269,7 @@ align(Recruit_mod1.table) = c('l',
   
   Exploittab = subset(Exploityrs, select=c('Value', 'CI'))
  
-   colnames(Exploittab) = c('Exploitation rate', '~ 95% confidence interval')
+  colnames(Exploittab) = c('Harvest rate (ratio)', '95% confidence interval')
         
         
   # Spawning potential ratio and calculate lower and upper 95% CI  
@@ -290,7 +290,7 @@ align(Recruit_mod1.table) = c('l',
   
   SPRratiotab$Year = as.factor(SPRratiotab$Year)
   
-  colnames(SPRratiotab) = c('Year', 'Fishing intensity', '~ 95% confidence interval')
+  colnames(SPRratiotab) = c('Year', 'Estimated (1-SPR)/(1-SPR50%)', '~ 95% confidence interval')
       
   assign(paste('SPRratio_Exploit_', mod_area, sep=''), cbind(SPRratiotab, Exploittab))
 
@@ -301,14 +301,13 @@ align(Recruit_mod1.table) = c('l',
 # Model 1 
 SPRratio_Exploit_mod1.table = xtable(SPRratio_Exploit_mod1, 
                               caption=c(paste('Recent trend in spawning potential 
-                                        ratio and exploitation for ', spp, ' in the ', 
-                                        mod1_label, '.  Fishing intensity is (1-SPR) 
-                                        divided by 50\\% (the SPR target) and exploitation 
-                                        is F divided by F\\textsubscript{SPR}.', sep='')), 
+                                        ratio (entered as $(1-SPR)/ (1-SPR_{50\\%})$) 
+                                        and exploitation for ', spp, ' in the ', 
+                                           mod1_label,'.', sep='')), 
                               label='tab:SPR_Exploit_mod1')  
       
 align(SPRratio_Exploit_mod1.table) = c('l','l',
-                                       '>{\\centering}p{1in}',
+                                       '>{\\centering}p{1.2in}',
                                        '>{\\centering}p{1.2in}',
                                        '>{\\centering}p{1in}',
                                        '>{\\centering}p{1.2in}') 

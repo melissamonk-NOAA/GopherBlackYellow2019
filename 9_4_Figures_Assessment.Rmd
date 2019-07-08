@@ -55,7 +55,7 @@ output:
 \FloatBarrier
 
 
-
+![Estiamtes of growth for GBYR from the 2005 assessment, external fit to the CAAL data used in this assessment and the internal SS estimate of growth for this assessment.  All growth curves were estimated using the Schnute parameterization of the von Bertalanffy growth curve \label{fig:growth_compare}](Figures/growth_compare.png)
 
 
 
@@ -82,6 +82,9 @@ output:
 
 
 ![Time series of estimated `r spp` recruitments for the base-case model with 95\% confidence or credibility intervals. \label{fig:Recruit_mod1}](`r recruit.file`)
+
+![Bias adjustment for recruitment deviations. Points are transformed variances. Red line shows current settings for bias adjustment specified in control file. Blue line shows least squares estimate of alternative bias adjustment relationship for recruitment deviations \label{fig:recruit_fit_bias_adjust}](r4ss/plots_mod1/recruit_fit_bias_adjust.png)
+
 
 
 ![Estimated recruitment (red circles) and the assumed stock-recruit relationship (black line) for `r spp`.  The green line shows the effect of the bias correction for the lognormal distribution. \label{fig:SR_curve2}](r4ss/plots_mod1/SR_curve2.png)

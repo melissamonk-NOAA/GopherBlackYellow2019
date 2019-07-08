@@ -18,8 +18,8 @@ Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude)
 was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
 The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
 to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
-table was based around the emphasis given to the index, with a value of 5 given a 40% 
-probability and used in the baseline model. The stock was found to be at 97% depletion. 
+table was based around the emphasis (lambda) given to the index. Lambda of 1, 5, and 10 were used to 
+weight the index, with the lambda of 5 used in the baseline model. The stock was found to be at 97% depletion. 
 
 
 
@@ -109,10 +109,11 @@ This assessment incorporates the area south of Point Conception, which was previ
 excluded from the 2005 assessment.  The length composition data suggested that while 
 the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
 south of Point Conception were smaller (Figure \ref{fig:Rec_lengths_justification}).
-The recreational catches from the man made mode are negligible and did not influence 
-the decision to split the fleet at Point Conception. The similarity of the length 
-distributions between species and among modes within a region were similar and justified 
-one recreational fleet.
+The recreational catches from the man-made/jetty mode are negligible and did not influence 
+the decision to split the fleet at Point Conception. From 2005-2018, the man-made/jetty mode 
+averaged 0.5% of the total recreational catch and discards north of Point Conception and 0.03% 
+south of Point Conception. The similarity of the length distributions between species and 
+among modes within a region were similar and justified one recreational fleet.
 
 The 2005 model was a length-based model.  This assessment uses conditional age-at-length from 
 fish aged from a number of sources (Table \ref{tab:Age_data}).
@@ -121,7 +122,7 @@ Differences in both the recreational and commercial catches used in this assessm
 in detail in the \ref{fishery-information} section.
 
 The bias adjustment for recruitment deviations did not exist in SS2 (version 1.19). We set 
-1973-2012 as the range of years with full bias adjustment to span the time series 
+1973-2015 as the range of years with full bias adjustment to span the time series 
 that was modeled.
 
 The previous assessment modeled selectivity of the commercial fleet as logistic curve, 
@@ -494,7 +495,8 @@ natural mortality was estimated to be 0.22.
 
 ###Parameter Estimates
 The base model produces estimates of growth parameters different from the external 
-estimates.  The external estimate of the von Bertalanffy growth coefficient $k$ 
+estimates (Figure \ref{fig:growth_compare}).  The external estimate of the von Bertalanffy 
+growth coefficient $k$ 
 was 0.247, whereas the internal estimate was much lower at 0.121. Using the Schnute 
 parameterization with the age for L1 set at 2 and L2 at 23, the external estimates of lengths 
 at Amin and Amax were 13.80 and 28.22, respectively.  The internal estimates of the lengths 
@@ -554,8 +556,10 @@ Recruitment deviations were estimated from 1978-2018 (Figure \ref{fig:recdevs2_w
 Estimates of recruitment suggest that GBYR are characterized by cyclical years of high 
 and low recruitment (Figure \ref{fig:Recruit_mod1}). The years of highest estimated 
 recruitment were in the early 1990s, followed by a period of below average 
-recruitment, and another high recruitment pulse in the late 2010s. The PISCO kelp forest 
-fish survey is the only fishery-independent survey that observed young-of-the-year GBYR 
+recruitment, and another high recruitment pulse in the late 2010s. The bias adjustment for 
+recruitment deviations can be found in Figure \ref{fig:recruit_fit_bias_adjust}. 
+The PISCO kelp forest fish survey is the only fishery-independent survey that observed 
+young-of-the-year GBYR 
 in this assessment.
 
 The stock-recruit curve resulting from a fixed value of steepness is shown in Figure 

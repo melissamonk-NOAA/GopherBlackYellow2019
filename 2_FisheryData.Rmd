@@ -215,6 +215,11 @@ north of Point Conception were not altered from the original catch reconstructio
 The resulting alternate recreational catch streams are in (Table \ref{tab:Rec_removal} 
 and Figure \ref{fig:Catches_alternate}).
 
+The total difference in the catch streams from Figure \ref{fig:Catches_original} and 
+Figure \ref{fig:Catches_alternate} is plotted in Figure \ref{fig:catches_difference}. 
+The differences in the catches are due to the addition of commercial discards prior 
+to 2004 and the reduction of the recreational catches south of Point Conception.
+
 
 *Marine Recreational Fisheries Statistics Survey (MRFSS), 1980-2003*
 

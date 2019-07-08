@@ -53,6 +53,7 @@
 
 ![Commercial and recreational landings estimates after data modification and interpolations were made to the recreational catches and commercial discards. \label{fig:Catches_alternate}](Figures/Catches_alternate.png)
 
+![Difference in landings between the original and modified landings presented in the previous two figures. The only two fleets with modifications are recreational south and commercial discards. Negative values indicate catches removed from the original estimates and positive values represent the addition of landings from the commercial dicard fleet. \label{fig:catches_difference}](Figures/catches_difference.png)
 
 
 \FloatBarrier

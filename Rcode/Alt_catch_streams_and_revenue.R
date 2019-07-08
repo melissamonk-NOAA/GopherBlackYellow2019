@@ -286,6 +286,47 @@ dev.off()
 
 
 #-----------------------------------------------------------------------------------
+#Plot of difference in catches from Fig 9 and 10 in document
+#-----------------------------------------------------------------------------------
+
+#done last minute and not very elegant
+catches_diff = as.data.frame(catches$Year)
+names(catches_diff)[1] = 'Year'
+catches_diff$RecSouth = catches$RecSouthalt1-catches$RecSouthorig
+catches_diff$ComDisc = catches$WCGOPalt1
+catches_diff$ComDisc[88:103] = 0
+#catches_diff$Total = catches_diff$RecSouth+catches_diff$ComDisc
+#catches_diff$Total[1:12] = catches_diff$ComDisc[1:12]
+
+catches_diff1 = catches_diff %>%
+  select(Year, RecSouth, ComDisc) %>%
+  gather(Source,mt,RecSouth:ComDisc) 
+
+
+out.dir = "C:/GopherBlackYellow2019/Figures/"
+png(filename = paste0(out.dir,"catches_difference.png"),
+    width = 6, height = 4, units = "in", pointsize = 12, res=300)
+x11()
+ggplot(catches_diff1, aes(Year, mt), fill=Source) +
+  geom_bar(stat="identity", width=1,colour="black") +
+  ylab("metric tons") +
+  xlab("Year")+
+  theme(panel.grid.major = element_blank(), 
+        panel.grid.minor = element_blank(),
+        panel.background = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(colour = "black"),
+        legend.position = "none") +
+  theme(legend.title=element_blank()) +
+  scale_x_continuous(breaks = seq(1916,2018, by = 10)) +
+  scale_y_continuous(breaks = seq(-50,10, by = 10))
+
+dev.off()
+
+
+
+
+#-----------------------------------------------------------------------------------
 #Plot of GBY revenue
 #-----------------------------------------------------------------------------------
 rev = revenue %>%

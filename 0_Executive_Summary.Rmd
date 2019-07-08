@@ -89,12 +89,9 @@ model assigned a 40% probability that the then recent (2008-2009) catch
 exceeded the 2010 OFL.
 
 This assessment covers the area from Cape Mendocino to the U.S./Mexico border 
-(Figure \ref{fig:assess_region_map}). 
-The length composition data suggested that while 
+(Figure \ref{fig:assess_region_map}). The length composition data suggested that while 
 the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
-south of Point Conception were smaller.
-The recreational catches from the man made mode are negligible and did not influence 
-the decision to split the fleet at Point Conception. The similarity of the length 
+south of Point Conception were smaller.The similarity of the length 
 distributions between species and among modes within a region were similar and justified 
 one combined recreational fleet within each of the two regions (north and south of Point 
 Conception).
@@ -105,20 +102,14 @@ for and not included in the 2005 assessment.  The decision to retain one commerc
 fleet was made by examining the length distributions across species, fishing gears, 
 and space, i.e., north and south of Point Conception. There is very little difference between 
 the length composition of gopher and black-and-yellow rockfish landed in the commercial 
-fleet north of Point Conception, which contributed 97% of the commercial landings 
-from 1978-2018.  The length distributions suggest that gopher rockfish south of 
-Point Conception landed dead south of Point Conception are slightly smaller 
-on average than north of Point Conception.  However, there is not enough data 
-available to justify splitting the commercial fishery north and south of Point 
-Conception.  The length compositions of discarded fish are small in all of 
-the subplots, suggesting size-based discarding.  Because Stock Synthesis is
-not set up to handle depth-dependent discard mortality rates and we're modelling 
+fleet north of Point Conception. Because Stock Synthesis is
+not set up to handle depth-dependent discard mortality rates and this model includes
 two species as a complex with differing depth-dependent discard mortality rates,
-the time series of commercial discards was incorporated as a fleet.
+the time series of commercial discards was incorporated as a separate fleet.
 
-A number of sources of uncertainty are now addressed in this assessment. This 
+A number of sources of uncertainty are addressed in this assessment. This 
 assessment includes length data, estimated growth, an updated length-weight curve, an
-update maturity curve, a number of new indicies, and new conditional length at age data.  
+updated maturity curve, a number of new indicies, and new conditional length at age data.  
 
  
 
@@ -130,10 +121,10 @@ update maturity curve, a number of new indicies, and new conditional length at a
 The predicted spawning biomass from the base model generally showed a slight decline prior 
 to 1962, when the early recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
 and Table \ref{tab:SpawningDeplete_mod1}). The stock declined rom 1967 to 1995, followed by a period 
-increase from 1996 to 2005. From 2005-2018 the stock has been in delcine, although leveled spawning 
-biomass has been relatively level since 2017. The `r LastYR` estimated spawning biomass relative to unfished 
-equilibrium spawning biomass is above the target of 40% of unfished spawning biomass at `r Depl_mod1` 
-(95% asymptotic interval: $\pm$ `r Depl_mod1_CI`) (Figure \ref{fig:RelDeplete_all}). 
+increase from 1996 to 2005. From 2005-2018 the stock has been in delcine, although spawning 
+biomass has been relatively level since 2017. The 2018 estimated spawning biomass relative to unfished 
+equilibrium spawning biomass is above the target of 40% of unfished spawning biomass at 45.01
+(95% asymptotic interval: 30.78-59.24) (Figure \ref{fig:RelDeplete_all}). 
 Approximate confidence intervals based on the asymptotic variance estimates show that the uncertainty 
 in the estimated spawning biomass is high.
 \FloatBarrier
@@ -167,7 +158,7 @@ in the estimated spawning biomass is high.
 ##Recruitment{-}
 Recruitment deviations were estimated from 1979-2018 (Figure \ref{fig:Recruits_all} and 
 Table \ref{tab:Recruit_mod1}).  There are estimates of strong recuitment in the late 
-1990s, and also from 2013-2015, which peaked in 2015. 
+1990s, and also from 2014-2016, which peaked in 2015. 
 
 
 
@@ -194,10 +185,14 @@ Table \ref{tab:Recruit_mod1}).  There are estimates of strong recuitment in the 
 
 
 ##Exploitation status{-}
-Harvest rates estimated by the base model exceeded management target levels 
- durin a number of years in the 1990s. (Table \ref{tab:SPR_Exploit_mod1} and 
- Figure \ref{fig:SPR_all}). Recent harvest over the last decade increased until 
- 2016-2017 to 0.70 and decreased to 0.66 in 2018.  The estimated relative depletion 
+Harvest rates estimated by the base model indicate catch levels have been below the 
+limits that would be associated with the Spawning Potential Ratio (SPR) = 50% limit 
+(corresponding to a relative fishing intensity of 100%) (Table \ref{tab:SPR_Exploit_mod1} and 
+ Figure \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential per 
+ recruit at a given fishing level relative to the lifetime spawning potential per recruit 
+ with no fishing. Harvest rates estimated by the base model exceeded management target levels 
+ during a number of years in the 1990s. Recent harvest over the last decade increased until 
+ 2016-2017 peaking at 0.71, then declined to 0.66 in 2018.  The estimated relative depletion 
  is currently greater than the 40% unfished spawning output target. Recent 
  exploitation rates on `r spp` were predicted to be significantly below target 
  levels.
@@ -247,9 +242,9 @@ that could contribute ecosystem-related quantitative information for the assessm
 This stock assessment estimates that `r spp` in the `r mod1_label` is 
 `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MT>0,"above","below")` the biomass 
 target ($SB_{40\%}$), and well `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MSST>0,"above","below")` 
-the minimum stock size threshold ($SB_{25\%}$). The estimated relative depletion level for the base 
-model in `r LastYR+1` is 
-`r Depl_mod1` (95% asymptotic interval: $\pm$ `r Depl_mod1_CI`, corresponding 
+the minimum stock size threshold ($SB_{25\%}$). 
+The estimated relative depletion level for the base model in 2018 is 
+0.46 (95% asymptotic interval: 0.308-0.592, corresponding 
 to an unfished spawning biomass of `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
 (95% asymptotic interval: `r paste(Spawn_mod1_CI, fecund_unit, sep=' ')`) of 
 spawning biomass in the base model (Table \ref{tab:Ref_pts_mod1}).  Unfished 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.20)  7 JUL 2019 11:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.20)  8 JUL 2019 09:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,11 +1065,11 @@ nput line 258.
 <Figures/assess_region_map.png, id=412, 614.295pt x 794.97pt>
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 351.
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 343.
 
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
 
-LaTeX Warning: Float too large for page by 10.98958pt on input line 356.
+LaTeX Warning: Float too large for page by 10.98958pt on input line 348.
 
 [6] [7 <./Figures/assess_region_map.png (PNG copy)>]
 <r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png
@@ -1079,7 +1079,7 @@ s.png Graphic file (type png)
 <use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
 .png>
 Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 405.
+_intervals_intervals.png  used on input line 396.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 <r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png, id=42
 8, 469.755pt x 361.35pt>
@@ -1087,35 +1087,35 @@ File: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png G
 raphic file (type png)
 <use r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png>
 Package pdftex.def Info: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_interv
-als_intervals.png  used on input line 413.
+als_intervals.png  used on input line 404.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [8] [9 <./r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_inte
 rvals.png>] [10 <./r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_in
 tervals.png>]
 <r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.png, 
-id=450, 469.755pt x 361.35pt>
+id=449, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.
 png Graphic file (type png)
 <use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
 ng>
 Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 455.
+ymptotic_intervals.png  used on input line 446.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [11] [12 <./r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_inte
 rvals.png>]
-<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=464, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/SPR2_minusSPRseries.png, id=463, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/SPR2_minusSPRseries.png Graphic file (type png)
 <use r4ss/plots_mod1/SPR2_minusSPRseries.png>
 Package pdftex.def Info: r4ss/plots_mod1/SPR2_minusSPRseries.png  used on input
- line 505.
+ line 501.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [13] [14 <./r4ss/plots_mod1/SPR2_minusSPRseries.png>]
-Overfull \hbox (7.6013pt too wide) in paragraph at lines 551--551
+Overfull \hbox (7.6013pt too wide) in paragraph at lines 547--547
  []\OT1/cmr/bx/n/12 Estimate
  []
 
 
-Overfull \hbox (8.97353pt too wide) in paragraph at lines 549--576
+Overfull \hbox (8.97353pt too wide) in paragraph at lines 545--572
  [][] 
  []
 
@@ -1124,7 +1124,7 @@ Overfull \hbox (8.97353pt too wide) in paragraph at lines 549--576
 File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
 <use r4ss/plots_mod1/yield1_yield_curve.png>
 Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 667.
+line 663.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [17] [18 <./r4ss/plots_mod1/yield1_yield_curve.png>] [19] [20
 
@@ -1132,9 +1132,9 @@ line 667.
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.767 
+l.763 
        [1]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 789.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 785.
 
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omlcmr
@@ -1142,49 +1142,49 @@ LaTeX Font Info:    Try loading font information for OML+cmr on input line 789.
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 789.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 785.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.827 
+l.823 
        [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] 
-[18] [19] [20] [21] [22] [23] [24] [25] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 2261--2262
+[18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 2264--2265
 
  []
 
-[27] [28] [29] [30] [31] [32]
-Underfull \hbox (badness 3482) in paragraph at lines 2536--2548
+[28] [29] [30] [31] [32]
+Underfull \hbox (badness 3482) in paragraph at lines 2542--2554
 \OT1/cmr/m/n/12 conditional-age-at-length (CAAL) com-po-si-tions were re-weight
 ed us-ing the Ianelli-
  []
 
 [33]
-Underfull \hbox (badness 1062) in paragraph at lines 2610--2615
+Underfull \hbox (badness 1062) in paragraph at lines 2616--2621
 \OT1/cmr/m/n/12 Asymp-totic se-lec-tiv-ity was also es-ti-mated for both recre-
 ational fleets, Deb Wilson-
  []
 
 [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
-Underfull \vbox (badness 10000) detected at line 3138
+Underfull \vbox (badness 10000) detected at line 3147
  []
 
 [44] [45] [46] [47]
-Underfull \vbox (badness 10000) detected at line 3326
+Underfull \vbox (badness 10000) detected at line 3335
  []
 
 [48
 
 ] [49] [50] [51]
-Overfull \hbox (11.4918pt too wide) in paragraph at lines 3447--3447
+Overfull \hbox (11.4918pt too wide) in paragraph at lines 3456--3456
 []\OT1/cmr/m/n/12 Fleet 
  []
 
 [52
 
 ]
-Overfull \hbox (1.69913pt too wide) in paragraph at lines 3512--3513
+Overfull \hbox (1.69913pt too wide) in paragraph at lines 3521--3522
  [][] 
  []
 
@@ -1199,142 +1199,153 @@ Overfull \hbox (1.69913pt too wide) in paragraph at lines 3512--3513
 
 
 ]
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3877--3889
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3886--3898
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3889--3892
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3898--3901
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3892--3893
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3901--3902
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \hbox (badness 6157) in paragraph at lines 3895--3896
+Underfull \hbox (badness 6157) in paragraph at lines 3904--3905
 []\OT1/cmr/m/n/12 Log[]Norm (-1.6458,
  []
 
 
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3893--3915
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3902--3924
  [] [] [] [] [] [] [] [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 3915
+Underfull \vbox (badness 10000) detected at line 3924
  []
 
 
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3915--3935
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3924--3944
  [] [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3935--3955
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3944--3964
  [] [] [] [] [] [] [] [] 
  []
 
 [63
 
 ]
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3955--3975
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3964--3984
  [] [] [] [] [] [] [] [] 
  []
 
 [64]
-Overfull \hbox (48.2193pt too wide) in alignment at lines 3975--3984
+Overfull \hbox (48.2193pt too wide) in alignment at lines 3984--3993
  [] [] [] [] [] [] [] [] 
  []
 
 [65] [66] [67
 
 ]
-Overfull \hbox (5.92178pt too wide) in paragraph at lines 4018--4018
+Overfull \hbox (5.92178pt too wide) in paragraph at lines 4027--4027
  []\OT1/cmr/m/n/12 Spawning 
  []
 
 
-Overfull \hbox (6.0829pt too wide) in paragraph at lines 4018--4018
+Overfull \hbox (6.0829pt too wide) in paragraph at lines 4027--4027
  []\OT1/cmr/m/n/12 Depletion 
  []
 
 
-Overfull \hbox (5.92178pt too wide) in paragraph at lines 4021--4021
+Overfull \hbox (5.92178pt too wide) in paragraph at lines 4030--4030
  []\OT1/cmr/m/n/12 Spawning 
  []
 
 
-Overfull \hbox (6.0829pt too wide) in paragraph at lines 4021--4021
+Overfull \hbox (6.0829pt too wide) in paragraph at lines 4030--4030
  []\OT1/cmr/m/n/12 Depletion 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 4044
+Underfull \vbox (badness 10000) detected at line 4053
  []
 
-[68] [69] [70] [71] [72] [73
+[68] [69] [70] [71] [72]
+Overfull \hbox (17.99915pt too wide) in paragraph at lines 4226--4250
+ [][] 
+ []
+
+[73
 
 ] [74]
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 4294
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 4303
 .
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-<Figures/Catches_livedeadNS_gby.png, id=1230, 433.62pt x 289.08pt>
+<Figures/Catches_livedeadNS_gby.png, id=1238, 433.62pt x 289.08pt>
 File: Figures/Catches_livedeadNS_gby.png Graphic file (type png)
 <use Figures/Catches_livedeadNS_gby.png>
 Package pdftex.def Info: Figures/Catches_livedeadNS_gby.png  used on input line
- 4302.
+ 4311.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/GBY_revenue.png, id=1231, 433.62pt x 289.08pt>
+<Figures/GBY_revenue.png, id=1239, 433.62pt x 289.08pt>
 File: Figures/GBY_revenue.png Graphic file (type png)
 <use Figures/GBY_revenue.png>
-Package pdftex.def Info: Figures/GBY_revenue.png  used on input line 4311.
+Package pdftex.def Info: Figures/GBY_revenue.png  used on input line 4320.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/CRFS_totalmort_gby.png, id=1232, 433.62pt x 289.08pt>
+<Figures/CRFS_totalmort_gby.png, id=1240, 433.62pt x 289.08pt>
 File: Figures/CRFS_totalmort_gby.png Graphic file (type png)
 <use Figures/CRFS_totalmort_gby.png>
-Package pdftex.def Info: Figures/CRFS_totalmort_gby.png  used on input line 431
-9.
+Package pdftex.def Info: Figures/CRFS_totalmort_gby.png  used on input line 432
+8.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<r4ss/plots_mod1/data_plot.png, id=1233, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/data_plot.png, id=1241, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/data_plot.png Graphic file (type png)
 <use r4ss/plots_mod1/data_plot.png>
-Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 4327
+Package pdftex.def Info: r4ss/plots_mod1/data_plot.png  used on input line 4336
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/assessment_compare.png, id=1234, 433.62pt x 289.08pt>
+<Figures/assessment_compare.png, id=1242, 433.62pt x 289.08pt>
 File: Figures/assessment_compare.png Graphic file (type png)
 <use Figures/assessment_compare.png>
-Package pdftex.def Info: Figures/assessment_compare.png  used on input line 433
-4.
+Package pdftex.def Info: Figures/assessment_compare.png  used on input line 434
+3.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Calcom_vs_Pacfin.png, id=1235, 433.62pt x 289.08pt>
+<Figures/Calcom_vs_Pacfin.png, id=1243, 433.62pt x 289.08pt>
 File: Figures/Calcom_vs_Pacfin.png Graphic file (type png)
 <use Figures/Calcom_vs_Pacfin.png>
-Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 4345.
+Package pdftex.def Info: Figures/Calcom_vs_Pacfin.png  used on input line 4354.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Calcom_vs_pacfin_lengths.png, id=1236, 674.52pt x 674.52pt>
+<Figures/Calcom_vs_pacfin_lengths.png, id=1244, 674.52pt x 674.52pt>
 File: Figures/Calcom_vs_pacfin_lengths.png Graphic file (type png)
 <use Figures/Calcom_vs_pacfin_lengths.png>
 Package pdftex.def Info: Figures/Calcom_vs_pacfin_lengths.png  used on input li
-ne 4352.
+ne 4361.
 (pdftex.def)             Requested size: 469.76266pt x 469.76266pt.
-<Figures/Catches_original.png, id=1237, 433.62pt x 289.08pt>
+<Figures/Catches_original.png, id=1245, 433.62pt x 289.08pt>
 File: Figures/Catches_original.png Graphic file (type png)
 <use Figures/Catches_original.png>
-Package pdftex.def Info: Figures/Catches_original.png  used on input line 4361.
+Package pdftex.def Info: Figures/Catches_original.png  used on input line 4370.
 
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Catches_alternate.png, id=1238, 433.62pt x 289.08pt>
+<Figures/Catches_alternate.png, id=1246, 433.62pt x 289.08pt>
 File: Figures/Catches_alternate.png Graphic file (type png)
 <use Figures/Catches_alternate.png>
-Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 4369
+Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 4378
 .
+(pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
+<Figures/catches_difference.png, id=1247, 433.62pt x 289.08pt>
+File: Figures/catches_difference.png Graphic file (type png)
+<use Figures/catches_difference.png>
+Package pdftex.def Info: Figures/catches_difference.png  used on input line 438
+6.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 [75
 
@@ -1342,437 +1353,450 @@ Package pdftex.def Info: Figures/Catches_alternate.png  used on input line 4369
 ng>] [79 <./Figures/CRFS_totalmort_gby.png>] [80 <./r4ss/plots_mod1/data_plot.p
 ng>] [81 <./Figures/assessment_compare.png>] [82 <./Figures/Calcom_vs_Pacfin.pn
 g>] [83 <./Figures/calcom_vs_pacfin_lengths.png>] [84 <./Figures/Catches_origin
-al.png>] [85 <./Figures/Catches_alternate.png>]
-<Figures/All_index_compare.png, id=1295, 433.62pt x 289.08pt>
+al.png>] [85 <./Figures/Catches_alternate.png>] [86 <./Figures/catches_differen
+ce.png>]
+<Figures/All_index_compare.png, id=1309, 433.62pt x 289.08pt>
 File: Figures/All_index_compare.png Graphic file (type png)
 <use Figures/All_index_compare.png>
-Package pdftex.def Info: Figures/All_index_compare.png  used on input line 4379
+Package pdftex.def Info: Figures/All_index_compare.png  used on input line 4399
 .
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/MRFSS_index_compare.png, id=1296, 433.62pt x 289.08pt>
+<Figures/MRFSS_index_compare.png, id=1310, 433.62pt x 289.08pt>
 File: Figures/MRFSS_index_compare.png Graphic file (type png)
 <use Figures/MRFSS_index_compare.png>
-Package pdftex.def Info: Figures/MRFSS_index_compare.png  used on input line 43
-86.
+Package pdftex.def Info: Figures/MRFSS_index_compare.png  used on input line 44
+06.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Fleet10_SM_filter.png, id=1297, 578.16pt x 722.7pt>
+<Figures/Fleet10_SM_filter.png, id=1311, 578.16pt x 722.7pt>
 File: Figures/Fleet10_SM_filter.png Graphic file (type png)
 <use Figures/Fleet10_SM_filter.png>
-Package pdftex.def Info: Figures/Fleet10_SM_filter.png  used on input line 4395
+Package pdftex.def Info: Figures/Fleet10_SM_filter.png  used on input line 4415
 .
 (pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
-<Figures/MRFSS_index_N_SM_falsepos.png, id=1298, 433.62pt x 289.08pt>
+<Figures/MRFSS_index_N_SM_falsepos.png, id=1312, 433.62pt x 289.08pt>
 File: Figures/MRFSS_index_N_SM_falsepos.png Graphic file (type png)
 <use Figures/MRFSS_index_N_SM_falsepos.png>
 Package pdftex.def Info: Figures/MRFSS_index_N_SM_falsepos.png  used on input l
-ine 4404.
+ine 4424.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-<Figures/Fleet10_MLE_stan.png, id=1299, 433.62pt x 433.62pt>
+<Figures/Fleet10_MLE_stan.png, id=1313, 433.62pt x 433.62pt>
 File: Figures/Fleet10_MLE_stan.png Graphic file (type png)
 <use Figures/Fleet10_MLE_stan.png>
-Package pdftex.def Info: Figures/Fleet10_MLE_stan.png  used on input line 4413.
+Package pdftex.def Info: Figures/Fleet10_MLE_stan.png  used on input line 4433.
 
 (pdftex.def)             Requested size: 433.63878pt x 433.63878pt.
-<Figures/Fleet10_prop_zero_STAN.png, id=1300, 433.62pt x 216.81pt>
+<Figures/Fleet10_prop_zero_STAN.png, id=1314, 433.62pt x 216.81pt>
 File: Figures/Fleet10_prop_zero_STAN.png Graphic file (type png)
 <use Figures/Fleet10_prop_zero_STAN.png>
 Package pdftex.def Info: Figures/Fleet10_prop_zero_STAN.png  used on input line
- 4421.
+ 4441.
 (pdftex.def)             Requested size: 433.63878pt x 216.81938pt.
-[86 <./Figures/All_index_compare.png>] [87 <./Figures/MRFSS_index_compare.png>]
-[88 <./Figures/Fleet10_SM_filter.png>] [89 <./Figures/MRFSS_index_N_SM_falsepos
-.png>] [90 <./Figures/Fleet10_MLE_stan.png>] [91 <./Figures/FLeet10_prop_zero_S
+[87 <./Figures/All_index_compare.png>] [88 <./Figures/MRFSS_index_compare.png>]
+[89 <./Figures/Fleet10_SM_filter.png>] [90 <./Figures/MRFSS_index_N_SM_falsepos
+.png>] [91 <./Figures/Fleet10_MLE_stan.png>] [92 <./Figures/FLeet10_prop_zero_S
 TAN.png>]
-<Figures/Fleet11_SM_filter.png, id=1333, 578.16pt x 722.7pt>
+<Figures/Fleet11_SM_filter.png, id=1347, 578.16pt x 722.7pt>
 File: Figures/Fleet11_SM_filter.png Graphic file (type png)
 <use Figures/Fleet11_SM_filter.png>
-Package pdftex.def Info: Figures/Fleet11_SM_filter.png  used on input line 4432
+Package pdftex.def Info: Figures/Fleet11_SM_filter.png  used on input line 4452
 .
 (pdftex.def)             Requested size: 469.75385pt x 587.1923pt.
-[92 <./Figures/Fleet11_SM_filter.png>]
-<Figures/DebWV_sites.png, id=1339, 614.295pt x 794.97pt>
+[93 <./Figures/Fleet11_SM_filter.png>]
+<Figures/DebWV_sites.png, id=1353, 614.295pt x 794.97pt>
 File: Figures/DebWV_sites.png Graphic file (type png)
 <use Figures/DebWV_sites.png>
-Package pdftex.def Info: Figures/DebWV_sites.png  used on input line 4443.
+Package pdftex.def Info: Figures/DebWV_sites.png  used on input line 4463.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-<Figures/DebWV_index_compare.png, id=1340, 433.62pt x 289.08pt>
+<Figures/DebWV_index_compare.png, id=1354, 433.62pt x 289.08pt>
 File: Figures/DebWV_index_compare.png Graphic file (type png)
 <use Figures/DebWV_index_compare.png>
 Package pdftex.def Info: Figures/DebWV_index_compare.png  used on input line 44
-50.
+70.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[93 <./Figures/DebWV_sites.png (PNG copy)>] [94 <./Figures/DebWV_index_compare.
+[94 <./Figures/DebWV_sites.png (PNG copy)>] [95 <./Figures/DebWV_index_compare.
 png>]
-<Figures/Onboard_observer_north_sites.png, id=1350, 614.295pt x 794.97pt>
+<Figures/Onboard_observer_north_sites.png, id=1364, 614.295pt x 794.97pt>
 File: Figures/Onboard_observer_north_sites.png Graphic file (type png)
 <use Figures/Onboard_observer_north_sites.png>
 Package pdftex.def Info: Figures/Onboard_observer_north_sites.png  used on inpu
-t line 4460.
+t line 4480.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-[95 <./Figures/Onboard_observer_north_sites.png (PNG copy)>]
-<Figures/Onboard_observer_south_sites.png, id=1355, 794.97pt x 614.295pt>
+[96 <./Figures/Onboard_observer_north_sites.png (PNG copy)>]
+<Figures/Onboard_observer_south_sites.png, id=1370, 794.97pt x 614.295pt>
 File: Figures/Onboard_observer_south_sites.png Graphic file (type png)
 <use Figures/Onboard_observer_south_sites.png>
 Package pdftex.def Info: Figures/Onboard_observer_south_sites.png  used on inpu
-t line 4470.
+t line 4490.
 (pdftex.def)             Requested size: 469.76819pt x 363.00267pt.
-[96 <./Figures/Onboard_observer_south_sites.png (PNG copy)>]
-<Figures/CCFRP_sites.png, id=1361, 614.295pt x 794.97pt>
+[97 <./Figures/Onboard_observer_south_sites.png (PNG copy)>]
+<Figures/CCFRP_sites.png, id=1375, 614.295pt x 794.97pt>
 File: Figures/CCFRP_sites.png Graphic file (type png)
 <use Figures/CCFRP_sites.png>
-Package pdftex.def Info: Figures/CCFRP_sites.png  used on input line 4480.
+Package pdftex.def Info: Figures/CCFRP_sites.png  used on input line 4500.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-[97 <./Figures/CCFRP_sites.png (PNG copy)>]
-<Figures/Fleet9_MLE_stan.png, id=1366, 433.62pt x 433.62pt>
+[98 <./Figures/CCFRP_sites.png (PNG copy)>]
+<Figures/Fleet9_MLE_stan.png, id=1380, 433.62pt x 433.62pt>
 File: Figures/Fleet9_MLE_stan.png Graphic file (type png)
 <use Figures/Fleet9_MLE_stan.png>
-Package pdftex.def Info: Figures/Fleet9_MLE_stan.png  used on input line 4489.
+Package pdftex.def Info: Figures/Fleet9_MLE_stan.png  used on input line 4509.
 (pdftex.def)             Requested size: 433.63878pt x 433.63878pt.
-[98 <./Figures/Fleet9_MLE_stan.png>]
-<Figures/Fleet9_prop_zero_STAN.png, id=1372, 433.62pt x 216.81pt>
+[99 <./Figures/Fleet9_MLE_stan.png>]
+<Figures/Fleet9_prop_zero_STAN.png, id=1386, 433.62pt x 216.81pt>
 File: Figures/Fleet9_prop_zero_STAN.png Graphic file (type png)
 <use Figures/Fleet9_prop_zero_STAN.png>
 Package pdftex.def Info: Figures/Fleet9_prop_zero_STAN.png  used on input line 
-4499.
+4519.
 (pdftex.def)             Requested size: 433.63878pt x 216.81938pt.
-[99 <./Figures/Fleet9_prop_zero_STAN.png>]
-<Figures/CCFRP_lengths_by_site.png, id=1379, 674.52pt x 674.52pt>
+[100 <./Figures/Fleet9_prop_zero_STAN.png>]
+<Figures/CCFRP_lengths_by_site.png, id=1393, 674.52pt x 674.52pt>
 File: Figures/CCFRP_lengths_by_site.png Graphic file (type png)
 <use Figures/CCFRP_lengths_by_site.png>
 Package pdftex.def Info: Figures/CCFRP_lengths_by_site.png  used on input line 
-4509.
+4529.
 (pdftex.def)             Requested size: 469.76266pt x 469.76266pt.
-<Figures/PISCO_sites.png, id=1380, 614.295pt x 794.97pt>
+<Figures/PISCO_sites.png, id=1394, 614.295pt x 794.97pt>
 File: Figures/PISCO_sites.png Graphic file (type png)
 <use Figures/PISCO_sites.png>
-Package pdftex.def Info: Figures/PISCO_sites.png  used on input line 4516.
+Package pdftex.def Info: Figures/PISCO_sites.png  used on input line 4536.
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
-[100 <./Figures/CCFRP_lengths_by_site.png>] [101 <./Figures/PISCO_sites.png (PN
+[101 <./Figures/CCFRP_lengths_by_site.png>] [102 <./Figures/PISCO_sites.png (PN
 G copy)>]
-<Figures/Fleet8_MLE_stan.png, id=1390, 433.62pt x 433.62pt>
+<Figures/Fleet8_MLE_stan.png, id=1405, 433.62pt x 433.62pt>
 File: Figures/Fleet8_MLE_stan.png Graphic file (type png)
 <use Figures/Fleet8_MLE_stan.png>
-Package pdftex.def Info: Figures/Fleet8_MLE_stan.png  used on input line 4525.
+Package pdftex.def Info: Figures/Fleet8_MLE_stan.png  used on input line 4545.
 (pdftex.def)             Requested size: 433.63878pt x 433.63878pt.
-[102 <./Figures/Fleet8_MLE_stan.png>]
-<Figures/Fleet8_prop_zero_STAN.png, id=1397, 433.62pt x 216.81pt>
+[103 <./Figures/Fleet8_MLE_stan.png>]
+<Figures/Fleet8_prop_zero_STAN.png, id=1411, 433.62pt x 216.81pt>
 File: Figures/Fleet8_prop_zero_STAN.png Graphic file (type png)
 <use Figures/Fleet8_prop_zero_STAN.png>
 Package pdftex.def Info: Figures/Fleet8_prop_zero_STAN.png  used on input line 
-4535.
+4555.
 (pdftex.def)             Requested size: 433.63878pt x 216.81938pt.
-[103 <./Figures/Fleet8_prop_zero_STAN.png>]
-<Figures/PISCO_lengths.png, id=1403, 1061.9675pt x 566.115pt>
+[104 <./Figures/Fleet8_prop_zero_STAN.png>]
+<Figures/PISCO_lengths.png, id=1417, 1061.9675pt x 566.115pt>
 File: Figures/PISCO_lengths.png Graphic file (type png)
 <use Figures/PISCO_lengths.png>
-Package pdftex.def Info: Figures/PISCO_lengths.png  used on input line 4546.
+Package pdftex.def Info: Figures/PISCO_lengths.png  used on input line 4566.
 (pdftex.def)             Requested size: 469.7626pt x 250.42165pt.
-[104 <./Figures/PISCO_lengths.png (PNG copy)>]
-<r4ss/plots_mod1/comp_lendat__aggregated_across_time.png, id=1408, 469.755pt x 
+[105 <./Figures/PISCO_lengths.png (PNG copy)>]
+<r4ss/plots_mod1/comp_lendat__aggregated_across_time.png, id=1422, 469.755pt x 
 361.35pt>
 File: r4ss/plots_mod1/comp_lendat__aggregated_across_time.png Graphic file (typ
 e png)
 <use r4ss/plots_mod1/comp_lendat__aggregated_across_time.png>
 Package pdftex.def Info: r4ss/plots_mod1/comp_lendat__aggregated_across_time.pn
-g  used on input line 4557.
+g  used on input line 4577.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/Age_length_by_study.png, id=1409, 674.52pt x 674.52pt>
+<Figures/Age_length_by_study.png, id=1423, 674.52pt x 674.52pt>
 File: Figures/Age_length_by_study.png Graphic file (type png)
 <use Figures/Age_length_by_study.png>
 Package pdftex.def Info: Figures/Age_length_by_study.png  used on input line 45
-66.
+86.
 (pdftex.def)             Requested size: 469.76266pt x 469.76266pt.
-<Figures/Growth_by_species.png, id=1410, 674.52pt x 674.52pt>
+<Figures/Growth_by_species.png, id=1424, 674.52pt x 674.52pt>
 File: Figures/Growth_by_species.png Graphic file (type png)
 <use Figures/Growth_by_species.png>
-Package pdftex.def Info: Figures/Growth_by_species.png  used on input line 4575
+Package pdftex.def Info: Figures/Growth_by_species.png  used on input line 4595
 .
 (pdftex.def)             Requested size: 469.76266pt x 469.76266pt.
-<Figures/Growth_by_sex.png, id=1411, 505.89pt x 505.89pt>
+<Figures/Growth_by_sex.png, id=1425, 505.89pt x 505.89pt>
 File: Figures/Growth_by_sex.png Graphic file (type png)
 <use Figures/Growth_by_sex.png>
-Package pdftex.def Info: Figures/Growth_by_sex.png  used on input line 4583.
+Package pdftex.def Info: Figures/Growth_by_sex.png  used on input line 4603.
 (pdftex.def)             Requested size: 469.76265pt x 469.76265pt.
-<Figures/GBY_maturity_ogive.png, id=1412, 469.755pt x 361.35pt>
+<Figures/GBY_maturity_ogive.png, id=1426, 469.755pt x 361.35pt>
 File: Figures/GBY_maturity_ogive.png Graphic file (type png)
 <use Figures/GBY_maturity_ogive.png>
-Package pdftex.def Info: Figures/GBY_maturity_ogive.png  used on input line 459
+Package pdftex.def Info: Figures/GBY_maturity_ogive.png  used on input line 461
 0.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/GBY_age_error.png, id=1413, 469.755pt x 469.755pt>
+<Figures/GBY_age_error.png, id=1427, 469.755pt x 469.755pt>
 File: Figures/GBY_age_error.png Graphic file (type png)
 <use Figures/GBY_age_error.png>
-Package pdftex.def Info: Figures/GBY_age_error.png  used on input line 4599.
+Package pdftex.def Info: Figures/GBY_age_error.png  used on input line 4619.
 (pdftex.def)             Requested size: 469.75386pt x 469.75386pt.
-<Figures/GBY_age_error2.png, id=1414, 433.62pt x 216.81pt>
+<Figures/GBY_age_error2.png, id=1428, 433.62pt x 216.81pt>
 File: Figures/GBY_age_error2.png Graphic file (type png)
 <use Figures/GBY_age_error2.png>
-Package pdftex.def Info: Figures/GBY_age_error2.png  used on input line 4607.
+Package pdftex.def Info: Figures/GBY_age_error2.png  used on input line 4627.
 (pdftex.def)             Requested size: 433.63878pt x 216.81938pt.
-<Figures/GBY_weight_length.png, id=1415, 469.755pt x 361.35pt>
+<Figures/GBY_weight_length.png, id=1429, 469.755pt x 361.35pt>
 File: Figures/GBY_weight_length.png Graphic file (type png)
 <use Figures/GBY_weight_length.png>
-Package pdftex.def Info: Figures/GBY_weight_length.png  used on input line 4615
+Package pdftex.def Info: Figures/GBY_weight_length.png  used on input line 4635
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[105 <./r4ss/plots_mod1/comp_lendat__aggregated_across_time.png>] [106 <./Figur
-es/Age_length_by_study.png>] [107 <./Figures/Growth_By_species.png>] [108 <./Fi
-gures/Growth_by_sex.png>] [109 <./Figures/GBY_maturity_ogive.png>] [110 <./Figu
-res/GBY_age_error.png>] [111 <./Figures/GBY_age_error2.png>] [112 <./Figures/GB
+[106 <./r4ss/plots_mod1/comp_lendat__aggregated_across_time.png>] [107 <./Figur
+es/Age_length_by_study.png>] [108 <./Figures/Growth_By_species.png>] [109 <./Fi
+gures/Growth_by_sex.png>] [110 <./Figures/GBY_maturity_ogive.png>] [111 <./Figu
+res/GBY_age_error.png>] [112 <./Figures/GBY_age_error2.png>] [113 <./Figures/GB
 Y_weight_length.png (PNG copy)>]
-<Figures/SMURF_lengths.png, id=1457, 433.62pt x 289.08pt>
+<Figures/SMURF_lengths.png, id=1471, 433.62pt x 289.08pt>
 File: Figures/SMURF_lengths.png Graphic file (type png)
 <use Figures/SMURF_lengths.png>
-Package pdftex.def Info: Figures/SMURF_lengths.png  used on input line 4627.
+Package pdftex.def Info: Figures/SMURF_lengths.png  used on input line 4647.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[113 <./Figures/SMURF_lengths.png>]
-<Figures/Comm_lengths_justification.png, id=1463, 433.62pt x 289.08pt>
+[114 <./Figures/SMURF_lengths.png>]
+<Figures/Comm_lengths_justification.png, id=1478, 433.62pt x 289.08pt>
 File: Figures/Comm_lengths_justification.png Graphic file (type png)
 <use Figures/Comm_lengths_justification.png>
 Package pdftex.def Info: Figures/Comm_lengths_justification.png  used on input 
-line 4639.
+line 4659.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[114 <./Figures/Comm_lengths_justification.png>]
-<Figures/Rec_lengths_justification.png, id=1470, 433.62pt x 289.08pt>
+[115 <./Figures/Comm_lengths_justification.png>]
+<Figures/Rec_lengths_justification.png, id=1484, 433.62pt x 289.08pt>
 File: Figures/Rec_lengths_justification.png Graphic file (type png)
 <use Figures/Rec_lengths_justification.png>
 Package pdftex.def Info: Figures/Rec_lengths_justification.png  used on input l
-ine 4651.
+ine 4671.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
-[115 <./Figures/Rec_lengths_justification.png>]
-<r4ss/plots_mod1/sel01_multiple_fleets_length1.png, id=1476, 469.755pt x 361.35
+[116 <./Figures/Rec_lengths_justification.png>]
+<Figures/growth_compare.png, id=1490, 655.44875pt x 655.44875pt>
+File: Figures/growth_compare.png Graphic file (type png)
+<use Figures/growth_compare.png>
+Package pdftex.def Info: Figures/growth_compare.png  used on input line 4681.
+(pdftex.def)             Requested size: 469.75244pt x 469.75244pt.
+[117 <./Figures/growth_compare.png>]
+<r4ss/plots_mod1/sel01_multiple_fleets_length1.png, id=1496, 469.755pt x 361.35
 pt>
 File: r4ss/plots_mod1/sel01_multiple_fleets_length1.png Graphic file (type png)
 
 <use r4ss/plots_mod1/sel01_multiple_fleets_length1.png>
 Package pdftex.def Info: r4ss/plots_mod1/sel01_multiple_fleets_length1.png  use
-d on input line 4663.
+d on input line 4693.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png, id=1477, 469.755pt x 361
+<r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png, id=1497, 469.755pt x 361
 .35pt>
 File: r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png Graphic file (type p
 ng)
 <use r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png>
 Package pdftex.def Info: r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png  
-used on input line 4670.
+used on input line 4700.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[116 <./r4ss/plots_mod1/sel01_multiple_fleets_length1.png>] [117 <./r4ss/plots_
+[118 <./r4ss/plots_mod1/sel01_multiple_fleets_length1.png>] [119 <./r4ss/plots_
 mod1/sel03_len_timevary_surf_flt1sex1.png>]
-<r4ss/plots_mod1/recdevs2_withbars.png, id=1488, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/recdevs2_withbars.png, id=1508, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/recdevs2_withbars.png Graphic file (type png)
 <use r4ss/plots_mod1/recdevs2_withbars.png>
 Package pdftex.def Info: r4ss/plots_mod1/recdevs2_withbars.png  used on input l
-ine 4680.
+ine 4710.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 File: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.
 png Graphic file (type png)
 <use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
 ng>
 Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 4687.
+ymptotic_intervals.png  used on input line 4717.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/SR_curve2.png, id=1489, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/recruit_fit_bias_adjust.png, id=1509, 469.755pt x 361.35pt>
+File: r4ss/plots_mod1/recruit_fit_bias_adjust.png Graphic file (type png)
+<use r4ss/plots_mod1/recruit_fit_bias_adjust.png>
+Package pdftex.def Info: r4ss/plots_mod1/recruit_fit_bias_adjust.png  used on i
+nput line 4725.
+(pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
+<r4ss/plots_mod1/SR_curve2.png, id=1510, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/SR_curve2.png Graphic file (type png)
 <use r4ss/plots_mod1/SR_curve2.png>
-Package pdftex.def Info: r4ss/plots_mod1/SR_curve2.png  used on input line 4695
+Package pdftex.def Info: r4ss/plots_mod1/SR_curve2.png  used on input line 4735
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[118 <./r4ss/plots_mod1/recdevs2_withbars.png>] [119] [120 <./r4ss/plots_mod1/S
-R_curve2.png (PNG copy)>]
-<r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png, id=1504, 469.755pt x 3
+[120 <./r4ss/plots_mod1/recdevs2_withbars.png>] [121] [122 <./r4ss/plots_mod1/r
+ecruit_fit_bias_adjust.png>] [123 <./r4ss/plots_mod1/SR_curve2.png (PNG copy)>]
+<r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png, id=1530, 469.755pt x 3
 61.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png Graphic file (type
  png)
 <use r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png
-  used on input line 4706.
+  used on input line 4746.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png, id=1505, 469.755pt x 3
+<r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png, id=1531, 469.755pt x 3
 61.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png Graphic file (type
  png)
 <use r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png
-  used on input line 4716.
+  used on input line 4756.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png, id=1506, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png, id=1532, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png Graphic file (type png)
 <use r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png  used on
- input line 4726.
+ input line 4766.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png, id=1507, 469.755pt x 36
+<r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png, id=1533, 469.755pt x 36
 1.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png Graphic file (type 
 png)
 <use r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png 
- used on input line 4736.
+ used on input line 4776.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png, id=1508, 469.755pt x 36
+<r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png, id=1534, 469.755pt x 36
 1.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png Graphic file (type 
 png)
 <use r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png 
- used on input line 4746.
+ used on input line 4786.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_PISCO.png, id=1509, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/index5_logcpuefit_PISCO.png, id=1535, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_PISCO.png Graphic file (type png)
 <use r4ss/plots_mod1/index5_logcpuefit_PISCO.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_PISCO.png  used on i
-nput line 4756.
+nput line 4796.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/index5_logcpuefit_CCFRP.png, id=1510, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/index5_logcpuefit_CCFRP.png, id=1536, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/index5_logcpuefit_CCFRP.png Graphic file (type png)
 <use r4ss/plots_mod1/index5_logcpuefit_CCFRP.png>
 Package pdftex.def Info: r4ss/plots_mod1/index5_logcpuefit_CCFRP.png  used on i
-nput line 4766.
+nput line 4806.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[121 <./r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png>] [122 <./r4ss/p
-lots_mod1/index5_logcpuefit_RecDocksideSouth.png>] [123 <./r4ss/plots_mod1/inde
-x5_logcpuefit_DebCPFV.png>] [124 <./r4ss/plots_mod1/index5_logcpuefit_RecOnboar
-dNorth.png>] [125 <./r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png>] [1
-26 <./r4ss/plots_mod1/index5_logcpuefit_PISCO.png>] [127 <./r4ss/plots_mod1/ind
+[124 <./r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png>] [125 <./r4ss/p
+lots_mod1/index5_logcpuefit_RecDocksideSouth.png>] [126 <./r4ss/plots_mod1/inde
+x5_logcpuefit_DebCPFV.png>] [127 <./r4ss/plots_mod1/index5_logcpuefit_RecOnboar
+dNorth.png>] [128 <./r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png>] [1
+29 <./r4ss/plots_mod1/index5_logcpuefit_PISCO.png>] [130 <./r4ss/plots_mod1/ind
 ex5_logcpuefit_CCFRP.png>]
-<r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png, id=1552, 469.755pt x 
+<r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png, id=1578, 469.755pt x 
 361.35pt>
 File: r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png Graphic file (typ
 e png)
 <use r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png>
 Package pdftex.def Info: r4ss/plots_mod1/comp_lenfit__aggregated_across_time.pn
-g  used on input line 4778.
+g  used on input line 4818.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[128 <./r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png>]
+[131 <./r4ss/plots_mod1/comp_lenfit__aggregated_across_time.png>]
 <r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png, id=1
-558, 469.755pt x 361.35pt>
+585, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png 
 Graphic file (type png)
 <use r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png>
 Package pdftex.def Info: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_c
-ondAgeRecNorth.png  used on input line 4787.
+ondAgeRecNorth.png  used on input line 4827.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png, id=1559
+<r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png, id=1586
 , 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png Gra
 phic file (type png)
 <use r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png>
 Package pdftex.def Info: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_c
-ondAgeCCFRP.png  used on input line 4799.
+ondAgeCCFRP.png  used on input line 4839.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png, id=156
-0, 469.755pt x 361.35pt>
+<r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png, id=158
+7, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png Gr
 aphic file (type png)
 <use r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png>
 Package pdftex.def Info: r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_c
-ondAgeDummy1.png  used on input line 4810.
+ondAgeDummy1.png  used on input line 4850.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[129 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.pn
-g>] [130 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.p
-ng>] [131 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1
+[132 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.pn
+g>] [133 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.p
+ng>] [134 <./r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1
 .png>]
-<Figures/sensitivity1_spawnbio.png, id=1576, 469.755pt x 361.35pt>
+<Figures/sensitivity1_spawnbio.png, id=1604, 469.755pt x 361.35pt>
 File: Figures/sensitivity1_spawnbio.png Graphic file (type png)
 <use Figures/sensitivity1_spawnbio.png>
 Package pdftex.def Info: Figures/sensitivity1_spawnbio.png  used on input line 
-4823.
+4863.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/sensitivity2_spawnbio.png, id=1577, 469.755pt x 361.35pt>
+<Figures/sensitivity2_spawnbio.png, id=1605, 469.755pt x 361.35pt>
 File: Figures/sensitivity2_spawnbio.png Graphic file (type png)
 <use Figures/sensitivity2_spawnbio.png>
 Package pdftex.def Info: Figures/sensitivity2_spawnbio.png  used on input line 
-4833.
+4873.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[132 <./Figures/sensitivity1_spawnbio.png>] [133 <./Figures/sensitivity2_spawnb
+[135 <./Figures/sensitivity1_spawnbio.png>] [136 <./Figures/sensitivity2_spawnb
 io.png>]
-<Figures/retro_spawnb.png, id=1590, 469.755pt x 361.35pt>
+<Figures/retro_spawnb.png, id=1616, 469.755pt x 361.35pt>
 File: Figures/retro_spawnb.png Graphic file (type png)
 <use Figures/retro_spawnb.png>
-Package pdftex.def Info: Figures/retro_spawnb.png  used on input line 4843.
+Package pdftex.def Info: Figures/retro_spawnb.png  used on input line 4883.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[134 <./Figures/retro_spawnb.png>]
-<Figures/retro_recdev.png, id=1596, 469.755pt x 361.35pt>
+[137 <./Figures/retro_spawnb.png>]
+<Figures/retro_recdev.png, id=1622, 469.755pt x 361.35pt>
 File: Figures/retro_recdev.png Graphic file (type png)
 <use Figures/retro_recdev.png>
-Package pdftex.def Info: Figures/retro_recdev.png  used on input line 4852.
+Package pdftex.def Info: Figures/retro_recdev.png  used on input line 4892.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[135 <./Figures/retro_recdev.png>]
-<Figures/profile_R0_piner.png, id=1602, 469.755pt x 361.35pt>
+[138 <./Figures/retro_recdev.png>]
+<Figures/profile_R0_piner.png, id=1629, 469.755pt x 361.35pt>
 File: Figures/profile_R0_piner.png Graphic file (type png)
 <use Figures/profile_R0_piner.png>
-Package pdftex.def Info: Figures/profile_R0_piner.png  used on input line 4861.
+Package pdftex.def Info: Figures/profile_R0_piner.png  used on input line 4901.
 
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_R0_like.png, id=1603, 469.755pt x 361.35pt>
+<Figures/profile_R0_like.png, id=1630, 469.755pt x 361.35pt>
 File: Figures/profile_R0_like.png Graphic file (type png)
 <use Figures/profile_R0_like.png>
-Package pdftex.def Info: Figures/profile_R0_like.png  used on input line 4868.
+Package pdftex.def Info: Figures/profile_R0_like.png  used on input line 4908.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_R0_depl.png, id=1604, 469.755pt x 361.35pt>
+<Figures/profile_R0_depl.png, id=1631, 469.755pt x 361.35pt>
 File: Figures/profile_R0_depl.png Graphic file (type png)
 <use Figures/profile_R0_depl.png>
-Package pdftex.def Info: Figures/profile_R0_depl.png  used on input line 4875.
+Package pdftex.def Info: Figures/profile_R0_depl.png  used on input line 4915.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[136 <./Figures/profile_R0_piner.png>] [137 <./Figures/profile_R0_like.png>] [1
-38 <./Figures/profile_R0_depl.png (PNG copy)>]
-<Figures/profile_h_piner.png, id=1620, 469.755pt x 361.35pt>
+[139 <./Figures/profile_R0_piner.png>] [140 <./Figures/profile_R0_like.png>] [1
+41 <./Figures/profile_R0_depl.png (PNG copy)>]
+<Figures/profile_h_piner.png, id=1646, 469.755pt x 361.35pt>
 File: Figures/profile_h_piner.png Graphic file (type png)
 <use Figures/profile_h_piner.png>
-Package pdftex.def Info: Figures/profile_h_piner.png  used on input line 4884.
+Package pdftex.def Info: Figures/profile_h_piner.png  used on input line 4924.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_h_like.png, id=1621, 469.755pt x 361.35pt>
+<Figures/profile_h_like.png, id=1647, 469.755pt x 361.35pt>
 File: Figures/profile_h_like.png Graphic file (type png)
 <use Figures/profile_h_like.png>
-Package pdftex.def Info: Figures/profile_h_like.png  used on input line 4891.
+Package pdftex.def Info: Figures/profile_h_like.png  used on input line 4931.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_h_depl.png, id=1622, 469.755pt x 361.35pt>
+<Figures/profile_h_depl.png, id=1648, 469.755pt x 361.35pt>
 File: Figures/profile_h_depl.png Graphic file (type png)
 <use Figures/profile_h_depl.png>
-Package pdftex.def Info: Figures/profile_h_depl.png  used on input line 4898.
+Package pdftex.def Info: Figures/profile_h_depl.png  used on input line 4938.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_m_piner.png, id=1623, 469.755pt x 361.35pt>
+<Figures/profile_m_piner.png, id=1649, 469.755pt x 361.35pt>
 File: Figures/profile_m_piner.png Graphic file (type png)
 <use Figures/profile_m_piner.png>
-Package pdftex.def Info: Figures/profile_m_piner.png  used on input line 4905.
+Package pdftex.def Info: Figures/profile_m_piner.png  used on input line 4945.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_m_like.png, id=1624, 469.755pt x 361.35pt>
+<Figures/profile_m_like.png, id=1650, 469.755pt x 361.35pt>
 File: Figures/profile_m_like.png Graphic file (type png)
 <use Figures/profile_m_like.png>
-Package pdftex.def Info: Figures/profile_m_like.png  used on input line 4912.
+Package pdftex.def Info: Figures/profile_m_like.png  used on input line 4952.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<Figures/profile_m_depl.png, id=1625, 469.755pt x 361.35pt>
+<Figures/profile_m_depl.png, id=1651, 469.755pt x 361.35pt>
 File: Figures/profile_m_depl.png Graphic file (type png)
 <use Figures/profile_m_depl.png>
-Package pdftex.def Info: Figures/profile_m_depl.png  used on input line 4919.
+Package pdftex.def Info: Figures/profile_m_depl.png  used on input line 4959.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[139 <./Figures/profile_h_piner.png>] [140 <./Figures/profile_h_like.png>] [141
- <./Figures/profile_h_depl.png (PNG copy)>] [142 <./Figures/profile_m_piner.png
->] [143 <./Figures/profile_m_like.png>] [144 <./Figures/profile_m_depl.png (PNG
+[142 <./Figures/profile_h_piner.png>] [143 <./Figures/profile_h_like.png>] [144
+ <./Figures/profile_h_depl.png (PNG copy)>] [145 <./Figures/profile_m_piner.png
+>] [146 <./Figures/profile_m_like.png>] [147 <./Figures/profile_m_depl.png (PNG
  copy)>]
 File: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_interval
 s.png Graphic file (type png)
 <use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
 .png>
 Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 4928.
+_intervals_intervals.png  used on input line 4968.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 File: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png G
 raphic file (type png)
 <use r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png>
 Package pdftex.def Info: r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_interv
-als_intervals.png  used on input line 4936.
+als_intervals.png  used on input line 4976.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
 <use r4ss/plots_mod1/yield1_yield_curve.png>
 Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 4944.
+line 4984.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[145] [146] [147]
-<Figures/Comm_regs1.pdf, id=1670, 614.29457pt x 794.97043pt>
+[148] [149] [150]
+<Figures/Comm_regs1.pdf, id=1697, 614.29457pt x 794.97043pt>
 File: Figures/Comm_regs1.pdf Graphic file (type pdf)
 <use Figures/Comm_regs1.pdf>
-Package pdftex.def Info: Figures/Comm_regs1.pdf  used on input line 4968.
+Package pdftex.def Info: Figures/Comm_regs1.pdf  used on input line 5008.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [1
 
@@ -1803,29 +1827,27 @@ Package pdftex.def Info: Figures/Comm_regs1.pdf  used on input line 4968.
 
 
 
-]
-Package marginnote Info: Using workaround for absolute page number on input lin
-e 4972.
-[2 <./Figures/Comm_regs1.pdf>]
-<Figures/Comm_regs2.pdf, id=1693, 614.29457pt x 794.97043pt>
+
+] [2 <./Figures/Comm_regs1.pdf>]
+<Figures/Comm_regs2.pdf, id=1720, 614.29457pt x 794.97043pt>
 File: Figures/Comm_regs2.pdf Graphic file (type pdf)
 <use Figures/Comm_regs2.pdf>
-Package pdftex.def Info: Figures/Comm_regs2.pdf  used on input line 4976.
+Package pdftex.def Info: Figures/Comm_regs2.pdf  used on input line 5016.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [3 <./Figures/Comm_regs2.pdf>]
-<Figures/Comm_regs3.pdf, id=1713, 614.29457pt x 794.97043pt>
+<Figures/Comm_regs3.pdf, id=1740, 614.29457pt x 794.97043pt>
 File: Figures/Comm_regs3.pdf Graphic file (type pdf)
 <use Figures/Comm_regs3.pdf>
-Package pdftex.def Info: Figures/Comm_regs3.pdf  used on input line 4984.
+Package pdftex.def Info: Figures/Comm_regs3.pdf  used on input line 5024.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [4 <./Figures/Comm_regs3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Rec_regs1.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Rec_regs1.pdf, id=1730, 614.29457pt x 794.97043pt>
+<Figures/Rec_regs1.pdf, id=1757, 614.29457pt x 794.97043pt>
 File: Figures/Rec_regs1.pdf Graphic file (type pdf)
 <use Figures/Rec_regs1.pdf>
-Package pdftex.def Info: Figures/Rec_regs1.pdf  used on input line 5004.
+Package pdftex.def Info: Figures/Rec_regs1.pdf  used on input line 5044.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [1
 
@@ -1834,71 +1856,71 @@ Package pdftex.def Info: Figures/Rec_regs1.pdf  used on input line 5004.
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Rec_regs2.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Rec_regs2.pdf, id=1754, 614.29457pt x 794.97043pt>
+<Figures/Rec_regs2.pdf, id=1781, 614.29457pt x 794.97043pt>
 File: Figures/Rec_regs2.pdf Graphic file (type pdf)
 <use Figures/Rec_regs2.pdf>
-Package pdftex.def Info: Figures/Rec_regs2.pdf  used on input line 5012.
+Package pdftex.def Info: Figures/Rec_regs2.pdf  used on input line 5052.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [3 <./Figures/Rec_regs2.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Rec_regs3.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Rec_regs3.pdf, id=1773, 614.29457pt x 794.97043pt>
+<Figures/Rec_regs3.pdf, id=1800, 614.29457pt x 794.97043pt>
 File: Figures/Rec_regs3.pdf Graphic file (type pdf)
 <use Figures/Rec_regs3.pdf>
-Package pdftex.def Info: Figures/Rec_regs3.pdf  used on input line 5020.
+Package pdftex.def Info: Figures/Rec_regs3.pdf  used on input line 5060.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [4 <./Figures/Rec_regs3.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./Figures/Rec_regs4.pdf): PDF inclusion: fou
 nd PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Rec_regs4.pdf, id=1792, 614.29457pt x 794.97043pt>
+<Figures/Rec_regs4.pdf, id=1819, 614.29457pt x 794.97043pt>
 File: Figures/Rec_regs4.pdf Graphic file (type pdf)
 <use Figures/Rec_regs4.pdf>
-Package pdftex.def Info: Figures/Rec_regs4.pdf  used on input line 5028.
+Package pdftex.def Info: Figures/Rec_regs4.pdf  used on input line 5068.
 (pdftex.def)             Requested size: 469.75572pt x 607.91992pt.
 [5 <./Figures/Rec_regs4.pdf>]
-<./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png, id=1812, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png, id=1838, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png  used on in
-put line 5047.
+put line 5087.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png, id=1813, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png, id=1839, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png  used on in
-put line 5056.
+put line 5096.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png, id=1814, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png, id=1840, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png  used on in
-put line 5065.
+put line 5105.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png, id=1815, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png, id=1841, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png  used on in
-put line 5074.
+put line 5114.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png, id=1816, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png, id=1842, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png  used on in
-put line 5083.
+put line 5123.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png, id=1817, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png, id=1843, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png  used on in
-put line 5092.
+put line 5132.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-<./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png, id=1818, 469.755pt x 361.35pt>
+<./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png, id=1844, 469.755pt x 361.35pt>
 File: ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png Graphic file (type png)
 <use ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png>
 Package pdftex.def Info: ./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png  used on in
-put line 5101.
+put line 5141.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [1
 
@@ -1906,7 +1928,7 @@ put line 5101.
 
 ]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 5108.
+e 5148.
 [2 <./r4ss/plots_mod1/comp_lenfit_flt1mkt2.png>] [3 <./r4ss/plots_mod1/comp_len
 fit_flt2mkt2.png>] [4 <./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png>] [5 <./r4ss/
 plots_mod1/comp_lenfit_flt4mkt0.png>] [6 <./r4ss/plots_mod1/comp_lenfit_flt5mkt
@@ -1915,47 +1937,47 @@ comp_lenfit_flt9mkt0.png>] [9]pdfTeX warning (ext4): destination with the same
 identifier (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5257 
+l.5297 
         [10]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5324 
+l.5364 
         [11]pdfTeX warning (ext4): destination with the same identifier (name{p
 age.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5389 
+l.5429 
         [12]
 No complaints by nag.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5447.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 5487.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.5447 \end{document}
+l.5487 \end{document}
                       [13]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 5447.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 5487.
 (./00_Assessment_Compile.aux * soulpos - computing points - it may take a few s
 econds *
 \openout4 = `00_Assessment_Compile.upb'.
 
 (./00_Assessment_Compile.upa))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5447.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5447.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 5487.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 5487.
 
 Package rerunfilecheck Info: File `00_Assessment_Compile.out' has not changed.
-(rerunfilecheck)             Checksum: E6EB472949117390BB8BF4495654AD11;12857.
+(rerunfilecheck)             Checksum: DD28E1D1FEA58AD757A520E2F4C8C897;12857.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5447.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 5487.
  ) 
 Here is how much of TeX's memory you used:
- 19175 strings out of 494562
- 326422 string characters out of 6175595
- 520335 words of memory out of 5000000
- 22121 multiletter control sequences out of 15000+600000
+ 19196 strings out of 494562
+ 327038 string characters out of 6175595
+ 521268 words of memory out of 5000000
+ 22136 multiletter control sequences out of 15000+600000
  14620 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,15n,84p,1034b,515s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1981,10 +2003,10 @@ aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/mel
 issa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb>
-Output written on 00_Assessment_Compile.pdf (194 pages, 6695131 bytes).
+Output written on 00_Assessment_Compile.pdf (197 pages, 6752958 bytes).
 PDF statistics:
- 2045 PDF objects out of 2073 (max. 8388607)
- 1609 compressed objects within 17 object streams
- 456 named destinations out of 1000 (max. 500000)
- 996 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2072 PDF objects out of 2073 (max. 8388607)
+ 1627 compressed objects within 17 object streams
+ 462 named destinations out of 1000 (max. 500000)
+ 1011 words of extra memory for PDF output out of 10000 (max. 10000000)
 
