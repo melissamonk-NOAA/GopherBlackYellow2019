@@ -15,7 +15,7 @@ Gopher rockfish south of Point Conception was assessed as a data poor species in
 constraints. The mean yield from the DCAC distribution was 25.5 mt.
 
 Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
-was first assessed a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
+was first assessed as a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
 The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
 to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
 table was based around the emphasis (lambda) given to the index. Lambda of 1, 5, and 10 were used to 
@@ -54,10 +54,10 @@ the STAR panel, and the figures and tables reflect the post-STAR final base mode
 
 While investigating convergence issues in the cowcod assessment, Richard Methot 
 (NMFS) identified an issue with the performance of the 'sfabs' function in ADMB. 
-This led to poor convergence during the iterative search for Fspr under certain 
+This led to poor convergence during the iterative search for $F_{SPR}$ under certain 
 conditions. Dr. Methot resolved the issue, and provided a new 'safe' version of 
 SS (V3.30.13.09) to the cowcod and GBYR STATs on June 28, followed by an optimized 
-executable on June 30. Apart from the iterative Fspr search mentioned above, 
+executable on June 30. Apart from the iterative $F_{SPR}$ search mentioned above, 
 other model outputs and analyses were unaffected by the change. All of the base model 
 results were run in this newest version of SS.
 
@@ -119,15 +119,15 @@ The 2005 model was a length-based model.  This assessment uses conditional age-a
 fish aged from a number of sources (Table \ref{tab:Age_data}).
 
 Differences in both the recreational and commercial catches used in this assessment are described 
-in detail in the \ref{fishery-information} section.
+in detail in Section \ref{fishery-information}.
 
 The bias adjustment for recruitment deviations did not exist in SS2 (version 1.19). We set 
 1973-2015 as the range of years with full bias adjustment to span the time series 
 that was modeled.
 
 The previous assessment modeled selectivity of the commercial fleet as logistic curve, 
-and both parameters for the logistic selectivity were estimated. Selectivity for the 
-onboard CPFV survey and recreational fleet were modeled using the double logistic. The 
+and both parameters for the logistic selectivity were estimated. Selectivity for both the 
+recreational fleet and onboard CPFV survey were modeled using the double logistic. The 
 current assessment uses the six parameter double normal for all fleets for which selectivity 
 is estimated and not mirrored.  The MRFSS dockside CPFV surveys and the CPFV onboard observer 
 surveys are mirrored to the recreational fishing fleets, north and south of Point Conception,
@@ -146,12 +146,10 @@ and RecFIN from 1983-2003.  However, the dockside index was removed at the reque
 STAR panel, citing "did not provide a reliable measure of relative abundance due to changes 
 in regulations and fishery targeting during the 1990s-2000s."  The current assessment uses 
 a version of the MRFSS database that has been more robustly aggregated to the trip level. 
-Starting in 1999, the CDFW began the onboard observer program (described in the indices of 
-abundance). Once the program ramped up by the mid-2000s, almost all of the CPFV groundfish 
-trips sampled as onboard observer trips were also sampled as angler intercept surveys, i.e., 
-dockside interviews.  Using both the onboard observer data and the dockside interviews for this 
-time period would result in developing indices from the same fish.  The onboard observer program 
-provides greater detail in terms of catch and location than the dockside sampler examined catch. 
+Starting in 1999, the CDFW began angler interviews.  Interviews are conducted for all the anglers 
+on the boat, whereas the onboard data is only collected for a subset of anglers that changes with 
+each fishing stop. Once the onboard observer program ramped up by the mid-2000s, almost all of the CPFV groundfish trips sampled as onboard observer trips were also sampled as angler interviews.  Using both the onboard observer data and the dockside interviews for this 
+time period would result in developing indices from the same fish.  The fine-scale onboard observer  data provides greater detail in terms of catch and location than the angler interviews. 
 The onboard observer indices do not include the years 1999 and 2000 due to the number of regulation 
 changes occurring in those two years.
 
@@ -186,7 +184,7 @@ There are 12 fleets in the base model.  They include:
 (all gears combined), and one for commercial dead discards.
 
 *Recreational*: The recreational fleets include two fleets, one for north of Point 
-Conception and one for south of Point Conception (all mode combined).
+Conception and one for south of Point Conception (all modes combined).
 
 *Fishery-Dependent Surveys*: There are five fishery-dependent survey fleets, one each for 
 north and south of Point Conception from the MRFRSS CPFV dockside survey, one each for 
@@ -194,7 +192,7 @@ north and south of Point Conception from the CDFW/Cal Poly onboard observer surv
 one from the Deb Wilson-Vandenberg CPFV onboard observer survey that represents north of 
 Point Conception only.
 
-*Research*: There are third main sources of fishery-independent data available the CCFRP survey 
+*Research*: There are two main sources of fishery-independent data available the CCFRP survey 
 the PISCO kelp forest fish survey. A third survey fleet is included as a "dummy" fleet to allow 
 incorporation of additional conditional age-at-length composition data from the Zaitlin and 
 Abrams theses, the Pearson groundfish cruise, and the special study conducted during the SWFSC's 
@@ -214,7 +212,7 @@ model if fewer than 20 fish were measured in a given
 year and fleet. From 1985-1989, two surveys measured fish from the recreational 
 party/charter fleet, the Ally et al. [@Ally1991] onboard observer survey and the 
 dockside intercept survey. The number of trips and fish sampled by the onboard 
-observer survey was far greater than the RecFIN survey and were used in the model. 
+observer survey was far greater than the MRFSS survey and were used in the model. 
 Initial input sample sizes were also capped at 400 for each set of length composition 
 data.
 
@@ -270,7 +268,7 @@ conditional-age-at-length (CAAL) compositions were re-weighted using the
 Ianelli-McAllister harmonic mean method [@McAllister1997]. Additionally, weighting 
 using the Dirichlet-Multinomial likelihood, that includes and estimable parameter (theta) 
 that scales the input sample size, was explored. However, the model did not converge when 
-the Dirichlet-Multinomial likelihood was applied to a number of of the fleets with composition 
+the Dirichlet-Multinomial likelihood was applied to a number of the fleets with composition 
 data. Given this, and the current challenges with this method described in the Stock Synthesis 
 manual [@Methot2019], the Francis weightings were applied in the base model.
 
@@ -357,7 +355,7 @@ adjustment.  The final base model sets the first year of recruitment deviations 
 prior to when the majority of fishery/survey length composition are available.
 
 Initial runs showed that the estimated recruitments were highly auto-correlated.  
-Therefore, an auto-correlation parameter was late estimated and its value was 
+Therefore, an auto-correlation parameter was later estimated and its value was 
 estimated to be positive and significantly different from zero.
 
 Several models were also investigated where steepness and natural mortality were 
@@ -373,7 +371,7 @@ steepness prior for rockfish of 0.72.
 Key assumptions in the model are that it is appropriate to model gopher and black-and-yellow 
 rockfish as a complex.  The catch histories are inseparable at this time, especially for 
 the early commercial landings. The biological information available also precluded complete analyses 
-of difference in in growth, i.e., the majority of black-and-yellow rockfish aged were small 
+of difference in growth, i.e., the majority of black-and-yellow rockfish aged were small 
 fish and small fish were lacking for gopher rockfish.  Data from both species were used to 
 provide a complete picture of the growth curve.
 
@@ -409,7 +407,7 @@ the timing of settlement had little effect on the model results.
 Runs of the base case model estimating steepness were also considered.
 
 A sensitivity of the model to using the commercial length composition data from PacFIN was 
-also considered.  The fits to the changed only slightly, (increasing depletion from 0.46 
+also considered.  The fits changed only slightly, (increasing depletion from 0.46 
 to 0.48) but given the concerns outlined in the discussion on commercial length composition 
 the base model includes the commercial length compositions from CALCOM.
 
@@ -527,7 +525,7 @@ fleets, with full selectivity at 34 cm. Fish south of Point Conception encounter
 in the recreational fleet were noticeably smaller, and fully selected at 29 cm. 
 
 The two fishery-independent surveys sample different habitats and depth ranges. 
-The PISCO study only samples in 0-20 m depth and observers small young-of-the-year 
+The PISCO study only samples in 0-20 m depth and observes small young-of-the-year 
 fish and adults, but not the 10-17 cm size range.  The asymptotic selectivity for 
 the PISCO survey does not go to zero on the ascending side since the young-of-the-year 
 fish are observed.  The CCFRP survey does not see the larger size classes, possibly 
@@ -588,18 +586,19 @@ observed in 2018 was not fit by the model, even with the added variance.
 The fishery-dependent indices for north of south of Point Conception 
 were both relatively flat.  The MRFSS CPFV dockside survey index was relatively well 
 fit and indicated an increase in the last two years of the survey, 1998-1999.  The 
-current onboard observer survey representing 2001-2018 showed very little trend in 
+current CRFS onboard observer survey representing 2001-2018 showed very little trend in 
 the estimated CPUE, and the variance added to this survey was the highest for all indices. 
 
 The fishery-independent PISCO kelp forest fish survey index indicates a cyclical trend that 
-was not captured by the model fit. The fit to the index is relatively flat This may be in 
+was not captured by the model fit. The fit to the index is relatively flat. This may be in 
 part due to the observation of both young-of-the-year, small juveniles, and adults in the 
 survey.  An alternative index of abundance teasing apart the two life stages will be 
 developed and presented at the STAR panel. 
 
 The model was not able to capture the trends observed in the fishery-independent CCFRP 
 hook-and-line survey.  The index suggested the same depressed relative abundance in 2013 
-as the fishery-dependent onboard observer survey, that was also not captured here by the fit. 
+as the fishery-dependent CRFS/Cal Poly onboard observer survey, that was also not captured 
+here by the fit. 
 The increasing trends in abundance from 2016-2018 was also not captured by the model fit, and 
 the fit suggests a declining trend over the entire time series from 2007-2018.
 
@@ -610,7 +609,7 @@ length data by year and fleet are provided in Appendix
 are shown in Figure \ref{fig:comp_lenfit__aggregated_across_time}. Overall, the 
 length composition all fit well. The fit to the the commercial discard length composition 
 was underestimated at the peak, but otherwise captures the observations well.  The same is 
-true for one of the peaks at 25 cm for the PISCO data, that were the nosiest of all the length 
+true for one of the peaks at 25 cm for the PISCO data, that were the noisiest of all the length 
 composition data.  There are a handful of years within some of the annual length composition 
 data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually 
 due to high frequencies of fish in a small number of length bins.
@@ -671,7 +670,7 @@ sample sizes or number of "trips" for the survey sample sizes. Weighting the dat
 by the harmonic mean resulted in a model with a total likelihood between the base 
 model, which uses the Francis method for weighting, and the model with default 
 weights (Figure \ref{fig:sensitivity2_spawnbio}). The end year spawning output is 
-almost identical for the models using harmonic means and Francic weights, both 
+almost identical for the models using harmonic means and Francis weights, both 
 of which down-weighted the composition data.
 
 The Francis weights in the base model were stable, and did not tend to serially 
@@ -714,7 +713,7 @@ at the lower bound, e.g., CCFRP and commercial fleets, or the upper bound, e.g.,
 the recreational north fleets (Figure \ref{fig:profile_R0_piner}). The data all consistently 
 minimize around 8.5 with a small change in likelihood at larger values of $R_0$ 
 (Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged 
-from 0.22-0.05 (Figure \ref{fig:profile_R0_depl}).
+from 0.22-0.65 (Figure \ref{fig:profile_R0_depl}).
 
 For steepness, the negative log-likelihood reaches a minimum around a steepness 
 of 0.90 for the prior and the total likelihood (Figure \ref{fig:profile_h_like} and 
@@ -732,7 +731,7 @@ The negative log-likelihood was minimized at a natural mortality value of 0.22, 
 higher than the prior of 0.19 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
 The age, length, index, and prior likelihood contributions were 
 minimized at natural mortality values around 0.22, and the recruitment contribution
-was minimized as the second to largest value of $M$ run, 026. (Table \ref{tab:like_profiles}). 
+was minimized at the second to largest value of $M$ run, 026. (Table \ref{tab:like_profiles}). 
 The relative depletion for GBYR ranged from 0.32-0.59 across alternative values of natural mortality 
 (Figure \ref{fig:profile_m_depl}).
 

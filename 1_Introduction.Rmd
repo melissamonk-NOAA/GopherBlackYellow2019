@@ -63,14 +63,14 @@ differ between the two species. The range of both species extends from Cape
 Blanco Oregon to Baja California. Both species are uncommon north of Fort Bragg, 
 California and black-and-yellow rockfish is uncommon south of Point Conception, 
 California. However, gopher rockfish can be found as far south as Punta San Roque on the 
-Baja peninsula.Gopher rockfish are found in rocky reef habitat from the intertidal 
+Baja peninsula. Gopher rockfish are found in rocky reef habitat from the intertidal 
 to depths of 264 ft (80 m) 
 with a predominant depth distribution of 30 to 120 ft (9-37 m), while the 
 black-and-yellow rockfish occupies depths from the intertidal to 120 ft (40 m) 
 and is predominantly observed in depths shallower than 60 ft (18 m) 
 [@Eschmeyer1983; @Love2002]. 
 
-Both species are solitary, sedentary, and territorial species with home 
+Both species are solitary, sedentary, and territorial with home 
 ranges of 10-12 square meters [@Love2002]. 
 A large percentage (67-71%) of black-and-yellow rockfish returned to the site 
 of capture within two weeks after translocated within 50 m [@Hallacher1984].
@@ -94,8 +94,8 @@ distributions where both species are present. Of the two species, black-and-yell
 rockfish are socially dominant and aggressive towards excluding gopher rockfish 
 from shallower waters.
 
-Both species are be feed at night, with similar diets composed primarily of 
-crabs and shrimp,supplemented by fish and cephalopods [@Love2002; 
+Both species feed at night, with similar diets composed primarily of 
+crabs and shrimp, supplemented by fish and cephalopods [@Love2002; 
 -@Hallacher1985; @Larson1972]. Loury et al. [-@Loury2015] found no significant 
 differences in the diet of gopher rockfish inside and outside the 35 year old Point Lobos 
 Marine Protected Area (MPA). She did find the diet of gopher rockfish at A&ntilde;o Nuevo 
@@ -177,7 +177,7 @@ Conception.  Landings of live GBYR south of Point Conception were higher in the 
 1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
 
 The ex-vessel value of GBYR increased from less than $40,000 in 1984 and peaked 
-at $680,452 in 1996 (Figure \ref{fig:GBY_revenue}).  The ex-vessel revenue has 
+at $680,452 in 1996 (Figure \ref{fig:GBY_revenue}). The ex-vessel revenue has 
 been fairly stable at around $500,000 a year since 2007.  Prior to the live 
 fish fishery in 1994, the average price per pound for either species was around 
 $2 a pound.  The live fish fishery increased the value of both species to an 
@@ -266,12 +266,12 @@ limits to regulate the commercial fishery.
 The state of California has adopted regulatory measures to manage the fishery 
 based on the harvest guidelines set forth by the PFMC.  The commercial open access 
 and limited entry fixed gear sectors have undergone 
-three different spatial management changes in since 2000.  Since 2005, both 
+three different spatial management changes since 2000.  Since 2005, both 
 have managed the area south of $40^\circ 10^\prime$ N. latitude as one area. 
 The open access commercial fishery is managed based on bimonthly 
 allowable catches, that have ranged from 200 pounds to 1800 pounds per two months since 2000.
 From 2005 to 2018, the catch limits have doubled and are now set at 1200 pounds per two 
-months (for all months) with March and April remaining closed. The limited entry fixed year 
+months (for all months) with March and April remaining closed. The limited entry fixed gear 
 sector has followed the same pattern as the open access sector with bi-monthly limits 
 and a doubling of the catch since 2005. The limited entry trawl fleet is managed on 
 monthly limits on an annual basis. Since 2011, the limit has been 300 pounds per month for 
@@ -279,15 +279,16 @@ non-IFQ species.  A history of California's commercial regulations from 2000-201
 found in [Appendix A](#appendix-a.-californias-commercial-fishery-regulations). A 10-inch 
 total length minimum size limit was implemented in 1999 for both species in the commercial fleet.
 
-Significant regulatory changed in California's recreational sector began with a change 
-from unlimited number of hooks and lines allowed in 1999 and prior to no more than 
+Significant regulatory changes in California's recreational sector began with a change 
+from unlimited number of hooks and lines allowed prior to 2000 to no more than 
 three hooks and one line per angler in 2000.  Since 2001, the limit has been no more than 
 two hooks and one line per angler.  There is no size limit in the recreational fishery 
 for gopher or black-and-yellow rockfish.  GBYR are part of the nearshore complex which has 
 had a sub-bag limit within the rockfish bag limit since 1999.  The nearshore sub-bag limit 
 has been 10 fish since 2005.  
 
-California also began spatial management, closures, and depth restrictions for the recreational 
+California also began spatial management, including area closures, and depth restrictions for the 
+recreational 
 fleet in 2000.  In general, the recreational season north of Point Conception extends from April to 
 December, and south of Point Conception from March to December.  In the area that GBYR are most 
 commonly landed, from Monterey to Morro Bay, the depth restrictions have been between 30 and 40 

@@ -458,7 +458,7 @@ mngmnt.table = xtable(mngmnt,
                             black-and-yellow rockfishes (GBYR), combined, relative to the 
                              management guidelines for the minor nearshore rockfish 
                              south of $40^\\circ 10^\\prime$ N. latitude. 
-                             Total mortality estiamtes are based on annual reports 
+                             Total mortality estimates are based on annual reports 
                                 from the NMFS NWFSC.'), 
                       label='tab:mnmgt_perform')  
 # Add alignment

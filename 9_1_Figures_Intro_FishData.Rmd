@@ -41,7 +41,7 @@
 
 
 
-![Commercial landings estimates from CALCOM add PacFIN. \label{fig:Calcom_vs_Pacfin}](Figures/Calcom_vs_Pacfin.png)
+![Commercial landings estimates from CALCOM and PacFIN. \label{fig:Calcom_vs_Pacfin}](Figures/Calcom_vs_Pacfin.png)
 
 
 
@@ -75,7 +75,7 @@
 ![Species coefficients from the binomial GLM for presence/absence of GBYR in the Marine Recreational Fisheries Statistics Survey (MRFSS) CPFV mode dockside survey data set north of Point Conception. Horizontal bars are 95% confidence intervals. \label{fig:Fleet10_SM_filter}](Figures/Fleet10_SM_filter.png)
 
 
-![Comparisons of the indices of abundance for GBYR north of Point Conception from the MRFSS dockside CPVS survey that either include of exclude the trips identified as false positives from the Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}](Figures/MRFSS_index_N_SM_falsepos.png)
+![Comparisons of the indices of abundance for GBYR north of Point Conception from the MRFSS dockside CPFV survey that either include of exclude the trips identified as false positives from the Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}](Figures/MRFSS_index_N_SM_falsepos.png)
 
 ![Comparison of negative binomial predictions (CPUE) to observed means in each stratum (year) MRFSS CPFV dockside index north of Point Conception. The 1:1 plot is for reference. \label{fig:Fleet10_MLE_stan}](Figures/Fleet10_MLE_stan.png)
 
@@ -92,10 +92,10 @@
 <!-- ***************Fleet 5 Deb WV index FIGURES*********************--> 
 <!-- ********************************************************************** -->
 
-![Map of the reefs used in the Deb Wilson-Vandenbery CPFV onboard observer survey index of abundance. \label{fig:DebWV_sites}](Figures\DebWV_sites.png)
+![Map of the reefs used in the Deb Wilson-Vandenberg CPFV onboard observer survey index of abundance. \label{fig:DebWV_sites}](Figures\DebWV_sites.png)
 
 
-![Comparison of the index developed for the Deb Wilson-Vandenbery CPFV onboard observer survey from the 2005 assessment and forthe 2019 assessment. \label{fig:DebWV_index_compare}](Figures/DebWV_index_compare.png)
+![Comparison of the index developed for the Deb Wilson-Vandenberg CPFV onboard observer survey from the 2005 assessment and for the 2019 assessment. \label{fig:DebWV_index_compare}](Figures/DebWV_index_compare.png)
 
 \FloatBarrier
 
@@ -116,7 +116,7 @@
 
 \FloatBarrier 
 
-![Map of the four MPAs sample consistently through time for the CCFRP fishery-independent survey. \label{fig:CCFRP_sites}](Figures/CCFRP_sites.png)
+![Map of the four MPAs sampled consistently through time for the CCFRP fishery-independent survey. \label{fig:CCFRP_sites}](Figures/CCFRP_sites.png)
 
 \FloatBarrier
 
@@ -152,6 +152,6 @@
 
 \FloatBarrier
 
-![Plots of the length distributions from the PISCO kelp forest fish survey by species (left) and for compbined species by site (right) for sites included in the final index of abundance. \label{fig:PISCO_lengths}](Figures/PISCO_lengths.png)
+![Plots of the length distributions from the PISCO kelp forest fish survey by species (left) and for combined species by site (right) for sites included in the final index of abundance. \label{fig:PISCO_lengths}](Figures/PISCO_lengths.png)
 
 \FloatBarrier

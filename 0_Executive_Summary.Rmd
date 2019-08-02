@@ -91,7 +91,7 @@ exceeded the 2010 OFL.
 This assessment covers the area from Cape Mendocino to the U.S./Mexico border 
 (Figure \ref{fig:assess_region_map}). The length composition data suggested that while 
 the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
-south of Point Conception were smaller.The similarity of the length 
+south of Point Conception were smaller. The similarity of the length 
 distributions between species and among modes within a region were similar and justified 
 one combined recreational fleet within each of the two regions (north and south of Point 
 Conception).

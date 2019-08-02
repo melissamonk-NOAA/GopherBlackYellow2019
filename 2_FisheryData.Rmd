@@ -31,7 +31,7 @@ sharply while market category 263 (gopher rockfish) landings declined
 were converted to unspecified rockfish). Port samples indicated a shift 
 from gopher rockfish to black-and-yellow rockfish during the same time interval, 
 suggesting problems with identification. We suggest that if black-and-yellow landings 
-are combined with gopher landings, the estimates woudl be generally reliable for the 
+are combined with gopher landings, the estimates would be generally reliable for the 
 group.
 
 There is no way to tease apart the historical catches by species and even across north 
@@ -142,7 +142,7 @@ uses 1 cm length bins from 4-40 cm. Sex was not available for the majority
 dimorphism in growth for either species.  We aggregated the commercial 
 length composition among all gears and regions south of Cape Mendocino.
 
-Discard length compositions from WCGOP (2003-2017) were expanded based on the the 
+Discard length compositions from WCGOP (2003-2017) were expanded based on the 
 discard estimates and were aggregated for all regions south of Cape Mendocino 
 and across all fixed gear fisheries.
 
@@ -185,12 +185,12 @@ length composition data.
 
 ###Recreational Fishery Landings and Discards
 
-*Historical recreational landings and discard, 1928-1980*
+*Historical recreational landings and discards, 1928-1980*
 
 Ralston et al. [-@Ralston2010] reconstructed estimates of recreational rockfish 
-catch and discard in California, 1928-1980. Reported landings of total rockfish 
+landings and discards in California, 1928-1980. Reported landings of total rockfish 
 were allocated to species based on several sources of species composition data. 
-Estimates of GBYR landings and discard (combined) from 1928-1979 are available 
+Estimates of GBYR landings and discards (combined) from 1928-1979 are available 
 from the SWFSC. For this assessment, historical recreational catch was stratified 
 by year and area (north and south of Point Conception).  The catches of GBYR 
 reported in Ralston et al. [-@Ralston2010] are higher by an order of magnitude than 
@@ -201,13 +201,13 @@ Commercial Passenger Fishing Vessel (CPFV), i.e., party/charter mode, captains i
 California. A consensus was reached that the estimated landings did not 
 accurately represent the historical GBYR landings and an alternative 
 catch stream should be developed. One possibility for the inflated catches of GBYR in 
-southern California is that all nearshore shallow species were combined and all of the 
-nearshore deep species were combined and a constant relative fraction between the two 
-was used to assign catches to each combination of CDFW fishing block and year. The fraction 
+southern California is that all nearshore shallow species were combined and a constant 
+relative fraction between the two was used to assign catches to each combination of 
+CDFW fishing block and year. The fraction 
 of GBYR within the nearshore shallow species group was likely overestimated.
 
 The California Catch Reconstruction applied 
-a linear ramp from from 1928-1936 that was not altered in this assessment.
+a linear ramp from 1928-1936 that was not altered in this assessment.
 From 1937-1979 a linear ramp was developed from the 1936 estimate
 to the average recreational landing from 1980 and 1983 (1981-1982 catches 
 interpolated as described in the next section) of 4.3 mt. The recreational catches 
@@ -267,13 +267,18 @@ landings re-allocation for the shore-based modes.  Total recreational landings f
 lower than any of the neighboring years.  Landings from 1981-1982 were interpolated 
 from the 1980 and 1983 landings.
 
+Onboard sampling of the CPFV fleet began in 1999.  A sampler rides along during a 
+CPFV trip and records the catch from a subset of anglers onboard the vessel at 
+each fishing location.  Effort data are also recorded, allowing for CPUE calculations 
+at a fine spatial resolution.
+
 
 *California Recreational Fisheries Survey (CRFS), 2004-2016*
 
 MRFSS was replaced with the California Recreational Fisheries Survey (CRFS) 
 beginning January 1, 2004. Among other improvements to MRFSS, CRFS provides 
 higher sampling intensity, finer spatial resolution (6 districts vs. 2 regions), 
-and onboard CPFV sampling. Estimates of catch from 2004-2018 were downloaded 
+and continued onboard CPFV sampling. Estimates of catch from 2004-2018 were downloaded 
 from the RecFIN database a final time on 4 June 2019. We queried and aggregated 
 CRFS data to match the structure of the MRFSS data, by year, and region 
 (Table \ref{tab:Rec_removal}).  Catches in the shore-based modes are small 
@@ -310,7 +315,7 @@ to the previous assessment, as described below. Input sample sizes for recreatio
 length composition data were based on the number of observed trips, when available.
 Other proxies that were used to estimate the number of trips are described below.
 
-There were no standardized coastwide surveys measure retained or discarded fish from 
+There were no standardized coastwide surveys measuring retained or discarded fish from 
 the recreational fleet prior to 1980. 
 
 *CPFV length composition data, 1959-1978*
@@ -392,13 +397,14 @@ aggregate the RecFIN records to the trip level is outlined Supplemental Material
 
 Initial trip filters included eliminating trips targeting species caught near the 
 surface waters for all or part of the trip, including trips with catch of bluefin 
-tuna, yellowfin tuna, skipjack, and albacore.  
+tuna, yellowfin tuna, skipjack, and albacore.  Trips occuring in bays were also 
+excluded.
 
 The following filtering steps were applied to gopher rockfish, as well as the 
 sum of the two species to represent GBYR. No filtering or indices were developed 
 for black-and-yellow rockfish alone due to the sparseness in the data. In the raw 
 data, unfiltered data, black-and-yellow rockfish only occurred in 48 trips that 
-did not also observer gopher rockfish.  There were an additional 65 trips that 
+did not also observe gopher rockfish.  There were an additional 65 trips that 
 encountered both species. There was little difference between indices developed for 
 gopher-only and the GBYR complex for both north and south of Point Conception (Figure 
 \ref{fig:MRFSS_index_compare}).  The descriptions of the filtering and data below 
@@ -572,15 +578,15 @@ decreases in the two indices are present.
 *CDFW and Cal Poly Onboard Observer Index Filtering and Standardization*
 As described above the CDFW and Cal Poly onboard observer programs are identical 
 in that the same protocols are followed.  The only difference is that Cal Poly measures 
-both retained and discarded fish from the observed anglers.  CDFW measures discarded 
-fish only from the observed anglers, and measures retained fish as part of the angler 
-interview at the bag level. Cal Poly has also begun collecting otoliths during the 
+both retained and discarded fish from the observed anglers and CDFW measures only discarded 
+fish from the observed anglers. CDFW measures retained fish as part of the angler 
+interview at the bag and trip level. Cal Poly has also begun collecting otoliths during the 
 onboard observer trips, which are used as conditional age-at-length data the 
 recreational fishery north of Point Conception in this assessment. 
 
 A number of filters are applied to these data.  All of the Cal Poly data have been 
 through a QA/QC process once key-punched, whereas a number of errors remain in the 
-data from CDFW.  Data sheets from CDFW are not longer available prior to 2012 and 
+data from CDFW.  Data sheets from CDFW are no longer available prior to 2012 and 
 staff constraints have also prevented a quality control review of the data. 
 
 Each drift was assigned to a reef (hard bottom). Hard bottom was extracted from 
@@ -632,7 +638,7 @@ or more groundfish.  This resulted in the total number of drifts decreasing from
 least 2/3 of all years, leaving 5,440 drift for the final index, of which 1,132 
 encountered GBYR (Figure \ref{fig:Onboard_observer_south_sites}).
 
-The index of abundance was modeled with the a delta-GLM modeling approach, 
+The index of abundance was modeled with a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and four reefs as possible 
 covariates.  A lognormal model (AIC: 162) was selected over a gamma (AIC: 277) 
 for the positive observations using AIC. A model with year, depth and reef was 
@@ -641,7 +647,7 @@ The index indicates a relatively stable trend from 2001-2004 and a steady increa
 from 2005-2017. 
 
 
-###Fishery-Depenent Indices: Available Length and Age Data
+###Fishery-Dependent Indices: Available Length and Age Data
 
 Length data associated with the MRFSS dockside CPFV survey and the current onboard 
 observer surveys conducted by CDFW are incorporated into the biological data pulled 
@@ -650,7 +656,7 @@ are not incorporated as separate length composition data as they represent the
 same portion of the population sampled by the CDFW onboard observer program. 
 
 Cal Poly collected otoliths from the onboard observer program starting in 2017 as part 
-of a special study to correlate fish length before and and after the fish was filleted 
+of a special study to correlate fish length before and after the fish was filleted 
 by the deckhands onboard the CPFV vessels. All fish collected in 2017 only had associated 
 post-fillet lengths and were not used in the assessment since the study has not been finalized 
 nor has the method been endorsed by the SSC.  A subset of fish form the 2018 collection 
@@ -683,14 +689,14 @@ developed from the four MPAs sampled consistently (A&ntilde;o Nuevo and Point Lo
 by Moss Landing Marine Labs; Point Buchon and Piedras Blancas by Cal Poly).
 
 The survey design for CCFRP consists a number 500 x 500 m cells both within and 
-outside each MPA. On any given survey day for a chose site cells are randomly 
+outside each MPA. On any given survey day site cells are randomly 
 selected within a stratum (MPA and/or reference cells).  CPFVs are chartered 
 for the survey and the fishing captain is allowed to search within the cell for 
 a fishing location.  During a sampling event, each cell is fished for a total of 
 30-45 minutes by volunteer anglers. Each fish encountered is recorded, measured, 
 and can be linked back to a particular angler, and released (or descended to depth). 
 Starting in 2017, a subset of fish have been retained to collect otoliths and fin 
-clips, needed biological information for nearshore species. For the index of 
+clips that provide needed biological information for nearshore species. For the index of 
 abundance, CPUE was modeled at the level of the drift, similar to the 
 fishery-dependent onboard observer survey described above.
 
@@ -715,7 +721,7 @@ a reasonable fit to the data (Figure \ref{fig:Fleet9_MLE_stan}). The NB model
 generated data sets with roughly 18-22% zeros, compared to the observed 22% 
 (Figure \ref{fig:Fleet10_prop_zero_STAN}).
 
-The CCFRP index of abundance closely matches the trend observers in the onboard 
+The CCFRP index of abundance closely matches the trend observed in the onboard 
 observer index from 2009-2018 (Figure \ref{fig:All_index_compare}).  The index decreases 
 from 2009 to 2013, and then 
 exhibits the same increase through 2018.  When both indices are standardized to their 
@@ -775,8 +781,8 @@ GBYR (Figure \ref{fig:PISCO_sites}).
 We modeled number of fish observed per transect(s) using maximum 
 likelihood and Bayesian negative binomial regression. Models incorporating temporal 
 (year, month) and geographic (site and zone) factors were evaluated. The zone is a 
-factor indicating the depth stratification at a site, i.e., 5 m,10 m,15 m, or 20 m 
-targeted bottom depth.. Based on AIC values from maximum likelihood fits 
+factor indicating the depth stratification at a site, i.e., 5 m, 10 m, 15 m, or 20 m 
+targeted bottom depth. Based on AIC values from maximum likelihood fits 
 (Table \ref{tab:Fleet8_AIC}), 
 a main effects model including all factors (year, month, site and zone) was fit in 
 the “rstanarm” R package (version 2.18.2). Diagnostic checks of the Bayesian model 
