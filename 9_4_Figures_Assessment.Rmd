@@ -64,7 +64,9 @@ output:
 
 ![Selectivity at length for all of the fleets in the base model. \label{fig:sel01_multiple_fleets_length1}](r4ss/plots_mod1/sel01_multiple_fleets_length1.png)
 
+<!--
 ![Surface plot of Female time-varying selectivity for the commercial fleet, with time blocks from 1916-1998 and 1999-2018. \label{fig:sel03_len_timevary_surf_flt1sex1}](r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png)
+-->
 
 
 
@@ -94,14 +96,16 @@ output:
 <!-- ***********Fits to the data********************************* --> 
 
 ![Fit to log index data on log scale for the recerational MRFSS dockside CPFV fishery north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png)
-
+<!--
 ![Fit to log index data on log scale for the recreational MRFSS dockside CPFV fishery south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideSouth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png)
+-->
 
 ![Fit to log index data on log scale for the recreational Deb's CPFV onboard observer program, representing north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_DebCPFV}](r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png)
 
 ![Fit to log index data on log scale for the CRFS/Cal Poly CPFV onboard observer survey north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardNorth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png)
-
+<!--
 ![Fit to log index data on log scale for the CRFS CPFV onboard observer survey south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardSouth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png)
+-->
 
 ![Fit to log index data on log scale for the fishery-independent PISCO kelp forest fish survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_PISCO}](r4ss/plots_mod1/index5_logcpuefit_PISCO.png)
 
@@ -213,12 +217,12 @@ output:
 
 
 
-![Estimated spawning biomass (mt) with approximate 95% asymptotic intervals. \label{fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals}](r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png)
+![Estimated spawning output with approximate 95% asymptotic intervals. \label{fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals}](r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png)
 
 
 ```{r, results='asis'}
    # select recruitment figure file - RMarkdown as of 2019 doesn't like these file names
-     depletion.file  = 'r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png'
+     depletion.file  = 'r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_intervals.png'
 ```
 
 

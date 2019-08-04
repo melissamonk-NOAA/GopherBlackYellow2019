@@ -510,9 +510,7 @@ Selectivity curves were estimated for the fishery and survey fleets.  The estima
 selectivities for all fleets within the model are shown in Figure 
 \ref{fig:sel01_multiple_fleets_length1}. The commercial fishery selectivities are 
 all asymptotic.  Maximum selectivity for the commercial fleet is reached at 34 cm 
-from 1916-1998 and also selected fish smaller than recent years.  The implementation 
-of the 10-in size limit resulted in a steeper selectivity curve, with fish fully 
-selected at 31 cm from 1999-2018 (Figure \ref{fig:sel03_len_timevary_surf_flt1sex1}). 
+from 1916-1998 and also selected fish smaller than recent years.  
 
 The commercial discard fleet did not observe any fish over 36 cm in the 14 years of 
 available data. The majority of the nearshore fishery for GBYR is the live fish fishery, 
@@ -543,10 +541,6 @@ was turned off.  Therefore, it was turned on for the final base model, and
 can be explored further. The added variances were highest 
 for the recreational onboard observer survey north of Point Conception
 (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(6)", 3], 3)`)
-and south of Point conception 
-(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardSouth(7)", 3], 3)`),
-the MRFSS dockside south of Point Conception
-(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecDocksideSouth(11)", 3], 3)`),
 PISCO (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(8)", 3], 3)`), and 
 CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(9)", 3], 3)`).
 

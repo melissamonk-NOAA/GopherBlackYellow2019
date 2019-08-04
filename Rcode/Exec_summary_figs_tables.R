@@ -472,24 +472,50 @@ mngmnt.table = xtable(mngmnt,
 
 # =============================================================================
 # OFL projection --------------------------------------------------------------
-## In scorp I raed this from a file - check on this
 
-#For 1 model:
+#Define first and last years of the projection
+#copied from external piece of code so not using mod1$derived quants exactly
+FirstYRFore = 2019
+LastYRFore = 2030
 
-# Extract OFLs for next 10 years for each model
-      OFL_mod1 = mod1$derived_quants[grep('OFLCatch',mod1$derived_quants$Label),]
-      OFL_mod1 = OFL_mod1[, 2]    
-      
-      #Turn into a dataframe and get the total
-      OFL = as.data.frame(OFL_mod1)
-      OFL$Year=seq(Project_firstyr,Project_lastyr, 1)
-      OFL$Year = as.factor(OFL$Year)
-      OFL = OFL[,c(2, 1)]
-      colnames(OFL) = c('Year','OFL') 
+#Extract the OFL, ABC, Age 0+, SSB, Depletion
+quants = mod1$derived_quants
+
+#extract OFL and ABC
+OFLCatch  = quants[grep('OFLCatch', quants$Label), ]
+ForeCatch = quants[grep('ForeCatch', quants$Label), ]
+
+#Extract Age 0+, SSB and Depletion
+Age0plus = mod1$timeseries %>%
+           select(Yr,Bio_all) %>%
+           filter(Yr >= FirstYRFore)
+
+
+#ssb
+SSB       = quants[grep('SSB', quants$Label), ]
+SSB       = SSB [SSB$Label >= paste('SSB_', FirstYRFore,sep='') &
+                   SSB$Label <= paste('SSB_', LastYRFore,sep=''), ]
+#depletion
+Bratio    = quants[grep('Bratio', quants$Label), ]
+Bratio    = Bratio[Bratio$Label >= paste('Bratio_', FirstYRFore,sep='') &
+                     Bratio$Label <= paste('Bratio_', LastYRFore,sep=''), ]  
+
+
+ForeTable = as.data.frame(cbind(c(FirstYRFore:LastYRFore),
+                                round(OFLCatch$Value,0),
+                                round(ForeCatch$Value,0),
+                                round(Age0plus$Bio_all,0),
+                                round(SSB$Value,1),
+                                round((Bratio$Value*100),1)))
+
+colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)',"Age 0+ Biomass (mt)",
+                        'Spawning Output (million eggs)',' Depletion (% of $SB_0$') 
 
 # Create the table
-      OFL.table = xtable(OFL, caption=c('Projections of potential OFL (mt) for 
-                                        each model, using the base model forecast.'),
+      OFL.table = xtable(ForeTable, caption=c('Projection OFL, default harvest control rule 
+                                        catch (ABC = ACL) above 40% SSB), biomass, 
+                                        and depletion using the base case model with 
+                                        2019-2020 catches set equal to the ACL catch (114 mt).'),
                   label = 'tab:OFL_projection')
 
 

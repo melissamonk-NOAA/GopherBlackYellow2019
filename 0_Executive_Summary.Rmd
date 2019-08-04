@@ -136,7 +136,7 @@ in the estimated spawning biomass is high.
     
     # Select which file to use for the recuitment figure, depending on if you have one model or multiple models
       spawn.file  = 'r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png'
-      Bratio.file = 'r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png'
+      Bratio.file = 'r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_intervals.png'
 ```
 
 \FloatBarrier

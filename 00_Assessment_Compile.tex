@@ -103,7 +103,7 @@ Off California in 2019}
 \usepackage{cmap}                                                 % fix mapping characters to unicode
 \RequirePackage[linewidth = 1]{pdfcomment}                        % pdf comments
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
-%\usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
+\usepackage[inline]{showlabels}                                   % show table and figure labels; comment                                                                      out for final
 %\RequirePackage[tagged]{accessibilityMeta}
 \usepackage{booktabs} 
 
@@ -314,9 +314,9 @@ exceeded the 2010 OFL.
 This assessment covers the area from Cape Mendocino to the U.S./Mexico
 border (Figure \ref{fig:assess_region_map}). The length composition data
 suggested that while the lengths of gopher and black-and-yellow rockfish
-were similar, fish encountered south of Point Conception were
-smaller.The similarity of the length distributions between species and
-among modes within a region were similar and justified one combined
+were similar, fish encountered south of Point Conception were smaller.
+The similarity of the length distributions between species and among
+modes within a region were similar and justified one combined
 recreational fleet within each of the two regions (north and south of
 Point Conception).
 
@@ -375,16 +375,16 @@ uncertainty in the estimated spawning biomass is high. \FloatBarrier
   \hline
 Year & Spawning Output (million eggs) & \~{} 95\% confidence interval & Estimated depletion & \~{} 95\% confidence interval \\ 
   \hline
-2010 & 929 & 550 - 1308 & 65.36 & 47 - 83.72 \\ 
-  2011 & 857 & 500 - 1213 & 60.28 & 43.17 - 77.39 \\ 
-  2012 & 796 & 460 - 1132 & 56.00 & 40.01 - 71.99 \\ 
-  2013 & 760 & 441 - 1079 & 53.47 & 38.48 - 68.47 \\ 
-  2014 & 733 & 426 - 1039 & 51.55 & 37.35 - 65.76 \\ 
-  2015 & 699 & 401 - 997 & 49.18 & 35.44 - 62.92 \\ 
-  2016 & 671 & 376 - 965 & 47.18 & 33.59 - 60.77 \\ 
-  2017 & 648 & 353 - 944 & 45.60 & 31.87 - 59.34 \\ 
-  2018 & 640 & 337 - 942 & 45.01 & 30.78 - 59.24 \\ 
-  2019 & 656 & 336 - 977 & 46.18 & 30.85 - 61.5 \\ 
+2010 & 882 & 597 - 1168 & 69.99 & 58.05 - 81.92 \\ 
+  2011 & 817 & 548 - 1086 & 64.77 & 53.48 - 76.06 \\ 
+  2012 & 761 & 507 - 1014 & 60.33 & 49.63 - 71.03 \\ 
+  2013 & 727 & 486 - 968 & 57.66 & 47.5 - 67.81 \\ 
+  2014 & 697 & 466 - 928 & 55.31 & 45.56 - 65.05 \\ 
+  2015 & 655 & 434 - 877 & 51.98 & 42.4 - 61.55 \\ 
+  2016 & 614 & 399 - 828 & 48.69 & 39.16 - 58.22 \\ 
+  2017 & 576 & 367 - 786 & 45.70 & 36.12 - 55.28 \\ 
+  2018 & 553 & 344 - 762 & 43.85 & 34.08 - 53.63 \\ 
+  2019 & 552 & 337 - 767 & 43.82 & 33.57 - 54.06 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -401,7 +401,7 @@ case assessment model. \label{fig:Spawnbio_all}}
 
 \begin{figure}
 \centering
-\includegraphics{r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png}
+\includegraphics{r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_intervals.png}
 \caption{Estimated percent depletion with approximate 95\% asymptotic
 confidence intervals (dashed lines) for the base case assessment model.
 \label{fig:RelDeplete_all}}
@@ -425,16 +425,16 @@ estimates of strong recruitment in the late 1990s, and also from
   \hline
 Year & Estimated Recruitment (1,000s) & \~{} 95\% confidence interval \\ 
   \hline
-2010 & 4096 & 1467 - 11441 \\ 
-  2011 & 3460 & 1197 - 10005 \\ 
-  2012 & 3465 & 1168 - 10282 \\ 
-  2013 & 4497 & 1524 - 13264 \\ 
-  2014 & 7879 & 2709 - 22910 \\ 
-  2015 & 11760 & 4041 - 34227 \\ 
-  2016 & 8732 & 2924 - 26076 \\ 
-  2017 & 5727 & 1826 - 17959 \\ 
-  2018 & 4333 & 1339 - 14024 \\ 
-  2019 & 4624 & 1396 - 15319 \\ 
+2010 & 2451 & 1257 - 4779 \\ 
+  2011 & 2014 & 983 - 4127 \\ 
+  2012 & 1800 & 761 - 4258 \\ 
+  2013 & 1589 & 676 - 3734 \\ 
+  2014 & 4568 & 2519 - 8284 \\ 
+  2015 & 5264 & 2985 - 9282 \\ 
+  2016 & 2487 & 1274 - 4857 \\ 
+  2017 & 3701 & 1976 - 6935 \\ 
+  2018 & 1432 & 664 - 3089 \\ 
+  2019 & 2778 & 1086 - 7111 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -480,16 +480,16 @@ significantly below target levels.
   \hline
 Year & Estimated (1-SPR)/(1-SPR50\%) & \~{} 95\% confidence interval & Harvest rate (ratio) & 95\% confidence interval \\ 
   \hline
-2009 & 0.56 & 0.33 - 0.78 & 0.07 & 0.04 - 0.09 \\ 
-  2010 & 0.69 & 0.44 - 0.94 & 0.10 & 0.06 - 0.14 \\ 
-  2011 & 0.68 & 0.43 - 0.93 & 0.09 & 0.06 - 0.13 \\ 
-  2012 & 0.57 & 0.34 - 0.81 & 0.07 & 0.04 - 0.1 \\ 
-  2013 & 0.55 & 0.32 - 0.78 & 0.06 & 0.04 - 0.09 \\ 
-  2014 & 0.65 & 0.4 - 0.89 & 0.08 & 0.05 - 0.11 \\ 
-  2015 & 0.68 & 0.42 - 0.93 & 0.08 & 0.05 - 0.12 \\ 
-  2016 & 0.71 & 0.45 - 0.97 & 0.08 & 0.04 - 0.12 \\ 
-  2017 & 0.71 & 0.44 - 0.98 & 0.07 & 0.04 - 0.11 \\ 
-  2018 & 0.67 & 0.41 - 0.94 & 0.06 & 0.03 - 0.09 \\ 
+2009 & 0.64 & 0.5 - 0.78 & 0.07 & 0.05 - 0.09 \\ 
+  2010 & 0.78 & 0.64 - 0.93 & 0.10 & 0.08 - 0.13 \\ 
+  2011 & 0.77 & 0.62 - 0.92 & 0.10 & 0.07 - 0.12 \\ 
+  2012 & 0.67 & 0.52 - 0.81 & 0.07 & 0.05 - 0.09 \\ 
+  2013 & 0.64 & 0.49 - 0.78 & 0.07 & 0.05 - 0.09 \\ 
+  2014 & 0.74 & 0.59 - 0.88 & 0.09 & 0.06 - 0.11 \\ 
+  2015 & 0.77 & 0.62 - 0.92 & 0.10 & 0.07 - 0.12 \\ 
+  2016 & 0.81 & 0.66 - 0.96 & 0.10 & 0.07 - 0.13 \\ 
+  2017 & 0.82 & 0.66 - 0.98 & 0.09 & 0.06 - 0.11 \\ 
+  2018 & 0.80 & 0.63 - 0.96 & 0.07 & 0.05 - 0.1 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -525,13 +525,13 @@ This stock assessment estimates that GBYR in the model is above the
 biomass target (\(SB_{40\%}\)), and well above the minimum stock size
 threshold (\(SB_{25\%}\)). The estimated relative depletion level for
 the base model in 2018 is 0.46 (95\% asymptotic interval: 0.308-0.592,
-corresponding to an unfished spawning biomass of 656 million eggs (95\%
-asymptotic interval: 336 - 977 million eggs) of spawning biomass in the
+corresponding to an unfished spawning biomass of 552 million eggs (95\%
+asymptotic interval: 337 - 767 million eggs) of spawning biomass in the
 base model (Table \ref{tab:Ref_pts_mod1}). Unfished age 1+ biomass was
-estimated to be 2,361 mt in the base case model. The target spawning
-biomass (\(SB_{40\%}\)) is 569 million eggs, which corresponds with an
-equilibrium yield of 200 mt. Equilibrium yield at the proxy \(F_{MSY}\)
-harvest rate corresponding to \(SPR_{50\%}\) is 186 mt (Figure
+estimated to be 2,042 mt in the base case model. The target spawning
+biomass (\(SB_{40\%}\)) is 504 million eggs, which corresponds with an
+equilibrium yield of 143 mt. Equilibrium yield at the proxy \(F_{MSY}\)
+harvest rate corresponding to \(SPR_{50\%}\) is 134 mt (Figure
 \ref{fig:Yield_all}).
 
 \FloatBarrier
@@ -546,27 +546,27 @@ harvest rate corresponding to \(SPR_{50\%}\) is 186 mt (Figure
   \hline
 \textbf{Quantity} & \textbf{Estimate} & \textbf{Low 2.5\%  limit} & \textbf{High 2.5\%  limit} \\ 
   \hline
-Unfished spawning output (million eggs) & 1,421 & 969 & 1,874 \\ 
-  Unfished age 1+ biomass (mt) & 2,361 & 1,755 & 2,966 \\ 
-  Unfished recruitment ($R_{0}$) & 5,426 & 933 & 9,920 \\ 
-  Spawning output(2018 million eggs) & 640 & 337 & 942 \\ 
-  Depletion (2018) & 0.45 & 0.308 & 0.592 \\ 
+Unfished spawning output (million eggs) & 1,261 & 968 & 1,554 \\ 
+  Unfished age 1+ biomass (mt) & 2,042 & 1,637 & 2,448 \\ 
+  Unfished recruitment ($R_{0}$) & 3,125 & 2,643 & 3,606 \\ 
+  Spawning output(2018 million eggs) & 553 & 344 & 762 \\ 
+  Depletion (2018) & 0.439 & 0.341 & 0.536 \\ 
   \textbf{$\text{Reference points based on } \mathbf{SB_{40\%}}$} &  &  &  \\ 
-  Proxy spawning output ($B_{40\%}$) & 569 & 448 & 689 \\ 
+  Proxy spawning output ($B_{40\%}$) & 504 & 427 & 582 \\ 
   SPR resulting in $B_{40\%}$ ($SPR_{B40\%}$) & 0.458 & 0.458 & 0.458 \\ 
-  Exploitation rate resulting in $B_{40\%}$ & 0.152 & 0.103 & 0.202 \\ 
-  Yield with $SPR_{B40\%}$ at $B_{40\%}$ (mt) & 200 & 108 & 291 \\ 
+  Exploitation rate resulting in $B_{40\%}$ & 0.126 & 0.109 & 0.144 \\ 
+  Yield with $SPR_{B40\%}$ at $B_{40\%}$ (mt) & 143 & 124 & 162 \\ 
   \textbf{\textit{Reference points based on SPR proxy for MSY}} &  &  &  \\ 
-  Spawning output & 634 & 499 & 769 \\ 
+  Spawning output & 563 & 476 & 649 \\ 
   $SPR_{proxy}$ & 0.5 &  &  \\ 
-  Exploitation rate corresponding to $SPR_{proxy}$ & 0.133 & 0.09 & 0.175 \\ 
-  Yield with $SPR_{proxy}$ at $SB_{SPR}$ (mt) & 186 & 102 & 270 \\ 
+  Exploitation rate corresponding to $SPR_{proxy}$ & 0.111 & 0.096 & 0.126 \\ 
+  Yield with $SPR_{proxy}$ at $SB_{SPR}$ (mt) & 134 & 116 & 152 \\ 
   \textbf{\textit{Reference points based on estimated MSY values}} &  &  &  \\ 
-  Spawning output at $MSY$ ($SB_{MSY}$) & 300 & 232 & 368 \\ 
-  $SPR_{MSY}$ & 0.288 & 0.272 & 0.303 \\ 
-  Exploitation rate at $MSY$ & 0.271 & 0.192 & 0.351 \\ 
-  Dead Catch $MSY$ (mt) & 236 & 122 & 351 \\ 
-  Retained Catch $MSY$ (mt) & 236 & 122 & 351 \\ 
+  Spawning output at $MSY$ ($SB_{MSY}$) & 281 & 235 & 328 \\ 
+  $SPR_{MSY}$ & 0.299 & 0.29 & 0.308 \\ 
+  Exploitation rate at $MSY$ & 0.209 & 0.174 & 0.244 \\ 
+  Dead Catch $MSY$ (mt) & 163 & 141 & 185 \\ 
+  Retained Catch $MSY$ (mt) & 163 & 141 & 185 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -592,7 +592,7 @@ well as other base case summary results can be found in Table
                             black-and-yellow rockfishes (GBYR), combined, relative to the 
                              management guidelines for the minor nearshore rockfish 
                              south of $40^\circ 10^\prime$ N. latitude. 
-                             Total mortality estiamtes are based on annual reports 
+                             Total mortality estimates are based on annual reports 
                                 from the NMFS NWFSC.} 
 \label{tab:mnmgt_perform}
 \begin{tabular}{lllll}
@@ -640,19 +640,19 @@ Landings (mt) &  &  &  &  &  &  &  &  &  &  \\
   OFL (mt) &  &  &  &  &  &  &  &  &  &  \\ 
   ACL (mt) &  &  &  &  &  &  &  &  &  &  \\ 
    \hline
-(1-$SPR$)(1-$SPR_{50\%}$) & 0.69 & 0.68 & 0.57 & 0.55 & 0.65 & 0.68 & 0.71 & 0.71 & 0.67 &  \\ 
+(1-$SPR$)(1-$SPR_{50\%}$) & 0.78 & 0.77 & 0.67 & 0.64 & 0.74 & 0.77 & 0.81 & 0.82 & 0.80 &  \\ 
    \hline
-Exploitation rate & 0.10 & 0.09 & 0.07 & 0.06 & 0.08 & 0.08 & 0.08 & 0.07 & 0.06 &  \\ 
-  Age 1+ biomass (mt) & 1623.86 & 1546.11 & 1451.35 & 1381.20 & 1347.39 & 1327.49 & 1312.10 & 1335.06 & 1406.00 & 1519.32 \\ 
+Exploitation rate & 0.10 & 0.10 & 0.07 & 0.07 & 0.09 & 0.10 & 0.10 & 0.09 & 0.07 &  \\ 
+  Age 1+ biomass (mt) & 1550.00 & 1469.27 & 1364.64 & 1283.44 & 1238.94 & 1196.76 & 1148.01 & 1143.82 & 1190.26 & 1237.83 \\ 
    \hline
-Spawning Output & 929 & 857 & 796 & 760 & 733 & 699 & 671 & 648 & 640 & 656 \\ 
-  ~95\% CI & 550 - 1308 & 500 - 1213 & 460 - 1132 & 441 - 1079 & 426 - 1039 & 401 - 997 & 376 - 965 & 353 - 944 & 337 - 942 & 336 - 977 \\ 
+Spawning Output & 882 & 817 & 761 & 727 & 697 & 655 & 614 & 576 & 553 & 552 \\ 
+  ~95\% CI & 597 - 1168 & 548 - 1086 & 507 - 1014 & 486 - 968 & 466 - 928 & 434 - 877 & 399 - 828 & 367 - 786 & 344 - 762 & 337 - 767 \\ 
    \hline
-Depletion & 65.4 & 60.3 & 56.0 & 53.5 & 51.5 & 49.2 & 47.2 & 45.6 & 45.0 & 46.2 \\ 
-  ~95\% CI & 47 - 83.72 & 43.17 - 77.39 & 40.01 - 71.99 & 38.48 - 68.47 & 37.35 - 65.76 & 35.44 - 62.92 & 33.59 - 60.77 & 31.87 - 59.34 & 30.78 - 59.24 & 30.85 - 61.5 \\ 
+Depletion & 70.0 & 64.8 & 60.3 & 57.7 & 55.3 & 52.0 & 48.7 & 45.7 & 43.9 & 43.8 \\ 
+  ~95\% CI & 58.05 - 81.92 & 53.48 - 76.06 & 49.63 - 71.03 & 47.5 - 67.81 & 45.56 - 65.05 & 42.4 - 61.55 & 39.16 - 58.22 & 36.12 - 55.28 & 34.08 - 53.63 & 33.57 - 54.06 \\ 
    \hline
-Recruits &  4096 &  3460 &  3465 &  4497 &  7879 & 11760 &  8732 &  5727 &  4333 &  4624 \\ 
-  ~95\% CI & 1467 - 11441 & 1197 - 10005 & 1168 - 10282 & 1524 - 13264 & 2709 - 22910 & 4041 - 34227 & 2924 - 26076 & 1826 - 17959 & 1339 - 14024 & 1396 - 15319 \\ 
+Recruits & 2451 & 2014 & 1800 & 1589 & 4568 & 5264 & 2487 & 3701 & 1432 & 2778 \\ 
+  ~95\% CI & 1257 - 4779 & 983 - 4127 & 761 - 4258 & 676 - 3734 & 2519 - 8284 & 2985 - 9282 & 1274 - 4857 & 1976 - 6935 & 664 - 3089 & 1086 - 7111 \\ 
    \hline
 \end{tabular}
 }
@@ -766,17 +766,17 @@ range differ between the two species. The range of both species extends
 from Cape Blanco Oregon to Baja California. Both species are uncommon
 north of Fort Bragg, California and black-and-yellow rockfish is
 uncommon south of Point Conception, California. However, gopher rockfish
-can be found as far south as Punta San Roque on the Baja
-peninsula.Gopher rockfish are found in rocky reef habitat from the
-intertidal to depths of 264 ft (80 m) with a predominant depth
-distribution of 30 to 120 ft (9-37 m), while the black-and-yellow
-rockfish occupies depths from the intertidal to 120 ft (40 m) and is
-predominantly observed in depths shallower than 60 ft (18 m) (Eschmeyer
-et al. \protect\hyperlink{ref-Eschmeyer1983}{1983}, Love et al.
+can be found as far south as Punta San Roque on the Baja peninsula.
+Gopher rockfish are found in rocky reef habitat from the intertidal to
+depths of 264 ft (80 m) with a predominant depth distribution of 30 to
+120 ft (9-37 m), while the black-and-yellow rockfish occupies depths
+from the intertidal to 120 ft (40 m) and is predominantly observed in
+depths shallower than 60 ft (18 m) (Eschmeyer et al.
+\protect\hyperlink{ref-Eschmeyer1983}{1983}, Love et al.
 \protect\hyperlink{ref-Love2002}{2002}).
 
-Both species are solitary, sedentary, and territorial species with home
-ranges of 10-12 square meters (Love et al.
+Both species are solitary, sedentary, and territorial with home ranges
+of 10-12 square meters (Love et al.
 \protect\hyperlink{ref-Love2002}{2002}). A large percentage (67-71\%) of
 black-and-yellow rockfish returned to the site of capture within two
 weeks after translocated within 50 m (Hallacher
@@ -803,8 +803,8 @@ distributions where both species are present. Of the two species,
 black-and-yellow rockfish are socially dominant and aggressive towards
 excluding gopher rockfish from shallower waters.
 
-Both species are be feed at night, with similar diets composed primarily
-of crabs and shrimp,supplemented by fish and cephalopods (Larson
+Both species feed at night, with similar diets composed primarily of
+crabs and shrimp, supplemented by fish and cephalopods (Larson
 \protect\hyperlink{ref-Larson1972}{1972},
 \protect\hyperlink{ref-Hallacher1985}{1985}, Love et al.
 \protect\hyperlink{ref-Love2002}{2002}). Loury et al.
@@ -1006,14 +1006,14 @@ regulate the commercial fishery.
 The state of California has adopted regulatory measures to manage the
 fishery based on the harvest guidelines set forth by the PFMC. The
 commercial open access and limited entry fixed gear sectors have
-undergone three different spatial management changes in since 2000.
-Since 2005, both have managed the area south of \(40^\circ 10^\prime\)
-N. latitude as one area. The open access commercial fishery is managed
+undergone three different spatial management changes since 2000. Since
+2005, both have managed the area south of \(40^\circ 10^\prime\) N.
+latitude as one area. The open access commercial fishery is managed
 based on bimonthly allowable catches, that have ranged from 200 pounds
 to 1800 pounds per two months since 2000. From 2005 to 2018, the catch
 limits have doubled and are now set at 1200 pounds per two months (for
 all months) with March and April remaining closed. The limited entry
-fixed year sector has followed the same pattern as the open access
+fixed gear sector has followed the same pattern as the open access
 sector with bi-monthly limits and a doubling of the catch since 2005.
 The limited entry trawl fleet is managed on monthly limits on an annual
 basis. Since 2011, the limit has been 300 pounds per month for non-IFQ
@@ -1023,17 +1023,17 @@ can be found in
 A}. A 10-inch total length minimum size limit was implemented in 1999
 for both species in the commercial fleet.
 
-Significant regulatory changed in California's recreational sector began
-with a change from unlimited number of hooks and lines allowed in 1999
-and prior to no more than three hooks and one line per angler in 2000.
-Since 2001, the limit has been no more than two hooks and one line per
-angler. There is no size limit in the recreational fishery for gopher or
+Significant regulatory changes in California's recreational sector began
+with a change from unlimited number of hooks and lines allowed prior to
+2000 to no more than three hooks and one line per angler in 2000. Since
+2001, the limit has been no more than two hooks and one line per angler.
+There is no size limit in the recreational fishery for gopher or
 black-and-yellow rockfish. GBYR are part of the nearshore complex which
 has had a sub-bag limit within the rockfish bag limit since 1999. The
 nearshore sub-bag limit has been 10 fish since 2005.
 
-California also began spatial management, closures, and depth
-restrictions for the recreational fleet in 2000. In general, the
+California also began spatial management, including area closures, and
+depth restrictions for the recreational fleet in 2000. In general, the
 recreational season north of Point Conception extends from April to
 December, and south of Point Conception from March to December. In the
 area that GBYR are most commonly landed, from Monterey to Morro Bay, the
@@ -1113,7 +1113,7 @@ converted to unspecified rockfish). Port samples indicated a shift from
 gopher rockfish to black-and-yellow rockfish during the same time
 interval, suggesting problems with identification. We suggest that if
 black-and-yellow landings are combined with gopher landings, the
-estimates woudl be generally reliable for the group.
+estimates would be generally reliable for the group.
 \end{quote}
 
 There is no way to tease apart the historical catches by species and
@@ -1240,8 +1240,8 @@ the commercial length composition among all gears and regions south of
 Cape Mendocino.
 
 Discard length compositions from WCGOP (2003-2017) were expanded based
-on the the discard estimates and were aggregated for all regions south
-of Cape Mendocino and across all fixed gear fisheries.
+on the discard estimates and were aggregated for all regions south of
+Cape Mendocino and across all fixed gear fisheries.
 
 A total of 46 ages were available for gopher rockfish from the
 commercial fisheries 2009-2011, 2016, and 2018. Though sparse, the data
@@ -1286,13 +1286,13 @@ length composition data.
 \subsubsection{Recreational Fishery Landings and
 Discards}\label{recreational-fishery-landings-and-discards}
 
-\emph{Historical recreational landings and discard, 1928-1980}
+\emph{Historical recreational landings and discards, 1928-1980}
 
 Ralston et al. (\protect\hyperlink{ref-Ralston2010}{2010}) reconstructed
-estimates of recreational rockfish catch and discard in California,
+estimates of recreational rockfish landings and discards in California,
 1928-1980. Reported landings of total rockfish were allocated to species
 based on several sources of species composition data. Estimates of GBYR
-landings and discard (combined) from 1928-1979 are available from the
+landings and discards (combined) from 1928-1979 are available from the
 SWFSC. For this assessment, historical recreational catch was stratified
 by year and area (north and south of Point Conception). The catches of
 GBYR reported in Ralston et al.
@@ -1307,19 +1307,19 @@ A consensus was reached that the estimated landings did not accurately
 represent the historical GBYR landings and an alternative catch stream
 should be developed. One possibility for the inflated catches of GBYR in
 southern California is that all nearshore shallow species were combined
-and all of the nearshore deep species were combined and a constant
-relative fraction between the two was used to assign catches to each
-combination of CDFW fishing block and year. The fraction of GBYR within
-the nearshore shallow species group was likely overestimated.
+and a constant relative fraction between the two was used to assign
+catches to each combination of CDFW fishing block and year. The fraction
+of GBYR within the nearshore shallow species group was likely
+overestimated.
 
-The California Catch Reconstruction applied a linear ramp from from
-1928-1936 that was not altered in this assessment. From 1937-1979 a
-linear ramp was developed from the 1936 estimate to the average
-recreational landing from 1980 and 1983 (1981-1982 catches interpolated
-as described in the next section) of 4.3 mt. The recreational catches
-north of Point Conception were not altered from the original catch
-reconstruction. The resulting alternate recreational catch streams are
-in (Table \ref{tab:Rec_removal} and Figure \ref{fig:Catches_alternate}).
+The California Catch Reconstruction applied a linear ramp from 1928-1936
+that was not altered in this assessment. From 1937-1979 a linear ramp
+was developed from the 1936 estimate to the average recreational landing
+from 1980 and 1983 (1981-1982 catches interpolated as described in the
+next section) of 4.3 mt. The recreational catches north of Point
+Conception were not altered from the original catch reconstruction. The
+resulting alternate recreational catch streams are in (Table
+\ref{tab:Rec_removal} and Figure \ref{fig:Catches_alternate}).
 
 The total difference in the catch streams from Figure
 \ref{fig:Catches_original} and Figure \ref{fig:Catches_alternate} is
@@ -1382,19 +1382,25 @@ landings were \textgreater{}60 mt lower than any of the neighboring
 years. Landings from 1981-1982 were interpolated from the 1980 and 1983
 landings.
 
+Onboard sampling of the CPFV fleet began in 1999. A sampler rides along
+during a CPFV trip and records the catch from a subset of anglers
+onboard the vessel at each fishing location. Effort data are also
+recorded, allowing for CPUE calculations at a fine spatial resolution.
+
 \emph{California Recreational Fisheries Survey (CRFS), 2004-2016}
 
 MRFSS was replaced with the California Recreational Fisheries Survey
 (CRFS) beginning January 1, 2004. Among other improvements to MRFSS,
 CRFS provides higher sampling intensity, finer spatial resolution (6
-districts vs.~2 regions), and onboard CPFV sampling. Estimates of catch
-from 2004-2018 were downloaded from the RecFIN database a final time on
-4 June 2019. We queried and aggregated CRFS data to match the structure
-of the MRFSS data, by year, and region (Table \ref{tab:Rec_removal}).
-Catches in the shore-based modes are small compared to the CPFV and
-private rental modes. All modes are combined, but separated at Point
-Conception for two recreational fleets in this assessment, just as was
-done for the California Catch Reconstruction and MRFSS time series.
+districts vs.~2 regions), and continued onboard CPFV sampling. Estimates
+of catch from 2004-2018 were downloaded from the RecFIN database a final
+time on 4 June 2019. We queried and aggregated CRFS data to match the
+structure of the MRFSS data, by year, and region (Table
+\ref{tab:Rec_removal}). Catches in the shore-based modes are small
+compared to the CPFV and private rental modes. All modes are combined,
+but separated at Point Conception for two recreational fleets in this
+assessment, just as was done for the California Catch Reconstruction and
+MRFSS time series.
 
 \emph{Recreational Discards}
 
@@ -1429,7 +1435,7 @@ length composition data were based on the number of observed trips, when
 available. Other proxies that were used to estimate the number of trips
 are described below.
 
-There were no standardized coastwide surveys measure retained or
+There were no standardized coastwide surveys measuring retained or
 discarded fish from the recreational fleet prior to 1980.
 
 \emph{CPFV length composition data, 1959-1978}
@@ -1523,12 +1529,13 @@ RecFIN'').
 Initial trip filters included eliminating trips targeting species caught
 near the surface waters for all or part of the trip, including trips
 with catch of bluefin tuna, yellowfin tuna, skipjack, and albacore.
+Trips occuring in bays were also excluded.
 
 The following filtering steps were applied to gopher rockfish, as well
 as the sum of the two species to represent GBYR. No filtering or indices
 were developed for black-and-yellow rockfish alone due to the sparseness
 in the data. In the raw data, unfiltered data, black-and-yellow rockfish
-only occurred in 48 trips that did not also observer gopher rockfish.
+only occurred in 48 trips that did not also observe gopher rockfish.
 There were an additional 65 trips that encountered both species. There
 was little difference between indices developed for gopher-only and the
 GBYR complex for both north and south of Point Conception (Figure
@@ -1734,18 +1741,18 @@ and decreases in the two indices are present.
 Standardization} As described above the CDFW and Cal Poly onboard
 observer programs are identical in that the same protocols are followed.
 The only difference is that Cal Poly measures both retained and
-discarded fish from the observed anglers. CDFW measures discarded fish
-only from the observed anglers, and measures retained fish as part of
-the angler interview at the bag level. Cal Poly has also begun
-collecting otoliths during the onboard observer trips, which are used as
-conditional age-at-length data the recreational fishery north of Point
-Conception in this assessment.
+discarded fish from the observed anglers and CDFW measures only
+discarded fish from the observed anglers. CDFW measures retained fish as
+part of the angler interview at the bag and trip level. Cal Poly has
+also begun collecting otoliths during the onboard observer trips, which
+are used as conditional age-at-length data the recreational fishery
+north of Point Conception in this assessment.
 
 A number of filters are applied to these data. All of the Cal Poly data
 have been through a QA/QC process once key-punched, whereas a number of
-errors remain in the data from CDFW. Data sheets from CDFW are not
-longer available prior to 2012 and staff constraints have also prevented
-a quality control review of the data.
+errors remain in the data from CDFW. Data sheets from CDFW are no longer
+available prior to 2012 and staff constraints have also prevented a
+quality control review of the data.
 
 Each drift was assigned to a reef (hard bottom). Hard bottom was
 extracted from the
@@ -1803,16 +1810,16 @@ all reefs were sampled in at least 2/3 of all years, leaving 5,440 drift
 for the final index, of which 1,132 encountered GBYR (Figure
 \ref{fig:Onboard_observer_south_sites}).
 
-The index of abundance was modeled with the a delta-GLM modeling
-approach, with year, month, 10 m depth bins from 10-59 m, and four reefs
-as possible covariates. A lognormal model (AIC: 162) was selected over a
+The index of abundance was modeled with a delta-GLM modeling approach,
+with year, month, 10 m depth bins from 10-59 m, and four reefs as
+possible covariates. A lognormal model (AIC: 162) was selected over a
 gamma (AIC: 277) for the positive observations using AIC. A model with
 year, depth and reef was selected by AIC for both the lognormal and
 binomial components of the delta-GLM. The index indicates a relatively
 stable trend from 2001-2004 and a steady increase from 2005-2017.
 
-\subsubsection{Fishery-Depenent Indices: Available Length and Age
-Data}\label{fishery-depenent-indices-available-length-and-age-data}
+\subsubsection{Fishery-Dependent Indices: Available Length and Age
+Data}\label{fishery-dependent-indices-available-length-and-age-data}
 
 Length data associated with the MRFSS dockside CPFV survey and the
 current onboard observer surveys conducted by CDFW are incorporated into
@@ -1823,13 +1830,13 @@ sampled by the CDFW onboard observer program.
 
 Cal Poly collected otoliths from the onboard observer program starting
 in 2017 as part of a special study to correlate fish length before and
-and after the fish was filleted by the deckhands onboard the CPFV
-vessels. All fish collected in 2017 only had associated post-fillet
-lengths and were not used in the assessment since the study has not been
-finalized nor has the method been endorsed by the SSC. A subset of fish
-form the 2018 collection included both pre- and post-fillet length and
-were used in the assessment as conditional age-at-length data associated
-with the recreational fleet north of Point Conception.
+after the fish was filleted by the deckhands onboard the CPFV vessels.
+All fish collected in 2017 only had associated post-fillet lengths and
+were not used in the assessment since the study has not been finalized
+nor has the method been endorsed by the SSC. A subset of fish form the
+2018 collection included both pre- and post-fillet length and were used
+in the assessment as conditional age-at-length data associated with the
+recreational fleet north of Point Conception.
 
 Length composition from Deb Wilson-Vandenberg's onboard observer survey
 are included in the assessment. This program measured both retained and
@@ -1862,18 +1869,18 @@ Point Lobos by Moss Landing Marine Labs; Point Buchon and Piedras
 Blancas by Cal Poly).
 
 The survey design for CCFRP consists a number 500 x 500 m cells both
-within and outside each MPA. On any given survey day for a chose site
-cells are randomly selected within a stratum (MPA and/or reference
-cells). CPFVs are chartered for the survey and the fishing captain is
-allowed to search within the cell for a fishing location. During a
-sampling event, each cell is fished for a total of 30-45 minutes by
-volunteer anglers. Each fish encountered is recorded, measured, and can
-be linked back to a particular angler, and released (or descended to
-depth). Starting in 2017, a subset of fish have been retained to collect
-otoliths and fin clips, needed biological information for nearshore
-species. For the index of abundance, CPUE was modeled at the level of
-the drift, similar to the fishery-dependent onboard observer survey
-described above.
+within and outside each MPA. On any given survey day site cells are
+randomly selected within a stratum (MPA and/or reference cells). CPFVs
+are chartered for the survey and the fishing captain is allowed to
+search within the cell for a fishing location. During a sampling event,
+each cell is fished for a total of 30-45 minutes by volunteer anglers.
+Each fish encountered is recorded, measured, and can be linked back to a
+particular angler, and released (or descended to depth). Starting in
+2017, a subset of fish have been retained to collect otoliths and fin
+clips that provide needed biological information for nearshore species.
+For the index of abundance, CPUE was modeled at the level of the drift,
+similar to the fishery-dependent onboard observer survey described
+above.
 
 The CCFRP data are quality controlled at the time they are key punched
 and little filtering was needed for the index. Cells not consistently
@@ -1898,7 +1905,7 @@ the data (Figure \ref{fig:Fleet9_MLE_stan}). The NB model generated data
 sets with roughly 18-22\% zeros, compared to the observed 22\% (Figure
 \ref{fig:Fleet10_prop_zero_STAN}).
 
-The CCFRP index of abundance closely matches the trend observers in the
+The CCFRP index of abundance closely matches the trend observed in the
 onboard observer index from 2009-2018 (Figure
 \ref{fig:All_index_compare}). The index decreases from 2009 to 2013, and
 then exhibits the same increase through 2018. When both indices are
@@ -1965,8 +1972,8 @@ We modeled number of fish observed per transect(s) using maximum
 likelihood and Bayesian negative binomial regression. Models
 incorporating temporal (year, month) and geographic (site and zone)
 factors were evaluated. The zone is a factor indicating the depth
-stratification at a site, i.e., 5 m,10 m,15 m, or 20 m targeted bottom
-depth.. Based on AIC values from maximum likelihood fits (Table
+stratification at a site, i.e., 5 m, 10 m, 15 m, or 20 m targeted bottom
+depth. Based on AIC values from maximum likelihood fits (Table
 \ref{tab:Fleet8_AIC}), a main effects model including all factors (year,
 month, site and zone) was fit in the ``rstanarm'' R package (version
 2.18.2). Diagnostic checks of the Bayesian model fit (Neff, Rhat, and
@@ -2245,8 +2252,8 @@ Catch (DCAC) model was used due to time constraints. The mean yield from
 the DCAC distribution was 25.5 mt.
 
 Gopher rockfish north of Point Conception (\(34^\circ 27^\prime\) N.
-latitude) was first assessed a full stock assessment in 2005 (Key et al.
-\protect\hyperlink{ref-Key2005}{2005}) using SS2 (version 1.19). The
+latitude) was first assessed as a full stock assessment in 2005 (Key et
+al. \protect\hyperlink{ref-Key2005}{2005}) using SS2 (version 1.19). The
 assessment was sensitive to the CPFV onboard observer index of abundance
 (referred to as Deb Wilson-Vandenberg's onboard observer index in this
 assessment). The final decision table was based around the emphasis
@@ -2288,12 +2295,12 @@ and tables reflect the post-STAR final base model.
 While investigating convergence issues in the cowcod assessment, Richard
 Methot (NMFS) identified an issue with the performance of the `sfabs'
 function in ADMB. This led to poor convergence during the iterative
-search for Fspr under certain conditions. Dr.~Methot resolved the issue,
-and provided a new `safe' version of SS (V3.30.13.09) to the cowcod and
-GBYR STATs on June 28, followed by an optimized executable on June 30.
-Apart from the iterative Fspr search mentioned above, other model
-outputs and analyses were unaffected by the change. All of the base
-model results were run in this newest version of SS.
+search for \(F_{SPR}\) under certain conditions. Dr.~Methot resolved the
+issue, and provided a new `safe' version of SS (V3.30.13.09) to the
+cowcod and GBYR STATs on June 28, followed by an optimized executable on
+June 30. Apart from the iterative \(F_{SPR}\) search mentioned above,
+other model outputs and analyses were unaffected by the change. All of
+the base model results were run in this newest version of SS.
 
 \subsubsection{Transition to the Current Stock
 Assessment}\label{transition-to-the-current-stock-assessment}
@@ -2368,8 +2375,7 @@ conditional age-at-length from fish aged from a number of sources (Table
 \ref{tab:Age_data}).
 
 Differences in both the recreational and commercial catches used in this
-assessment are described in detail in the \ref{fishery-information}
-section.
+assessment are described in detail in Section \ref{fishery-information}.
 
 The bias adjustment for recruitment deviations did not exist in SS2
 (version 1.19). We set 1973-2015 as the range of years with full bias
@@ -2377,8 +2383,8 @@ adjustment to span the time series that was modeled.
 
 The previous assessment modeled selectivity of the commercial fleet as
 logistic curve, and both parameters for the logistic selectivity were
-estimated. Selectivity for the onboard CPFV survey and recreational
-fleet were modeled using the double logistic. The current assessment
+estimated. Selectivity for both the recreational fleet and onboard CPFV
+survey were modeled using the double logistic. The current assessment
 uses the six parameter double normal for all fleets for which
 selectivity is estimated and not mirrored. The MRFSS dockside CPFV
 surveys and the CPFV onboard observer surveys are mirrored to the
@@ -2402,17 +2408,18 @@ panel, citing ``did not provide a reliable measure of relative abundance
 due to changes in regulations and fishery targeting during the
 1990s-2000s.'' The current assessment uses a version of the MRFSS
 database that has been more robustly aggregated to the trip level.
-Starting in 1999, the CDFW began the onboard observer program (described
-in the indices of abundance). Once the program ramped up by the
-mid-2000s, almost all of the CPFV groundfish trips sampled as onboard
-observer trips were also sampled as angler intercept surveys, i.e.,
-dockside interviews. Using both the onboard observer data and the
-dockside interviews for this time period would result in developing
-indices from the same fish. The onboard observer program provides
-greater detail in terms of catch and location than the dockside sampler
-examined catch. The onboard observer indices do not include the years
-1999 and 2000 due to the number of regulation changes occurring in those
-two years.
+Starting in 1999, the CDFW began angler interviews. Interviews are
+conducted for all the anglers on the boat, whereas the onboard data is
+only collected for a subset of anglers that changes with each fishing
+stop. Once the onboard observer program ramped up by the mid-2000s,
+almost all of the CPFV groundfish trips sampled as onboard observer
+trips were also sampled as angler interviews. Using both the onboard
+observer data and the dockside interviews for this time period would
+result in developing indices from the same fish. The fine-scale onboard
+observer data provides greater detail in terms of catch and location
+than the angler interviews. The onboard observer indices do not include
+the years 1999 and 2000 due to the number of regulation changes
+occurring in those two years.
 
 The fishery-independent indices are all new for this assessment; the
 PISCO kelp forest fish survey and the CCFRP hook-and-line survey.
@@ -2451,7 +2458,7 @@ discards.
 
 \emph{Recreational}: The recreational fleets include two fleets, one for
 north of Point Conception and one for south of Point Conception (all
-mode combined).
+modes combined).
 
 \emph{Fishery-Dependent Surveys}: There are five fishery-dependent
 survey fleets, one each for north and south of Point Conception from the
@@ -2460,15 +2467,15 @@ Conception from the CDFW/Cal Poly onboard observer survey, and one from
 the Deb Wilson-Vandenberg CPFV onboard observer survey that represents
 north of Point Conception only.
 
-\emph{Research}: There are third main sources of fishery-independent
-data available the CCFRP survey the PISCO kelp forest fish survey. A
-third survey fleet is included as a ``dummy'' fleet to allow
-incorporation of additional conditional age-at-length composition data
-from the Zaitlin and Abrams theses, the Pearson groundfish cruise, and
-the special study conducted during the SWFSC's juvenile rockfish and
-ecosystem cruise. This dummy fleet includes 1,067 ages of gopher and
-black-and-yellow rockfish. This dummy fleet does not have any length or
-catches associated with it.
+\emph{Research}: There are two main sources of fishery-independent data
+available the CCFRP survey the PISCO kelp forest fish survey. A third
+survey fleet is included as a ``dummy'' fleet to allow incorporation of
+additional conditional age-at-length composition data from the Zaitlin
+and Abrams theses, the Pearson groundfish cruise, and the special study
+conducted during the SWFSC's juvenile rockfish and ecosystem cruise.
+This dummy fleet includes 1,067 ages of gopher and black-and-yellow
+rockfish. This dummy fleet does not have any length or catches
+associated with it.
 
 \subsubsection{Other Specifications}\label{other-specifications}
 
@@ -2485,7 +2492,7 @@ year and fleet. From 1985-1989, two surveys measured fish from the
 recreational party/charter fleet, the Ally et al. (Ally et al.
 \protect\hyperlink{ref-Ally1991}{1991}) onboard observer survey and the
 dockside intercept survey. The number of trips and fish sampled by the
-onboard observer survey was far greater than the RecFIN survey and were
+onboard observer survey was far greater than the MRFSS survey and were
 used in the model. Initial input sample sizes were also capped at 400
 for each set of length composition data.
 
@@ -2551,9 +2558,9 @@ re-weighted using the Ianelli-McAllister harmonic mean method
 Additionally, weighting using the Dirichlet-Multinomial likelihood, that
 includes and estimable parameter (theta) that scales the input sample
 size, was explored. However, the model did not converge when the
-Dirichlet-Multinomial likelihood was applied to a number of of the
-fleets with composition data. Given this, and the current challenges
-with this method described in the Stock Synthesis manual (Methot et al.
+Dirichlet-Multinomial likelihood was applied to a number of the fleets
+with composition data. Given this, and the current challenges with this
+method described in the Stock Synthesis manual (Methot et al.
 \protect\hyperlink{ref-Methot2019}{2019}), the Francis weightings were
 applied in the base model.
 
@@ -2654,7 +2661,7 @@ composition are available.
 
 Initial runs showed that the estimated recruitments were highly
 auto-correlated.\\
-Therefore, an auto-correlation parameter was late estimated and its
+Therefore, an auto-correlation parameter was later estimated and its
 value was estimated to be positive and significantly different from
 zero.
 
@@ -2674,7 +2681,7 @@ Key assumptions in the model are that it is appropriate to model gopher
 and black-and-yellow rockfish as a complex. The catch histories are
 inseparable at this time, especially for the early commercial landings.
 The biological information available also precluded complete analyses of
-difference in in growth, i.e., the majority of black-and-yellow rockfish
+difference in growth, i.e., the majority of black-and-yellow rockfish
 aged were small fish and small fish were lacking for gopher rockfish.
 Data from both species were used to provide a complete picture of the
 growth curve.
@@ -2715,10 +2722,10 @@ the model results.
 Runs of the base case model estimating steepness were also considered.
 
 A sensitivity of the model to using the commercial length composition
-data from PacFIN was also considered. The fits to the changed only
-slightly, (increasing depletion from 0.46 to 0.48) but given the
-concerns outlined in the discussion on commercial length composition the
-base model includes the commercial length compositions from CALCOM.
+data from PacFIN was also considered. The fits changed only slightly,
+(increasing depletion from 0.46 to 0.48) but given the concerns outlined
+in the discussion on commercial length composition the base model
+includes the commercial length compositions from CALCOM.
 
 Sensitivities were developed to look at alternate selectivity patterns
 for the the commercial discard fleet and the CCFRP survey. Neither of
@@ -2785,9 +2792,7 @@ estimated selectivities for all fleets within the model are shown in
 Figure \ref{fig:sel01_multiple_fleets_length1}. The commercial fishery
 selectivities are all asymptotic. Maximum selectivity for the commercial
 fleet is reached at 34 cm from 1916-1998 and also selected fish smaller
-than recent years. The implementation of the 10-in size limit resulted
-in a steeper selectivity curve, with fish fully selected at 31 cm from
-1999-2018 (Figure \ref{fig:sel03_len_timevary_surf_flt1sex1}).
+than recent years.
 
 The commercial discard fleet did not observe any fish over 36 cm in the
 14 years of available data. The majority of the nearshore fishery for
@@ -2801,7 +2806,7 @@ Point Conception encountered in the recreational fleet were noticeably
 smaller, and fully selected at 29 cm.
 
 The two fishery-independent surveys sample different habitats and depth
-ranges. The PISCO study only samples in 0-20 m depth and observers small
+ranges. The PISCO study only samples in 0-20 m depth and observes small
 young-of-the-year fish and adults, but not the 10-17 cm size range. The
 asymptotic selectivity for the PISCO survey does not go to zero on the
 ascending side since the young-of-the-year fish are observed. The CCFRP
@@ -2814,13 +2819,13 @@ year's input variability) for all surveys was estimated within the
 model. The model estimated a small added variance for MRFSS dockside
 recreational index north of Point Conception that was then turned off
 for the final base model. The added variance for Deb's onboard observer
-survey was estimated at 0.075566 but the model presented stability
-issues during jittering when the variability was turned off. Therefore,
-it was turned on for the final base model, and can be explored further.
-The added variances were highest for the recreational onboard observer
-survey north of Point Conception (0.234) and south of Point conception
-(0.598), the MRFSS dockside south of Point Conception (0.282), PISCO
-(0.2), and CCFRP (0.187).
+survey was estimated at
+
+but the model presented stability issues during jittering when the
+variability was turned off. Therefore, it was turned on for the final
+base model, and can be explored further. The added variances were
+highest for the recreational onboard observer survey north of Point
+Conception () PISCO (), and CCFRP ().
 
 Recruitment deviations were estimated from 1978-2018 (Figure
 \ref{fig:recdevs2_withbars}). Estimates of recruitment suggest that GBYR
@@ -2865,13 +2870,13 @@ model, even with the added variance.
 The fishery-dependent indices for north of south of Point Conception
 were both relatively flat. The MRFSS CPFV dockside survey index was
 relatively well fit and indicated an increase in the last two years of
-the survey, 1998-1999. The current onboard observer survey representing
-2001-2018 showed very little trend in the estimated CPUE, and the
-variance added to this survey was the highest for all indices.
+the survey, 1998-1999. The current CRFS onboard observer survey
+representing 2001-2018 showed very little trend in the estimated CPUE,
+and the variance added to this survey was the highest for all indices.
 
 The fishery-independent PISCO kelp forest fish survey index indicates a
 cyclical trend that was not captured by the model fit. The fit to the
-index is relatively flat This may be in part due to the observation of
+index is relatively flat. This may be in part due to the observation of
 both young-of-the-year, small juveniles, and adults in the survey. An
 alternative index of abundance teasing apart the two life stages will be
 developed and presented at the STAR panel.
@@ -2879,10 +2884,10 @@ developed and presented at the STAR panel.
 The model was not able to capture the trends observed in the
 fishery-independent CCFRP hook-and-line survey. The index suggested the
 same depressed relative abundance in 2013 as the fishery-dependent
-onboard observer survey, that was also not captured here by the fit. The
-increasing trends in abundance from 2016-2018 was also not captured by
-the model fit, and the fit suggests a declining trend over the entire
-time series from 2007-2018.
+CRFS/Cal Poly onboard observer survey, that was also not captured here
+by the fit. The increasing trends in abundance from 2016-2018 was also
+not captured by the model fit, and the fit suggests a declining trend
+over the entire time series from 2007-2018.
 
 Fits to the length data are shown based on the proportions of lengths
 observed by year and the Pearson residuals-at-length for all fleets.
@@ -2893,7 +2898,7 @@ Aggregate fits by fleet are shown in Figure
 composition all fit well. The fit to the the commercial discard length
 composition was underestimated at the peak, but otherwise captures the
 observations well. The same is true for one of the peaks at 25 cm for
-the PISCO data, that were the nosiest of all the length composition
+the PISCO data, that were the noisiest of all the length composition
 data. There are a handful of years within some of the annual length
 composition data that were not particularly well fit, e.g., 1980 and
 1996 for RecSouth, but these were usually due to high frequencies of
@@ -2968,7 +2973,7 @@ harmonic mean resulted in a model with a total likelihood between the
 base model, which uses the Francis method for weighting, and the model
 with default weights (Figure \ref{fig:sensitivity2_spawnbio}). The end
 year spawning output is almost identical for the models using harmonic
-means and Francic weights, both of which down-weighted the composition
+means and Francis weights, both of which down-weighted the composition
 data.
 
 The Francis weights in the base model were stable, and did not tend to
@@ -3021,7 +3026,7 @@ e.g., PISCO and the recreational north fleets (Figure
 \ref{fig:profile_R0_piner}). The data all consistently minimize around
 8.5 with a small change in likelihood at larger values of \(R_0\)
 (Figure \ref{fig:profile_R0_like}). Over the range of values of \(R_0\),
-depletion ranged from 0.22-0.05 (Figure \ref{fig:profile_R0_depl}).
+depletion ranged from 0.22-0.65 (Figure \ref{fig:profile_R0_depl}).
 
 For steepness, the negative log-likelihood reaches a minimum around a
 steepness of 0.90 for the prior and the total likelihood (Figure
@@ -3042,7 +3047,7 @@ of 0.22, slightly higher than the prior of 0.19 (Table
 \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). The age,
 length, index, and prior likelihood contributions were minimized at
 natural mortality values around 0.22, and the recruitment contribution
-was minimized as the second to largest value of \(M\) run, 026. (Table
+was minimized at the second to largest value of \(M\) run, 026. (Table
 \ref{tab:like_profiles}). The relative depletion for GBYR ranged from
 0.32-0.59 across alternative values of natural mortality (Figure
 \ref{fig:profile_m_depl}).
@@ -3051,11 +3056,11 @@ was minimized as the second to largest value of \(M\) run, 026. (Table
 
 Reference points were calculated using the estimated selectivities and
 catch distribution among fleets in the most recent year of the model,
-(2017). Sustainable total yield (landings plus discards) were 186 mt
+(2017). Sustainable total yield (landings plus discards) were 134 mt
 when using an \(SPR_{50\%}\) reference harvest rate and with a 95\%
-confidence interval of 102 mt based on estimates of uncertainty. The
+confidence interval of 116 mt based on estimates of uncertainty. The
 spawning biomass equivalent to 40\% of the unfished level
-(\(SB_{40\%}\)) was 569 mt.
+(\(SB_{40\%}\)) was 504 mt.
 
 The predicted spawning output from the base model shows an initial
 decline starting the 1950s, is then stable, and declines steeply until
@@ -3089,7 +3094,7 @@ unknown, the assessment provides an adequate geographic representation
 of the portion assessed for management purposes. There is little
 evidence that black-and-yellow rockfish extend into Mexico, and the
 proportion of gopher rockfish residing south of Pt. Conception is small.
-While there has been work on the genetic structure betweenthe two
+While there has been work on the genetic structure between the two
 species, there has not been work done within each species to inform
 spatial structure of the populations. Given the relatively small area in
 the waters of California where these species occur, there is relatively
@@ -3097,11 +3102,12 @@ little concern regarding exploitation in proportion to the regional
 distribution of abundance in the area assessed in this study.
 
 The state of California implements regional management for the
-recreational fleet in the form of five regions. Neither gopher nor
-black-and-yellow rockfish are a large componenet of the total
-recreational landings and are managed as part of a shallow nearshore
-rockfish complex. Current regional management appears appropriate for
-these species.
+recreational fleet in the form of five regions, referred to as
+management areas with differing depth and season restrictions. Neither
+gopher nor black-and-yellow rockfish are a large componenet of the total
+recreational landings and are managed as part of the\\
+nearshore rockfish complex. Current regional management appears
+appropriate for these species.
 
 \section{Research Needs}\label{research-needs}
 
@@ -3589,7 +3595,7 @@ Data from SQL filtered for missing data & 67850 & 9317 \\
   Observed anglers, remove 1\% data on each tail & 48089 & 8774 \\ 
   Limit to reefs observering gopher/byel in at least 20 drifts & 29639 & 8025 \\ 
   Limit to reefs sampled in at least 2/3 of all years & 32672 & 7517 \\ 
-  Limit to drifs within 1000 m of a reef & 27355 & 7358 \\ 
+  Limit to drifts within 1000 m of a reef & 27355 & 7358 \\ 
   Put depth in 10m depth bins, remove 0-9 and 60-69 m bins & 25427 & 7250 \\ 
    &  &  \\ 
   Start of north filtering & 13792 & 6036 \\ 
@@ -3744,16 +3750,16 @@ Filter & Trips & Positive Trips \\
   \hline
 All data & 10,392 & 1,061 \\ 
   Remove north of Cape Mendocino & 10,327 & 1,061 \\ 
-  Remove trips targetting offshore species & 10,122 & 1,061 \\ 
+  Remove trips targeting offshore species & 10,122 & 1,061 \\ 
    &  &  \\ 
   Start northern filtering & 2,788 & 620 \\ 
-  Remove species that never co-occurand  not present in at least 1\% of all & 2,788 & 620 \\ 
+  Remove species that never co-occur and  not present in at least 1\% of all & 2,788 & 620 \\ 
   Stephens-MacCall filter (keep all positives - selected filter) & 806 & 620 \\ 
   Alternate Stephens-MacCall filter (keep only above threshold) & 623 & 437 \\ 
   Remove years after 1999 due to regulation changes and with fewer than 20 trips & 544 & 220 \\ 
    &  &  \\ 
   Start southern filtering & 7,334 & 441 \\ 
-  Remove species that never co-occurand  not present in at least 1\% of all & 7,334 & 441 \\ 
+  Remove species that never co-occur and  not present in at least 1\% of all & 7,334 & 441 \\ 
   Stephens-MacCall filter (keep all positives - selected filter) & 687 & 441 \\ 
   Alternate Stephens-MacCall filter (keep only above threshold) & 430 & 184 \\ 
   Remove years after 1999 due to regulation changes and with fewer than 20 trips & 475 & 342 \\ 
@@ -3907,12 +3913,12 @@ No. & Parameter & Value & Phase & Bounds & Status & SD & Prior (Exp.Val, SD)  \\
 \endfoot 
 \endlastfoot 
  \hline
-1 & NatM\_p\_1\_Fem\_GP\_1 & 0.212 & 2 & (0.05, 0.4) & OK & 0.030 & Log\_Norm (-1.6458, 0.4384) \\ 
-  2 & L\_at\_Amin\_Fem\_GP\_1 & 9.666 & 3 & (4, 50) & OK & 0.755 & None \\ 
-  3 & L\_at\_Amax\_Fem\_GP\_1 & 28.444 & 3 & (20, 60) & OK & 0.907 & None \\ 
-  4 & VonBert\_K\_Fem\_GP\_1 & 0.125 & 3 & (0.01, 0.3) & OK & 0.031 & None \\ 
-  5 & CV\_young\_Fem\_GP\_1 & 0.268 & 3 & (0.05, 0.5) & OK & 0.035 & None \\ 
-  6 & CV\_old\_Fem\_GP\_1 & 0.115 & 3 & (0.03, 0.3) & OK & 0.014 & None \\ 
+1 & NatM\_p\_1\_Fem\_GP\_1 & 0.193 & -2 & (0.05, 0.4) &  &  & Log\_Norm (-1.6458, 0.4384) \\ 
+  2 & L\_at\_Amin\_Fem\_GP\_1 & 13.422 & 3 & (4, 50) & OK & 0.853 & None \\ 
+  3 & L\_at\_Amax\_Fem\_GP\_1 & 28.799 & 3 & (20, 60) & OK & 0.827 & None \\ 
+  4 & VonBert\_K\_Fem\_GP\_1 & 0.107 & 3 & (0.01, 0.3) & OK & 0.020 & None \\ 
+  5 & CV\_young\_Fem\_GP\_1 & 0.171 & 3 & (0.05, 0.5) & OK & 0.026 & None \\ 
+  6 & CV\_old\_Fem\_GP\_1 & 0.121 & 3 & (0.03, 0.3) & OK & 0.012 & None \\ 
   7 & Wtlen\_1\_Fem\_GP\_1 & 0.000 & -3 & (-3, 3) &  &  & None \\ 
   8 & Wtlen\_2\_Fem\_GP\_1 & 3.256 & -3 & (2, 4) &  &  & None \\ 
   9 & Mat50\%\_Fem\_GP\_1 & 21.666 & -3 & (-3, 3) &  &  & None \\ 
@@ -3921,78 +3927,55 @@ No. & Parameter & Value & Phase & Bounds & Status & SD & Prior (Exp.Val, SD)  \\
   12 & Eggs/kg\_slope\_wt\_Fem\_GP\_1 & 0.000 & -3 & (-3, 3) &  &  & None \\ 
   13 & CohortGrowDev & 1.000 & -1 & (0.1, 10) &  &  & None \\ 
   14 & FracFemale\_GP\_1 & 0.500 & -4 & (0.000001, 0.999999) &  &  & None \\ 
-  15 & SR\_LN(R0) & 8.599 & 1 & (2, 15) & OK & 0.423 & None \\ 
+  15 & SR\_LN(R0) & 8.047 & 1 & (2, 15) & OK & 0.079 & None \\ 
   16 & SR\_BH\_steep & 0.720 & -1 & (0.2, 1) &  &  & Full\_Beta (0.72, 0.16) \\ 
   17 & SR\_sigmaR & 0.500 & -2 & (0, 2) &  &  & None \\ 
   18 & SR\_regime & 0.000 & -4 & (-5, 5) &  &  & None \\ 
-  19 & SR\_autocorr & 0.653 & 4 & (-1, 1) & OK & 0.115 & None \\ 
-  103 & LnQ\_base\_DebCPFV(5) & -7.107 & -1 & (-15, 15) &  &  & None \\ 
-  104 & Q\_extraSD\_DebCPFV(5) & 0.076 & 4 & (0, 2) & OK & 0.050 & None \\ 
-  105 & LnQ\_base\_RecOnboardNorth(6) & -7.822 & -1 & (-15, 15) &  &  & None \\ 
-  106 & Q\_extraSD\_RecOnboardNorth(6) & 0.234 & 4 & (0.0001, 2) & OK & 0.057 & None \\ 
-  107 & LnQ\_base\_RecOnboardSouth(7) & -10.381 & -1 & (-15, 15) &  &  & None \\ 
-  108 & Q\_extraSD\_RecOnboardSouth(7) & 0.598 & 4 & (0.0001, 2) & OK & 0.149 & None \\ 
-  109 & LnQ\_base\_PISCO(8) & -7.716 & -1 & (-15, 15) &  &  & None \\ 
-  110 & Q\_extraSD\_PISCO(8) & 0.200 & 4 & (0.0001, 2) & OK & 0.073 & None \\ 
-  111 & LnQ\_base\_CCFRP(9) & -6.564 & -1 & (-15, 15) &  &  & None \\ 
-  112 & Q\_extraSD\_CCFRP(9) & 0.187 & 4 & (0.0001, 2) & OK & 0.074 & None \\ 
-  113 & LnQ\_base\_RecDocksideNorth(10) & -8.881 & -1 & (-15, 15) &  &  & None \\ 
-  114 & Q\_extraSD\_RecDocksideNorth(10) & 0.000 & -4 & (0, 2) &  &  & None \\ 
-  115 & LnQ\_base\_RecDocksideSouth(11) & -9.797 & -1 & (-15, 15) &  &  & None \\ 
-  116 & Q\_extraSD\_RecDocksideSouth(11) & 0.282 & 4 & (0.0001, 2) & OK & 0.110 & None \\ 
-  117 & Size\_DblN\_peak\_Com(1) & 32.248 & 1 & (19, 38) & OK & 0.706 & None \\ 
-  118 & Size\_DblN\_top\_logit\_Com(1) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
-  119 & Size\_DblN\_ascend\_se\_Com(1) & 3.111 & 5 & (-9, 10) & OK & 0.126 & None \\ 
-  120 & Size\_DblN\_descend\_se\_Com(1) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
-  121 & Size\_DblN\_start\_logit\_Com(1) & -11.759 & 5 & (-15, -5) & OK & 1.761 & None \\ 
-  122 & Size\_DblN\_end\_logit\_Com(1) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
-  123 & Size\_DblN\_peak\_ComDisc(2) & 25.025 & 2 & (19, 38) & OK & 0.454 & None \\ 
-  124 & Size\_DblN\_top\_logit\_ComDisc(2) & -9.380 & 5 & (-15, 10) & OK & 78.883 & None \\ 
-  125 & Size\_DblN\_ascend\_se\_ComDisc(2) & 2.035 & 5 & (-9, 10) & OK & 0.220 & None \\ 
-  126 & Size\_DblN\_descend\_se\_ComDisc(2) & 5.518 & 5 & (-9, 9) & OK & 2.017 & None \\ 
-  127 & Size\_DblN\_start\_logit\_ComDisc(2) & -14.142 & 5 & (-15, -5) & OK & 19.718 & None \\ 
-  128 & Size\_DblN\_end\_logit\_ComDisc(2) & -999.000 & -5 & (-5, 10) &  &  & None \\ 
-  129 & Size\_DblN\_peak\_RecNorth(3) & 32.419 & 3 & (19, 39) & OK & 0.410 & None \\ 
-  130 & Size\_DblN\_top\_logit\_RecNorth(3) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
-  131 & Size\_DblN\_ascend\_se\_RecNorth(3) & 3.270 & 5 & (-9, 10) & OK & 0.076 & None \\ 
-  132 & Size\_DblN\_descend\_se\_RecNorth(3) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
-  133 & Size\_DblN\_start\_logit\_RecNorth(3) & -12.041 & 5 & (-15, -5) & OK & 1.558 & None \\ 
-  134 & Size\_DblN\_end\_logit\_RecNorth(3) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
-  135 & Size\_DblN\_peak\_RecSouth(4) & 27.549 & 4 & (19, 38) & OK & 1.029 & None \\ 
-  136 & Size\_DblN\_top\_logit\_RecSouth(4) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
-  137 & Size\_DblN\_ascend\_se\_RecSouth(4) & 3.081 & 5 & (-9, 10) & OK & 0.236 & None \\ 
-  138 & Size\_DblN\_descend\_se\_RecSouth(4) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
-  139 & Size\_DblN\_start\_logit\_RecSouth(4) & -8.655 & 5 & (-15, -5) & OK & 2.214 & None \\ 
-  140 & Size\_DblN\_end\_logit\_RecSouth(4) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
-  141 & Size\_DblN\_peak\_DebCPFV(5) & 30.799 & 5 & (19, 38) & OK & 0.576 & None \\ 
-  142 & Size\_DblN\_top\_logit\_DebCPFV(5) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
-  143 & Size\_DblN\_ascend\_se\_DebCPFV(5) & 2.986 & 5 & (-9, 10) & OK & 0.108 & None \\ 
-  144 & Size\_DblN\_descend\_se\_DebCPFV(5) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
-  145 & Size\_DblN\_start\_logit\_DebCPFV(5) & -17.979 & 5 & (-20, -5) & OK & 36.426 & None \\ 
-  146 & Size\_DblN\_end\_logit\_DebCPFV(5) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
-  147 & SizeSel\_P1\_RecOnboardNorth(6) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  148 & SizeSel\_P2\_RecOnboardNorth(6) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  149 & SizeSel\_P1\_RecOnboardSouth(7) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  150 & SizeSel\_P2\_RecOnboardSouth(7) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  151 & Size\_DblN\_peak\_PISCO(8) & 30.509 & 5 & (19, 38) & OK & 2.753 & None \\ 
-  152 & Size\_DblN\_top\_logit\_PISCO(8) & 8.000 & -5 & (-15, 10) &  &  & None \\ 
-  153 & Size\_DblN\_ascend\_se\_PISCO(8) & 3.924 & 5 & (-9, 10) & OK & 0.437 & None \\ 
-  154 & Size\_DblN\_descend\_se\_PISCO(8) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
-  155 & Size\_DblN\_start\_logit\_PISCO(8) & -2.828 & 5 & (-15, 15) & OK & 0.700 & None \\ 
-  156 & Size\_DblN\_end\_logit\_PISCO(8) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
-  157 & Size\_DblN\_peak\_CCFRP(9) & 31.067 & 5 & (19, 38) & OK & 0.632 & None \\ 
-  158 & Size\_DblN\_top\_logit\_CCFRP(9) & -10.630 & 5 & (-15, 10) & OK & 65.212 & None \\ 
-  159 & Size\_DblN\_ascend\_se\_CCFRP(9) & 3.143 & 5 & (-9, 10) & OK & 0.151 & None \\ 
-  160 & Size\_DblN\_descend\_se\_CCFRP(9) & 1.664 & 5 & (-15, 9) & OK & 0.813 & None \\ 
-  161 & Size\_DblN\_start\_logit\_CCFRP(9) & -999.000 & -5 & (-15, -5) &  &  & None \\ 
-  162 & Size\_DblN\_end\_logit\_CCFRP(9) & -999.000 & -5 & (-5, 10) &  &  & None \\ 
-  163 & SizeSel\_P1\_RecDocksideNorth(10) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  164 & SizeSel\_P2\_RecDocksideNorth(10) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  165 & SizeSel\_P1\_RecDocksideSouth(11) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  166 & SizeSel\_P2\_RecDocksideSouth(11) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
-  167 & Size\_DblN\_peak\_Com(1)\_BLK1repl\_1999 & 28.900 & 6 & (19, 38) & OK & 0.317 & None \\ 
-  168 & Size\_DblN\_ascend\_se\_Com(1)\_BLK1repl\_1999 & 1.588 & 6 & (-9, 10) & OK & 0.159 & None \\ 
-  169 & Size\_DblN\_start\_logit\_Com(1)\_BLK1repl\_1999 & -12.088 & 6 & (-15, -5) & OK & 3.693 & None \\ 
+  19 & SR\_autocorr & 0.000 & -4 & (-1, 1) &  &  & None \\ 
+  85 & LnQ\_base\_DebCPFV(4) & -7.157 & -1 & (-15, 15) &  &  & None \\ 
+  86 & Q\_extraSD\_DebCPFV(4) & 0.060 & 4 & (0, 2) & OK & 0.045 & None \\ 
+  87 & LnQ\_base\_RecOnboardNorth(5) & -7.766 & -1 & (-15, 15) &  &  & None \\ 
+  88 & Q\_extraSD\_RecOnboardNorth(5) & 0.237 & 4 & (0.0001, 2) & OK & 0.056 & None \\ 
+  89 & LnQ\_base\_PISCO(6) & -6.425 & -1 & (-15, 15) &  &  & None \\ 
+  90 & Q\_extraSD\_PISCO(6) & 0.152 & 4 & (0.0001, 2) & OK & 0.061 & None \\ 
+  91 & LnQ\_base\_CCFRP(7) & -6.199 & -1 & (-15, 15) &  &  & None \\ 
+  92 & Q\_extraSD\_CCFRP(7) & 0.212 & 4 & (0.0001, 2) & OK & 0.078 & None \\ 
+  93 & LnQ\_base\_RecDocksideNorth(8) & -9.288 & -1 & (-15, 15) &  &  & None \\ 
+  94 & LnQ\_base\_PISCOage0(10) & -10.187 & -1 & (-15, 15) &  &  & None \\ 
+  95 & Size\_DblN\_peak\_Com(1) & 31.058 & 1 & (19, 38) & OK & 0.383 & None \\ 
+  96 & Size\_DblN\_top\_logit\_Com(1) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
+  97 & Size\_DblN\_ascend\_se\_Com(1) & 2.733 & 5 & (-9, 10) & OK & 0.108 & None \\ 
+  98 & Size\_DblN\_descend\_se\_Com(1) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
+  99 & Size\_DblN\_start\_logit\_Com(1) & -9.363 & 5 & (-15, -5) & OK & 0.971 & None \\ 
+  100 & Size\_DblN\_end\_logit\_Com(1) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
+  101 & Size\_DblN\_peak\_RecNorth(2) & 32.116 & 3 & (19, 39) & OK & 0.331 & None \\ 
+  102 & Size\_DblN\_top\_logit\_RecNorth(2) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
+  103 & Size\_DblN\_ascend\_se\_RecNorth(2) & 3.202 & 5 & (-9, 10) & OK & 0.055 & None \\ 
+  104 & Size\_DblN\_descend\_se\_RecNorth(2) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
+  105 & Size\_DblN\_start\_logit\_RecNorth(2) & -11.110 & 5 & (-15, -5) & OK & 1.137 & None \\ 
+  106 & Size\_DblN\_end\_logit\_RecNorth(2) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
+  107 & Size\_DblN\_peak\_RecSouth(3) & 27.565 & 4 & (19, 38) & OK & 0.951 & None \\ 
+  108 & Size\_DblN\_top\_logit\_RecSouth(3) & 8.000 & -5 & (-5, 10) &  &  & None \\ 
+  109 & Size\_DblN\_ascend\_se\_RecSouth(3) & 3.078 & 5 & (-9, 10) & OK & 0.238 & None \\ 
+  110 & Size\_DblN\_descend\_se\_RecSouth(3) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
+  111 & Size\_DblN\_start\_logit\_RecSouth(3) & -7.504 & 5 & (-15, -5) & OK & 1.592 & None \\ 
+  112 & Size\_DblN\_end\_logit\_RecSouth(3) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
+  113 & SizeSel\_P1\_DebCPFV(4) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  114 & SizeSel\_P2\_DebCPFV(4) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  115 & SizeSel\_P1\_RecOnboardNorth(5) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  116 & SizeSel\_P2\_RecOnboardNorth(5) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  117 & Size\_DblN\_peak\_PISCO(6) & 38.000 & -5 & (19, 38) &  &  & None \\ 
+  118 & Size\_DblN\_top\_logit\_PISCO(6) & 8.000 & -5 & (-15, 10) &  &  & None \\ 
+  119 & Size\_DblN\_ascend\_se\_PISCO(6) & 4.699 & 5 & (-9, 10) & OK & 0.085 & None \\ 
+  120 & Size\_DblN\_descend\_se\_PISCO(6) & 5.000 & -5 & (-9, 9) &  &  & None \\ 
+  121 & Size\_DblN\_start\_logit\_PISCO(6) & -17.029 & -5 & (-25, 15) &  &  & None \\ 
+  122 & Size\_DblN\_end\_logit\_PISCO(6) & 10.000 & -5 & (-5, 15) &  &  & None \\ 
+  123 & SizeSel\_P1\_CCFRP(7) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  124 & SizeSel\_P2\_CCFRP(7) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  125 & SizeSel\_P1\_RecDocksideNorth(8) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  126 & SizeSel\_P2\_RecDocksideNorth(8) & -1.000 & -5 & (-1, 10) &  &  & None \\ 
+  127 & minage@sel=1\_PISCOage0(10) & 0.000 & -5 & (0, 1) &  &  & None \\ 
+  128 & maxage@sel=1\_PISCOage0(10) & 0.000 & -5 & (0, 1) &  &  & None \\ 
    \hline
 \hline
 \label{tab:model_params}
@@ -4036,110 +4019,110 @@ Year & Total biomass (mt) & Spawning biomass (mt) & Depletion & Age-0 recruits &
                                         rate is $(1-SPR)/(1-SPR_{50\%})$.} \label{tab:Timeseries_mod1} \\ \hline Year & Total biomass (mt) & Spawning biomass (mt) & Depletion & Age-0 recruits & Total catch (mt) & Relative exploitation rate & SPR \\ \hline  \endhead \hline \multicolumn{5}{l}{\textit{Continues next page}} \ 
                                  \endfoot
                                  \endlastfoot \hline
-1916 & 2369 & 1421 & 0.000 & 5426 & 4 & 0.00 & 0.99 \\ 
-  1917 & 2367 & 1419 & 0.998 & 5426 & 7 & 0.00 & 0.98 \\ 
-  1918 & 2363 & 1415 & 0.996 & 5424 & 8 & 0.00 & 0.98 \\ 
-  1919 & 2359 & 1412 & 0.993 & 5423 & 5 & 0.00 & 0.99 \\ 
-  1920 & 2357 & 1410 & 0.992 & 5422 & 5 & 0.00 & 0.99 \\ 
-  1921 & 2355 & 1408 & 0.991 & 5422 & 5 & 0.00 & 0.99 \\ 
-  1922 & 2354 & 1408 & 0.990 & 5421 & 4 & 0.00 & 0.99 \\ 
-  1923 & 2354 & 1407 & 0.990 & 5421 & 4 & 0.00 & 0.99 \\ 
-  1924 & 2354 & 1407 & 0.990 & 5421 & 2 & 0.00 & 0.99 \\ 
-  1925 & 2354 & 1408 & 0.990 & 5421 & 3 & 0.00 & 0.99 \\ 
-  1926 & 2355 & 1408 & 0.991 & 5421 & 5 & 0.00 & 0.99 \\ 
-  1927 & 2354 & 1407 & 0.990 & 5421 & 4 & 0.00 & 0.99 \\ 
-  1928 & 2353 & 1407 & 0.990 & 5421 & 6 & 0.00 & 0.98 \\ 
-  1929 & 2352 & 1405 & 0.989 & 5420 & 6 & 0.00 & 0.98 \\ 
-  1930 & 2350 & 1404 & 0.988 & 5420 & 8 & 0.00 & 0.98 \\ 
-  1931 & 2348 & 1402 & 0.986 & 5419 & 5 & 0.00 & 0.99 \\ 
-  1932 & 2348 & 1402 & 0.986 & 5419 & 10 & 0.00 & 0.97 \\ 
-  1933 & 2345 & 1399 & 0.984 & 5418 & 7 & 0.00 & 0.98 \\ 
-  1934 & 2344 & 1398 & 0.984 & 5418 & 7 & 0.00 & 0.98 \\ 
-  1935 & 2343 & 1398 & 0.983 & 5418 & 6 & 0.00 & 0.99 \\ 
-  1936 & 2343 & 1398 & 0.983 & 5418 & 6 & 0.00 & 0.98 \\ 
-  1937 & 2343 & 1398 & 0.983 & 5418 & 15 & 0.01 & 0.96 \\ 
-  1938 & 2337 & 1392 & 0.980 & 5415 & 18 & 0.01 & 0.95 \\ 
-  1939 & 2330 & 1386 & 0.975 & 5413 & 21 & 0.01 & 0.95 \\ 
-  1940 & 2322 & 1379 & 0.970 & 5410 & 28 & 0.01 & 0.93 \\ 
-  1941 & 2311 & 1369 & 0.963 & 5406 & 27 & 0.01 & 0.93 \\ 
-  1942 & 2302 & 1360 & 0.957 & 5403 & 14 & 0.01 & 0.96 \\ 
-  1943 & 2303 & 1361 & 0.957 & 5403 & 17 & 0.01 & 0.96 \\ 
-  1944 & 2301 & 1359 & 0.956 & 5403 & 4 & 0.00 & 0.99 \\ 
-  1945 & 2308 & 1366 & 0.961 & 5405 & 6 & 0.00 & 0.98 \\ 
-  1946 & 2313 & 1370 & 0.964 & 5407 & 27 & 0.01 & 0.93 \\ 
-  1947 & 2303 & 1362 & 0.958 & 5404 & 37 & 0.02 & 0.91 \\ 
-  1948 & 2289 & 1350 & 0.949 & 5399 & 39 & 0.02 & 0.90 \\ 
-  1949 & 2275 & 1337 & 0.941 & 5393 & 37 & 0.02 & 0.91 \\ 
-  1950 & 2265 & 1327 & 0.934 & 5389 & 39 & 0.02 & 0.90 \\ 
-  1951 & 2255 & 1318 & 0.927 & 5385 & 52 & 0.02 & 0.88 \\ 
-  1952 & 2238 & 1303 & 0.917 & 5379 & 52 & 0.02 & 0.87 \\ 
-  1953 & 2223 & 1289 & 0.907 & 5373 & 55 & 0.02 & 0.87 \\ 
-  1954 & 2209 & 1277 & 0.898 & 5367 & 68 & 0.03 & 0.84 \\ 
-  1955 & 2189 & 1258 & 0.885 & 5359 & 60 & 0.03 & 0.85 \\ 
-  1956 & 2176 & 1247 & 0.877 & 5354 & 76 & 0.03 & 0.82 \\ 
-  1957 & 2156 & 1229 & 0.864 & 5345 & 76 & 0.04 & 0.82 \\ 
-  1958 & 2138 & 1213 & 0.853 & 5337 & 88 & 0.04 & 0.80 \\ 
-  1959 & 2115 & 1193 & 0.839 & 5327 & 62 & 0.03 & 0.84 \\ 
-  1960 & 2108 & 1190 & 0.837 & 3223 & 44 & 0.02 & 0.88 \\ 
-  1961 & 2110 & 1197 & 0.842 & 2846 & 50 & 0.02 & 0.87 \\ 
-  1962 & 2095 & 1201 & 0.845 & 2590 & 61 & 0.03 & 0.84 \\ 
-  1963 & 2054 & 1197 & 0.842 & 2423 & 56 & 0.03 & 0.85 \\ 
-  1964 & 1998 & 1195 & 0.841 & 2340 & 43 & 0.02 & 0.88 \\ 
-  1965 & 1932 & 1194 & 0.840 & 2348 & 58 & 0.03 & 0.85 \\ 
-  1966 & 1843 & 1173 & 0.825 & 2452 & 52 & 0.03 & 0.86 \\ 
-  1967 & 1750 & 1143 & 0.804 & 2673 & 48 & 0.03 & 0.87 \\ 
-  1968 & 1658 & 1102 & 0.775 & 3022 & 49 & 0.03 & 0.86 \\ 
-  1969 & 1568 & 1050 & 0.739 & 3361 & 46 & 0.03 & 0.87 \\ 
-  1970 & 1488 & 993 & 0.698 & 3489 & 60 & 0.04 & 0.83 \\ 
-  1971 & 1411 & 925 & 0.650 & 3358 & 51 & 0.04 & 0.85 \\ 
-  1972 & 1355 & 864 & 0.608 & 3034 & 66 & 0.05 & 0.80 \\ 
-  1973 & 1301 & 801 & 0.563 & 2801 & 88 & 0.07 & 0.75 \\ 
-  1974 & 1245 & 734 & 0.516 & 2943 & 92 & 0.07 & 0.72 \\ 
-  1975 & 1197 & 678 & 0.477 & 3421 & 89 & 0.07 & 0.71 \\ 
-  1976 & 1160 & 638 & 0.449 & 3948 & 91 & 0.08 & 0.69 \\ 
-  1977 & 1132 & 607 & 0.427 & 4287 & 79 & 0.07 & 0.70 \\ 
-  1978 & 1124 & 590 & 0.415 & 4363 & 84 & 0.08 & 0.67 \\ 
-  1979 & 1124 & 575 & 0.404 & 4050 & 78 & 0.07 & 0.68 \\ 
-  1980 & 1140 & 567 & 0.399 & 4142 & 155 & 0.14 & 0.54 \\ 
-  1981 & 1119 & 525 & 0.370 & 4198 & 143 & 0.13 & 0.53 \\ 
-  1982 & 1117 & 502 & 0.353 & 4306 & 129 & 0.12 & 0.54 \\ 
-  1983 & 1131 & 497 & 0.350 & 3759 & 118 & 0.10 & 0.55 \\ 
-  1984 & 1153 & 506 & 0.356 & 2759 & 174 & 0.15 & 0.47 \\ 
-  1985 & 1142 & 495 & 0.348 & 2292 & 173 & 0.15 & 0.46 \\ 
-  1986 & 1126 & 491 & 0.345 & 2178 & 206 & 0.18 & 0.42 \\ 
-  1987 & 1083 & 478 & 0.336 & 2389 & 162 & 0.15 & 0.46 \\ 
-  1988 & 1053 & 483 & 0.340 & 3055 & 145 & 0.14 & 0.49 \\ 
-  1989 & 1025 & 492 & 0.346 & 4381 & 120 & 0.12 & 0.53 \\ 
-  1990 & 1009 & 501 & 0.352 & 6433 & 136 & 0.14 & 0.52 \\ 
-  1991 & 995 & 491 & 0.346 & 8333 & 175 & 0.18 & 0.47 \\ 
-  1992 & 986 & 455 & 0.320 & 8992 & 207 & 0.21 & 0.42 \\ 
-  1993 & 1000 & 402 & 0.283 & 8707 & 210 & 0.21 & 0.39 \\ 
-  1994 & 1060 & 356 & 0.250 & 8277 & 161 & 0.15 & 0.41 \\ 
-  1995 & 1187 & 350 & 0.246 & 7460 & 150 & 0.13 & 0.41 \\ 
-  1996 & 1343 & 377 & 0.265 & 6125 & 148 & 0.11 & 0.42 \\ 
-  1997 & 1507 & 439 & 0.309 & 4580 & 118 & 0.08 & 0.48 \\ 
-  1998 & 1673 & 541 & 0.381 & 3679 & 118 & 0.07 & 0.52 \\ 
-  1999 & 1806 & 660 & 0.465 & 3395 & 127 & 0.07 & 0.55 \\ 
-  2000 & 1891 & 780 & 0.548 & 3487 & 131 & 0.07 & 0.58 \\ 
-  2001 & 1931 & 887 & 0.624 & 4270 & 169 & 0.09 & 0.57 \\ 
-  2002 & 1914 & 958 & 0.674 & 4983 & 133 & 0.07 & 0.64 \\ 
-  2003 & 1887 & 1012 & 0.712 & 4071 & 148 & 0.08 & 0.64 \\ 
-  2004 & 1836 & 1025 & 0.721 & 3305 & 72 & 0.04 & 0.78 \\ 
-  2005 & 1821 & 1046 & 0.736 & 3074 & 86 & 0.05 & 0.76 \\ 
-  2006 & 1783 & 1039 & 0.731 & 2964 & 78 & 0.04 & 0.78 \\ 
-  2007 & 1740 & 1024 & 0.720 & 3046 & 70 & 0.04 & 0.80 \\ 
-  2008 & 1693 & 1007 & 0.708 & 3355 & 87 & 0.05 & 0.77 \\ 
-  2009 & 1630 & 976 & 0.687 & 3947 & 111 & 0.07 & 0.72 \\ 
-  2010 & 1553 & 929 & 0.654 & 4096 & 153 & 0.10 & 0.66 \\ 
-  2011 & 1457 & 857 & 0.603 & 3460 & 135 & 0.09 & 0.66 \\ 
-  2012 & 1387 & 796 & 0.560 & 3465 & 94 & 0.07 & 0.71 \\ 
-  2013 & 1355 & 760 & 0.535 & 4497 & 84 & 0.06 & 0.72 \\ 
-  2014 & 1340 & 733 & 0.516 & 7879 & 105 & 0.08 & 0.68 \\ 
-  2015 & 1331 & 699 & 0.492 & 11760 & 109 & 0.08 & 0.66 \\ 
-  2016 & 1349 & 671 & 0.472 & 8732 & 112 & 0.08 & 0.64 \\ 
-  2017 & 1415 & 648 & 0.456 & 5727 & 104 & 0.07 & 0.65 \\ 
-  2018 & 1526 & 640 & 0.450 & 4333 & 92 & 0.06 & 0.66 \\ 
-  2019 & 1657 & 656 & 0.462 & 4624 &  &  &  \\ 
+1916 & 2047 & 1261 & 0.000 & 3125 & 4 & 0.00 & 0.99 \\ 
+  1917 & 2044 & 1258 & 0.998 & 3124 & 7 & 0.00 & 0.98 \\ 
+  1918 & 2040 & 1254 & 0.995 & 3123 & 8 & 0.00 & 0.97 \\ 
+  1919 & 2036 & 1250 & 0.992 & 3122 & 5 & 0.00 & 0.98 \\ 
+  1920 & 2033 & 1248 & 0.990 & 3122 & 5 & 0.00 & 0.98 \\ 
+  1921 & 2032 & 1247 & 0.989 & 3121 & 5 & 0.00 & 0.98 \\ 
+  1922 & 2031 & 1246 & 0.988 & 3121 & 4 & 0.00 & 0.99 \\ 
+  1923 & 2030 & 1245 & 0.988 & 3121 & 4 & 0.00 & 0.99 \\ 
+  1924 & 2029 & 1245 & 0.987 & 3121 & 2 & 0.00 & 0.99 \\ 
+  1925 & 2030 & 1245 & 0.988 & 3121 & 3 & 0.00 & 0.99 \\ 
+  1926 & 2030 & 1246 & 0.988 & 3121 & 5 & 0.00 & 0.98 \\ 
+  1927 & 2029 & 1245 & 0.987 & 3121 & 4 & 0.00 & 0.99 \\ 
+  1928 & 2029 & 1244 & 0.987 & 3121 & 6 & 0.00 & 0.98 \\ 
+  1929 & 2027 & 1243 & 0.986 & 3120 & 6 & 0.00 & 0.98 \\ 
+  1930 & 2026 & 1241 & 0.985 & 3120 & 8 & 0.00 & 0.97 \\ 
+  1931 & 2023 & 1239 & 0.983 & 3119 & 5 & 0.00 & 0.98 \\ 
+  1932 & 2023 & 1239 & 0.983 & 3119 & 10 & 0.01 & 0.97 \\ 
+  1933 & 2019 & 1236 & 0.980 & 3118 & 7 & 0.00 & 0.98 \\ 
+  1934 & 2018 & 1235 & 0.979 & 3118 & 7 & 0.00 & 0.98 \\ 
+  1935 & 2018 & 1234 & 0.979 & 3118 & 6 & 0.00 & 0.98 \\ 
+  1936 & 2017 & 1234 & 0.979 & 3118 & 6 & 0.00 & 0.98 \\ 
+  1937 & 2017 & 1234 & 0.978 & 3118 & 15 & 0.01 & 0.95 \\ 
+  1938 & 2011 & 1228 & 0.974 & 3117 & 18 & 0.01 & 0.94 \\ 
+  1939 & 2003 & 1221 & 0.968 & 3115 & 21 & 0.01 & 0.93 \\ 
+  1940 & 1995 & 1213 & 0.962 & 3113 & 28 & 0.01 & 0.91 \\ 
+  1941 & 1983 & 1202 & 0.953 & 3110 & 27 & 0.01 & 0.91 \\ 
+  1942 & 1973 & 1193 & 0.946 & 3107 & 14 & 0.01 & 0.95 \\ 
+  1943 & 1973 & 1192 & 0.946 & 3107 & 17 & 0.01 & 0.94 \\ 
+  1944 & 1971 & 1191 & 0.944 & 3107 & 4 & 0.00 & 0.98 \\ 
+  1945 & 1978 & 1197 & 0.950 & 3109 & 6 & 0.00 & 0.98 \\ 
+  1946 & 1982 & 1202 & 0.953 & 3110 & 27 & 0.01 & 0.91 \\ 
+  1947 & 1972 & 1193 & 0.946 & 3108 & 37 & 0.02 & 0.89 \\ 
+  1948 & 1957 & 1179 & 0.935 & 3104 & 39 & 0.02 & 0.88 \\ 
+  1949 & 1942 & 1165 & 0.924 & 3100 & 37 & 0.02 & 0.88 \\ 
+  1950 & 1931 & 1155 & 0.916 & 3097 & 39 & 0.02 & 0.88 \\ 
+  1951 & 1919 & 1144 & 0.907 & 3094 & 52 & 0.03 & 0.84 \\ 
+  1952 & 1901 & 1127 & 0.894 & 3089 & 52 & 0.03 & 0.84 \\ 
+  1953 & 1885 & 1112 & 0.882 & 3085 & 55 & 0.03 & 0.83 \\ 
+  1954 & 1869 & 1098 & 0.871 & 3080 & 68 & 0.04 & 0.80 \\ 
+  1955 & 1846 & 1077 & 0.854 & 3074 & 60 & 0.03 & 0.81 \\ 
+  1956 & 1831 & 1064 & 0.844 & 3069 & 76 & 0.04 & 0.78 \\ 
+  1957 & 1808 & 1043 & 0.827 & 3063 & 76 & 0.04 & 0.77 \\ 
+  1958 & 1788 & 1025 & 0.813 & 3056 & 88 & 0.05 & 0.74 \\ 
+  1959 & 1763 & 1003 & 0.795 & 3048 & 62 & 0.04 & 0.79 \\ 
+  1960 & 1757 & 998 & 0.791 & 3047 & 44 & 0.02 & 0.84 \\ 
+  1961 & 1764 & 1005 & 0.797 & 3049 & 50 & 0.03 & 0.82 \\ 
+  1962 & 1766 & 1007 & 0.799 & 3050 & 61 & 0.03 & 0.79 \\ 
+  1963 & 1759 & 1002 & 0.795 & 3048 & 56 & 0.03 & 0.81 \\ 
+  1964 & 1758 & 1002 & 0.794 & 3048 & 43 & 0.02 & 0.84 \\ 
+  1965 & 1764 & 1008 & 0.799 & 3050 & 58 & 0.03 & 0.80 \\ 
+  1966 & 1760 & 1004 & 0.796 & 3049 & 52 & 0.03 & 0.82 \\ 
+  1967 & 1760 & 1004 & 0.797 & 3049 & 48 & 0.03 & 0.83 \\ 
+  1968 & 1763 & 1007 & 0.799 & 3050 & 49 & 0.03 & 0.82 \\ 
+  1969 & 1764 & 1009 & 0.800 & 3051 & 46 & 0.03 & 0.83 \\ 
+  1970 & 1767 & 1012 & 0.802 & 3052 & 60 & 0.03 & 0.80 \\ 
+  1971 & 1761 & 1006 & 0.798 & 3050 & 51 & 0.03 & 0.82 \\ 
+  1972 & 1762 & 1007 & 0.798 & 3050 & 66 & 0.04 & 0.78 \\ 
+  1973 & 1752 & 998 & 0.791 & 3047 & 88 & 0.05 & 0.74 \\ 
+  1974 & 1729 & 977 & 0.775 & 3039 & 92 & 0.05 & 0.72 \\ 
+  1975 & 1707 & 957 & 0.759 & 3031 & 89 & 0.05 & 0.72 \\ 
+  1976 & 1689 & 940 & 0.746 & 3024 & 91 & 0.05 & 0.72 \\ 
+  1977 & 1673 & 926 & 0.734 & 3018 & 79 & 0.05 & 0.73 \\ 
+  1978 & 1666 & 920 & 0.729 & 3257 & 84 & 0.05 & 0.72 \\ 
+  1979 & 1657 & 912 & 0.723 & 3049 & 78 & 0.05 & 0.73 \\ 
+  1980 & 1657 & 908 & 0.720 & 3557 & 155 & 0.09 & 0.61 \\ 
+  1981 & 1610 & 862 & 0.683 & 3325 & 143 & 0.09 & 0.61 \\ 
+  1982 & 1583 & 828 & 0.657 & 3627 & 129 & 0.08 & 0.62 \\ 
+  1983 & 1575 & 808 & 0.641 & 2938 & 118 & 0.07 & 0.63 \\ 
+  1984 & 1577 & 799 & 0.633 & 2076 & 174 & 0.11 & 0.54 \\ 
+  1985 & 1539 & 763 & 0.605 & 2143 & 173 & 0.11 & 0.53 \\ 
+  1986 & 1485 & 735 & 0.583 & 2061 & 206 & 0.14 & 0.48 \\ 
+  1987 & 1400 & 696 & 0.552 & 2195 & 162 & 0.12 & 0.51 \\ 
+  1988 & 1343 & 683 & 0.542 & 2609 & 145 & 0.11 & 0.53 \\ 
+  1989 & 1297 & 675 & 0.535 & 3277 & 120 & 0.09 & 0.57 \\ 
+  1990 & 1274 & 672 & 0.533 & 3596 & 136 & 0.11 & 0.55 \\ 
+  1991 & 1269 & 652 & 0.517 & 11997 & 175 & 0.14 & 0.50 \\ 
+  1992 & 1267 & 608 & 0.482 & 3312 & 207 & 0.16 & 0.45 \\ 
+  1993 & 1366 & 549 & 0.436 & 3764 & 210 & 0.15 & 0.43 \\ 
+  1994 & 1490 & 507 & 0.402 & 4812 & 161 & 0.11 & 0.45 \\ 
+  1995 & 1569 & 518 & 0.411 & 4650 & 150 & 0.10 & 0.45 \\ 
+  1996 & 1663 & 569 & 0.451 & 3656 & 148 & 0.09 & 0.45 \\ 
+  1997 & 1758 & 648 & 0.514 & 2786 & 118 & 0.07 & 0.51 \\ 
+  1998 & 1843 & 748 & 0.594 & 2528 & 118 & 0.06 & 0.54 \\ 
+  1999 & 1887 & 844 & 0.669 & 2579 & 127 & 0.07 & 0.56 \\ 
+  2000 & 1888 & 919 & 0.729 & 2147 & 131 & 0.07 & 0.58 \\ 
+  2001 & 1864 & 973 & 0.772 & 3459 & 169 & 0.09 & 0.56 \\ 
+  2002 & 1797 & 985 & 0.781 & 2585 & 133 & 0.07 & 0.61 \\ 
+  2003 & 1754 & 990 & 0.785 & 4185 & 148 & 0.08 & 0.61 \\ 
+  2004 & 1702 & 968 & 0.767 & 1896 & 72 & 0.04 & 0.74 \\ 
+  2005 & 1705 & 972 & 0.771 & 1891 & 86 & 0.05 & 0.72 \\ 
+  2006 & 1687 & 959 & 0.761 & 2569 & 78 & 0.05 & 0.74 \\ 
+  2007 & 1645 & 948 & 0.752 & 1600 & 70 & 0.04 & 0.76 \\ 
+  2008 & 1608 & 940 & 0.746 & 1981 & 87 & 0.05 & 0.72 \\ 
+  2009 & 1552 & 921 & 0.730 & 1634 & 111 & 0.07 & 0.68 \\ 
+  2010 & 1473 & 882 & 0.700 & 2451 & 153 & 0.10 & 0.61 \\ 
+  2011 & 1367 & 817 & 0.648 & 2014 & 135 & 0.10 & 0.61 \\ 
+  2012 & 1286 & 761 & 0.603 & 1800 & 94 & 0.07 & 0.67 \\ 
+  2013 & 1241 & 727 & 0.577 & 1589 & 84 & 0.07 & 0.68 \\ 
+  2014 & 1203 & 697 & 0.553 & 4568 & 105 & 0.09 & 0.63 \\ 
+  2015 & 1155 & 655 & 0.520 & 5264 & 109 & 0.10 & 0.62 \\ 
+  2016 & 1147 & 614 & 0.487 & 2487 & 112 & 0.10 & 0.59 \\ 
+  2017 & 1195 & 576 & 0.457 & 3701 & 104 & 0.09 & 0.59 \\ 
+  2018 & 1240 & 553 & 0.439 & 1432 & 92 & 0.07 & 0.60 \\ 
+  2019 & 1281 & 552 & 0.438 & 2778 &  &  &  \\ 
    \hline
 \hline
 \end{longtable}
@@ -4358,7 +4341,7 @@ also did not include landings from south of Point Conception.
 \begin{figure}
 \centering
 \includegraphics{Figures/Calcom_vs_Pacfin.png}
-\caption{Commercial landings estimates from CALCOM add PacFIN.
+\caption{Commercial landings estimates from CALCOM and PacFIN.
 \label{fig:Calcom_vs_Pacfin}}
 \end{figure}
 
@@ -4429,7 +4412,7 @@ bars are 95\% confidence intervals. \label{fig:Fleet10_SM_filter}}
 \centering
 \includegraphics{Figures/MRFSS_index_N_SM_falsepos.png}
 \caption{Comparisons of the indices of abundance for GBYR north of Point
-Conception from the MRFSS dockside CPVS survey that either include of
+Conception from the MRFSS dockside CPFV survey that either include of
 exclude the trips identified as false positives from the
 Stephens-MacCall filter. \label{fig:MRFSS_index_N_SM_falsepos}}
 \end{figure}
@@ -4467,15 +4450,15 @@ bars are 95\% confidence intervals. \label{fig:Fleet11_SM_filter}}
 \begin{figure}
 \centering
 \includegraphics{Figures/DebWV_sites.png}
-\caption{Map of the reefs used in the Deb Wilson-Vandenbery CPFV onboard
+\caption{Map of the reefs used in the Deb Wilson-Vandenberg CPFV onboard
 observer survey index of abundance. \label{fig:DebWV_sites}}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics{Figures/DebWV_index_compare.png}
-\caption{Comparison of the index developed for the Deb Wilson-Vandenbery
-CPFV onboard observer survey from the 2005 assessment and forthe 2019
+\caption{Comparison of the index developed for the Deb Wilson-Vandenberg
+CPFV onboard observer survey from the 2005 assessment and for the 2019
 assessment. \label{fig:DebWV_index_compare}}
 \end{figure}
 
@@ -4504,7 +4487,7 @@ onboard observer survey south of Point Conception
 \begin{figure}
 \centering
 \includegraphics{Figures/CCFRP_sites.png}
-\caption{Map of the four MPAs sample consistently through time for the
+\caption{Map of the four MPAs sampled consistently through time for the
 CCFRP fishery-independent survey. \label{fig:CCFRP_sites}}
 \end{figure}
 
@@ -4571,7 +4554,7 @@ model for the PISCO kelp forest fish survey.
 \centering
 \includegraphics{Figures/PISCO_lengths.png}
 \caption{Plots of the length distributions from the PISCO kelp forest
-fish survey by species (left) and for compbined species by site (right)
+fish survey by species (left) and for combined species by site (right)
 for sites included in the final index of abundance.
 \label{fig:PISCO_lengths}}
 \end{figure}
@@ -4652,7 +4635,7 @@ in this assessment. \label{fig:GBY_weight_length}}
 \centering
 \includegraphics{Figures/SMURF_lengths.png}
 \caption{Length distribution by month for GBYR captured using a sampling
-toold called a Standard Monitoring Unit for the Recruitment of Fishes
+tool called a Standard Monitoring Unit for the Recruitment of Fishes
 (SMURFs) from the UCSC-PISCO kelp forest fish survey, specifically as
 part of Diana Baetscher's dissertation work (Baetscher 2019).
 \label{fig:SMURF_lengths}}
@@ -4688,7 +4671,7 @@ mode. \label{fig:Rec_lengths_justification}}
 \caption{Estiamtes of growth for GBYR from the 2005 assessment, external
 fit to the CAAL data used in this assessment and the internal SS
 estimate of growth for this assessment. All growth curves were estimated
-using the Schnute parameterization of the von Bertalanffy growth curve
+using the Schnute parameterization of the von Bertalanffy growth curve.
 \label{fig:growth_compare}}
 \end{figure}
 
@@ -4699,14 +4682,6 @@ using the Schnute parameterization of the von Bertalanffy growth curve
 \includegraphics{r4ss/plots_mod1/sel01_multiple_fleets_length1.png}
 \caption{Selectivity at length for all of the fleets in the base model.
 \label{fig:sel01_multiple_fleets_length1}}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics{r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png}
-\caption{Surface plot of Female time-varying selectivity for the
-commercial fleet, with time blocks from 1916-1998 and 1999-2018.
-\label{fig:sel03_len_timevary_surf_flt1sex1}}
 \end{figure}
 
 \FloatBarrier
@@ -4731,9 +4706,9 @@ model with 95\% confidence or credibility intervals.
 \includegraphics{r4ss/plots_mod1/recruit_fit_bias_adjust.png}
 \caption{Bias adjustment for recruitment deviations. Points are
 transformed variances. Red line shows current settings for bias
-adjustment specified in control file. Blue line shows least squares
-estimate of alternative bias adjustment relationship for recruitment
-deviations \label{fig:recruit_fit_bias_adjust}}
+adjustment specified in the control file. Blue line shows the least
+squares estimate of alternative bias adjustment relationship for
+recruitment deviations. \label{fig:recruit_fit_bias_adjust}}
 \end{figure}
 
 \begin{figure}
@@ -4747,55 +4722,19 @@ the effect of the bias correction for the lognormal distribution.
 
 \FloatBarrier 
 
-\begin{figure}
-\centering
 \includegraphics{r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png}
-\caption{Fit to log index data on log scale for the recerational MRFSS
-dockside CPFV fishery north of Point Conception. Lines indicate 95\%
-uncertainty interval around index values. Thicker lines indicate input
-uncertainty before addition of estimated additional uncertainty
-parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics{r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png}
-\caption{Fit to log index data on log scale for the recerational MRFSS
-dockside CPFV fishery south of Point Conception. Lines indicate 95\%
-uncertainty interval around index values. Thicker lines indicate input
-uncertainty before addition of estimated additional uncertainty
-parameter. \label{fig:index5_logcpuefit_RecDocksideSouth}}
-\end{figure}
 
 \begin{figure}
 \centering
 \includegraphics{r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png}
-\caption{Fit to log index data on log scale for the recerational Deb's
+\caption{Fit to log index data on log scale for the recreational Deb's
 CPFV onboard observer program, representing north of Point Conception.
 Lines indicate 95\% uncertainty interval around index values. Thicker
 lines indicate input uncertainty before addition of estimated additional
 uncertainty parameter. \label{fig:index5_logcpuefit_DebCPFV}}
 \end{figure}
 
-\begin{figure}
-\centering
 \includegraphics{r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png}
-\caption{Fit to log index data on log scale for the recerational current
-CPFV onboard observer program north of Point Conception. Lines indicate
-95\% uncertainty interval around index values. Thicker lines indicate
-input uncertainty before addition of estimated additional uncertainty
-parameter. \label{fig:index5_logcpuefit_RecOnboardNorth}}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics{r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png}
-\caption{Fit to log index data on log scale for the recerational current
-CPFV onboard observer program south of Point Conception. Lines indicate
-95\% uncertainty interval around index values. Thicker lines indicate
-input uncertainty before addition of estimated additional uncertainty
-parameter. \label{fig:index5_logcpuefit_RecOnboardSouth}}
-\end{figure}
 
 \begin{figure}
 \centering
@@ -4972,14 +4911,14 @@ mortality. \label{fig:profile_m_depl}}
 \begin{figure}
 \centering
 \includegraphics{r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png}
-\caption{Estimated spawning biomass (mt) with approximate 95\%
-asymptotic intervals.
+\caption{Estimated spawning output with approximate 95\% asymptotic
+intervals.
 \label{fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{r4ss/plots_mod1/ts9_unfished_with_95_asymptotic_intervals_intervals.png}
+\includegraphics{r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_intervals.png}
 \caption{Estimated spawning depletion with approximate 95\% asymptotic
 intervals.
 \label{fig:ts9_unfished_with_95_asymptotic_intervals_intervals}}
@@ -5099,17 +5038,17 @@ sample size used in the McAllister\_Iannelli tuning method.
 
 \begin{figure}
 \centering
-\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt2mkt2.png}
-\caption{Length comps, retained, ComDisc. `N adj.' is the input sample
-size after data\_weighting adjustment. N eff. is the calculated
+\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt2mkt0.png}
+\caption{Length comps, whole catch, RecNorth. `N adj.' is the input
+sample size after data\_weighting adjustment. N eff. is the calculated
 effective sample size used in the McAllister\_Iannelli tuning method.
-\label{fig:mod1_2_comp_lenfit_flt2mkt2}}
+\label{fig:mod1_2_comp_lenfit_flt2mkt0}}
 \end{figure}
 
 \begin{figure}
 \centering
 \includegraphics{./r4ss/plots_mod1/comp_lenfit_flt3mkt0.png}
-\caption{Length comps, whole catch, RecNorth. `N adj.' is the input
+\caption{Length comps, whole catch, RecSouth. `N adj.' is the input
 sample size after data\_weighting adjustment. N eff. is the calculated
 effective sample size used in the McAllister\_Iannelli tuning method.
 \label{fig:mod1_3_comp_lenfit_flt3mkt0}}
@@ -5118,7 +5057,7 @@ effective sample size used in the McAllister\_Iannelli tuning method.
 \begin{figure}
 \centering
 \includegraphics{./r4ss/plots_mod1/comp_lenfit_flt4mkt0.png}
-\caption{Length comps, whole catch, RecSouth. `N adj.' is the input
+\caption{Length comps, whole catch, DebCPFV. `N adj.' is the input
 sample size after data\_weighting adjustment. N eff. is the calculated
 effective sample size used in the McAllister\_Iannelli tuning method.
 \label{fig:mod1_4_comp_lenfit_flt4mkt0}}
@@ -5126,29 +5065,20 @@ effective sample size used in the McAllister\_Iannelli tuning method.
 
 \begin{figure}
 \centering
-\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt5mkt0.png}
-\caption{Length comps, whole catch, DebCPFV. `N adj.' is the input
-sample size after data\_weighting adjustment. N eff. is the calculated
-effective sample size used in the McAllister\_Iannelli tuning method.
-\label{fig:mod1_5_comp_lenfit_flt5mkt0}}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt8mkt0.png}
+\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt6mkt0.png}
 \caption{Length comps, whole catch, PISCO. `N adj.' is the input sample
 size after data\_weighting adjustment. N eff. is the calculated
 effective sample size used in the McAllister\_Iannelli tuning method.
-\label{fig:mod1_6_comp_lenfit_flt8mkt0}}
+\label{fig:mod1_5_comp_lenfit_flt6mkt0}}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt9mkt0.png}
+\includegraphics{./r4ss/plots_mod1/comp_lenfit_flt7mkt0.png}
 \caption{Length comps, whole catch, CCFRP. `N adj.' is the input sample
 size after data\_weighting adjustment. N eff. is the calculated
 effective sample size used in the McAllister\_Iannelli tuning method.
-\label{fig:mod1_7_comp_lenfit_flt9mkt0}}
+\label{fig:mod1_6_comp_lenfit_flt7mkt0}}
 \end{figure}
 
 \newpage
@@ -5233,8 +5163,8 @@ assessment models. Canadian Journal of Fisheries and Aquatic Sciences
 
 \hypertarget{ref-Hallacher1984}{}
 Hallacher, L.E. 1984. Relocation of original territories by displaced
-black-and-yellow rockfish, Sebastes chrysomelas, from Carmel Bay,
-California. California Department of FIsh and Game \textbf{70}:
+black-and-yellow rockfish, \emph{Sebastes chrysomeal}, from Camel Bay,
+California. California Department of Fish and Game \textbf{70}(3):
 158--162.
 
 \hypertarget{ref-Hallacher1985}{}
@@ -5314,7 +5244,7 @@ Department of Fish and Game, Fish Bulletin \textbf{177}.
 
 \hypertarget{ref-Lo1992}{}
 Lo, N., Jacobson, L.D., and Squire, J.L. 1992. Indices of relative
-abundance from fish spotter data based on delta-lognornmal models.
+abundance from fish spotter data based on delta-lognormal models.
 Canadian Journal of Fisheries and Aquatic Sciences \textbf{49}:
 2515--2526.
 
