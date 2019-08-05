@@ -49,8 +49,14 @@ available [here](https://www.pcouncil.org/groundfish/stock-assessments/by-specie
 The model descriptions in the following sections reflect decisions and modelling 
 choices the STAT team made prior to the STAR panel.  Changes from the pre-STAR 
 base model to the final post-STAR base model are documented in the "Responses 
-to the Current STAR Panel Requests" section.  None of the data changed during 
-the STAR panel, and the figures and tables reflect the post-STAR final base model.
+to the Current STAR Panel Requests" section.  During the STAR panel, the following 
+structrue change were made; 1) the commercial retained and commercial discard fleets 
+were combined into one commercial fleet, 2) the MRFSS recreational dockside and the 
+CRFS recreational onboard indices south Point Conception were removed, 3) the PISCO 
+index was split into two indices, one representing fish 15 cm and larger and an 
+age-0 index representing fish 6 cm or less. All of the figures and tables reflect 
+the post-STAR final base model. The section on the PISCO index of abundance has been 
+updated to reflect the change in the indices.
 
 While investigating convergence issues in the cowcod assessment, Richard Methot 
 (NMFS) identified an issue with the performance of the 'sfabs' function in ADMB. 
@@ -75,7 +81,6 @@ changes with Stock Synthesis, and some denote parameters chosen for options that
 available in SS2 (version 1.19).
 
 Changes in the bridge model from SS2 version 1.9 to SS3.24z and SS3.30.13.09 include:
-
 
 The way growth is modeled for age-0 fish has changed.  More recent versions of Stock Synthesis 
 model length-at-age for fish below the first reference age (Amin) as linearly increasing 
@@ -422,7 +427,7 @@ Model convergence was determined by starting the minimization process from dispe
 values of the maximum likelihood estimates to determine if the model found a better 
 minimum. Jitter is a SS option that generates random starting values from a normal 
 distribution logistically transformed into each parameter’s range [@Methot2019]. This 
-was repeated 240 times and the minimum was reached in 97% of the runs  (Table \ref{tab:jitter}).
+was repeated 300 times and the minimum was reached in 67% of the runs  (Table \ref{tab:jitter}).
 The model did not experience convergence issues, e.g., final gradient was below 0.0001,
 when reasonable starting values were used and there were no difficulties in inverting 
 the Hessian to obtain estimates of variability.  We did sensitivity runs for 
@@ -481,36 +486,40 @@ To be populated after the STAR panel.
 <!-- *********************MODEL 1 RESULTS********************************** -->
 ##Base Case Model Results 
 The following description of the model results reflects a base model that 
-was developed prior to the STAR panel (this section will be updated after the 
-STAR panel). The base model parameter estimates and their approximate asymptotic 
+incorporates all of the changes made during the STAR panel. The base model parameter 
+estimates and their approximate asymptotic 
 standard errors are shown in Table \ref{tab:model_params} and the likelihood 
-components are in Table \ref{tab:like_components}.  Estimates of derived reference points and 
+components are in Table \ref{tab:like_components}. Estimates of derived reference points and 
 approximate 95% asymptotic confidence intervals are shown in Table \ref{tab:Ref_pts_mod1}.
 Time-series of estimated stock size over time are shown in Table \ref{tab:Timeseries_mod1}.
 
 Steepness of the assumed Beverton-Holt stock-recruitment relationship was fixed at 0.72, and
-natural mortality was estimated to be 0.22.
+natural mortality was fixed at 0.193.
 
 ###Parameter Estimates
 The base model produces estimates of growth parameters different from the external 
 estimates (Figure \ref{fig:growth_compare}).  The external estimate of the von Bertalanffy 
 growth coefficient $k$ 
-was 0.247, whereas the internal estimate was much lower at 0.121. Using the Schnute 
+was 0.247, whereas the internal estimate was much lower at 0.107. Using the Schnute 
 parameterization with the age for L1 set at 2 and L2 at 23, the external estimates of lengths 
-at Amin and Amax were 13.80 and 28.22, respectively.  The internal estimates of the lengths 
-for Amin and Amax were 9.72 and 28.36, respectively. Natural mortality was estimated 
-in the base model and natural mortality and the growth parameter k are negatively 
-correlated. The model sensitivity to growth and natural mortality are explored in
-the sensitivities.  
+at Amin and Amax were similar at 13.80 and 28.22, respectively.  The internal estimates of 
+the lengths for Amin and Amax were 13.4 and 28.80, respectively. Given that natural mortality 
+was fixed in the base model and natural mortality and the growth parameter $k$ are negatively 
+correlated, the model estimated a slower rate of growth.  A number of other factors including the 
+lenght composition and selectivity affect the internal estimate of growth.  Hence, growth was 
+chosen as the axis of uncertainty for the decision table.
 
 The additional survey variability (process error added directly to each year's input 
-variability) for all surveys was estimated within the model.  
+variability) for all surveys except the recreational dockside index north of Point Conception 
+(RecDocksideNorth) and the PISCO age-0 index, was estimated within the model.  
 
-Selectivity curves were estimated for the fishery and survey fleets.  The estimated 
-selectivities for all fleets within the model are shown in Figure 
-\ref{fig:sel01_multiple_fleets_length1}. The commercial fishery selectivities are 
-all asymptotic.  Maximum selectivity for the commercial fleet is reached at 34 cm 
-from 1916-1998 and also selected fish smaller than recent years.  
+The selectivity curves for the commercial fleet, recreational fleets north and 
+south of Point Conception, and the larger PISCO (15+ cm) were estimated. All of 
+the selectivities are asympototic except for the PISCO age-0 index, which has an 
+age selectivity set to 1.0. All of the recreational indices and the CCFRP index 
+selectivities were mirrored to the recreational fleet north of Point Conception.  
+The estimated selectivities for all fleets within the model are shown in 
+Figure \ref{fig:sel01_multiple_fleets_length1}. 
 
 The commercial discard fleet did not observe any fish over 36 cm in the 14 years of 
 available data. The majority of the nearshore fishery for GBYR is the live fish fishery, 

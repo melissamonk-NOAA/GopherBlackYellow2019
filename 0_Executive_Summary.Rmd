@@ -96,16 +96,13 @@ distributions between species and among modes within a region were similar and j
 one combined recreational fleet within each of the two regions (north and south of Point 
 Conception).
 
-This stock assessment retains a single fleet for the commercial fishery, and also 
-includes a commercial discard fleet.  Data on commercial discards were not available 
+This stock assessment retains a single fleet for the commercial fishery, including discards. 
+Data on commercial discards were not available 
 for and not included in the 2005 assessment.  The decision to retain one commercial 
 fleet was made by examining the length distributions across species, fishing gears, 
 and space, i.e., north and south of Point Conception. There is very little difference between 
 the length composition of gopher and black-and-yellow rockfish landed in the commercial 
-fleet north of Point Conception. Because Stock Synthesis is
-not set up to handle depth-dependent discard mortality rates and this model includes
-two species as a complex with differing depth-dependent discard mortality rates,
-the time series of commercial discards was incorporated as a separate fleet.
+fleet north of Point Conception.
 
 A number of sources of uncertainty are addressed in this assessment. This 
 assessment includes length data, estimated growth, an updated length-weight curve, an
