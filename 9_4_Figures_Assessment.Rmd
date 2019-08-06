@@ -107,8 +107,9 @@ output:
 ![Fit to log index data on log scale for the CRFS CPFV onboard observer survey south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardSouth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png)
 -->
 
-![Fit to log index data on log scale for the fishery-independent PISCO kelp forest fish survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_PISCO}](r4ss/plots_mod1/index5_logcpuefit_PISCO.png)
 
+![Fit to log index data on log scale for the fishery-independent PISCO kelp forest fish survey for fish 15 cm and larger. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_PISCO}](r4ss/plots_mod1/index5_logcpuefit_PISCO.png)
+![Fit to log index data on log scale for the fishery-independent PISCO age-0 (6 cm or less) kelp forest fish survey for fish 15 cm and larger. Lines indicate 95% uncertainty interval around index values. \label{fig:index5_logcpuefit_PISCOage0}](r4ss/plots_mod1/index5_logcpuefit_PISCOage0.png)
 
 ![Fit to log index data on log scale for the fishery-independent CCFRP hook-and-line survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_CCFRP}](r4ss/plots_mod1/index5_logcpuefit_CCFRP.png)
 
@@ -175,8 +176,9 @@ output:
 
 <!-- ***********R0 Likelihood profile FIGURES****************************** --> 
 
-![Likelihood profile across R\textsubscript{0} values by fleet. \label{fig:profile_R0_piner}](Figures/profile_R0_piner.png)
-  
+![Likelihood profile across R\textsubscript{0} values of length composition by fleet. \label{fig:profile_R0_piner}](Figures/profile_R0_piner.png)
+
+![Likelihood profile for R\textsubscript{0} values across surveys. \label{fig:profile_R0_piner2}](Figures/profile_R0_piner2.png)
 
 
 ![Likelihood profile across R\textsubscript{0} values for each data type. \label{fig:profile_R0_like}](Figures/profile_R0_like.png)
@@ -190,7 +192,8 @@ output:
 
 <!-- ***********h Likelihood profile FIGURES******************************* -->
 
-![Likelihood profile across steepness values by fleet. \label{fig:profile_h_piner}](Figures/profile_h_piner.png)
+![Likelihood profile across steepness values by fleet length composition. \label{fig:profile_h_piner}](Figures/profile_h_piner.png)
+![Likelihood profile across steepness values by surveys. \label{fig:profile_h_piner2}](Figures/profile_h_piner2.png)
 
 
 ![Likelihood profile across steepness values for each data type. \label{fig:profile_h_like}](Figures/profile_h_like.png)
@@ -201,7 +204,9 @@ output:
 <!-- ***********M Likelihood profile FIGURES******************************* -->
 
 
-![Likelihood profile across female natural mortality values by fleet. \label{fig:profile_m_piner}](Figures/profile_m_piner.png)
+![Likelihood profile across female natural mortality values by length composition. \label{fig:profile_m_piner}](Figures/profile_m_piner.png)
+
+![Likelihood profile across female natural mortality values by surveys. \label{fig:profile_m_piner2}](Figures/profile_m_piner2.png)
 
 ![Likelihood profile across female natural mortality values for each data type. \label{fig:profile_m_like}](Figures/profile_m_like.png)
 

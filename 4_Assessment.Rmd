@@ -509,59 +509,55 @@ correlated, the model estimated a slower rate of growth.  A number of other fact
 lenght composition and selectivity affect the internal estimate of growth.  Hence, growth was 
 chosen as the axis of uncertainty for the decision table.
 
-The additional survey variability (process error added directly to each year's input 
-variability) for all surveys except the recreational dockside index north of Point Conception 
-(RecDocksideNorth) and the PISCO age-0 index, was estimated within the model.  
-
+The estimated selectivities for all fleets within the model are shown in 
+Figure \ref{fig:sel01_multiple_fleets_length1}.
 The selectivity curves for the commercial fleet, recreational fleets north and 
 south of Point Conception, and the larger PISCO (15+ cm) were estimated. All of 
 the selectivities are asympototic except for the PISCO age-0 index, which has an 
 age selectivity set to 1.0. All of the recreational indices and the CCFRP index 
-selectivities were mirrored to the recreational fleet north of Point Conception.  
-The estimated selectivities for all fleets within the model are shown in 
-Figure \ref{fig:sel01_multiple_fleets_length1}. 
-
-The commercial discard fleet did not observe any fish over 36 cm in the 14 years of 
-available data. The majority of the nearshore fishery for GBYR is the live fish fishery, 
-and fishermen are fishing shallower waters in order to ensure that the landed fish 
-remain alive. The larger GBYR likely reside in waters deeper than typically fished 
-by this fleet.
-
-The recreational fleet north of Point Conception selects the largest fish of the other 
-fleets, with full selectivity at 34 cm. Fish south of Point Conception encountered 
-in the recreational fleet were noticeably smaller, and fully selected at 29 cm. 
-
-The two fishery-independent surveys sample different habitats and depth ranges. 
-The PISCO study only samples in 0-20 m depth and observes small young-of-the-year 
-fish and adults, but not the 10-17 cm size range.  The asymptotic selectivity for 
-the PISCO survey does not go to zero on the ascending side since the young-of-the-year 
-fish are observed.  The CCFRP survey does not see the larger size classes, possibly 
-due to the maximum survey depth fished to reduce barotrauma.  Dome shaped 
-selectivity was estimated for this survey. 
+selectivities were mirrored to the recreational fleet north of Point Conception. 
+Attempts to fit asmyptotic and dome-shaped selectivity to the CCFRP data resulted in 
+poor estimation, large standard deviations, or a lack of fit to the data. The aggregated 
+CCFRP length composition over time was similiar to the length composition data of the 
+recreational fleets north of Point Conception and mirroring the CCFRP selectivity provided 
+a more parsimonious model.  The recreational fleet south of Point Conception encounters 
+smaller GBYR, which is reflected in the asmyptotic selectivity shifted to the left of all 
+other fleets. Selectivities for the recreational fleet north of Point Conception and the commercial 
+fleet are very similar. Both fleets include both length composition of retained 
+and discarded fish, although no information on the size of discards is available from 
+the commercial fleet prior to 2004.  The selectivity for the commercial fleet was kept 
+separate because the fleet has different fishing behavior than the recreational fleet and going 
+forward in time, may diverge further from the fleets depending on management decisions or 
+changes in fishing behavior.  Selectivity for the PISCO (15+ cm fish) index was estimated 
+as the survey observes a  wider range of length classes than the other fleets.  The estimated 
+peak of the PISCO selectivity hit the upper bound of 38 and was fixed at 38 in the base model. 
+The age selectivity for the PISCO age-0 index was fixed at 1.0 and assumes that all age-0 
+fish are selected.
 
 The additional survey variability (process error added directly to each year's input 
-variability) for all surveys was estimated within the model. The model estimated a 
-small added variance for MRFSS dockside recreational index north of Point Conception 
-that was then turned off for the final base model.  The added variance for Deb's onboard 
-observer survey was estimated at 
-`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(5)", 3], 6)` 
-but the model presented stability issues during jittering when the variability 
-was turned off.  Therefore, it was turned on for the final base model, and 
-can be explored further. The added variances were highest 
-for the recreational onboard observer survey north of Point Conception
+variability) for all surveys except the recreational dockside index north of Point Conception 
+(RecDocksideNorth) and the PISCO age-0 index, was estimated within the model.
+The added variance for Deb's onboard observer survey was estimated at 
+`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(5)", 3], 6)`.
+The added variances were highest for the recreational onboard observer survey north of 
+Point Conception
 (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(6)", 3], 3)`)
 PISCO (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(8)", 3], 3)`), and 
 CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(9)", 3], 3)`).
 
 Recruitment deviations were estimated from 1978-2018 (Figure \ref{fig:recdevs2_withbars}). 
 Estimates of recruitment suggest that GBYR are characterized by cyclical years of high 
-and low recruitment (Figure \ref{fig:Recruit_mod1}). The years of highest estimated 
-recruitment were in the early 1990s, followed by a period of below average 
-recruitment, and another high recruitment pulse in the late 2010s. The bias adjustment for 
-recruitment deviations can be found in Figure \ref{fig:recruit_fit_bias_adjust}. 
-The PISCO kelp forest fish survey is the only fishery-independent survey that observed 
-young-of-the-year GBYR 
-in this assessment.
+and low recruitment (Figure \ref{fig:Recruit_mod1}). The final base model does not include
+early recruitment deviation and a steep bias adjustment ramp from 1978 to 1979 of 0.32 that 
+extends to 2019 Figure \ref{fig:recruit_fit_bias_adjust}. The years of highest estimated 
+recruitment is 1991, with recruitment estimated more than double that of any other year.  
+Fish from this cohort can be observed in the lenght composition data from Deb Wilson Vandenberg's
+onboard observer survey and recreational fleet north of Point Conception in the later half of 
+the 1990s. Additional periodic recruitment events are estimated from 1994 
+and onward, with the peaks from 2001 and on driven by the PISCO age-0 index.
+followed by a period of below average recruitment, and another high recruitment pulse 
+in the late 2010s. 
+
 
 The stock-recruit curve resulting from a fixed value of steepness is shown in Figure 
 \ref{fig:SR_curve2}. The stock has not been depleted to a low enough level that 
@@ -573,54 +569,51 @@ Model fits to the indices of abundance, fishery length composition, survey lengt
 composition, and conditional age-at-length observations are all discussed below. 
 The full r4ss plotting output is available in the supplementary material.
 
-The fits to the five fishery-dependent and two fishery-independent survey indices 
+The fits to the three fishery-dependent and three fishery-independent survey indices 
 are shown in Figures \ref{fig:index5_logcpuefit_RecDocksideNorth} - 
-\ref{fig:index5_logcpuefit_CCFRP}. The majority of the indices represent the area 
-north of Point Conception only and not all of these were fit well by the 
-assessment model. The MRFSS recreational dockside survey index north of Point 
+\ref{fig:index5_logcpuefit_CCFRP}. All indices represent the area 
+north of Point Conception only, and not all of these were fit well by the 
+assessment model. The MRFSS CPFV recreational dockside survey index north of Point 
 Conception spanning the 1980s-1990s was fit well by the model without added variance, 
-but relatively flat, and is not a very informative index. The index for Deb's CPFV 
-onboard observer survey spanning 1988-1998 was well fit and indicates an increase 
-in relative abundance in the last year of the survey.  The current recreational CPFV 
-onboard observer survey north of Point Conception from 2001-2018 was relatively well 
-fit, except for the decline suggested 2013 and 2014.  The increase in relative abundance 
-observed in 2018 was not fit by the model, even with the added variance.
+but relatively flat, and is not a very informative index. The index for 
+Deb Wilson-Vandenberg's CPFV onboard observer survey spanning 1988-1998 was well fit 
+and indicates an increase in relative abundance in the last year of the survey. 
+The current recreational CRFS/Cal Poly onboard observer survey north of Point 
+Conception from 2001-2018 was relatively well fit, except for the decline suggested 
+2013 and 2014.  The increase in relative abundance observed in 2018 was not fit by the model, even with the added variance. The variance added to this survey was the highest for all indices.
 
-The fishery-dependent indices for north of south of Point Conception 
-were both relatively flat.  The MRFSS CPFV dockside survey index was relatively well 
-fit and indicated an increase in the last two years of the survey, 1998-1999.  The 
-current CRFS onboard observer survey representing 2001-2018 showed very little trend in 
-the estimated CPUE, and the variance added to this survey was the highest for all indices. 
-
-The fishery-independent PISCO kelp forest fish survey index indicates a cyclical trend that 
-was not captured by the model fit. The fit to the index is relatively flat. This may be in 
-part due to the observation of both young-of-the-year, small juveniles, and adults in the 
-survey.  An alternative index of abundance teasing apart the two life stages will be 
-developed and presented at the STAR panel. 
+The model did not capture the contrast in the  PISCO index 
+for 15+ cm fish, fitting a decline to the time series from 2010 to 2018, when the index 
+suggests an increase from 2010 to 2013 and another increase after a declin in 2016. The 
+model does capture the PISCO age-0 index without added variance.  A number of years, e.g., 
+2004-2008, were marked by low relative abundance of age-0 GBYR and have larger standard 
+errors.  The years with lower relative abundance were not captured by the model, but fit 
+to the uppder bound of the input standard error.  The increases in age-0 GBYR in 2001, 
+2001, 2014-2015 and 2017 were captured in the model fit.
 
 The model was not able to capture the trends observed in the fishery-independent CCFRP 
 hook-and-line survey.  The index suggested the same depressed relative abundance in 2013 
 as the fishery-dependent CRFS/Cal Poly onboard observer survey, that was also not captured 
-here by the fit. 
-The increasing trends in abundance from 2016-2018 was also not captured by the model fit, and 
-the fit suggests a declining trend over the entire time series from 2007-2018.
+here by the fit. The increasing trends in abundance from 2016-2018 was also not captured by the model fit, and the fit suggests a declining trend over the entire time series from 2007-2018.
 
-Fits to the length data are shown based on the proportions of lengths observed by 
-year and the Pearson residuals-at-length for all fleets.  Detailed fits to the 
+The base model was re-weighted twice using Francis weights for the length and age 
+composition data. Fits to the length data are shown based on the proportions of 
+lengths observed by 
+year and the Pearson residuals-at-length for all fleets. Detailed fits to the 
 length data by year and fleet are provided in Appendix 
 \ref{appendix-c.-detailed-fits-to-length-composition-data}.  Aggregate fits by fleet 
 are shown in Figure \ref{fig:comp_lenfit__aggregated_across_time}. Overall, the 
-length composition all fit well. The fit to the the commercial discard length composition 
-was underestimated at the peak, but otherwise captures the observations well.  The same is 
-true for one of the peaks at 25 cm for the PISCO data, that were the noisiest of all the length 
-composition data.  There are a handful of years within some of the annual length composition 
-data that were not particularly well fit, e.g., 1980 and 1996 for RecSouth, but these were usually 
-due to high frequencies of fish in a small number of length bins.
+length composition all fit well. The PISCO fleet has the noisiest of all the length 
+composition data, but on an annual basis, the length data were relatively well fit. 
+The fit to the aggregated CCFRP data suggests the model expects to see additional 
+larger fish, which is likely due to the mirroring of the selectivitity.  However, 
+on an annual basis, there is a tradeoff with the CCFRP with under-fitting of the larger 
+fish in the earlier years and an under-fitting of the smaller fish expected in the 
+later years (2013-2018).
 
-The age data were also weighted according to Francis weighting which adjust the weight 
-given to a data set based on the fit to the mean age by year. The mean age of the 
-recreational fleet declined from 1980 to 1986, and the mean for 2017 was the highest of 
-all years (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}). The 
+The mean age of the recreational fleet varied from 1980-1986 ranging from approximately 8-11, 
+and increased in 2017 to approximately 13 
+(Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}). The 
 conditional age data from the CCFRP data was not well fit for the earliest years in the 
 data, but was reasonably well fit for the last four years of data (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}).  The conditional length 
 composition data from the 'dummy' fleet was well fit, although heavily down-weighted.  Age 
@@ -684,6 +677,7 @@ a model with a positive definite Hessian was not identified with the pre-STAR
 base model.
 
 ###Retrospective Analysis
+need to update  
 A 4-year retrospective analysis was conducted by running the model using data 
 only through 2018 (retro 1), 2017 (retro 2), 2016 (retro 3), and 2015 (retro 4) 
 (Table \ref{tab:retro}). 
@@ -711,32 +705,35 @@ at specific values and estimated the remaining parameters based on the fixed par
 value (Tables \ref{tab:like_profiles}-\ref{tab:like_profiles2}).
 
 In regards to values of $R_0$, the negative log-likelihood was minimized at approximately 
-log($R_0$) of 8.5 (Table \ref{tab:like_profiles}). The individual fleets tend to minimize 
-at the lower bound, e.g., CCFRP and commercial fleets, or the upper bound, e.g., PISCO and 
-the recreational north fleets (Figure \ref{fig:profile_R0_piner}). The data all consistently 
-minimize around 8.5 with a small change in likelihood at larger values of $R_0$ 
-(Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged 
-from 0.22-0.65 (Figure \ref{fig:profile_R0_depl}).
+log($R_0$) of 8.0 (Table \ref{tab:like_profiles}). The individual surveys tend to minimize 
+at the upper bound or jut below, while the length composition data has conflicting trends, e.g., CCFRP and commercial fleets, or the upper bound, e.g., PISCO and 
+the recreational north fleets (Figures \ref{fig:profile_R0_piner}-\ref{fig:profile_R0_piner2}). 
+The data all consistently minimize around 8.5 and the recreational fleet south of Point Conception 
+minimize $R_0$ at the lower bound.  (Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged from 0.38-0.59 (Figure \ref{fig:profile_R0_depl}).
 
 For steepness, the negative log-likelihood reaches a minimum around a steepness 
-of 0.90 for the prior and the total likelihood (Figure \ref{fig:profile_h_like} and 
-Table \ref{tab:like_profiles}). The other likelihood components continue to decline as 
-alternative values of steepness (Figure \ref{fig:profile_m_depl}).
+near the upper bound (Figure \ref{fig:profile_h_like} and 
+Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_depl}). 
+The length composition likelihood components declined towards the uppder bound for Deb's 
+CPFV and the recreational south fleets, while the other fleets either 
+reached a minimum around 0.55 or at the lower bound.  (Figure \ref{fig:profile_h_piner}). 
+Overall changes in the survey likelihood across the range of steepnes was less than 2.0, 
+with surveys either minimized at the lower or upper bound (Figure \ref{fig:profile_h_piner2}).
+The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness (Table \ref{tab:like_profiles}).
 
-Likelihood components by data source show that the commercial discard lengths,
-recreational south lengths, Deb's onboard observer fleets support a steepness 
-value at the lower bound of the values explored, and the other data sources higher 
-value for steepness (Figure \ref{fig:profile_h_like}).  The relative depletion 
-for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness 
-(Table \ref{tab:like_profiles}).
-
-The negative log-likelihood was minimized at a natural mortality value of 0.22, slightly 
-higher than the prior of 0.19 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
+The negative log-likelihood was minimized at a natural mortality value near 0.2, slightly 
+higher than the prior of 0.193 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
 The age, length, index, and prior likelihood contributions were 
 minimized at natural mortality values around 0.22, and the recruitment contribution
 was minimized at the second to largest value of $M$ run, 026. (Table \ref{tab:like_profiles}). 
-The relative depletion for GBYR ranged from 0.32-0.59 across alternative values of natural mortality 
-(Figure \ref{fig:profile_m_depl}).
+The length composition minimizes around a natural mortality value of 0.14, with the commercial, 
+recreational fleet north of Point Conception, and CCFRP data minimizing wars the lower 
+bound (Figure \ref{fig:profile_m_piner}). The length data from Deb's CPFV survey minimizes 
+around 0.22, while the PISCO and recreational length compositions south of Point Conception 
+minimizes at the upper bound. The PISCO and CCFRP minimized around a natural mortality value 
+of 0.22, while the PISCO age-0 and overall survey likelihood minimized at the upper bound of 0.3 
+(Figure \ref:{profile_m_piner2}). The relative depletion for GBYR ranged from 0.32-0.59 across 
+alternative values of natural mortality (Figure \ref{fig:profile_m_depl}).
 
 ###Reference Points
 Reference points were calculated using the estimated selectivities and catch distribution 
