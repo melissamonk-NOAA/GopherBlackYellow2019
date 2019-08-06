@@ -91,7 +91,7 @@
 \usepackage{cmap}                                                 % fix mapping characters to unicode
 \RequirePackage[linewidth = 1]{pdfcomment}                        % pdf comments
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
-\usepackage[inline]{showlabels}                                   % show table and figure labels; comment out for final
+\usepackage[inline]{showlabels}                                   % show table and figure labels; comment                                                                      out for final
 %\RequirePackage[tagged]{accessibilityMeta}
 \usepackage{booktabs} 
 
@@ -123,49 +123,29 @@
 USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING
 INTO THE MAIN TEXT OR TO DEBUG
 
-The added variances were highest for the recreational onboard observer
-survey north of Point Conception
+\FloatBarrier
 
 \begin{table}[ht]
 \centering
-\caption{Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
-                                        index of abundance} 
-\label{tab:Fleet5_Filter}
-\begin{tabular}{lll}
+\caption{Likelihood components from the base model.} 
+\label{tab:like_components}
+\begin{tabular}{lr}
   \hline
-Filter & Drifts & Positive Drifts \\ 
+Likelihood component & Value \\ 
   \hline
-Remove errors, missing data & 6691 & 1470 \\ 
-  Remove 1987 (sampled only MNT), 1990-1991 low sample sizes & 4283 & 1372 \\ 
-  Remove reefs that never encountered GBY & 4022 & 1372 \\ 
-  Remove lower and upper 2.5\% of time fished & 3762 & 1300 \\ 
-  Remove depth less than 9 m and greater than 69 m & 3515 & 1279 \\ 
-  Remove reefs with low sample rates & 2411 & 1096 \\ 
+TOTAL & 530.102 \\ 
+  Catch & 1.450E-07 \\ 
+  Survey & -34.063 \\ 
+  Length composition & 411.530 \\ 
+  Age composition & 147.059 \\ 
+  Recruitment & 5.575 \\ 
+  Forecast recruitment & 0.000E+00 \\ 
+  Parameter priors & 1.410E-06 \\ 
+  Parmeter soft bounds & 9.750E-04 \\ 
    \hline
 \end{tabular}
 \end{table}
 
-\vspace{3cm}
-
-\begin{table}[ht]
-\centering
-\caption{Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
-                                        index of abundance. Bold values indicate the model selected.} 
-\label{tab:Fleet5_AIC}
-\begin{tabular}{lll}
-  \hline
-Model & Lognormal & Binomial \\ 
-  \hline
-Year & 2834 & 3330 \\ 
-  Year + Depth & 2781 & 2906 \\ 
-  Year + Reef & 2716 & 2880 \\ 
-  Year + Month & 2839 & 3286 \\ 
-  Year + Depth + Reef & \textbf{2625} & \textbf{2488} \\ 
-  Year + Month+ Reef & 2725 & 2844 \\ 
-  Year + Depth + Month & 2780 & 2902 \\ 
-  Year+ Depth+Month+Reef & 2632 & 2479 \\ 
-   \hline
-\end{tabular}
-\end{table}
+\newpage
 
 \end{document}

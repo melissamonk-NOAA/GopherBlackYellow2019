@@ -107,6 +107,8 @@ SS_plots(mod1,
          maxcols = 6, 
          maxrows2 = 4, 
          maxcols2 = 4, 
+         btarg = 0.40, 
+         minbthresh = 0.25,
          printfolder = '', 
          dir = out.dir.mod1)
 

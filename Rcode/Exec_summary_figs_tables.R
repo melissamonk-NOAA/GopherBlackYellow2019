@@ -269,7 +269,7 @@ align(Recruit_mod1.table) = c('l',
   
   Exploittab = subset(Exploityrs, select=c('Value', 'CI'))
  
-  colnames(Exploittab) = c('Harvest rate (ratio)', '95% confidence interval')
+  colnames(Exploittab) = c('Exploitation rate', '95% confidence interval')
         
         
   # Spawning potential ratio and calculate lower and upper 95% CI  

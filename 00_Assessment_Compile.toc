@@ -36,7 +36,7 @@
 \contentsline {subsubsection}{\numberline {2.2.1}History of Modeling Approaches Used for this Stock}{27}{subsubsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.2}2005 Assessment Recommendations}{28}{subsubsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.3}Model Description}{28}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Transition to the Current Stock Assessment}{28}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Transition to the Current Stock Assessment}{29}{subsubsection.2.3.1}% 
 \contentsline {subsubsection}{\numberline {2.3.2}Summary of Data for Fleets and Areas}{31}{subsubsection.2.3.2}% 
 \contentsline {subsubsection}{\numberline {2.3.3}Other Specifications}{32}{subsubsection.2.3.3}% 
 \contentsline {subsubsection}{\numberline {2.3.4}Modeling Software}{33}{subsubsection.2.3.4}% 
@@ -46,22 +46,22 @@
 \contentsline {subsection}{\numberline {2.4}Model Selection and Evaluation}{35}{subsection.2.4}% 
 \contentsline {subsubsection}{\numberline {2.4.1}Key Assumptions and Structural Choices}{35}{subsubsection.2.4.1}% 
 \contentsline {subsubsection}{\numberline {2.4.2}Alternate Models Considered}{36}{subsubsection.2.4.2}% 
-\contentsline {subsubsection}{\numberline {2.4.3}Convergence}{36}{subsubsection.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.3}Convergence}{37}{subsubsection.2.4.3}% 
 \contentsline {subsection}{\numberline {2.5}Response to the Current STAR Panel Requests}{37}{subsection.2.5}% 
 \contentsline {subsection}{\numberline {2.6}Base Case Model Results}{37}{subsection.2.6}% 
-\contentsline {subsubsection}{\numberline {2.6.1}Parameter Estimates}{37}{subsubsection.2.6.1}% 
+\contentsline {subsubsection}{\numberline {2.6.1}Parameter Estimates}{38}{subsubsection.2.6.1}% 
 \contentsline {subsubsection}{\numberline {2.6.2}Fits to the Data}{39}{subsubsection.2.6.2}% 
 \contentsline {subsubsection}{\numberline {2.6.3}Uncertainty and Sensitivity Analyses}{40}{subsubsection.2.6.3}% 
 \contentsline {subsubsection}{\numberline {2.6.4}Retrospective Analysis}{41}{subsubsection.2.6.4}% 
-\contentsline {subsubsection}{\numberline {2.6.5}Likelihood Profiles}{41}{subsubsection.2.6.5}% 
-\contentsline {subsubsection}{\numberline {2.6.6}Reference Points}{42}{subsubsection.2.6.6}% 
+\contentsline {subsubsection}{\numberline {2.6.5}Likelihood Profiles}{42}{subsubsection.2.6.5}% 
+\contentsline {subsubsection}{\numberline {2.6.6}Reference Points}{43}{subsubsection.2.6.6}% 
 \contentsline {section}{\numberline {3}Harvest Projections and Decision Tables}{43}{section.3}% 
 \contentsline {section}{\numberline {4}Regional Management Considerations}{43}{section.4}% 
-\contentsline {section}{\numberline {5}Research Needs}{43}{section.5}% 
-\contentsline {section}{\numberline {6}Acknowledgments}{43}{section.6}% 
-\contentsline {section}{\numberline {7}Tables}{44}{section.7}% 
-\contentsline {section}{\numberline {8}Figures}{74}{section.8}% 
-\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.126}% 
-\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.130}% 
-\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.135}% 
-\contentsline {section}{References}{}{section*.142}% 
+\contentsline {section}{\numberline {5}Research Needs}{44}{section.5}% 
+\contentsline {section}{\numberline {6}Acknowledgments}{44}{section.6}% 
+\contentsline {section}{\numberline {7}Tables}{45}{section.7}% 
+\contentsline {section}{\numberline {8}Figures}{75}{section.8}% 
+\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.136}% 
+\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.140}% 
+\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.145}% 
+\contentsline {section}{References}{}{section*.152}% 

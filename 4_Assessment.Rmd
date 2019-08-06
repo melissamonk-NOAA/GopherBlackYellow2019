@@ -486,7 +486,23 @@ To be populated after the STAR panel.
 <!-- *********************MODEL 1 RESULTS********************************** -->
 ##Base Case Model Results 
 The following description of the model results reflects a base model that 
-incorporates all of the changes made during the STAR panel. The base model parameter 
+incorporates all of the changes made during the STAR panel. A comparison 
+of the pre-STAR base model and the post-STAR base model can be found in 
+Figures \ref{fig:preSTAR_postSTAR_compare_spawnbio}, 
+\ref{fig:preSTAR_postSTAR_compare_Bratio}, and 
+\ref{fig:preSTAR_postSTAR_compare_recruit} and Table . A number of changes to the 
+fleet structures, removal of surveys south of Point Conception, and the splitting 
+of the PISCO index into two indices to better reflect life stages contributed to 
+the changes.  The final model also fixes natural mortality, whereas it was estimated 
+in the pre-STAR base model. The pre-STAR base model includes and ageing error matrix that 
+was developed using only half of the available double reads.  The post-STAR base includes 
+the updated ageing error matrix (Figure \ref{fig:GBY_age_error_updated}), and the update 
+did not significantly change the model outputs.
+
+
+
+
+The base model parameter 
 estimates and their approximate asymptotic 
 standard errors are shown in Table \ref{tab:model_params} and the likelihood 
 components are in Table \ref{tab:like_components}. Estimates of derived reference points and 
@@ -570,7 +586,9 @@ composition, and conditional age-at-length observations are all discussed below.
 The full r4ss plotting output is available in the supplementary material.
 
 The fits to the three fishery-dependent and three fishery-independent survey indices 
-are shown in Figures \ref{fig:index5_logcpuefit_RecDocksideNorth} - 
+are shown in Figures \ref{fig:index5_logcpuefit_RecDocksideNorth}, 
+\ref{fig:index5_logcpuefit_DebCPFV}, \ref{fig:index5_logcpuefit_RecOnboardNorth},
+\ref{fig:index5_logcpuefit_PISCO}, \ref{fig:index5_logcpuefit_PISCOage0}, and
 \ref{fig:index5_logcpuefit_CCFRP}. All indices represent the area 
 north of Point Conception only, and not all of these were fit well by the 
 assessment model. The MRFSS CPFV recreational dockside survey index north of Point 
@@ -677,26 +695,22 @@ a model with a positive definite Hessian was not identified with the pre-STAR
 base model.
 
 ###Retrospective Analysis
-need to update  
 A 4-year retrospective analysis was conducted by running the model using data 
-only through 2018 (retro 1), 2017 (retro 2), 2016 (retro 3), and 2015 (retro 4) 
+only through 2017 (retro 1), 2016 (retro 2), 2015 (retro 3), and 2014 (retro 4) 
 (Table \ref{tab:retro}). 
 The initial population size and estimation of trends in spawning biomass in the 
-retrospective runs were lower than the base model (Figure \ref{fig:retro_spawnb}). 
-All retrospective runs converged to the same low point in the 1990s and the diverged 
-for the remainder of the time series. There is no conditional age-at-length composition 
-data for 2015-2016, leading to the minor change in the age composition likelihood from 
+retrospective runs were lower than the base model, except for retro 1 (Figure \ref{fig:retro_spawnb}). 
+All retrospective runs followed the same general trend, with the differences in the trends 
+stemming from the change in recruitment deviations (Figure \ref{fig:retro_recdev}).  The PISCO age-0 
+index has a signal of increased recruitment in the most recent years.  For Retro2, Retro3, and Retro4, 
+the trends in recruitment are not observed by the model. There is no conditional age-at-length 
+composition data for 2015-2016, leading to the minor change in the age composition likelihood from 
 Retro2 to Retro3 and Retro4 (Table \ref{tab:retro}). The age composition data in 
 2017 accounts for 2.5% of all available ages, and 4.5% of all fish aged were from 2018. 
 The available length data in each year from 2015-2018 range from 4-6% of the total available 
-length data.  The PISCO kelp forest fish survey observed increased abundance of small fish 
-from 2015-2017 (Figure \ref{fig:mod1_6_comp_lenfit_flt8mkt0}), which are captured in all of 
-the retrospective runs.  The length compositions of all the other fleets have similar length 
+length data.  The length compositions of all the other fleets have similar length 
 distributions for 2015-2018 (\ref{appendix-c.-detailed-fits-to-length-composition-data}). 
 Additional investigations into the retrospective patters will be made by the STAT.
-
-The recruitment deviations in the more recent years shrink towards zero the more years 
-are removed from the model (Figure \ref{fig:retro_recdev}).
 
 ###Likelihood Profiles
 Likelihood profiles were conducted for $R_0$, steepness, and over natural mortality 
@@ -732,7 +746,7 @@ bound (Figure \ref{fig:profile_m_piner}). The length data from Deb's CPFV survey
 around 0.22, while the PISCO and recreational length compositions south of Point Conception 
 minimizes at the upper bound. The PISCO and CCFRP minimized around a natural mortality value 
 of 0.22, while the PISCO age-0 and overall survey likelihood minimized at the upper bound of 0.3 
-(Figure \ref:{profile_m_piner2}). The relative depletion for GBYR ranged from 0.32-0.59 across 
+(Figure \ref{fig:profile_m_piner2}). The relative depletion for GBYR ranged from 0.32-0.59 across 
 alternative values of natural mortality (Figure \ref{fig:profile_m_depl}).
 
 ###Reference Points

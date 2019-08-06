@@ -115,15 +115,15 @@ updated maturity curve, a number of new indices, and new conditional length at a
 \FloatBarrier
 
 ##Stock Biomass{-}
-The predicted spawning biomass from the base model generally showed a slight decline prior 
-to 1962, when the early recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
-and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1967 to 1995, followed by a period 
-increase from 1996 to 2005. From 2005-2018 the stock has been in decline, although spawning 
-biomass has been relatively level since 2017. The 2018 estimated spawning biomass relative to unfished 
-equilibrium spawning biomass is above the target of 40% of unfished spawning biomass at 45.01
-(95% asymptotic interval: 30.78-59.24) (Figure \ref{fig:RelDeplete_all}). 
+The predicted spawning output from the base model generally showed a slight decline prior 
+to 1978, when the recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
+and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994, followed by a period 
+increase from 1995 to 2003. From 2004-2018 the stock has been in decline, with an increase in total biomass 
+since 2016 and stable spawning output since 2018. The 2018 estimated spawning output relative to unfished 
+equilibrium spawning output is above the target of 40% of unfished spawning output at 43.82 
+(95% asymptotic interval: 33.57-54.06) (Figure \ref{fig:RelDeplete_all}). 
 Approximate confidence intervals based on the asymptotic variance estimates show that the uncertainty 
-in the estimated spawning biomass is high.
+in the estimated spawning output is high, (95% asymptotic interval: 337-767 million eggs).
 \FloatBarrier
 
 <!--BEGIN  EXECUTIVE SUMMARY SPAWNING BIOMASS AND DEPLETE TABLES AND FIGURES-->
@@ -154,8 +154,9 @@ in the estimated spawning biomass is high.
 
 ##Recruitment{-}
 Recruitment deviations were estimated from 1979-2018 (Figure \ref{fig:Recruits_all} and 
-Table \ref{tab:Recruit_mod1}).  There are estimates of strong recruitment in the late 
-1990s, and also from 2014-2016, which peaked in 2015. 
+Table \ref{tab:Recruit_mod1}).  There are estimates of very strong recruitment in 1991. 
+Estimated recruitment pulses were estimated for a number of other years including 1994-1995 
+and 2014-2015.
 
 
 
@@ -185,15 +186,10 @@ Table \ref{tab:Recruit_mod1}).  There are estimates of strong recruitment in the
 Harvest rates estimated by the base model indicate catch levels have been below the 
 limits that would be associated with the Spawning Potential Ratio (SPR) = 50% limit 
 (corresponding to a relative fishing intensity of 100%) (Table \ref{tab:SPR_Exploit_mod1} and 
- Figure \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential per 
- recruit at a given fishing level relative to the lifetime spawning potential per recruit 
- with no fishing. Harvest rates estimated by the base model exceeded management target levels 
- during a number of years in the 1990s. Recent harvest over the last decade increased until 
- 2016-2017 peaking at 0.71, then declined to 0.66 in 2018.  The estimated relative depletion 
- is currently greater than the 40% unfished spawning output target. Recent 
- exploitation rates on `r spp` were predicted to be significantly below target 
- levels.
-
+Figure \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential per 
+recruit at a given fishing level relative to the lifetime spawning potential per recruit 
+with no fishing. The SPR over the last decade increased ranged from 0.64 to 0.77 from 2009-2015, 
+and ranged from 0.80 to 0.82 from 2016-2018.
 
 
 \FloatBarrier
@@ -224,14 +220,10 @@ limits that would be associated with the Spawning Potential Ratio (SPR) = 50% li
 \FloatBarrier
 
 
-
-
 ##Ecosystem Considerations{-}
 In this assessment, ecosystem considerations were not explicitly included in the analysis.  
 This is primarily due to a lack of relevant data and results of analyses (conducted elsewhere) 
 that could contribute ecosystem-related quantitative information for the assessment.
-
-
 
 
 ##Reference Points{-}
@@ -241,7 +233,7 @@ This stock assessment estimates that `r spp` in the `r mod1_label` is
 target ($SB_{40\%}$), and well `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MSST>0,"above","below")` 
 the minimum stock size threshold ($SB_{25\%}$). 
 The estimated relative depletion level for the base model in 2018 is 
-0.46 (95% asymptotic interval: 0.308-0.592, corresponding 
+0.439 (95% asymptotic interval: 0.341-0.536, corresponding 
 to an unfished spawning biomass of `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
 (95% asymptotic interval: `r paste(Spawn_mod1_CI, fecund_unit, sep=' ')`) of 
 spawning biomass in the base model (Table \ref{tab:Ref_pts_mod1}).  Unfished 

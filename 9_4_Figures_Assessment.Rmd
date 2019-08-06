@@ -45,12 +45,23 @@ output:
 <!-- *********************BASE MODEL FIGURES******************************* -->
 <!-- ====================================================================== -->
 
+<!-- ***********COMPARE Pre- and Post-STAR model comparisons*************** --> 
+
+![Comparison of the spawning output between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_spawnbio}](Figures/preSTAR_postSTAR_compare_spawnbio)
+
+![Comparison of the relative spawning output (depletion) between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_Bratio}](Figures/preSTAR_postSTAR_compare_Bratio)
+
+
+![Comparison of the age-0 recruits between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_recruit}](Figures/preSTAR_postSTAR_compare_recruit)
+
+![Updated aging precision used in the post-STAR base model between initial and blind double reads for GBYR.  Numbers in the bubbles are the sample sizes of otoliths cross-read. \label{fig:GBY_age_error_updated}](Figures/GBY_age_error_updated.png)
+
+![Double reads]
+
+
+
 <!-- ***********MODEL 1 BASE MODEL FIGURES********************************* --> 
  
-
-
-
-
 
 \FloatBarrier
 
@@ -96,20 +107,24 @@ output:
 <!-- ***********Fits to the data********************************* --> 
 
 ![Fit to log index data on log scale for the recerational MRFSS dockside CPFV fishery north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png)
-<!--
-![Fit to log index data on log scale for the recreational MRFSS dockside CPFV fishery south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideSouth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideSouth.png)
--->
+
+\FloatBarrier
 
 ![Fit to log index data on log scale for the recreational Deb's CPFV onboard observer program, representing north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_DebCPFV}](r4ss/plots_mod1/index5_logcpuefit_DebCPFV.png)
 
-![Fit to log index data on log scale for the CRFS/Cal Poly CPFV onboard observer survey north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardNorth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png)
-<!--
-![Fit to log index data on log scale for the CRFS CPFV onboard observer survey south of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardSouth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardSouth.png)
--->
+\FloatBarrier 
 
+![Fit to log index data on log scale for the CRFS/Cal Poly CPFV onboard observer survey north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecOnboardNorth}](r4ss/plots_mod1/index5_logcpuefit_RecOnboardNorth.png)
+
+\FloatBarrier
 
 ![Fit to log index data on log scale for the fishery-independent PISCO kelp forest fish survey for fish 15 cm and larger. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_PISCO}](r4ss/plots_mod1/index5_logcpuefit_PISCO.png)
+
+\FloatBarrier 
+
 ![Fit to log index data on log scale for the fishery-independent PISCO age-0 (6 cm or less) kelp forest fish survey for fish 15 cm and larger. Lines indicate 95% uncertainty interval around index values. \label{fig:index5_logcpuefit_PISCOage0}](r4ss/plots_mod1/index5_logcpuefit_PISCOage0.png)
+
+\FloatBarrier
 
 ![Fit to log index data on log scale for the fishery-independent CCFRP hook-and-line survey. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_CCFRP}](r4ss/plots_mod1/index5_logcpuefit_CCFRP.png)
 
@@ -193,7 +208,12 @@ output:
 <!-- ***********h Likelihood profile FIGURES******************************* -->
 
 ![Likelihood profile across steepness values by fleet length composition. \label{fig:profile_h_piner}](Figures/profile_h_piner.png)
+
+\FloatBarrier
+
 ![Likelihood profile across steepness values by surveys. \label{fig:profile_h_piner2}](Figures/profile_h_piner2.png)
+
+\FloatBarrier
 
 
 ![Likelihood profile across steepness values for each data type. \label{fig:profile_h_like}](Figures/profile_h_like.png)
@@ -206,9 +226,15 @@ output:
 
 ![Likelihood profile across female natural mortality values by length composition. \label{fig:profile_m_piner}](Figures/profile_m_piner.png)
 
+\FloatBarrier 
+
 ![Likelihood profile across female natural mortality values by surveys. \label{fig:profile_m_piner2}](Figures/profile_m_piner2.png)
 
+\FloatBarrier
+
 ![Likelihood profile across female natural mortality values for each data type. \label{fig:profile_m_like}](Figures/profile_m_like.png)
+
+\FloatBarrier
 
 ![Trajectories of depletion across values of female natural mortality. \label{fig:profile_m_depl}](Figures/profile_m_depl.png)
 
