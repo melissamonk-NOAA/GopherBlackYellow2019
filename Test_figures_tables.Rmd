@@ -48,27 +48,4 @@ USE THIS .Rmd TO TEST R CODE CHUNKS, FIGURES AND PLOTS BEFORE INSERTING INTO THE
 
 
 
-<!-- ***********MODEL 1 Likelihood components******************************* --> 
-
-```{r, results = 'asis'}
-       Like_comp = read.csv('./txt_files/Likelihood_components.csv')
-       colnames(Like_comp) = c('Likelihood component',
-                               'Value')
-       
-       #matrix for digits to do them by row
-       mdat = matrix(c(rep(0,9),rep(0,9), 3,-3,3,3,3,3,-3,-3,-3),
-                     nrow = 9, ncol=3, byrow=FALSE)
-       
-       Like_comp.table = xtable(Like_comp,
-                                caption = c('Likelihood components from the base model.'),
-                                label = 'tab:like_components', digits = mdat)
-       
-       
-    # Print likelihood component table
-      print(Like_comp.table, 
-            include.rownames=FALSE, 
-            caption.placement='top', digits = c(3,2,3,3,3,3,2,3,2))
-```     
-
-\newpage
  

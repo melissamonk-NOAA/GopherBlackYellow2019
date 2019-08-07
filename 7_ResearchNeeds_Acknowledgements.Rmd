@@ -6,7 +6,7 @@ output:
 
 <!-- ****************************RESEARCH NEEDS**************************** -->
 #Research Needs
-This section will be completed at or after the STAR panel.
+This section will be copied from the Executive Summary after further discussions.
 <!--
 There are a number of areas of research that could improve the stock 
 assessment for `r spp`.  Below are issues identified by the STAT team 
@@ -32,7 +32,16 @@ and the STAR panel:
 
 <!-- ***************************ACKNOWLEDGEMENTS*************************** -->
 #Acknowledgments
-This section will be completed at or after the STAR panel.
+We gratefully acknowledge input and review from the STAR panel including the Owen 
+Hamel (STAR panel chair; Northwest Fisheries Science Center, NMFS, NOAA), 
+Chantel Wetzel(Northwest Fisheries Science Center, NMFS, NOAA), Sven Kupschus 
+(Center for Independent Experts), and Robin Cook (Center for Independent Experts). 
+Thanks to Don Pearson for reading all of the gopher and black-and-yellow rockfish 
+before retiring in 2018. We thank John Field, John Budrick, Rebecca Miller, and 
+Emma Saas for contributions to the assessment document.  A special thanks to 
+the PISCO and CCFRP programs for conducting and providing the available 
+fishery-independent data used in the assessment. Thank you to everyone who answered 
+my countless emails regarding your survey methodologies and datasets.
 
 
 

@@ -18,7 +18,7 @@ range from 0 to 1 where a zero value implies the populations are panmictic
 and a value closer to one implies the two populations are genetically 
 independent. Values of $F_{ST}$ thought to be consistent with biologically 
 meaningful genetic differentiation and demographic isolation between populations 
-range from 0.05 to 0.1 [@Waples2006].   It is also important to note that $F_{ST}$ 
+range from 0.01 to 0.05 [@Waples2006].   It is also important to note that $F_{ST}$ 
 values are dependent on the study’s sample size and it may not necessarily be 
 appropriate to compare them across studies. 
 
@@ -283,9 +283,8 @@ Significant regulatory changes in California's recreational sector began with a 
 from unlimited number of hooks and lines allowed prior to 2000 to no more than 
 three hooks and one line per angler in 2000.  Since 2001, the limit has been no more than 
 two hooks and one line per angler.  There is no size limit in the recreational fishery 
-for gopher or black-and-yellow rockfish.  GBYR are part of the nearshore complex which has 
-had a sub-bag limit within the rockfish bag limit since 1999.  The nearshore sub-bag limit 
-has been 10 fish since 2005.  
+for gopher or black-and-yellow rockfish.  A nearshore complex sub-bag limit that included 
+GBYR was in place from 1999 to 2005, but was eliminated thereafter.
 
 California also began spatial management, including area closures, and depth restrictions for the 
 recreational 

@@ -368,7 +368,7 @@ asymptotic interval: 337-767 million eggs). \FloatBarrier
                                       year spawning output and depletion for
                                       the model for GBYR.} 
 \label{tab:SpawningDeplete_mod1}
-\begin{tabular}{l>{\centering}p{1.3in}>{\centering}p{1.2in}>{\centering}p{1in}>{\centering}p{1.2in}}
+\begin{tabular}{l>{\centering}p{1.3in}>{\centering}p{1.2in}>{\centering}p{1in}>{\centering}p{1.3in}}
   \hline
 Year & Spawning Output (million eggs) & \~{} 95\% confidence interval & Estimated depletion & \~{} 95\% confidence interval \\ 
   \hline
@@ -543,7 +543,7 @@ harvest rate corresponding to \(SPR_{50\%}\) is 134 mt (Figure
 Unfished spawning output (million eggs) & 1,261 & 968 & 1,554 \\ 
   Unfished age 1+ biomass (mt) & 2,042 & 1,637 & 2,448 \\ 
   Unfished recruitment ($R_{0}$) & 3,125 & 2,643 & 3,606 \\ 
-  Spawning output(2018 million eggs) & 553 & 344 & 762 \\ 
+  Spawning output (2018 million eggs) & 553 & 344 & 762 \\ 
   Depletion (2018) & 0.439 & 0.341 & 0.536 \\ 
   \textbf{$\text{Reference points based on } \mathbf{SB_{40\%}}$} &  &  &  \\ 
   Proxy spawning output ($B_{40\%}$) & 504 & 427 & 582 \\ 
@@ -608,17 +608,142 @@ Year & Total mortality & Total mortality & ACL & OFL \\
 \end{tabular}
 \end{table}
 
+\FloatBarrier
+
 \subsection*{Unresolved Problems and Major
 Uncertainties}\label{unresolved-problems-and-major-uncertainties}
 \addcontentsline{toc}{subsection}{Unresolved Problems and Major
 Uncertainties}
+
+The major source of uncertainty identified during the STAR panel is the
+structure of complex and contribution of each of the two species to the
+complex and biological parameters differences. Additionally, there is
+currently no information for either species on regional differences in
+biological parameters and contributions to the complex.
 
 \FloatBarrier
 
 \subsection*{Decision Table}\label{decision-table}
 \addcontentsline{toc}{subsection}{Decision Table}
 
-This section will be completed after the STAR panel.
+The forecasts of stock abundance and yield were developed using the
+post-STAR base model, with the forecasted projections of the OFL
+presented in Table \ref{tab:OFL_projection}. The total catches in 2019
+and 2020 are set to the PFMC adopted ACL of 114 mt.
+
+Uncertainty in the forecasts is based upon the three states of nature
+agreed upon at the STAR panel and are based three states of nature of
+growth. The external estimates of growth were different than the
+internal estimates. Given that natural mortality is fixed in the
+post-STAR base model, and the growth parameter \(k\) is negatively
+correlated with natural mortality, \(k\) was chosen as the axis of
+uncertainty. The low state of nature fixed \(k\) at 0.46 and the L1 and
+L1 parameters are estimated. The high state of nature fixes all growth
+parameters, \(k\) = 0.248, L1 = 13.8, and L2 = 28.5. The L1 and L2
+parameters were fixed in the high state of nature as they weren't well
+estimated by the model in the high state of nature. The growth
+parameters in the base model were estimated as \(k\) = 0.107, L1 = 13.4,
+and L2 = 28.8.
+
+The forecasted buffer ramp was calculated assuming a category 2 stock,
+with sigma = 1.0 and a \(p^*\) = 0.45. The buffer is assumed to be 1.0
+for 2019 and 2020 since the catches are assumed, and ranges from 0.874
+in 2021 ramping to 0.803 in 2030. Current medium-term forecasts based on
+the alternative states of nature project that the stock will remain
+above the target threshold of 40\% for all but two scenarios (Table
+\ref{tab:Decision_table_mod1}). The low state of nature with the high
+state of nature catches results in a stock at 26.4\% of unfished in 2030
+and the base state model with the high state of nature catches results
+in a stock at 33.2\% of unfished in 2030. The base case model with the
+base case catches results in an increasing stock over the period from
+2021-2030. If the growth of GBYR is slower than the base model suggests,
+but the base case catches are removed, the stock will be at the target
+threshold in 2030.
+
+\begin{table}[ht]
+\centering
+\caption{Projection OFL, default harvest control rule 
+                                        catch (ABC = ACL) above 40\% SSB), biomass, 
+                                        and depletion using the base case model with 
+                                        2019-2020 catches set equal to the ACL catch (114 mt).} 
+\label{tab:OFL_projection}
+\begin{tabular}{cc>{\centering}p{.9in}>{\centering}p{1in}>{\centering}p{1in}>{\centering}p{1in}}
+  \hline
+Year & OFL (mt) & ABC Catch (mt) & Age 0+ Biomass (mt) & Spawning Output (million eggs) &  Fraction unfished \\ 
+  \hline
+2019 & 148 & 114 & 1281 & 552.5 & 43.8 \\ 
+  2020 & 139 & 114 & 1292 & 558.3 & 44.3 \\ 
+  2021 & 136 & 119 & 1291 & 578.2 & 45.9 \\ 
+  2022 & 137 & 119 & 1296 & 601.1 & 47.7 \\ 
+  2023 & 143 & 122 & 1300 & 621.5 & 49.3 \\ 
+  2024 & 150 & 127 & 1302 & 633.3 & 50.2 \\ 
+  2025 & 155 & 130 & 1300 & 636.2 & 50.5 \\ 
+  2026 & 158 & 131 & 1295 & 632.6 & 50.2 \\ 
+  2027 & 158 & 130 & 1290 & 626.0 & 49.7 \\ 
+  2028 & 156 & 128 & 1286 & 619.4 & 49.1 \\ 
+  2029 & 155 & 125 & 1284 & 614.8 & 48.8 \\ 
+  2030 & 153 & 123 & 1283 & 612.7 & 48.6 \\ 
+   \hline
+\end{tabular}
+\end{table}\begin{table}[ht]
+\centering
+\caption{Summary of 10-year 
+                                             projections beginning in 2020 
+                                             for alternate states of nature based on 
+                                             an axis of uncertainty for the model.  Columns range over low, mid, and high
+                                             states of nature, and rows range over different 
+                                             assumptions of catch levels. The low state of nature 
+                                             fixed the growth parameter $k$ at 0.046 and the high 
+                                             state fixes all growth parameters to the external 
+                                             estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5)} 
+\label{tab:Decision_table_mod1}
+\scalebox{0.85}{
+\begin{tabular}{l|cc|>{\centering}p{.7in}c|>{\centering}p{.7in}c|>{\centering}p{.7in}c}
+   \multicolumn{3}{c}{}  &  \multicolumn{2}{c}{} 
+                               & \multicolumn{2}{c}{\textbf{States of nature}} 
+                               & \multicolumn{2}{c}{} \\
+  \multicolumn{3}{c}{}  &  \multicolumn{2}{c}{Low State} 
+                               & \multicolumn{2}{c}{Base State} 
+                               &  \multicolumn{2}{c}{High State} \\
+ \hline
+ & Year & Catch & Spawning Output & Depletion & Spawning Output & Depletion & Spawning Output & Depletion \\ 
+  \hline
+ & 2021 & 75 & 449.6 & 37.7 & 571.9 & 44.7 & 1231.2 & 65.2 \\ 
+   & 2022 & 80 & 481.2 & 40.4 & 617.3 & 48.3 & 1296.5 & 68.6 \\ 
+   & 2023 & 85 & 510.4 & 42.8 & 655.3 & 51.3 & 1322.9 & 70.0 \\ 
+  Default harvest & 2024 & 91 & 534.5 & 44.9 & 682.4 & 53.4 & 1329.1 & 70.4 \\ 
+  for Low State & 2025 & 96 & 552.0 & 46.3 & 698.5 & 54.6 & 1328.9 & 70.4 \\ 
+   & 2026 & 101 & 562.5 & 47.2 & 705.9 & 55.2 & 1326.8 & 70.2 \\ 
+   & 2027 & 104 & 567.1 & 47.6 & 707.6 & 55.3 & 1324.2 & 70.1 \\ 
+   & 2028 & 105 & 567.5 & 47.6 & 706.4 & 55.3 & 1321.7 & 70.0 \\ 
+   & 2029 & 105 & 565.8 & 47.5 & 704.7 & 55.1 & 1320.3 & 69.9 \\ 
+   & 2030 & 104 & 563.8 & 47.3 & 704.0 & 55.1 & 1320.2 & 69.9 \\ 
+   \hline
+ & 2021 & 116 & 449.6 & 37.7 & 571.9 & 44.7 & 1231.2 & 65.2 \\ 
+   & 2022 & 116 & 462.5 & 38.8 & 596.6 & 46.7 & 1269.8 & 67.2 \\ 
+   & 2023 & 119 & 477.8 & 40.1 & 618.8 & 48.4 & 1274.9 & 67.5 \\ 
+  Default harvest & 2024 & 124 & 490.4 & 41.2 & 632.4 & 49.5 & 1263.0 & 66.9 \\ 
+  for Base State & 2025 & 128 & 497.5 & 41.8 & 636.7 & 49.8 & 1247.9 & 66.1 \\ 
+   & 2026 & 129 & 499.1 & 41.9 & 634.3 & 49.6 & 1234.4 & 65.4 \\ 
+   & 2027 & 129 & 496.3 & 41.7 & 628.6 & 49.2 & 1224.3 & 64.8 \\ 
+   & 2028 & 127 & 491.4 & 41.3 & 622.7 & 48.7 & 1217.9 & 64.5 \\ 
+   & 2029 & 124 & 486.4 & 40.8 & 618.6 & 48.4 & 1215.1 & 64.3 \\ 
+   & 2030 & 122 & 482.7 & 40.5 & 617.1 & 48.3 & 1215.1 & 64.3 \\ 
+   \hline
+ & 2021 & 235 & 449.6 & 37.7 & 571.9 & 44.7 & 1231.2 & 65.2 \\ 
+   & 2022 & 225 & 410.9 & 34.5 & 537.5 & 42.0 & 1191.3 & 63.1 \\ 
+   & 2023 & 215 & 390.6 & 32.8 & 515.6 & 40.3 & 1132.0 & 59.9 \\ 
+  Default harvest & 2024 & 204 & 377.9 & 31.7 & 496.8 & 38.9 & 1071.8 & 56.7 \\ 
+  for High State & 2025 & 192 & 366.0 & 30.7 & 478.0 & 37.4 & 1025.9 & 54.3 \\ 
+   & 2026 & 183 & 353.2 & 29.7 & 460.5 & 36.0 & 996.7 & 52.8 \\ 
+   & 2027 & 177 & 340.4 & 28.6 & 446.0 & 34.9 & 980.5 & 51.9 \\ 
+   & 2028 & 173 & 328.9 & 27.6 & 435.3 & 34.1 & 972.2 & 51.5 \\ 
+   & 2029 & 170 & 320.2 & 26.9 & 428.6 & 33.5 & 968.2 & 51.3 \\ 
+   & 2030 & 168 & 314.3 & 26.4 & 424.8 & 33.2 & 966.0 & 51.1 \\ 
+   \hline
+\end{tabular}
+}
+\end{table}
 
 \begin{sidewaystable}[ht]
 \centering
@@ -667,7 +792,40 @@ based on the 2018 fishery selectivity and with steepness fixed at 0.72.
 \subsection*{Research and Data Needs}\label{research-and-data-needs}
 \addcontentsline{toc}{subsection}{Research and Data Needs}
 
-This section will be completed after the STAR panel.
+We recommend the following research be conducted before the next
+assessment:
+
+\begin{enumerate}
+
+\item Investigate structure of complex and contribution of each species to the complex and biological parameters differences.  Also, investigate regional differences within species. 
+
+\item Structure of complex and contribution of each species to the complex and biological parameters differences.  Also regional differences within species.  
+    \begin{enumerate}
+     \item Life history studies
+     \item Research to identify proportion of each species in population and in catch
+    \end{enumerate}
+
+\item Historical catch reconstruction data, more so for the recreational fishery
+
+\item Refine PISCO survey and analysis to better identify age-0 in each month of survey, which 
+would benefit from occasional sampling later in the year to identify size at age-0.
+
+\item Refine CCFRP survey index and continue coastwide sampling.
+
+\item Recommend commercial and recreational data length and age collection. 
+
+\item Integrating data collection across the different research needs to improve efficacy of data collection.
+
+\item Environmental drivers/co-variates for biological parameters, particularly recruitment.
+
+\item Make recreational survey dockside (PR) data available at trip level because of differences in the selectivity. 
+
+\item Resolve differences between CalCOM and PacFIN expanded length compositions. 
+
+
+\end{enumerate}
+
+\FloatBarrier
 
 \newpage
 
@@ -700,7 +858,7 @@ from 0 to 1 where a zero value implies the populations are panmictic and
 a value closer to one implies the two populations are genetically
 independent. Values of \(F_{ST}\) thought to be consistent with
 biologically meaningful genetic differentiation and demographic
-isolation between populations range from 0.05 to 0.1 (Waples and
+isolation between populations range from 0.01 to 0.05 (Waples and
 Gaggiotti \protect\hyperlink{ref-Waples2006}{2006}). It is also
 important to note that \(F_{ST}\) values are dependent on the study's
 sample size and it may not necessarily be appropriate to compare them
@@ -1022,9 +1180,9 @@ with a change from unlimited number of hooks and lines allowed prior to
 2000 to no more than three hooks and one line per angler in 2000. Since
 2001, the limit has been no more than two hooks and one line per angler.
 There is no size limit in the recreational fishery for gopher or
-black-and-yellow rockfish. GBYR are part of the nearshore complex which
-has had a sub-bag limit within the rockfish bag limit since 1999. The
-nearshore sub-bag limit has been 10 fish since 2005.
+black-and-yellow rockfish. A nearshore complex sub-bag limit that
+included GBYR was in place from 1999 to 2005, but was eliminated
+thereafter.
 
 California also began spatial management, including area closures, and
 depth restrictions for the recreational fleet in 2000. In general, the
@@ -2251,9 +2409,7 @@ al. \protect\hyperlink{ref-Key2005}{2005}) using SS2 (version 1.19). The
 assessment was sensitive to the CPFV onboard observer index of abundance
 (referred to as Deb Wilson-Vandenberg's onboard observer index in this
 assessment). The final decision table was based around the emphasis
-(lambda) given to the index. Lambda of 1, 5, and 10 were used to weight
-the index, with the lambda of 5 used in the baseline model. The stock
-was found to be at 97\% depletion.
+given to the index. The stock was found to be at 97\% depletion.
 
 \subsubsection{2005 Assessment
 Recommendations}\label{assessment-recommendations}
@@ -2283,7 +2439,7 @@ The model descriptions in the following sections reflect decisions and
 modelling choices the STAT team made prior to the STAR panel. Changes
 from the pre-STAR base model to the final post-STAR base model are
 documented in the ``Responses to the Current STAR Panel Requests''
-section. During the STAR panel, the following structrue change were
+section. During the STAR panel, the following structure change were
 made; 1) the commercial retained and commercial discard fleets were
 combined into one commercial fleet, 2) the MRFSS recreational dockside
 and the CRFS recreational onboard indices south Point Conception were
@@ -2605,7 +2761,7 @@ categories:
 \begin{itemize}
   \item Natural mortality
   \item Equilibrium recruitment ($R_0$) and 71 recruitment deviations
-  \item Stock recruitment autocorrelation parameter
+  \item Stock recruitment auto-correlation parameter
   \item Five growth parameters
   \item Five index extra standard deviation parameter, and
   \item 27 selectivity parameters
@@ -2734,6 +2890,201 @@ the length compositions for these fleets observed larger fish. A time
 block for the commercial discard fishery was not considered since no
 length composition of discarded fish were available prior to 2004.
 
+\subsection{Response to the Current STAR Panel
+Requests}\label{response-to-the-current-star-panel-requests}
+
+\begin{description}[style=sameline]
+
+\item[Request No. 1: Develop catch curves from age data as appropriate during 
+different periods of fishing intensity according to the model.] \hfill \\
+  
+\textbf{Rationale:} To obtain an independent estimate of total mortality to better 
+gauge natural mortality given the model uncertainty.    
+    
+\textbf{STAT Response:} The STAT created two catch curves using the available age 
+data for gopher and black-and-yellow rockfish, one for the time period pre-2000 
+(629 available ages) and the second from 2000-2018 (1,791 available ages). The 
+pre-2000 plot used fish aged eight and older, while the 2000-2018 plot used fish 
+aged 13 and older. The estimate of total mortality (Z) was not very different 
+between the two time periods, 0.37 for the earlier period and 0.36 for the later 
+years. If restricted to the same ages (13 and older), the earlier period would 
+have a steeper decline. 
+
+
+\item[Request No. 2: Remove the indices from the Southern fleets 7 and 11 from the 
+model] \hfill \\
+
+
+\textbf{Rationale:} These cover a small portion of the population and would 
+not be expected to have the same trends as the majority of the population, 
+are in conflict with the northern trends, and there is no straightforward 
+way to combine North and South indices 
+
+
+\textbf{STAT Response:} The STAT removed the two fishery-dependent indices 
+representing the portion of the stock south of Pt. Conception, the CDFW 
+MRFSS-era dockside survey and the CDFW CRFS-era onboard observer survey index.
+There were minor changes to the model, with the total likelihood going from 515 
+to 511 and the estimate of natural mortality going from 0.212 to 0.219.
+    
+
+\item[Request No. 3: Add discard to commercial catch data in terms of both catch and 
+compositions (by weighting comps by the number of fish discarded or retained), and 
+remove selectivity time block.  Apply discard rate back in time.] \hfill \\
+
+\textbf{Rationale:} Simpler to have a single fleet for all commercial catch and the 
+model is likely to better reflect the actual dynamics.   
+
+\textbf{STAT Response:} Response under Request \#3a.
+
+\item[Request No. 3a: Remove commercial length comp data from 2000-2003 in addition 
+to request.] \hfill \\
+
+\textbf{Rationale:} Length limit imposed in 2000 but length discards not available 
+until 2004. Therefore, comp data from these years are not representative of total 
+removals.  
+    
+\textbf{STAT Response:} The STAT combined the catches from the commercial retained 
+and commercial discard fleets, to create one commercial fleet representing both 
+catch streams.  The length composition data from the two fleets from 2004-2017 
+were combined by weighting the length compositions by the catches from each fleet. 
+Compared to the pre-STAR base, the model run for request 3a, reduced the number of 
+estimated parameters by 10, and resulted in a decrease in natural mortality to 0.195. 
+The overall model output did not change from the base model or the changes made from 
+Request \#2.
+
+
+\item[Request No. 4: Split PISCO survey such that the 0-age fish (4 and 5 cm) are 
+in one survey and the 15 cm+ fish are in the other.  Fix age selectivity to age-0 
+only for the first fleet and use a logistic selectivity for the second fleet.] \hfill \\
+
+\textbf{Rationale:} To separate out the recruitment index in the survey and to simplify the selectivity assumptions for this fleet.
+    
+\textbf{STAT Response:} Response under Request \#4a.
+
+\item[Request No. 4a: Include all years of the recruitment index developed above.] \hfill \\
+
+\textbf{Rationale:} Years with low numbers of 4 and 5 cm fish indicate low recruitment and 
+provide contrast to years with large numbers of those fish.
+  
+\textbf{STAT Response:} The STAT developed an index of abundance using only fish that 
+were 5 cm or less and re-developed the length composition data for the PISCO survey 
+representing fish 15 cm and larger.  The effect of splitting the PISCO index into two 
+indices, one for young of the year and one representing older fish resulted in 
+dampening of the age-0 recruits seen in the previous models. 
+
+
+\item[Request No. 5: Remove the auto-correlation recruitment.] \hfill \\
+
+\textbf{Rationale:} Given the sensitivity run presented, auto correlation didn’t make 
+much of a difference in model results, and there was not adequate evidence in the 
+data for auto-correlation. 
+  
+\textbf{STAT Response:} Removing the auto-correlation in recruitment resulted in no 
+significant change to the model output.    
+
+
+\item[Request No. 6: 1) Start recruit deviation in 1978 as main recruit devs. and 
+2) Start these in 2001.  Turn off all early recruit devs in both cases.] \hfill \\
+
+\textbf{Rationale:} The composition data does not seem to be informing the estimates 
+of the recruitment deviations but maybe driven by the artifacts in the catch data. 
+The early recruit deviations are uninformed and all in one direction.  Recruitment 
+indices start in 2001. 
+  
+\textbf{STAT Response:} Starting the recruitment deviations in 2001 did not produce 
+a reasonable recruitment signal.  Starting the recruitment deviations in 1978 
+provided reasonable recruitment deviations and is a more appropriate starting 
+year given the lack of sufficient length data prior to this time period.  
+
+
+\item[Request No. 7: Start from model shown at request 6(1). Fix M at 0.193 and let the model estimate k. Change the ramp to estimated level with up ramp from 1978 to 1979.  Provide all appropriate diagnostics.] \hfill \\
+
+\textbf{Rationale:} : STAT and STAR agree this was an improvement over the original base model.
+  
+\textbf{STAT Response:} Requests 7 and 8 were conducted for comparison and the plots 
+comparing the two requests are below Request 8.  Fixing natural mortality at the mean 
+of the prior results in an increase in the growth parameter $k$ from 0.145 to 0.147 
+from Request \#6 due to the decrease in the modeled natural mortality rate.  
+
+
+\item[Request No. 8: Determine if 6cm or larger fish should be included in PISCO 
+recruitment index.  If so, update the PISCO index and include the updated index in 
+the model from request \#7 (above). ] \hfill \\
+
+\textbf{Rationale:} Better to use all appropriate data for the recruitment index.
+  
+\textbf{STAT Response:} After and email discussion with Mark Carr, Dan Malone 
+(UCSC PISCO) and Darren Johnson (CSU Long Beach) it was decided that fish of 
+length 6 cm at the end of the year of birth would still all be young of the 
+year fish during the months in which the PISCO survey is conducted.  Additional 
+research is needed to verify the appropriate lengths to include, perhaps by month. 
+The PISCO age-0 index developed for this request resulted in a decrease the recruitment 
+index in the early 2000s, and an increase in the recruitment index in 2010 and 
+from 2014-2018 relative to include only 4 and 5 cm individuals. The resulting 
+models in the plot that used the revised PISCO age-0 index of abundance are 8b, 
+which fixes an issue in the selectivity mirroring, and 8c, which additionally fixes 
+the last year of bias adjustment to 2019 and not 2020.  With natural mortality 
+fixed at 0.193, the growth parameter $k$ is estimated at 0.114. The estimate of 
+length at age-2 (L1) is 13.37, similar to the external estimates. 
+
+
+\item[Request No. 9: Mirror the DebWV\_CPFV selectivity to the RecN selectivity. 
+Fix the start logit parameter for the adult PISCO selectivity to zero.  Investigate 
+appropriate methods for modeling selectivity for CCFRP.] \hfill \\
+
+\textbf{Rationale:} These will result in more appropriate and parsimonious treatment 
+of selectivity.
+  
+\textbf{STAT Response:} The selectivity for the CCFRP index was also mirrored to the 
+Recreational North fleet since the length compositions were not drastically different 
+than the other fleets mirrored to the Recreational North fleet. The STAT could not 
+find a domed selectivity pattern that had reasonable parameter estimates.  
+
+\item[Request No. 10: Perform a drop one out analysis for the index fleets.] \hfill \\
+
+\textbf{Rationale:} To investigate the influence each of these data sets on the model.
+
+\textbf{STAT Response:} No single index had a substantial effect on the model output. 
+Each index contributed to the status of the stock, with some indicating a an increase 
+over the base model developed for Request 9, and some estimating a decreased stock status. 
+Depending on which index was dropped, the year(s) of high recruitment predicted in the 
+early 1990s did shift, and was either attributed to a single year, or spread over a few 
+years. The PISCO age-0 index does inform recruitment and age-0 recruitment is dampened 
+n recent years when this index is excluded.
+
+\end{description}
+
+\subsection{Base Case Model Results}\label{base-case-model-results}
+
+The following description of the model results reflects a base model
+that incorporates all of the changes made during the STAR panel. A
+comparison of the pre-STAR base model and the post-STAR base model can
+be found in Figures \ref{fig:preSTAR_postSTAR_compare_spawnbio},
+\ref{fig:preSTAR_postSTAR_compare_Bratio}, and
+\ref{fig:preSTAR_postSTAR_compare_recruit} and Table
+\ref{tab:preSTAR_postSTAR_compare}. A number of changes to the fleet
+structures, removal of surveys south of Point Conception, and the
+splitting of the PISCO index into two indices to better reflect life
+stages contributed to the changes. The final model also fixes natural
+mortality, whereas it was estimated in the pre-STAR base model. The
+pre-STAR base model includes and ageing error matrix that was developed
+using only half of the available double reads. The post-STAR base
+includes the updated ageing error matrix (Figure
+\ref{fig:GBY_age_error_updated}), and the update did not significantly
+change the model outputs.
+
+The base model parameter estimates and their approximate asymptotic
+standard errors are shown in Table \ref{tab:model_params} and the
+likelihood components are in Table \ref{tab:like_components}. Estimates
+of derived reference points and approximate 95\% asymptotic confidence
+intervals are shown in Table \ref{tab:Ref_pts_mod1}. Time-series of
+estimated stock size over time are shown in Table
+\ref{tab:Timeseries_mod1}.
+
+Steepness of the assumed Beverton-Holt stock-recruitment relationship
+was fixed at 0.72, and natural mortality was fixed at 0.193.
+
 \subsubsection{Convergence}\label{convergence}
 
 Model convergence was determined by starting the minimization process
@@ -2749,40 +3100,6 @@ were used and there were no difficulties in inverting the Hessian to
 obtain estimates of variability. We did sensitivity runs for convergence
 by changing the phases for key estimated parameters; neither the total
 log-likelihood nor the parameter estimates changed.
-
-\subsection{Response to the Current STAR Panel
-Requests}\label{response-to-the-current-star-panel-requests}
-
-To be populated after the STAR panel.
-
-\subsection{Base Case Model Results}\label{base-case-model-results}
-
-The following description of the model results reflects a base model
-that incorporates all of the changes made during the STAR panel. A
-comparison of the pre-STAR base model and the post-STAR base model can
-be found in Figures \ref{fig:preSTAR_postSTAR_compare_spawnbio},
-\ref{fig:preSTAR_postSTAR_compare_Bratio}, and
-\ref{fig:preSTAR_postSTAR_compare_recruit} and Table . A number of
-changes to the fleet structures, removal of surveys south of Point
-Conception, and the splitting of the PISCO index into two indices to
-better reflect life stages contributed to the changes. The final model
-also fixes natural mortality, whereas it was estimated in the pre-STAR
-base model. The pre-STAR base model includes and ageing error matrix
-that was developed using only half of the available double reads. The
-post-STAR base includes the updated ageing error matrix (Figure
-\ref{fig:GBY_age_error_updated}), and the update did not significantly
-change the model outputs.
-
-The base model parameter estimates and their approximate asymptotic
-standard errors are shown in Table \ref{tab:model_params} and the
-likelihood components are in Table \ref{tab:like_components}. Estimates
-of derived reference points and approximate 95\% asymptotic confidence
-intervals are shown in Table \ref{tab:Ref_pts_mod1}. Time-series of
-estimated stock size over time are shown in Table
-\ref{tab:Timeseries_mod1}.
-
-Steepness of the assumed Beverton-Holt stock-recruitment relationship
-was fixed at 0.72, and natural mortality was fixed at 0.193.
 
 \subsubsection{Parameter Estimates}\label{parameter-estimates}
 
@@ -2804,17 +3121,17 @@ The estimated selectivities for all fleets within the model are shown in
 Figure \ref{fig:sel01_multiple_fleets_length1}. The selectivity curves
 for the commercial fleet, recreational fleets north and south of Point
 Conception, and the larger PISCO (15+ cm) were estimated. All of the
-selectivities are asympototic except for the PISCO age-0 index, which
-has an age selectivity set to 1.0. All of the recreational indices and
-the CCFRP index selectivities were mirrored to the recreational fleet
-north of Point Conception. Attempts to fit asmyptotic and dome-shaped
+selectivities are asymptotic except for the PISCO age-0 index, which has
+an age selectivity set to 1.0. All of the recreational indices and the
+CCFRP index selectivities were mirrored to the recreational fleet north
+of Point Conception. Attempts to fit asymptotic and dome-shaped
 selectivity to the CCFRP data resulted in poor estimation, large
 standard deviations, or a lack of fit to the data. The aggregated CCFRP
-length composition over time was similiar to the length composition data
+length composition over time was similar to the length composition data
 of the recreational fleets north of Point Conception and mirroring the
 CCFRP selectivity provided a more parsimonious model. The recreational
 fleet south of Point Conception encounters smaller GBYR, which is
-reflected in the asmyptotic selectivity shifted to the left of all other
+reflected in the asymptotic selectivity shifted to the left of all other
 fleets. Selectivities for the recreational fleet north of Point
 Conception and the commercial fleet are very similar. Both fleets
 include both length composition of retained and discarded fish, although
@@ -2834,9 +3151,9 @@ The additional survey variability (process error added directly to each
 year's input variability) for all surveys except the recreational
 dockside index north of Point Conception (RecDocksideNorth) and the
 PISCO age-0 index, was estimated within the model. The added variance
-for Deb's onboard observer survey was estimated at . The added variances
-were highest for the recreational onboard observer survey north of Point
-Conception () PISCO (), and CCFRP ().
+for Deb's onboard observer survey was estimated at 0.06. The added
+variances were highest for the recreational onboard observer survey
+north of Point Conception (0.237) PISCO (0.152), and CCFRP (0.212).
 
 Recruitment deviations were estimated from 1978-2018 (Figure
 \ref{fig:recdevs2_withbars}). Estimates of recruitment suggest that GBYR
@@ -2891,11 +3208,11 @@ The variance added to this survey was the highest for all indices.
 The model did not capture the contrast in the PISCO index for 15+ cm
 fish, fitting a decline to the time series from 2010 to 2018, when the
 index suggests an increase from 2010 to 2013 and another increase after
-a declin in 2016. The model does capture the PISCO age-0 index without
+a decline in 2016. The model does capture the PISCO age-0 index without
 added variance. A number of years, e.g., 2004-2008, were marked by low
 relative abundance of age-0 GBYR and have larger standard errors. The
 years with lower relative abundance were not captured by the model, but
-fit to the uppder bound of the input standard error. The increases in
+fit to the upper bound of the input standard error. The increases in
 age-0 GBYR in 2001, 2001, 2014-2015 and 2017 were captured in the model
 fit.
 
@@ -2919,8 +3236,8 @@ composition all fit well. The PISCO fleet has the noisiest of all the
 length composition data, but on an annual basis, the length data were
 relatively well fit. The fit to the aggregated CCFRP data suggests the
 model expects to see additional larger fish, which is likely due to the
-mirroring of the selectivitity. However, on an annual basis, there is a
-tradeoff with the CCFRP with under-fitting of the larger fish in the
+mirroring of the selectivity. However, on an annual basis, there is a
+trade-off with the CCFRP with under-fitting of the larger fish in the
 earlier years and an under-fitting of the smaller fish expected in the
 later years (2013-2018).
 
@@ -3048,11 +3365,11 @@ depletion ranged from 0.38-0.59 (Figure \ref{fig:profile_R0_depl}).
 For steepness, the negative log-likelihood reaches a minimum around a
 steepness near the upper bound (Figure \ref{fig:profile_h_like} and
 Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_depl}). The
-length composition likelihood components declined towards the uppder
+length composition likelihood components declined towards the upper
 bound for Deb's CPFV and the recreational south fleets, while the other
 fleets either reached a minimum around 0.55 or at the lower bound.
 (Figure \ref{fig:profile_h_piner}). Overall changes in the survey
-likelihood across the range of steepnes was less than 2.0, with surveys
+likelihood across the range of steepens was less than 2.0, with surveys
 either minimized at the lower or upper bound (Figure
 \ref{fig:profile_h_piner2}). The relative depletion for GBYR ranges from
 0.375 to 0.493 across different assumed values of steepness (Table
@@ -3108,7 +3425,8 @@ the equilibrium curve based on a steepness value fixed at 0.72.
 \section{Harvest Projections and Decision
 Tables}\label{harvest-projections-and-decision-tables}
 
-This section will be completed at or after the STAR panel.
+This section will be copied from the Executive Summary once decision
+tables are finalized after the groundfish SSC meeting in August 2019.
 
 \section{Regional Management
 Considerations}\label{regional-management-considerations}
@@ -3135,11 +3453,23 @@ appropriate for these species.
 
 \section{Research Needs}\label{research-needs}
 
-This section will be completed at or after the STAR panel.
+This section will be copied from the Executive Summary after further
+discussions.
 
 \section{Acknowledgments}\label{acknowledgments}
 
-This section will be completed at or after the STAR panel.
+We gratefully acknowledge input and review from the STAR panel including
+the Owen Hamel (STAR panel chair; Northwest Fisheries Science Center,
+NMFS, NOAA), Chantel Wetzel(Northwest Fisheries Science Center, NMFS,
+NOAA), Sven Kupschus (Center for Independent Experts), and Robin Cook
+(Center for Independent Experts). Thanks to Don Pearson for reading all
+of the gopher and black-and-yellow rockfish before retiring in 2018. We
+thank John Field, John Budrick, Rebecca Miller, and Emma Saas for
+contributions to the assessment document. A special thanks to the PISCO
+and CCFRP programs for conducting and providing the available
+fishery-independent data used in the assessment. Thank you to everyone
+who answered my countless emails regarding your survey methodologies and
+datasets.
 
 \newpage
 
@@ -3892,6 +4222,38 @@ Port sampling & Commercial & 2009-2010; 2018 & Bodega; Morro Bay & hook-and-line
 \end{sidewaystable}
 
 \FloatBarrier
+
+\begin{table}[ht]
+\centering
+\caption{Comparison of ket parameters and likelihood 
+                                            components from the pre-STAR base model and the 
+                                            post-STAR base model.} 
+\label{tab:preSTAR_postSTAR_compare}
+\begin{tabular}{lrr}
+  \hline
+Parameter & Value & NA \\ 
+  \hline
+Female M & 0.21 & 0.19 \\ 
+  Steepness & 0.72 & 0.72 \\ 
+  lnR0 & 8.60 & 8.05 \\ 
+  Total biomass (mt) & 2369.39 & 2046.78 \\ 
+  Depletion & 0.46 & 0.44 \\ 
+  SPR ratio & 1.00 & 0.90 \\ 
+  Female Lmin & 9.67 & 13.42 \\ 
+  Female Lmax & 28.44 & 28.80 \\ 
+  Female K & 0.12 & 0.11 \\ 
+  Negative log-likelihood &  &  \\ 
+  TOTAL & 516.36 & 530.10 \\ 
+  Catch & 0.00 & 0.00 \\ 
+  Survey & -32.17 & -34.06 \\ 
+  Length\_comp & 372.46 & 411.53 \\ 
+  Age\_comp & 189.56 & 147.06 \\ 
+  Recruitment & -13.51 & 5.58 \\ 
+  Parm\_priors & 0.02 & 0.00 \\ 
+  Parm\_softbounds & 0.00 & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{table}
 
 \begin{table}[ht]
 \centering
@@ -4695,6 +5057,8 @@ base model and the post-STAR model base.
 \label{fig:preSTAR_postSTAR_compare_spawnbio}}
 \end{figure}
 
+\FloatBarrier
+
 \begin{figure}
 \centering
 \includegraphics{Figures/preSTAR_postSTAR_compare_Bratio}
@@ -4711,6 +5075,8 @@ base model and the post-STAR model base.
 \label{fig:preSTAR_postSTAR_compare_recruit}}
 \end{figure}
 
+\FloatBarrier
+
 \begin{figure}
 \centering
 \includegraphics{Figures/GBY_age_error_updated.png}
@@ -4719,8 +5085,6 @@ between initial and blind double reads for GBYR. Numbers in the bubbles
 are the sample sizes of otoliths cross-read.
 \label{fig:GBY_age_error_updated}}
 \end{figure}
-
-{[}Double reads{]}
 
 \FloatBarrier
 
@@ -4868,8 +5232,8 @@ addition of estimated additional uncertainty parameter.
 Conception only) with 95\% confidence intervals based on current samples
 sizes. Francis data weighting method TA1.8: thinner intervals (with
 capped ends) show result of further adjusting sample sizes based on
-suggested multiplier (with 95\% interval) is 0.065069
-(0.507011-3.69171). For more info, see Francis et al. (2011).
+suggested multiplier (with 95\% interval) is 0.182 (0.588-3.588). For
+more info, see Francis et al. (2011).
 \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}}
 \end{figure}
 
@@ -4879,8 +5243,8 @@ suggested multiplier (with 95\% interval) is 0.065069
 \caption{Mean age for the CCFRP survey with 95\% confidence intervals
 based on current samples sizes. Francis data weighting method TA1.8:
 thinner intervals (with capped ends) show result of further adjusting
-sample sizes based on suggested multiplier (with 95\% interval) is NA
-(NA-NA). For more info, see Francis et al. (2011).
+sample sizes based on suggested multiplier (with 95\% interval) is 0.023
+(0.511-3.745). For more info, see Francis et al. (2011).
 \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}}
 \end{figure}
 
@@ -4890,8 +5254,8 @@ sample sizes based on suggested multiplier (with 95\% interval) is NA
 \caption{Mean age for the `dummy' fleet with 95\% confidence intervals
 based on current samples sizes. Francis data weighting method TA1.8:
 thinner intervals (with capped ends) show result of further adjusting
-sample sizes based on suggested multiplier (with 95\% interval) is NA
-(NA-NA). For more info, see Francis et al. (2011).
+sample sizes based on suggested multiplier (with 95\% interval) is 0.065
+(0.507-3.692). For more info, see Francis et al. (2011).
 \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}}
 \end{figure}
 

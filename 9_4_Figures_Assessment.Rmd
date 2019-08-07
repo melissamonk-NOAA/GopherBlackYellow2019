@@ -49,15 +49,16 @@ output:
 
 ![Comparison of the spawning output between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_spawnbio}](Figures/preSTAR_postSTAR_compare_spawnbio)
 
+\FloatBarrier
+
 ![Comparison of the relative spawning output (depletion) between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_Bratio}](Figures/preSTAR_postSTAR_compare_Bratio)
 
 
 ![Comparison of the age-0 recruits between the pre-STAR panel base model and the post-STAR model base. \label{fig:preSTAR_postSTAR_compare_recruit}](Figures/preSTAR_postSTAR_compare_recruit)
 
+\FloatBarrier
+
 ![Updated aging precision used in the post-STAR base model between initial and blind double reads for GBYR.  Numbers in the bubbles are the sample sizes of otoliths cross-read. \label{fig:GBY_age_error_updated}](Figures/GBY_age_error_updated.png)
-
-![Double reads]
-
 
 
 <!-- ***********MODEL 1 BASE MODEL FIGURES********************************* --> 
@@ -135,13 +136,13 @@ output:
 
 \FloatBarrier
 
-![Mean age for the recreational fishery (ages from north of Point Conception only) with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[9,6], ' (',Fweights[9,9],'-', Fweights[9,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png)
+![Mean age for the recreational fishery (ages from north of Point Conception only) with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(round(Fweights[7,6],3), ' (',round(Fweights[7,9],3),'-', round(Fweights[7,10],3),')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth.png)
 
 
-![Mean age for the CCFRP survey with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[10,6], ' (',Fweights[10,9],'-', Fweights[10,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png)
+![Mean age for the CCFRP survey with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(round(Fweights[8,6],3), ' (',round(Fweights[8,9],3),'-', round(Fweights[8,10],3),')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP.png)
 
 
-![Mean age for the 'dummy' fleet with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(Fweights[11,6], ' (',Fweights[11,9],'-', Fweights[11,10],')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png)
+![Mean age for the 'dummy' fleet with 95% confidence intervals based on current samples sizes. Francis data weighting method TA1.8: thinner intervals (with capped ends) show result of further adjusting sample sizes based on suggested multiplier (with 95% interval) is `r paste0(round(Fweights[9,6],3), ' (',round(Fweights[9,9],3),'-', round(Fweights[9,10],3),')')`. For more info, see Francis et al. (2011). \label{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}](r4ss/plots_mod1/comp_condAALfit_data_weighting_TA1.8_condAgeDummy1.png)
 
 
 

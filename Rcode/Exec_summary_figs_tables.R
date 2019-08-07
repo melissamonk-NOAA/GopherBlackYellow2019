@@ -175,7 +175,7 @@ align(Spawn_Deplete_mod1.table) = c('l', 'l',
                                     '>{\\centering}p{1.3in}', 
                                     '>{\\centering}p{1.2in}', 
                                     '>{\\centering}p{1in}', 
-                                    '>{\\centering}p{1.2in}')  
+                                    '>{\\centering}p{1.3in}')  
 
 # =============================================================================
 # Recruitment =================================================================
@@ -378,7 +378,7 @@ align(SPRratio_Exploit_mod1.table) = c('l','l',
   Quantity = c(paste('Unfished spawning output (', fecund_unit, ')', sep = ''),
                      paste('Unfished age ', min_age, ' biomass (mt)', sep = ''),
                     'Unfished recruitment ($R_{0}$)',
-                     paste('Spawning output', '(', LastYR, ' ', fecund_unit, ')', sep = ''),
+                     paste('Spawning output ', '(', LastYR, ' ', fecund_unit, ')', sep = ''),
                      paste('Depletion (', LastYR,')',sep=''),
                     '\\textbf{$\\text{Reference points based on } \\mathbf{SB_{40\\%}}$}',
                     'Proxy spawning output ($B_{40\\%}$)',
@@ -508,16 +508,20 @@ ForeTable = as.data.frame(cbind(c(FirstYRFore:LastYRFore),
                                 round(SSB$Value,1),
                                 round((Bratio$Value*100),1)))
 
-colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)',"Age 0+ Biomass (mt)",
-                        'Spawning Output (million eggs)',' Depletion (% of $SB_0$') 
+colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)','Age 0+ Biomass (mt)',
+                        'Spawning Output (million eggs)',' Fraction unfished') 
+
 
 # Create the table
       OFL.table = xtable(ForeTable, caption=c('Projection OFL, default harvest control rule 
-                                        catch (ABC = ACL) above 40% SSB), biomass, 
+                                        catch (ABC = ACL) above 40\\% SSB), biomass, 
                                         and depletion using the base case model with 
                                         2019-2020 catches set equal to the ACL catch (114 mt).'),
-                  label = 'tab:OFL_projection')
-
+                  label = 'tab:OFL_projection',digits = c(0,0,0,0,0,1,1))
+      
+    align(OFL.table) = c('l','c','c','>{\\centering}p{.9in}',
+                         '>{\\centering}p{1in}','>{\\centering}p{1in}',
+                         '>{\\centering}p{1in}')
 
 
 # =============================================================================
@@ -544,13 +548,15 @@ colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)',"Age 0+ Biomass (mt)"
                                              an axis of uncertainty for the ', mod1_label, 
                                              '.  Columns range over low, mid, and high
                                              states of nature, and rows range over different 
-                                             assumptions of catch levels. An entry of "--" 
-                                             indicates that the stock is driven to very low 
-                                             abundance under the particular scenario.', sep = '')), 
-                                     label='tab:Decision_table_mod1')
+                                             assumptions of catch levels. The low state of nature 
+                                             fixed the growth parameter $k$ at 0.046 and the high 
+                                             state fixes all growth parameters to the external 
+                                             estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5)', sep = '')), 
+                                     label='tab:Decision_table_mod1',
+                                    digits = c(0,0,0,0,1,1,1,1,1,1))
       
     # Assign alignment and add the header columns
-        align(decision_mod1.table) = c('l','l|','c','c|','>{\\centering}p{.7in}','c|','>{\\centering}p{.7in}','c|','>{\\centering}p{.7in}','c') 
+       align(decision_mod1.table) = c('l','l|','c','c|','>{\\centering}p{.7in}','c|','>{\\centering}p{.7in}','c|','>{\\centering}p{.7in}','c') 
     
         addtorow <- list()
         addtorow$pos <- list()
@@ -559,9 +565,9 @@ colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)',"Age 0+ Biomass (mt)"
         addtorow$command <- c( ' \\multicolumn{3}{c}{}  &  \\multicolumn{2}{c}{} 
                                & \\multicolumn{2}{c}{\\textbf{States of nature}} 
                                & \\multicolumn{2}{c}{} \\\\\n', 
-                               ' \\multicolumn{3}{c}{}  &  \\multicolumn{2}{c}{Low M 0.05} 
-                               & \\multicolumn{2}{c}{Base M 0.07} 
-                               &  \\multicolumn{2}{c}{High M 0.09} \\\\\n')
+                               ' \\multicolumn{3}{c}{}  &  \\multicolumn{2}{c}{Low State} 
+                               & \\multicolumn{2}{c}{Base State} 
+                               &  \\multicolumn{2}{c}{High State} \\\\\n')
         
   
 

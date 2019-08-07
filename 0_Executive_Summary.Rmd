@@ -284,9 +284,14 @@ as well as other base case summary results can be found in Table \ref{tab:mnmgt_
 ```
 <!-- ***********END EXECUTIVE SUMMARY MANAGEMENT PERFORMANCE TABLE********* -->
 
+\FloatBarrier
 
 ##Unresolved Problems and Major Uncertainties{-}
-
+The major source of uncertainty identified during the STAR panel is the 
+structure of complex and contribution of each of the two species to the complex 
+and biological parameters differences.  Additionally, there is currently no 
+information for either species on regional differences in biological parameters
+and contributions to the complex.
 
 \FloatBarrier
 
@@ -294,13 +299,41 @@ as well as other base case summary results can be found in Table \ref{tab:mnmgt_
 
 
 ##Decision Table{-}    
-This section will be completed after the STAR panel.
+
+The forecasts of stock abundance and yield were developed using the post-STAR 
+base model, with the forecasted projections of the OFL presented in 
+Table \ref{tab:OFL_projection}. The total catches in 2019 and 2020 are set to 
+the PFMC adopted ACL of 114 mt.
+
+Uncertainty in the forecasts is based upon the three states of nature agreed upon 
+at the STAR panel and are based three states of nature of growth.  The external 
+estimates of growth were different than the internal estimates.  Given that 
+natural mortality is fixed in the post-STAR base model, and the growth parameter 
+$k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
+of uncertainty. The low state of nature fixed $k$ at 0.46 and the L1 and L1 parameters 
+are estimated.  The high state of nature fixes all growth parameters, $k$ = 0.248, 
+L1 = 13.8, and L2 = 28.5.  The L1 and L2 parameters were fixed in the high state of 
+nature as they weren't well estimated by the model in the high state of nature. 
+The growth parameters in the base model were estimated as $k$ = 0.107, L1 = 13.4, 
+and L2 = 28.8.
+
+The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
+and a $p^*$ = 0.45. The buffer is assumed to be 1.0 for 2019 and 2020 since the catches 
+are assumed, and ranges from 0.874 in 2021 ramping to 0.803 in 2030. Current medium-term forecasts 
+based on the alternative states of nature project that the stock will remain above the target 
+threshold of 40% for all but two scenarios (Table \ref{tab:Decision_table_mod1}).  The 
+low state of nature with the high state of nature catches results in a stock at 
+26.4% of unfished in 2030 and the base state model with the 
+high state of nature catches results in a stock at 33.2% of unfished in 2030.  The base case 
+model with the base case catches results in an increasing stock over the period from 2021-2030. 
+If the growth of GBYR is slower than the base model suggests, but the base case catches are 
+removed, the stock will be at the target threshold in 2030.  
 
               
 
 
 <!-- ***********BEGIN EXECUTIVE SUMMARY OFL AND DECISION TABLES************ -->
-```{r, results='asis', include=FALSE}   
+```{r, results='asis', include=TRUE}   
     # Print OFL table 
       print(OFL.table, include.rownames = FALSE, caption.placement = 'top')
 
@@ -312,7 +345,7 @@ This section will be completed after the STAR panel.
     # print Model 1 decision table
     print(decision_mod1.table, add.to.row = addtorow, include.rownames = FALSE, 
           caption.placement = 'top', 
-          hline.after = c(-1, 0, 10, 20, 30, nrow(decision_mod1.table)), 
+          hline.after = c(-1, 0, 10, 20, nrow(decision_mod1.table)), 
           scalebox = .85)
 ```
 <!-- ***********END EXECUTIVE SUMMARY OFL AND DECISION TABLES************** -->
@@ -346,26 +379,38 @@ This section will be completed after the STAR panel.
 \newpage
 
 ##Research and Data Needs{-}
-This section will be completed after the STAR panel.
-
-<!--
 We recommend the following research be conducted before the next assessment:
 
 
 \begin{enumerate}
 
-\item \textbf{xxxx}: 
+\item Investigate structure of complex and contribution of each species to the complex and biological parameters differences.  Also, investigate regional differences within species. 
 
-\item \textbf{xxxx}:
+\item Structure of complex and contribution of each species to the complex and biological parameters differences.  Also regional differences within species.  
+    \begin{enumerate}
+     \item Life history studies
+     \item Research to identify proportion of each species in population and in catch
+    \end{enumerate}
 
-\item \textbf{xxxx}:
+\item Historical catch reconstruction data, more so for the recreational fishery
 
-\item \textbf{xxxx}:
+\item Refine PISCO survey and analysis to better identify age-0 in each month of survey, which 
+would benefit from occasional sampling later in the year to identify size at age-0.
 
-\item \textbf{xxxx}:
+\item Refine CCFRP survey index and continue coastwide sampling.
+
+\item Recommend commercial and recreational data length and age collection. 
+
+\item Integrating data collection across the different research needs to improve efficacy of data collection.
+
+\item Environmental drivers/co-variates for biological parameters, particularly recruitment.
+
+\item Make recreational survey dockside (PR) data available at trip level because of differences in the selectivity. 
+
+\item Resolve differences between CalCOM and PacFIN expanded length compositions. 
+
 
 \end{enumerate}
-->
 
 
 

@@ -18,8 +18,7 @@ Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude)
 was first assessed as a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
 The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
 to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
-table was based around the emphasis (lambda) given to the index. Lambda of 1, 5, and 10 were used to 
-weight the index, with the lambda of 5 used in the baseline model. The stock was found to be at 97% depletion. 
+table was based around the emphasis given to the index. The stock was found to be at 97% depletion. 
 
 
 
@@ -50,7 +49,7 @@ The model descriptions in the following sections reflect decisions and modelling
 choices the STAT team made prior to the STAR panel.  Changes from the pre-STAR 
 base model to the final post-STAR base model are documented in the "Responses 
 to the Current STAR Panel Requests" section.  During the STAR panel, the following 
-structrue change were made; 1) the commercial retained and commercial discard fleets 
+structure change were made; 1) the commercial retained and commercial discard fleets 
 were combined into one commercial fleet, 2) the MRFSS recreational dockside and the 
 CRFS recreational onboard indices south Point Conception were removed, 3) the PISCO 
 index was split into two indices, one representing fish 15 cm and larger and an 
@@ -311,7 +310,7 @@ The base model has a total of 111 estimated parameters in the following categori
 \begin{itemize}
   \item Natural mortality
   \item Equilibrium recruitment ($R_0$) and 71 recruitment deviations
-  \item Stock recruitment autocorrelation parameter
+  \item Stock recruitment auto-correlation parameter
   \item Five growth parameters
   \item Five index extra standard deviation parameter, and
   \item 27 selectivity parameters
@@ -422,6 +421,200 @@ observed larger fish.  A time block for the commercial discard fishery was not c
 since no length composition of discarded fish were available prior to 2004.
 
 
+
+##Response to the Current STAR Panel Requests
+
+
+\begin{description}[style=sameline]
+
+\item[Request No. 1: Develop catch curves from age data as appropriate during 
+different periods of fishing intensity according to the model.] \hfill \\
+  
+\textbf{Rationale:} To obtain an independent estimate of total mortality to better 
+gauge natural mortality given the model uncertainty.    
+    
+\textbf{STAT Response:} The STAT created two catch curves using the available age 
+data for gopher and black-and-yellow rockfish, one for the time period pre-2000 
+(629 available ages) and the second from 2000-2018 (1,791 available ages). The 
+pre-2000 plot used fish aged eight and older, while the 2000-2018 plot used fish 
+aged 13 and older. The estimate of total mortality (Z) was not very different 
+between the two time periods, 0.37 for the earlier period and 0.36 for the later 
+years. If restricted to the same ages (13 and older), the earlier period would 
+have a steeper decline. 
+
+
+\item[Request No. 2: Remove the indices from the Southern fleets 7 and 11 from the 
+model] \hfill \\
+
+
+\textbf{Rationale:} These cover a small portion of the population and would 
+not be expected to have the same trends as the majority of the population, 
+are in conflict with the northern trends, and there is no straightforward 
+way to combine North and South indices 
+
+
+\textbf{STAT Response:} The STAT removed the two fishery-dependent indices 
+representing the portion of the stock south of Pt. Conception, the CDFW 
+MRFSS-era dockside survey and the CDFW CRFS-era onboard observer survey index.
+There were minor changes to the model, with the total likelihood going from 515 
+to 511 and the estimate of natural mortality going from 0.212 to 0.219.
+    
+
+\item[Request No. 3: Add discard to commercial catch data in terms of both catch and 
+compositions (by weighting comps by the number of fish discarded or retained), and 
+remove selectivity time block.  Apply discard rate back in time.] \hfill \\
+
+\textbf{Rationale:} Simpler to have a single fleet for all commercial catch and the 
+model is likely to better reflect the actual dynamics.   
+
+\textbf{STAT Response:} Response under Request \#3a.
+
+\item[Request No. 3a: Remove commercial length comp data from 2000-2003 in addition 
+to request.] \hfill \\
+
+\textbf{Rationale:} Length limit imposed in 2000 but length discards not available 
+until 2004. Therefore, comp data from these years are not representative of total 
+removals.  
+    
+\textbf{STAT Response:} The STAT combined the catches from the commercial retained 
+and commercial discard fleets, to create one commercial fleet representing both 
+catch streams.  The length composition data from the two fleets from 2004-2017 
+were combined by weighting the length compositions by the catches from each fleet. 
+Compared to the pre-STAR base, the model run for request 3a, reduced the number of 
+estimated parameters by 10, and resulted in a decrease in natural mortality to 0.195. 
+The overall model output did not change from the base model or the changes made from 
+Request \#2.
+
+
+\item[Request No. 4: Split PISCO survey such that the 0-age fish (4 and 5 cm) are 
+in one survey and the 15 cm+ fish are in the other.  Fix age selectivity to age-0 
+only for the first fleet and use a logistic selectivity for the second fleet.] \hfill \\
+
+\textbf{Rationale:} To separate out the recruitment index in the survey and to simplify the selectivity assumptions for this fleet.
+    
+\textbf{STAT Response:} Response under Request \#4a.
+
+\item[Request No. 4a: Include all years of the recruitment index developed above.] \hfill \\
+
+\textbf{Rationale:} Years with low numbers of 4 and 5 cm fish indicate low recruitment and 
+provide contrast to years with large numbers of those fish.
+  
+\textbf{STAT Response:} The STAT developed an index of abundance using only fish that 
+were 5 cm or less and re-developed the length composition data for the PISCO survey 
+representing fish 15 cm and larger.  The effect of splitting the PISCO index into two 
+indices, one for young of the year and one representing older fish resulted in 
+dampening of the age-0 recruits seen in the previous models. 
+
+
+\item[Request No. 5: Remove the auto-correlation recruitment.] \hfill \\
+
+\textbf{Rationale:} Given the sensitivity run presented, auto correlation didn’t make 
+much of a difference in model results, and there was not adequate evidence in the 
+data for auto-correlation. 
+  
+\textbf{STAT Response:} Removing the auto-correlation in recruitment resulted in no 
+significant change to the model output.    
+
+
+\item[Request No. 6: 1) Start recruit deviation in 1978 as main recruit devs. and 
+2) Start these in 2001.  Turn off all early recruit devs in both cases.] \hfill \\
+
+\textbf{Rationale:} The composition data does not seem to be informing the estimates 
+of the recruitment deviations but maybe driven by the artifacts in the catch data. 
+The early recruit deviations are uninformed and all in one direction.  Recruitment 
+indices start in 2001. 
+  
+\textbf{STAT Response:} Starting the recruitment deviations in 2001 did not produce 
+a reasonable recruitment signal.  Starting the recruitment deviations in 1978 
+provided reasonable recruitment deviations and is a more appropriate starting 
+year given the lack of sufficient length data prior to this time period.  
+
+
+\item[Request No. 7: Start from model shown at request 6(1). Fix M at 0.193 and let the model estimate k. Change the ramp to estimated level with up ramp from 1978 to 1979.  Provide all appropriate diagnostics.] \hfill \\
+
+\textbf{Rationale:} : STAT and STAR agree this was an improvement over the original base model.
+  
+\textbf{STAT Response:} Requests 7 and 8 were conducted for comparison and the plots 
+comparing the two requests are below Request 8.  Fixing natural mortality at the mean 
+of the prior results in an increase in the growth parameter $k$ from 0.145 to 0.147 
+from Request \#6 due to the decrease in the modeled natural mortality rate.  
+
+
+\item[Request No. 8: Determine if 6cm or larger fish should be included in PISCO 
+recruitment index.  If so, update the PISCO index and include the updated index in 
+the model from request \#7 (above). ] \hfill \\
+
+\textbf{Rationale:} Better to use all appropriate data for the recruitment index.
+  
+\textbf{STAT Response:} After and email discussion with Mark Carr, Dan Malone 
+(UCSC PISCO) and Darren Johnson (CSU Long Beach) it was decided that fish of 
+length 6 cm at the end of the year of birth would still all be young of the 
+year fish during the months in which the PISCO survey is conducted.  Additional 
+research is needed to verify the appropriate lengths to include, perhaps by month. 
+The PISCO age-0 index developed for this request resulted in a decrease the recruitment 
+index in the early 2000s, and an increase in the recruitment index in 2010 and 
+from 2014-2018 relative to include only 4 and 5 cm individuals. The resulting 
+models in the plot that used the revised PISCO age-0 index of abundance are 8b, 
+which fixes an issue in the selectivity mirroring, and 8c, which additionally fixes 
+the last year of bias adjustment to 2019 and not 2020.  With natural mortality 
+fixed at 0.193, the growth parameter $k$ is estimated at 0.114. The estimate of 
+length at age-2 (L1) is 13.37, similar to the external estimates. 
+
+
+\item[Request No. 9: Mirror the DebWV\_CPFV selectivity to the RecN selectivity. 
+Fix the start logit parameter for the adult PISCO selectivity to zero.  Investigate 
+appropriate methods for modeling selectivity for CCFRP.] \hfill \\
+
+\textbf{Rationale:} These will result in more appropriate and parsimonious treatment 
+of selectivity.
+  
+\textbf{STAT Response:} The selectivity for the CCFRP index was also mirrored to the 
+Recreational North fleet since the length compositions were not drastically different 
+than the other fleets mirrored to the Recreational North fleet. The STAT could not 
+find a domed selectivity pattern that had reasonable parameter estimates.  
+
+\item[Request No. 10: Perform a drop one out analysis for the index fleets.] \hfill \\
+
+\textbf{Rationale:} To investigate the influence each of these data sets on the model.
+
+\textbf{STAT Response:} No single index had a substantial effect on the model output. 
+Each index contributed to the status of the stock, with some indicating a an increase 
+over the base model developed for Request 9, and some estimating a decreased stock status. 
+Depending on which index was dropped, the year(s) of high recruitment predicted in the 
+early 1990s did shift, and was either attributed to a single year, or spread over a few 
+years. The PISCO age-0 index does inform recruitment and age-0 recruitment is dampened 
+n recent years when this index is excluded.
+
+\end{description}
+
+
+<!-- *********************MODEL 1 RESULTS********************************** -->
+##Base Case Model Results 
+The following description of the model results reflects a base model that 
+incorporates all of the changes made during the STAR panel. A comparison 
+of the pre-STAR base model and the post-STAR base model can be found in 
+Figures \ref{fig:preSTAR_postSTAR_compare_spawnbio}, 
+\ref{fig:preSTAR_postSTAR_compare_Bratio}, and 
+\ref{fig:preSTAR_postSTAR_compare_recruit} and Table \ref{tab:preSTAR_postSTAR_compare}. 
+A number of changes to the 
+fleet structures, removal of surveys south of Point Conception, and the splitting 
+of the PISCO index into two indices to better reflect life stages contributed to 
+the changes.  The final model also fixes natural mortality, whereas it was estimated 
+in the pre-STAR base model. The pre-STAR base model includes and ageing error matrix that 
+was developed using only half of the available double reads.  The post-STAR base includes 
+the updated ageing error matrix (Figure \ref{fig:GBY_age_error_updated}), and the update 
+did not significantly change the model outputs.
+
+The base model parameter estimates and their approximate asymptotic 
+standard errors are shown in Table \ref{tab:model_params} and the likelihood 
+components are in Table \ref{tab:like_components}. Estimates of derived reference points and 
+approximate 95% asymptotic confidence intervals are shown in Table \ref{tab:Ref_pts_mod1}.
+Time-series of estimated stock size over time are shown in Table \ref{tab:Timeseries_mod1}.
+
+Steepness of the assumed Beverton-Holt stock-recruitment relationship was fixed at 0.72, and
+natural mortality was fixed at 0.193.
+
+
 ###Convergence
 Model convergence was determined by starting the minimization process from dispersed 
 values of the maximum likelihood estimates to determine if the model found a better 
@@ -433,84 +626,6 @@ when reasonable starting values were used and there were no difficulties in inve
 the Hessian to obtain estimates of variability.  We did sensitivity runs for 
 convergence by changing the phases for key estimated parameters; neither the total 
 log-likelihood nor the parameter estimates changed.
-
-
-##Response to the Current STAR Panel Requests
-To be populated after the STAR panel.
-
-<!--
-\begin{description}[style=sameline]
-
-\item[Request No. 1: ] \hfill \\
-  
-\textbf{Rationale:} xxx   
-    
-\textbf{STAT Response:} xxx
-
-
-\item[Request No. 2: ] \hfill \\
-
-
-\textbf{Rationale:} xxx 
-
-
-\textbf{STAT Response:} xxx
-    
-
-\item[Request No. 3: ] \hfill \\
-
-\textbf{Rationale:} x.  
-    
-  
-\textbf{STAT Response:} xxx
-
-\item[Request No. 4: ] \hfill \\
-
-\textbf{Rationale:} xxx 
-    
-    
-\textbf{STAT Response:} xxx
-
-
-\item[Request No. 5: ] \hfill \\
-
-\textbf{Rationale:} xxx
-  
-\textbf{STAT Response:} xxx  
-    
-
-
-\end{description}
--->
-
-<!-- *********************MODEL 1 RESULTS********************************** -->
-##Base Case Model Results 
-The following description of the model results reflects a base model that 
-incorporates all of the changes made during the STAR panel. A comparison 
-of the pre-STAR base model and the post-STAR base model can be found in 
-Figures \ref{fig:preSTAR_postSTAR_compare_spawnbio}, 
-\ref{fig:preSTAR_postSTAR_compare_Bratio}, and 
-\ref{fig:preSTAR_postSTAR_compare_recruit} and Table . A number of changes to the 
-fleet structures, removal of surveys south of Point Conception, and the splitting 
-of the PISCO index into two indices to better reflect life stages contributed to 
-the changes.  The final model also fixes natural mortality, whereas it was estimated 
-in the pre-STAR base model. The pre-STAR base model includes and ageing error matrix that 
-was developed using only half of the available double reads.  The post-STAR base includes 
-the updated ageing error matrix (Figure \ref{fig:GBY_age_error_updated}), and the update 
-did not significantly change the model outputs.
-
-
-
-
-The base model parameter 
-estimates and their approximate asymptotic 
-standard errors are shown in Table \ref{tab:model_params} and the likelihood 
-components are in Table \ref{tab:like_components}. Estimates of derived reference points and 
-approximate 95% asymptotic confidence intervals are shown in Table \ref{tab:Ref_pts_mod1}.
-Time-series of estimated stock size over time are shown in Table \ref{tab:Timeseries_mod1}.
-
-Steepness of the assumed Beverton-Holt stock-recruitment relationship was fixed at 0.72, and
-natural mortality was fixed at 0.193.
 
 ###Parameter Estimates
 The base model produces estimates of growth parameters different from the external 
@@ -529,15 +644,15 @@ The estimated selectivities for all fleets within the model are shown in
 Figure \ref{fig:sel01_multiple_fleets_length1}.
 The selectivity curves for the commercial fleet, recreational fleets north and 
 south of Point Conception, and the larger PISCO (15+ cm) were estimated. All of 
-the selectivities are asympototic except for the PISCO age-0 index, which has an 
+the selectivities are asymptotic except for the PISCO age-0 index, which has an 
 age selectivity set to 1.0. All of the recreational indices and the CCFRP index 
 selectivities were mirrored to the recreational fleet north of Point Conception. 
-Attempts to fit asmyptotic and dome-shaped selectivity to the CCFRP data resulted in 
+Attempts to fit asymptotic and dome-shaped selectivity to the CCFRP data resulted in 
 poor estimation, large standard deviations, or a lack of fit to the data. The aggregated 
-CCFRP length composition over time was similiar to the length composition data of the 
+CCFRP length composition over time was similar to the length composition data of the 
 recreational fleets north of Point Conception and mirroring the CCFRP selectivity provided 
 a more parsimonious model.  The recreational fleet south of Point Conception encounters 
-smaller GBYR, which is reflected in the asmyptotic selectivity shifted to the left of all 
+smaller GBYR, which is reflected in the asymptotic selectivity shifted to the left of all 
 other fleets. Selectivities for the recreational fleet north of Point Conception and the commercial 
 fleet are very similar. Both fleets include both length composition of retained 
 and discarded fish, although no information on the size of discards is available from 
@@ -554,12 +669,12 @@ The additional survey variability (process error added directly to each year's i
 variability) for all surveys except the recreational dockside index north of Point Conception 
 (RecDocksideNorth) and the PISCO age-0 index, was estimated within the model.
 The added variance for Deb's onboard observer survey was estimated at 
-`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(5)", 3], 6)`.
+`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(4)", 3], 3)`.
 The added variances were highest for the recreational onboard observer survey north of 
 Point Conception
-(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(6)", 3], 3)`)
-PISCO (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(8)", 3], 3)`), and 
-CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(9)", 3], 3)`).
+(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(5)", 3], 3)`)
+PISCO (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(6)", 3], 3)`), and 
+CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(7)", 3], 3)`).
 
 Recruitment deviations were estimated from 1978-2018 (Figure \ref{fig:recdevs2_withbars}). 
 Estimates of recruitment suggest that GBYR are characterized by cyclical years of high 
@@ -602,11 +717,11 @@ Conception from 2001-2018 was relatively well fit, except for the decline sugges
 
 The model did not capture the contrast in the  PISCO index 
 for 15+ cm fish, fitting a decline to the time series from 2010 to 2018, when the index 
-suggests an increase from 2010 to 2013 and another increase after a declin in 2016. The 
+suggests an increase from 2010 to 2013 and another increase after a decline in 2016. The 
 model does capture the PISCO age-0 index without added variance.  A number of years, e.g., 
 2004-2008, were marked by low relative abundance of age-0 GBYR and have larger standard 
 errors.  The years with lower relative abundance were not captured by the model, but fit 
-to the uppder bound of the input standard error.  The increases in age-0 GBYR in 2001, 
+to the upper bound of the input standard error.  The increases in age-0 GBYR in 2001, 
 2001, 2014-2015 and 2017 were captured in the model fit.
 
 The model was not able to capture the trends observed in the fishery-independent CCFRP 
@@ -624,8 +739,8 @@ are shown in Figure \ref{fig:comp_lenfit__aggregated_across_time}. Overall, the
 length composition all fit well. The PISCO fleet has the noisiest of all the length 
 composition data, but on an annual basis, the length data were relatively well fit. 
 The fit to the aggregated CCFRP data suggests the model expects to see additional 
-larger fish, which is likely due to the mirroring of the selectivitity.  However, 
-on an annual basis, there is a tradeoff with the CCFRP with under-fitting of the larger 
+larger fish, which is likely due to the mirroring of the selectivity.  However, 
+on an annual basis, there is a trade-off with the CCFRP with under-fitting of the larger 
 fish in the earlier years and an under-fitting of the smaller fish expected in the 
 later years (2013-2018).
 
@@ -728,10 +843,10 @@ minimize $R_0$ at the lower bound.  (Figure \ref{fig:profile_R0_like}). Over the
 For steepness, the negative log-likelihood reaches a minimum around a steepness 
 near the upper bound (Figure \ref{fig:profile_h_like} and 
 Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_depl}). 
-The length composition likelihood components declined towards the uppder bound for Deb's 
+The length composition likelihood components declined towards the upper bound for Deb's 
 CPFV and the recreational south fleets, while the other fleets either 
 reached a minimum around 0.55 or at the lower bound.  (Figure \ref{fig:profile_h_piner}). 
-Overall changes in the survey likelihood across the range of steepnes was less than 2.0, 
+Overall changes in the survey likelihood across the range of steepens was less than 2.0, 
 with surveys either minimized at the lower or upper bound (Figure \ref{fig:profile_h_piner2}).
 The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness (Table \ref{tab:like_profiles}).
 

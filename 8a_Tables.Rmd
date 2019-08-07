@@ -7,6 +7,29 @@
 <!-- ====================================================================== -->
 
 
+
+<!-- ***********MODEL 1 PARAMETERS***************************************** --> 
+<!-- ***********Estimated and Fixed Parameters***************************** --> 
+
+```{r, results = 'asis'}
+       preSTAR_postSTAR_compare = read.csv('./txt_files/preSTAR_postSTAR_compare.csv')
+       colnames(preSTAR_postSTAR_compare) = c('Parameter',
+                                              'Value')
+       
+       
+      preSTAR_postSTAR_compare.table = xtable(preSTAR_postSTAR_compare,
+                                caption = c('Comparison of ket parameters and likelihood 
+                                            components from the pre-STAR base model and the 
+                                            post-STAR base model.'),
+                                label = 'tab:preSTAR_postSTAR_compare')
+       
+       
+    # Print likelihood component table
+      print(preSTAR_postSTAR_compare.table, 
+            include.rownames=FALSE, 
+            caption.placement='top')
+``` 
+
 <!-- ***********JITTER TABLE*********************************************** --> 
 
 ```{r, results = 'asis'}
@@ -28,8 +51,7 @@
 ```
 
 
-<!-- ***********MODEL 1 PARAMETERS***************************************** --> 
-<!-- ***********Estimated adn Fixed Parameters***************************** --> 
+
 
 \begin{landscape}
 
@@ -345,11 +367,7 @@
 # Print likelihood profile table
       print(Retro.table, 
             include.rownames=FALSE, 
-            caption.placement='top')#,
-           # scalebox = .9,
-          #  sanitize.text.function = function(x){x})
-
-
+            caption.placement='top')
 
 
 ```
