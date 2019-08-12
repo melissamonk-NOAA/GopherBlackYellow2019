@@ -51,7 +51,7 @@ Baetscher [-@Baetscher2019] observed mistaken genetic assignment of a small numb
 of individuals between gopher and black-and-yellow rockfishes, while no other 
 species among the 54 rockfishes analyzed resulted in mis-assignments. In addition, comparisons 
 of $F_{ST}$  values within the study indicated that the level of genetic differentiation 
-observed between gopher and black-and-yellow rockfishes is lower than that observed among 
+observed between gopher and black-and-yellow rockfishes is lower ($F_{ST}$ = 0.015) than that observed among 
 all other pairwise comparisons of the 54 species in the *Sebastes* genus that were included 
 in their analysis. Baetscher [-@Baetscher2019] characterized the results as suggestive of 
 the two species representing “sister species with evidence of ongoing gene flow,” noting 
@@ -300,13 +300,17 @@ be found in [Appendix B](#appendix-b.-californias-recreational-fishery-regulatio
 
 
 ##Management Performance
-The contribution of GBYR to the minor nearshore rockfish OFLs is currently derived from 
+The contribution of GBYR to the nearshore rockfish OFLs is currently derived from 
 two sources: 1) forecasts from Key et al. [-@Key2005], from Cape Mendocino to 
 Point Conception, and 2) a Depletion Corrected Average Catch (DCAC [@MacCall2009]) for the 
-area south of Point Conception. The total mortality of the minor nearshore rockfish has been 
-below the ACL in all years (2011-2016). Total mortality estimates from the NWFSC are not yet available for 2017-2018. GBYR total mortality was on average 20% of the 
-total minor nearshore rockfish total mortality from 2011-2016. A summary of these values 
-as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
+area south of Point Conception. The total mortality of the nearshore rockfish south complex has been 
+below the ACL in all years (2011-2016). Total mortality estimates from the NWFSC are not yet 
+available for 2017-2018. GBYR total mortality was on average 20% of the 
+total nearshore rockfish south total mortality from 2011-2016. The recent GBYR total mortality 
+contributed approximately 9% to the nearshore rockfish south OFL, and GBYR catches have not exceded 
+the GBYR OFLs in recent years. GBYR is a small component of the 
+nearshore rockfish south complex that includes twelve other species. A summary of these values as 
+well as other post-STAR base model summary results can be found in Table \ref{tab:mnmgt_perform}.
 
 
 ##Fisheries Off Mexico or Canada

@@ -134,6 +134,47 @@
 
 <!-- ---------------------------------------------------------------------- -->
 
+
+\FloatBarrier
+
+<!-- ***********MODEL 1 pre-star SENSITIVITY TABLE(S)***************************** --> 
+
+```{r, results = 'asis'}
+    
+    # Read in/organize sensitivity file, change column names, caption
+    Sens_model1 = read.csv('./txt_files/Sensitivities_model1.csv')
+    colnames(Sens_model1) = c('Label', 
+                              'Base model (Francis weights)',
+                              'Fix M at prior',
+                              'Fix k at external est.',
+                              'PacFIN length comps',
+                              'Default weighting',
+                              'Harmonic mean weighting')
+
+    # Create sensitivities table
+    Sens_model1.table = xtable(Sens_model1, 
+                               caption = c('Sensitivity of the base model 
+                                          to alternative assumptions 
+                                          about natural mortality, growth, 
+                                          and using PacFIN-derived length composition data.'),
+                               label = 'tab:Sensitivity_model1', digits = 2)    
+  
+    # Add alignment - this uses centered aligment of .6 inches for all columns 2+,
+    # You can change this easily to have variable columns width after you know how many
+    # colunns your final table has
+    align(Sens_model1.table) = c('l','l', rep('>{\\centering}p{1in}', dim(Sens_model1)[2]-1))
+
+
+    # Print model 1 sensitivity table
+    print(Sens_model1.table, 
+          include.rownames = FALSE,             
+          caption.placement = 'top',
+          floating.environment = 'sidewaystable')
+
+```
+
+
+
 \FloatBarrier
 
 
@@ -304,41 +345,7 @@
 
 \FloatBarrier
 
-<!-- ***********MODEL 1 SENSITIVITY TABLE(S)******************************* --> 
 
-```{r, results = 'asis'}
-    
-    # Read in/organize sensitivity file, change column names, caption
-    Sens_model1 = read.csv('./txt_files/Sensitivities_model1.csv')
-    colnames(Sens_model1) = c('Label', 
-                              'Base model (Francis weights)',
-                              'Fix M at prior',
-                              'Fix k at external est.',
-                              'PacFIN length comps',
-                              'Default weighting',
-                              'Harmonic mean weighting')
-
-    # Create sensitivities table
-    Sens_model1.table = xtable(Sens_model1, 
-                               caption = c('Sensitivity of the base model 
-                                          to alternative assumptions 
-                                          about natural mortality, growth, 
-                                          and using PacFIN-derived length composition data.'),
-                               label = 'tab:Sensitivity_model1', digits = 2)    
-  
-    # Add alignment - this uses centered aligment of .6 inches for all columns 2+,
-    # You can change this easily to have variable columns width after you know how many
-    # colunns your final table has
-    align(Sens_model1.table) = c('l','l', rep('>{\\centering}p{1in}', dim(Sens_model1)[2]-1))
-
-
-    # Print model 1 sensitivity table
-    print(Sens_model1.table, 
-          include.rownames = FALSE,             
-          caption.placement = 'top',
-          floating.environment = 'sidewaystable')
-
-```
 
 
 

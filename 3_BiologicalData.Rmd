@@ -177,7 +177,8 @@ M = \frac{5.4}{A_{max}}
 The above is also the median of the prior. The prior is defined as a lognormal with 
 mean $ln\frac{5.4}{A_{max}}$  and SE = 0.4384343 (Owen Hamel, personal communication, NMFS). 
 Using a maximum age of 28 the point estimate and median of the prior is 0.193, 
-which is used as a prior for in the assessment model.
+which is used as a prior for in the assessment model and as a fixed quantity in the post-STAR 
+base model.
 
 
 

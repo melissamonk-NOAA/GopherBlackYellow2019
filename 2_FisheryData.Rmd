@@ -41,7 +41,7 @@ commercial data were combined to represent one commercial fleet in the assessmen
 Additional details regarding this decision 
 are described below.
 
-The stock assessment of gopher rockfish in 2005 did not include black-and-yellow rockfish 
+The stock assessment of gopher rockfish in 2005 did not excplicitly include black-and-yellow rockfish 
 landings. A comparison of the recreational and commercial landings from the 2005 assessment 
 to those used in this assessment suggest the 2005 assessment may have included some 
 black-and-yellow rockfish landings (Figure \ref{fig:Assessment_compare}). The 2005 
@@ -151,7 +151,8 @@ fisheries 2009-2011, 2016, and 2018.  Though sparse, the data were included as
 conditional age-at-length for the commercial fleet. 
 
 The input sample sizes for commercial length composition data were calculated 
-via the Stewart Method for fisheries (Ian Stewart, personal communication, IPHC):
+via the Stewart Method for fisheries (Ian Stewart, personal communication, IPHC, 
+and develped at NWFSC):
 
 \begin{center}
 
@@ -476,6 +477,8 @@ and associated log standard error included in the assessment can be found in Tab
 
 
 *MRFSS Filtering and Index Standardization for South of Point Conception.*
+Note, the MRFSS index for south of Point Conception was not used in the post-STAR 
+base model.
 Prior to the Stephens-MacCall filter, a total of 7,334 trips were available for the analysis. 
 As expected, positive indicators of GBYR trips included several nearshore species, e.g., 
 kelp rockfish, treefish, and black croaker, while the strongest counter-indicator
@@ -628,6 +631,8 @@ of abundance has increased since 2014.
 
 
 *Filtering and Index Standardization for south of Point Conception*
+Note, the CPFV onboard index for south of Point Conception was not used in the final
+post-STAR base model.
 The bathymetric data is not available at as fine-scale resolution for the Southern 
 California Bight and more of the trips and drifts target mid-water species, including 
 mid-water rockfish (Table \ref{tab:Fleet6_7_Filter}). Therefore, instead of using 
@@ -678,12 +683,14 @@ been used in stock assessments as indices of abundance.
 
 **California Collaborative Fisheries Research Project**
 
-The California Collaborative Fisheries Research Project, [CCFRP](https://www.mlml.calstate.edu/ccfrp/), is a fishery-independent 
+The California Collaborative Fisheries Research Project, [CCFRP](https://www.mlml.calstate.edu/ccfrp/), 
+is a fishery-independent 
 hook-and-line survey designed to monitor nearshore fish populations at a series of sampling 
 locations both inside and adjacent to MPAs along the central California coast 
 [@Wendt2009; @Starr2015].  The CCFRP survey began in 2007 and was originally
 designed as a statewide program in collaboration with NMFS scientists and fishermen. 
-From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, 
+From 2007-2016 the CCFRP project was focused on the central California coast, and has monitored 
+four MPAs consistently since then (Figure \ref{fig:CCFRP_sites}).  In 2017, 
 the program was expanded coastwide within California.  The index of abundance was 
 developed from the four MPAs sampled consistently (A&ntilde;o Nuevo and Point Lobos 
 by Moss Landing Marine Labs; Point Buchon and Piedras Blancas by Cal Poly).
@@ -767,7 +774,7 @@ are conducted by the University of California Santa Cruz (UCSC) in central Calif
 through the University of California Santa Barbara in southern California.   All PISCO 
 data were provided by Dan Malone (UCSC).
 
-The majority of filtering for the PISCO data set was to determine which sites to keep for 
+The majority of filtering for the PISCO data set was to determine which sites to retain for 
 the final index. After initial filtering the data for GBYR in southern California 
 were too sparse to be considered for the index of abundance.  Gopher and black-and-yellow 
 rockfish were also rarely observed in the midwater and canopy transects, and therefore 
@@ -778,13 +785,28 @@ a site were combined and effort was modeled as the number of transects represent
 number of fish observed. The final index included 3,231 transects, of which 1,729 observed 
 GBYR (Figure \ref{fig:PISCO_sites}).
 
-We modeled number of fish observed per transect(s) using maximum 
-likelihood and Bayesian negative binomial regression. Models incorporating temporal 
-(year, month) and geographic (site and zone) factors were evaluated. The zone is a 
+Three indices are described below.  The pre-STAR base model includes a single 
+index of abundance for the PISCO survey.  During the STAR panel the decision was 
+made to include two separate indices of abundance and selectivities for the PISCO 
+data.  The PISCO data include information on age-0 recruitment and also older fish. 
+The PISCO age-0 recruitment index includes fish that are 6 cm or smaller, and the PISCO 
+index for larger fish includes fish 15 cm and larger.  There is uncertainty in the age 
+of fish in the 7-14 cm range due to the timing of sampling, growth, and the timing of 
+ages, i.e., all fish turn one on Jan 1 in the SS assessment model.  FIsh in teh 7-14 cm 
+are also not well sampled by the survey.
+
+For all three iterations of the index we modeled number of fish observed per 
+transect(s) using maximum likelihood and Bayesian regression.  The index containing 
+all data and the index for larger fish (15+ cm) only were modeled as negative binomial, 
+whereas the data for the age-0 index were sparse and modeled as binomial. Models incorporating 
+temporal (year, month) and geographic (site and zone) factors were evaluated. The zone is a 
 factor indicating the depth stratification at a site, i.e., 5 m, 10 m, 15 m, or 20 m 
-targeted bottom depth. Based on AIC values from maximum likelihood fits 
-(Table \ref{tab:Fleet8_AIC}), 
-a main effects model including all factors (year, month, site and zone) was fit in 
+targeted bottom depth. 
+
+
+_Index based on all of the PISCO data (used in the pre-STAR base model)._  
+Based on AIC values from maximum likelihood fits (Table \ref{tab:Fleet8_AIC}), a main 
+effects model including all factors (year, month, site and zone) was fit in 
 the “rstanarm” R package (version 2.18.2). Diagnostic checks of the Bayesian model 
 fit (Neff, Rhat, and Monte Carlo standard error values) were all reasonable. 
 Predicted means by stratum (Year) were strongly correlated with observed means, 
@@ -792,14 +814,41 @@ suggesting a reasonable fit to the data (Figure \ref{fig:Fleet8_MLE_stan}).
 The NB model generated data sets with roughly 16-25% zeros, compared to the observed 23% 
 (Figure \ref{fig:Fleet8_prop_zero_STAN}).
 
-The final index decreases from 2001 to the late 2000s, with lower estimates of relative 
-abundance from 2005-2010.  From 2010 to 2015, the index increases and peaks in 2015, before 
-the decreasing trends from 2016-2018.  The trend observed in this index is counter to that 
-observed in the onboard observer and CCFRP indices for north of 
-Point Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey is sampling different 
-habitat types than the other two surveys, and covers much shallower depths.  It's possible 
-that the PISCO index captures recruitment pulses, but because this index includes both 
-young-of-the-year and adult fish, the trend may be captured in the model.
+The final index decreases from 2001 to the late 2000s, with lower estimates of 
+relative abundance from 2005-2010.  From 2010 to 2015, the index increases and 
+peaks in 2015, before the decreasing trends from 2016-2018.  The trend observed 
+in this index is counter to that observed in the onboard observer and CCFRP indices 
+for north of Point Conception (Figure \ref{fig:All_index_compare}).  The PISCO survey 
+is sampling different habitat types than the other two surveys, and covers much 
+shallower depths.  It's possible that the PISCO index captures recruitment pulses, 
+but because this index includes both young-of-the-year and adult fish, the trend 
+may be captured in the model.
+
+_PISCO index based on fish 15 cm and larger (used in the post-STAR base model)._  
+The same filtered dataset was used for the index for fish 15 cm and larger as for the PISCO 
+index that included all fish. Based on AIC values from maximum likelihood fits 
+(Table \ref{tab:Fleet8large_AIC}), a main 
+effects model including all factors (year, month, site and zone) was fit in 
+the “rstanarm” R package (version 2.18.2). Diagnostic checks of the Bayesian model 
+fit (Neff, Rhat, and Monte Carlo standard error values) were all reasonable. 
+Predicted means by stratum (Year) were strongly correlated with observed means, 
+suggesting a reasonable fit to the data (Figure \ref{fig:Fleet8large_MLE_stan}). 
+The NB model generated data sets with roughly 20-30% zeros, compared to the observed 25% 
+(Figure \ref{fig:Fleet8large_prop_zero_STAN}).
+
+
+
+
+_PISCO recruitment index based on fish 6 cm and smaller (used in the post-STAR base model)._  
+The same filtered dataset was used for the index for fish 15 cm and larger as for the PISCO 
+index that included all fish.  There was no consistent pattern in the presence of age-0 
+fish to exclude any sites or zones.  All years were included in the final index, even if sample 
+sizes were small.  Age-0 fish were present in 14% of all transects. A negative binomial model 
+was not well fit to the data so a binomial (presence/absence) model was selected for the recruitment index. 
+Based on AIC values for maximum likelihood fits (Table \ref{tab:Fleet8age0_AIC}), a main 
+effects model including year, month, and zone was fit in the “rstanarm” R package (version 2.18.2). 
+The resulting index has large standard errors for years with sparse data, including 2004-2008 and 2012-2013. 
+A recruitment signal is present in the index in a number of years, including 2001-2003, 2010, and 2014-2017.
 
 
 _PISCO Length Measurements_

@@ -13,7 +13,19 @@ output:
 <!-- ***********History of modelleing approaches FIGURES******************* --> 
 <!-- ********************************************************************** -->
 
+<!-- ********************************************************************** -->
+<!-- ****************Uncertainty and Sensitivity FIGURES******************* -->
+<!-- ********************************************************************** -->
 
+<!-- ***********MODEL 1 Uncertainty and Sensitivity FIGURES**************** --> 
+
+
+![Sensitivity of the spawning biomass to fixing natural mortality to the prior, fixing the von Bertalanffy $k$ parameter to the external estimate, or using commercial PacFIN length composition data instead of CALCOM, as compared to the pre-STAR base model. \label{fig:sensitivity1_spawnbio}](Figures/sensitivity1_spawnbio.png)
+
+![Sensitivity of the spawning biomass to either the default weight of composition data, the harmonic mean, or Francis weights. \label{fig:sensitivity2_spawnbio}](Figures/sensitivity2_spawnbio.png)
+
+
+\FloatBarrier
 
 
 
@@ -76,9 +88,6 @@ output:
 
 ![Selectivity at length for all of the fleets in the base model. \label{fig:sel01_multiple_fleets_length1}](r4ss/plots_mod1/sel01_multiple_fleets_length1.png)
 
-<!--
-![Surface plot of Female time-varying selectivity for the commercial fleet, with time blocks from 1916-1998 and 1999-2018. \label{fig:sel03_len_timevary_surf_flt1sex1}](r4ss/plots_mod1/sel03_len_timevary_surf_flt1sex1.png)
--->
 
 
 
@@ -153,22 +162,7 @@ output:
 
 
 
-<!-- ********************************************************************** -->
-<!-- ****************Uncertainty and Sensitivity FIGURES******************* -->
-<!-- ********************************************************************** -->
 
-
-
-
-<!-- ***********MODEL 1 Uncertainty and Sensitivity FIGURES**************** --> 
-
-
-![Sensitivity of the spawning biomass to fixing natural mortality to the prior, fixing the von Bertalanffy $k$ parameter to the external estimate, or using commercial PacFIN length composition data instead of CALCOM, as compared to the pre-STAR base model. \label{fig:sensitivity1_spawnbio}](Figures/sensitivity1_spawnbio.png)
-
-![Sensitivity of the spawning biomass to either the default weight of composition data, the harmonic mean, or Francis weights. \label{fig:sensitivity2_spawnbio}](Figures/sensitivity2_spawnbio.png)
-
-
-\FloatBarrier
 
 <!-- ********************************************************************** -->
 <!-- *****************Retrospective analysis FIGURES*********************** -->

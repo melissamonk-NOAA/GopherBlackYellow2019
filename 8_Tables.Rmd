@@ -463,6 +463,54 @@ print(Fleet8_AIC.table,
 \clearpage
 \newpage
 
+
+<!-- ********************************************************************** -->
+<!-- *****Fleets 8 PISCO large fish index TABLES******* -->
+<!-- ********************************************************************** -->
+```{r, results="asis"}
+#read in index summary data for PISCO large fish only
+
+Fleet8large_AIC = read.xlsx('./txt_files/Fleet8_PISCOlargeonly_IndexData.xlsx', sheetName='AIC', header=T)
+
+Fleet8large_AIC.table = xtable(Fleet8large_AIC,
+                            caption = c("Model selection for the PISCO dive survey data for fish 15 cm and larger."),
+                            label='tab:Fleet8large_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+print(Fleet8large_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+
+
+```
+
+<!-- ********************************************************************** -->
+<!-- *****Fleets 8 PISCO age0 fish index TABLES******* -->
+<!-- ********************************************************************** -->
+```{r, results="asis"}
+#read in index summary data for PISCO large fish only
+
+Fleet8age0_AIC = read.xlsx('./txt_files/Fleet8_PISCOage0_IndexData.xlsx', sheetName='AIC', header=T)
+
+Fleet8age0_AIC.table = xtable(Fleet8age0_AIC,
+                            caption = c("Model selection for the PISCO dive survey data recruitment index."),
+                            label='tab:Fleet8age0_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+print(Fleet8age0_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+
+
+```
+
+
 <!-- ********************************************************************** -->
 <!-- *****Fleet 9 index TABLES******* -->
 <!-- ********************************************************************** -->

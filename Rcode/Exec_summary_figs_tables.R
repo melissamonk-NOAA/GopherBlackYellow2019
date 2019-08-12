@@ -443,9 +443,9 @@ a_header <- construct_header(
   # the data.frame or matrix that should be plotted
   mngmnt,
   # the labels of the groups that we want to insert
-  grp_names = c("","GBYR", "Minor Nearshore Rockfish"),
+  grp_names = c("","GBYR", "Shallow Nearshore Rockfish South","Nearshore Rockfish South"),
   # the number of columns each group spans
-  span = c(1, 1, 3),
+  span = c(1, 1, 1,2),
   # the alignment of each group, can be a single character (lcr) or a vector
   align = "c"
 )
@@ -456,8 +456,8 @@ a_header <- construct_header(
 mngmnt.table = xtable(mngmnt, 
                       caption=c('Recent trend in total mortality for gopher and 
                             black-and-yellow rockfishes (GBYR), combined, relative to the 
-                             management guidelines for the minor nearshore rockfish 
-                             south of $40^\\circ 10^\\prime$ N. latitude. 
+                             management guidelines for Nearshore Rockfish 
+                             South of $40^\\circ 10^\\prime$ N. latitude. 
                              Total mortality estimates are based on annual reports 
                                 from the NMFS NWFSC.'), 
                       label='tab:mnmgt_perform')  
@@ -483,6 +483,7 @@ quants = mod1$derived_quants
 
 #extract OFL and ABC
 OFLCatch  = quants[grep('OFLCatch', quants$Label), ]
+OFLCatch[c(1:2),2] = 154
 ForeCatch = quants[grep('ForeCatch', quants$Label), ]
 
 #Extract Age 0+, SSB and Depletion
@@ -511,12 +512,14 @@ ForeTable = as.data.frame(cbind(c(FirstYRFore:LastYRFore),
 colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)','Age 0+ Biomass (mt)',
                         'Spawning Output (million eggs)',' Fraction unfished') 
 
+ForeTable[c(1:2),3] = '\\textit{114}'
 
 # Create the table
-      OFL.table = xtable(ForeTable, caption=c('Projection OFL, default harvest control rule 
+      OFL.table = xtable(ForeTable, caption=c('Projected OFL, default harvest control rule 
                                         catch (ABC = ACL) above 40\\% SSB), biomass, 
-                                        and depletion using the base case model with 
-                                        2019-2020 catches set equal to the ACL catch (114 mt).'),
+                                        and depletion using the post-STAR base case model with 
+                                        2019-2020 catches set equal to the projected catch 
+                                        (114 mt) rather than the ABC.'),
                   label = 'tab:OFL_projection',digits = c(0,0,0,0,0,1,1))
       
     align(OFL.table) = c('l','c','c','>{\\centering}p{.9in}',
@@ -623,10 +626,9 @@ mngmt = mngmt[,-1]
 
   # Transpose the dataframe to create the table and create data labels  
   base_summary = as.data.frame(t(base_summary1))
-  base_summary$names=c('Landings (mt)',
-                       'Total Est. Catch (mt)',
-                       'OFL (mt)', 
-                       'ACL (mt)',
+  base_summary$names=c('Total mortality (mt)',
+                       'Complex OFL (mt)', 
+                       'Complex ACL (mt)',
                        
                        '(1-$SPR$)(1-$SPR_{50\\%}$)',
                        'Exploitation rate',
@@ -645,7 +647,8 @@ mngmt = mngmt[,-1]
   base_summary.table = xtable(base_summary, caption=c('Base case results summary.'),
                               label='tab:base_summary',digits=0)
   # # Add alignment   
-  align(base_summary.table) = c('l',
+
+      align(base_summary.table) = c('l',
                                 'r',
                                 '>{\\centering}p{1.1in}',
                                 '>{\\centering}p{1.1in}',

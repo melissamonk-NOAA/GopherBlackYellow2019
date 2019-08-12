@@ -18,12 +18,13 @@ Information on historical landings of `r spp` are available back to 1916
 and has fluctuated over the the last 50 years (Figure \ref{fig:Exec_catch1}).  The majority of gopher and black-and-yellow rockfish recreational landings are from north of Point Conception. 
 
 Commercial landings were small during 
-the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric  tons (mt) per year (Figure \ref{fig:Exec_catch2}). Commercial landings 
+the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric  
+tons (mt) per year (Figure \ref{fig:Exec_catch2}). Commercial landings 
 increased after World War II and show periods of cyclical catch for gopher and black-and-yellow 
 rockfishes. The commercial live fish fishery began in the early 1990s, with the first reported 
 live landings in 1993.  Since then the commercial catch has been dominated by the live fish fishery, 
 with minimal landings of dead gopher or black-and-yellow rockfishes.  Estimates of total mortality of 
-commercial discards was available starting in 2004, and were estimated prior to then. The catches 
+commercial discards were available starting in 2004, and were estimated prior to then. The catches 
 aggregated by fleets modeled in this assessment can be found in Figure \ref{fig:r4ss_catches}.
 
 Since 2000, annual total landings of catch and discards of `r spp` have ranged between 
@@ -106,7 +107,7 @@ fleet north of Point Conception.
 
 A number of sources of uncertainty are addressed in this assessment. This 
 assessment includes length data, estimated growth, an updated length-weight curve, an
-updated maturity curve, a number of new indices, and new conditional length at age data.  
+updated maturity curve, a number of new indices, and new conditional age-at-length data.  
 
  
 
@@ -118,8 +119,8 @@ updated maturity curve, a number of new indices, and new conditional length at a
 The predicted spawning output from the base model generally showed a slight decline prior 
 to 1978, when the recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
 and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994, followed by a period 
-increase from 1995 to 2003. From 2004-2018 the stock has been in decline, with an increase in total biomass 
-since 2016 and stable spawning output since 2018. The 2018 estimated spawning output relative to unfished 
+increase from 1995 to 2003. From 2004-2018 the stock has been in decline, though increased in total biomass 
+since 2016 and stable spawning output since from 2018 to 2019. The 2019 estimated spawning output relative to unfished 
 equilibrium spawning output is above the target of 40% of unfished spawning output at 43.82 
 (95% asymptotic interval: 33.57-54.06) (Figure \ref{fig:RelDeplete_all}). 
 Approximate confidence intervals based on the asymptotic variance estimates show that the uncertainty 
@@ -155,7 +156,7 @@ in the estimated spawning output is high, (95% asymptotic interval: 337-767 mill
 ##Recruitment{-}
 Recruitment deviations were estimated from 1979-2018 (Figure \ref{fig:Recruits_all} and 
 Table \ref{tab:Recruit_mod1}).  There are estimates of very strong recruitment in 1991. 
-Estimated recruitment pulses were estimated for a number of other years including 1994-1995 
+Recruitment pulses were estimated for a number of other years including 1994-1995 
 and 2014-2015.
 
 
@@ -188,8 +189,8 @@ limits that would be associated with the Spawning Potential Ratio (SPR) = 50% li
 (corresponding to a relative fishing intensity of 100%) (Table \ref{tab:SPR_Exploit_mod1} and 
 Figure \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential per 
 recruit at a given fishing level relative to the lifetime spawning potential per recruit 
-with no fishing. The SPR over the last decade increased ranged from 0.64 to 0.77 from 2009-2015, 
-and ranged from 0.80 to 0.82 from 2016-2018.
+with no fishing. The relative inverse SPR over the last decade increased ranged from 0.64 to 
+0.77 from 2009-2015, and ranged from 0.80 to 0.82 from 2016-2018 (Table \ref{tab:SPR_Exploit_mod1}).
 
 
 \FloatBarrier
@@ -210,7 +211,7 @@ and ranged from 0.80 to 0.82 from 2016-2018.
 
 \FloatBarrier
 
-![Estimated spawning potential ratio (SPR) for the base-case model. One minus SPR is plotted so that higher exploitation rates occur on the upper portion of the y-axis. The management target is plotted as a red horizontal line and values above this reflect harvests in excess of the overfishing proxy based on the SPR\textsubscript{50\%} harvest rate. The last year in the time series is `r Dat_end_mod1`. \label{fig:SPR_all}](`r SPR.file`)
+![Estimated inverse spawning potential ratio (SPR) for the post-STAR base model, plotted as one minus SPR so that higher exploitation rates occur on the upper portion of the y-axis. The management target is plotted as a red horizontal line and values above this reflect harvests in excess of the overfishing proxy based on the SPR\textsubscript{50\%} harvest rate. The last year in the time series is `r Dat_end_mod1`. \label{fig:SPR_all}](`r SPR.file`)
 
 
 
@@ -310,22 +311,23 @@ at the STAR panel and are based three states of nature of growth.  The external
 estimates of growth were different than the internal estimates.  Given that 
 natural mortality is fixed in the post-STAR base model, and the growth parameter 
 $k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
-of uncertainty. The low state of nature fixed $k$ at 0.46 and the L1 and L1 parameters 
-are estimated.  The high state of nature fixes all growth parameters, $k$ = 0.248, 
-L1 = 13.8, and L2 = 28.5.  The L1 and L2 parameters were fixed in the high state of 
-nature as they weren't well estimated by the model in the high state of nature. 
-The growth parameters in the base model were estimated as $k$ = 0.107, L1 = 13.4, 
-and L2 = 28.8.
+of uncertainty. The high state of nature fixes $k$ at the external estimate, and the 
+low state of nature is the same distance in log space from the base as the high state 
+of nature. The low state of nature fixed $k$ at 0.46 and the L1 and L1 parameters 
+are estimated at 14.1 and 30.6, respectively.  The high state of nature fixes all 
+growth parameters, $k$ = 0.248, L1 = 13.8, and L2 = 28.5 to the external 
+estimate of growth. The growth parameters in the base model were estimated as 
+$k$ = 0.107, L1 = 13.4, and L2 = 28.8.
 
 The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
-and a $p^*$ = 0.45. The buffer is assumed to be 1.0 for 2019 and 2020 since the catches 
-are assumed, and ranges from 0.874 in 2021 ramping to 0.803 in 2030. Current medium-term forecasts 
+and a $p^*$ = 0.45. The buffer ranges from 0.874 in 2021 ramping to 0.803 in 2030. 
+Current medium-term forecasts 
 based on the alternative states of nature project that the stock will remain above the target 
 threshold of 40% for all but two scenarios (Table \ref{tab:Decision_table_mod1}).  The 
-low state of nature with the high state of nature catches results in a stock at 
+low state of nature with the high catches results in a stock at 
 26.4% of unfished in 2030 and the base state model with the 
-high state of nature catches results in a stock at 33.2% of unfished in 2030.  The base case 
-model with the base case catches results in an increasing stock over the period from 2021-2030. 
+high catches results in a stock at 33.2% of unfished in 2030.  The base case 
+model with the base catches results in an increasing stock over the period from 2021-2030. 
 If the growth of GBYR is slower than the base model suggests, but the base case catches are 
 removed, the stock will be at the target threshold in 2030.  
 
@@ -335,7 +337,8 @@ removed, the stock will be at the target threshold in 2030.
 <!-- ***********BEGIN EXECUTIVE SUMMARY OFL AND DECISION TABLES************ -->
 ```{r, results='asis', include=TRUE}   
     # Print OFL table 
-      print(OFL.table, include.rownames = FALSE, caption.placement = 'top')
+      print(OFL.table, include.rownames = FALSE, caption.placement = 'top',
+            sanitize.text.function = function(x){x})
 
    # Decision tables currently read in as txt files and will need to be changed
    # Decision table text set up for alternate states of natural mortality, but 

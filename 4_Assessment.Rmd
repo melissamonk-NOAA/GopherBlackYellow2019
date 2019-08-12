@@ -182,26 +182,27 @@ input data, catch streams, and indices are provided throughout the document in a
 sections.
 
 ###Summary of Data for Fleets and Areas
-There are 12 fleets in the base model.  They include:
+There are 10 fleets in the post-STAR base model.  They include:
 
-*Commercial*: The commercial fleets include two separate fleets, one for GBYR landed 
-(all gears combined), and one for commercial dead discards.
+*Commercial*: There is one commercial fleet the includes GBYR landed 
+(all gears combined) and dead discards.
 
-*Recreational*: The recreational fleets include two fleets, one for north of Point 
+*Recreational*: The recreational fishery include two fleets, one for north of Point 
 Conception and one for south of Point Conception (all modes combined).
 
-*Fishery-Dependent Surveys*: There are five fishery-dependent survey fleets, one each for 
-north and south of Point Conception from the MRFRSS CPFV dockside survey, one each for 
-north and south of Point Conception from the CDFW/Cal Poly onboard observer survey, and 
-one from the Deb Wilson-Vandenberg CPFV onboard observer survey that represents north of 
-Point Conception only.
+*Fishery-Dependent Surveys*: There are five fishery-dependent survey fleets, all north 
+of Point Conception.  THere is one for MRFRSS CPFV dockside survey, one for the CDFW/Cal Poly 
+onboard observer survey, and one from the Deb Wilson-Vandenberg CPFV onboard observer survey.
 
-*Research*: There are two main sources of fishery-independent data available the CCFRP survey 
-the PISCO kelp forest fish survey. A third survey fleet is included as a "dummy" fleet to allow 
+*Research*: There are two main sources of fishery-independent data available the CCFRP survey and 
+the PISCO kelp forest fish survey. The PISCO survey was split into two indicies in the post-STAR 
+base, one representing age-0 recruitment and one for fish 15+ cm. A third survey fleet is included as 
+a "dummy" fleet to allow 
 incorporation of additional conditional age-at-length composition data from the Zaitlin and 
 Abrams theses, the Pearson groundfish cruise, and the special study conducted during the SWFSC's 
 juvenile rockfish and ecosystem cruise.  This dummy fleet includes 1,067 ages of gopher and 
-black-and-yellow rockfish. This dummy fleet does not have any length or catches associated with it.
+black-and-yellow rockfish. This dummy fleet does not have any length composition data or 
+catches associated with it.
 
 
 ###Other Specifications
@@ -230,14 +231,14 @@ The population length bins and the length composition length bins are set at 1-c
 fish 4-40 cm.
 
 The extra standard deviation parameter was added to all indices except the 
-Deb Wilson-Vandenberg CPFV onboard observer index and the MRFSS dockside index 
-for north of Point Conception that both had relatively large estimated variances 
+MRFSS dockside index for north of Point Conception  and the PISCO age-0 index since 
+both had relatively large estimated variances 
 associated with them.  The extra parameter was explored, but estimated to be on 
-the lower bound, and was removed for the final base model. All other indices, 
-both recent recreational onboard observer indices, CCFRP, PISCO, and the MRFSS 
-dockside index south of Point Conception, were estimated with relatively small 
+the lower bound, and was removed for the post-STAR base model. All other indices, 
+including the recreational onboard observer index, CCFRP, and PISCO (15+ cm fish), 
+were estimated with relatively small 
 variances (10-20%) from their respective indices.  Extra variance was estimated 
-for these indices in the base model.
+for these indices in the post-STAR base model.
 
 The following likelihood components are included in this model: catch, indices, discards, 
 length compositions, age compositions, recruitment, parameter priors, and parameter soft 
@@ -265,7 +266,8 @@ the residuals in the model’s expected mean length with respect to the observed
 length and associated uncertainty derived from the composition vectors and their 
 associated input sample sizes. The sample sizes are then tuned so that the observed 
 and expected variability are consistent. After adjustment to the sample sizes, models 
-were not re-tuned if the bootstrap uncertainty value around the tuning factor overlapped 1.0.
+were not re-tuned if the bootstrap uncertainty value around the tuning factor overlapped 1.0. 
+
 
 As outlined in the Best Practices, a sensitivity run was conducted with length and 
 conditional-age-at-length (CAAL) compositions were re-weighted using the 
@@ -274,7 +276,9 @@ using the Dirichlet-Multinomial likelihood, that includes and estimable paramete
 that scales the input sample size, was explored. However, the model did not converge when 
 the Dirichlet-Multinomial likelihood was applied to a number of the fleets with composition 
 data. Given this, and the current challenges with this method described in the Stock Synthesis 
-manual [@Methot2019], the Francis weightings were applied in the base model.
+manual [@Methot2019], the Francis weightings were applied in the pre-STAR and post-STAR 
+base models. The final post-STAR base model was re-weighted twice at which point the Francis 
+weights stabilized.
 
 A series of sensitivities were conducted to determine the need to estimate 
 extra variability parameters were estimated and added to the survey CPUE indices, and 
@@ -285,17 +289,18 @@ described below in the Estimated Parameters section.
 The log-normal prior for female natural mortality were based on a meta-analysis 
 completed by Hamel [-@Hamel2015], as described under “Natural Mortality.” Natural mortality 
 was estimated using with a prior of, 0.193 (with log-space sigma of 0.438) for an assumed 
-maximum age of 28.  
+maximum age of 28.  Natural mortality was fixed at the value of the prior in the post-STAR 
+base model.
 
 The prior for steepness (*h*) assumes a beta distribution with parameters based on an 
 update for the Thorson-Dorn rockfish prior (Dorn, M. and Thorson, J., pers. comm.), 
 which was endorsed by the Science and Statistical Committee in 2019.  The prior is a 
-beta distribution with $mu$=0.72 and $sigma$=0.16. Steepness is fixed in the base model 
-at the mean of the prior. 
+beta distribution with $mu$=0.72 and $sigma$=0.16. Steepness is fixed in the post-STAR 
+base model at the mean of the prior. 
 
 
 ###Estimated and Fixed Parameters
-A full list of all estimated and fixed parameters is provided in Tables 
+A full list of all estimated and fixed parameters is provided in Table 
 \ref{tab:model_params}. Time-invariant, growth is estimated in 
 this assessment, with all SS growth parameters being estimated. The log of the 
 unexploited recruitment level for the Beverton-Holt stock-recruit function is 
@@ -305,15 +310,13 @@ parameters are calculated analytically (set as
 scaling factors) such that the estimate is median unbiased, which is comparable to 
 the way q is treated in most groundfish assessments.   
 
-The base model has a total of 111 estimated parameters in the following categories:
+The post-STAR base model has a total of 61 estimated parameters in the following categories:
 
 \begin{itemize}
-  \item Natural mortality
-  \item Equilibrium recruitment ($R_0$) and 71 recruitment deviations
-  \item Stock recruitment auto-correlation parameter
+  \item Equilibrium recruitment ($R_0$) and 41 recruitment deviations
   \item Five growth parameters
-  \item Five index extra standard deviation parameter, and
-  \item 27 selectivity parameters
+  \item Four index extra standard deviation parameter, and
+  \item Ten selectivity parameters
 \end{itemize}
 
 The estimated parameters are described in greater detail below and a full list of 
@@ -323,26 +326,19 @@ _Growth._ Five growth parameters were estimated for the one-sex model: three von
 Bertalanffy parameters and two parameters for CV as a function of length-at-age 
 related to variability in length-at-age for small and large fish.
 
-_Natural Mortality._ The estimated natural mortality of 0.212 is close to the 
-median of the prior, 0.193.
+_Selectivity._  Double-normal, asymptotic selectivity was estimated for all fleets 
+with estimated selectvity parameters.
 
-_Selectivity._  Selectivity for all fleets was estimated as double-normal. 
+Three parameters were estimated for the recreational and commercial fleets, the peak, 
+the ascending width, and the selectivity at the first bin.  Only the ascending width 
+parameter was estimated for the PISCO fleet for fish 15+ cm.
 
-Selectivity was estimated as asymptotic for the commercial fleet, with one 
-time block.  Asymptotic selectivity was also estimated for both recreational 
-fleets, Deb Wilson-Vandenberg's onboard observer survey, and the PISCO.  Three 
-parameters were estimated for each of these fleets, the peak, the ascending 
-width, and the selectivity at the first bin.
-
-Dome-shaped selectivity was estimated for the commercial discard fleet and the CCFRP 
-survey.  Five of the size parameters were estimated for the commercial discard 
-selectivity (selectivity at the last bin was fixed).  Four parameters were estimated 
-for the CCFRP length compositions (selectivity at the first and last bins was fixed).
+The Deb Wilson-Vandenberg onboard observer fleet and the CCFRP fleet were mirrored to 
+the recreational fleet north of Point Conception.
 
 
-_Other Estimated Parameters._ Early recruitment deviations for the base model are estimated 
-from 1960-1972, with the main recruitment deviations estimated from 1978 to 2018.  The base 
-model also included estimated recruitment deviations for 
+_Other Estimated Parameters._ Main recruitment deviations estimated from 1978 to 2018.  The 
+post-STAR base model also included estimated recruitment deviations for 
 the forecast years, although these have no impact on the model estimates for the current year.
 
 Many variations of the base case model were explored during this analysis. Sensitivities 
@@ -358,16 +354,13 @@ early recruitment deviation phase, years with bias adjustments, and maximum bias
 adjustment.  The final base model sets the first year of recruitment deviations just 
 prior to when the majority of fishery/survey length composition are available.
 
-Initial runs showed that the estimated recruitments were highly auto-correlated.  
-Therefore, an auto-correlation parameter was later estimated and its value was 
-estimated to be positive and significantly different from zero.
-
 Several models were also investigated where steepness and natural mortality were 
 either estimated, fixed at their respective priors.   
 
 
 _Other Fixed Parameters._ The stock-recruitment steepness is fixed at the SSC approved 
-steepness prior for rockfish of 0.72.  
+steepness prior for rockfish of 0.72 and natural mortality is fixed at 0.193, the mean 
+of the prior.
 
 
 ##Model Selection and Evaluation
@@ -385,7 +378,7 @@ other biological information available that would have justified a multi-area mo
 
 
 
-###Alternate Models Considered
+###Alternate pre-STAR Models Considered
 
 A number of models were run with different catch histories for the recreational fleet 
 south of Point Conception, given that the catch histories were modified from the original 
@@ -419,6 +412,63 @@ Sensitivities were developed to look at alternate selectivity patterns for the t
 discard fleet and the CCFRP survey.  Neither of the length compositions for these fleets 
 observed larger fish.  A time block for the commercial discard fishery was not considered 
 since no length composition of discarded fish were available prior to 2004.
+
+###Uncertainty and Sensitivity Analyses to the pre-STAR base
+A number of sensitivity analyses were conducted prior to the STAR panel, including:
+
+\begin{enumerate}
+
+  \item Fixing natural mortality at the prior of 0.193
+  
+  \item Fixing the von Bertalanffy $k$ at the external estimate of 0.247
+  
+  \item Using the PacFIN expanded length composition data
+  
+  \item Data weighting scenarios including unweighted, harmonic means (McAllister-Ianelli method), and Francis weights
+
+\end{enumerate}
+
+The following sensitivities are based on the pre-STAR base model and indicate areas that
+the STAT identified as either areas of uncertainty or model sensitivities outlined in the 
+Accepted Practices and Guidelines document.  A summary of parameters for all sensitivity 
+runs is in Table \ref{tab:Sensitivity_model1}.
+
+Fixing either natural mortality or the von Bertalanffy $k$ parameter results in a stock 
+with higher spawning output in 2018 as compared to the base model 
+(Figure \ref{fig:sensitivity1_spawnbio}).
+
+Fixing either M or k demonstrates the negative correlation between the two parameters. 
+The von Bertalanffy $k$ parameter is estimated at 0.12 when natural mortality (estimated 
+at 0.21) and growth are both estimated.  When natural mortality is fixed at the prior of 
+0.193, $k$ is estimated at 0.14, but the two other growth parameters, L1 and L2 do not change 
+much at all.  When $k$ is fixed to the external estimate of 0.247, natural mortality is 
+estimated at 0.16, and the other growth parameters both decrease. A number of additional 
+sensitivities to the growth parameters will be presented at the STAR panel.
+
+Replacing the CALCOM commercial length composition data with the PacFIN length composition 
+results in the stock at an overall lower level of biomass than the base model. Depletion in 
+the final year with the PacFIN length composition is 0.50, compared to 0.46 in the base model. 
+A detailed discussion on the decision to use the CALCOM length composition in the base model 
+can be found in the discussion commercial length and age data, 
+Section (\ref{commercial-fishery-length-and-age-data}).
+
+Data weighting is an area of uncertainty for stock assessment, and research is 
+ongoing to determine the effects of data weighting and the most appropriate initial 
+sample sizes for length and age composition data.  The base model used the Stewart 
+sample sizes for initial sample sizes for the fishery data and either the Stewart 
+sample sizes or number of "trips" for the survey sample sizes. Weighting the data 
+by the harmonic mean resulted in a model with a total likelihood between the base 
+model, which uses the Francis method for weighting, and the model with default 
+weights (Figure \ref{fig:sensitivity2_spawnbio}). The end year spawning output is 
+almost identical for the models using harmonic means and Francis weights, both 
+of which down-weighted the composition data.
+
+The Francis weights in the base model were stable, and did not tend to serially 
+decrease (down-weight) any of the data sets, which has been seen in other assessments. 
+The final base model re-weights the composition data only once. As discussed above 
+in the data weighting section, the Dirichlet-Multinomial weighting was explored, but 
+a model with a positive definite Hessian was not identified with the pre-STAR 
+base model.
 
 
 
@@ -589,7 +639,7 @@ n recent years when this index is excluded.
 
 
 <!-- *********************MODEL 1 RESULTS********************************** -->
-##Base Case Model Results 
+##Post-STAR Base Case Model Results 
 The following description of the model results reflects a base model that 
 incorporates all of the changes made during the STAR panel. A comparison 
 of the pre-STAR base model and the post-STAR base model can be found in 
@@ -603,7 +653,8 @@ the changes.  The final model also fixes natural mortality, whereas it was estim
 in the pre-STAR base model. The pre-STAR base model includes and ageing error matrix that 
 was developed using only half of the available double reads.  The post-STAR base includes 
 the updated ageing error matrix (Figure \ref{fig:GBY_age_error_updated}), and the update 
-did not significantly change the model outputs.
+did not significantly change the model outputs. The remainer of the document referencing 
+the base model (or base case) refers to the post-STAR base model.
 
 The base model parameter estimates and their approximate asymptotic 
 standard errors are shown in Table \ref{tab:model_params} and the likelihood 
@@ -612,7 +663,7 @@ approximate 95% asymptotic confidence intervals are shown in Table \ref{tab:Ref_
 Time-series of estimated stock size over time are shown in Table \ref{tab:Timeseries_mod1}.
 
 Steepness of the assumed Beverton-Holt stock-recruitment relationship was fixed at 0.72, and
-natural mortality was fixed at 0.193.
+natural mortality was fixed at 0.193.  
 
 
 ###Convergence
@@ -713,7 +764,8 @@ Deb Wilson-Vandenberg's CPFV onboard observer survey spanning 1988-1998 was well
 and indicates an increase in relative abundance in the last year of the survey. 
 The current recreational CRFS/Cal Poly onboard observer survey north of Point 
 Conception from 2001-2018 was relatively well fit, except for the decline suggested 
-2013 and 2014.  The increase in relative abundance observed in 2018 was not fit by the model, even with the added variance. The variance added to this survey was the highest for all indices.
+2013 and 2014.  The increase in relative abundance observed in 2018 was not fit by the model,
+even with the added variance. The variance added to this survey was the highest for all indices.
 
 The model did not capture the contrast in the  PISCO index 
 for 15+ cm fish, fitting a decline to the time series from 2010 to 2018, when the index 
@@ -727,7 +779,8 @@ to the upper bound of the input standard error.  The increases in age-0 GBYR in 
 The model was not able to capture the trends observed in the fishery-independent CCFRP 
 hook-and-line survey.  The index suggested the same depressed relative abundance in 2013 
 as the fishery-dependent CRFS/Cal Poly onboard observer survey, that was also not captured 
-here by the fit. The increasing trends in abundance from 2016-2018 was also not captured by the model fit, and the fit suggests a declining trend over the entire time series from 2007-2018.
+here by the fit. The increasing trends in abundance from 2016-2018 was also not captured by 
+the model fit, and the fit suggests a declining trend over the entire time series from 2007-2018.
 
 The base model was re-weighted twice using Francis weights for the length and age 
 composition data. Fits to the length data are shown based on the proportions of 
@@ -752,6 +805,8 @@ data, but was reasonably well fit for the last four years of data (Figure \ref{f
 composition data from the 'dummy' fleet was well fit, although heavily down-weighted.  Age 
 data in this fleet are from a number of sources and sampling programs (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeDummy1}).
 
+
+<!--
 ###Uncertainty and Sensitivity Analyses
 A number of sensitivity analyses were conducted, including:
 
@@ -779,7 +834,7 @@ with higher spawning output in 2018 as compared to the base model
 Fixing either M or k demonstrates the negative correlation between the two parameters. 
 The von Bertalanffy $k$ parameter is estimated at 0.12 when natural mortality (estimated 
 at 0.21) and growth are both estimated.  When natural mortality is fixed at the prior of 
-0.19, $k$ is estimated at 0.14, but the two other growth parameters, L1 and L2 do not change 
+0.193, $k$ is estimated at 0.14, but the two other growth parameters, L1 and L2 do not change 
 much at all.  When $k$ is fixed to the external estimate of 0.247, natural mortality is 
 estimated at 0.16, and the other growth parameters both decrease. A number of additional 
 sensitivities to the growth parameters will be presented at the STAR panel.
@@ -809,6 +864,8 @@ in the data weighting section, the Dirichlet-Multinomial weighting was explored,
 a model with a positive definite Hessian was not identified with the pre-STAR 
 base model.
 
+-->
+
 ###Retrospective Analysis
 A 4-year retrospective analysis was conducted by running the model using data 
 only through 2017 (retro 1), 2016 (retro 2), 2015 (retro 3), and 2014 (retro 4) 
@@ -829,37 +886,41 @@ Additional investigations into the retrospective patters will be made by the STA
 
 ###Likelihood Profiles
 Likelihood profiles were conducted for $R_0$, steepness, and over natural mortality 
-values separately. These likelihood profiles were conducted by fixing the parameter 
+values separately with the post-STAR base. These likelihood profiles were conducted by 
+fixing the parameter 
 at specific values and estimated the remaining parameters based on the fixed parameter 
 value (Tables \ref{tab:like_profiles}-\ref{tab:like_profiles2}).
 
 In regards to values of $R_0$, the negative log-likelihood was minimized at approximately 
-log($R_0$) of 8.0 (Table \ref{tab:like_profiles}). The individual surveys tend to minimize 
-at the upper bound or jut below, while the length composition data has conflicting trends, e.g., CCFRP and commercial fleets, or the upper bound, e.g., PISCO and 
-the recreational north fleets (Figures \ref{fig:profile_R0_piner}-\ref{fig:profile_R0_piner2}). 
-The data all consistently minimize around 8.5 and the recreational fleet south of Point Conception 
-minimize $R_0$ at the lower bound.  (Figure \ref{fig:profile_R0_like}). Over the range of values of $R_0$, depletion ranged from 0.38-0.59 (Figure \ref{fig:profile_R0_depl}).
+log($R_0$) of 8.0 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_R0_like}). 
+In terms of likelihood components, only the index data minimize at the upper bound, while 
+the other components minimize between 8.0 and 8.1. The individual surveys tend to minimize 
+at the upper bound or just below, while the length composition data has conflicting trends, 
+e.g., CCFRP and commercial fleets minimize at the upper bound while the recreational north 
+fleet minimizes at the lower bound (Figures \ref{fig:profile_R0_piner}-\ref{fig:profile_R0_piner2}). 
+The majorityd ata all consistently minimize around 8. Over the range of values of 
+$R_0$, depletion ranged from 0.38-0.59 (Figure \ref{fig:profile_R0_depl}).
 
 For steepness, the negative log-likelihood reaches a minimum around a steepness 
-near the upper bound (Figure \ref{fig:profile_h_like} and 
+near the upper bound of 1.0 (Figure \ref{fig:profile_h_like} and 
 Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_depl}). 
 The length composition likelihood components declined towards the upper bound for Deb's 
-CPFV and the recreational south fleets, while the other fleets either 
-reached a minimum around 0.55 or at the lower bound.  (Figure \ref{fig:profile_h_piner}). 
+onboard CPFV survey and the recreational north fleet, while the other fleets either 
+reached a minimum around 0.55 or at the lower bound  (Figure \ref{fig:profile_h_piner}). 
 Overall changes in the survey likelihood across the range of steepens was less than 2.0, 
 with surveys either minimized at the lower or upper bound (Figure \ref{fig:profile_h_piner2}).
 The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness (Table \ref{tab:like_profiles}).
 
-The negative log-likelihood was minimized at a natural mortality value near 0.2, slightly 
+The negative log-likelihood was minimized at a natural mortality value around 0.21, slightly 
 higher than the prior of 0.193 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
 The age, length, index, and prior likelihood contributions were 
 minimized at natural mortality values around 0.22, and the recruitment contribution
-was minimized at the second to largest value of $M$ run, 026. (Table \ref{tab:like_profiles}). 
+was minimized at the upper bound. (Table \ref{tab:like_profiles}). 
 The length composition minimizes around a natural mortality value of 0.14, with the commercial, 
-recreational fleet north of Point Conception, and CCFRP data minimizing wars the lower 
+recreational fleet north of Point Conception, and CCFRP data minimizing towars the lower 
 bound (Figure \ref{fig:profile_m_piner}). The length data from Deb's CPFV survey minimizes 
 around 0.22, while the PISCO and recreational length compositions south of Point Conception 
-minimizes at the upper bound. The PISCO and CCFRP minimized around a natural mortality value 
+minimize at the upper bound. The PISCO and CCFRP surveys minimized around a natural mortality value 
 of 0.22, while the PISCO age-0 and overall survey likelihood minimized at the upper bound of 0.3 
 (Figure \ref{fig:profile_m_piner2}). The relative depletion for GBYR ranged from 0.32-0.59 across 
 alternative values of natural mortality (Figure \ref{fig:profile_m_depl}).
