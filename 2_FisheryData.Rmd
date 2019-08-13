@@ -792,13 +792,13 @@ data.  The PISCO data include information on age-0 recruitment and also older fi
 The PISCO age-0 recruitment index includes fish that are 6 cm or smaller, and the PISCO 
 index for larger fish includes fish 15 cm and larger.  There is uncertainty in the age 
 of fish in the 7-14 cm range due to the timing of sampling, growth, and the timing of 
-ages, i.e., all fish turn one on Jan 1 in the SS assessment model.  FIsh in teh 7-14 cm 
-are also not well sampled by the survey.
+ages, i.e., all fish turn one on Jan 1 in the SS assessment model. Additionally, fish in 
+the 7-14 cm are also not well sampled by the survey.
 
 For all three iterations of the index we modeled number of fish observed per 
 transect(s) using maximum likelihood and Bayesian regression.  The index containing 
 all data and the index for larger fish (15+ cm) only were modeled as negative binomial, 
-whereas the data for the age-0 index were sparse and modeled as binomial. Models incorporating 
+whereas the data for the age-0 (for which the 4-6 cm fish serve as a proxy) index were sparse and modeled as binomial. Models incorporating 
 temporal (year, month) and geographic (site and zone) factors were evaluated. The zone is a 
 factor indicating the depth stratification at a site, i.e., 5 m, 10 m, 15 m, or 20 m 
 targeted bottom depth. 
@@ -853,15 +853,15 @@ A recruitment signal is present in the index in a number of years, including 200
 
 _PISCO Length Measurements_
 
-Every GBYR observed by PISCO divers except one, had an associated length measurement 
+All but one GBYR observed by PISCO divers was measured  
 (N = 11,965).  Divers measure fish to the nearest centimeter, and are trained to measure 
 fish underwater and be aware of possible biases, e.g., ambient light, body color, 
 visibility, and body shape.  Both juvenile and adult GBYR were observed in the PISCO 
 kelp forest fish survey data (Figure \ref{fig:PISCO_lengths}). Of note is the similarity 
 in length distributions both between the species and for the two species combined across 
-sites. Fish in the 10-17 cm size range (approximately) are not observed in this survey. 
+sites. Fish in the 10-17 cm size range (approximately) are rarely observed in this survey. 
 There is significant post-settlement mortality for both species, which is thought to be 
 due to density-dependent predation [@Johnson2006; @Johnson2007].  Secondly, both species 
-are cryptic and observed more often at night than during the day (Mark Carr, PISCO-UCSC, 
-personal communication). 
+can be cryptic and observed at higher frequency by divers at night than during the day (Mark 
+Carr, PISCO-UCSC, personal communication). 
 

@@ -30,13 +30,35 @@ output:
 
 
 <!-- ********************************************************************** -->
-<!-- ****************STAR PANEL Recommendations FIGURES******************** --> 
+<!-- *******************STAR PANEL Requests FIGURES************************ --> 
 <!-- ********************************************************************** -->
 
 
+![Catch curve analysis for age data prior to 2000 and for 2000-2018. \label{fig:STAR_request1}](Figures/STAR_request1.png)
+
+\FloatBarrier
+
+![Comparison of time series of relative and absolute spawning output from pre-STAR base model and the model from request 2 removing southern indices. \label{fig:STAR_request2}](Figures/STAR_request2.png)
+
+![Comparison of time series of relative and absolute spawning output from pre-STAR base model and models from requests 2, 3a and 4. \label{fig:STAR_request3}](Figures/STAR_request3.png)
 
 
+\FloatBarrier
 
+![Comparison of time series of recruits from pre-STAR base model and models from requests 2, 3a and 4a. \label{fig:STAR_request4}](Figures/STAR_request4.png)
+
+\FloatBarrier
+
+![The PISCO recruitment index based upon observed individuals of 4 and 5 cm (“scaled to 5cm”) or 4, 5a and 6 cm (“scaled to 6 cm). \label{fig:STAR_request8}](Figures/STAR_request8.png)
+
+
+\FloatBarrier
+
+![Results of request 7 and 8. Time series of absolute (top) and relative (middle) spawning output and recruitment deviations (now staring in 1978; bottom). \label{fig:STAR_request8_2}](Figures/STAR_request8_2.png)
+
+\FloatBarrier
+
+![. Results of request 10, drop-1-out analysis. Time series of relative (top) and absolute (middle) spawning output and recruitment estimates (now staring in 1978; bottom). \label{fig:STAR_request10}](Figures/STAR_request10.png)
 
 
 <!-- ********************************************************************** -->
