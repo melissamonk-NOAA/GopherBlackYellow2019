@@ -236,12 +236,14 @@ print(lengths.table, add.to.row = a_header,
      Index_summary.table = xtable(Index_summary, 
                                   caption = c('Summary of the biomass/abundance
                                               time series used in the stock
-                                              assessment.'),
+                                              assessment. Blank fleet number indicates 
+                                              the index was not used in the post-STAR base 
+                                              model.'),
                                  label = 'tab:Index_summary',
                                  digits = 0)    
     # Add alignment  
       align(Index_summary.table) = c('l',
-                                    '>{\\raggedright}p{.2in}',
+                                    '>{\\raggedright}p{.8in}',
                                      '>{\\raggedright}p{1in}',
                                      '>{\\raggedright}p{2in}',
                                      '>{\\raggedright}p{1.3in}', 
