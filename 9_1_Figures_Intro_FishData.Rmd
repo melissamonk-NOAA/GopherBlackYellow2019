@@ -62,7 +62,10 @@
 <!-- **************** Index FIGURES************************* -->
 <!-- ********************************************************************** --> 
 
-![Comparison of all indices of abundance (with each index scaled to its mean). \label{fig:All_index_compare}](Figures/All_index_compare.png)
+![Comparison of all indices of abundance in the pre-STAR base model (with each index scaled to its mean). \label{fig:All_index_compare}](Figures/All_index_compare.png)
+
+
+![Comparison of all indices of abundance in the post-STAR base model (with each index scaled to its mean). \label{fig:All_index_compare_postSTAR}](Figures/All_index_compare_postSTAR.png)
 
 
 <!-- ********************************************************************** -->

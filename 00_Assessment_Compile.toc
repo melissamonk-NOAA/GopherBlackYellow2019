@@ -60,8 +60,8 @@
 \contentsline {section}{\numberline {5}Research Needs}{48}{section.5}% 
 \contentsline {section}{\numberline {6}Acknowledgments}{48}{section.6}% 
 \contentsline {section}{\numberline {7}Tables}{49}{section.7}% 
-\contentsline {section}{\numberline {8}Figures}{80}{section.8}% 
-\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.150}% 
-\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.154}% 
-\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.159}% 
-\contentsline {section}{References}{}{section*.166}% 
+\contentsline {section}{\numberline {8}Figures}{79}{section.8}% 
+\contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.151}% 
+\contentsline {section}{Appendix B. California's Recreational Fishery Regulations}{B-1}{section*.155}% 
+\contentsline {section}{Appendix C. Detailed fits to length composition data}{C-1}{section*.160}% 
+\contentsline {section}{References}{}{section*.167}% 

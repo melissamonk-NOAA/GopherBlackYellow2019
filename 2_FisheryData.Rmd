@@ -376,8 +376,10 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
-A summary of all indices in the assessment can be found in Table \ref{tab:Index_summary}. Figure \ref{fig:All_index_compare} shows each index scaled to the mean value of that index to 
-show them all on the same scale, i.e., the mean of each index in the plot is 1.
+A summary of all indices in the post-STAR base model can be found in Table \ref{tab:Index_summary}. Figure \ref{fig:All_index_compare} shows each index from the pre-STAR base model (before any were modified or removed from the model) scaled to the mean value of that index to 
+show them all on the same scale, i.e., the mean of each index in the plot is 1.  Figure 
+\ref{fig:All_index_compare_postSTAR} shows the final set of indices in the post-STAR base model, each 
+scaled to their mean.
 
 **MRFSS Dockside CPFV Index**
 

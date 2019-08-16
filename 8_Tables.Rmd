@@ -270,16 +270,16 @@ Indices = read.csv('./txt_files/Indices.csv')
 colnames(Indices) = c('Year',"Obs","se_log","Obs","se_log"
                              ,"Obs","se_log","Obs","se_log"
                              ,"Obs","se_log","Obs","se_log"
-                             ,"Obs","se_log")
+                             ,"Obs","se_log","Obs","se_log")
 
 a_header <- construct_header(
   # the data.frame or matrix that should be plotted
   Indices,
   # the labels of the groups that we want to insert
   grp_names = c("", "Deb WV", "MRFSS N","MRFSS S","Onboard N",
-                     "Onboard S","CCFRP","PISCO"),
+                     "Onboard S","CCFRP","PISCO 15+cm","PISCO age-0"),
   # the number of columns each group spans
-  span = c(1, 2, 2, 2, 2, 2, 2, 2),
+  span = c(1, 2, 2, 2, 2, 2, 2, 2, 2),
   # the alignment of each group, can be a single character (lcr) or a vector
   align = "c"
 )
@@ -293,7 +293,7 @@ Indices.table = xtable(Indices,
 
 print(Indices.table, add.to.row = a_header, 
       caption.placement = "top", 
-      include.rownames = F, hline.after = F, scalebox = .84)
+      include.rownames = F, hline.after = F, scalebox = .78)
 ```
 
 \FloatBarrier
