@@ -936,10 +936,10 @@ with surveys either minimized at the lower or upper bound (Figure \ref{fig:profi
 The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness (Table \ref{tab:like_profiles}).
 
 The negative log-likelihood was minimized at a natural mortality value around 0.21, slightly 
-higher than the prior of 0.193 (Table \ref{tab:like_profiles} and Figure \ref{fig:profile_m_like}). 
+higher than the prior of 0.193 (Table \ref{tab:like_profiles2} and Figure \ref{fig:profile_m_like}). 
 The age, length, index, and prior likelihood contributions were 
 minimized at natural mortality values around 0.22, and the recruitment contribution
-was minimized at the upper bound. (Table \ref{tab:like_profiles}). 
+was minimized at the upper bound. (Table \ref{tab:like_profiles2}). 
 The length composition minimizes around a natural mortality value of 0.14, with the commercial, 
 recreational fleet north of Point Conception, and CCFRP data minimizing towards the lower 
 bound (Figure \ref{fig:profile_m_piner}). The length data from Deb's CPFV survey minimizes 
@@ -948,6 +948,20 @@ minimize at the upper bound. The PISCO and CCFRP surveys minimized around a natu
 of 0.22, while the PISCO age-0 and overall survey likelihood minimized at the upper bound of 0.3 
 (Figure \ref{fig:profile_m_piner2}). The relative depletion for GBYR ranged from 0.32-0.59 across 
 alternative values of natural mortality (Figure \ref{fig:profile_m_depl}).
+
+A profile over the growth parameter $k$ from 0.07 to 0.25 (with natural mortality fixed at 0.193) 
+log-likelihood minimized at 0.11 (Table \ref{tab:like_profiles2} and 
+Figure \ref{fig:profile_k_like}). The total change in the negative log-likelihood is small 
+until $k$ increases higher than 0.15. The combined age data minimize at a higher value of 0.18, 
+while hte remaining components minimize at the lower bound.  The age composition by fleet also 
+has conflicting trends with the dummy fleet minimizeing just lower than the over all around 0.17, the
+CCFRP ages minimizing at the lower bound and the RecNorth ages minimizing at the upper bound 
+(Figure \ref{fig:profile_k_piner}).  The RecOnboardNorth survey likelihood component was the only 
+survey comonent minimized at the upper bround, with the remaining survey component minimized at the 
+lower bound of the $k$ values explored (Figure \ref{fig:profile_k_piner2}). The resulting 2019 
+depletion over the range of $k$ values spans 0.4 to 0.49 (Figure \ref{fig:profile_k_depl}). 
+
+
 
 ###Reference Points
 Reference points were calculated using the estimated selectivities and catch distribution 

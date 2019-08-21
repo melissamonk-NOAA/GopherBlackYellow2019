@@ -304,11 +304,11 @@ and contributions to the complex.
 The forecasts of stock abundance and yield were developed using the post-STAR 
 base model, with the forecasted projections of the OFL presented in 
 Table \ref{tab:OFL_projection}. The total catches in 2019 and 2020 are set to 
-the PFMC adopted ACL of 114 mt.
+the projected catch from CDFW of 114 mt.
 
 Uncertainty in the forecasts is based upon the three states of nature agreed upon 
 at the STAR panel and are based three states of nature of growth.  The external 
-estimates of growth were different than the internal estimates.  Given that 
+estimates of growth were different than the internal estimates. Given that 
 natural mortality is fixed in the post-STAR base model, and the growth parameter 
 $k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
 of uncertainty. The high state of nature fixes $k$ at the external estimate, and the 
@@ -320,9 +320,10 @@ estimate of growth. The growth parameters in the base model were estimated as
 $k$ = 0.107, L1 = 13.4, and L2 = 28.8.
 
 The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
-and a $p^*$ = 0.45. The buffer ranges from 0.874 in 2021 ramping to 0.803 in 2030. 
-Current medium-term forecasts 
-based on the alternative states of nature project that the stock will remain above the target 
+and a $p^*$ = 0.45. The buffer ranges from 0.874 in 2021 ramping to 0.803 in 2030.  For 
+reference, the model predicted sigma is 0.189 and the decision table-based sigma is 0.197.
+Current medium-term forecasts based on the alternative states of nature project that 
+the stock will remain above the target 
 threshold of 40% for all but two scenarios (Table \ref{tab:Decision_table_mod1}).  The 
 low state of nature with the high catches results in a stock at 
 26.4% of unfished in 2030 and the base state model with the 
@@ -348,7 +349,7 @@ removed, the stock will be at the target threshold in 2030.
     # print Model 1 decision table
     print(decision_mod1.table, add.to.row = addtorow, include.rownames = FALSE, 
           caption.placement = 'top', 
-          hline.after = c(-1, 0, 10, 20, nrow(decision_mod1.table)), 
+          hline.after = c(-1, 0, 12, 24, nrow(decision_mod1.table)), 
           scalebox = .85)
 ```
 <!-- ***********END EXECUTIVE SUMMARY OFL AND DECISION TABLES************** -->
@@ -405,7 +406,9 @@ when extracted for this assessment.
 \item Refine the PISCO survey data and analysis to better identify age-0 fish in each 
 month of survey.  Occasional sampling during all months of the year would better help 
 identify the length distribution of fish classified as age-0. This is the only recruitment 
-index available for gopher and black-and-yellow rockfish.
+index available for gopher and black-and-yellow rockfish. If possible, age data should be 
+collected from the PISCO survey to aid in determining the growth of young gopher and 
+black-and-yellow rockfish.
 
 \item Refine CCFRP survey index to look at different possible model structures, including 
 a hierarchical structure and random effects.  Limited time did not allow for these 

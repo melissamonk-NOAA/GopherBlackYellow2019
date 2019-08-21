@@ -6,28 +6,70 @@ output:
 
 <!-- ****************************RESEARCH NEEDS**************************** -->
 #Research Needs
-This section will be copied from the Executive Summary after further discussions.
-<!--
-There are a number of areas of research that could improve the stock 
-assessment for `r spp`.  Below are issues identified by the STAT team 
-and the STAR panel:
+We recommend the following research be conducted before the next assessment:
+
 
 \begin{enumerate}
 
-\item \textbf{xxxx}: 
+\item Investigate the structure of complex and contribution of each species to the 
+GBYR complex. Investigate possible spatial differences in biological parameters within 
+a single species and also between the two species.  Little biological data for south of 
+Point Conception or north of Point Arena was available for this assessment and is needed 
+to better under biological parameters. 
+    \begin{enumerate}
+     \item Conduct life history studies
+     \item conduct research to identify the proportion of each species in population and in catches
+    \end{enumerate}
 
-\item \textbf{xxxx}:
+\item Take a closer look at the Ralston [-@Ralston2010] historical catch reconstruction 
+for gopher and black-and-yellow rockfishes.  The recreational catch reconstruction for 
+gopher rockfish south of Point Conception was an order of magnitude higher than expected 
+when extracted for this assessment.  
 
-\item \textbf{xxxx}:
+\item Refine the PISCO survey data and analysis to better identify age-0 fish in each 
+month of survey.  Occasional sampling during all months of the year would better help 
+identify the length distribution of fish classified as age-0. This is the only recruitment 
+index available for gopher and black-and-yellow rockfish. If possible, age data should be 
+collected from the PISCO survey to aid in determining the growth of young gopher and 
+black-and-yellow rockfish.
 
-\item \textbf{xxxx}:
+\item Refine CCFRP survey index to look at different possible model structures, including 
+a hierarchical structure and random effects.  Limited time did not allow for these 
+explorations during this assessment cycle.  It is also strongly recommended to continue 
+the coastwide sampling of the CCFRP program that began in 2017, as well as the collection 
+of biological samples for nearshore rockfish species.  The CCFRP survey is the only 
+fishery-independent survey available for nearshore rockfish sampling the nearshore rocky 
+reef habitats. As of this assessment, only two years of coastwide data are available, 
+and the index was limited to the site in central California that have been monitored 
+since 2007.
 
-\item \textbf{xxxx}:
+\item Collection of length and age data are recommended for both the commercial and 
+recreational fisheries.  Very little age data are available from either fishery for 
+gopher rockfish and none for black-and-yellow rockfish.
+
+\item Data collection across Research Recommendations 1-5 is needed to improve 
+the efficacy of data collection and ensure that samples are representative of the 
+data sources and the fisheries.  For example, the conditional age-at-length data in 
+the dummy fleet represent a number of sampling techniques, areas sampled, and 
+selectivities.  Better coordination of research efforts will allow the age data 
+to be better utilized by the assessment.  Sampling of the commercial and recreational 
+fleets by area in proportion to the length distribution of fish observed will also 
+allow the model to better fit selectivity patterns and avoid possible patterns in the 
+length and age composition residuals.
+
+\item Investigate possible environmental drivers/co-variates for biological parameters, 
+particularly for recruitment.
+
+\item Examine the CFRS angler interview data for the recreational private/rental mode 
+to create a "trip" based identifier or catch and effort. This will enable the creation 
+of an index of abundance for the private/rental mode as well as investigate if 
+selectivity for this mode differs from the party/charter mode.
+
+\item Resolve differences between CalCOM and PacFIN expanded length composition data sets. 
+
 
 \end{enumerate}
 
-
--->
 
 
 <!-- ***************************ACKNOWLEDGEMENTS*************************** -->
@@ -36,6 +78,8 @@ We gratefully acknowledge input and review from the STAR panel including the Owe
 Hamel (STAR panel chair; Northwest Fisheries Science Center, NMFS, NOAA), 
 Chantel Wetzel(Northwest Fisheries Science Center, NMFS, NOAA), Sven Kupschus 
 (Center for Independent Experts), and Robin Cook (Center for Independent Experts). 
+Thanks to the STAR panel advisors Gerry Richter (GAP) and Melissa Mandrup (GMT) for 
+their expertise and additional guidance during the STAR panel. 
 Thanks to Don Pearson for reading all of the gopher and black-and-yellow rockfish 
 before retiring in 2018. We thank John Field, John Budrick, Rebecca Miller, and 
 Emma Saas for contributions to the assessment document.  A special thanks to 

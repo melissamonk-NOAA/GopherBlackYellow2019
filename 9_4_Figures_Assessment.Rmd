@@ -220,6 +220,9 @@ output:
 ![Trajectories of depletion across values of R\textsubscript{0}. \label{fig:profile_R0_depl}](Figures/profile_R0_depl.png)
 
 
+
+
+
 \FloatBarrier
 
 <!-- ***********h Likelihood profile FIGURES******************************* -->
@@ -256,6 +259,23 @@ output:
 ![Trajectories of depletion across values of female natural mortality. \label{fig:profile_m_depl}](Figures/profile_m_depl.png)
 
 \FloatBarrier
+
+<!-- ***********k Likelihood profile FIGURES******************************* -->
+
+![Likelihood profile across the growth parameter $k$ for each data type. \label{fig:profile_k_like}](Figures/profile_k_like.png)
+
+\FloatBarrier 
+
+![Likelihood profile across the growth parameter $k$ by age composition. \label{fig:profile_k_piner}](Figures/profile_k_piner.png)
+
+\FloatBarrier 
+
+![Likelihood profile across the growth parameter $k$ by surveys. \label{fig:profile_k_piner2}](Figures/profile_k_piner2.png)
+
+\FloatBarrier
+
+
+![Trajectories of depletion across values of the growth parameter $k$. \label{fig:profile_k_depl}](Figures/profile_k_depl.png)
 
 <!-- ********************************************************************** -->
 <!-- *********************REFERENCE POINTS FIGURES************************* --> 

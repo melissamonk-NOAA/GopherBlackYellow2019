@@ -367,11 +367,7 @@
                                              removes four years.'),
                                  label = 'tab:retro')  
      
-    
-
-
-
-# Print likelihood profile table
+# Print retro table
       print(Retro.table, 
             include.rownames=FALSE, 
             caption.placement='top')
@@ -409,13 +405,14 @@
                                   caption = c('Summaries of key assessment outputs 
                                               and likelihood values from selected 
                                               likelihood profile runs on female 
-                                              natural mortality.  Depletion and SPR ratio 
+                                              natural mortality and the growth parameter k.  
+                                              Depletion and SPR ratio 
                                               are for the year 2019.'),
                                  label = 'tab:like_profiles2')  
      
      align(Like_profile.table) = c('cl|ccccc|ccccc')
 
-     align(Like_profile2.table) = c('cl|ccccc')
+     align(Like_profile2.table) = c('cl|ccccc|ccccc')
 
 # Print likelihood profile table
       print(Like_profile.table, 

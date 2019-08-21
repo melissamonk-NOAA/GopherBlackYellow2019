@@ -554,7 +554,11 @@ ForeTable[c(1:2),3] = '\\textit{114}'
                                              assumptions of catch levels. The low state of nature 
                                              fixed the growth parameter $k$ at 0.046 and the high 
                                              state fixes all growth parameters to the external 
-                                             estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5)', sep = '')), 
+                                             estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5). For reference 
+                                             the base case estimated $k$ = 0.106, L1 = 13.4 and L2 = 28.9. 
+                                            The 2019 and 2020 catches were set to the project catch of 
+                                              114 mt, provided by CDFW.'
+                                             , sep = '')), 
                                      label='tab:Decision_table_mod1',
                                     digits = c(0,0,0,0,1,1,1,1,1,1))
       
