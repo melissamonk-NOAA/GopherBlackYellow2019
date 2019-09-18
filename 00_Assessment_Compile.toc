@@ -34,7 +34,7 @@
 \contentsline {subsubsection}{\numberline {2.1.10}Environmental or Ecosystem Data Included in the Assessment}{28}{subsubsection.2.1.10}% 
 \contentsline {subsection}{\numberline {2.2}Previous Assessments}{28}{subsection.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.1}History of Modeling Approaches Used for this Stock}{28}{subsubsection.2.2.1}% 
-\contentsline {subsubsection}{\numberline {2.2.2}2005 Assessment Recommendations}{28}{subsubsection.2.2.2}% 
+\contentsline {subsubsection}{\numberline {2.2.2}2005 Assessment Recommendations}{29}{subsubsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.3}Model Description}{29}{subsection.2.3}% 
 \contentsline {subsubsection}{\numberline {2.3.1}Transition to the Current Stock Assessment}{29}{subsubsection.2.3.1}% 
 \contentsline {subsubsection}{\numberline {2.3.2}Summary of Data for Fleets and Areas}{32}{subsubsection.2.3.2}% 

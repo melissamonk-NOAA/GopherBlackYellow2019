@@ -152,8 +152,11 @@ in regulations and fishery targeting during the 1990s-2000s."  The current asses
 a version of the MRFSS database that has been more robustly aggregated to the trip level. 
 Starting in 1999, the CDFW began angler interviews.  Interviews are conducted for all the anglers 
 on the boat, whereas the onboard data is only collected for a subset of anglers that changes with 
-each fishing stop. Once the onboard observer program ramped up by the mid-2000s, almost all of the CPFV groundfish trips sampled as onboard observer trips were also sampled as angler interviews.  Using both the onboard observer data and the dockside interviews for this 
-time period would result in developing indices from the same fish.  The fine-scale onboard observer  data provides greater detail in terms of catch and location than the angler interviews. 
+each fishing stop. Once the onboard observer program ramped up by the mid-2000s, almost all of the 
+CPFV groundfish trips sampled as onboard observer trips were also sampled as angler interviews.  
+Using both the onboard observer data and the dockside interviews for this 
+time period would result in developing indices from the same fish.  The fine-scale onboard observer 
+data provides greater detail in terms of catch and location than the angler interviews. 
 The onboard observer indices do not include the years 1999 and 2000 due to the number of regulation 
 changes occurring in those two years.
 
@@ -206,7 +209,7 @@ catches associated with it.
 
 
 ###Other Specifications
-Stock synthesis has a broad suite of structural options available.  Where possible, 
+Stock Synthesis has a broad suite of structural options available.  Where possible, 
 the ‘default’ or most commonly used approaches are applied to this stock assessment.
 The assessment is a one-sex model, as no significant differences in growth between 
 males and females was detected in external analyses.
@@ -546,7 +549,8 @@ subsequent requests as the base model.
 in one survey and the 15 cm+ fish are in the other.  Fix age selectivity to age-0 
 only for the first fleet and use a logistic selectivity for the second fleet.] \hfill \\
 
-\textbf{Rationale:} To separate out the recruitment index in the survey and to simplify the selectivity assumptions for this fleet.
+\textbf{Rationale:} To separate out the recruitment index in the survey and to simplify the 
+selectivity assumptions for this fleet.
     
 \textbf{STAT Response:} Response under Request \#4a.
 
@@ -592,7 +596,9 @@ reasonable recruitment deviations and is a more appropriate starting year given 
 lack of sufficient length data prior to this period. 
 
 
-\item[Request No. 7: Start from model shown at request 6(1). Fix M at 0.193 and let the model estimate k. Change the ramp to estimated level with up ramp from 1978 to 1979.  Provide all appropriate diagnostics.] \hfill \\
+\item[Request No. 7: Start from model shown at request 6(1). Fix M at 0.193 and let the model 
+estimate k. Change the ramp to estimated level with up ramp from 1978 to 1979.  Provide 
+all appropriate diagnostics.] \hfill \\
 
 \textbf{Rationale:} : STAT and STAR agree 6(1) was an improvement over the original base 
 model and the request refers to adjusting the ramp value and M treatment consistent with 
@@ -933,7 +939,8 @@ onboard CPFV survey and the recreational north fleet, while the other fleets eit
 reached a minimum around 0.55 or at the lower bound  (Figure \ref{fig:profile_h_piner}). 
 Overall changes in the survey likelihood across the range of steepens was less than 2.0, 
 with surveys either minimized at the lower or upper bound (Figure \ref{fig:profile_h_piner2}).
-The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of steepness (Table \ref{tab:like_profiles}).
+The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of 
+steepness (Table \ref{tab:like_profiles}).
 
 The negative log-likelihood was minimized at a natural mortality value around 0.21, slightly 
 higher than the prior of 0.193 (Table \ref{tab:like_profiles2} and Figure \ref{fig:profile_m_like}). 
@@ -972,7 +979,9 @@ based on estimates of uncertainty. The spawning biomass equivalent to 40% of the
 level ($SB_{40\%}$) was `r Ref_pts_mod1[7,2]` mt. 
 
 The predicted spawning output from the base model shows an initial decline starting the 1950s, 
-is then stable, and declines steeply until 1995 (Figure \ref{fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals}).  The spawning output 
+is then stable, and declines steeply until 1995 
+(Figure \ref{fig:ts7_Spawning_biomass_(mt)_with_95_asymptotic_intervals_intervals}).  
+The spawning output 
 then rapidly increases through the early 2000s, and has been in a decline since 2006. 
 
 The `r LastYR` spawning biomass relative to unfished equilibrium spawning biomass 
