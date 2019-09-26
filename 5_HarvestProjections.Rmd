@@ -1,16 +1,36 @@
 <!-- **************HARVEST PROJECTIONS AND DECISION TABLE****************** -->
 #Harvest Projections and Decision Tables
-This section will be copied from the Executive Summary once decision tables are finalized after the 
-groundfish SSC meeting in August 2019.
+The forecasts of stock abundance and yield were developed using the post-STAR 
+base model, with the forecasted projections of the OFL presented in 
+Table \ref{tab:OFL_projection}. The total catches in 2019 and 2020 are set to 
+the projected catch from the California Department of Fish and Wildlife (CDFW) of 114 mt.
 
-<!--
-The forecasts of stock abundance and yield were developed using the final base model, with the forecasted projections of the OFL presented in Table \ref{tab:OFL_projection}. 
+Uncertainty in the forecasts is based upon the three states of nature agreed upon 
+at the STAR panel and are based three states of nature of growth.  The external 
+estimate of growth was different than the internal Stock Synthesis estimate. Given that 
+natural mortality is fixed in the post-STAR base model, and the growth parameter 
+$k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
+of uncertainty. The high state of nature fixes $k$ at the external estimate, and the 
+low state of nature is the same distance in log space from the base as the high state 
+of nature. The low state of nature fixed $k$ at 0.046 and the L1 and L1 parameters 
+were estimated at 14.1 and 30.6, respectively.  The high state of nature fixed all 
+growth parameters, $k$ = 0.248, L1 = 13.8, and L2 = 28.5 to the external 
+estimate of growth (due to improbable estimates of L1 and L2 if only $k$ was fixed to the 
+external estimate). The growth parameters in the base model were estimated as 
+$k$ = 0.107, L1 = 13.4, and L2 = 28.8.
 
-
-The forecasted projections of the OFL for each model are presented 
-in Table \ref{tab:Decision_table_mod1}. 
--->
-
+The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
+and a $p^*$ = 0.45. The buffer ranges from 0.874 in 2021 ramping to 0.803 in 2030.  For 
+reference, the model predicted sigma is 0.189 and the decision table-based sigma is 0.197.
+Current medium-term forecasts based on the alternative states of nature project that 
+the stock will remain above the target 
+threshold of 40% for all but two scenarios (Table \ref{tab:Decision_table_mod1}).  The 
+low state of nature with the high catches results in a stock at 
+26.4% of unfished in 2030 and the base state model with the 
+high catches results in a stock at 33.2% of unfished in 2030.  The base case 
+model with the base catches results in an increasing stock over the period from 2021-2030. 
+If the growth of GBYR is slower than the base model suggests, but the base case catches are 
+removed, the stock will be at the target threshold in 2030.  
 
 
 

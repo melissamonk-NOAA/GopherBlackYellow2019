@@ -43,7 +43,8 @@ colnames(Exec_catch_summary) = c('Year',
 # Make executive summary catch xtable
 Exec_catch.table = xtable(Exec_catch_summary, 
                           caption = c(paste('Recent ',spp,' landings (mt) by 
-                                            fleet.', sep='')), 
+                                            fleet, where the recreational fleet 
+                                            is split at Point Conception.', sep='')), 
                           label='tab:Exec_catch')
     
 # Add alignment - you will have to adjust based on the number of columns you have
@@ -556,7 +557,7 @@ ForeTable[c(1:2),3] = '\\textit{114}'
                                              state fixes all growth parameters to the external 
                                              estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5). For reference 
                                              the base case estimated $k$ = 0.106, L1 = 13.4 and L2 = 28.9. 
-                                            The 2019 and 2020 catches were set to the project catch of 
+                                            The 2019 and 2020 catches were set to the projected catch of 
                                               114 mt, provided by CDFW.'
                                              , sep = '')), 
                                      label='tab:Decision_table_mod1',

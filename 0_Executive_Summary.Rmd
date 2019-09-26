@@ -3,11 +3,11 @@
 
 ##Stock{-}
 This assessment reports the status of the gopher and black-and-yellow rockfish  
-complex (GBYR, \emph{`r spp.sci`}) resource as in U.S. waters off the coast of 
+complex (GBYR, \emph{`r spp.sci`}) resource in U.S. waters off the coast of 
 California south of Cape Mendocino ($40^\circ 10^\prime$ N. latitude) 
 using data through `r LastYR`. Both gopher and black-and-yellow rockfishes are 
 most abundant north of Point Conception ($34^\circ 27^\prime$ N. latitude)
-and are rare north of Point Arena ($38^\circ 57^\prime$ N. latitude). The range 
+and are uncommon north of Point Arena ($38^\circ 57^\prime$ N. latitude). The range 
 of gopher rockfish extends into Baja California, but the black-and-yellow rockfish 
 are rare south of Point Conception.
 
@@ -15,10 +15,12 @@ are rare south of Point Conception.
 ##Catches{-}
 Information on historical landings of `r spp` are available back to 1916
 (Table \ref{tab:Exec_catch}). The recreational fleet began ramping up in the 1950s 
-and has fluctuated over the the last 50 years (Figure \ref{fig:Exec_catch1}).  The majority of gopher and black-and-yellow rockfish recreational landings are from north of Point Conception. 
+and has fluctuated over the the last 50 years (Figure \ref{fig:Exec_catch1}).  The majority 
+of GBYR recreational landings have been from north of Point Conception throughtout the time 
+period modelled. 
 
 Commercial landings were small during 
-the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric  
+the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric 
 tons (mt) per year (Figure \ref{fig:Exec_catch2}). Commercial landings 
 increased after World War II and show periods of cyclical catch for gopher and black-and-yellow 
 rockfishes. The commercial live fish fishery began in the early 1990s, with the first reported 
@@ -39,7 +41,7 @@ Since 2000, annual total landings of catch and discards of `r spp` have ranged b
 <!-- ***********This depends on how many plots you need******************** -->
 <!-- ***********Also included is the r4SS plot - keep or remove************ -->
 <!-- ***********CATCH FIGURES********************************************** -->
-![Catch history of `r spp` for the recreational fleet. \label{fig:Exec_catch1}](Figures/rec_exec.png)
+![Catch history of `r spp` landings for the recreational fleet north (RecNorth) and south (RecSouth) of Point Conception.. \label{fig:Exec_catch1}](Figures/rec_exec.png)
 
 
 
@@ -48,7 +50,7 @@ Since 2000, annual total landings of catch and discards of `r spp` have ranged b
   #    Plot_catch(Catch_df = Exec_region3_catch)
 ```
 
-![Catch history of `r spp` for the commercial fleet by dead and live landings, and discards. Catches in 1936 and 1946 were minimal. \label{fig:Exec_catch2}](Figures/comm_exec.png)
+![Catch history of `r spp` for the commercial fleet by dead (ComDead) and live (ComLive) landings, and discards (ComdDisc). Catches in 1936 and 1946 were minimal. \label{fig:Exec_catch2}](Figures/comm_exec.png)
 
 \FloatBarrier
 
@@ -74,10 +76,10 @@ Since 2000, annual total landings of catch and discards of `r spp` have ranged b
 
 Gopher rockfish north of Point Conception ($34^\circ 27^\prime$ N. latitude) 
 was first assessed as a full stock assessment in 2005 [@Key2005] using SS2 (version 1.19). 
-The assessment was sensitive to the CPFV onboard observer index of abundance (referred 
-to as Deb Wilson-Vandenberg's onboard observer index in this assessment). The final decision 
-table was based around the emphasis given to a fishery-dependent index of abundance for the 
-recreational fleet. The stock was found to be at 97% depletion. 
+The assessment was sensitive to the recreational party boat onboard observer index of relative 
+abundance (referred to as Deb Wilson-Vandenberg's onboard observer index in this assessment). 
+The final decision table was based around the emphasis given to this index of relative abundance. 
+The stock was found to be at 97% depletion in 2005. 
 
 Gopher rockfish south of Point Conception was assessed as a data poor species in 2010 
 [@Dick2010].  A Depletion-Corrected Average Catch (DCAC) model was used due to time 
@@ -89,7 +91,7 @@ Depletion-Based Stock Reduction Analysis (DB-SRA) [@Dick2010]. The DB-SRA
 model assigned a 40% probability that the then recent (2008-2009) catch 
 exceeded the 2010 OFL.
 
-This assessment covers the area from Cape Mendocino to the U.S./Mexico border 
+This assessment of the GBYR complex covers the area from Cape Mendocino to the U.S./Mexico border 
 (Figure \ref{fig:assess_region_map}). The length composition data suggested that while 
 the lengths of gopher and black-and-yellow rockfish were similar, fish encountered 
 south of Point Conception were smaller. The similarity of the length 
@@ -103,7 +105,7 @@ for and not included in the 2005 assessment.  The decision to retain one commerc
 fleet was made by examining the length distributions across species, fishing gears, 
 and space, i.e., north and south of Point Conception. There is very little difference between 
 the length composition of gopher and black-and-yellow rockfish landed in the commercial 
-fleet north of Point Conception.
+fleet north and south of Point Conception.
 
 A number of sources of uncertainty are addressed in this assessment. This 
 assessment includes length data, estimated growth, an updated length-weight curve, an
@@ -119,8 +121,8 @@ updated maturity curve, a number of new indices, and new conditional age-at-leng
 The predicted spawning output from the base model generally showed a slight decline prior 
 to 1978, when the recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
 and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994, followed by a period 
-increase from 1995 to 2003. From 2004-2018 the stock has been in decline, though increased in total biomass 
-since 2016 and stable spawning output since from 2018 to 2019. The 2019 estimated spawning output relative to unfished 
+of increase from 1995 to 2003. From 2004-2018 the stock has been in decline, though increased in total biomass 
+since 2016 and exhibits stable spawning output since from 2018 to 2019. The 2019 estimated spawning output relative to unfished 
 equilibrium spawning output is above the target of 40% of unfished spawning output at 43.82 
 (95% asymptotic interval: 33.57-54.06) (Figure \ref{fig:RelDeplete_all}). 
 Approximate confidence intervals based on the asymptotic variance estimates show that the uncertainty 
@@ -140,9 +142,9 @@ in the estimated spawning output is high, (95% asymptotic interval: 337-767 mill
 \FloatBarrier
 
 
-![Time series of spawning biomass trajectory (circles and line: median; light broken lines: 95% credibility intervals) for the base case assessment model.  \label{fig:Spawnbio_all}](`r spawn.file`)
+![Time series of spawning output trajectory (circles and line: median; light broken lines: 95% credibility intervals) for the base case assessment model.  \label{fig:Spawnbio_all}](`r spawn.file`)
 
-![Estimated percent depletion with approximate 95\% asymptotic confidence intervals (dashed lines) for the base case assessment model. \label{fig:RelDeplete_all}](`r Bratio.file`)
+![Estimated fraction of unfished (percent depletion) with approximate 95\% asymptotic confidence intervals (dashed lines) for the base case assessment model. \label{fig:RelDeplete_all}](`r Bratio.file`)
 
 <!-- ***********END  EXECUTIVE SUMMARY SPAWNING BIOMASS AND**************** -->
 
@@ -155,8 +157,8 @@ in the estimated spawning output is high, (95% asymptotic interval: 337-767 mill
 
 ##Recruitment{-}
 Recruitment deviations were estimated from 1979-2018 (Figure \ref{fig:Recruits_all} and 
-Table \ref{tab:Recruit_mod1}).  There are estimates of very strong recruitment in 1991. 
-Recruitment pulses were estimated for a number of other years including 1994-1995 
+Table \ref{tab:Recruit_mod1}).  There are estimates of very strong recruitment in 1991, 
+with high recruitment pulses for a number of other years including 1994-1995 
 and 2014-2015.
 
 
@@ -175,7 +177,7 @@ and 2014-2015.
 
 \FloatBarrier
 
-![Time series of estimated `r spp` recruitments for the base-case model with 95\% confidence or credibility intervals. \label{fig:Recruits_all}](`r recruit.file`)
+![Time series of estimated `r spp` recruitments for the post-STAR base model with 95\% confidence or credibility intervals. \label{fig:Recruits_all}](`r recruit.file`)
 
 <!-- ***********END EXECUTIVE SUMMARY RECRUITMENT TABLEs AND FIGURES******* -->
 
@@ -235,11 +237,11 @@ target ($SB_{40\%}$), and well `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MSST
 the minimum stock size threshold ($SB_{25\%}$). 
 The estimated relative depletion level for the base model in 2018 is 
 0.439 (95% asymptotic interval: 0.341-0.536, corresponding 
-to an unfished spawning biomass of `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
+to an unfished spawning  of `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
 (95% asymptotic interval: `r paste(Spawn_mod1_CI, fecund_unit, sep=' ')`) of 
-spawning biomass in the base model (Table \ref{tab:Ref_pts_mod1}).  Unfished 
+spawning output in the base model (Table \ref{tab:Ref_pts_mod1}).  Unfished 
 age `r min_age` biomass was estimated to be `r Ref_pts_mod1[2,2]` mt in the 
-base case model. The target spawning biomass ($SB_{40\%}$) 
+base case model. The target spawning output ($SB_{40\%}$) 
 is `r paste(Ref_pts_mod1[7,2], fecund_unit,sep=' ')`, which corresponds with an 
 equilibrium yield of `r Ref_pts_mod1[10,2]` mt. Equilibrium yield at the proxy $F_{MSY}$ 
 harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure \ref{fig:Yield_all}).
@@ -267,7 +269,7 @@ harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure 
 Gopher and black-and-yellow rockfishes are managed as part of the minor nearshore 
 complex in the Pacific Coast Groundfish Fishery Management Plan.  The total mortality 
 of the minor nearshore rockfish has been below the ACL in all years (2011-2016). 
-Total mortality estimates from the NWFSC are not yet available are not yet available 
+Total mortality estimates from the NWFSC are not yet available 
 for 2017-2018. GBYR total mortality was on average 20% of the total minor nearshore 
 rockfish total mortality from 2011-2016. A summary of these values 
 as well as other base case summary results can be found in Table \ref{tab:mnmgt_perform}.
@@ -288,9 +290,9 @@ as well as other base case summary results can be found in Table \ref{tab:mnmgt_
 \FloatBarrier
 
 ##Unresolved Problems and Major Uncertainties{-}
-The major source of uncertainty identified during the STAR panel is the 
-structure of complex and contribution of each of the two species to the complex 
-and biological parameters differences.  Additionally, there is currently no 
+The major source of uncertainty identified during the STAR panel are the 
+structure of two species complex, the contribution of each of the two species to the complex, 
+and differences in biological parameters between the species.  There is currently no 
 information for either species on regional differences in biological parameters
 and contributions to the complex.
 
@@ -304,19 +306,20 @@ and contributions to the complex.
 The forecasts of stock abundance and yield were developed using the post-STAR 
 base model, with the forecasted projections of the OFL presented in 
 Table \ref{tab:OFL_projection}. The total catches in 2019 and 2020 are set to 
-the projected catch from CDFW of 114 mt.
+the projected catch from the California Department of Fish and Wildlife (CDFW) of 114 mt.
 
 Uncertainty in the forecasts is based upon the three states of nature agreed upon 
 at the STAR panel and are based three states of nature of growth.  The external 
-estimates of growth were different than the internal estimates. Given that 
+estimate of growth was different than the internal Stock Synthesis estimate. Given that 
 natural mortality is fixed in the post-STAR base model, and the growth parameter 
 $k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
 of uncertainty. The high state of nature fixes $k$ at the external estimate, and the 
 low state of nature is the same distance in log space from the base as the high state 
-of nature. The low state of nature fixed $k$ at 0.46 and the L1 and L1 parameters 
-are estimated at 14.1 and 30.6, respectively.  The high state of nature fixes all 
+of nature. The low state of nature fixed $k$ at 0.046 and the L1 and L1 parameters 
+were estimated at 14.1 and 30.6, respectively.  The high state of nature fixed all 
 growth parameters, $k$ = 0.248, L1 = 13.8, and L2 = 28.5 to the external 
-estimate of growth. The growth parameters in the base model were estimated as 
+estimate of growth (due to improbable estimates of L1 and L2 if only $k$ was fixed to the 
+external estimate). The growth parameters in the base model were estimated as 
 $k$ = 0.107, L1 = 13.4, and L2 = 28.8.
 
 The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
@@ -391,14 +394,14 @@ We recommend the following research be conducted before the next assessment:
 \item Investigate the structure of complex and contribution of each species to the 
 GBYR complex. Investigate possible spatial differences in biological parameters within 
 a single species and also between the two species.  Little biological data for south of 
-Point Conception or north of Point Arena was available for this assessment and is needed 
+Point Conception or north of Point Arena were available for this assessment and is needed 
 to better under biological parameters. 
     \begin{enumerate}
      \item Conduct life history studies
      \item conduct research to identify the proportion of each species in population and in catches
     \end{enumerate}
 
-\item Take a closer look at the Ralston [-@Ralston2010] historical catch reconstruction 
+\item Take a closer look at the Ralston (Ralston et al. 2010) historical catch reconstruction 
 for gopher and black-and-yellow rockfishes.  The recreational catch reconstruction for 
 gopher rockfish south of Point Conception was an order of magnitude higher than expected 
 when extracted for this assessment.  
@@ -408,9 +411,9 @@ month of survey.  Occasional sampling during all months of the year would better
 identify the length distribution of fish classified as age-0. This is the only recruitment 
 index available for gopher and black-and-yellow rockfish. If possible, age data should be 
 collected from the PISCO survey to aid in determining the growth of young gopher and 
-black-and-yellow rockfish.
+black-and-yellow rockfish, and larger black-and-yellow rockfish.
 
-\item Refine CCFRP survey index to look at different possible model structures, including 
+\item Refine CCFRP survey index to look at alternative possible model structures, including 
 a hierarchical structure and random effects.  Limited time did not allow for these 
 explorations during this assessment cycle.  It is also strongly recommended to continue 
 the coastwide sampling of the CCFRP program that began in 2017, as well as the collection 
@@ -424,7 +427,7 @@ since 2007.
 recreational fisheries.  Very little age data are available from either fishery for 
 gopher rockfish and none for black-and-yellow rockfish.
 
-\item Data collection across Research Recommendations 1-5 is needed to improve 
+\item Data collection and coordination across Research Recommendations 1-5 is needed to improve 
 the efficacy of data collection and ensure that samples are representative of the 
 data sources and the fisheries.  For example, the conditional age-at-length data in 
 the dummy fleet represent a number of sampling techniques, areas sampled, and 

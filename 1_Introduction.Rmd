@@ -117,15 +117,14 @@ at around 15-21 mm [@Anderson1983; @Wilson2008]. The larvae are transparent unti
 reach juvenile stage at 22-23 mm. Differences in coloration between the two species begin 
 to occur at 25-30 mm and can be used to identify one species from the other. Gopher 
 rockfish become more orange and brown, while black-and-yellow rockfish become more 
-black and yellow. Benthic juveniles associate with \emph{Macrosystis} holdfasts and 
-sporophylls [@Anderson1983]. 
+black and yellow. 
 
 The juveniles undergo ontogenetic migration down the stalks to deeper depths, 
 finally settling on rocky reef habitat in their respective adult depth distribution. 
+Benthic juveniles associate with \emph{Macrosystis} holdfasts and sporophylls [@Anderson1983]. 
 Juvenile bocaccio and other fish predate on young of year and other reef dwelling 
-species including cabezon predate on post-settlement juveniles. Individuals avoid 
-rough surge conditions and predators by hiding in the rocky bottom during the 
-daylight hours, then returning to more open water at dusk [@Love2002]. 
+species; individuals avoid rough surge conditions and predators by hiding in the rocky 
+bottom during the daylight hours, then returning to more open water at dusk [@Love2002]. 
 
 
 ##Map
@@ -154,7 +153,7 @@ Gopher and black-and-yellow (referred to from hereon as GBYR when discussing the
 complex) rockfish have been a minor component of the commercial and recreational 
 rockfish fishery since at least the late 1960s (CFIS and RecFIN). The commercial 
 catch histories of the two species cannot easily be separated 
-(Figure \ref{fig:Catches_livedeadNS_gby}).  From 1916-1936 
+(Figure \ref{fig:Catches_livedeadNS_gby}); from 1916-1936 
 only black-and-yellow rockfish were reported in the landings, and an average 
 of 0.04 mt of black-and-yellow rockfish are reported from 1937-1983. 
 Black-and-yellow rockfish reappear in the landings in 1984 with 7.2 mt landed 
@@ -164,33 +163,34 @@ landed, and 0 mt reported in 1987. From 1988 and on, the landings are dominated
 by gopher rockfish, and both species are represented in the commercial landings. 
 
 The landings from south of Point Conception are minor throughout the time period, 
-with peaks in the 1950s and 60s for gopher rockfish.  Black-and-yellow rockfish 
-are rare south of Point Conception and expected that these catches are minimal. 
+with peaks in the 1950s and 1960s for gopher rockfish.  Black-and-yellow rockfish 
+are rare south of Point Conception and it is therfore expected that these catches are minimal. 
 
 The live fish fishery began in the early 1990s, with the first reported commercial landings 
 of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 1995 
 over half (57%; 39 mt) of the commercial landings were from the live fish fishery. 
 This increased quickly over the next few years and has been on average 84% of the landed 
-gopher and black-and-yellow rockfish (also referred to GBYR to reference the complex in this
-assessment) since 2000.  The majority of the landings are from gopher rockfish north of Point 
+gopher and black-and-yellow rockfish since 2000.  The majority of the landings are 
+from gopher rockfish north of Point 
 Conception.  Landings of live GBYR south of Point Conception were higher in the late 
 1990s, (max. 3.2 mt in 1999), and have been averaging 0.4 mt since 2003. 
 
 The ex-vessel value of GBYR increased from less than $40,000 in 1984 and peaked 
-at $680,452 in 1996 (Figure \ref{fig:GBY_revenue}). The ex-vessel revenue has 
+at $680,452 in 1996 (source: PacFIN, Figure \ref{fig:GBY_revenue}). The ex-vessel revenue has 
 been fairly stable at around $500,000 a year since 2007.  Prior to the live 
 fish fishery in 1994, the average price per pound for either species was around 
 $2 a pound.  The live fish fishery increased the value of both species to an 
-average of \$6-\$8 a pound.  The maximum reported value of either a gopher 
+average of \$6-\$8 a pound, with maximum reported value of either a gopher 
 or black-and-yellow rockfish was $20 a pound in 2003.
 
 The recreational GBYR fishery for California is most prominent north of Point 
-Conception throughout the entire catch history (Figure \ref{fig:Exec_catch1}).
-The recreational landings increased from 1928 to 1980.  The sharp increase 
+Conception throughout the entire catch history from 1928 to 1980 (Figure \ref{fig:Exec_catch1}).  
+The sharp increase 
 in the 1980s could be an artifact of the MRFSS sampling program that began 
 in 1980; however, the more recent recreational landings also exhibit a cyclical 
 trend of years with high catches followed by period of decreased recreational 
-landings. The CRFS era recreational total mortality represents the most accurate 
+landings. The California Recreational Fisheries Survey (CRFS) era recreational total 
+mortality represents the most accurate 
 description of the recreational fleet's catches in terms of area, mode and species 
 (Figure \ref{fig:CFRS_catches}).  
 
@@ -304,7 +304,7 @@ The contribution of GBYR to the nearshore rockfish OFLs is currently derived fro
 two sources: 1) forecasts from Key et al. [-@Key2005], from Cape Mendocino to 
 Point Conception, and 2) a Depletion Corrected Average Catch (DCAC [@MacCall2009]) for the 
 area south of Point Conception. The total mortality of the nearshore rockfish south complex has been 
-below the ACL in all years (2011-2016). Total mortality estimates from the NWFSC are not yet 
+below the ACL in all years (2011-2016). Total mortality estimates from the NMFS NWFSC are not yet 
 available for 2017-2018. GBYR total mortality was on average 20% of the 
 total nearshore rockfish south total mortality from 2011-2016. The recent GBYR total mortality 
 contributed approximately 9% to the nearshore rockfish south OFL, and GBYR catches have not exceded 

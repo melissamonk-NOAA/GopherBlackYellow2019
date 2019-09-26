@@ -14,14 +14,14 @@ We recommend the following research be conducted before the next assessment:
 \item Investigate the structure of complex and contribution of each species to the 
 GBYR complex. Investigate possible spatial differences in biological parameters within 
 a single species and also between the two species.  Little biological data for south of 
-Point Conception or north of Point Arena was available for this assessment and is needed 
+Point Conception or north of Point Arena were available for this assessment and is needed 
 to better under biological parameters. 
     \begin{enumerate}
      \item Conduct life history studies
      \item conduct research to identify the proportion of each species in population and in catches
     \end{enumerate}
 
-\item Take a closer look at the Ralston [-@Ralston2010] historical catch reconstruction 
+\item Take a closer look at the Ralston (Ralston et al. 2010) historical catch reconstruction 
 for gopher and black-and-yellow rockfishes.  The recreational catch reconstruction for 
 gopher rockfish south of Point Conception was an order of magnitude higher than expected 
 when extracted for this assessment.  
@@ -31,9 +31,9 @@ month of survey.  Occasional sampling during all months of the year would better
 identify the length distribution of fish classified as age-0. This is the only recruitment 
 index available for gopher and black-and-yellow rockfish. If possible, age data should be 
 collected from the PISCO survey to aid in determining the growth of young gopher and 
-black-and-yellow rockfish.
+black-and-yellow rockfish, and larger black-and-yellow rockfish.
 
-\item Refine CCFRP survey index to look at different possible model structures, including 
+\item Refine CCFRP survey index to look at alternative possible model structures, including 
 a hierarchical structure and random effects.  Limited time did not allow for these 
 explorations during this assessment cycle.  It is also strongly recommended to continue 
 the coastwide sampling of the CCFRP program that began in 2017, as well as the collection 
@@ -47,7 +47,7 @@ since 2007.
 recreational fisheries.  Very little age data are available from either fishery for 
 gopher rockfish and none for black-and-yellow rockfish.
 
-\item Data collection across Research Recommendations 1-5 is needed to improve 
+\item Data collection and coordination across Research Recommendations 1-5 is needed to improve 
 the efficacy of data collection and ensure that samples are representative of the 
 data sources and the fisheries.  For example, the conditional age-at-length data in 
 the dummy fleet represent a number of sampling techniques, areas sampled, and 

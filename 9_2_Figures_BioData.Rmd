@@ -7,6 +7,7 @@
 
 ![Length comp data, aggregated across time by fleet. Labels 'retained' and 'discard' indicate discarded or retained sampled for each fleet. Panels without this designation represent the whole catch. \label{fig:comp_lendat_aggregated_across_time}](r4ss/plots_mod1/comp_lendat__aggregated_across_time.png)
 
+\FloatBarrier
 
 
 ![Available length-at-age data for gopher and black-and-yellow rockfish by sex and data source. The Zaitlin study is all black-and-yellow rockfish.  The remaining plots represent gopher rockfish \label{fig:Age_length_by_study}](Figures/Age_length_by_study.png)
@@ -17,9 +18,8 @@
 
 
 
-![Maturity ogive for females estimated from black-and-yellow rockfish from Zaitlin (1986) and gopher rockfish from Meyers-Cherry (2014). Sample sizes at a given length are shown in the circles. \label{fig:GBY_maturity_ogive}](Figures/GBY_maturity_ogive.png)
 
-
+\FloatBarrier
 
 <!-- ********************************************************************** -->
 <!-- ****************Aging Precision and Bias FIGURES********************** --> 
@@ -28,6 +28,7 @@
 
 ![Aging precision between initial and blind double reads for GBYR.  Numbers in the bubbles are the sample sizes of otoliths cross-read. \label{fig:GBY_age_error}](Figures/GBY_age_error.png)
 
+\FloatBarrier
 
 ![True versus predicted age for two current age readers at the NWFSC from the ageing error software with unbiased reads and curvilinear standard deviation for both readers. \label{fig:GBY_age_error2}](Figures/GBY_age_error2.png)
 
@@ -43,6 +44,10 @@
 <!-- **************Sex Ratio, Maturity, Fecundity FIGURES****************** --> 
 <!-- ********************************************************************** -->
 
+![Maturity ogive for females estimated from black-and-yellow rockfish from Zaitlin (1986) and gopher rockfish from Meyers-Cherry (2014). Sample sizes at a given length are shown in the circles. \label{fig:GBY_maturity_ogive}](Figures/GBY_maturity_ogive.png)
+
+
+\FloatBarrier
 
 <!-- ====================================================================== -->
 <!-- ******************                           ************************* -->

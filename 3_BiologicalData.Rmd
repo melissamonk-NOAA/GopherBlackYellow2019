@@ -8,8 +8,6 @@ length and fork length are equal.  All of the data provided for this assessment
 were either in fork length or total length.
 
 
-(Table \ref{tab:length_samples_survey})
-
 **Length and Age Compositions**
 
 Length compositions were provided from the following sources:
@@ -48,7 +46,7 @@ and all but a few black-and-yellow rockfish (247 females, 232 males, 20
 unknown sex) came from a directed study by Jody Zaitlin [-@Zaitlin1986], 
 collected from 1983-1986 (Figure \ref{fig:Age_length_by_study}).
 
-Of the available ages, 94% were collected during fishery-independent surveys.  
+Of the available ages, 94% were collected during fishery-independent surveys. 
 The remaining 6% were recreational dockside surveys and collected by Cal Poly 
 during their CPFV onboard observer survey (36 otoliths) in 2018.
 
@@ -72,7 +70,7 @@ rockfishes (Figure \ref{Growth_by_species}) or between males and females
 Uncertainty in ageing error was estimated using a collection of 376 gopher and 
 black-and-yellow rockfish otoliths with two age reads (Figure \ref{fig:GBY_age_error}). 
 Age-composition data used in the model were from a number of sources described above.  All 
-otoliths were read by Don Pearson (NMFS SWFSC, no retired) who also conducted all
+otoliths were read by Don Pearson (NMFS SWFSC, now retired) who also conducted all
 blind double reads. 
 
 Ageing error was estimated using publicly available software [@Thorson2012].

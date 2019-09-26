@@ -14,7 +14,7 @@ Descriptions of the data sources are in the following sections.
 
 Commercial fishery landings for gopher and black-and-yellow rockfishes have not 
 been reported consistently by species throughout the available catch history 
-(Figure \ref{fig:Catches_livedeadNS_gby}). The period from 1916-1935 indicates 
+(Figure \ref{fig:Catches_livedeadNS_gby}). The period from 1916-1935 suggests 
 that only black-and-yellow rockfish were landed in the commercial fishery, which then 
 switched to predominately gopher rockfish from 1937-1984.  From 1985-1988 the landings 
 data suggest that only black-and-yellow rockfish were landed and not until 1995 are 
@@ -66,7 +66,7 @@ landings (avg. 83%) are landed in the Monterey and Morro Bay port complexes.
 Contemporary landings were extracted from two data sources, the California 
 Cooperative Groundfish Survey, [CALCOM](https://calcom.psmfc.org/)) and the 
 Pacific Fisheries Information Network ([PacFIN](https://pacfin.psmfc.org/)) landings 
-database. Both databases are based on the same data sources (CALCOM landing receipts), 
+databases. Both databases are based on the same data sources (CALCOM landing receipts), 
 but apply a catch expansion based on different algorithms. CALCOM collects 
 information including species 
 composition data (i.e. the proportion of species landed in a sampling stratum), 
@@ -114,7 +114,8 @@ discarding across fishery sectors back to 2003. Gopher and black-and-yellow
 rockfishes have species-specific depth-stratified commercial fishery discard mortality 
 rates [@PSMFC2018]. In consultation with WCGOP staff, the STAT used estimates 
 of total discard mortality from WCGOP’s Groundfish Expanded Mortality Multiyear 
-(GEMM) report. WCGOP observes between 1-5% of nearshore fixed gear landings annually 
+(GEMM) report as the best available estimate of discards for GBYR. 
+WCGOP observes between 1-5% of nearshore fixed gear landings annually 
 south of $40^\circ 10^\prime$ N. latitude (coverage rates available [here](https://www.nwfsc.noaa.gov/research/divisions/fram/observation/data_products/sector_products.cfm#ob)). 
 The expanded estimates of total discard weight by species is calculated as the
 ratio of the observed discard weight of the individual species divided by the observed 
@@ -124,8 +125,8 @@ landings in order to appropriately apply the depth-stratified discard
 mortality rates by species [@Somers2018]. The discard mortality for 2018 
 was estimated as an average of the discard mortality from 2013-2017. Discard 
 mortality was estimated from the period prior to WCGOP discard estimates 
-(1916-2002) based on the average discard mortality rate from 2003-2016 
-(2017 was excluded because 2017 discard mortality was disproportionately higher 
+(1916-2002) based on the average discard mortality rate from 2004-2017 
+(2003 was excluded because 2003 discard mortality was disproportionately higher 
 than all other years) (Table \ref{tab:CommCatches}).
 
 
@@ -147,8 +148,9 @@ discard estimates and were aggregated for all regions south of Cape Mendocino
 and across all fixed gear fisheries.
 
 A total of 46 ages were available for gopher rockfish from the commercial 
-fisheries 2009-2011, 2016, and 2018.  Though sparse, the data were included as 
-conditional age-at-length for the commercial fleet. 
+fisheries 2009-2011, 2016, and 2018.  Though sparse, the data were considerd as 
+conditional age-at-length for the commercial fleet, but not used in the final 
+post-STAR base model. 
 
 The input sample sizes for commercial length composition data were calculated 
 via the Stewart Method for fisheries (Ian Stewart, personal communication, IPHC, 
@@ -163,7 +165,7 @@ Input effN = $7.06 * N_{\text{trips}}$ if $N_{\text{fish}}/N_{\text{trips}}$ is 
 \end{center}
 
 
-Commercial length composition data are made available from PacFIN and the expanded 
+The PacFIN commercial length composition  and the expanded 
 catch-weight length compositions were provided by Andi Stephens (NWFSC) processed 
 through the [PacFIN Utilities](https://github.com/nwfsc-assess/PacFIN.Utilities) 
 package. We compared differences between the catch-weighted length composition 
@@ -376,7 +378,9 @@ Stewart's method (described above). All length data were re-weighted in the asse
 
 ###Fishery-Dependent Indices of Abundance
 
-A summary of all indices in the post-STAR base model can be found in Table \ref{tab:Index_summary}. Figure \ref{fig:All_index_compare} shows each index from the pre-STAR base model (before any were modified or removed from the model) scaled to the mean value of that index to 
+A summary of all indices in the post-STAR base model can be found in Table \ref{tab:Index_summary}. 
+Figure \ref{fig:All_index_compare} shows each index from the pre-STAR base model (before any were 
+modified or removed from the model) scaled to the mean value of that index to 
 show them all on the same scale, i.e., the mean of each index in the plot is 1.  Figure 
 \ref{fig:All_index_compare_postSTAR} shows the final set of indices in the post-STAR base model, each 
 scaled to their mean.
@@ -400,8 +404,8 @@ aggregate the RecFIN records to the trip level is outlined Supplemental Material
 
 Initial trip filters included eliminating trips targeting species caught near the 
 surface waters for all or part of the trip, including trips with catch of bluefin 
-tuna, yellowfin tuna, skipjack, and albacore.  Trips occuring in bays were also 
-excluded.
+tuna, yellowfin tuna, skipjack, and albacore.  Trips occuring in bays, e.g., San Francisco 
+Bay, were also excluded.
 
 The following filtering steps were applied to gopher rockfish, as well as the 
 sum of the two species to represent GBYR. No filtering or indices were developed 
@@ -413,7 +417,7 @@ gopher-only and the GBYR complex for both north and south of Point Conception (F
 \ref{fig:MRFSS_index_compare}).  The descriptions of the filtering and data below 
 represent those for the GBYR complex. 
 
-The species composition of catch in California varies greatly with latitude.  
+The species composition of catch in California varies greatly with latitude. 
 Therefore, Stephens-MacCall filtering was applied independently for north and 
 south of Point Conception. Separate indices were also developed to represent two 
 recreational fleets in the model. Since recreational fishing trips target a wide variety 
@@ -450,7 +454,8 @@ probability of occurrence (in this case 0.4) at which the rate of "false
 positives" equals "false negatives." The trips selected using this criteria 
 were compared to an alternative method including all the "false positive" 
 trips, regardless of the probability of encountering GBYR 
-(Table \ref{tab:Fleet10_contingency}). This assumes that if GBYR were caught, 
+(Table \ref{tab:Fleet10_contingency} and Figure \ref{fig:MRFSS_index_N_SM_falsepos}). 
+This assumes that if GBYR were caught, 
 the anglers must have fished in appropriate habitat during the trip. 
 The catch included in this index is "sampler-examined" and the samplers are well 
 trained in species identification.  The last filter applied was to exclude years 
@@ -478,9 +483,10 @@ contrast in the index, except for a small increase in 1986.  The final index val
 and associated log standard error included in the assessment can be found in Table \ref{tab:Indices}.
 
 
-*MRFSS Filtering and Index Standardization for South of Point Conception.*
+*MRFSS Filtering and Index Standardization for South of Point Conception.*    
 Note, the MRFSS index for south of Point Conception was not used in the post-STAR 
-base model.
+base model.   
+
 Prior to the Stephens-MacCall filter, a total of 7,334 trips were available for the analysis. 
 As expected, positive indicators of GBYR trips included several nearshore species, e.g., 
 kelp rockfish, treefish, and black croaker, while the strongest counter-indicator
@@ -523,7 +529,7 @@ the three years in the 1990s does not exhibit any significant trend.
 
 Onboard observer survey data were available from three sources for this assessment, 
 1) a CDFW survey in central California from 1987-1998 (referred to as the Deb 
-Wilson-Vandenberg onboard observer survey, [@Reilly1998]), 2) the CDFW CPFV onboard 
+Wilson-Vandenberg onboard observer survey, [@Reilly1998])) the CDFW CPFV onboard 
 observer survey from 1999-2018, 
 and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
 sampler rides along on the CPFV and records location-specific catch and discard 
@@ -531,12 +537,13 @@ information to the species level for a subset of anglers onboard the vessel.
 The subset of observed anglers is usually a maximum of 15 people the observed anglers 
 change during each fishing stop.  The catch cannot be linked to an individual, but rather 
 to a specific fishing location.  The sampler also records the starting and ending 
-time, number of anglers observed, starting and ending depth, and measures discarded fish.  
+time, number of anglers observed, starting and ending depth, and measures discarded fish. 
 The fine-scale catch and effort data allow us to better filter the data for indices 
 to fishing stops within suitable habitat for the target species.
 
 
-The state of California implemented a statewide sampling program in 1999 [@Monk2014].  California 
+The state of California implemented a statewide onboard observer sampling program in 
+1999 [@Monk2014].  California 
 Polytechnic State University (Cal Poly) has conducted an independent onboard sampling 
 program as of 2003 for boats in Port San Luis and Morro Bay, and follows 
 the protocols established in Reilly et al. [-@Reilly1998]. Cal Poly has modified protocols 
@@ -573,7 +580,7 @@ selected over a gamma model (AIC: 1,143) for the positive encounters. Covariates
 considered in the full model included year, depth, and month (Table \ref{tab:Fleet5_AIC}). 
 The model selected by AIC for both the lognormal and binomial components of the 
 delta-GLM included year, depth and reef.  Depth was included in 10 m depth bins and eight reefs were 
-select in the final model (Figure coming). The final index did not indicate an increasing 
+select in the final model. The final index did not indicate an increasing 
 trend that was seen in the 2005 gopher rockfish assessment using the same data set (Figure 
 \ref{fig:DebWV_index_compare}). A number of reasons include that finer-scale location data 
 was keypunched in 2012 for this survey, the index in this assessment includes black-and-yellow 
@@ -632,9 +639,11 @@ stable trend from 2001-2009 and a steady decrease from 2010-2013.  The relative 
 of abundance has increased since 2014.
 
 
-*Filtering and Index Standardization for south of Point Conception*
+*Filtering and Index Standardization for south of Point Conception*   
+
 Note, the CPFV onboard index for south of Point Conception was not used in the final
-post-STAR base model.
+post-STAR base model.   
+
 The bathymetric data is not available at as fine-scale resolution for the Southern 
 California Bight and more of the trips and drifts target mid-water species, including 
 mid-water rockfish (Table \ref{tab:Fleet6_7_Filter}). Therefore, instead of using 
@@ -680,8 +689,8 @@ when MRFSS was on hiatus.
 <!-- ************FISHERY-INDPENDENT DATA*********************************** -->
 
 ###Fishery-Independent Data Sources
-Neither of the two fishery-independent surveys described below have previously 
-been used in stock assessments as indices of abundance.
+The PISCO survey data have previously been used in one stock assessment (cabezon) and the CCFRP data 
+have not previously been used in stock assessments as an index of abundance.
 
 **California Collaborative Fisheries Research Project**
 
@@ -728,13 +737,12 @@ and Monte Carlo standard error values) were all reasonable. Predicted means by
 stratum (Year) were strongly correlated with observed means, suggesting 
 a reasonable fit to the data (Figure \ref{fig:Fleet9_MLE_stan}). The NB model 
 generated data sets with roughly 18-22% zeros, compared to the observed 22% 
-(Figure \ref{fig:Fleet10_prop_zero_STAN}).
+(Figure \ref{fig:Fleet9_prop_zero_STAN}).
 
-The CCFRP index of abundance closely matches the trend observed in the onboard 
+The CCFRP index of abundance closely matches the trend observed in the CDFW/Cal Poly onboard 
 observer index from 2009-2018 (Figure \ref{fig:All_index_compare}).  The index decreases 
-from 2009 to 2013, and then 
-exhibits the same increase through 2018.  When both indices are standardized to their 
-means, the values for 2013 and 2018 are the same.
+from 2009 to 2013, and then exhibits the same increase through 2018.  When both 
+indices are standardized to their means, the values for 2013 and 2018 are the same.
 
 
 _CCFRP Length Measurements and Available Ages_
@@ -742,7 +750,7 @@ _CCFRP Length Measurements and Available Ages_
 The CCFRP program measures every fish encountered to the nearest half centimeter. 
 A total of 22,470 GBYR were measured by CCFRP from 2007-2018, of which only 
 212 were black-and-yellow rockfish. The length distributions for each of the four 
-MPAs used in the index for this assessment show slight difference in their peaks 
+MPAs used in the index for this assessment show slight differences in the peak length 
 (Figure \ref{CCFRP_lengths_by_site}). A&ntilde;o Nuevo is the most northern site and 
 Point Buchon the most southern. 
 
@@ -855,7 +863,7 @@ A recruitment signal is present in the index in a number of years, including 200
 
 _PISCO Length Measurements_
 
-All but one GBYR observed by PISCO divers was measured  
+All but one GBYR observed by PISCO divers was measured 
 (N = 11,965).  Divers measure fish to the nearest centimeter, and are trained to measure 
 fish underwater and be aware of possible biases, e.g., ambient light, body color, 
 visibility, and body shape.  Both juvenile and adult GBYR were observed in the PISCO 

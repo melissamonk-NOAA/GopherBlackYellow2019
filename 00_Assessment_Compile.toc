@@ -30,16 +30,16 @@
 \contentsline {subsubsection}{\numberline {2.1.6}Fishery-Dependent Indices of Abundance}{15}{subsubsection.2.1.6}% 
 \contentsline {subsubsection}{\numberline {2.1.7}Fishery-Dependent Indices: Available Length and Age Data}{20}{subsubsection.2.1.7}% 
 \contentsline {subsubsection}{\numberline {2.1.8}Fishery-Independent Data Sources}{21}{subsubsection.2.1.8}% 
-\contentsline {subsubsection}{\numberline {2.1.9}Biological Parameters and Data}{24}{subsubsection.2.1.9}% 
+\contentsline {subsubsection}{\numberline {2.1.9}Biological Parameters and Data}{25}{subsubsection.2.1.9}% 
 \contentsline {subsubsection}{\numberline {2.1.10}Environmental or Ecosystem Data Included in the Assessment}{28}{subsubsection.2.1.10}% 
 \contentsline {subsection}{\numberline {2.2}Previous Assessments}{28}{subsection.2.2}% 
 \contentsline {subsubsection}{\numberline {2.2.1}History of Modeling Approaches Used for this Stock}{28}{subsubsection.2.2.1}% 
 \contentsline {subsubsection}{\numberline {2.2.2}2005 Assessment Recommendations}{29}{subsubsection.2.2.2}% 
 \contentsline {subsection}{\numberline {2.3}Model Description}{29}{subsection.2.3}% 
-\contentsline {subsubsection}{\numberline {2.3.1}Transition to the Current Stock Assessment}{29}{subsubsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1}Transition to the Current Stock Assessment}{30}{subsubsection.2.3.1}% 
 \contentsline {subsubsection}{\numberline {2.3.2}Summary of Data for Fleets and Areas}{32}{subsubsection.2.3.2}% 
 \contentsline {subsubsection}{\numberline {2.3.3}Other Specifications}{33}{subsubsection.2.3.3}% 
-\contentsline {subsubsection}{\numberline {2.3.4}Modeling Software}{33}{subsubsection.2.3.4}% 
+\contentsline {subsubsection}{\numberline {2.3.4}Modeling Software}{34}{subsubsection.2.3.4}% 
 \contentsline {subsubsection}{\numberline {2.3.5}Data Weighting}{34}{subsubsection.2.3.5}% 
 \contentsline {subsubsection}{\numberline {2.3.6}Priors}{34}{subsubsection.2.3.6}% 
 \contentsline {subsubsection}{\numberline {2.3.7}Estimated and Fixed Parameters}{35}{subsubsection.2.3.7}% 
@@ -52,12 +52,12 @@
 \contentsline {subsubsection}{\numberline {2.6.1}Convergence}{43}{subsubsection.2.6.1}% 
 \contentsline {subsubsection}{\numberline {2.6.2}Parameter Estimates}{43}{subsubsection.2.6.2}% 
 \contentsline {subsubsection}{\numberline {2.6.3}Fits to the Data}{44}{subsubsection.2.6.3}% 
-\contentsline {subsubsection}{\numberline {2.6.4}Retrospective Analysis}{45}{subsubsection.2.6.4}% 
+\contentsline {subsubsection}{\numberline {2.6.4}Retrospective Analysis}{46}{subsubsection.2.6.4}% 
 \contentsline {subsubsection}{\numberline {2.6.5}Likelihood Profiles}{46}{subsubsection.2.6.5}% 
 \contentsline {subsubsection}{\numberline {2.6.6}Reference Points}{47}{subsubsection.2.6.6}% 
 \contentsline {section}{\numberline {3}Harvest Projections and Decision Tables}{48}{section.3}% 
 \contentsline {section}{\numberline {4}Regional Management Considerations}{48}{section.4}% 
-\contentsline {section}{\numberline {5}Research Needs}{48}{section.5}% 
+\contentsline {section}{\numberline {5}Research Needs}{49}{section.5}% 
 \contentsline {section}{\numberline {6}Acknowledgments}{50}{section.6}% 
 \contentsline {section}{\numberline {7}Tables}{51}{section.7}% 
 \contentsline {section}{\numberline {8}Figures}{81}{section.8}% 

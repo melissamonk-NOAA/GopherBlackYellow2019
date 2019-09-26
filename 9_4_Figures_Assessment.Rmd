@@ -10,6 +10,22 @@ output:
 \FloatBarrier
 
 <!-- ********************************************************************** -->
+<!-- ****************Model description section FIGURES********************* --> 
+<!-- ********************************************************************** -->
+ 
+![Length distribution by month for GBYR captured using a sampling tool called a Standard Monitoring Unit for the Recruitment of Fishes (SMURFs) from the UCSC-PISCO kelp forest fish survey, specifically as part of Diana Baetscher's dissertation work (Baetscher 2019). \label{fig:SMURF_lengths}](Figures/SMURF_lengths.png)
+
+\FloatBarrier
+
+![Length distributions of gopher and black-and-yellow rockfish for the commercial fleet and WCGOP discards north and south of Point Conception. The commercial landings were also separated between fish landed live and fish landed dead for this figure. \label{fig:Comm_lengths_justification}](Figures/Comm_lengths_justification.png)
+
+\FloatBarrier
+
+![Length distributions of gopher and black-and-yellow rockfish for the recreational fleet north and south of Point Conception and by mode.  \label{fig:Rec_lengths_justification}](Figures/Rec_lengths_justification.png)
+
+\FloatBarrier
+
+<!-- ********************************************************************** -->
 <!-- ***********History of modelleing approaches FIGURES******************* --> 
 <!-- ********************************************************************** -->
 
@@ -61,19 +77,6 @@ output:
 ![. Results of request 10, drop-1-out analysis. Time series of relative (top) and absolute (middle) spawning output and recruitment estimates (now staring in 1978; bottom). \label{fig:STAR_request10}](Figures/STAR_request10.png)
 
 
-<!-- ********************************************************************** -->
-<!-- ****************Model description section FIGURES********************* --> 
-<!-- ********************************************************************** -->
- 
-![Length distribution by month for GBYR captured using a sampling tool called a Standard Monitoring Unit for the Recruitment of Fishes (SMURFs) from the UCSC-PISCO kelp forest fish survey, specifically as part of Diana Baetscher's dissertation work (Baetscher 2019). \label{fig:SMURF_lengths}](Figures/SMURF_lengths.png)
-
-\FloatBarrier
-
-![Length distributions of gopher and black-and-yellow rockfish for the commercial fleet and WCGOP discards north and south of Point Conception. The commercial landings were also separated between fish landed live and fish landed dead for this figure. \label{fig:Comm_lengths_justification}](Figures/Comm_lengths_justification.png)
-
-\FloatBarrier
-
-![Length distributions of gopher and black-and-yellow rockfish for the recreational fleet north and south of Point Conception and by mode.  \label{fig:Rec_lengths_justification}](Figures/Rec_lengths_justification.png)
 
 <!-- ====================================================================== -->
 <!-- *********************BASE MODEL FIGURES******************************* -->
@@ -208,12 +211,21 @@ output:
 
 <!-- ***********R0 Likelihood profile FIGURES****************************** --> 
 
-![Likelihood profile across R\textsubscript{0} values of length composition by fleet. \label{fig:profile_R0_piner}](Figures/profile_R0_piner.png)
+
 
 ![Likelihood profile for R\textsubscript{0} values across surveys. \label{fig:profile_R0_piner2}](Figures/profile_R0_piner2.png)
 
+\FloatBarrier
 
 ![Likelihood profile across R\textsubscript{0} values for each data type. \label{fig:profile_R0_like}](Figures/profile_R0_like.png)
+
+\FloatBarrier
+
+![Likelihood profile across R\textsubscript{0} values of length composition by fleet. \label{fig:profile_R0_piner}](Figures/profile_R0_piner.png)
+
+
+
+
 
 
 
@@ -227,6 +239,15 @@ output:
 
 <!-- ***********h Likelihood profile FIGURES******************************* -->
 
+
+![Likelihood profile across steepness values for each data type. \label{fig:profile_h_like}](Figures/profile_h_like.png)
+
+\FloatBarrier 
+
+![Trajectories of depletion across values of steepness. \label{fig:profile_h_depl}](Figures/profile_h_depl.png)
+
+\FloatBarrier
+
 ![Likelihood profile across steepness values by fleet length composition. \label{fig:profile_h_piner}](Figures/profile_h_piner.png)
 
 \FloatBarrier
@@ -236,13 +257,15 @@ output:
 \FloatBarrier
 
 
-![Likelihood profile across steepness values for each data type. \label{fig:profile_h_like}](Figures/profile_h_like.png)
-
-![Trajectories of depletion across values of steepness. \label{fig:profile_h_depl}](Figures/profile_h_depl.png)
 
 
 <!-- ***********M Likelihood profile FIGURES******************************* -->
 
+\FloatBarrier 
+
+![Likelihood profile across female natural mortality values for each data type. \label{fig:profile_m_like}](Figures/profile_m_like.png)
+
+\FloatBarrier
 
 ![Likelihood profile across female natural mortality values by length composition. \label{fig:profile_m_piner}](Figures/profile_m_piner.png)
 
@@ -250,9 +273,7 @@ output:
 
 ![Likelihood profile across female natural mortality values by surveys. \label{fig:profile_m_piner2}](Figures/profile_m_piner2.png)
 
-\FloatBarrier
 
-![Likelihood profile across female natural mortality values for each data type. \label{fig:profile_m_like}](Figures/profile_m_like.png)
 
 \FloatBarrier
 
