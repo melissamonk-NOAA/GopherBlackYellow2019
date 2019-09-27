@@ -126,8 +126,6 @@ source('./Rcode/Parse_r4ss_plotInfoTable.R')
 
 
 #Create the numbers at age table
-dir1 = "C:/GopherBlackYellow2019/SS/Base_model1"
-rawstarter   <- readLines(paste0(dir1, "/starter.ss"))
 SSexecutivesummary(dir = dir1, tables = c("numbers"))
 # -----------------------------------------------------------------------------
 
