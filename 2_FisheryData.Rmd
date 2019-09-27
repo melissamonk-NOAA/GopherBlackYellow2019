@@ -383,7 +383,8 @@ Figure \ref{fig:All_index_compare} shows each index from the pre-STAR base model
 modified or removed from the model) scaled to the mean value of that index to 
 show them all on the same scale, i.e., the mean of each index in the plot is 1.  Figure 
 \ref{fig:All_index_compare_postSTAR} shows the final set of indices in the post-STAR base model, each 
-scaled to their mean.
+scaled to their mean. The final index values and associated log standard error included in the
+assessment can be found in Table \ref{tab:Indices}.
 
 **MRFSS Dockside CPFV Index**
 
@@ -512,8 +513,8 @@ are also rare south of Point Conception, both leading to a higher proportion of 
 in the trip data than for north of Point Conception.
 
 Model selection using Akaike Information Criterion 
-(AIC) supported inclusion of year, region, area_x, and 2-month waves. Counties 
-were grouped into three regions, Santa Barbara to Ventura counties, Los Angeles 
+(AIC) supported inclusion of year, region, area_x, and 2-month waves (Table \ref{tab:Fleet11_AIC}). 
+Counties were grouped into three regions, Santa Barbara to Ventura counties, Los Angeles 
 and Orange counties, and San Diego county for both the positive observation model and 
 the binomial model.  Area_x is a measure of distance from shore, a categorical variable 
 indicating whether most of the fishing occurred inside or outside three nautical 
@@ -529,7 +530,7 @@ the three years in the 1990s does not exhibit any significant trend.
 
 Onboard observer survey data were available from three sources for this assessment, 
 1) a CDFW survey in central California from 1987-1998 (referred to as the Deb 
-Wilson-Vandenberg onboard observer survey, [@Reilly1998])) the CDFW CPFV onboard 
+Wilson-Vandenberg onboard observer survey, [@Reilly1998]) the CDFW CPFV onboard 
 observer survey from 1999-2018, 
 and 3) a Cal Poly survey from 2003-2018.  During an onboard observer trip the 
 sampler rides along on the CPFV and records location-specific catch and discard 
@@ -570,9 +571,8 @@ anglers using the number of anglers aboard the vessel and the number of observed
 at each fishing stop from the August 1992-December 1998 data (see Supplemental materials 
 for details).  In 1987, trips were only observed in Monterey, CA and were therefore excluded 
 from the analysis.  The years 1990 and 1991 were also removed for low sample sizes.  Final 
-data filters included removing reefs that 
-never encountered GBYR, drifts that had fishing times outside 95% of the data, and fishing 
-stops with depths <9 m and >69m.  The final data set contained 2,411 fishing stops, with 
+data filters included removing reefs that never encountered GBYR, drifts that had fishing 
+times outside 95% of the data, and fishing stops with depths <9 m and >69m (Table  \ref{tab:Fleet5_Filter}).  The final data set contained 2,411 fishing stops, with 
 1,096 of those encountering GBYR (Figure \ref{fig:DebWV_sites}). 
 
 The index was fit using a delta-GLM model, with a lognormal model (AIC: 1,088) 
@@ -634,7 +634,8 @@ leaving 12,965 drifts for the final index, 5,796 of which encountered GBYR
 The index of abundance was modeled with a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and 12 reefs as possible 
 covariates.  A lognormal model (AIC: 12,185) was selected over a gamma (AIC: 12,520) 
-for the positive observations using AIC. The full model was selected by AIC for the 
+for the positive observations using AIC (Table \ref{tab:Fleet6_AIC}). The 
+full model was selected by AIC for the 
 lognormal and binomial components of the delta-GLM. The index indicates a relatively 
 stable trend from 2001-2009 and a steady decrease from 2010-2013.  The relative index 
 of abundance has increased since 2014.
@@ -658,7 +659,8 @@ encountered GBYR (Figure \ref{fig:Onboard_observer_south_sites}).
 The index of abundance was modeled with a delta-GLM modeling approach, 
 with year, month, 10 m depth bins from 10-59 m, and four reefs as possible 
 covariates.  A lognormal model (AIC: 162) was selected over a gamma (AIC: 277) 
-for the positive observations using AIC. A model with year, depth and reef was 
+for the positive observations using AIC (Table \ref{tab:Fleet7_AIC}). 
+A model with year, depth and reef was 
 selected by AIC for both the lognormal and binomial components of the delta-GLM. 
 The index indicates a relatively stable trend from 2001-2004 and a steady increase 
 from 2005-2017. 
@@ -720,7 +722,8 @@ abundance, CPUE was modeled at the level of the drift, similar to the
 fishery-dependent onboard observer survey described above.
 
 The CCFRP data are quality controlled at the time they are key punched and little 
-filtering was needed for the index. Cells not consistently sampled over time were 
+filtering was needed for the index (Table \ref{tab:Fleet9_Filter}). 
+Cells not consistently sampled over time were 
 excluded as well as cells that never encountered GBYR. CCFRP samples shallower 
 depths to avoid barotrauma-induced mortality. The index was constrained to 5-39m 
 in 5 m depth bins.  The final index included 4,920 drifts, 3,848 of which encountered GBYR.
@@ -786,7 +789,8 @@ through the University of California Santa Barbara in southern California.   All
 data were provided by Dan Malone (UCSC).
 
 The majority of filtering for the PISCO data set was to determine which sites to retain for 
-the final index. After initial filtering the data for GBYR in southern California 
+the final index (Table \ref{tab:Fleet8_Filter}). After initial filtering the data 
+for GBYR in southern California 
 were too sparse to be considered for the index of abundance.  Gopher and black-and-yellow 
 rockfish were also rarely observed in the midwater and canopy transects, and therefore 
 the index is based only on the benthic transects.  Only sites sampled consistently throughout 
@@ -809,7 +813,8 @@ the 7-14 cm are also not well sampled by the survey.
 For all three iterations of the index we modeled number of fish observed per 
 transect(s) using maximum likelihood and Bayesian regression.  The index containing 
 all data and the index for larger fish (15+ cm) only were modeled as negative binomial, 
-whereas the data for the age-0 (for which the 4-6 cm fish serve as a proxy) index were sparse and modeled as binomial. Models incorporating 
+whereas the data for the age-0 (for which the 4-6 cm fish serve as a proxy) index were 
+sparse and modeled as binomial. Models incorporating 
 temporal (year, month) and geographic (site and zone) factors were evaluated. The zone is a 
 factor indicating the depth stratification at a site, i.e., 5 m, 10 m, 15 m, or 20 m 
 targeted bottom depth. 

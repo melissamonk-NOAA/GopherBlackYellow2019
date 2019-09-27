@@ -103,11 +103,11 @@ Off California in 2019}
 \usepackage{cmap}                                                 % fix mapping characters to unicode
 \RequirePackage[linewidth = 1]{pdfcomment}                        % pdf comments
 \RequirePackage[l2tabu, orthodox]{nag}                            % checks packages related to the accessibility?
-%\usepackage[inline]{showlabels}                                   % show table and figure labels; comment                                                                      out for final
+\usepackage[inline]{showlabels}                                   % show table and figure labels; comment                                                                      out for final
 %\RequirePackage[tagged]{accessibilityMeta}
 \usepackage{booktabs} 
 
-%\linenumbers                                                      % specify use of line numbers
+\linenumbers                                                      % specify use of line numbers
 
 \newcommand{\ndd}{Unpublished}
 
@@ -1716,7 +1716,9 @@ each index from the pre-STAR base model (before any were modified or
 removed from the model) scaled to the mean value of that index to show
 them all on the same scale, i.e., the mean of each index in the plot is
 1. Figure \ref{fig:All_index_compare_postSTAR} shows the final set of
-indices in the post-STAR base model, each scaled to their mean.
+indices in the post-STAR base model, each scaled to their mean. The
+final index values and associated log standard error included in the
+assessment can be found in Table \ref{tab:Indices}.
 
 \textbf{MRFSS Dockside CPFV Index}
 
@@ -1863,12 +1865,13 @@ rare south of Point Conception, both leading to a higher proportion of
 zeroes in the trip data than for north of Point Conception.
 
 Model selection using Akaike Information Criterion (AIC) supported
-inclusion of year, region, area\_x, and 2-month waves. Counties were
-grouped into three regions, Santa Barbara to Ventura counties, Los
-Angeles and Orange counties, and San Diego county for both the positive
-observation model and the binomial model. Area\_x is a measure of
-distance from shore, a categorical variable indicating whether most of
-the fishing occurred inside or outside three nautical miles from shore.
+inclusion of year, region, area\_x, and 2-month waves (Table
+\ref{tab:Fleet11_AIC}). Counties were grouped into three regions, Santa
+Barbara to Ventura counties, Los Angeles and Orange counties, and San
+Diego county for both the positive observation model and the binomial
+model. Area\_x is a measure of distance from shore, a categorical
+variable indicating whether most of the fishing occurred inside or
+outside three nautical miles from shore.
 
 The resulting index for south of Point Conception represents different
 years than the index for north of Point Conception (Table
@@ -1882,7 +1885,7 @@ for the three years in the 1990s does not exhibit any significant trend.
 Onboard observer survey data were available from three sources for this
 assessment, 1) a CDFW survey in central California from 1987-1998
 (referred to as the Deb Wilson-Vandenberg onboard observer survey,
-(Reilly et al. \protect\hyperlink{ref-Reilly1998}{1998}))) the CDFW CPFV
+(Reilly et al. \protect\hyperlink{ref-Reilly1998}{1998})) the CDFW CPFV
 onboard observer survey from 1999-2018, and 3) a Cal Poly survey from
 2003-2018. During an onboard observer trip the sampler rides along on
 the CPFV and records location-specific catch and discard information to
@@ -1934,8 +1937,9 @@ excluded from the analysis. The years 1990 and 1991 were also removed
 for low sample sizes. Final data filters included removing reefs that
 never encountered GBYR, drifts that had fishing times outside 95\% of
 the data, and fishing stops with depths \textless{}9 m and
-\textgreater{}69m. The final data set contained 2,411 fishing stops,
-with 1,096 of those encountering GBYR (Figure \ref{fig:DebWV_sites}).
+\textgreater{}69m (Table \ref{tab:Fleet5_Filter}). The final data set
+contained 2,411 fishing stops, with 1,096 of those encountering GBYR
+(Figure \ref{fig:DebWV_sites}).
 
 The index was fit using a delta-GLM model, with a lognormal model (AIC:
 1,088) selected over a gamma model (AIC: 1,143) for the positive
@@ -2007,11 +2011,11 @@ in at least 2/3 of all years, leaving 12,965 drifts for the final index,
 The index of abundance was modeled with a delta-GLM modeling approach,
 with year, month, 10 m depth bins from 10-59 m, and 12 reefs as possible
 covariates. A lognormal model (AIC: 12,185) was selected over a gamma
-(AIC: 12,520) for the positive observations using AIC. The full model
-was selected by AIC for the lognormal and binomial components of the
-delta-GLM. The index indicates a relatively stable trend from 2001-2009
-and a steady decrease from 2010-2013. The relative index of abundance
-has increased since 2014.
+(AIC: 12,520) for the positive observations using AIC (Table
+\ref{tab:Fleet6_AIC}). The full model was selected by AIC for the
+lognormal and binomial components of the delta-GLM. The index indicates
+a relatively stable trend from 2001-2009 and a steady decrease from
+2010-2013. The relative index of abundance has increased since 2014.
 
 \emph{Filtering and Index Standardization for south of Point Conception}
 
@@ -2033,10 +2037,11 @@ for the final index, of which 1,132 encountered GBYR (Figure
 The index of abundance was modeled with a delta-GLM modeling approach,
 with year, month, 10 m depth bins from 10-59 m, and four reefs as
 possible covariates. A lognormal model (AIC: 162) was selected over a
-gamma (AIC: 277) for the positive observations using AIC. A model with
-year, depth and reef was selected by AIC for both the lognormal and
-binomial components of the delta-GLM. The index indicates a relatively
-stable trend from 2001-2004 and a steady increase from 2005-2017.
+gamma (AIC: 277) for the positive observations using AIC (Table
+\ref{tab:Fleet7_AIC}). A model with year, depth and reef was selected by
+AIC for both the lognormal and binomial components of the delta-GLM. The
+index indicates a relatively stable trend from 2001-2004 and a steady
+increase from 2005-2017.
 
 \subsubsection{Fishery-Dependent Indices: Available Length and Age
 Data}\label{fishery-dependent-indices-available-length-and-age-data}
@@ -2104,11 +2109,12 @@ similar to the fishery-dependent onboard observer survey described
 above.
 
 The CCFRP data are quality controlled at the time they are key punched
-and little filtering was needed for the index. Cells not consistently
-sampled over time were excluded as well as cells that never encountered
-GBYR. CCFRP samples shallower depths to avoid barotrauma-induced
-mortality. The index was constrained to 5-39m in 5 m depth bins. The
-final index included 4,920 drifts, 3,848 of which encountered GBYR.
+and little filtering was needed for the index (Table
+\ref{tab:Fleet9_Filter}). Cells not consistently sampled over time were
+excluded as well as cells that never encountered GBYR. CCFRP samples
+shallower depths to avoid barotrauma-induced mortality. The index was
+constrained to 5-39m in 5 m depth bins. The final index included 4,920
+drifts, 3,848 of which encountered GBYR.
 
 We modeled catch per angler hour (CPUE; number of fish per angler hour)
 using maximum likelihood and Bayesian negative binomial regression. The
@@ -2177,17 +2183,18 @@ California and through the University of California Santa Barbara in
 southern California. All PISCO data were provided by Dan Malone (UCSC).
 
 The majority of filtering for the PISCO data set was to determine which
-sites to retain for the final index. After initial filtering the data
-for GBYR in southern California were too sparse to be considered for the
-index of abundance. Gopher and black-and-yellow rockfish were also
-rarely observed in the midwater and canopy transects, and therefore the
-index is based only on the benthic transects. Only sites sampled
-consistently throughout the time period 2001-2018 were kept for the
-index. Multiple transects can be conducted along the same line within a
-sampling event. All transects within a site were combined and effort was
-modeled as the number of transects represented in the number of fish
-observed. The final index included 3,231 transects, of which 1,729
-observed GBYR (Figure \ref{fig:PISCO_sites}).
+sites to retain for the final index (Table \ref{tab:Fleet8_Filter}).
+After initial filtering the data for GBYR in southern California were
+too sparse to be considered for the index of abundance. Gopher and
+black-and-yellow rockfish were also rarely observed in the midwater and
+canopy transects, and therefore the index is based only on the benthic
+transects. Only sites sampled consistently throughout the time period
+2001-2018 were kept for the index. Multiple transects can be conducted
+along the same line within a sampling event. All transects within a site
+were combined and effort was modeled as the number of transects
+represented in the number of fish observed. The final index included
+3,231 transects, of which 1,729 observed GBYR (Figure
+\ref{fig:PISCO_sites}).
 
 Three indices are described below. The pre-STAR base model includes a
 single index of abundance for the PISCO survey. During the STAR panel
@@ -4030,39 +4037,6 @@ Year & North of Pt. Conception & South of Pt. Conception & Total Recreational Re
 
 \FloatBarrier
 
-\begin{table}[ht]
-\centering
-\caption{Length composition sample sizes for survey data.} 
-\label{tab:length_samples_survey}
-\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
-  \hline
-   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CCFRP} & \multicolumn{2}{c}{PISCO} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5}
-  Year & Trips & Lengths & Trips & Lengths \\ 
-  \hline
-2001 &  &  &  55 & 222 \\ 
-  2002 &  &  &  56 & 438 \\ 
-  2003 &  &  &  64 & 473 \\ 
-  2004 &  &  &  64 & 312 \\ 
-  2005 &  &  &  65 & 241 \\ 
-  2006 &  &  &  68 & 220 \\ 
-  2007 &  35 & 2147 &  68 & 156 \\ 
-  2008 &  52 & 3143 &  67 & 198 \\ 
-  2009 &  35 & 1579 &  68 & 154 \\ 
-  2010 &  32 & 2201 &  58 & 144 \\ 
-  2011 &  32 & 1727 &  68 & 260 \\ 
-  2012 &  32 & 1820 &  40 & 183 \\ 
-  2013 &  32 & 685 &  61 & 258 \\ 
-  2014 &  32 & 1655 &  61 & 313 \\ 
-  2015 &  18 & 1121 &  64 & 622 \\ 
-  2016 &  32 & 2015 &  56 & 346 \\ 
-  2017 &  58 & 2402 &  58 & 317 \\ 
-  2018 &  29 & 1975 &  60 & 264 \\ 
-   \hline
-  \end{tabular}
-\end{table}
-
-\FloatBarrier
-
 \begin{landscape}
 \begin{table}[ht]
 \centering
@@ -4088,6 +4062,8 @@ Fleet & Years & Name & Fishery ind. & Filtering & Method & Endorsed \\
 \end{tabular}
 \end{table}
 \end{landscape}
+
+\FloatBarrier
 
 \begin{table}[ht]
 \centering
@@ -4143,9 +4119,125 @@ Fleet & Years & Name & Fishery ind. & Filtering & Method & Endorsed \\
 }
 \end{table}
 
+\vspace{3cm}
+
 \FloatBarrier
 
-\begin{table}[ht]
+\begin{table}[!h]
+\centering
+\caption{Data filtering steps for the MRFSS dockside intercept survey 
+                                           index of abundance for north and south of Pt. Conception.} 
+\label{tab:Fleet10_11_Filter}
+\begin{tabular}{>{\raggedright}p{4in}cc}
+  \hline
+Filter & Trips & Positive Trips \\ 
+  \hline
+All data & 10,392 & 1,061 \\ 
+  Remove north of Cape Mendocino & 10,327 & 1,061 \\ 
+  Remove trips targeting offshore species & 10,122 & 1,061 \\ 
+   &  &  \\ 
+  Start northern filtering & 2,788 & 620 \\ 
+  Remove species that never co-occur and  not present in at least 1\% of all & 2,788 & 620 \\ 
+  Stephens-MacCall filter (keep all positives - selected filter) & 806 & 620 \\ 
+  Alternate Stephens-MacCall filter (keep only above threshold) & 623 & 437 \\ 
+  Remove years after 1999 due to regulation changes and with fewer than 20 trips & 544 & 220 \\ 
+   &  &  \\ 
+  Start southern filtering & 7,334 & 441 \\ 
+  Remove species that never co-occur and  not present in at least 1\% of all & 7,334 & 441 \\ 
+  Stephens-MacCall filter (keep all positives - selected filter) & 687 & 441 \\ 
+  Alternate Stephens-MacCall filter (keep only above threshold) & 430 & 184 \\ 
+  Remove years after 1999 due to regulation changes and with fewer than 20 trips & 475 & 342 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\clearpage
+\newpage
+
+\vspace{3cm}
+
+\begin{table}[!h]
+\centering
+\caption{Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR north of Pt. Conception.} 
+\label{tab:Fleet10_contingency}
+\begin{tabular}{rcc}
+  \hline
+  & GBYR absent & GBYR present \\ 
+  \hline
+Above 0.4 & 186 & 437 \\ 
+  Below 0.4 & 1982 & 183 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\vspace{3cm}
+
+\vspace{3cm}
+
+\begin{table}[!h]
+\centering
+\caption{Model selection for the MRFSS dockside intercept survey 
+                                        north of Pt. Conception. Bold 
+                                        values indicate the model selected.} 
+\label{tab:Fleet10_AIC}
+\begin{tabular}{ll}
+  \hline
+Model & AIC \\ 
+  \hline
+Year & 1,481 \\ 
+  Year + Region & 1,429 \\ 
+  Year + Region + Area\_X & 1,403 \\ 
+  Year + Region + Area\_X + Wave & \textbf{1,397} \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\vspace{3cm}
+
+\begin{table}[!h]
+\centering
+\caption{Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR south of Pt. Conception.} 
+\label{tab:Fleet11_contingency}
+\begin{tabular}{rcc}
+  \hline
+  & GBYR absent & GBYR present \\ 
+  \hline
+Above 0.22 & 246 & 184 \\ 
+  Below 0.22 & 6647 & 257 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\vspace{3cm}
+
+\vspace{3cm}
+
+\begin{table}[!h]
+\centering
+\caption{Model selection for the MRFSS dockside intercept 
+                                        survey south of Pt. Conception. Bold 
+                                        values indicate the model selected.} 
+\label{tab:Fleet11_AIC}
+\begin{tabular}{lll}
+  \hline
+Model & Lognormal & Binomial \\ 
+  \hline
+Year & 911 & 552 \\ 
+  Year+ Wave & 908 & 538 \\ 
+  Year + Wave + Area\_X & 905 & 540 \\ 
+  Year + Wave + Area\_X + SubRegion & \textbf{903} & \textbf{537} \\ 
+  Year + Wave + SubRegion & 908 & 536 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\vspace{3cm}
+
+\begin{table}[!h]
 \centering
 \caption{Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
                                         index of abundance.} 
@@ -4187,7 +4279,7 @@ Year & 2834 & 3330 \\
 \end{tabular}
 \end{table}
 
-\FloatBarrier
+\vspace{3cm} \FloatBarrier
 
 \begin{table}[ht]
 \centering
@@ -4265,6 +4357,41 @@ Year & 2798 & 5490 \\
 \end{table}
 
 \newpage
+
+\begin{table}[ht]
+\centering
+\caption{Data filtering steps for the fishery-independent CCFRP hook-and-line survey.} 
+\label{tab:Fleet9_Filter}
+\begin{tabular}{>{\raggedright}p{3.5in}c>{\centering}p{1.4in}}
+  \hline
+Filter & Drifts & Positive Drifts \\ 
+  \hline
+All data & 5,886 & Drift and catch data not merged \\ 
+  Remove missing data and cells not sampled consistently at Piedras Blancas & 4,942 & 3,857 \\ 
+  Remove cells that never encountered GBYR & 4,934 & 3,857 \\ 
+  Remove depth bins with little or no sampling (keep 5-39 m) & 4,920 & 3,848 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\vspace{3cm}
+
+\begin{table}[ht]
+\centering
+\caption{Model selection for the fishery-independent CCFRP hook-and-line survey.} 
+\label{tab:Fleet9_AIC}
+\begin{tabular}{ll}
+  \hline
+Model & AIC \\ 
+  \hline
+Year & 23,212 \\ 
+  Year + Month & 23,214 \\ 
+  Year + Depth & 22,901 \\ 
+  Year + Depth + Site & 22,642 \\ 
+  Year + Depth + Site + MPA/REF & \textbf{22,341} \\ 
+   \hline
+\end{tabular}
+\end{table}
 
 \FloatBarrier
 
@@ -4348,142 +4475,37 @@ Year & 708 \\
 \end{tabular}
 \end{table}
 
-\begin{table}[ht]
-\centering
-\caption{Data filtering steps for the fishery-independent CCFRP hook-and-line survey.} 
-\label{tab:Fleet9_Filter}
-\begin{tabular}{>{\raggedright}p{3.5in}c>{\centering}p{1.4in}}
-  \hline
-Filter & Drifts & Positive Drifts \\ 
-  \hline
-All data & 5,886 & Drift and catch data not merged \\ 
-  Remove missing data and cells not sampled consistently at Piedras Blancas & 4,942 & 3,857 \\ 
-  Remove cells that never encountered GBYR & 4,934 & 3,857 \\ 
-  Remove depth bins with little or no sampling (keep 5-39 m) & 4,920 & 3,848 \\ 
-   \hline
-\end{tabular}
-\end{table}
-
-\vspace{3cm}
-
-\begin{table}[ht]
-\centering
-\caption{Model selection for the fishery-independent CCFRP hook-and-line survey.} 
-\label{tab:Fleet9_AIC}
-\begin{tabular}{ll}
-  \hline
-Model & AIC \\ 
-  \hline
-Year & 23,212 \\ 
-  Year + Month & 23,214 \\ 
-  Year + Depth & 22,901 \\ 
-  Year + Depth + Site & 22,642 \\ 
-  Year + Depth + Site + MPA/REF & \textbf{22,341} \\ 
-   \hline
-\end{tabular}
-\end{table}
-
 \FloatBarrier
 
 \begin{table}[ht]
 \centering
-\caption{Data filtering steps for the MRFSS dockside intercept survey 
-                                           index of abundance for north and south of Pt. Conception.} 
-\label{tab:Fleet10_11_Filter}
-\begin{tabular}{>{\raggedright}p{4in}cc}
+\caption{Length composition sample sizes for survey data.} 
+\label{tab:length_samples_survey}
+\begin{tabular}{l>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}>{\centering}p{0.6in}}
   \hline
-Filter & Trips & Positive Trips \\ 
+   \multicolumn{1}{c}{} & \multicolumn{2}{c}{CCFRP} & \multicolumn{2}{c}{PISCO} \\  \cmidrule(lr){2-3} \cmidrule(lr){4-5}
+  Year & Trips & Lengths & Trips & Lengths \\ 
   \hline
-All data & 10,392 & 1,061 \\ 
-  Remove north of Cape Mendocino & 10,327 & 1,061 \\ 
-  Remove trips targeting offshore species & 10,122 & 1,061 \\ 
-   &  &  \\ 
-  Start northern filtering & 2,788 & 620 \\ 
-  Remove species that never co-occur and  not present in at least 1\% of all & 2,788 & 620 \\ 
-  Stephens-MacCall filter (keep all positives - selected filter) & 806 & 620 \\ 
-  Alternate Stephens-MacCall filter (keep only above threshold) & 623 & 437 \\ 
-  Remove years after 1999 due to regulation changes and with fewer than 20 trips & 544 & 220 \\ 
-   &  &  \\ 
-  Start southern filtering & 7,334 & 441 \\ 
-  Remove species that never co-occur and  not present in at least 1\% of all & 7,334 & 441 \\ 
-  Stephens-MacCall filter (keep all positives - selected filter) & 687 & 441 \\ 
-  Alternate Stephens-MacCall filter (keep only above threshold) & 430 & 184 \\ 
-  Remove years after 1999 due to regulation changes and with fewer than 20 trips & 475 & 342 \\ 
+2001 &  &  &  55 & 222 \\ 
+  2002 &  &  &  56 & 438 \\ 
+  2003 &  &  &  64 & 473 \\ 
+  2004 &  &  &  64 & 312 \\ 
+  2005 &  &  &  65 & 241 \\ 
+  2006 &  &  &  68 & 220 \\ 
+  2007 &  35 & 2147 &  68 & 156 \\ 
+  2008 &  52 & 3143 &  67 & 198 \\ 
+  2009 &  35 & 1579 &  68 & 154 \\ 
+  2010 &  32 & 2201 &  58 & 144 \\ 
+  2011 &  32 & 1727 &  68 & 260 \\ 
+  2012 &  32 & 1820 &  40 & 183 \\ 
+  2013 &  32 & 685 &  61 & 258 \\ 
+  2014 &  32 & 1655 &  61 & 313 \\ 
+  2015 &  18 & 1121 &  64 & 622 \\ 
+  2016 &  32 & 2015 &  56 & 346 \\ 
+  2017 &  58 & 2402 &  58 & 317 \\ 
+  2018 &  29 & 1975 &  60 & 264 \\ 
    \hline
-\end{tabular}
-\end{table}
-
-\vspace{3cm}
-
-\begin{table}[ht]
-\centering
-\caption{Model selection for the MRFSS dockside intercept survey 
-                                        north of Pt. Conception. Bold 
-                                        values indicate the model selected.} 
-\label{tab:Fleet10_AIC}
-\begin{tabular}{ll}
-  \hline
-Model & AIC \\ 
-  \hline
-Year & 1,481 \\ 
-  Year + Region & 1,429 \\ 
-  Year + Region + Area\_X & 1,403 \\ 
-  Year + Region + Area\_X + Wave & \textbf{1,397} \\ 
-   \hline
-\end{tabular}
-\end{table}
-
-\vspace{3cm}
-
-\begin{table}[ht]
-\centering
-\caption{Model selection for the MRFSS dockside intercept 
-                                        survey south of Pt. Conception. Bold 
-                                        values indicate the model selected.} 
-\label{tab:Fleet11_AIC}
-\begin{tabular}{lll}
-  \hline
-Model & Lognormal & Binomial \\ 
-  \hline
-Year & 911 & 552 \\ 
-  Year+ Wave & 908 & 538 \\ 
-  Year + Wave + Area\_X & 905 & 540 \\ 
-  Year + Wave + Area\_X + SubRegion & \textbf{903} & \textbf{537} \\ 
-  Year + Wave + SubRegion & 908 & 536 \\ 
-   \hline
-\end{tabular}
-\end{table}
-
-\begin{table}[ht]
-\centering
-\caption{Contingency table for the Stephens-MacCall 
-                                            filtering for the MRFSS dockside CPFV index 
-                                            for GBYR north of Pt. Conception.} 
-\label{tab:Fleet10_contingency}
-\begin{tabular}{rcc}
-  \hline
-  & GBYR absent & GBYR present \\ 
-  \hline
-Above 0.4 & 186 & 437 \\ 
-  Below 0.4 & 1982 & 183 \\ 
-   \hline
-\end{tabular}
-\end{table}
-
-\begin{table}[ht]
-\centering
-\caption{Contingency table for the Stephens-MacCall 
-                                            filtering for the MRFSS dockside CPFV index 
-                                            for GBYR south of Pt. Conception.} 
-\label{tab:Fleet11_contingency}
-\begin{tabular}{rcc}
-  \hline
-  & GBYR absent & GBYR present \\ 
-  \hline
-Above 0.22 & 246 & 184 \\ 
-  Below 0.22 & 6647 & 257 \\ 
-   \hline
-\end{tabular}
+  \end{tabular}
 \end{table}
 
 \FloatBarrier
@@ -4514,62 +4536,6 @@ Port sampling & Commercial & 2009-2010; 2018 & Bodega; Morro Bay & hook-and-line
 \end{sidewaystable}
 
 \FloatBarrier
-
-\begin{table}[ht]
-\centering
-\caption{Comparison of ket parameters and likelihood 
-                                            components from the pre-STAR base model and the 
-                                            post-STAR base model.} 
-\label{tab:preSTAR_postSTAR_compare}
-\begin{tabular}{lrr}
-  \hline
-Parameter & Value & NA \\ 
-  \hline
-Female M & 0.21 & 0.19 \\ 
-  Steepness & 0.72 & 0.72 \\ 
-  lnR0 & 8.60 & 8.05 \\ 
-  Total biomass (mt) & 2369.39 & 2046.78 \\ 
-  Depletion & 0.46 & 0.44 \\ 
-  SPR ratio & 1.00 & 0.90 \\ 
-  Female Lmin & 9.67 & 13.42 \\ 
-  Female Lmax & 28.44 & 28.80 \\ 
-  Female K & 0.12 & 0.11 \\ 
-  Negative log-likelihood &  &  \\ 
-  TOTAL & 516.36 & 530.10 \\ 
-  Catch & 0.00 & 0.00 \\ 
-  Survey & -32.17 & -34.06 \\ 
-  Length\_comp & 372.46 & 411.53 \\ 
-  Age\_comp & 189.56 & 147.06 \\ 
-  Recruitment & -13.51 & 5.58 \\ 
-  Parm\_priors & 0.02 & 0.00 \\ 
-  Parm\_softbounds & 0.00 & 0.00 \\ 
-   \hline
-\end{tabular}
-\end{table}
-
-\begin{table}[ht]
-\centering
-\caption{Results from 100 jitters from the base 
-                                      case model.} 
-\label{tab:jitter}
-\begin{tabular}{lr}
-  \hline
-Description & Value \\ 
-  \hline
-MinLike & 530.10 \\ 
-  MaxLike & 538.08 \\ 
-  DiffLike & 7.98 \\ 
-  MinMGC & 0.00 \\ 
-  MaxMGC & 0.00 \\ 
-  DepletionAtMinLikePercent & 43.82 \\ 
-  DepletionAtMaxLikePercent & 41.40 \\ 
-  DiffDepletionPercent & -2.41 \\ 
-  NJitter & 300.00 \\ 
-  PropRunAtMinLike & 0.67 \\ 
-  PropRunAtMaxLike & 0.00 \\ 
-   \hline
-\end{tabular}
-\end{table}
 
 \begin{landscape}
 
@@ -4698,6 +4664,42 @@ TOTAL\_like & 516.36 & 516.61 & 524.71 & 508.20 & 4041.05 & 1734.79 \\
 \end{sidewaystable}
 
 \FloatBarrier
+
+\begin{table}[ht]
+\centering
+\caption{Comparison of ket parameters and likelihood 
+                                            components from the pre-STAR base model and the 
+                                            post-STAR base model.} 
+\label{tab:preSTAR_postSTAR_compare}
+\begin{tabular}{lrr}
+  \hline
+Parameter & Value & NA \\ 
+  \hline
+Female M & 0.21 & 0.19 \\ 
+  Steepness & 0.72 & 0.72 \\ 
+  lnR0 & 8.60 & 8.05 \\ 
+  Total biomass (mt) & 2369.39 & 2046.78 \\ 
+  Depletion & 0.46 & 0.44 \\ 
+  SPR ratio & 1.00 & 0.90 \\ 
+  Female Lmin & 9.67 & 13.42 \\ 
+  Female Lmax & 28.44 & 28.80 \\ 
+  Female K & 0.12 & 0.11 \\ 
+  Negative log-likelihood &  &  \\ 
+  TOTAL & 516.36 & 530.10 \\ 
+  Catch & 0.00 & 0.00 \\ 
+  Survey & -32.17 & -34.06 \\ 
+  Length\_comp & 372.46 & 411.53 \\ 
+  Age\_comp & 189.56 & 147.06 \\ 
+  Recruitment & -13.51 & 5.58 \\ 
+  Parm\_priors & 0.02 & 0.00 \\ 
+  Parm\_softbounds & 0.00 & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{table}
+
+\FloatBarrier
+
+\newpage
 
 \begin{table}[ht]
 \centering
@@ -4841,9 +4843,31 @@ Year & Total biomass (mt) & Spawning biomass (mt) & Depletion & Age-0 recruits &
 \hline
 \end{longtable}
 
-\FloatBarrier
-
 \newpage
+
+\begin{table}[ht]
+\centering
+\caption{Results from 100 jitters from the base 
+                                      case model.} 
+\label{tab:jitter}
+\begin{tabular}{lr}
+  \hline
+Description & Value \\ 
+  \hline
+MinLike & 530.10 \\ 
+  MaxLike & 538.08 \\ 
+  DiffLike & 7.98 \\ 
+  MinMGC & 0.00 \\ 
+  MaxMGC & 0.00 \\ 
+  DepletionAtMinLikePercent & 43.82 \\ 
+  DepletionAtMaxLikePercent & 41.40 \\ 
+  DiffDepletionPercent & -2.41 \\ 
+  NJitter & 300.00 \\ 
+  PropRunAtMinLike & 0.67 \\ 
+  PropRunAtMaxLike & 0.00 \\ 
+   \hline
+\end{tabular}
+\end{table}
 
 \begin{table}[ht]
 \centering

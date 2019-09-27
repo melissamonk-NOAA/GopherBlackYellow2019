@@ -163,51 +163,6 @@ print(lengths.table, add.to.row = a_header,
 \FloatBarrier
 
 
-<!-- ********************************************************************** --> 
-<!-- *****Survey Length comp tables TABLES******* -->
-<!-- ********************************************************************** --> 
-
-```{r, results = 'asis'}
-#Read in lengths table, make one for n fish lengthed and one for trips
-#Fishery independent data
-lengths_sample1 = read.csv('C:/GopherBlackYellow2019/txt_files/LengthSampleSize2.csv')
-lengths_sample1 = lengths_sample1 %>%
-                  select(Year, CCFRPT:PISCOF) %>%
-                  filter(Year>2000)
-#Make the multiheader table
-colnames(lengths_sample1) = c('Year','Trips','Lengths','Trips','Lengths')
-
-a_header <- construct_header(
-  # the data.frame or matrix that should be plotted
-  lengths_sample1,
-  # the labels of the groups that we want to insert
-  grp_names = c("","CCFRP","PISCO"),
-  # the number of columns each group spans
-  span = c(1, 2, 2),
-  # the alignment of each group, can be a single character (lcr) or a vector
-  align = "c"
-)
-
-caption = "Length composition sample sizes for survey data."
-
-lengths.table = xtable(lengths_sample1,
-                    caption = caption,
-                    label = 'tab:length_samples_survey')
-
-align(lengths.table) = c('l', 'l',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}',
-                               '>{\\centering}p{0.6in}')
-
-print(lengths.table, add.to.row = a_header, 
-      caption.placement = "top", 
-      include.rownames = F, hline.after = F)
-```
-
-
-
-\FloatBarrier
 
 <!-- ********************************************************************** -->
 <!-- *****Index TABLES with all indices - summary and index values******* -->
@@ -221,6 +176,7 @@ print(lengths.table, add.to.row = a_header,
 
 
 <!-- ***********Indices of abundance summary table************************* -->
+
 \begin{landscape}
 ```{r, results = 'asis'}
     Index_summary = read.csv('./txt_files/Index_summary.csv')
@@ -258,9 +214,10 @@ print(lengths.table, add.to.row = a_header,
             sanitize.text.function = function(x){x})
 ```
 \end{landscape}
+
 <!-- ---------------------------------------------------------------------- -->
 
-
+\FloatBarrier
 
 <!--Table with all index values-->
 
@@ -296,9 +253,151 @@ Indices.table = xtable(Indices,
 print(Indices.table, add.to.row = a_header, 
       caption.placement = "top", 
       include.rownames = F, hline.after = F, scalebox = .78)
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
 ```
 
 \FloatBarrier
+
+
+<!-- ********************************************************************** -->
+<!-- *****Fleets 10 and 11 index TABLES******* -->
+<!-- ********************************************************************** -->
+
+
+```{r, results="asis"}
+#read in index summary data for 2 MRFSS dockside indices
+Fleet10_11_Filter = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', 
+                            sheetName='BothFilter', header = T)
+
+Fleet10_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='NorthAIC', header=T)
+Fleet11_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='SouthAIC', header=T)
+
+
+colnames(Fleet10_11_Filter) = c('Filter','Trips','Positive Trips')
+Fleet10_11_Filter[4,] = c(NA,NA,NA)
+Fleet10_11_Filter[10,] = c(NA,NA,NA)
+
+Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
+                               caption = c("Data filtering steps for the MRFSS dockside intercept survey 
+                                           index of abundance for north and south of Pt. Conception."),
+                               label = 'tab:Fleet10_11_Filter', digits = 0,
+                               format.args = list(big.mark = ",",))
+
+align(Fleet10_11_Filter.table) =  c('l',
+                                   '>{\\raggedright}p{4in}',
+                                  'c','c')  
+
+print(Fleet10_11_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              table.placement="!h")
+
+
+
+```
+
+\clearpage
+\newpage
+
+
+```{r, results="asis"}
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+#Make the contingency table for GBYR MRFSS north
+
+b = c("Above 0.4",186,437)
+c = c("Below 0.4",1982,183)
+
+Fleet10_cont = rbind(b,c)
+colnames(Fleet10_cont) = c(" ","GBYR absent","GBYR present")
+
+Fleet10_cont.table = xtable(Fleet10_cont,
+                               caption = c("Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR north of Pt. Conception."),big.mark=",",
+                               label = 'tab:Fleet10_contingency')
+
+align(Fleet10_cont.table) = c('l','r','c','c')
+
+print(Fleet10_cont.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              table.placement="!h")
+```
+
+\vspace{3cm}
+
+```{r, results="asis"}
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+
+
+Fleet10_AIC.table = xtable(Fleet10_AIC,
+                            caption = c("Model selection for the MRFSS dockside intercept survey 
+                                        north of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet10_AIC')
+
+print(Fleet10_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x},
+              table.placement="!h")
+```
+
+\vspace{3cm}
+
+```{r, results="asis"}
+#Make the contingency table for GBYR MRFSS north
+
+b = c("Above 0.22",246,184)
+c = c("Below 0.22",6647,257)
+
+Fleet11_cont = rbind(b,c)
+colnames(Fleet11_cont) = c(" ","GBYR absent","GBYR present")
+
+Fleet11_cont.table = xtable(Fleet11_cont,
+                               caption = c("Contingency table for the Stephens-MacCall 
+                                            filtering for the MRFSS dockside CPFV index 
+                                            for GBYR south of Pt. Conception."),big.mark=",",
+                               label = 'tab:Fleet11_contingency')
+
+align(Fleet11_cont.table) = c('l','r','c','c')
+
+print(Fleet11_cont.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              table.placement="!h")
+```
+
+
+\vspace{3cm}
+
+
+```{r, results="asis"}
+
+Fleet11_AIC.table = xtable(Fleet11_AIC,
+                            caption = c("Model selection for the MRFSS dockside intercept 
+                                        survey south of Pt. Conception. Bold 
+                                        values indicate the model selected."),
+                            label='tab:Fleet11_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+print(Fleet11_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x},
+              table.placement="!h")
+```
+
+
+\vspace{3cm}
 
 <!-- ********************************************************************** -->
 <!-- *****Fleet 5 index TABLES******* -->
@@ -307,7 +406,6 @@ print(Indices.table, add.to.row = a_header,
 ```{r, results="asis"}
 #read in index summary data for Fleet 5 - Deb's onboard
 Fleet5_Filter = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='Filter', header = T)
-Fleet5_AIC = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='AIC', header=T)
 
 colnames(Fleet5_Filter) = c('Filter','Drifts','Positive Drifts')
 
@@ -320,20 +418,26 @@ Fleet5_Filter.table = xtable(Fleet5_Filter,
                        label = 'tab:Fleet5_Filter')
 
 
+print(Fleet5_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              table.placement="!h")
+
+
+```
+
+
+\vspace{3cm}
+
+
+```{r, results="asis"}
+Fleet5_AIC = read.xlsx('./txt_files/Fleet5_DebWV_IndexData.xlsx', sheetName='AIC', header=T)
+
 Fleet5_AIC.table = xtable(Fleet5_AIC,
                             caption = c("Model selection for Deb Wilson-Vandenberg's CPFV onboard observer 
                                         index of abundance. Bold values indicate the model selected."),
                             label='tab:Fleet5_AIC')
-      
 
-
-print(Fleet5_Filter.table, 
-              include.rownames=FALSE, 
-              caption.placement="top")
-
-
-#add space between tables
-cat(c("\\vspace{3cm}"))
 
 print(Fleet5_AIC.table, 
               include.rownames=FALSE, 
@@ -342,7 +446,7 @@ print(Fleet5_AIC.table,
      
 ```
 
-
+\vspace{3cm}
 \FloatBarrier
 
 <!-- ********************************************************************** -->
@@ -414,7 +518,57 @@ print(Fleet7_AIC.table,
 
 \newpage
 
+<!-- ********************************************************************** -->
+<!-- *****Fleet 9 index TABLES******* -->
+<!-- ********************************************************************** -->
+
+```{r, results="asis"}
+#read in index summary data for CCFRP
+Fleet9_Filter = read.xlsx('./txt_files/Fleet9_CCFRP_IndexData.xlsx', 
+                            sheetName='Filter', header = T)
+
+Fleet9_AIC = read.xlsx('./txt_files/Fleet9_CCFRP_IndexData.xlsx', sheetName='AIC', header=T)
+
+colnames(Fleet9_Filter) = c('Filter','Drifts','Positive Drifts')
+
+Fleet9_Filter.table = xtable(Fleet9_Filter,
+                       caption = c("Data filtering steps for the fishery-independent CCFRP hook-and-line survey."),
+                       label = 'tab:Fleet9_Filter',
+                       digits = 0)
+
+
+align(Fleet9_Filter.table) = c('l',
+                               '>{\\raggedright}p{3.5in}',
+                               'c',
+                               '>{\\centering}p{1.4in}')
+                   
+print(Fleet9_Filter.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              format.args = list(big.mark = ","))
+
+
+
+Fleet9_AIC.table = xtable(Fleet9_AIC,
+                            caption = c("Model selection for the fishery-independent CCFRP hook-and-line survey."),
+                            label='tab:Fleet9_AIC')
+
+#add space between tables
+cat(c("\\vspace{3cm}"))
+
+print(Fleet9_AIC.table, 
+              include.rownames=FALSE, 
+              caption.placement="top",
+              sanitize.text.function = function(x){x})
+
+
+```
+
+
+
 \FloatBarrier
+
+
 
 <!-- ********************************************************************** -->
 <!-- *****Fleets 8 index TABLES******* -->
@@ -513,162 +667,50 @@ print(Fleet8age0_AIC.table,
 ```
 
 
-<!-- ********************************************************************** -->
-<!-- *****Fleet 9 index TABLES******* -->
-<!-- ********************************************************************** -->
-
-```{r, results="asis"}
-#read in index summary data for CCFRP
-Fleet9_Filter = read.xlsx('./txt_files/Fleet9_CCFRP_IndexData.xlsx', 
-                            sheetName='Filter', header = T)
-
-Fleet9_AIC = read.xlsx('./txt_files/Fleet9_CCFRP_IndexData.xlsx', sheetName='AIC', header=T)
-
-colnames(Fleet9_Filter) = c('Filter','Drifts','Positive Drifts')
-
-Fleet9_Filter.table = xtable(Fleet9_Filter,
-                       caption = c("Data filtering steps for the fishery-independent CCFRP hook-and-line survey."),
-                       label = 'tab:Fleet9_Filter',
-                       digits = 0)
-
-
-align(Fleet9_Filter.table) = c('l',
-                               '>{\\raggedright}p{3.5in}',
-                               'c',
-                               '>{\\centering}p{1.4in}')
-                   
-print(Fleet9_Filter.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              format.args = list(big.mark = ","))
-
-
-
-Fleet9_AIC.table = xtable(Fleet9_AIC,
-                            caption = c("Model selection for the fishery-independent CCFRP hook-and-line survey."),
-                            label='tab:Fleet9_AIC')
-
-#add space between tables
-cat(c("\\vspace{3cm}"))
-
-print(Fleet9_AIC.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              sanitize.text.function = function(x){x})
-
-
-```
-
-
 
 \FloatBarrier
 
-<!-- ********************************************************************** -->
-<!-- *****Fleets 10 and 11 index TABLES******* -->
-<!-- ********************************************************************** -->
 
+<!-- ********************************************************************** --> 
+<!-- *****Survey Length comp tables TABLES******* -->
+<!-- ********************************************************************** --> 
 
-```{r, results="asis"}
-#read in index summary data for 2 MRFSS dockside indices
-Fleet10_11_Filter = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', 
-                            sheetName='BothFilter', header = T)
+```{r, results = 'asis'}
+#Read in lengths table, make one for n fish lengthed and one for trips
+#Fishery independent data
+lengths_sample1 = read.csv('C:/GopherBlackYellow2019/txt_files/LengthSampleSize2.csv')
+lengths_sample1 = lengths_sample1 %>%
+                  select(Year, CCFRPT:PISCOF) %>%
+                  filter(Year>2000)
+#Make the multiheader table
+colnames(lengths_sample1) = c('Year','Trips','Lengths','Trips','Lengths')
 
-Fleet10_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='NorthAIC', header=T)
-Fleet11_AIC = read.xlsx('./txt_files/Fleet10and11_MRFSSDockside_IndexData.xlsx', sheetName='SouthAIC', header=T)
+a_header <- construct_header(
+  # the data.frame or matrix that should be plotted
+  lengths_sample1,
+  # the labels of the groups that we want to insert
+  grp_names = c("","CCFRP","PISCO"),
+  # the number of columns each group spans
+  span = c(1, 2, 2),
+  # the alignment of each group, can be a single character (lcr) or a vector
+  align = "c"
+)
 
+caption = "Length composition sample sizes for survey data."
 
-colnames(Fleet10_11_Filter) = c('Filter','Trips','Positive Trips')
-Fleet10_11_Filter[4,] = c(NA,NA,NA)
-Fleet10_11_Filter[10,] = c(NA,NA,NA)
+lengths.table = xtable(lengths_sample1,
+                    caption = caption,
+                    label = 'tab:length_samples_survey')
 
-Fleet10_11_Filter.table = xtable(Fleet10_11_Filter,
-                               caption = c("Data filtering steps for the MRFSS dockside intercept survey 
-                                           index of abundance for north and south of Pt. Conception."),
-                               label = 'tab:Fleet10_11_Filter', digits = 0,
-                               format.args = list(big.mark = ",",))
+align(lengths.table) = c('l', 'l',
+                               '>{\\centering}p{0.6in}',
+                               '>{\\centering}p{0.6in}',
+                               '>{\\centering}p{0.6in}',
+                               '>{\\centering}p{0.6in}')
 
-align(Fleet10_11_Filter.table) =  c('l',
-                                   '>{\\raggedright}p{4in}',
-                                  'c','c')  
-
-print(Fleet10_11_Filter.table, 
-              include.rownames=FALSE, 
-              caption.placement="top")
-
-
-Fleet10_AIC.table = xtable(Fleet10_AIC,
-                            caption = c("Model selection for the MRFSS dockside intercept survey 
-                                        north of Pt. Conception. Bold 
-                                        values indicate the model selected."),
-                            label='tab:Fleet10_AIC')
-
-#add space between tables
-cat(c("\\vspace{3cm}"))
-
-print(Fleet10_AIC.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              sanitize.text.function = function(x){x})
-
-
-Fleet11_AIC.table = xtable(Fleet11_AIC,
-                            caption = c("Model selection for the MRFSS dockside intercept 
-                                        survey south of Pt. Conception. Bold 
-                                        values indicate the model selected."),
-                            label='tab:Fleet11_AIC')
-
-#add space between tables
-cat(c("\\vspace{3cm}"))
-
-print(Fleet11_AIC.table, 
-              include.rownames=FALSE, 
-              caption.placement="top",
-              sanitize.text.function = function(x){x})
-     
-```
-
-```{r, results="asis"}
-#Make the contingency table for GBYR MRFSS north
-
-b = c("Above 0.4",186,437)
-c = c("Below 0.4",1982,183)
-
-Fleet10_cont = rbind(b,c)
-colnames(Fleet10_cont) = c(" ","GBYR absent","GBYR present")
-
-Fleet10_cont.table = xtable(Fleet10_cont,
-                               caption = c("Contingency table for the Stephens-MacCall 
-                                            filtering for the MRFSS dockside CPFV index 
-                                            for GBYR north of Pt. Conception."),big.mark=",",
-                               label = 'tab:Fleet10_contingency')
-
-align(Fleet10_cont.table) = c('l','r','c','c')
-
-print(Fleet10_cont.table, 
-              include.rownames=FALSE, 
-              caption.placement="top")
-```
-
-```{r, results="asis"}
-#Make the contingency table for GBYR MRFSS north
-
-b = c("Above 0.22",246,184)
-c = c("Below 0.22",6647,257)
-
-Fleet11_cont = rbind(b,c)
-colnames(Fleet11_cont) = c(" ","GBYR absent","GBYR present")
-
-Fleet11_cont.table = xtable(Fleet11_cont,
-                               caption = c("Contingency table for the Stephens-MacCall 
-                                            filtering for the MRFSS dockside CPFV index 
-                                            for GBYR south of Pt. Conception."),big.mark=",",
-                               label = 'tab:Fleet11_contingency')
-
-align(Fleet11_cont.table) = c('l','r','c','c')
-
-print(Fleet11_cont.table, 
-              include.rownames=FALSE, 
-              caption.placement="top")
+print(lengths.table, add.to.row = a_header, 
+      caption.placement = "top", 
+      include.rownames = F, hline.after = F)
 ```
 
 \FloatBarrier
