@@ -85,7 +85,7 @@ The way growth is modeled for age-0 fish has changed.  More recent versions of S
 model length-at-age for fish below the first reference age (Amin) as linearly increasing 
 from the initial length bin to the length given by the L_at_Amin parameter. The minimum population 
 length bin was reduced from 10 cm in the 2005 assessment to 4 cm in this assessment.  The timing of 
-settlement was set at July to reflect the the month at which the young-of-the-year are expected to 
+settlement was set at July to reflect the month at which the young-of-the-year are expected to 
 be at 4 cm (Figure \ref{fig:SMURF_lengths}).  The length data leading to this decision were 
 provided by Diana Baetscher (UCSC) and were collected via Standard Monitoring Unit for the 
 Recruitment of Fishes (SMURFs) [@Ammann2004] from the UCSC-PISCO kelp forest fish survey as 
@@ -146,15 +146,13 @@ during the time when regulations changed (1999-2002).
 
 The 2005 assessment considered two candidate fishery-dependent indices of abundance, the Deb 
 Wilson-Vandenberg onboard observer CPFV survey and a dockside intercept survey from MRFSS 
-and RecFIN from 1983-2003.  However, the dockside index was removed at the request of the 
+from 1983-2003.  However, the dockside index was removed at the request of the 
 STAR panel, citing "did not provide a reliable measure of relative abundance due to changes 
 in regulations and fishery targeting during the 1990s-2000s."  The current assessment uses 
 a version of the MRFSS database that has been more robustly aggregated to the trip level. 
-Starting in 1999, the CDFW began angler interviews.  Interviews are conducted for all the anglers 
+Starting in 1999, MRFSS began angler interviews.  Interviews are conducted for all the anglers 
 on the boat, whereas the onboard data is only collected for a subset of anglers that changes with 
-each fishing stop. Once the onboard observer program ramped up by the mid-2000s, almost all of the 
-CPFV groundfish trips sampled as onboard observer trips were also sampled as angler interviews. 
-Using both the onboard observer data and the dockside interviews for this 
+each fishing stop. Using both the onboard observer data and the angler interviews for this 
 time period would result in developing indices from the same fish.  The fine-scale onboard observer 
 data provides greater detail in terms of catch and location than the angler interviews. 
 The onboard observer indices do not include the years 1999 and 2000 due to the number of regulation 
@@ -187,7 +185,7 @@ sections.
 ###Summary of Data for Fleets and Areas
 There are 10 fleets in the post-STAR base model.  They include:
 
-*Commercial*: There is one commercial fleet the includes GBYR landed 
+*Commercial*: There is one commercial fleet that includes GBYR landed 
 (all gears combined) and dead discards.
 
 *Recreational*: The recreational fishery include two fleets, one for north of Point 
@@ -291,7 +289,7 @@ described below in the Estimated Parameters section.
 ###Priors
 The log-normal prior for female natural mortality were based on a meta-analysis 
 completed by Hamel [-@Hamel2015], as described under “Natural Mortality.” Natural mortality 
-was estimated using with a prior of, 0.193 (with log-space sigma of 0.438) for an assumed 
+was estimated using with a prior of 0.193 (with log-space sigma of 0.438) for an assumed 
 maximum age of 28.  Natural mortality was fixed at the value of the prior in the post-STAR 
 base model.
 
@@ -411,7 +409,7 @@ also considered.  The fits changed only slightly, (increasing depletion from 0.4
 to 0.48) but given the concerns outlined in the discussion on commercial length composition 
 the pre- and post-STAR base models include the commercial length compositions from CALCOM.
 
-Sensitivities were developed to look at alternate selectivity patterns for the the commercial 
+Sensitivities were developed to look at alternate selectivity patterns for the commercial 
 discard fleet and the CCFRP survey. A time block for the commercial discard fishery was not considered 
 since no length composition of discarded fish were available prior to 2004.
 
@@ -581,7 +579,7 @@ stability to the model, it was therefore decided that the assessment should not
 implement this option.      
 
 
-\item[Request No. 6: 1) Start recruit deviation in 1978 as main recruit devs. and 
+\item[Request No. 6: 1) Start recruit deviation in 1978 as main recruit deviations and 
 2) Start these in 2001.  Turn off all early recruit devs in both cases.] \hfill \\
 
 \textbf{Rationale:} The composition data does not seem to be informing the estimates 
@@ -589,7 +587,7 @@ of the recruitment deviations but maybe driven by the artifacts in the catch dat
 The early recruit deviations are uninformed and all in one direction.  Recruitment 
 indices start in 2001. 
   
-\textbf{STAT Response:} :  Starting the recruitment deviations in 2001 did not produce 
+\textbf{STAT Response:} Starting the recruitment deviations in 2001 did not produce 
 a reasonable recruitment signal.  Starting the recruitment deviations in 1978 provided 
 reasonable recruitment deviations and is a more appropriate starting year given the 
 lack of sufficient length data prior to this period. 
@@ -599,7 +597,7 @@ lack of sufficient length data prior to this period.
 estimate k. Change the ramp to estimated level with up ramp from 1978 to 1979.  Provide 
 all appropriate diagnostics.] \hfill \\
 
-\textbf{Rationale:} : STAT and STAR agree 6(1) was an improvement over the original base 
+\textbf{Rationale:} STAT and STAR agree 6(1) was an improvement over the original base 
 model and the request refers to adjusting the ramp value and M treatment consistent with 
 the way these were dealt with in the original the pre-STAR-base model given the new settings. 
   
@@ -657,12 +655,12 @@ estimated. Mirroring fleet selectivities was an advantage to the stability of th
 
 \textbf{STAT Response:} No single index had a substantial effect on the model output 
 (Figure \ref{fig:STAR_request10}). 
-Each index contributed to the status of the stock, with some indicating a an increase 
+Each index contributed to the status of the stock, with some indicating an increase 
 over the base model developed for Request 9, and some estimating a decreased stock status. 
 Depending on which index was dropped, the year(s) of high recruitment predicted in the 
 early 1990s did shift, and was either attributed to a single year, or spread over a few 
 years. The PISCO age-0 index does inform recruitment and age-0 recruitment is dampened 
-n recent years when this index is excluded.
+in recent years when this index is excluded.
 
 \end{description}
 
@@ -731,15 +729,21 @@ Attempts to fit asymptotic and dome-shaped selectivity to the CCFRP data resulte
 poor estimation, large standard deviations, or a lack of fit to the data. The aggregated 
 CCFRP length composition over time was similar to the length composition data of the 
 recreational fleets north of Point Conception and mirroring the CCFRP selectivity provided 
-a more parsimonious model.  The recreational fleet south of Point Conception encounters 
+a more parsimonious model.  
+
+The recreational fleet south of Point Conception encounters 
 smaller GBYR, which is reflected in the asymptotic selectivity shifted to the left of all 
 other fleets. Selectivities for the recreational fleet north of Point Conception and the commercial 
 fleet are very similar. Both fleets include length composition of retained 
 and discarded fish, although no information on the size of discards is available from 
-the commercial fleet prior to 2004.  The selectivity for the commercial fleet was kept 
+the commercial fleet prior to 2004.  
+
+The selectivity for the commercial fleet was kept 
 separate because the fleet has different fishing behavior than the recreational fleet and going 
 forward in time, may diverge further from the fleets depending on management decisions or 
-changes in fishing behavior.  Selectivity for the PISCO (15+ cm fish) index was estimated 
+changes in fishing behavior.  
+
+Selectivity for the PISCO (15+ cm fish) index was estimated 
 as the survey observes a  wider range of length classes than the other fleets.  The estimated 
 peak of the PISCO selectivity hit the upper bound of 38 and was fixed at 38 in the base model. 
 The age selectivity for the PISCO age-0 index was fixed at 1.0 and assumes that all age-0 
@@ -752,7 +756,7 @@ The added variance for Deb's onboard observer survey was estimated at
 `r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_DebCPFV(4)", 3], 3)`.
 The added variances were highest for the recreational onboard observer survey north of 
 Point Conception
-(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(5)", 3], 3)`)
+(`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_RecOnboardNorth(5)", 3], 3)`),
 PISCO (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_PISCO(6)", 3], 3)`), and 
 CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(7)", 3], 3)`).
 
@@ -760,7 +764,7 @@ Recruitment deviations were estimated from 1978-2018 (Figure \ref{fig:recdevs2_w
 Estimates of recruitment suggest that GBYR are characterized by cyclical years of high 
 and low recruitment (Figure \ref{fig:Recruit_mod1}). The final base model does not include
 early recruitment deviation and a steep bias adjustment ramp from 1978 to 1979 of 0.32 that 
-extends to 2019 Figure \ref{fig:recruit_fit_bias_adjust}. The years of highest estimated 
+extends to 2019 (Figure \ref{fig:recruit_fit_bias_adjust}). The years of highest estimated 
 recruitment is 1991, with recruitment estimated more than double that of any other year. 
 Fish from this cohort can be observed in the length composition data from Deb Wilson Vandenberg's
 onboard observer survey and recreational fleet north of Point Conception in the later half of 
@@ -825,8 +829,8 @@ on an annual basis, there is a trade-off with the CCFRP with under-fitting of th
 fish in the earlier years and an under-fitting of the smaller fish expected in the 
 later years (2013-2018).
 
-The mean age of the recreational fleet varied from 1980-1986 ranging from approximately 8-11, 
-and increased in 2017 to approximately 13 
+The mean age of the recreational fleet varied from 1980-1986 ranged from approximately 8-11 years old, 
+and increased in 2017 to approximately 13 years old
 (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeRecNorth}). The 
 conditional age data from the CCFRP data was not well fit for the earliest years in the 
 data, but was reasonably well fit for the last four years of data (Figure \ref{fig:comp_condAALfit_data_weighting_TA1.8_condAgeCCFRP}).  The conditional age
@@ -910,7 +914,7 @@ Retro2 to Retro3 and Retro4 (Table \ref{tab:retro}). The age composition data in
 The available length data in each year from 2015-2018 range from 4-6% of the total available 
 length data.  The length compositions of all the other fleets have similar length 
 distributions for 2015-2018 (Appendix C). 
-Additional investigations into the retrospective patters will be made by the STAT.
+Additional investigations into the retrospective patterns will be made by the STAT.
 
 ###Likelihood Profiles
 Likelihood profiles were conducted for $R_0$, steepness, and over natural mortality 
@@ -935,7 +939,7 @@ Table \ref{tab:like_profiles}).
 The length composition likelihood components declined towards the upper bound for Deb's 
 onboard CPFV survey and the recreational north fleet, while the other fleets either 
 reached a minimum around 0.55 or at the lower bound  (Figure \ref{fig:profile_h_piner}). 
-Overall changes in the survey likelihood across the range of steepens was less than 2.0, 
+Overall changes in the survey likelihood across the range of steepness was less than 2.0, 
 with surveys either minimized at the lower or upper bound (Figure \ref{fig:profile_h_piner2}).
 The relative depletion for GBYR ranges from 0.375 to 0.493 across different assumed values of 
 steepness (Table \ref{tab:like_profiles}).
@@ -944,7 +948,7 @@ The negative log-likelihood was minimized at a natural mortality value around 0.
 higher than the prior of 0.193 (Table \ref{tab:like_profiles2} and Figure \ref{fig:profile_m_like}). 
 The age, length, index, and prior likelihood contributions were 
 minimized at natural mortality values around 0.22, and the recruitment contribution
-was minimized at the upper bound. (Table \ref{tab:like_profiles2}). 
+was minimized at the upper bound (Table \ref{tab:like_profiles2}). 
 The length composition minimizes around a natural mortality value of 0.14, with the commercial, 
 recreational fleet north of Point Conception, and CCFRP data minimizing towards the lower 
 bound (Figure \ref{fig:profile_m_piner}). The length data from Deb's CPFV survey minimizes 
@@ -958,11 +962,11 @@ A profile over the growth parameter $k$ from 0.07 to 0.25 (with natural mortalit
 log-likelihood minimized at 0.11 (Table \ref{tab:like_profiles2} and 
 Figure \ref{fig:profile_k_like}). The total change in the negative log-likelihood is small 
 until $k$ increases higher than 0.15. The combined age data minimize at a higher value of 0.18, 
-while hte remaining components minimize at the lower bound.  The age composition by fleet also 
-has conflicting trends with the dummy fleet minimizeing just lower than the over all around 0.17, the
+while the remaining components minimize at the lower bound.  The age composition by fleet also 
+has conflicting trends with the dummy fleet minimizing just lower than the over all around 0.17, the
 CCFRP ages minimizing at the lower bound and the RecNorth ages minimizing at the upper bound 
 (Figure \ref{fig:profile_k_piner}).  The RecOnboardNorth survey likelihood component was the only 
-survey comonent minimized at the upper bround, with the remaining survey component minimized at the 
+survey component minimized at the upper bround, with the remaining survey component minimized at the 
 lower bound of the $k$ values explored (Figure \ref{fig:profile_k_piner2}). The resulting 2019 
 depletion over the range of $k$ values spans 0.4 to 0.49 (Figure \ref{fig:profile_k_depl}). 
 

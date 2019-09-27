@@ -10,7 +10,7 @@ Descriptions of the data sources are in the following sections.
 <!-- ************FISHERY-DEPENDENT DATA************************************ -->
 ###Commercial Fishery Landings
 
-*Overview of gopher and black-and-yellow catch history*
+*Overview of gopher and black-and-yellow catch histories*
 
 Commercial fishery landings for gopher and black-and-yellow rockfishes have not 
 been reported consistently by species throughout the available catch history 
@@ -215,8 +215,8 @@ From 1937-1979 a linear ramp was developed from the 1936 estimate
 to the average recreational landing from 1980 and 1983 (1981-1982 catches 
 interpolated as described in the next section) of 4.3 mt. The recreational catches 
 north of Point Conception were not altered from the original catch reconstruction.
-The resulting alternate recreational catch streams are in (Table \ref{tab:Rec_removal} 
-and Figure \ref{fig:Catches_alternate}).
+The resulting alternate recreational catch streams are in Table \ref{tab:Rec_removal} 
+and Figure \ref{fig:Catches_alternate}.
 
 The total difference in the catch streams from Figure \ref{fig:Catches_original} and 
 Figure \ref{fig:Catches_alternate} is plotted in Figure \ref{fig:catches_difference}. 
@@ -559,7 +559,7 @@ Separate indices were also developed for north and south of Point Conception.
 
 
 *Deb Wilson-Vandenberg Onboard Observer Index Filtering and Standardization.*
-A large effort was made by the SWFSC to recover data from the the original data 
+A large effort was made by the SWFSC to recover data from the original data 
 sheets for this survey and developed into a relational database [@Monk2016]. 
 The specific fishing locations at each fishing stop  were recorded at a finer scale than 
 the catch data for this survey. We aggregated the relevant location information (time and 
@@ -605,7 +605,8 @@ Each drift was assigned to a reef (hard bottom). Hard bottom was extracted from
 the [California Seafloor Mapping Project](http://seafloor.otterlabs.org/index.html), 
 with bathymetric data from state waters available at a 2 m resolution.  Reefs were 
 developed based on a number of factors described in the supplemental material 
-("Reef Delineation"). 
+("Reef Delineation"). Reefs outside the state boundary not included in the high 
+resolution mappin project were mapped using other data sources.
 
 Initial filters were applied to the entire data set, north and south of Point Conception 
 combined. After an initial clean-up of the data, 67,850 drifts remained, with GBYR present 

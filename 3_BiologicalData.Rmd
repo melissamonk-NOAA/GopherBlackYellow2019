@@ -76,7 +76,7 @@ blind double reads.
 Ageing error was estimated using publicly available software [@Thorson2012].
 The software setting for bias was set to unbiased since the same reader conducted 
 the first and second readings.  The best fit model chose by AIC for the standard deviation 
-was a constant coefficient of variation for reader one ad mirrored for reader two 
+was a constant coefficient of variation for reader one and mirrored for reader two 
  (Figure \ref{fig:GBY_age_error2}).  
 
 The resulting estimate indicated a standard deviation in age readings 
@@ -157,10 +157,10 @@ that same issue of ICESJMS, Then et al. [-@Then2015], provided an updated data s
 of estimates of $M$ and related life history parameters across a large number of fish 
 species, from which to develop an $M$ estimator for fish species in general. They 
 concluded by recommending $M$ estimates be based on maximum age alone, based on an 
-updated Hoenig non-linear least squares (nls) estimator $M= 4.899*{A_{max}}^{-.916}$. 
+updated Hoenig non-linear least squares (nls) estimator $M= 4.899*{A_{max}}^{-0.916}$. 
 The approach of basing $M$ priors on maximum age alone was one that was already 
 being used for west coast rockfish assessments. However, in fitting the alternative 
-model forms relating $-.916M$ to $A_{max}$, Then et al. [-@Then2015] did not 
+model forms relating $-0.916M$ to $A_{max}$, Then et al. [-@Then2015] did not 
 consistently apply their transformation. In particular, in real space, one would 
 expect substantial heteroscedasticity in both the observation and process error 
 associated with the observed relationship of $M$ to $A_{max}$. Therefore, it would 

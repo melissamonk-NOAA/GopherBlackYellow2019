@@ -38,7 +38,7 @@
 <!-- **********************Weight-Length FIGURES*************************** --> 
 <!-- ********************************************************************** -->
 
-![Comparison of the gopher rockfish weight-length curves from Lee et al. (1999) and tha estimated from black-and-yellow rockfishes from Zaitlin (1986), and gopher rockfishes from Loury (2011) and Meyers-Cherry(2014).  The estimated curve from the current data is used in this assessment. \label{fig:GBY_weight_length}](Figures/GBY_weight_length.png)
+![Comparison of the gopher rockfish weight-length curves from Lea et al. (1999) and tha estimated from black-and-yellow rockfishes from Zaitlin (1986), and gopher rockfishes from Loury (2011) and Meyers-Cherry (2014).  The estimated curve from the current data is used in this assessment. \label{fig:GBY_weight_length}](Figures/GBY_weight_length.png)
 
 <!-- ********************************************************************** -->
 <!-- **************Sex Ratio, Maturity, Fecundity FIGURES****************** --> 

@@ -267,7 +267,7 @@ harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure 
 ##Management Performance{-}
 
 Gopher and black-and-yellow rockfishes are managed as part of the minor nearshore 
-complex in the Pacific Coast Groundfish Fishery Management Plan.  The total mortality 
+complex in the Pacific Coast Groundfish Fishery Management Plan. The total mortality 
 of the minor nearshore rockfish has been below the ACL in all years (2011-2016). 
 Total mortality estimates from the NWFSC are not yet available 
 for 2017-2018. GBYR total mortality was on average 20% of the total minor nearshore 

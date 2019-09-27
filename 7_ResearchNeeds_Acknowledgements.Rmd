@@ -18,7 +18,7 @@ Point Conception or north of Point Arena were available for this assessment and 
 to better under biological parameters. 
     \begin{enumerate}
      \item Conduct life history studies
-     \item conduct research to identify the proportion of each species in population and in catches
+     \item Conduct research to identify the proportion of each species in population and in catches
     \end{enumerate}
 
 \item Take a closer look at the Ralston (Ralston et al. 2010) historical catch reconstruction 

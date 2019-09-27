@@ -44,7 +44,7 @@ Buonaccorsi et al. [-@Buonaccorsi2011] found an even lower $F_{ST}$ of 0.01 usin
 25 microsatellite loci, and concluded that gopher and black-and-yellow rockfish “have not 
 completed the speciation process.”  All of these studies are indicative of low 
 levels of genetic divergence and a high probability of ongoing gene flow between 
-the two nominal species.  
+the two nominal species or incomplete lineage sorting.  
 
 Most recently, an analysis of rockfish species assignment using microhaplotypes by 
 Baetscher [-@Baetscher2019] observed mistaken genetic assignment of a small number 
@@ -293,7 +293,7 @@ December, and south of Point Conception from March to December.  In the area tha
 commonly landed, from Monterey to Morro Bay, the depth restrictions have been between 30 and 40 
 fathoms until 2017.  In 2017 the depth restrictions were eased by 10 fathoms, opening up fishing 
 depths along the central California coast that had not been open consistently since 2002.  In 
-both 2017 and 2018, the deepest 10 fathoms was closed prior to the season in December due to high 
+both 2017 and 2018, the deepest 10 fathoms was closed prior to the prescribed season in December due to high 
 by-catch rates of yelloweye rockfish, one of two rockfish species that are still overfished. A 
 full history of the recreational regulations relating to the spatial management of the fleet can 
 be found in [Appendix B](#appendix-b.-californias-recreational-fishery-regulations).

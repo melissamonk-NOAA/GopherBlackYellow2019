@@ -65,7 +65,7 @@ output:
 
 \FloatBarrier
 
-![The PISCO recruitment index based upon observed individuals of 4 and 5 cm (“scaled to 5cm”) or 4, 5a and 6 cm (“scaled to 6 cm). \label{fig:STAR_request8}](Figures/STAR_request8.png)
+![The PISCO recruitment index based upon observed individuals of 4 and 5 cm (“scaled to 5cm”) or 4, 5a and 6 cm (“scaled to 6 cm"). \label{fig:STAR_request8}](Figures/STAR_request8.png)
 
 
 \FloatBarrier
@@ -104,7 +104,7 @@ output:
 \FloatBarrier
 
 
-![Estiamtes of growth for GBYR from the 2005 assessment, external fit to the CAAL data used in this assessment and the internal SS estimate of growth for this assessment.  All growth curves were estimated using the Schnute parameterization of the von Bertalanffy growth curve. \label{fig:growth_compare}](Figures/growth_compare.png)
+![Estimates of growth for GBYR from the 2005 assessment, external fit to the CAAL data used in this assessment and the internal SS estimate of growth for this assessment.  All growth curves were estimated using the Schnute parameterization of the von Bertalanffy growth curve. \label{fig:growth_compare}](Figures/growth_compare.png)
 
 
 
@@ -141,7 +141,7 @@ output:
 
 <!-- ***********Fits to the data********************************* --> 
 
-![Fit to log index data on log scale for the recerational MRFSS dockside CPFV fishery north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png)
+![Fit to log index data on log scale for the recreational MRFSS dockside CPFV fishery north of Point Conception. Lines indicate 95% uncertainty interval around index values. Thicker lines indicate input uncertainty before addition of estimated additional uncertainty parameter. \label{fig:index5_logcpuefit_RecDocksideNorth}](r4ss/plots_mod1/index5_logcpuefit_RecDocksideNorth.png)
 
 \FloatBarrier
 

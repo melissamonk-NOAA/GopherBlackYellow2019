@@ -72,7 +72,7 @@ a_header <- construct_header(
   lengths_sample,
   # the labels of the groups that we want to insert
   grp_names = c("", "CALCOM", "WCGOP","Rec North","Rec South",
-                     "Deb VW"),
+                     "Deb WV"),
   # the number of columns each group spans
   span = c(1, 2, 2, 2, 2, 2),
   # the alignment of each group, can be a single character (lcr) or a vector
@@ -286,7 +286,7 @@ a_header <- construct_header(
   align = "c"
 )
 
-caption = "Index inpus."
+caption = "Index inputs."
 
 Indices.table = xtable(Indices,
                     caption = caption,
@@ -316,7 +316,7 @@ Fleet5_Filter$`Positive Drifts` = formatC(Fleet5_Filter$`Positive Drifts`, digit
 
 Fleet5_Filter.table = xtable(Fleet5_Filter,
                        caption = c("Data filtering steps for Deb Wilson-Vandenberg's CPFV onboard observer 
-                                        index of abundance"),
+                                        index of abundance."),
                        label = 'tab:Fleet5_Filter')
 
 

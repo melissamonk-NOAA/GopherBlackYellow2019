@@ -517,7 +517,7 @@ ForeTable[c(1:2),3] = '\\textit{114}'
 
 # Create the table
       OFL.table = xtable(ForeTable, caption=c('Projected OFL, default harvest control rule 
-                                        catch (ABC = ACL) above 40\\% SSB), biomass, 
+                                        catch (ABC = ACL) above 40\\% SSB, biomass, 
                                         and depletion using the post-STAR base case model with 
                                         2019-2020 catches set equal to the projected catch 
                                         (114 mt) rather than the ABC.'),
