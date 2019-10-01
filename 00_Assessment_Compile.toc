@@ -58,7 +58,7 @@
 \contentsline {section}{\numberline {3}Harvest Projections and Decision Tables}{48}{section.3}% 
 \contentsline {section}{\numberline {4}Regional Management Considerations}{49}{section.4}% 
 \contentsline {section}{\numberline {5}Research Needs}{49}{section.5}% 
-\contentsline {section}{\numberline {6}Acknowledgments}{51}{section.6}% 
+\contentsline {section}{\numberline {6}Acknowledgments}{50}{section.6}% 
 \contentsline {section}{\numberline {7}Tables}{52}{section.7}% 
 \contentsline {section}{\numberline {8}Figures}{84}{section.8}% 
 \contentsline {section}{Appendix A. California's Commercial Fishery Regulations}{A-1}{section*.157}% 

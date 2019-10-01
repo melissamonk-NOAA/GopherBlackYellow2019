@@ -506,30 +506,36 @@ Bratio    = quants[grep('Bratio', quants$Label), ]
 Bratio    = Bratio[Bratio$Label >= paste('Bratio_', FirstYRFore,sep='') &
                      Bratio$Label <= paste('Bratio_', LastYRFore,sep=''), ]  
 
+#Add column that reflects the actual ABC and not the catches
+
 
 ForeTable = as.data.frame(cbind(c(FirstYRFore:LastYRFore),
                                 round(OFLCatch$Value,0),
+                                round(ForeCatch$Value,0),
                                 round(ForeCatch$Value,0),
                                 round(Age0plus$Bio_all,0),
                                 round(SSB$Value,1),
                                 round((Bratio$Value*100),1)))
 
-colnames(ForeTable) = c('Year','OFL (mt)','ABC Catch (mt)','Age 0+ Biomass (mt)',
-                        'Spawning Output (million eggs)',' Fraction unfished') 
+colnames(ForeTable) = c('Year','OFL (mt)','ABC (mt)','Assumed Dead Removals (mt)','Age 0+ Biomass (mt)',
+                        'Spawning Output (million eggs)',' Fraction Unfished') 
 
-ForeTable[c(1:2),3] = '\\textit{114}'
+ForeTable[c(1:2),2] = '\\textit{154}'
+ForeTable[c(1:2),3] = '\\textit{129}'
+ForeTable[c(1:2),4] = '\\textit{114}'
 
 # Create the table
       OFL.table = xtable(ForeTable, caption=c('Projected OFL, default harvest control rule 
                                         catch (ABC = ACL) above 40\\% SSB, biomass, 
-                                        and depletion using the post-STAR base case model with 
-                                        2019-2020 catches set equal to the projected catch 
-                                        (114 mt) rather than the ABC.'),
-                  label = 'tab:OFL_projection',digits = c(0,0,0,0,0,1,1))
+                                        and depletion using the post-STAR base case model. The  
+                                        2019-2020 assumed dead removals are set equal to the projected catch 
+                                        (114 mt) rather than the ABC. The ABC and OFL for 2019-2020 had 
+                                        been accepted for management at the time of this assesment.'),
+                  label = 'tab:OFL_projection',digits = c(0,0,0,0,0,0,1,1))
       
-    align(OFL.table) = c('l','c','c','>{\\centering}p{.9in}',
+    align(OFL.table) = c('l','c','c','c','>{\\centering}p{1.1in}',
                          '>{\\centering}p{1in}','>{\\centering}p{1in}',
-                         '>{\\centering}p{1in}')
+                         '>{\\centering}p{.8in}')
 
 
 # =============================================================================
