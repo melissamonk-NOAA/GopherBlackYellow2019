@@ -352,7 +352,7 @@ Mendocino in the north to the U.S./Mexico border in the south.
 \addcontentsline{toc}{subsection}{Stock Biomass}
 
 The predicted spawning output from the base model generally showed a
-slight decline prior to 1978, when the recruitment deviations were first
+slight decline prior to 1978, when the recruitment deviations are first
 estimated (Figure \ref{fig:Spawnbio_all} and Table
 \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994,
 followed by a period of increase from 1995 to 2003. From 2004-2018 the
@@ -363,8 +363,8 @@ output is above the target of 40\% of unfished spawning output at 43.82
 (95\% asymptotic interval: 33.57-54.06) (Figure
 \ref{fig:RelDeplete_all}). Approximate confidence intervals based on the
 asymptotic variance estimates show that the uncertainty in the estimated
-spawning output is high, (95\% asymptotic interval: 337-767 million
-eggs). \FloatBarrier
+spawning output is moderately high, (95\% asymptotic interval: 337-767
+million eggs). \FloatBarrier
 
 \begin{table}[ht]
 \centering
@@ -461,10 +461,11 @@ Potential Ratio (SPR) = 50\% limit (corresponding to a relative fishing
 intensity of 100\%) (Table \ref{tab:SPR_Exploit_mod1} and Figure
 \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential
 per recruit at a given fishing level relative to the lifetime spawning
-potential per recruit with no fishing. The relative inverse SPR over the
-last decade increased ranged from 0.64 to 0.77 from 2009-2015, and
-ranged from 0.80 to 0.82 from 2016-2018 (Table
-\ref{tab:SPR_Exploit_mod1}).
+potential per recruit with no fishing. The relative inverse SPR
+increased over the last decade from a low period from 2004-2008, ranged
+from 0.64 to 0.77 from 2009-2015, and ranged from 0.80 to 0.82 from
+2016-2018 (Table \ref{tab:SPR_Exploit_mod1} and Figure
+\ref{fig:SPR_phase}).
 
 \FloatBarrier
 
@@ -506,6 +507,14 @@ SPR\textsubscript{50\%} harvest rate. The last year in the time series
 is 2018. \label{fig:SPR_all}}
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics{r4ss/plots_mod1/SPR4_phase}
+\caption{Phase plot of the estimated (1-SPR)/(1-SPR50\%) versus
+depletion B/Btarget for the base model. The red circle indicates 2018
+estimated status and exploitation for GBYR. \label{fig:SPR_phase}}
+\end{figure}
+
 \FloatBarrier
 
 \subsection*{Ecosystem Considerations}\label{ecosystem-considerations}
@@ -523,15 +532,15 @@ quantitative information for the assessment.
 This stock assessment estimates that GBYR in the model is above the
 biomass target (\(SB_{40\%}\)), and well above the minimum stock size
 threshold (\(SB_{25\%}\)). The estimated relative depletion level for
-the base model in 2018 is 0.439 (95\% asymptotic interval: 0.341-0.536,
-corresponding to an unfished spawning of 552 million eggs (95\%
-asymptotic interval: 337 - 767 million eggs) of spawning output in the
-base model (Table \ref{tab:Ref_pts_mod1}). Unfished age 1+ biomass was
-estimated to be 2,042 mt in the base case model. The target spawning
-output (\(SB_{40\%}\)) is 504 million eggs, which corresponds with an
+the base model in 2018 is 43.82 (95\% asymptotic interval:33.57-54.06,
+corresponding to 552 million eggs (95\% asymptotic interval: 337 - 767
+million eggs) of spawning output in the base model (Table
+\ref{tab:SpawningDeplete_mod1}). Unfished age 1+ biomass was estimated
+to be 2,042 mt in the base case model. The target spawning output
+(\(SB_{40\%}\)) is 504 million eggs, which corresponds with an
 equilibrium yield of 143 mt. Equilibrium yield at the proxy \(F_{MSY}\)
-harvest rate corresponding to \(SPR_{50\%}\) is 134 mt (Figure
-\ref{fig:Yield_all}).
+harvest rate corresponding to \(SPR_{50\%}\) is 134 mt (Table
+\ref{tab:Ref_pts_mod1} and Figure \ref{fig:Yield_all}).
 
 \FloatBarrier
 
@@ -590,24 +599,25 @@ results can be found in Table \ref{tab:mnmgt_perform}.
                             black-and-yellow rockfishes (GBYR), combined, relative to the 
                              management guidelines for Nearshore Rockfish 
                              South of $40^\circ 10^\prime$ N. latitude. 
-                             Total mortality estimates are based on annual reports 
-                                from the NMFS NWFSC.} 
+                             Total mortality estimates are based on annual GEMM reports 
+                                from the NMFS NWFSC. * = Total mortality represents gopher 
+                                rockfish only. ** = Prior to 2011 the harvest control rule was 
+                                based on Optimum Yield (OY).} 
 \label{tab:mnmgt_perform}
-\begin{tabular}{lllll}
+\begin{tabular}{>{\raggedleft}p{.6in}>{\centering}p{1in}>{\centering}p{.8in}>{\centering}p{1in}>{\centering}p{.8in}>{\centering}p{.8in}}
   \hline
-   \multicolumn{1}{c}{} & \multicolumn{1}{c}{GBYR} & \multicolumn{1}{c}{Shallow Nearshore Rockfish South} & \multicolumn{2}{c}{Nearshore Rockfish South} \\  \cmidrule(lr){2-2} \cmidrule(lr){3-3} \cmidrule(lr){4-5}
-   \hline
-Year & Total mortality & Total mortality & ACL & OFL \\ 
+Year & GBYR GEMM Total Mortality & Assessment Total Mortality & Minor Nearshore Rockfish South Total Mortality & Nearshore Rockfish South ACL & Nearshore Rockfish South OFL \\ 
   \hline
-\textbf{2011} & 122.87 & 436 & 1,001 & 1,156 \\ 
-  \textbf{2012} & 91.96 & 445 & 1,001 & 1,145 \\ 
-  \textbf{2013} & 104.53 & 495 & 990 & 1,164 \\ 
-  \textbf{2014} & 103.63 & 596 & 990 & 1,160 \\ 
-  \textbf{2015} & 107.95 & 676 & 1,114 & 1,313 \\ 
-  \textbf{2016} & 111.55 & 641 & 1,006 & 1,288 \\ 
-  \textbf{2017} & - & - & 1,163 & 1,329 \\ 
-  \textbf{2018} & - & - & 1,179 & 1,344 \\ 
-   \hline
+\textbf{2009} & 85.9* & 110.93 & 388 & 650** &  \\ 
+  \textbf{2010} & 106* & 153.41 & 384 & 650** &  \\ 
+  \textbf{2011} & 122.87 & 134.52 & 436 & 1,001 & 1,156 \\ 
+  \textbf{2012} & 91.96 & 93.62 & 445 & 1,001 & 1,145 \\ 
+  \textbf{2013} & 104.53 & 83.59 & 495 & 990 & 1,164 \\ 
+  \textbf{2014} & 103.63 & 105.27 & 596 & 990 & 1,160 \\ 
+  \textbf{2015} & 107.95 & 109.27 & 676 & 1,114 & 1,313 \\ 
+  \textbf{2016} & 111.55 & 111.67 & 641 & 1,006 & 1,288 \\ 
+  \textbf{2017} & - & 104.19 & - & 1,163 & 1,329 \\ 
+  \textbf{2018} & - & 92.32 & - & 1,179 & 1,344 \\ 
    \hline
 \end{tabular}
 \end{table}
@@ -638,35 +648,36 @@ and 2020 are set to the projected catch from the California Department
 of Fish and Wildlife (CDFW) of 114 mt.
 
 Uncertainty in the forecasts is based upon the three states of nature
-agreed upon at the STAR panel and are based three states of nature of
-growth. The external estimate of growth was different than the internal
-Stock Synthesis estimate. Given that natural mortality is fixed in the
-post-STAR base model, and the growth parameter \(k\) is negatively
-correlated with natural mortality, \(k\) was chosen as the axis of
-uncertainty. The high state of nature fixes \(k\) at the external
-estimate, and the low state of nature is the same distance in log space
-from the base as the high state of nature. The low state of nature fixed
-\(k\) at 0.046 and the L1 and L1 parameters were estimated at 14.1 and
-30.6, respectively. The high state of nature fixed all growth
-parameters, \(k\) = 0.248, L1 = 13.8, and L2 = 28.5 to the external
-estimate of growth (due to improbable estimates of L1 and L2 if only
-\(k\) was fixed to the external estimate). The growth parameters in the
-base model were estimated as \(k\) = 0.107, L1 = 13.4, and L2 = 28.8.
+agreed upon at the STAR panel, reflecting three different growth
+assumptions/estimates. The external estimate of growth was different
+than the internal Stock Synthesis estimate. Given that natural mortality
+rate \(M\) is fixed in the post-STAR base model, and the growth
+parameter \(k\) is negatively correlated with \(M\), \(k\) was chosen as
+the axis of uncertainty. The high state of nature fixes \(k\) at the
+external estimate, and for the low state of nature, \(k\) is fixed at
+0.046, the same distance in log space from the base as the high state of
+nature. For the low state of nature, parameters L1 and L2 were estimated
+at 14.1 and 30.6, respectively. The high state of nature fixed all
+growth parameters, \(k\) = 0.248, L1 = 13.8, and L2 = 28.5 to the
+external estimate of growth (due to improbable estimates of L1 and L2 if
+only \(k\) was fixed to the external estimate). The growth parameters in
+the base model were estimated as \(k\) = 0.107, L1 = 13.4, and L2 =
+28.8.
 
-The forecasted buffer ramp was calculated assuming a category 2 stock,
-with sigma = 1.0 and a \(p^*\) = 0.45. The buffer ranges from 0.874 in
-2021 ramping to 0.803 in 2030. For reference, the model predicted sigma
-is 0.189 and the decision table-based sigma is 0.197. Current
-medium-term forecasts based on the alternative states of nature project
-that the stock will remain above the target threshold of 40\% for all
-but two scenarios (Table \ref{tab:Decision_table_mod1}). The low state
-of nature with the high catches results in a stock at 26.4\% of unfished
-in 2030 and the base state model with the high catches results in a
-stock at 33.2\% of unfished in 2030. The base case model with the base
+For reference, the model predicted sigma is 0.189 and the decision
+table-based sigma is 0.197. The forecasted buffer ramp was calculated
+assuming a category 2 stock, with sigma = 1.0 and a \(p^*\) = 0.45. The
+buffer multiplier ranges from 0.874 in 2021 ramping to 0.803 in 2030.
+Current medium-term forecasts based on the alternative states of nature
+project that the stock will remain above the target threshold of 40\%
+for all but two scenarios (Table \ref{tab:Decision_table_mod1}). The low
+state of nature with the high catches results in a stock at 26.4\% of
+unfished in 2030 and the base state model with the high catches results
+in a stock at 34.0\% of unfished in 2030. The base model with the base
 catches results in an increasing stock over the period from 2021-2030.
 If the growth of GBYR is slower than the base model suggests, but the
-base case catches are removed, the stock will be at the target threshold
-in 2030.
+base model catches are removed, the stock will be at the target
+threshold in 2030.
 
 \begin{table}[ht]
 \centering
@@ -702,8 +713,8 @@ Year & OFL (mt) & ABC Catch (mt) & Age 0+ Biomass (mt) & Spawning Output (millio
                                              an axis of uncertainty for the model.  Columns range over low, mid, and high
                                              states of nature, and rows range over different 
                                              assumptions of catch levels. The low state of nature 
-                                             fixed the growth parameter $k$ at 0.046 and the high 
-                                             state fixes all growth parameters to the external 
+                                             fixed the growth parameter $k$ at 0.046 (estimated: L1 = 14.1 
+                                             and L2 = 30.6). The high state fixes all growth parameters to the external 
                                              estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5). For reference 
                                              the base case estimated $k$ = 0.106, L1 = 13.4 and L2 = 28.9. 
                                             The 2019 and 2020 catches were set to the projected catch of 
@@ -892,14 +903,15 @@ History}\label{basic-information-and-life-history}
 \emph{Population Structure and Complex Assessment Considerations}
 
 There have been a number of analyses conducted on the genetic
-differentiation between gopher rockfish and black-and-yellow rockfish.
-The studies have yielded a range of results, but have generally
-concluded that there is unusually low genetic differentiation between
-the two species. The most frequently used measure of genetic analyses to
-evaluate evidence for population differentiation is the fixation index
-(\(F_{ST}\)), defined as the proportion of the total genetic variation
-in one sub-population (subscript S) relative to the total genetic
-variation (subscript T) (Hauser and Carvalho
+differentiation between gopher rockfish (\emph{Sebastes carnatus} and
+black-and-yellow rockfish (\emph{Sebastes chrysomelus}). The studies
+have yielded a range of results, but have generally concluded that there
+is unusually low genetic differentiation between the two species. The
+most frequently used measure of genetic analyses to evaluate evidence
+for population differentiation is the fixation index (\(F_{ST}\)),
+defined as the proportion of the total genetic variation in one
+sub-population (subscript S) relative to the total genetic variation
+(subscript T) (Hauser and Carvalho
 \protect\hyperlink{ref-Hauser2008}{2008}, Waples et al.
 \protect\hyperlink{ref-Waples2008}{2008}). Values of \(F_{ST}\) range
 from 0 to 1 where a zero value implies the populations are panmictic and
@@ -1204,21 +1216,21 @@ fishing), depth restrictions, trip limits, and minimum size limits to
 regulate the commercial fishery.
 
 The state of California has adopted regulatory measures to manage the
-fishery based on the harvest guidelines set forth by the PFMC. The
-commercial open access and limited entry fixed gear sectors have
-undergone three different spatial management changes since 2000. Since
-2005, both have managed the area south of \(40^\circ 10^\prime\) N.
-latitude as one area. The open access commercial fishery is managed
-based on bimonthly allowable catches, that have ranged from 200 pounds
-to 1800 pounds per two months since 2000. From 2005 to 2018, the catch
-limits have doubled and are now set at 1200 pounds per two months (for
-all months) with March and April remaining closed. The limited entry
-fixed gear sector has followed the same pattern as the open access
-sector with bi-monthly limits and a doubling of the catch since 2005.
-The limited entry trawl fleet is managed on monthly limits on an annual
-basis. Since 2011, the limit has been 300 pounds per month for non-IFQ
-species. A history of California's commercial regulations from 2000-2018
-can be found in
+minor neasrhore shallow rockfish fishery based on the harvest guidelines
+set forth by the PFMC. The commercial open access and limited entry
+fixed gear sectors have undergone three different spatial management
+changes since 2000. Since 2005, both have managed the area south of
+\(40^\circ 10^\prime\) N. latitude as one area. The open access
+commercial fishery is managed based on bimonthly allowable catches, that
+have ranged from 200 pounds to 1800 pounds per two months since 2000.
+From 2005 to 2018, the catch limits have doubled and are now set at 1200
+pounds per two months (for all months) with March and April remaining
+closed. The limited entry fixed gear sector has followed the same
+pattern as the open access sector with bi-monthly limits and a doubling
+of the catch since 2005. The limited entry trawl fleet is managed on
+monthly limits on an annual basis. Since 2011, the limit has been 300
+pounds per month for non-IFQ species. A history of California's
+commercial regulations from 2000-2018 can be found in
 \protect\hyperlink{appendix-a.-californias-commercial-fishery-regulations}{Appendix
 A}. A 10-inch total length minimum size limit was implemented in 1999
 for both species in the commercial fleet.
@@ -1237,14 +1249,15 @@ depth restrictions for the recreational fleet in 2000. In general, the
 recreational season north of Point Conception extends from April to
 December, and south of Point Conception from March to December. In the
 area that GBYR are most commonly landed, from Monterey to Morro Bay, the
-depth restrictions have been between 30 and 40 fathoms until 2017. In
-2017 the depth restrictions were eased by 10 fathoms, opening up fishing
-depths along the central California coast that had not been open
-consistently since 2002. In both 2017 and 2018, the deepest 10 fathoms
-was closed prior to the prescribed season in December due to high
-by-catch rates of yelloweye rockfish, one of two rockfish species that
-are still overfished. A full history of the recreational regulations
-relating to the spatial management of the fleet can be found in
+maximum depth open to recreational fishing has been between 30 and 40
+fathoms until 2017. In 2017 the depth restrictions were eased by 10
+fathoms, opening up fishing depths along the central California coast
+that had not been open consistently since 2002. In both 2017 and 2018,
+the deepest 10 fathoms was closed prior to the prescribed season in
+December due to high by-catch rates of yelloweye rockfish, one of two
+rockfish species that are still overfished. A full history of the
+recreational regulations relating to the spatial management of the fleet
+can be found in
 \protect\hyperlink{appendix-b.-californias-recreational-fishery-regulations}{Appendix
 B}.
 
@@ -1265,7 +1278,7 @@ GBYR catches have not exceded the GBYR OFLs in recent years. GBYR is a
 small component of the nearshore rockfish south complex that includes
 twelve other species. A summary of these values as well as other
 post-STAR base model summary results can be found in Table
-\ref{tab:mnmgt_perform}.
+\ref{tab:mnmgt_perform} (Executive Summary).
 
 \subsection{Fisheries Off Mexico or
 Canada}\label{fisheries-off-mexico-or-canada}
@@ -1451,7 +1464,7 @@ Cape Mendocino and across all fixed gear fisheries.
 
 A total of 46 ages were available for gopher rockfish from the
 commercial fisheries 2009-2011, 2016, and 2018. Though sparse, the data
-were considerd as conditional age-at-length for the commercial fleet,
+were considered as conditional age-at-length for the commercial fleet,
 but not used in the final post-STAR base model.
 
 The input sample sizes for commercial length composition data were
@@ -2658,7 +2671,7 @@ Differences in both the recreational and commercial catches used in this
 assessment are described in detail in Section \ref{fishery-information}.
 
 The bias adjustment for recruitment deviations did not exist in SS2
-(version 1.19). We set 1973-2015 as the range of years with full bias
+(version 1.19). We set 1978-2015 as the range of years with full bias
 adjustment to span the time series that was modeled.
 
 The previous assessment modeled selectivity of the commercial fleet as
@@ -2692,11 +2705,12 @@ began angler interviews. Interviews are conducted for all the anglers on
 the boat, whereas the onboard data is only collected for a subset of
 anglers that changes with each fishing stop. Using both the onboard
 observer data and the angler interviews for this time period would
-result in developing indices from the same fish. The fine-scale onboard
-observer data provides greater detail in terms of catch and location
-than the angler interviews. The onboard observer indices do not include
-the years 1999 and 2000 due to the number of regulation changes
-occurring in those two years.
+result in developing indices from the same fish. Therefore, the angler
+interviews were not used for the period of time after 1999. The
+fine-scale onboard observer data for the 2000s provides greater detail
+in terms of catch and location than the angler interviews. The onboard
+observer indices do not include the years 1999 and 2000 due to the
+number of regulation changes occurring in those two years.
 
 The fishery-independent indices are all new for this assessment; the
 PISCO kelp forest fish survey and the CCFRP hook-and-line survey.
@@ -2736,7 +2750,7 @@ landed (all gears combined) and dead discards.
 for north of Point Conception and one for south of Point Conception (all
 modes combined) and includes dead discards.
 
-\emph{Fishery-Dependent Surveys}: There are five fishery-dependent
+\emph{Fishery-Dependent Surveys}: There are three fishery-dependent
 survey fleets, all north of Point Conception. There is one for MRFRSS
 CPFV dockside survey, one for the CDFW/Cal Poly onboard observer survey,
 and one from the Deb Wilson-Vandenberg CPFV onboard observer survey.
@@ -3007,7 +3021,7 @@ including:
 
 \begin{enumerate}
 
-  \item Fixing natural mortality at the prior of 0.193
+  \item Fixing natural mortality at the prior of 0.193 (as $M$ was estimated in the pre-STAR base)
   
   \item Fixing the von Bertalanffy $k$ at the external estimate of 0.247
   
@@ -3323,18 +3337,20 @@ selectivity affect the internal estimate of growth. Hence, growth was
 chosen as the axis of uncertainty for the decision table.
 
 The estimated selectivities for all fleets within the model are shown in
-Figure \ref{fig:sel01_multiple_fleets_length1}. The selectivity curves
-for the commercial fleet, recreational fleets north and south of Point
+Figures \ref{fig:sel01_multiple_fleets_length1} and
+\ref{fig:sel02_multiple_fleets_age2}. The selectivity curves for the
+commercial fleet, recreational fleets north and south of Point
 Conception, and the larger PISCO (15+ cm) were estimated. All of the
 selectivities are asymptotic except for the PISCO age-0 index, which has
-an age selectivity set to 1.0. All of the recreational indices and the
-CCFRP index selectivities were mirrored to the recreational fleet north
-of Point Conception. Attempts to fit asymptotic and dome-shaped
-selectivity to the CCFRP data resulted in poor estimation, large
-standard deviations, or a lack of fit to the data. The aggregated CCFRP
-length composition over time was similar to the length composition data
-of the recreational fleets north of Point Conception and mirroring the
-CCFRP selectivity provided a more parsimonious model.
+an length selectivity set to 1.0 for all sizes, and an age selecitivty
+set to 1.0 at age 0 and 0.0 at all other ages. All of the recreational
+indices and the CCFRP index selectivities were mirrored to the
+recreational fleet north of Point Conception. Attempts to fit asymptotic
+and dome-shaped selectivity to the CCFRP data resulted in poor
+estimation, large standard deviations, or a lack of fit to the data. The
+aggregated CCFRP length composition over time was similar to the length
+composition data of the recreational fleets north of Point Conception
+and mirroring the CCFRP selectivity provided a more parsimonious model.
 
 The recreational fleet south of Point Conception encounters smaller
 GBYR, which is reflected in the asymptotic selectivity shifted to the
@@ -3369,16 +3385,16 @@ Recruitment deviations were estimated from 1978-2018 (Figure
 are characterized by cyclical years of high and low recruitment (Figure
 \ref{fig:Recruit_mod1}). The final base model does not include early
 recruitment deviation and a steep bias adjustment ramp from 1978 to 1979
-of 0.32 that extends to 2019 (Figure \ref{fig:recruit_fit_bias_adjust}).
-The years of highest estimated recruitment is 1991, with recruitment
-estimated more than double that of any other year. Fish from this cohort
-can be observed in the length composition data from Deb Wilson
-Vandenberg's onboard observer survey and recreational fleet north of
-Point Conception in the later half of the 1990s. Additional periodic
-recruitment events are estimated from 1994 and onward, with the peaks
-from 2001 and on driven by the PISCO age-0 index. A period of below
-average recruitment was estimated from 2004-2013, with another high
-recruitment pulse from 2014-2015.
+up to a proportion of sigma of 0.32 that extends to 2019 (Figure
+\ref{fig:recruit_fit_bias_adjust}). The years of highest estimated
+recruitment is 1991, with recruitment estimated more than double that of
+any other year. Fish from this cohort can be observed in the length
+composition data from Deb Wilson Vandenberg's onboard observer survey
+and recreational fleet north of Point Conception in the later half of
+the 1990s. Additional periodic recruitment events are estimated from
+1994 and onward, with the peaks from 2001 and on driven by the PISCO
+age-0 index. A period of below average recruitment was estimated from
+2004-2013, with another high recruitment pulse from 2014-2015.
 
 The stock-recruit curve resulting from a fixed value of steepness is
 shown in Figure \ref{fig:SR_curve2}. The stock has not been depleted to
@@ -3577,8 +3593,8 @@ The 2018 spawning biomass relative to unfished equilibrium spawning
 biomass is above the target of 40\% of unfished levels (Figure
 \ref{fig:ts9_unfished_with_95_asymptotic_intervals_intervals}). The
 relative fishing intensity, \((1-SPR)/(1-SPR_{50\%})\), was above the
-management target in 1987 and from 1992-1996. The stock has been below
-the management target since 1997.
+management target in 1987 and from 1992-1996. The relative fishing
+intensity has been below the management target since 1997.
 
 Table \ref{tab:Ref_pts_mod1} shows the full suite of estimated reference
 points for the base model and Figure \ref{fig:yield1_yield_curve} shows
@@ -3602,7 +3618,7 @@ correlated with natural mortality, \(k\) was chosen as the axis of
 uncertainty. The high state of nature fixes \(k\) at the external
 estimate, and the low state of nature is the same distance in log space
 from the base as the high state of nature. The low state of nature fixed
-\(k\) at 0.046 and the L1 and L1 parameters were estimated at 14.1 and
+\(k\) at 0.046 and the L1 and L2 parameters were estimated at 14.1 and
 30.6, respectively. The high state of nature fixed all growth
 parameters, \(k\) = 0.248, L1 = 13.8, and L2 = 28.5 to the external
 estimate of growth (due to improbable estimates of L1 and L2 if only
@@ -3610,19 +3626,19 @@ estimate of growth (due to improbable estimates of L1 and L2 if only
 base model were estimated as \(k\) = 0.107, L1 = 13.4, and L2 = 28.8.
 
 The forecasted buffer ramp was calculated assuming a category 2 stock,
-with sigma = 1.0 and a \(p^*\) = 0.45. The buffer ranges from 0.874 in
-2021 ramping to 0.803 in 2030. For reference, the model predicted sigma
-is 0.189 and the decision table-based sigma is 0.197. Current
-medium-term forecasts based on the alternative states of nature project
-that the stock will remain above the target threshold of 40\% for all
-but two scenarios (Table \ref{tab:Decision_table_mod1}). The low state
-of nature with the high catches results in a stock at 26.4\% of unfished
-in 2030 and the base state model with the high catches results in a
-stock at 33.2\% of unfished in 2030. The base case model with the base
-catches results in an increasing stock over the period from 2021-2030.
-If the growth of GBYR is slower than the base model suggests, but the
-base case catches are removed, the stock will be at the target threshold
-in 2030.
+with sigma = 1.0 and a \(p^*\) = 0.45. The buffer fraction ranges from
+0.874 in 2021 ramping to 0.803 in 2030. For reference, the model
+predicted sigma is 0.189 and the decision table-based sigma is 0.197.
+Current medium-term forecasts based on the alternative states of nature
+project that the stock will remain above the target threshold of 40\%
+for all but two scenarios (Table \ref{tab:Decision_table_mod1}). The low
+state of nature with the high catches results in a stock at 26.4\% of
+unfished in 2030 and the base state model with the high catches results
+in a stock at 34.0\% of unfished in 2030. The base case model with the
+base catches results in an increasing stock over the period from
+2021-2030. If the growth of GBYR is slower than the base model suggests,
+but the base case catches are removed, the stock will be at the target
+threshold in 2030.
 
 \section{Regional Management
 Considerations}\label{regional-management-considerations}
@@ -3716,11 +3732,11 @@ selectivity for this mode differs from the party/charter mode.
 \section{Acknowledgments}\label{acknowledgments}
 
 We gratefully acknowledge input and review from the STAR panel including
-the Owen Hamel (STAR panel chair; Northwest Fisheries Science Center,
-NMFS, NOAA), Chantel Wetzel(Northwest Fisheries Science Center, NMFS,
-NOAA), Sven Kupschus (Center for Independent Experts), and Robin Cook
-(Center for Independent Experts). Thanks to the STAR panel advisors
-Gerry Richter (GAP) and Melissa Mandrup (GMT) for their expertise and
+Owen Hamel (STAR panel chair; Northwest Fisheries Science Center, NMFS,
+NOAA), Chantel Wetzel(Northwest Fisheries Science Center, NMFS, NOAA),
+Sven Kupschus (Center for Independent Experts), and Robin Cook (Center
+for Independent Experts). Thanks to the STAR panel advisors Gerry
+Richter (GAP) and Melissa Mandrup (GMT) for their expertise and
 additional guidance during the STAR panel. Thanks to Don Pearson for
 reading all of the gopher and black-and-yellow rockfish before retiring
 in 2018. We thank John Field and Rebecca Miller (NMFS SWFSC), John
@@ -4652,8 +4668,8 @@ TOTAL\_like & 516.36 & 516.61 & 524.71 & 508.20 & 4041.05 & 1734.79 \\
   Steepness & 0.72 & 0.72 & 0.72 & 0.72 & 0.72 & 0.72 \\ 
   lnR0 & 8.60 & 8.33 & 7.86 & 8.87 & 9.03 & 8.80 \\ 
   Total Biomass & 2369.39 & 2313.35 & 2322.80 & 2307.70 & 2321.26 & 2439.02 \\ 
-  Depletion & 0.46 & 0.43 & 0.42 & 0.00 & 0.50 & 0.49 \\ 
-  SPR ratio & 1.00 & 1.00 & 1.00 & 0.00 & 1.00 & 1.00 \\ 
+  Depletion & 0.46 & 0.43 & 0.42 & 0.48 & 0.50 & 0.49 \\ 
+  SPR ratio & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 & 1.00 \\ 
   L\_at\_Amin\_Fem\_GP\_1 & 9.67 & 9.61 & 8.53 & 9.91 & 9.62 & 9.88 \\ 
   L\_at\_Amax\_Fem\_GP\_1 & 28.44 & 28.23 & 26.39 & 27.79 & 27.24 & 27.64 \\ 
   VonBert\_K\_Fem\_GP\_1 & 0.12 & 0.14 & 0.25 & 0.11 & 0.10 & 0.12 \\ 
@@ -5549,6 +5565,15 @@ using the Schnute parameterization of the von Bertalanffy growth curve.
 \caption{Selectivity at length for all of the fleets in the base model.
 \label{fig:sel01_multiple_fleets_length1}}
 \end{figure}
+
+\begin{figure}
+\centering
+\includegraphics{r4ss/plots_mod1/sel02_multiple_fleets_age2.png}
+\caption{Selectivity at age for all of the fleets in the base model.
+\label{fig:sel02_multiple_fleets_age2}}
+\end{figure}
+
+\FloatBarrier
 
 \FloatBarrier
 

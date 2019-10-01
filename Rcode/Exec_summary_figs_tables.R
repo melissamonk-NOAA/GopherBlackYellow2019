@@ -435,21 +435,22 @@ align(Ref_pts_mod1.table) = c('l',
 mngmnt = read.csv('./txt_files/Exec_mngmt_performance.csv')
 
 colnames(mngmnt) = c('Year',
-                     'Total mortality',  
-                     'Total mortality', 
-                     'ACL', 
-                     'OFL')
+                     'GBYR GEMM Total Mortality',
+                     'Assessment Total Mortality',
+                     'Minor Nearshore Rockfish South Total Mortality', 
+                     'Nearshore Rockfish South ACL', 
+                     'Nearshore Rockfish South OFL')
 
-a_header <- construct_header(
+#a_header <- construct_header(
   # the data.frame or matrix that should be plotted
-  mngmnt,
+#  mngmnt,
   # the labels of the groups that we want to insert
-  grp_names = c("","GBYR", "Shallow Nearshore Rockfish South","Nearshore Rockfish South"),
+#  grp_names = c("","GBYR", "Shallow Nearshore Rockfish South","Nearshore Rockfish South"),
   # the number of columns each group spans
-  span = c(1, 1, 1,2),
+#  span = c(1, 3, 1,2),
   # the alignment of each group, can be a single character (lcr) or a vector
-  align = "c"
-)
+#  align = "c"
+#)
 
 
 
@@ -459,16 +460,19 @@ mngmnt.table = xtable(mngmnt,
                             black-and-yellow rockfishes (GBYR), combined, relative to the 
                              management guidelines for Nearshore Rockfish 
                              South of $40^\\circ 10^\\prime$ N. latitude. 
-                             Total mortality estimates are based on annual reports 
-                                from the NMFS NWFSC.'), 
+                             Total mortality estimates are based on annual GEMM reports 
+                                from the NMFS NWFSC. * = Total mortality represents gopher 
+                                rockfish only. ** = Prior to 2011 the harvest control rule was 
+                                based on Optimum Yield (OY).'), 
                       label='tab:mnmgt_perform')  
 # Add alignment
-#align(mngmnt.table) = c('l',
-#                        '>{\\raggedleft}p{1in}',
-#                        '>{\\centering}p{1in}',
-#                        '>{\\centering}p{1in}',
-#                        '>{\\centering}p{1in}', 
-#                        '>{\\centering}p{1in}')  
+align(mngmnt.table) = c('l',
+                        '>{\\raggedleft}p{.6in}',
+                        '>{\\centering}p{1in}',
+                        '>{\\centering}p{.8in}', 
+                        '>{\\centering}p{1in}',
+                        '>{\\centering}p{.8in}', 
+                        '>{\\centering}p{.8in}')  
 
 
 # =============================================================================
@@ -553,8 +557,8 @@ ForeTable[c(1:2),3] = '\\textit{114}'
                                              '.  Columns range over low, mid, and high
                                              states of nature, and rows range over different 
                                              assumptions of catch levels. The low state of nature 
-                                             fixed the growth parameter $k$ at 0.046 and the high 
-                                             state fixes all growth parameters to the external 
+                                             fixed the growth parameter $k$ at 0.046 (estimated: L1 = 14.1 
+                                             and L2 = 30.6). The high state fixes all growth parameters to the external 
                                              estimate ($k$ = 0.248, L1 = 13.8, L2 = 28.5). For reference 
                                              the base case estimated $k$ = 0.106, L1 = 13.4 and L2 = 28.9. 
                                             The 2019 and 2020 catches were set to the projected catch of 

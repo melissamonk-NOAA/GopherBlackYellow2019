@@ -119,14 +119,15 @@ updated maturity curve, a number of new indices, and new conditional age-at-leng
 
 ##Stock Biomass{-}
 The predicted spawning output from the base model generally showed a slight decline prior 
-to 1978, when the recruitment deviations were first estimated (Figure \ref{fig:Spawnbio_all} 
-and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994, followed by a period 
-of increase from 1995 to 2003. From 2004-2018 the stock has been in decline, though increased in total biomass 
-since 2016 and exhibits stable spawning output since from 2018 to 2019. The 2019 estimated spawning output relative to unfished 
+to 1978, when the recruitment deviations are first estimated (Figure \ref{fig:Spawnbio_all} 
+and Table \ref{tab:SpawningDeplete_mod1}). The stock declined from 1978 to 1994, 
+followed by a period of increase from 1995 to 2003. From 2004-2018 the stock has been 
+in decline, though increased in total biomass since 2016 and exhibits stable spawning 
+output since from 2018 to 2019. The 2019 estimated spawning output relative to unfished 
 equilibrium spawning output is above the target of 40% of unfished spawning output at 43.82 
 (95% asymptotic interval: 33.57-54.06) (Figure \ref{fig:RelDeplete_all}). 
 Approximate confidence intervals based on the asymptotic variance estimates show that the uncertainty 
-in the estimated spawning output is high, (95% asymptotic interval: 337-767 million eggs).
+in the estimated spawning output is moderately high, (95% asymptotic interval: 337-767 million eggs).
 \FloatBarrier
 
 <!--BEGIN  EXECUTIVE SUMMARY SPAWNING BIOMASS AND DEPLETE TABLES AND FIGURES-->
@@ -191,8 +192,9 @@ limits that would be associated with the Spawning Potential Ratio (SPR) = 50% li
 (corresponding to a relative fishing intensity of 100%) (Table \ref{tab:SPR_Exploit_mod1} and 
 Figure \ref{fig:SPR_all}). SPR is calculated as the lifetime spawning potential per 
 recruit at a given fishing level relative to the lifetime spawning potential per recruit 
-with no fishing. The relative inverse SPR over the last decade increased ranged from 0.64 to 
-0.77 from 2009-2015, and ranged from 0.80 to 0.82 from 2016-2018 (Table \ref{tab:SPR_Exploit_mod1}).
+with no fishing. The relative inverse SPR increased over the last decade from a low period 
+from 2004-2008, ranged from 0.64 to 0.77 from 2009-2015, and ranged from 0.80 to 0.82 from 
+2016-2018 (Table \ref{tab:SPR_Exploit_mod1} and Figure \ref{fig:SPR_phase}).
 
 
 \FloatBarrier
@@ -215,6 +217,7 @@ with no fishing. The relative inverse SPR over the last decade increased ranged 
 
 ![Estimated inverse spawning potential ratio (SPR) for the post-STAR base model, plotted as one minus SPR so that higher exploitation rates occur on the upper portion of the y-axis. The management target is plotted as a red horizontal line and values above this reflect harvests in excess of the overfishing proxy based on the SPR\textsubscript{50\%} harvest rate. The last year in the time series is `r Dat_end_mod1`. \label{fig:SPR_all}](`r SPR.file`)
 
+![Phase plot of the estimated (1-SPR)/(1-SPR50%) versus depletion B/Btarget for the base model. The red circle indicates 2018 estimated status and exploitation for GBYR. \label{fig:SPR_phase}](r4ss/plots_mod1/SPR4_phase)
 
 
 <!-- ************END EXECUTIVE SUMMARY EXPLOITATION************************ -->
@@ -236,15 +239,16 @@ This stock assessment estimates that `r spp` in the `r mod1_label` is
 target ($SB_{40\%}$), and well `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MSST>0,"above","below")` 
 the minimum stock size threshold ($SB_{25\%}$). 
 The estimated relative depletion level for the base model in 2018 is 
-0.439 (95% asymptotic interval: 0.341-0.536, corresponding 
-to an unfished spawning  of `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
+43.82 (95% asymptotic interval:33.57-54.06, corresponding 
+to `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
 (95% asymptotic interval: `r paste(Spawn_mod1_CI, fecund_unit, sep=' ')`) of 
-spawning output in the base model (Table \ref{tab:Ref_pts_mod1}).  Unfished 
+spawning output in the base model (Table \ref{tab:SpawningDeplete_mod1}).  Unfished 
 age `r min_age` biomass was estimated to be `r Ref_pts_mod1[2,2]` mt in the 
 base case model. The target spawning output ($SB_{40\%}$) 
 is `r paste(Ref_pts_mod1[7,2], fecund_unit,sep=' ')`, which corresponds with an 
 equilibrium yield of `r Ref_pts_mod1[10,2]` mt. Equilibrium yield at the proxy $F_{MSY}$ 
-harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Figure \ref{fig:Yield_all}).
+harvest rate corresponding to $SPR_{50\%}$ is `r Ref_pts_mod1[15,2]` mt (Table \ref{tab:Ref_pts_mod1} 
+and Figure \ref{fig:Yield_all}).
 
 
 \FloatBarrier
@@ -281,7 +285,7 @@ as well as other base case summary results can be found in Table \ref{tab:mnmgt_
     # Print management performance table - will have to edit the text file and 
     # R code for this table
     # Edit file: './txt_files/Exec_mngmt_performance.csv'
-    print(mngmnt.table, add.to.row = a_header, 
+    print(mngmnt.table, #add.to.row = a_header, 
           include.rownames = FALSE, caption.placement = 'top', 
           sanitize.text.function = function(x){x})
 ```
@@ -309,31 +313,31 @@ Table \ref{tab:OFL_projection}. The total catches in 2019 and 2020 are set to
 the projected catch from the California Department of Fish and Wildlife (CDFW) of 114 mt.
 
 Uncertainty in the forecasts is based upon the three states of nature agreed upon 
-at the STAR panel and are based three states of nature of growth.  The external 
+at the STAR panel, reflecting three different growth assumptions/estimates.  The external 
 estimate of growth was different than the internal Stock Synthesis estimate. Given that 
-natural mortality is fixed in the post-STAR base model, and the growth parameter 
-$k$ is negatively correlated with natural mortality, $k$ was chosen as the axis 
-of uncertainty. The high state of nature fixes $k$ at the external estimate, and the 
-low state of nature is the same distance in log space from the base as the high state 
-of nature. The low state of nature fixed $k$ at 0.046 and the L1 and L1 parameters 
+natural mortality rate $M$ is fixed in the post-STAR base model, and the growth parameter 
+$k$ is negatively correlated with $M$, $k$ was chosen as the axis 
+of uncertainty. The high state of nature fixes $k$ at the external estimate, and for the 
+low state of nature, $k$ is fixed at 0.046, the same distance in log space from the base 
+as the high state of nature. For the low state of nature, parameters L1 and L2 
 were estimated at 14.1 and 30.6, respectively.  The high state of nature fixed all 
 growth parameters, $k$ = 0.248, L1 = 13.8, and L2 = 28.5 to the external 
 estimate of growth (due to improbable estimates of L1 and L2 if only $k$ was fixed to the 
 external estimate). The growth parameters in the base model were estimated as 
 $k$ = 0.107, L1 = 13.4, and L2 = 28.8.
 
+For reference, the model predicted sigma is 0.189 and the decision table-based sigma is 0.197. 
 The forecasted buffer ramp was calculated assuming a category 2 stock, with  sigma = 1.0 
-and a $p^*$ = 0.45. The buffer ranges from 0.874 in 2021 ramping to 0.803 in 2030.  For 
-reference, the model predicted sigma is 0.189 and the decision table-based sigma is 0.197.
+and a $p^*$ = 0.45. The buffer multiplier ranges from 0.874 in 2021 ramping to 0.803 in 2030. 
 Current medium-term forecasts based on the alternative states of nature project that 
 the stock will remain above the target 
 threshold of 40% for all but two scenarios (Table \ref{tab:Decision_table_mod1}).  The 
 low state of nature with the high catches results in a stock at 
 26.4% of unfished in 2030 and the base state model with the 
-high catches results in a stock at 33.2% of unfished in 2030.  The base case 
-model with the base catches results in an increasing stock over the period from 2021-2030. 
-If the growth of GBYR is slower than the base model suggests, but the base case catches are 
-removed, the stock will be at the target threshold in 2030.  
+high catches results in a stock at 34.0% of unfished in 2030.  The base 
+model with the base catches results in an increasing stock over the period from 
+2021-2030. If the growth of GBYR is slower than the base model suggests, but the 
+base model catches are removed, the stock will be at the target threshold in 2030.  
 
               
 

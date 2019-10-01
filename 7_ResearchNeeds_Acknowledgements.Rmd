@@ -74,7 +74,7 @@ selectivity for this mode differs from the party/charter mode.
 
 <!-- ***************************ACKNOWLEDGEMENTS*************************** -->
 #Acknowledgments
-We gratefully acknowledge input and review from the STAR panel including the Owen 
+We gratefully acknowledge input and review from the STAR panel including Owen 
 Hamel (STAR panel chair; Northwest Fisheries Science Center, NMFS, NOAA), 
 Chantel Wetzel(Northwest Fisheries Science Center, NMFS, NOAA), Sven Kupschus 
 (Center for Independent Experts), and Robin Cook (Center for Independent Experts). 

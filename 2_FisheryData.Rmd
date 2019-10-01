@@ -148,7 +148,7 @@ discard estimates and were aggregated for all regions south of Cape Mendocino
 and across all fixed gear fisheries.
 
 A total of 46 ages were available for gopher rockfish from the commercial 
-fisheries 2009-2011, 2016, and 2018.  Though sparse, the data were considerd as 
+fisheries 2009-2011, 2016, and 2018.  Though sparse, the data were considered as 
 conditional age-at-length for the commercial fleet, but not used in the final 
 post-STAR base model. 
 

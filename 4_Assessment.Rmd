@@ -126,7 +126,7 @@ Differences in both the recreational and commercial catches used in this assessm
 in detail in Section \ref{fishery-information}.
 
 The bias adjustment for recruitment deviations did not exist in SS2 (version 1.19). We set 
-1973-2015 as the range of years with full bias adjustment to span the time series 
+1978-2015 as the range of years with full bias adjustment to span the time series 
 that was modeled.
 
 The previous assessment modeled selectivity of the commercial fleet as logistic curve, 
@@ -153,10 +153,11 @@ a version of the MRFSS database that has been more robustly aggregated to the tr
 Starting in 1999, MRFSS began angler interviews.  Interviews are conducted for all the anglers 
 on the boat, whereas the onboard data is only collected for a subset of anglers that changes with 
 each fishing stop. Using both the onboard observer data and the angler interviews for this 
-time period would result in developing indices from the same fish.  The fine-scale onboard observer 
-data provides greater detail in terms of catch and location than the angler interviews. 
+time period would result in developing indices from the same fish. Therefore, the angler interviews 
+were not used for the period of time after 1999. The fine-scale onboard observer 
+data for the 2000s provides greater detail in terms of catch and location than the angler interviews. 
 The onboard observer indices do not include the years 1999 and 2000 due to the number of regulation 
-changes occurring in those two years.
+changes occurring in those two years. 
 
 The fishery-independent indices are all new for this assessment; the PISCO kelp forest fish 
 survey and the CCFRP hook-and-line survey.
@@ -191,7 +192,7 @@ There are 10 fleets in the post-STAR base model.  They include:
 *Recreational*: The recreational fishery include two fleets, one for north of Point 
 Conception and one for south of Point Conception (all modes combined) and includes dead discards.
 
-*Fishery-Dependent Surveys*: There are five fishery-dependent survey fleets, all north 
+*Fishery-Dependent Surveys*: There are three fishery-dependent survey fleets, all north 
 of Point Conception.  There is one for MRFRSS CPFV dockside survey, one for the CDFW/Cal Poly 
 onboard observer survey, and one from the Deb Wilson-Vandenberg CPFV onboard observer survey.
 
@@ -418,7 +419,7 @@ A number of sensitivity analyses were conducted prior to the STAR panel, includi
 
 \begin{enumerate}
 
-  \item Fixing natural mortality at the prior of 0.193
+  \item Fixing natural mortality at the prior of 0.193 (as $M$ was estimated in the pre-STAR base)
   
   \item Fixing the von Bertalanffy $k$ at the external estimate of 0.247
   
@@ -719,11 +720,12 @@ length composition and selectivity affect the internal estimate of growth.  Henc
 chosen as the axis of uncertainty for the decision table.
 
 The estimated selectivities for all fleets within the model are shown in 
-Figure \ref{fig:sel01_multiple_fleets_length1}.
+Figures \ref{fig:sel01_multiple_fleets_length1} and \ref{fig:sel02_multiple_fleets_age2}.
 The selectivity curves for the commercial fleet, recreational fleets north and 
 south of Point Conception, and the larger PISCO (15+ cm) were estimated. All of 
 the selectivities are asymptotic except for the PISCO age-0 index, which has an 
-age selectivity set to 1.0. All of the recreational indices and the CCFRP index 
+length selectivity set to 1.0 for all sizes, and an age selecitivty set to 1.0 at 
+age 0 and 0.0 at all other ages. All of the recreational indices and the CCFRP index 
 selectivities were mirrored to the recreational fleet north of Point Conception. 
 Attempts to fit asymptotic and dome-shaped selectivity to the CCFRP data resulted in 
 poor estimation, large standard deviations, or a lack of fit to the data. The aggregated 
@@ -763,7 +765,8 @@ CCFRP (`r round(mod1$parameters[mod1$parameters$Label == "Q_extraSD_CCFRP(7)", 3
 Recruitment deviations were estimated from 1978-2018 (Figure \ref{fig:recdevs2_withbars}). 
 Estimates of recruitment suggest that GBYR are characterized by cyclical years of high 
 and low recruitment (Figure \ref{fig:Recruit_mod1}). The final base model does not include
-early recruitment deviation and a steep bias adjustment ramp from 1978 to 1979 of 0.32 that 
+early recruitment deviation and a steep bias adjustment ramp from 1978 to 1979 up to 
+a proportion of sigma of 0.32 that 
 extends to 2019 (Figure \ref{fig:recruit_fit_bias_adjust}). The years of highest estimated 
 recruitment is 1991, with recruitment estimated more than double that of any other year. 
 Fish from this cohort can be observed in the length composition data from Deb Wilson Vandenberg's
@@ -990,7 +993,7 @@ The `r LastYR` spawning biomass relative to unfished equilibrium spawning biomas
 is above the target of 40% of unfished 
 levels (Figure \ref{fig:ts9_unfished_with_95_asymptotic_intervals_intervals}). 
 The relative fishing intensity, $(1-SPR)/(1-SPR_{50\%})$, was above the management target 
-in 1987 and from 1992-1996. The stock has been below the management target since 1997. 
+in 1987 and from 1992-1996. The relative fishing intensity has been below the management target since 1997. 
 
 Table \ref{tab:Ref_pts_mod1} shows the full suite of estimated reference points for the base 
 model and Figure \ref{fig:yield1_yield_curve} shows the equilibrium curve based on a 

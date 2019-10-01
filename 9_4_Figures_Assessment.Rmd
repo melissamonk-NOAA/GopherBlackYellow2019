@@ -113,6 +113,10 @@ output:
 
 ![Selectivity at length for all of the fleets in the base model. \label{fig:sel01_multiple_fleets_length1}](r4ss/plots_mod1/sel01_multiple_fleets_length1.png)
 
+![Selectivity at age for all of the fleets in the base model. \label{fig:sel02_multiple_fleets_age2}](r4ss/plots_mod1/sel02_multiple_fleets_age2.png)
+
+\FloatBarrier
+
 
 
 

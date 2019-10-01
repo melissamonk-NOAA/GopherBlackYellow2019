@@ -7,7 +7,8 @@
 *Population Structure and Complex Assessment Considerations*
 
 There have been a number of analyses conducted on the genetic differentiation between 
-gopher rockfish and black-and-yellow rockfish.  The studies have yielded a range of 
+gopher rockfish (\emph{Sebastes carnatus} and black-and-yellow rockfish 
+(\emph{Sebastes chrysomelus}).  The studies have yielded a range of 
 results, but have generally concluded that there is unusually low genetic 
 differentiation between the two species. The most frequently used measure of
 genetic analyses to evaluate evidence for population differentiation is the 
@@ -263,7 +264,8 @@ and area closures (e.g. the RCAs and CCAs; a closure of Cordell Banks to
 specific fishing), depth restrictions, trip limits, and minimum size 
 limits to regulate the commercial fishery.
 
-The state of California has adopted regulatory measures to manage the fishery 
+The state of California has adopted regulatory measures to manage the minor neasrhore 
+shallow rockfish fishery 
 based on the harvest guidelines set forth by the PFMC.  The commercial open access 
 and limited entry fixed gear sectors have undergone 
 three different spatial management changes since 2000.  Since 2005, both 
@@ -288,9 +290,10 @@ GBYR was in place from 1999 to 2005, but was eliminated thereafter.
 
 California also began spatial management, including area closures, and depth restrictions for the 
 recreational 
-fleet in 2000.  In general, the recreational season north of Point Conception extends from April to 
-December, and south of Point Conception from March to December.  In the area that GBYR are most 
-commonly landed, from Monterey to Morro Bay, the depth restrictions have been between 30 and 40 
+fleet in 2000.  In general, the recreational season north of Point Conception 
+extends from April to December, and south of Point Conception from March to December. 
+In the area that GBYR are most commonly landed, from Monterey to Morro Bay, the 
+maximum depth open to recreational fishing has been between 30 and 40 
 fathoms until 2017.  In 2017 the depth restrictions were eased by 10 fathoms, opening up fishing 
 depths along the central California coast that had not been open consistently since 2002.  In 
 both 2017 and 2018, the deepest 10 fathoms was closed prior to the prescribed season in December due to high 
@@ -310,7 +313,8 @@ total nearshore rockfish south total mortality from 2011-2016. The recent GBYR t
 contributed approximately 9% to the nearshore rockfish south OFL, and GBYR catches have not exceded 
 the GBYR OFLs in recent years. GBYR is a small component of the 
 nearshore rockfish south complex that includes twelve other species. A summary of these values as 
-well as other post-STAR base model summary results can be found in Table \ref{tab:mnmgt_perform}.
+well as other post-STAR base model summary results can be found in Table \ref{tab:mnmgt_perform} 
+(Executive Summary).
 
 
 ##Fisheries Off Mexico or Canada
