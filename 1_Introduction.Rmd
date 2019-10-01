@@ -143,7 +143,9 @@ quantitative information for the assessment.
 
 Both gopher and black-and-yellow rockfish are a prey species for a number of predatory groundfish 
 species that are also have active fisheries, including lingcod and cabezon. These predators are thought 
-to contribute to significant post-settlement mortality for both species [@Johnson2006; @Johnson2007].
+to contribute to significant post-settlement mortality for both species [@Johnson2006; @Johnson2007]. 
+Additional studies, both ecosystem modelling and on predator diets, woudl help elucidate the effects of 
+predation on the GBYR complex.
 
 
 ##Fishery Information
