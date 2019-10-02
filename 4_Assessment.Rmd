@@ -724,7 +724,7 @@ Figures \ref{fig:sel01_multiple_fleets_length1} and \ref{fig:sel02_multiple_flee
 The selectivity curves for the commercial fleet, recreational fleets north and 
 south of Point Conception, and the larger PISCO (15+ cm) were estimated. All of 
 the selectivities are asymptotic except for the PISCO age-0 index, which has an 
-length selectivity set to 1.0 for all sizes, and an age selecitivty set to 1.0 at 
+length selectivity set to 1.0 for all sizes, and an age selectivity set to 1.0 at 
 age 0 and 0.0 at all other ages. All of the recreational indices and the CCFRP index 
 selectivities were mirrored to the recreational fleet north of Point Conception. 
 Attempts to fit asymptotic and dome-shaped selectivity to the CCFRP data resulted in 
@@ -969,7 +969,7 @@ while the remaining components minimize at the lower bound.  The age composition
 has conflicting trends with the dummy fleet minimizing just lower than the over all around 0.17, the
 CCFRP ages minimizing at the lower bound and the RecNorth ages minimizing at the upper bound 
 (Figure \ref{fig:profile_k_piner}).  The RecOnboardNorth survey likelihood component was the only 
-survey component minimized at the upper bround, with the remaining survey component minimized at the 
+survey component minimized at the upper bound, with the remaining survey component minimized at the 
 lower bound of the $k$ values explored (Figure \ref{fig:profile_k_piner2}). The resulting 2019 
 depletion over the range of $k$ values spans 0.4 to 0.49 (Figure \ref{fig:profile_k_depl}). 
 

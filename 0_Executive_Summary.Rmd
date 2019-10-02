@@ -16,8 +16,8 @@ are rare south of Point Conception.
 Information on historical landings of `r spp` are available back to 1916
 (Table \ref{tab:Exec_catch}). The recreational fleet began ramping up in the 1950s 
 and has fluctuated over the the last 50 years (Figure \ref{fig:Exec_catch1}).  The majority 
-of GBYR recreational landings have been from north of Point Conception throughtout the time 
-period modelled. 
+of GBYR recreational landings have been from north of Point Conception throughout the time 
+period modeled. 
 
 Commercial landings were small during 
 the years of World War II, ranging between `r min(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` to `r max(round(Tot.catch.df[Tot.catch.df[,1] >= 1939 & Tot.catch.df[,1] <= 1945,2],0))` metric 
@@ -234,7 +234,7 @@ that could contribute ecosystem-related quantitative information for the assessm
 Both gopher and black-and-yellow rockfish are a prey species for a number of predatory groundfish 
 species that are also have active fisheries, including lingcod and cabezon. These predators are thought 
 to contribute to significant post-settlement mortality for both species [@Johnson2006; @Johnson2007]. 
-Additional studies, both ecosystem modelling and on predator diets, woudl help elucidate the effects of 
+Additional studies, both ecosystem modelling and on predator diets, would help elucidate the effects of 
 predation on the GBYR complex.
 
 
@@ -246,7 +246,7 @@ This stock assessment estimates that `r spp` in the `r mod1_label` is
 target ($SB_{40\%}$), and well `r ifelse(Deplete_mod1[nrow(Deplete_mod1),2]-MSST>0,"above","below")` 
 the minimum stock size threshold ($SB_{25\%}$). 
 The estimated relative depletion level for the base model in 2018 is 
-43.82 (95% asymptotic interval:33.57-54.06, corresponding 
+43.82 (95% asymptotic interval: 33.57-54.06, corresponding 
 to `r paste(Spawn_mod1, fecund_unit,sep=' ')` 
 (95% asymptotic interval: `r paste(Spawn_mod1_CI, fecund_unit, sep=' ')`) of 
 spawning output in the base model (Table \ref{tab:SpawningDeplete_mod1}).  Unfished 

@@ -41,7 +41,7 @@ commercial data were combined to represent one commercial fleet in the assessmen
 Additional details regarding this decision 
 are described below.
 
-The stock assessment of gopher rockfish in 2005 did not excplicitly include black-and-yellow rockfish 
+The stock assessment of gopher rockfish in 2005 did not explicitly include black-and-yellow rockfish 
 landings. A comparison of the recreational and commercial landings from the 2005 assessment 
 to those used in this assessment suggest the 2005 assessment may have included some 
 black-and-yellow rockfish landings (Figure \ref{fig:Assessment_compare}). The 2005 
@@ -154,7 +154,7 @@ post-STAR base model.
 
 The input sample sizes for commercial length composition data were calculated 
 via the Stewart Method for fisheries (Ian Stewart, personal communication, IPHC, 
-and develped at NWFSC):
+and developed at NWFSC):
 
 \begin{center}
 
@@ -405,7 +405,7 @@ aggregate the RecFIN records to the trip level is outlined Supplemental Material
 
 Initial trip filters included eliminating trips targeting species caught near the 
 surface waters for all or part of the trip, including trips with catch of bluefin 
-tuna, yellowfin tuna, skipjack, and albacore.  Trips occuring in bays, e.g., San Francisco 
+tuna, yellowfin tuna, skipjack, and albacore.  Trips occurring in bays, e.g., San Francisco 
 Bay, were also excluded.
 
 The following filtering steps were applied to gopher rockfish, as well as the 
@@ -606,7 +606,7 @@ the [California Seafloor Mapping Project](http://seafloor.otterlabs.org/index.ht
 with bathymetric data from state waters available at a 2 m resolution.  Reefs were 
 developed based on a number of factors described in the supplemental material 
 ("Reef Delineation"). Reefs outside the state boundary not included in the high 
-resolution mappin project were mapped using other data sources.
+resolution mapping project were mapped using other data sources.
 
 Initial filters were applied to the entire data set, north and south of Point Conception 
 combined. After an initial clean-up of the data, 67,850 drifts remained, with GBYR present 

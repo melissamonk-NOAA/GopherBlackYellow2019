@@ -144,7 +144,7 @@ quantitative information for the assessment.
 Both gopher and black-and-yellow rockfish are a prey species for a number of predatory groundfish 
 species that are also have active fisheries, including lingcod and cabezon. These predators are thought 
 to contribute to significant post-settlement mortality for both species [@Johnson2006; @Johnson2007]. 
-Additional studies, both ecosystem modelling and on predator diets, woudl help elucidate the effects of 
+Additional studies, both ecosystem modelling and on predator diets, would help elucidate the effects of 
 predation on the GBYR complex.
 
 
@@ -171,7 +171,7 @@ by gopher rockfish, and both species are represented in the commercial landings.
 
 The landings from south of Point Conception are minor throughout the time period, 
 with peaks in the 1950s and 1960s for gopher rockfish.  Black-and-yellow rockfish 
-are rare south of Point Conception and it is therfore expected that these catches are minimal. 
+are rare south of Point Conception and it is therefore expected that these catches are minimal. 
 
 The live fish fishery began in the early 1990s, with the first reported commercial landings 
 of live gopher rockfish in 1993, and black-and-yellow rockfish a year later. By 1995 
@@ -270,7 +270,7 @@ and area closures (e.g. the RCAs and CCAs; a closure of Cordell Banks to
 specific fishing), depth restrictions, trip limits, and minimum size 
 limits to regulate the commercial fishery.
 
-The state of California has adopted regulatory measures to manage the minor neasrhore 
+The state of California has adopted regulatory measures to manage the minor seashore 
 shallow rockfish fishery 
 based on the harvest guidelines set forth by the PFMC.  The commercial open access 
 and limited entry fixed gear sectors have undergone 
@@ -316,7 +316,7 @@ area south of Point Conception. The total mortality of the nearshore rockfish so
 below the ACL in all years (2011-2016). Total mortality estimates from the NMFS NWFSC are not yet 
 available for 2017-2018. GBYR total mortality was on average 20% of the 
 total nearshore rockfish south total mortality from 2011-2016. The recent GBYR total mortality 
-contributed approximately 9% to the nearshore rockfish south OFL, and GBYR catches have not exceded 
+contributed approximately 9% to the nearshore rockfish south OFL, and GBYR catches have not exceeded 
 the GBYR OFLs in recent years. GBYR is a small component of the 
 nearshore rockfish south complex that includes twelve other species. A summary of these values as 
 well as other post-STAR base model summary results can be found in Table \ref{tab:mnmgt_perform} 

@@ -165,7 +165,7 @@ consistently apply their transformation. In particular, in real space, one would
 expect substantial heteroscedasticity in both the observation and process error 
 associated with the observed relationship of $M$ to $A_{max}$. Therefore, it would 
 be reasonable to fit all models under a log transformation. This was not done.
-Revaluating the data used in Then et al. [-@Then2015] by fitting the one-parameter 
+Reevaluating the data used in Then et al. [-@Then2015] by fitting the one-parameter 
 $A_{max}$ model under a log-log transformation (such that the slope is forced to be 
 -1 in the transformed space (as in Hamel [-@Hamel2015]), the point estimate for $M$ is:
 \begin{equation}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.9.3)  1 OCT 2019 16:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2019.3.20)  2 OCT 2019 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,40 +127,15 @@ uote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-icrotype.sty
-Package: microtype 2019/02/28 v2.7b Micro-typographical refinements (RS)
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/ge
+ometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/ke
 yval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks20
 )
-\MT@toks=\toks21
-\MT@count=\count100
-LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen112
-LaTeX Info: Redefining \textmicrotypecontext on input line 1336.
-\MT@listname@count=\count101
-
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-icrotype-pdftex.def
-File: microtype-pdftex.def 2019/02/28 v2.7b Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 914.
-LaTeX Info: Redefining \lslig on input line 914.
-\MT@outer@space=\skip46
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-icrotype.cfg
-File: microtype.cfg 2019/02/28 v2.7b microtype main configuration file (RS)
-))
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/ge
-ometry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
-
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
@@ -170,22 +145,22 @@ ifvtex.sty
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count102
-\Gm@cntv=\count103
-\c@Gm@tempcnt=\count104
-\Gm@bindingoffset=\dimen113
-\Gm@wd@mp=\dimen114
-\Gm@odd@mp=\dimen115
-\Gm@even@mp=\dimen116
-\Gm@layoutwidth=\dimen117
-\Gm@layoutheight=\dimen118
-\Gm@layouthoffset=\dimen119
-\Gm@layoutvoffset=\dimen120
-\Gm@dimlist=\toks22
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen112
+\Gm@wd@mp=\dimen113
+\Gm@odd@mp=\dimen114
+\Gm@even@mp=\dimen115
+\Gm@layoutwidth=\dimen116
+\Gm@layoutheight=\dimen117
+\Gm@layouthoffset=\dimen118
+\Gm@layoutvoffset=\dimen119
+\Gm@dimlist=\toks21
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hy
 perref.sty
-Package: hyperref 2019/06/12 v6.88h Hypertext links for LaTeX
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/
 hobsub-hyperref.sty
@@ -203,9 +178,13 @@ Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -235,60 +214,60 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 options.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen121
-\Hy@linkcounter=\count105
-\Hy@pagecounter=\count106
+\@linkdim=\dimen120
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd
 1enc.def
-File: pd1enc.def 2019/06/12 v6.88h Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count107
+\Hy@SavedSpaceFactor=\count105
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig
 /hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4550.
-Package hyperref Info: Link nesting OFF on input line 4555.
-Package hyperref Info: Hyper index ON on input line 4558.
-Package hyperref Info: Plain pages OFF on input line 4565.
-Package hyperref Info: Backreferencing OFF on input line 4570.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4803.
-\c@Hy@tempcnt=\count108
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count106
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5156.
-\XeTeXLinkMargin=\dimen122
-\Fld@menulength=\count109
-\Field@Width=\dimen123
-\Fld@charsize=\dimen124
-Package hyperref Info: Hyper figures OFF on input line 6411.
-Package hyperref Info: Link nesting OFF on input line 6416.
-Package hyperref Info: Hyper index ON on input line 6419.
-Package hyperref Info: backreferencing OFF on input line 6426.
-Package hyperref Info: Link coloring OFF on input line 6431.
-Package hyperref Info: Link coloring with OCG OFF on input line 6436.
-Package hyperref Info: PDF/A mode OFF on input line 6441.
-LaTeX Info: Redefining \ref on input line 6481.
-LaTeX Info: Redefining \pageref on input line 6485.
-\Hy@abspage=\count110
-\c@Item=\count111
-\c@Hfootnote=\count112
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count107
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hp
 dftex.def
-File: hpdftex.def 2019/06/12 v6.88h Hyperref driver for pdfTeX
-\Fld@listcount=\count113
-\c@bookmark@seq@number=\count114
+File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/re
 runfilecheck.sty
@@ -296,13 +275,13 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip47
+\Hy@SectionHShift=\skip46
 )
 Package hyperref Info: Option `unicode' set `true' on input line 34.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pu
 enc.def
-File: puenc.def 2019/06/12 v6.88h Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
@@ -330,8 +309,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 f/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen125
-\Gin@req@width=\dimen126
+\Gin@req@height=\dimen124
+\Gin@req@width=\dimen125
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/gr
 ffile.sty
@@ -344,9 +323,9 @@ Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/tit
 ling.sty
 Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip48
-\thanksmargin=\skip49
-\droptitle=\skip50
+\thanksmarkwidth=\skip47
+\thanksmargin=\skip48
+\droptitle=\skip49
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabul
 arx.sty
@@ -355,60 +334,60 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array
 .sty
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen127
+\col@sep=\dimen126
 \ar@mcellbox=\box29
-\extrarowheight=\dimen128
-\NC@list=\toks23
-\extratabsurround=\skip51
-\backup@length=\skip52
+\extrarowheight=\dimen127
+\NC@list=\toks22
+\extratabsurround=\skip50
+\backup@length=\skip51
 \ar@cellbox=\box30
 )
-\TX@col@width=\dimen129
-\TX@old@table=\dimen130
-\TX@old@col=\dimen131
-\TX@target=\dimen132
-\TX@delta=\dimen133
-\TX@cols=\count115
-\TX@ftn=\toks24
+\TX@col@width=\dimen128
+\TX@old@table=\dimen129
+\TX@old@col=\dimen130
+\TX@target=\dimen131
+\TX@delta=\dimen132
+\TX@cols=\count113
+\TX@ftn=\toks23
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/cap
 tion.sty
-Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/cap
 tion3.sty
-Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen134
-\captionmargin@=\dimen135
-\captionwidth=\dimen136
-\caption@tempdima=\dimen137
-\caption@indent=\dimen138
-\caption@parindent=\dimen139
-\caption@hangindent=\dimen140
+\captionmargin=\dimen133
+\captionmargin@=\dimen134
+\captionwidth=\dimen135
+\caption@tempdima=\dimen136
+\caption@indent=\dimen137
+\caption@parindent=\dimen138
+\caption@hangindent=\dimen139
 )
-\c@caption@flags=\count116
-\c@ContinuedFloat=\count117
+\c@caption@flags=\count114
+\c@ContinuedFloat=\count115
 Package caption Info: hyperref package is loaded.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longt
 able.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip53
-\LTright=\skip54
-\LTpre=\skip55
-\LTpost=\skip56
-\LTchunksize=\count118
-\LTcapwidth=\dimen141
+\LTleft=\skip52
+\LTright=\skip53
+\LTpre=\skip54
+\LTpost=\skip55
+\LTchunksize=\count116
+\LTcapwidth=\dimen140
 \LT@head=\box31
 \LT@firsthead=\box32
 \LT@foot=\box33
 \LT@lastfoot=\box34
-\LT@cols=\count119
-\LT@rows=\count120
-\c@LT@tables=\count121
-\c@LT@chunks=\count122
-\LT@p@ftn=\toks25
+\LT@cols=\count117
+\LT@rows=\count118
+\c@LT@tables=\count119
+\c@LT@chunks=\count120
+\LT@p@ftn=\toks24
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/ro
 tating.sty
@@ -418,19 +397,19 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 .sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count123
-\rotFPtop=\skip57
-\rotFPbot=\skip58
+\c@r@tfl@t=\count121
+\rotFPtop=\skip56
+\rotFPbot=\skip57
 \rot@float@box=\box35
-\rot@mess@toks=\toks26
+\rot@mess@toks=\toks25
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float
 .sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count124
-\float@exts=\toks27
+\c@float@type=\count122
+\float@exts=\toks26
 \float@box=\box36
-\@float@everytoks=\toks28
+\@float@everytoks=\toks27
 \@floatcapt=\box37
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/placeins/pl
@@ -444,27 +423,27 @@ Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/md
 wtab.sty
 Package: mdwtab 1998/04/28 1.9 Table typesetting with style
-\tab@state=\count125
-\tab@columns=\count126
-\tab@preamble=\toks29
-\tab@shortline=\toks30
-\extrarowheight=\dimen142
-\tabextrasep=\dimen143
-\arrayextrasep=\dimen144
-\smarraycolsep=\dimen145
-\smarrayextrasep=\dimen146
-\tab@width=\dimen147
-\col@sep=\dimen148
-\tab@endheight=\dimen149
-\tab@leftskip=\skip59
-\tab@rightskip=\skip60
+\tab@state=\count123
+\tab@columns=\count124
+\tab@preamble=\toks28
+\tab@shortline=\toks29
+\extrarowheight=\dimen141
+\tabextrasep=\dimen142
+\arrayextrasep=\dimen143
+\smarraycolsep=\dimen144
+\smarrayextrasep=\dimen145
+\tab@width=\dimen146
+\col@sep=\dimen147
+\tab@endheight=\dimen148
+\tab@leftskip=\skip58
+\tab@rightskip=\skip59
 \fn@notes=\box38
-\fn@width=\dimen150
+\fn@width=\dimen149
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/enume
 rate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks31
+\@enLab=\toks30
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 90.
 
@@ -495,61 +474,61 @@ File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/soul/soul.s
 ty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks32
-\SOUL@lasttoken=\toks33
-\SOUL@cmds=\toks34
-\SOUL@buffer=\toks35
-\SOUL@token=\toks36
-\SOUL@spaceskip=\skip61
-\SOUL@ttwidth=\dimen151
-\SOUL@uldp=\dimen152
-\SOUL@ulht=\dimen153
+\SOUL@word=\toks31
+\SOUL@lasttoken=\toks32
+\SOUL@cmds=\toks33
+\SOUL@buffer=\toks34
+\SOUL@token=\toks35
+\SOUL@spaceskip=\skip60
+\SOUL@ttwidth=\dimen150
+\SOUL@uldp=\dimen151
+\SOUL@ulht=\dimen152
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/enumitem/en
 umitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip62
-\enit@outerparindent=\dimen154
-\enit@toks=\toks37
+Package: enumitem 2019/02/04 v3.8 Customized lists
+\labelindent=\skip61
+\enit@outerparindent=\dimen153
+\enit@toks=\toks36
 \enit@inbox=\box39
-\enit@count@id=\count127
-\enitdp@description=\count128
+\enit@count@id=\count125
+\enitdp@description=\count126
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lineno/line
 no.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count129
-\output=\toks38
-\linenoprevgraf=\count130
-\linenumbersep=\dimen155
-\linenumberwidth=\dimen156
-\c@linenumber=\count131
-\c@pagewiselinenumber=\count132
-\c@LN@truepage=\count133
-\c@internallinenumber=\count134
-\c@internallinenumbers=\count135
-\quotelinenumbersep=\dimen157
-\bframerule=\dimen158
-\bframesep=\dimen159
+\linenopenalty=\count127
+\output=\toks37
+\linenoprevgraf=\count128
+\linenumbersep=\dimen154
+\linenumberwidth=\dimen155
+\c@linenumber=\count129
+\c@pagewiselinenumber=\count130
+\c@LN@truepage=\count131
+\c@internallinenumber=\count132
+\c@internallinenumbers=\count133
+\quotelinenumbersep=\dimen156
+\bframerule=\dimen157
+\bframesep=\dimen158
 \bframebox=\box40
 LaTeX Info: Redefining \\ on input line 3056.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verba
 tim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks39
-\verbatim@line=\toks40
+\every@verbatim=\toks38
+\verbatim@line=\toks39
 \verbatim@in@stream=\read1
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fa
 ncyvrb.sty
 Package: fancyvrb 2019/01/15
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count136
+\FV@CodeLineNo=\count134
 \FV@InFile=\read2
 \FV@TabBox=\box41
-\c@FancyVerbLine=\count137
-\FV@StepNumber=\count138
+\c@FancyVerbLine=\count135
+\FV@StepNumber=\count136
 \FV@OutFile=\write3
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textco
@@ -733,33 +712,33 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 keyval.tex
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/xkeyval/x
 kvutils.tex
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+\XKV@toks=\toks40
+\XKV@tempa@toks=\toks41
 )
-\XKV@depth=\count139
+\XKV@depth=\count137
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-\c@pc@count@i=\count140
-\c@pc@count@ii=\count141
-\c@pc@count@iii=\count142
-\c@pc@count@iv=\count143
+\c@pc@count@i=\count138
+\c@pc@count@ii=\count139
+\c@pc@count@iii=\count140
+\c@pc@count@iv=\count141
 \pc@mathannot@box=\box42
 \pc@nullbox=\box43
-\pc@dima=\skip63
-\pc@dimb=\skip64
-\pc@Sposx=\skip65
-\pc@Sposy=\skip66
-\pc@Eposx=\skip67
-\pc@Eposy=\skip68
-\pc@column=\skip69
-\pc@box@width=\skip70
-\pc@box@height=\skip71
-\pc@box@depth=\skip72
+\pc@dima=\skip62
+\pc@dimb=\skip63
+\pc@Sposx=\skip64
+\pc@Sposy=\skip65
+\pc@Eposx=\skip66
+\pc@Eposy=\skip67
+\pc@column=\skip68
+\pc@box@width=\skip69
+\pc@box@height=\skip70
+\pc@box@depth=\skip71
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/et
 oolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count144
+\etb@tempcnta=\count142
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/datetime2/d
 atetime2.sty
@@ -767,7 +746,7 @@ Package: datetime2 2018/07/20 v1.5.3 (NLCT) date and time formats
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tracklang/t
 racklang.sty
-Package: tracklang 2019/08/31 v1.3.7 (NLCT) Track Languages
+Package: tracklang 2018/05/13 v1.3.6 (NLCT) Track Languages
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/tracklang
 /tracklang.tex)))
@@ -786,35 +765,35 @@ Package zref Info: New property list: savepos on input line 80.
 Package zref Info: New property: posx on input line 81.
 Package zref Info: New property: posy on input line 82.
 )
-\c@zref@unique=\count145
+\c@zref@unique=\count143
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/calc.
 sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count146
-\calc@Bcount=\count147
-\calc@Adimen=\dimen160
-\calc@Bdimen=\dimen161
-\calc@Askip=\skip73
-\calc@Bskip=\skip74
+\calc@Acount=\count144
+\calc@Bcount=\count145
+\calc@Adimen=\dimen159
+\calc@Bdimen=\dimen160
+\calc@Askip=\skip72
+\calc@Bskip=\skip73
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count148
-\calc@Cskip=\skip75
+\calc@Ccount=\count146
+\calc@Cskip=\skip74
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/marginnote/
 marginnote.sty
 Package: marginnote 2018/08/09 v1.4b non floating margin notes for LaTeX
-\c@mn@abspage=\count149
+\c@mn@abspage=\count147
 )
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/soulpos/sou
-lpos.sty
+(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bezos/soulp
+os.sty
 Package: soulpos 2012/02/25 v1.1 Fancy underlining
-\ulp@subcnt=\count150
-\ulp@cnt=\count151
+\ulp@subcnt=\count148
+\ulp@cnt=\count149
 \ulp@out=\write4
 \ulp@in=\read3
-\ulwidth=\dimen162
+\ulwidth=\dimen161
 )
 
 Package hyperref Warning: Option `pdftex' has already been used,
@@ -825,8 +804,8 @@ Package zref Info: New property: PCPDFOBJID on input line 2736.
 )
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/nag/nag.sty
 Package: nag 2011/11/25 0.7 warning about old commands (ulmi)
-\c@nag@c=\count152
-\c@nag@sins=\count153
+\c@nag@c=\count150
+\c@nag@sins=\count151
 Package nag Info: Loaded nag-l2tabu.cfg  on input line 552.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/nag/nag-l2t
@@ -842,23 +821,23 @@ File: nag-orthodox.cfg 2006/04/19 v1.8 strict rules for nag.sty (ulmi)
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bo
 oktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen163
-\lightrulewidth=\dimen164
-\cmidrulewidth=\dimen165
-\belowrulesep=\dimen166
-\belowbottomsep=\dimen167
-\aboverulesep=\dimen168
-\abovetopsep=\dimen169
-\cmidrulesep=\dimen170
-\cmidrulekern=\dimen171
-\defaultaddspace=\dimen172
-\@cmidla=\count154
-\@cmidlb=\count155
-\@aboverulesep=\dimen173
-\@belowrulesep=\dimen174
-\@thisruleclass=\count156
-\@lastruleclass=\count157
-\@thisrulewidth=\dimen175
+\heavyrulewidth=\dimen162
+\lightrulewidth=\dimen163
+\cmidrulewidth=\dimen164
+\belowrulesep=\dimen165
+\belowbottomsep=\dimen166
+\aboverulesep=\dimen167
+\abovetopsep=\dimen168
+\cmidrulesep=\dimen169
+\cmidrulekern=\dimen170
+\defaultaddspace=\dimen171
+\@cmidla=\count152
+\@cmidlb=\count153
+\@aboverulesep=\dimen172
+\@belowrulesep=\dimen173
+\@thisruleclass=\count154
+\@lastruleclass=\count155
+\@thisrulewidth=\dimen174
 ) (./00_Assessment_Compile.aux
 
 LaTeX Warning: Label `tab:CommCatches' multiply defined.
@@ -897,22 +876,6 @@ LaTeX Font Info:    Try loading font information for TS1+cmr on input line 129.
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 129.
-LaTeX Info: Redefining \microtypecontext on input line 129.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `basictext'.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
-
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-t-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -958,7 +921,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count158
+\c@section@level=\count156
 )
 LaTeX Info: Redefining \ref on input line 129.
 LaTeX Info: Redefining \pageref on input line 129.
@@ -994,7 +957,7 @@ Package caption Info: longtable package is loaded.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/ltc
 aption.sty
-Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
+Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1040,19 +1003,11 @@ LaTeX Font Info:    Try loading font information for U+msa on input line 148.
 sa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-t-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
 LaTeX Font Info:    Try loading font information for U+msb on input line 148.
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/um
 sb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-(c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/m
-t-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ) [1
 
 \openout4 = `00_Assessment_Compile.upa'.
@@ -1086,48 +1041,48 @@ Overfull \hbox (3.98187pt too wide) detected at line 13
 <Figures/rec_exec.png, id=378, 433.62pt x 289.08pt>
 File: Figures/rec_exec.png Graphic file (type png)
 <use Figures/rec_exec.png>
-Package pdftex.def Info: Figures/rec_exec.png  used on input line 242.
+Package pdftex.def Info: Figures/rec_exec.png  used on input line 241.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 <Figures/comm_exec.png, id=379, 433.62pt x 289.08pt>
 File: Figures/comm_exec.png Graphic file (type png)
 <use Figures/comm_exec.png>
-Package pdftex.def Info: Figures/comm_exec.png  used on input line 250.
+Package pdftex.def Info: Figures/comm_exec.png  used on input line 249.
 (pdftex.def)             Requested size: 433.63878pt x 289.09251pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.256 \FloatBarrier
+l.255 \FloatBarrier
                     [1]
 Package marginnote Info: Using workaround for absolute page number on input lin
-e 256.
+e 255.
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.256 \FloatBarrier
+l.255 \FloatBarrier
                     [2 <./Figures/Rec_exec.png>]pdfTeX warning (ext4): destinat
 ion with the same identifier (name{page.iii}) has been already used, duplicate 
 ignored
 <to be read again> 
                    \relax 
-l.256 \FloatBarrier
+l.255 \FloatBarrier
                     [3 <./Figures/comm_exec.png>]
 <r4ss/plots_mod1/catch2 landings stacked.png, id=397, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/catch2 landings stacked.png Graphic file (type png)
 <use r4ss/plots_mod1/catch2 landings stacked.png>
 Package pdftex.def Info: r4ss/plots_mod1/catch2 landings stacked.png  used on i
-nput line 260.
+nput line 259.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [4] [5 <./r4ss/plots_mod1/catch2 landings stacked.png>]
 <Figures/assess_region_map.png, id=411, 614.295pt x 794.97pt>
 File: Figures/assess_region_map.png Graphic file (type png)
 <use Figures/assess_region_map.png>
-Package pdftex.def Info: Figures/assess_region_map.png  used on input line 342.
+Package pdftex.def Info: Figures/assess_region_map.png  used on input line 341.
 
 (pdftex.def)             Requested size: 469.75604pt x 607.9196pt.
 
-LaTeX Warning: Float too large for page by 10.98958pt on input line 347.
+LaTeX Warning: Float too large for page by 10.98958pt on input line 346.
 
 [6] [7 <./Figures/assess_region_map.png (PNG copy)>]
 <r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals.png
@@ -1137,7 +1092,7 @@ s.png Graphic file (type png)
 <use r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_intervals
 .png>
 Package pdftex.def Info: r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic
-_intervals_intervals.png  used on input line 397.
+_intervals_intervals.png  used on input line 396.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 <r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_interval
 s.png, id=427, 469.755pt x 361.35pt>
@@ -1146,7 +1101,7 @@ ervals.png Graphic file (type png)
 <use r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_intervals_inte
 rvals.png>
 Package pdftex.def Info: r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymp
-totic_intervals_intervals.png  used on input line 405.
+totic_intervals_intervals.png  used on input line 404.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [8] [9 <./r4ss/plots_mod1/ts7_Spawning_output_with_95_asymptotic_intervals_inte
 rvals.png>] [10 <./r4ss/plots_mod1/ts9_Fraction_of_unfished_with_95_asymptotic_
@@ -1158,7 +1113,7 @@ png Graphic file (type png)
 <use r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_intervals.p
 ng>
 Package pdftex.def Info: r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_as
-ymptotic_intervals.png  used on input line 447.
+ymptotic_intervals.png  used on input line 446.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [11] [12 <./r4ss/plots_mod1/ts11_Age-0_recruits_(1000s)_with_95_asymptotic_inte
 rvals.png>]
@@ -1166,27 +1121,32 @@ rvals.png>]
 File: r4ss/plots_mod1/SPR2_minusSPRseries.png Graphic file (type png)
 <use r4ss/plots_mod1/SPR2_minusSPRseries.png>
 Package pdftex.def Info: r4ss/plots_mod1/SPR2_minusSPRseries.png  used on input
- line 500.
+ line 499.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 <r4ss/plots_mod1/SPR4_phase.png, id=465, 469.755pt x 361.35pt>
 File: r4ss/plots_mod1/SPR4_phase.png Graphic file (type png)
 <use r4ss/plots_mod1/SPR4_phase.png>
-Package pdftex.def Info: r4ss/plots_mod1/SPR4_phase.png  used on input line 512
+Package pdftex.def Info: r4ss/plots_mod1/SPR4_phase.png  used on input line 511
 .
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [13] [14 <./r4ss/plots_mod1/SPR2_minusSPRseries.png>] [15 <./r4ss/plots_mod1/SP
 R4_phase.png>]
-Overfull \hbox (7.6013pt too wide) in paragraph at lines 564--564
+Overfull \hbox (7.6013pt too wide) in paragraph at lines 563--563
  []\OT1/cmr/bx/n/12 Estimate
  []
 
 
-Overfull \hbox (8.97353pt too wide) in paragraph at lines 562--589
+Overfull \hbox (8.97353pt too wide) in paragraph at lines 561--588
  [][] 
  []
 
-[16] [17] [18]
-Overfull \hbox (23.54175pt too wide) in paragraph at lines 700--718
+[16]
+Overfull \hbox (0.53735pt too wide) in paragraph at lines 617--617
+ []\OT1/cmr/m/n/12 Assessment 
+ []
+
+[17] [18]
+Overfull \hbox (23.54175pt too wide) in paragraph at lines 699--717
  [][] 
  []
 
@@ -1194,7 +1154,7 @@ Overfull \hbox (23.54175pt too wide) in paragraph at lines 700--718
 File: r4ss/plots_mod1/yield1_yield_curve.png Graphic file (type png)
 <use r4ss/plots_mod1/yield1_yield_curve.png>
 Package pdftex.def Info: r4ss/plots_mod1/yield1_yield_curve.png  used on input 
-line 820.
+line 819.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
 [19] [20 <./r4ss/plots_mod1/yield1_yield_curve.png>] [21] [22] [23
 
@@ -1202,9 +1162,9 @@ line 820.
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.985 
+l.984 
        [1]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 1007
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 1006
 .
 
 (c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/omlcmr
@@ -1212,76 +1172,82 @@ LaTeX Font Info:    Try loading font information for OML+cmr on input line 1007
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1007.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 1006.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1045 
+l.1044 
         [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
 [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 2581--2582
+Underfull \hbox (badness 10000) in paragraph at lines 2580--2581
 
  []
 
-[29] [30] [31] [32] [33] [34] [35] [36] [37] [38]
-Underfull \hbox (badness 10000) in paragraph at lines 3108--3109
-
+[29] [30] [31] [32] [33]
+Underfull \hbox (badness 3482) in paragraph at lines 2861--2875
+\OT1/cmr/m/n/12 conditional-age-at-length (CAAL) com-po-si-tions were re-weight
+ed us-ing the Ianelli-
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 3126--3127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3145--3146
+[34] [35] [36] [37] [38]
+Underfull \hbox (badness 10000) in paragraph at lines 3107--3108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3153--3154
+Underfull \hbox (badness 10000) in paragraph at lines 3125--3126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3144--3145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3152--3153
 
  []
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 3174--3175
+Underfull \hbox (badness 10000) in paragraph at lines 3173--3174
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3181--3182
+Underfull \hbox (badness 10000) in paragraph at lines 3180--3181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3196--3197
+Underfull \hbox (badness 10000) in paragraph at lines 3195--3196
 
  []
 
 [40]
-Underfull \hbox (badness 10000) in paragraph at lines 3210--3211
+Underfull \hbox (badness 10000) in paragraph at lines 3209--3210
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3225--3226
+Underfull \hbox (badness 10000) in paragraph at lines 3224--3225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3240--3241
+Underfull \hbox (badness 10000) in paragraph at lines 3239--3240
 
  []
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 3266--3267
+Underfull \hbox (badness 10000) in paragraph at lines 3265--3266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 3279--3280
+Underfull \hbox (badness 10000) in paragraph at lines 3278--3279
 
  []
 
@@ -1318,8 +1284,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 ] [66] [67] [68
 
 ] [69] [70]
-Underfull \hbox (badness 5652) in paragraph at lines 4594--4595
-[]\OT1/cmr/m/n/12 (+20) Log[]Norm (-1.6458,
+Underfull \hbox (badness 6157) in paragraph at lines 4594--4595
+[]\OT1/cmr/m/n/12 Log[]Norm (-1.6458,
  []
 
 
@@ -1333,23 +1299,23 @@ Underfull \vbox (badness 10000) detected at line 4614
 
 
 ] [76]
-Overfull \hbox (4.92958pt too wide) in paragraph at lines 4766--4766
- []\OT1/cmr/m/n/12 (-20) Spawning 
+Overfull \hbox (5.92178pt too wide) in paragraph at lines 4766--4766
+ []\OT1/cmr/m/n/12 Spawning 
  []
 
 
-Overfull \hbox (5.094pt too wide) in paragraph at lines 4766--4766
- []\OT1/cmr/m/n/12 (-20) Depletion 
+Overfull \hbox (6.0829pt too wide) in paragraph at lines 4766--4766
+ []\OT1/cmr/m/n/12 Depletion 
  []
 
 
-Overfull \hbox (4.92958pt too wide) in paragraph at lines 4769--4769
- []\OT1/cmr/m/n/12 (-20) Spawning 
+Overfull \hbox (5.92178pt too wide) in paragraph at lines 4769--4769
+ []\OT1/cmr/m/n/12 Spawning 
  []
 
 
-Overfull \hbox (5.094pt too wide) in paragraph at lines 4769--4769
- []\OT1/cmr/m/n/12 (-20) Depletion 
+Overfull \hbox (6.0829pt too wide) in paragraph at lines 4769--4769
+ []\OT1/cmr/m/n/12 Depletion 
  []
 
 
@@ -1953,7 +1919,7 @@ File: Figures/profile_m_like.png Graphic file (type png)
 <use Figures/profile_m_like.png>
 Package pdftex.def Info: Figures/profile_m_like.png  used on input line 5843.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[169 <./Figures/profile_M_like.png>]
+[169 <./Figures/profile_m_like.png>]
 <Figures/profile_m_piner.png, id=1913, 469.755pt x 361.35pt>
 File: Figures/profile_m_piner.png Graphic file (type png)
 <use Figures/profile_m_piner.png>
@@ -1972,7 +1938,7 @@ File: Figures/profile_m_depl.png Graphic file (type png)
 <use Figures/profile_m_depl.png>
 Package pdftex.def Info: Figures/profile_m_depl.png  used on input line 5870.
 (pdftex.def)             Requested size: 469.75386pt x 361.34912pt.
-[172 <./Figures/profile_M_depl.png (PNG copy)>]
+[172 <./Figures/profile_m_depl.png (PNG copy)>]
 <Figures/profile_k_like.png, id=1931, 469.755pt x 361.35pt>
 File: Figures/profile_k_like.png Graphic file (type png)
 <use Figures/profile_k_like.png>
@@ -2225,13 +2191,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 6423.
  ) 
 Here is how much of TeX's memory you used:
- 21007 strings out of 494553
- 360366 string characters out of 6175503
- 592477 words of memory out of 5000000
- 23733 multiletter control sequences out of 15000+600000
- 18317 words of font info for 115 fonts, out of 8000000 for 9000
+ 19378 strings out of 494562
+ 331245 string characters out of 6175595
+ 525838 words of memory out of 5000000
+ 22241 multiletter control sequences out of 15000+600000
+ 14320 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,15n,84p,1034b,525s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,15n,84p,1034b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
  <c:/Users/melissa.monk/Documents/.TinyTeX/texmf-var/fonts/pk/ljfour/jknappen
 /ec/tcrm1200.600pk><c:/Users/melissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmbx12.pfb><c:/Users/melissa.monk/AppData/Roaming/
@@ -2253,10 +2219,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/Users/melissa.monk/AppData/Ro
 aming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/Users/me
 lissa.monk/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb>
-Output written on 00_Assessment_Compile.pdf (229 pages, 8139177 bytes).
+Output written on 00_Assessment_Compile.pdf (229 pages, 8122559 bytes).
 PDF statistics:
  2354 PDF objects out of 2487 (max. 8388607)
  1838 compressed objects within 19 object streams
  541 named destinations out of 1000 (max. 500000)
- 13399 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 1111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
